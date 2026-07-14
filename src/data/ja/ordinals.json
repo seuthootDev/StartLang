@@ -1,0 +1,48 @@
+[
+  {
+    "quiz_id": "ja_ordinals_first",
+    "question_word": "第一",
+    "pronunciations": {
+      "en": "dai-ichi",
+      "ko": "다이이치",
+      "zh": "dai-ichi",
+      "fr": "dai-ichi",
+      "es": "dai-ichi",
+      "de": "dai-ichi",
+      "ru": "дай-ити"
+    },
+    "translations": {
+      "en": "first",
+      "zh": "第一",
+      "fr": "premier",
+      "es": "primero",
+      "de": "erste",
+      "ru": "первый",
+      "ko": "첫 번째",
+      "ja": "第一"
+    }
+  },
+  {
+    "quiz_id": "ja_ordinals_second",
+    "question_word": "第二",
+    "pronunciations": {
+      "en": "dai-ni",
+      "ko": "다이니",
+      "zh": "dai-ni",
+      "fr": "dai-ni",
+      "es": "dai-ni",
+      "de": "dai-ni",
+      "ru": "дай-ни"
+    },
+    "translations": {
+      "en": "second",
+      "zh": "第二",
+      "fr": "deuxième",
+      "es": "segundo",
+      "de": "zweite",
+      "ru": "второй",
+      "ko": "두 번째",
+      "ja": "第二"
+    }
+  }
+]

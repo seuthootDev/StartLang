@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Manrope:wght@500;600;700&display=swap');
+
+:root {
+  --font-display: 'Literata', Georgia, serif;
+  --font-body: 'Manrope', sans-serif;
+
+  --ink: #15231f;
+  --ink-soft: #4a5c56;
+  --paper: #f3efe6;
+  --line: #c9c1b2;
+  --accent: #c45c26;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(196, 92, 38, 0.14), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(47, 107, 79, 0.12), transparent 50%),
+    linear-gradient(180deg, #efe8da 0%, var(--paper) 45%, #e7e1d4 100%);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+  width: min(880px, 100%);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}

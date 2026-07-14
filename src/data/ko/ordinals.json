@@ -1,0 +1,48 @@
+[
+  {
+    "quiz_id": "ko_ordinals_first",
+    "question_word": "첫 번째",
+    "pronunciations": {
+      "en": "cheot beon-jjae",
+      "ja": "チョッ ボンジェ",
+      "zh": "cheot beon-jjae",
+      "fr": "cheot beon-jjae",
+      "es": "cheot beon-jjae",
+      "de": "cheot beon-jjae",
+      "ru": "чот пон-ччэ"
+    },
+    "translations": {
+      "en": "first",
+      "zh": "第一",
+      "fr": "premier",
+      "es": "primero",
+      "de": "erste",
+      "ru": "первый",
+      "ko": "첫 번째",
+      "ja": "第一"
+    }
+  },
+  {
+    "quiz_id": "ko_ordinals_second",
+    "question_word": "두 번째",
+    "pronunciations": {
+      "en": "du beon-jjae",
+      "ja": "ドゥ ボンジェ",
+      "zh": "du beon-jjae",
+      "fr": "du beon-jjae",
+      "es": "du beon-jjae",
+      "de": "du beon-jjae",
+      "ru": "ту пон-ччэ"
+    },
+    "translations": {
+      "en": "second",
+      "zh": "第二",
+      "fr": "deuxième",
+      "es": "segundo",
+      "de": "zweite",
+      "ru": "второй",
+      "ko": "두 번째",
+      "ja": "第二"
+    }
+  }
+]

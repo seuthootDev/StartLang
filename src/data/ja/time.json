@@ -1,0 +1,48 @@
+[
+  {
+    "quiz_id": "ja_time_morning",
+    "question_word": "朝",
+    "pronunciations": {
+      "en": "asa",
+      "ko": "아사",
+      "zh": "asa",
+      "fr": "asa",
+      "es": "asa",
+      "de": "asa",
+      "ru": "аса"
+    },
+    "translations": {
+      "en": "morning",
+      "zh": "早上",
+      "fr": "matin",
+      "es": "mañana",
+      "de": "Morgen",
+      "ru": "утро",
+      "ko": "아침",
+      "ja": "朝"
+    }
+  },
+  {
+    "quiz_id": "ja_time_night",
+    "question_word": "夜",
+    "pronunciations": {
+      "en": "yoru",
+      "ko": "요루",
+      "zh": "yoru",
+      "fr": "yoru",
+      "es": "yoru",
+      "de": "yoru",
+      "ru": "ёру"
+    },
+    "translations": {
+      "en": "night",
+      "zh": "晚上",
+      "fr": "nuit",
+      "es": "noche",
+      "de": "Nacht",
+      "ru": "ночь",
+      "ko": "밤",
+      "ja": "夜"
+    }
+  }
+]

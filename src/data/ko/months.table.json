@@ -1,0 +1,112 @@
+{
+  "table_id": "ko_months_ref",
+  "title": {
+    "en": "Months",
+    "ko": "월",
+    "ja": "月",
+    "zh": "月份",
+    "fr": "Mois",
+    "es": "Meses",
+    "de": "Monate",
+    "ru": "Месяцы"
+  },
+  "note": {
+    "en": "Korean months use Sino-Korean number + 월.",
+    "ko": "한국어 월은 한자음 숫자 + 월로 만듭니다.",
+    "ja": "漢数字の音＋월で作ります。",
+    "zh": "韩语月份 = 汉字音数字 + 월。",
+    "fr": "Nombre sino-coréen + 월.",
+    "es": "Número sino-coreano + 월.",
+    "de": "Sino-koreanische Zahl + 월.",
+    "ru": "Сино-корейское число + 월."
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "1월",
+      "meaning": {
+        "en": "January",
+        "zh": "一月",
+        "fr": "janvier",
+        "es": "enero",
+        "de": "Januar",
+        "ru": "январь",
+        "ko": "1월",
+        "ja": "1月"
+      },
+      "sound": {
+        "en": "il-wol",
+        "ko": "일월",
+        "ja": "イルウォル",
+        "zh": "il-wol",
+        "fr": "il-wol",
+        "es": "il-wol",
+        "de": "il-wol",
+        "ru": "иль-воль"
+      }
+    },
+    {
+      "form": "2월",
+      "meaning": {
+        "en": "February",
+        "zh": "二月",
+        "fr": "février",
+        "es": "febrero",
+        "de": "Februar",
+        "ru": "февраль",
+        "ko": "2월",
+        "ja": "2月"
+      },
+      "sound": {
+        "en": "i-wol",
+        "ko": "이월",
+        "ja": "イウォル",
+        "zh": "i-wol",
+        "fr": "i-wol",
+        "es": "i-wol",
+        "de": "i-wol",
+        "ru": "и-воль"
+      }
+    }
+  ]
+}

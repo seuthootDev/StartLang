@@ -1,0 +1,986 @@
+{
+  "table_id": "ko_alphabet_ref",
+  "title": {
+    "en": "Hangul consonants & vowels",
+    "ko": "한글 자음·모음",
+    "ja": "ハングル子音・母音",
+    "zh": "韩文字母表",
+    "fr": "Consonnes et voyelles hangeul",
+    "es": "Consonantes y vocales hangul",
+    "de": "Hangul-Konsonanten & -Vokale",
+    "ru": "Согласные и гласные хангыль"
+  },
+  "note": {
+    "en": "Sound = pronunciation. Name = letter name.",
+    "ko": "발음 = 소리. 이름 = 자모 명칭.",
+    "ja": "読み＝音。名称＝字母名。",
+    "zh": "发音＝实际读音。名称＝字母名。",
+    "fr": "Son = prononciation. Nom = nom de la lettre.",
+    "es": "Sonido = pronunciación. Nombre = nombre de la letra.",
+    "de": "Laut = Aussprache. Name = Buchstabenname.",
+    "ru": "Звук = произношение. Имя = название буквы."
+  },
+  "columns": [
+    {
+      "key": "char",
+      "labels": {
+        "en": "Letter",
+        "ko": "글자",
+        "ja": "文字",
+        "zh": "字母",
+        "fr": "Lettre",
+        "es": "Letra",
+        "de": "Buchstabe",
+        "ru": "Буква"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Son",
+        "es": "Sonido",
+        "de": "Laut",
+        "ru": "Звук"
+      }
+    },
+    {
+      "key": "name",
+      "labels": {
+        "en": "Name",
+        "ko": "이름",
+        "ja": "名称",
+        "zh": "名称",
+        "fr": "Nom",
+        "es": "Nombre",
+        "de": "Name",
+        "ru": "Название"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "char": "ㄱ",
+      "sound": {
+        "en": "g/k",
+        "zh": "g/k",
+        "fr": "g/k",
+        "es": "g/k",
+        "de": "g/k",
+        "ja": "グ/ク",
+        "ru": "г/к",
+        "ko": "그/크"
+      },
+      "name": {
+        "ko": "기역",
+        "en": "giyeok",
+        "ja": "ギヨク",
+        "zh": "giyeok",
+        "fr": "giyeok",
+        "es": "giyeok",
+        "de": "giyeok",
+        "ru": "кийок"
+      }
+    },
+    {
+      "char": "ㄲ",
+      "sound": {
+        "en": "kk",
+        "zh": "kk",
+        "fr": "kk",
+        "es": "kk",
+        "de": "kk",
+        "ja": "ック",
+        "ru": "кк",
+        "ko": "끄"
+      },
+      "name": {
+        "ko": "쌍기역",
+        "en": "ssanggiyeok",
+        "ja": "サンギヨク",
+        "zh": "ssanggiyeok",
+        "fr": "ssanggiyeok",
+        "es": "ssanggiyeok",
+        "de": "ssanggiyeok",
+        "ru": "ссангиёк"
+      }
+    },
+    {
+      "char": "ㄴ",
+      "sound": {
+        "en": "n",
+        "zh": "n",
+        "fr": "n",
+        "es": "n",
+        "de": "n",
+        "ja": "ン",
+        "ru": "н",
+        "ko": "느"
+      },
+      "name": {
+        "ko": "니은",
+        "en": "nieun",
+        "ja": "ニウン",
+        "zh": "nieun",
+        "fr": "nieun",
+        "es": "nieun",
+        "de": "nieun",
+        "ru": "ниын"
+      }
+    },
+    {
+      "char": "ㄷ",
+      "sound": {
+        "en": "d/t",
+        "zh": "d/t",
+        "fr": "d/t",
+        "es": "d/t",
+        "de": "d/t",
+        "ja": "ド/ト",
+        "ru": "д/т",
+        "ko": "드/트"
+      },
+      "name": {
+        "ko": "디귿",
+        "en": "digeut",
+        "ja": "ティグッ",
+        "zh": "digeut",
+        "fr": "digeut",
+        "es": "digeut",
+        "de": "digeut",
+        "ru": "тигыт"
+      }
+    },
+    {
+      "char": "ㄸ",
+      "sound": {
+        "en": "tt",
+        "zh": "tt",
+        "fr": "tt",
+        "es": "tt",
+        "de": "tt",
+        "ja": "ット",
+        "ru": "тт",
+        "ko": "뜨"
+      },
+      "name": {
+        "ko": "쌍디귿",
+        "en": "ssangdigeut",
+        "ja": "サンディグッ",
+        "zh": "ssangdigeut",
+        "fr": "ssangdigeut",
+        "es": "ssangdigeut",
+        "de": "ssangdigeut",
+        "ru": "ссандигыт"
+      }
+    },
+    {
+      "char": "ㄹ",
+      "sound": {
+        "en": "r/l",
+        "zh": "r/l",
+        "fr": "r/l",
+        "es": "r/l",
+        "de": "r/l",
+        "ja": "ル",
+        "ru": "р/л",
+        "ko": "르"
+      },
+      "name": {
+        "ko": "리을",
+        "en": "rieul",
+        "ja": "リウル",
+        "zh": "rieul",
+        "fr": "rieul",
+        "es": "rieul",
+        "de": "rieul",
+        "ru": "риыль"
+      }
+    },
+    {
+      "char": "ㅁ",
+      "sound": {
+        "en": "m",
+        "zh": "m",
+        "fr": "m",
+        "es": "m",
+        "de": "m",
+        "ja": "ム",
+        "ru": "м",
+        "ko": "므"
+      },
+      "name": {
+        "ko": "미음",
+        "en": "mieum",
+        "ja": "ミウム",
+        "zh": "mieum",
+        "fr": "mieum",
+        "es": "mieum",
+        "de": "mieum",
+        "ru": "миым"
+      }
+    },
+    {
+      "char": "ㅂ",
+      "sound": {
+        "en": "b/p",
+        "zh": "b/p",
+        "fr": "b/p",
+        "es": "b/p",
+        "de": "b/p",
+        "ja": "ブ/プ",
+        "ru": "б/п",
+        "ko": "브/프"
+      },
+      "name": {
+        "ko": "비읍",
+        "en": "bieup",
+        "ja": "ビウプ",
+        "zh": "bieup",
+        "fr": "bieup",
+        "es": "bieup",
+        "de": "bieup",
+        "ru": "пиып"
+      }
+    },
+    {
+      "char": "ㅃ",
+      "sound": {
+        "en": "pp",
+        "zh": "pp",
+        "fr": "pp",
+        "es": "pp",
+        "de": "pp",
+        "ja": "ップ",
+        "ru": "пп",
+        "ko": "쁘"
+      },
+      "name": {
+        "ko": "쌍비읍",
+        "en": "ssangbieup",
+        "ja": "サンビウプ",
+        "zh": "ssangbieup",
+        "fr": "ssangbieup",
+        "es": "ssangbieup",
+        "de": "ssangbieup",
+        "ru": "ссанбиып"
+      }
+    },
+    {
+      "char": "ㅅ",
+      "sound": {
+        "en": "s",
+        "zh": "s",
+        "fr": "s",
+        "es": "s",
+        "de": "s",
+        "ja": "ス",
+        "ru": "с",
+        "ko": "스"
+      },
+      "name": {
+        "ko": "시옷",
+        "en": "siot",
+        "ja": "シオト",
+        "zh": "siot",
+        "fr": "siot",
+        "es": "siot",
+        "de": "siot",
+        "ru": "сиот"
+      }
+    },
+    {
+      "char": "ㅆ",
+      "sound": {
+        "en": "ss",
+        "zh": "ss",
+        "fr": "ss",
+        "es": "ss",
+        "de": "ss",
+        "ja": "ッス",
+        "ru": "сс",
+        "ko": "쓰"
+      },
+      "name": {
+        "ko": "쌍시옷",
+        "en": "ssangsiot",
+        "ja": "サンシオト",
+        "zh": "ssangsiot",
+        "fr": "ssangsiot",
+        "es": "ssangsiot",
+        "de": "ssangsiot",
+        "ru": "ссансиот"
+      }
+    },
+    {
+      "char": "ㅇ",
+      "sound": {
+        "en": "-/ng",
+        "zh": "-/ng",
+        "fr": "-/ng",
+        "es": "-/ng",
+        "de": "-/ng",
+        "ja": "-/ン",
+        "ru": "-/н",
+        "ko": "-/응"
+      },
+      "name": {
+        "ko": "이응",
+        "en": "ieung",
+        "ja": "イウン",
+        "zh": "ieung",
+        "fr": "ieung",
+        "es": "ieung",
+        "de": "ieung",
+        "ru": "иын"
+      }
+    },
+    {
+      "char": "ㅈ",
+      "sound": {
+        "en": "j",
+        "zh": "j",
+        "fr": "j",
+        "es": "j",
+        "de": "j",
+        "ja": "ジ",
+        "ru": "дж",
+        "ko": "즈"
+      },
+      "name": {
+        "ko": "지읒",
+        "en": "jieut",
+        "ja": "ジウッ",
+        "zh": "jieut",
+        "fr": "jieut",
+        "es": "jieut",
+        "de": "jieut",
+        "ru": "чиыт"
+      }
+    },
+    {
+      "char": "ㅉ",
+      "sound": {
+        "en": "jj",
+        "zh": "jj",
+        "fr": "jj",
+        "es": "jj",
+        "de": "jj",
+        "ja": "ッジ",
+        "ru": "дждж",
+        "ko": "쯔"
+      },
+      "name": {
+        "ko": "쌍지읒",
+        "en": "ssangjieut",
+        "ja": "サンジウッ",
+        "zh": "ssangjieut",
+        "fr": "ssangjieut",
+        "es": "ssangjieut",
+        "de": "ssangjieut",
+        "ru": "ссанчиыт"
+      }
+    },
+    {
+      "char": "ㅊ",
+      "sound": {
+        "en": "ch",
+        "zh": "ch",
+        "fr": "ch",
+        "es": "ch",
+        "de": "ch",
+        "ja": "チ",
+        "ru": "ч",
+        "ko": "츠"
+      },
+      "name": {
+        "ko": "치읓",
+        "en": "chieut",
+        "ja": "チウッ",
+        "zh": "chieut",
+        "fr": "chieut",
+        "es": "chieut",
+        "de": "chieut",
+        "ru": "чхиыт"
+      }
+    },
+    {
+      "char": "ㅋ",
+      "sound": {
+        "en": "k",
+        "zh": "k",
+        "fr": "k",
+        "es": "k",
+        "de": "k",
+        "ja": "ク",
+        "ru": "к",
+        "ko": "크"
+      },
+      "name": {
+        "ko": "키읔",
+        "en": "kieuk",
+        "ja": "キウク",
+        "zh": "kieuk",
+        "fr": "kieuk",
+        "es": "kieuk",
+        "de": "kieuk",
+        "ru": "кхиык"
+      }
+    },
+    {
+      "char": "ㅌ",
+      "sound": {
+        "en": "t",
+        "zh": "t",
+        "fr": "t",
+        "es": "t",
+        "de": "t",
+        "ja": "ト",
+        "ru": "т",
+        "ko": "트"
+      },
+      "name": {
+        "ko": "티읕",
+        "en": "tieut",
+        "ja": "ティウッ",
+        "zh": "tieut",
+        "fr": "tieut",
+        "es": "tieut",
+        "de": "tieut",
+        "ru": "тхиыт"
+      }
+    },
+    {
+      "char": "ㅍ",
+      "sound": {
+        "en": "p",
+        "zh": "p",
+        "fr": "p",
+        "es": "p",
+        "de": "p",
+        "ja": "プ",
+        "ru": "п",
+        "ko": "프"
+      },
+      "name": {
+        "ko": "피읖",
+        "en": "pieup",
+        "ja": "ピウプ",
+        "zh": "pieup",
+        "fr": "pieup",
+        "es": "pieup",
+        "de": "pieup",
+        "ru": "пхиып"
+      }
+    },
+    {
+      "char": "ㅎ",
+      "sound": {
+        "en": "h",
+        "zh": "h",
+        "fr": "h",
+        "es": "h",
+        "de": "h",
+        "ja": "フ",
+        "ru": "х",
+        "ko": "흐"
+      },
+      "name": {
+        "ko": "히읗",
+        "en": "hieut",
+        "ja": "ヒウッ",
+        "zh": "hieut",
+        "fr": "hieut",
+        "es": "hieut",
+        "de": "hieut",
+        "ru": "хиыт"
+      }
+    },
+    {
+      "char": "ㅏ",
+      "sound": {
+        "en": "a",
+        "zh": "a",
+        "fr": "a",
+        "es": "a",
+        "de": "a",
+        "ja": "ア",
+        "ru": "а",
+        "ko": "아"
+      },
+      "name": {
+        "ko": "아",
+        "en": "a",
+        "ja": "ア",
+        "zh": "a",
+        "fr": "a",
+        "es": "a",
+        "de": "a",
+        "ru": "а"
+      }
+    },
+    {
+      "char": "ㅐ",
+      "sound": {
+        "en": "ae",
+        "zh": "ae",
+        "fr": "ae",
+        "es": "ae",
+        "de": "ae",
+        "ja": "エ",
+        "ru": "э",
+        "ko": "애"
+      },
+      "name": {
+        "ko": "애",
+        "en": "ae",
+        "ja": "エ",
+        "zh": "ae",
+        "fr": "ae",
+        "es": "ae",
+        "de": "ae",
+        "ru": "э"
+      }
+    },
+    {
+      "char": "ㅑ",
+      "sound": {
+        "en": "ya",
+        "zh": "ya",
+        "fr": "ya",
+        "es": "ya",
+        "de": "ya",
+        "ja": "ヤ",
+        "ru": "я",
+        "ko": "야"
+      },
+      "name": {
+        "ko": "야",
+        "en": "ya",
+        "ja": "ヤ",
+        "zh": "ya",
+        "fr": "ya",
+        "es": "ya",
+        "de": "ya",
+        "ru": "я"
+      }
+    },
+    {
+      "char": "ㅒ",
+      "sound": {
+        "en": "yae",
+        "zh": "yae",
+        "fr": "yae",
+        "es": "yae",
+        "de": "yae",
+        "ja": "イェ",
+        "ru": "йэ",
+        "ko": "얘"
+      },
+      "name": {
+        "ko": "얘",
+        "en": "yae",
+        "ja": "イェ",
+        "zh": "yae",
+        "fr": "yae",
+        "es": "yae",
+        "de": "yae",
+        "ru": "йэ"
+      }
+    },
+    {
+      "char": "ㅓ",
+      "sound": {
+        "en": "eo",
+        "zh": "eo",
+        "fr": "eo",
+        "es": "eo",
+        "de": "eo",
+        "ja": "オ",
+        "ru": "о",
+        "ko": "어"
+      },
+      "name": {
+        "ko": "어",
+        "en": "eo",
+        "ja": "オ",
+        "zh": "eo",
+        "fr": "eo",
+        "es": "eo",
+        "de": "eo",
+        "ru": "о"
+      }
+    },
+    {
+      "char": "ㅔ",
+      "sound": {
+        "en": "e",
+        "zh": "e",
+        "fr": "e",
+        "es": "e",
+        "de": "e",
+        "ja": "エ",
+        "ru": "е",
+        "ko": "에"
+      },
+      "name": {
+        "ko": "에",
+        "en": "e",
+        "ja": "エ",
+        "zh": "e",
+        "fr": "e",
+        "es": "e",
+        "de": "e",
+        "ru": "е"
+      }
+    },
+    {
+      "char": "ㅕ",
+      "sound": {
+        "en": "yeo",
+        "zh": "yeo",
+        "fr": "yeo",
+        "es": "yeo",
+        "de": "yeo",
+        "ja": "ヨ",
+        "ru": "ё",
+        "ko": "여"
+      },
+      "name": {
+        "ko": "여",
+        "en": "yeo",
+        "ja": "ヨ",
+        "zh": "yeo",
+        "fr": "yeo",
+        "es": "yeo",
+        "de": "yeo",
+        "ru": "ё"
+      }
+    },
+    {
+      "char": "ㅖ",
+      "sound": {
+        "en": "ye",
+        "zh": "ye",
+        "fr": "ye",
+        "es": "ye",
+        "de": "ye",
+        "ja": "イェ",
+        "ru": "йе",
+        "ko": "예"
+      },
+      "name": {
+        "ko": "예",
+        "en": "ye",
+        "ja": "イェ",
+        "zh": "ye",
+        "fr": "ye",
+        "es": "ye",
+        "de": "ye",
+        "ru": "йе"
+      }
+    },
+    {
+      "char": "ㅗ",
+      "sound": {
+        "en": "o",
+        "zh": "o",
+        "fr": "o",
+        "es": "o",
+        "de": "o",
+        "ja": "オ",
+        "ru": "о",
+        "ko": "오"
+      },
+      "name": {
+        "ko": "오",
+        "en": "o",
+        "ja": "オ",
+        "zh": "o",
+        "fr": "o",
+        "es": "o",
+        "de": "o",
+        "ru": "о"
+      }
+    },
+    {
+      "char": "ㅘ",
+      "sound": {
+        "en": "wa",
+        "zh": "wa",
+        "fr": "wa",
+        "es": "wa",
+        "de": "wa",
+        "ja": "ワ",
+        "ru": "ва",
+        "ko": "와"
+      },
+      "name": {
+        "ko": "와",
+        "en": "wa",
+        "ja": "ワ",
+        "zh": "wa",
+        "fr": "wa",
+        "es": "wa",
+        "de": "wa",
+        "ru": "ва"
+      }
+    },
+    {
+      "char": "ㅙ",
+      "sound": {
+        "en": "wae",
+        "zh": "wae",
+        "fr": "wae",
+        "es": "wae",
+        "de": "wae",
+        "ja": "ウェ",
+        "ru": "вэ",
+        "ko": "왜"
+      },
+      "name": {
+        "ko": "왜",
+        "en": "wae",
+        "ja": "ウェ",
+        "zh": "wae",
+        "fr": "wae",
+        "es": "wae",
+        "de": "wae",
+        "ru": "вэ"
+      }
+    },
+    {
+      "char": "ㅚ",
+      "sound": {
+        "en": "oe",
+        "zh": "oe",
+        "fr": "oe",
+        "es": "oe",
+        "de": "oe",
+        "ja": "ウェ",
+        "ru": "ве",
+        "ko": "외"
+      },
+      "name": {
+        "ko": "외",
+        "en": "oe",
+        "ja": "ウェ",
+        "zh": "oe",
+        "fr": "oe",
+        "es": "oe",
+        "de": "oe",
+        "ru": "ве"
+      }
+    },
+    {
+      "char": "ㅛ",
+      "sound": {
+        "en": "yo",
+        "zh": "yo",
+        "fr": "yo",
+        "es": "yo",
+        "de": "yo",
+        "ja": "ヨ",
+        "ru": "ё",
+        "ko": "요"
+      },
+      "name": {
+        "ko": "요",
+        "en": "yo",
+        "ja": "ヨ",
+        "zh": "yo",
+        "fr": "yo",
+        "es": "yo",
+        "de": "yo",
+        "ru": "ё"
+      }
+    },
+    {
+      "char": "ㅜ",
+      "sound": {
+        "en": "u",
+        "zh": "u",
+        "fr": "u",
+        "es": "u",
+        "de": "u",
+        "ja": "ウ",
+        "ru": "у",
+        "ko": "우"
+      },
+      "name": {
+        "ko": "우",
+        "en": "u",
+        "ja": "ウ",
+        "zh": "u",
+        "fr": "u",
+        "es": "u",
+        "de": "u",
+        "ru": "у"
+      }
+    },
+    {
+      "char": "ㅝ",
+      "sound": {
+        "en": "wo",
+        "zh": "wo",
+        "fr": "wo",
+        "es": "wo",
+        "de": "wo",
+        "ja": "ウォ",
+        "ru": "во",
+        "ko": "워"
+      },
+      "name": {
+        "ko": "워",
+        "en": "wo",
+        "ja": "ウォ",
+        "zh": "wo",
+        "fr": "wo",
+        "es": "wo",
+        "de": "wo",
+        "ru": "во"
+      }
+    },
+    {
+      "char": "ㅞ",
+      "sound": {
+        "en": "we",
+        "zh": "we",
+        "fr": "we",
+        "es": "we",
+        "de": "we",
+        "ja": "ウェ",
+        "ru": "ве",
+        "ko": "웨"
+      },
+      "name": {
+        "ko": "웨",
+        "en": "we",
+        "ja": "ウェ",
+        "zh": "we",
+        "fr": "we",
+        "es": "we",
+        "de": "we",
+        "ru": "ве"
+      }
+    },
+    {
+      "char": "ㅟ",
+      "sound": {
+        "en": "wi",
+        "zh": "wi",
+        "fr": "wi",
+        "es": "wi",
+        "de": "wi",
+        "ja": "ウィ",
+        "ru": "ви",
+        "ko": "위"
+      },
+      "name": {
+        "ko": "위",
+        "en": "wi",
+        "ja": "ウィ",
+        "zh": "wi",
+        "fr": "wi",
+        "es": "wi",
+        "de": "wi",
+        "ru": "ви"
+      }
+    },
+    {
+      "char": "ㅠ",
+      "sound": {
+        "en": "yu",
+        "zh": "yu",
+        "fr": "yu",
+        "es": "yu",
+        "de": "yu",
+        "ja": "ユ",
+        "ru": "ю",
+        "ko": "유"
+      },
+      "name": {
+        "ko": "유",
+        "en": "yu",
+        "ja": "ユ",
+        "zh": "yu",
+        "fr": "yu",
+        "es": "yu",
+        "de": "yu",
+        "ru": "ю"
+      }
+    },
+    {
+      "char": "ㅡ",
+      "sound": {
+        "en": "eu",
+        "zh": "eu",
+        "fr": "eu",
+        "es": "eu",
+        "de": "eu",
+        "ja": "ウ",
+        "ru": "ы",
+        "ko": "으"
+      },
+      "name": {
+        "ko": "으",
+        "en": "eu",
+        "ja": "ウ",
+        "zh": "eu",
+        "fr": "eu",
+        "es": "eu",
+        "de": "eu",
+        "ru": "ы"
+      }
+    },
+    {
+      "char": "ㅢ",
+      "sound": {
+        "en": "ui",
+        "zh": "ui",
+        "fr": "ui",
+        "es": "ui",
+        "de": "ui",
+        "ja": "ウィ",
+        "ru": "ый",
+        "ko": "의"
+      },
+      "name": {
+        "ko": "의",
+        "en": "ui",
+        "ja": "ウィ",
+        "zh": "ui",
+        "fr": "ui",
+        "es": "ui",
+        "de": "ui",
+        "ru": "ый"
+      }
+    },
+    {
+      "char": "ㅣ",
+      "sound": {
+        "en": "i",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ja": "イ",
+        "ru": "и",
+        "ko": "이"
+      },
+      "name": {
+        "ko": "이",
+        "en": "i",
+        "ja": "イ",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ru": "и"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1060 @@
+{
+  "table_id": "ja_alphabet_ref",
+  "title": {
+    "en": "Hiragana & Katakana",
+    "ko": "히라가나·가타카나",
+    "ja": "ひらがな・カタカナ",
+    "zh": "平假名与片假名",
+    "fr": "Hiragana et katakana",
+    "es": "Hiragana y katakana",
+    "de": "Hiragana & Katakana",
+    "ru": "Хирагана и катакана"
+  },
+  "note": {
+    "en": "Includes seion and dakuten/handakuten. Quiz covers both scripts.",
+    "ko": "청음 + 탁음/반탁음 포함. 퀴즈는 히라가나·가타카나 모두 출제됩니다.",
+    "ja": "清音＋濁音／半濁音。クイズは両方の文字を出題します。",
+    "zh": "含清音与浊音/半浊音。测验包含平假名和片假名。",
+    "fr": "Inclut seion et dakuten/handakuten. Les deux écritures sont dans le quiz.",
+    "es": "Incluye seion y dakuten/handakuten. El quiz usa ambas escrituras.",
+    "de": "Mit Seion und Dakuten/Handakuten. Quiz mit beiden Schriften.",
+    "ru": "Есть сэйон и дакуон/хандакуон. В тесте оба алфавита."
+  },
+  "columns": [
+    {
+      "key": "hira",
+      "labels": {
+        "en": "Hiragana",
+        "ko": "히라가나",
+        "ja": "ひらがな",
+        "zh": "平假名",
+        "fr": "Hiragana",
+        "es": "Hiragana",
+        "de": "Hiragana",
+        "ru": "Хирагана"
+      }
+    },
+    {
+      "key": "kata",
+      "labels": {
+        "en": "Katakana",
+        "ko": "가타카나",
+        "ja": "カタカナ",
+        "zh": "片假名",
+        "fr": "Katakana",
+        "es": "Katakana",
+        "de": "Katakana",
+        "ru": "Катакана"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "读音",
+        "fr": "Son",
+        "es": "Sonido",
+        "de": "Laut",
+        "ru": "Звук"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "hira": "あ",
+      "kata": "ア",
+      "sound": {
+        "en": "a",
+        "ko": "아",
+        "zh": "a",
+        "fr": "a",
+        "es": "a",
+        "de": "a",
+        "ru": "а",
+        "ja": "あ"
+      }
+    },
+    {
+      "hira": "い",
+      "kata": "イ",
+      "sound": {
+        "en": "i",
+        "ko": "이",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ru": "и",
+        "ja": "い"
+      }
+    },
+    {
+      "hira": "う",
+      "kata": "ウ",
+      "sound": {
+        "en": "u",
+        "ko": "우",
+        "zh": "u",
+        "fr": "u",
+        "es": "u",
+        "de": "u",
+        "ru": "у",
+        "ja": "う"
+      }
+    },
+    {
+      "hira": "え",
+      "kata": "エ",
+      "sound": {
+        "en": "e",
+        "ko": "에",
+        "zh": "e",
+        "fr": "e",
+        "es": "e",
+        "de": "e",
+        "ru": "э",
+        "ja": "え"
+      }
+    },
+    {
+      "hira": "お",
+      "kata": "オ",
+      "sound": {
+        "en": "o",
+        "ko": "오",
+        "zh": "o",
+        "fr": "o",
+        "es": "o",
+        "de": "o",
+        "ru": "о",
+        "ja": "お"
+      }
+    },
+    {
+      "hira": "か",
+      "kata": "カ",
+      "sound": {
+        "en": "ka",
+        "ko": "카",
+        "zh": "ka",
+        "fr": "ka",
+        "es": "ka",
+        "de": "ka",
+        "ru": "ка",
+        "ja": "か"
+      }
+    },
+    {
+      "hira": "き",
+      "kata": "キ",
+      "sound": {
+        "en": "ki",
+        "ko": "키",
+        "zh": "ki",
+        "fr": "ki",
+        "es": "ki",
+        "de": "ki",
+        "ru": "ки",
+        "ja": "き"
+      }
+    },
+    {
+      "hira": "く",
+      "kata": "ク",
+      "sound": {
+        "en": "ku",
+        "ko": "쿠",
+        "zh": "ku",
+        "fr": "ku",
+        "es": "ku",
+        "de": "ku",
+        "ru": "ку",
+        "ja": "く"
+      }
+    },
+    {
+      "hira": "け",
+      "kata": "ケ",
+      "sound": {
+        "en": "ke",
+        "ko": "케",
+        "zh": "ke",
+        "fr": "ke",
+        "es": "ke",
+        "de": "ke",
+        "ru": "кэ",
+        "ja": "け"
+      }
+    },
+    {
+      "hira": "こ",
+      "kata": "コ",
+      "sound": {
+        "en": "ko",
+        "ko": "코",
+        "zh": "ko",
+        "fr": "ko",
+        "es": "ko",
+        "de": "ko",
+        "ru": "ко",
+        "ja": "こ"
+      }
+    },
+    {
+      "hira": "さ",
+      "kata": "サ",
+      "sound": {
+        "en": "sa",
+        "ko": "사",
+        "zh": "sa",
+        "fr": "sa",
+        "es": "sa",
+        "de": "sa",
+        "ru": "са",
+        "ja": "さ"
+      }
+    },
+    {
+      "hira": "し",
+      "kata": "シ",
+      "sound": {
+        "en": "shi",
+        "ko": "시",
+        "zh": "shi",
+        "fr": "shi",
+        "es": "shi",
+        "de": "shi",
+        "ru": "си",
+        "ja": "し"
+      }
+    },
+    {
+      "hira": "す",
+      "kata": "ス",
+      "sound": {
+        "en": "su",
+        "ko": "스",
+        "zh": "su",
+        "fr": "su",
+        "es": "su",
+        "de": "su",
+        "ru": "су",
+        "ja": "す"
+      }
+    },
+    {
+      "hira": "せ",
+      "kata": "セ",
+      "sound": {
+        "en": "se",
+        "ko": "세",
+        "zh": "se",
+        "fr": "se",
+        "es": "se",
+        "de": "se",
+        "ru": "сэ",
+        "ja": "せ"
+      }
+    },
+    {
+      "hira": "そ",
+      "kata": "ソ",
+      "sound": {
+        "en": "so",
+        "ko": "소",
+        "zh": "so",
+        "fr": "so",
+        "es": "so",
+        "de": "so",
+        "ru": "со",
+        "ja": "そ"
+      }
+    },
+    {
+      "hira": "た",
+      "kata": "タ",
+      "sound": {
+        "en": "ta",
+        "ko": "타",
+        "zh": "ta",
+        "fr": "ta",
+        "es": "ta",
+        "de": "ta",
+        "ru": "та",
+        "ja": "た"
+      }
+    },
+    {
+      "hira": "ち",
+      "kata": "チ",
+      "sound": {
+        "en": "chi",
+        "ko": "치",
+        "zh": "chi",
+        "fr": "chi",
+        "es": "chi",
+        "de": "chi",
+        "ru": "ти",
+        "ja": "ち"
+      }
+    },
+    {
+      "hira": "つ",
+      "kata": "ツ",
+      "sound": {
+        "en": "tsu",
+        "ko": "쓰",
+        "zh": "tsu",
+        "fr": "tsu",
+        "es": "tsu",
+        "de": "tsu",
+        "ru": "цу",
+        "ja": "つ"
+      }
+    },
+    {
+      "hira": "て",
+      "kata": "テ",
+      "sound": {
+        "en": "te",
+        "ko": "테",
+        "zh": "te",
+        "fr": "te",
+        "es": "te",
+        "de": "te",
+        "ru": "тэ",
+        "ja": "て"
+      }
+    },
+    {
+      "hira": "と",
+      "kata": "ト",
+      "sound": {
+        "en": "to",
+        "ko": "토",
+        "zh": "to",
+        "fr": "to",
+        "es": "to",
+        "de": "to",
+        "ru": "то",
+        "ja": "と"
+      }
+    },
+    {
+      "hira": "な",
+      "kata": "ナ",
+      "sound": {
+        "en": "na",
+        "ko": "나",
+        "zh": "na",
+        "fr": "na",
+        "es": "na",
+        "de": "na",
+        "ru": "на",
+        "ja": "な"
+      }
+    },
+    {
+      "hira": "に",
+      "kata": "ニ",
+      "sound": {
+        "en": "ni",
+        "ko": "니",
+        "zh": "ni",
+        "fr": "ni",
+        "es": "ni",
+        "de": "ni",
+        "ru": "ни",
+        "ja": "に"
+      }
+    },
+    {
+      "hira": "ぬ",
+      "kata": "ヌ",
+      "sound": {
+        "en": "nu",
+        "ko": "누",
+        "zh": "nu",
+        "fr": "nu",
+        "es": "nu",
+        "de": "nu",
+        "ru": "ну",
+        "ja": "ぬ"
+      }
+    },
+    {
+      "hira": "ね",
+      "kata": "ネ",
+      "sound": {
+        "en": "ne",
+        "ko": "네",
+        "zh": "ne",
+        "fr": "ne",
+        "es": "ne",
+        "de": "ne",
+        "ru": "нэ",
+        "ja": "ね"
+      }
+    },
+    {
+      "hira": "の",
+      "kata": "ノ",
+      "sound": {
+        "en": "no",
+        "ko": "노",
+        "zh": "no",
+        "fr": "no",
+        "es": "no",
+        "de": "no",
+        "ru": "но",
+        "ja": "の"
+      }
+    },
+    {
+      "hira": "は",
+      "kata": "ハ",
+      "sound": {
+        "en": "ha",
+        "ko": "하",
+        "zh": "ha",
+        "fr": "ha",
+        "es": "ha",
+        "de": "ha",
+        "ru": "ха",
+        "ja": "は"
+      }
+    },
+    {
+      "hira": "ひ",
+      "kata": "ヒ",
+      "sound": {
+        "en": "hi",
+        "ko": "히",
+        "zh": "hi",
+        "fr": "hi",
+        "es": "hi",
+        "de": "hi",
+        "ru": "хи",
+        "ja": "ひ"
+      }
+    },
+    {
+      "hira": "ふ",
+      "kata": "フ",
+      "sound": {
+        "en": "fu",
+        "ko": "후",
+        "zh": "fu",
+        "fr": "fu",
+        "es": "fu",
+        "de": "fu",
+        "ru": "фу",
+        "ja": "ふ"
+      }
+    },
+    {
+      "hira": "へ",
+      "kata": "ヘ",
+      "sound": {
+        "en": "he",
+        "ko": "헤",
+        "zh": "he",
+        "fr": "he",
+        "es": "he",
+        "de": "he",
+        "ru": "хэ",
+        "ja": "へ"
+      }
+    },
+    {
+      "hira": "ほ",
+      "kata": "ホ",
+      "sound": {
+        "en": "ho",
+        "ko": "호",
+        "zh": "ho",
+        "fr": "ho",
+        "es": "ho",
+        "de": "ho",
+        "ru": "хо",
+        "ja": "ほ"
+      }
+    },
+    {
+      "hira": "ま",
+      "kata": "マ",
+      "sound": {
+        "en": "ma",
+        "ko": "마",
+        "zh": "ma",
+        "fr": "ma",
+        "es": "ma",
+        "de": "ma",
+        "ru": "ма",
+        "ja": "ま"
+      }
+    },
+    {
+      "hira": "み",
+      "kata": "ミ",
+      "sound": {
+        "en": "mi",
+        "ko": "미",
+        "zh": "mi",
+        "fr": "mi",
+        "es": "mi",
+        "de": "mi",
+        "ru": "ми",
+        "ja": "み"
+      }
+    },
+    {
+      "hira": "む",
+      "kata": "ム",
+      "sound": {
+        "en": "mu",
+        "ko": "무",
+        "zh": "mu",
+        "fr": "mu",
+        "es": "mu",
+        "de": "mu",
+        "ru": "му",
+        "ja": "む"
+      }
+    },
+    {
+      "hira": "め",
+      "kata": "メ",
+      "sound": {
+        "en": "me",
+        "ko": "메",
+        "zh": "me",
+        "fr": "me",
+        "es": "me",
+        "de": "me",
+        "ru": "мэ",
+        "ja": "め"
+      }
+    },
+    {
+      "hira": "も",
+      "kata": "モ",
+      "sound": {
+        "en": "mo",
+        "ko": "모",
+        "zh": "mo",
+        "fr": "mo",
+        "es": "mo",
+        "de": "mo",
+        "ru": "мо",
+        "ja": "も"
+      }
+    },
+    {
+      "hira": "や",
+      "kata": "ヤ",
+      "sound": {
+        "en": "ya",
+        "ko": "야",
+        "zh": "ya",
+        "fr": "ya",
+        "es": "ya",
+        "de": "ya",
+        "ru": "я",
+        "ja": "や"
+      }
+    },
+    {
+      "hira": "ゆ",
+      "kata": "ユ",
+      "sound": {
+        "en": "yu",
+        "ko": "유",
+        "zh": "yu",
+        "fr": "yu",
+        "es": "yu",
+        "de": "yu",
+        "ru": "ю",
+        "ja": "ゆ"
+      }
+    },
+    {
+      "hira": "よ",
+      "kata": "ヨ",
+      "sound": {
+        "en": "yo",
+        "ko": "요",
+        "zh": "yo",
+        "fr": "yo",
+        "es": "yo",
+        "de": "yo",
+        "ru": "ё",
+        "ja": "よ"
+      }
+    },
+    {
+      "hira": "ら",
+      "kata": "ラ",
+      "sound": {
+        "en": "ra",
+        "ko": "라",
+        "zh": "ra",
+        "fr": "ra",
+        "es": "ra",
+        "de": "ra",
+        "ru": "ра",
+        "ja": "ら"
+      }
+    },
+    {
+      "hira": "り",
+      "kata": "リ",
+      "sound": {
+        "en": "ri",
+        "ko": "리",
+        "zh": "ri",
+        "fr": "ri",
+        "es": "ri",
+        "de": "ri",
+        "ru": "ри",
+        "ja": "り"
+      }
+    },
+    {
+      "hira": "る",
+      "kata": "ル",
+      "sound": {
+        "en": "ru",
+        "ko": "루",
+        "zh": "ru",
+        "fr": "ru",
+        "es": "ru",
+        "de": "ru",
+        "ru": "ру",
+        "ja": "る"
+      }
+    },
+    {
+      "hira": "れ",
+      "kata": "レ",
+      "sound": {
+        "en": "re",
+        "ko": "레",
+        "zh": "re",
+        "fr": "re",
+        "es": "re",
+        "de": "re",
+        "ru": "рэ",
+        "ja": "れ"
+      }
+    },
+    {
+      "hira": "ろ",
+      "kata": "ロ",
+      "sound": {
+        "en": "ro",
+        "ko": "로",
+        "zh": "ro",
+        "fr": "ro",
+        "es": "ro",
+        "de": "ro",
+        "ru": "ро",
+        "ja": "ろ"
+      }
+    },
+    {
+      "hira": "わ",
+      "kata": "ワ",
+      "sound": {
+        "en": "wa",
+        "ko": "와",
+        "zh": "wa",
+        "fr": "wa",
+        "es": "wa",
+        "de": "wa",
+        "ru": "ва",
+        "ja": "わ"
+      }
+    },
+    {
+      "hira": "を",
+      "kata": "ヲ",
+      "sound": {
+        "en": "o/wo",
+        "ko": "오/워",
+        "zh": "o/wo",
+        "fr": "o/wo",
+        "es": "o/wo",
+        "de": "o/wo",
+        "ru": "о/во",
+        "ja": "を"
+      }
+    },
+    {
+      "hira": "ん",
+      "kata": "ン",
+      "sound": {
+        "en": "n",
+        "ko": "응",
+        "zh": "n",
+        "fr": "n",
+        "es": "n",
+        "de": "n",
+        "ru": "н",
+        "ja": "ん"
+      }
+    },
+    {
+      "hira": "が",
+      "kata": "ガ",
+      "sound": {
+        "en": "ga",
+        "ko": "가",
+        "zh": "ga",
+        "fr": "ga",
+        "es": "ga",
+        "de": "ga",
+        "ru": "га",
+        "ja": "が"
+      }
+    },
+    {
+      "hira": "ぎ",
+      "kata": "ギ",
+      "sound": {
+        "en": "gi",
+        "ko": "기",
+        "zh": "gi",
+        "fr": "gi",
+        "es": "gi",
+        "de": "gi",
+        "ru": "ги",
+        "ja": "ぎ"
+      }
+    },
+    {
+      "hira": "ぐ",
+      "kata": "グ",
+      "sound": {
+        "en": "gu",
+        "ko": "구",
+        "zh": "gu",
+        "fr": "gu",
+        "es": "gu",
+        "de": "gu",
+        "ru": "гу",
+        "ja": "ぐ"
+      }
+    },
+    {
+      "hira": "げ",
+      "kata": "ゲ",
+      "sound": {
+        "en": "ge",
+        "ko": "게",
+        "zh": "ge",
+        "fr": "ge",
+        "es": "ge",
+        "de": "ge",
+        "ru": "гэ",
+        "ja": "げ"
+      }
+    },
+    {
+      "hira": "ご",
+      "kata": "ゴ",
+      "sound": {
+        "en": "go",
+        "ko": "고",
+        "zh": "go",
+        "fr": "go",
+        "es": "go",
+        "de": "go",
+        "ru": "го",
+        "ja": "ご"
+      }
+    },
+    {
+      "hira": "ざ",
+      "kata": "ザ",
+      "sound": {
+        "en": "za",
+        "ko": "자",
+        "zh": "za",
+        "fr": "za",
+        "es": "za",
+        "de": "za",
+        "ru": "дза",
+        "ja": "ざ"
+      }
+    },
+    {
+      "hira": "じ",
+      "kata": "ジ",
+      "sound": {
+        "en": "ji",
+        "ko": "지",
+        "zh": "ji",
+        "fr": "ji",
+        "es": "ji",
+        "de": "ji",
+        "ru": "дзи",
+        "ja": "じ"
+      }
+    },
+    {
+      "hira": "ず",
+      "kata": "ズ",
+      "sound": {
+        "en": "zu",
+        "ko": "즈",
+        "zh": "zu",
+        "fr": "zu",
+        "es": "zu",
+        "de": "zu",
+        "ru": "дзу",
+        "ja": "ず"
+      }
+    },
+    {
+      "hira": "ぜ",
+      "kata": "ゼ",
+      "sound": {
+        "en": "ze",
+        "ko": "제",
+        "zh": "ze",
+        "fr": "ze",
+        "es": "ze",
+        "de": "ze",
+        "ru": "дзэ",
+        "ja": "ぜ"
+      }
+    },
+    {
+      "hira": "ぞ",
+      "kata": "ゾ",
+      "sound": {
+        "en": "zo",
+        "ko": "조",
+        "zh": "zo",
+        "fr": "zo",
+        "es": "zo",
+        "de": "zo",
+        "ru": "дзо",
+        "ja": "ぞ"
+      }
+    },
+    {
+      "hira": "だ",
+      "kata": "ダ",
+      "sound": {
+        "en": "da",
+        "ko": "다",
+        "zh": "da",
+        "fr": "da",
+        "es": "da",
+        "de": "da",
+        "ru": "да",
+        "ja": "だ"
+      }
+    },
+    {
+      "hira": "ぢ",
+      "kata": "ヂ",
+      "sound": {
+        "en": "ji",
+        "ko": "지",
+        "zh": "ji",
+        "fr": "ji",
+        "es": "ji",
+        "de": "ji",
+        "ru": "дзи",
+        "ja": "ぢ"
+      }
+    },
+    {
+      "hira": "づ",
+      "kata": "ヅ",
+      "sound": {
+        "en": "zu",
+        "ko": "즈",
+        "zh": "zu",
+        "fr": "zu",
+        "es": "zu",
+        "de": "zu",
+        "ru": "дзу",
+        "ja": "づ"
+      }
+    },
+    {
+      "hira": "で",
+      "kata": "デ",
+      "sound": {
+        "en": "de",
+        "ko": "데",
+        "zh": "de",
+        "fr": "de",
+        "es": "de",
+        "de": "de",
+        "ru": "дэ",
+        "ja": "で"
+      }
+    },
+    {
+      "hira": "ど",
+      "kata": "ド",
+      "sound": {
+        "en": "do",
+        "ko": "도",
+        "zh": "do",
+        "fr": "do",
+        "es": "do",
+        "de": "do",
+        "ru": "до",
+        "ja": "ど"
+      }
+    },
+    {
+      "hira": "ば",
+      "kata": "バ",
+      "sound": {
+        "en": "ba",
+        "ko": "바",
+        "zh": "ba",
+        "fr": "ba",
+        "es": "ba",
+        "de": "ba",
+        "ru": "ба",
+        "ja": "ば"
+      }
+    },
+    {
+      "hira": "び",
+      "kata": "ビ",
+      "sound": {
+        "en": "bi",
+        "ko": "비",
+        "zh": "bi",
+        "fr": "bi",
+        "es": "bi",
+        "de": "bi",
+        "ru": "би",
+        "ja": "び"
+      }
+    },
+    {
+      "hira": "ぶ",
+      "kata": "ブ",
+      "sound": {
+        "en": "bu",
+        "ko": "부",
+        "zh": "bu",
+        "fr": "bu",
+        "es": "bu",
+        "de": "bu",
+        "ru": "бу",
+        "ja": "ぶ"
+      }
+    },
+    {
+      "hira": "べ",
+      "kata": "ベ",
+      "sound": {
+        "en": "be",
+        "ko": "베",
+        "zh": "be",
+        "fr": "be",
+        "es": "be",
+        "de": "be",
+        "ru": "бэ",
+        "ja": "べ"
+      }
+    },
+    {
+      "hira": "ぼ",
+      "kata": "ボ",
+      "sound": {
+        "en": "bo",
+        "ko": "보",
+        "zh": "bo",
+        "fr": "bo",
+        "es": "bo",
+        "de": "bo",
+        "ru": "бо",
+        "ja": "ぼ"
+      }
+    },
+    {
+      "hira": "ぱ",
+      "kata": "パ",
+      "sound": {
+        "en": "pa",
+        "ko": "파",
+        "zh": "pa",
+        "fr": "pa",
+        "es": "pa",
+        "de": "pa",
+        "ru": "па",
+        "ja": "ぱ"
+      }
+    },
+    {
+      "hira": "ぴ",
+      "kata": "ピ",
+      "sound": {
+        "en": "pi",
+        "ko": "피",
+        "zh": "pi",
+        "fr": "pi",
+        "es": "pi",
+        "de": "pi",
+        "ru": "пи",
+        "ja": "ぴ"
+      }
+    },
+    {
+      "hira": "ぷ",
+      "kata": "プ",
+      "sound": {
+        "en": "pu",
+        "ko": "푸",
+        "zh": "pu",
+        "fr": "pu",
+        "es": "pu",
+        "de": "pu",
+        "ru": "пу",
+        "ja": "ぷ"
+      }
+    },
+    {
+      "hira": "ぺ",
+      "kata": "ペ",
+      "sound": {
+        "en": "pe",
+        "ko": "페",
+        "zh": "pe",
+        "fr": "pe",
+        "es": "pe",
+        "de": "pe",
+        "ru": "пэ",
+        "ja": "ぺ"
+      }
+    },
+    {
+      "hira": "ぽ",
+      "kata": "ポ",
+      "sound": {
+        "en": "po",
+        "ko": "포",
+        "zh": "po",
+        "fr": "po",
+        "es": "po",
+        "de": "po",
+        "ru": "по",
+        "ja": "ぽ"
+      }
+    }
+  ]
+}

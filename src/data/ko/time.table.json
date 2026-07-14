@@ -1,0 +1,102 @@
+{
+  "table_id": "ko_time_ref",
+  "title": {
+    "en": "Time words",
+    "ko": "시간 표현",
+    "ja": "時間の表現",
+    "zh": "时间词",
+    "fr": "Mots de temps",
+    "es": "Palabras de tiempo",
+    "de": "Zeitwörter",
+    "ru": "Слова о времени"
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "아침",
+      "meaning": {
+        "en": "morning",
+        "zh": "早上",
+        "fr": "matin",
+        "es": "mañana",
+        "de": "Morgen",
+        "ru": "утро",
+        "ko": "아침",
+        "ja": "朝"
+      },
+      "sound": {
+        "en": "a-chim",
+        "ko": "아침",
+        "ja": "アチム",
+        "zh": "a-chim",
+        "fr": "a-chim",
+        "es": "a-chim",
+        "de": "a-chim",
+        "ru": "а-чим"
+      }
+    },
+    {
+      "form": "밤",
+      "meaning": {
+        "en": "night",
+        "zh": "晚上",
+        "fr": "nuit",
+        "es": "noche",
+        "de": "Nacht",
+        "ru": "ночь",
+        "ko": "밤",
+        "ja": "夜"
+      },
+      "sound": {
+        "en": "bam",
+        "ko": "밤",
+        "ja": "パム",
+        "zh": "bam",
+        "fr": "bam",
+        "es": "bam",
+        "de": "bam",
+        "ru": "пам"
+      }
+    }
+  ]
+}

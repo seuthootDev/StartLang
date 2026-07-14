@@ -1,0 +1,48 @@
+[
+  {
+    "quiz_id": "ko_time_morning",
+    "question_word": "아침",
+    "pronunciations": {
+      "en": "a-chim",
+      "ja": "アチム",
+      "zh": "a-chim",
+      "fr": "a-chim",
+      "es": "a-chim",
+      "de": "a-chim",
+      "ru": "а-чим"
+    },
+    "translations": {
+      "en": "morning",
+      "zh": "早上",
+      "fr": "matin",
+      "es": "mañana",
+      "de": "Morgen",
+      "ru": "утро",
+      "ko": "아침",
+      "ja": "朝"
+    }
+  },
+  {
+    "quiz_id": "ko_time_night",
+    "question_word": "밤",
+    "pronunciations": {
+      "en": "bam",
+      "ja": "パム",
+      "zh": "bam",
+      "fr": "bam",
+      "es": "bam",
+      "de": "bam",
+      "ru": "пам"
+    },
+    "translations": {
+      "en": "night",
+      "zh": "晚上",
+      "fr": "nuit",
+      "es": "noche",
+      "de": "Nacht",
+      "ru": "ночь",
+      "ko": "밤",
+      "ja": "夜"
+    }
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "quiz_id": "ko_alphabet_cons_g_k",
+    "question_word": "ㄱ",
+    "pronunciations": {
+      "en": "g/k",
+      "zh": "g/k",
+      "fr": "g/k",
+      "es": "g/k",
+      "de": "g/k",
+      "ja": "グ/ク",
+      "ru": "г/к"
+    },
+    "translations": {
+      "en": "g/k",
+      "zh": "g/k",
+      "fr": "g/k",
+      "es": "g/k",
+      "de": "g/k",
+      "ja": "グ/ク",
+      "ru": "г/к"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_kk",
+    "question_word": "ㄲ",
+    "pronunciations": {
+      "en": "kk",
+      "zh": "kk",
+      "fr": "kk",
+      "es": "kk",
+      "de": "kk",
+      "ja": "ック",
+      "ru": "кк"
+    },
+    "translations": {
+      "en": "kk",
+      "zh": "kk",
+      "fr": "kk",
+      "es": "kk",
+      "de": "kk",
+      "ja": "ック",
+      "ru": "кк"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_n",
+    "question_word": "ㄴ",
+    "pronunciations": {
+      "en": "n",
+      "zh": "n",
+      "fr": "n",
+      "es": "n",
+      "de": "n",
+      "ja": "ン",
+      "ru": "н"
+    },
+    "translations": {
+      "en": "n",
+      "zh": "n",
+      "fr": "n",
+      "es": "n",
+      "de": "n",
+      "ja": "ン",
+      "ru": "н"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_d_t",
+    "question_word": "ㄷ",
+    "pronunciations": {
+      "en": "d/t",
+      "zh": "d/t",
+      "fr": "d/t",
+      "es": "d/t",
+      "de": "d/t",
+      "ja": "ド/ト",
+      "ru": "д/т"
+    },
+    "translations": {
+      "en": "d/t",
+      "zh": "d/t",
+      "fr": "d/t",
+      "es": "d/t",
+      "de": "d/t",
+      "ja": "ド/ト",
+      "ru": "д/т"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_tt",
+    "question_word": "ㄸ",
+    "pronunciations": {
+      "en": "tt",
+      "zh": "tt",
+      "fr": "tt",
+      "es": "tt",
+      "de": "tt",
+      "ja": "ット",
+      "ru": "тт"
+    },
+    "translations": {
+      "en": "tt",
+      "zh": "tt",
+      "fr": "tt",
+      "es": "tt",
+      "de": "tt",
+      "ja": "ット",
+      "ru": "тт"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_r_l",
+    "question_word": "ㄹ",
+    "pronunciations": {
+      "en": "r/l",
+      "zh": "r/l",
+      "fr": "r/l",
+      "es": "r/l",
+      "de": "r/l",
+      "ja": "ル",
+      "ru": "р/л"
+    },
+    "translations": {
+      "en": "r/l",
+      "zh": "r/l",
+      "fr": "r/l",
+      "es": "r/l",
+      "de": "r/l",
+      "ja": "ル",
+      "ru": "р/л"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_m",
+    "question_word": "ㅁ",
+    "pronunciations": {
+      "en": "m",
+      "zh": "m",
+      "fr": "m",
+      "es": "m",
+      "de": "m",
+      "ja": "ム",
+      "ru": "м"
+    },
+    "translations": {
+      "en": "m",
+      "zh": "m",
+      "fr": "m",
+      "es": "m",
+      "de": "m",
+      "ja": "ム",
+      "ru": "м"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_b_p",
+    "question_word": "ㅂ",
+    "pronunciations": {
+      "en": "b/p",
+      "zh": "b/p",
+      "fr": "b/p",
+      "es": "b/p",
+      "de": "b/p",
+      "ja": "ブ/プ",
+      "ru": "б/п"
+    },
+    "translations": {
+      "en": "b/p",
+      "zh": "b/p",
+      "fr": "b/p",
+      "es": "b/p",
+      "de": "b/p",
+      "ja": "ブ/プ",
+      "ru": "б/п"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_pp",
+    "question_word": "ㅃ",
+    "pronunciations": {
+      "en": "pp",
+      "zh": "pp",
+      "fr": "pp",
+      "es": "pp",
+      "de": "pp",
+      "ja": "ップ",
+      "ru": "пп"
+    },
+    "translations": {
+      "en": "pp",
+      "zh": "pp",
+      "fr": "pp",
+      "es": "pp",
+      "de": "pp",
+      "ja": "ップ",
+      "ru": "пп"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_s",
+    "question_word": "ㅅ",
+    "pronunciations": {
+      "en": "s",
+      "zh": "s",
+      "fr": "s",
+      "es": "s",
+      "de": "s",
+      "ja": "ス",
+      "ru": "с"
+    },
+    "translations": {
+      "en": "s",
+      "zh": "s",
+      "fr": "s",
+      "es": "s",
+      "de": "s",
+      "ja": "ス",
+      "ru": "с"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_ss",
+    "question_word": "ㅆ",
+    "pronunciations": {
+      "en": "ss",
+      "zh": "ss",
+      "fr": "ss",
+      "es": "ss",
+      "de": "ss",
+      "ja": "ッス",
+      "ru": "сс"
+    },
+    "translations": {
+      "en": "ss",
+      "zh": "ss",
+      "fr": "ss",
+      "es": "ss",
+      "de": "ss",
+      "ja": "ッス",
+      "ru": "сс"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons___ng",
+    "question_word": "ㅇ",
+    "pronunciations": {
+      "en": "-/ng",
+      "zh": "-/ng",
+      "fr": "-/ng",
+      "es": "-/ng",
+      "de": "-/ng",
+      "ja": "-/ン",
+      "ru": "-/н"
+    },
+    "translations": {
+      "en": "-/ng",
+      "zh": "-/ng",
+      "fr": "-/ng",
+      "es": "-/ng",
+      "de": "-/ng",
+      "ja": "-/ン",
+      "ru": "-/н"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_j",
+    "question_word": "ㅈ",
+    "pronunciations": {
+      "en": "j",
+      "zh": "j",
+      "fr": "j",
+      "es": "j",
+      "de": "j",
+      "ja": "ジ",
+      "ru": "дж"
+    },
+    "translations": {
+      "en": "j",
+      "zh": "j",
+      "fr": "j",
+      "es": "j",
+      "de": "j",
+      "ja": "ジ",
+      "ru": "дж"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_jj",
+    "question_word": "ㅉ",
+    "pronunciations": {
+      "en": "jj",
+      "zh": "jj",
+      "fr": "jj",
+      "es": "jj",
+      "de": "jj",
+      "ja": "ッジ",
+      "ru": "дждж"
+    },
+    "translations": {
+      "en": "jj",
+      "zh": "jj",
+      "fr": "jj",
+      "es": "jj",
+      "de": "jj",
+      "ja": "ッジ",
+      "ru": "дждж"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_ch",
+    "question_word": "ㅊ",
+    "pronunciations": {
+      "en": "ch",
+      "zh": "ch",
+      "fr": "ch",
+      "es": "ch",
+      "de": "ch",
+      "ja": "チ",
+      "ru": "ч"
+    },
+    "translations": {
+      "en": "ch",
+      "zh": "ch",
+      "fr": "ch",
+      "es": "ch",
+      "de": "ch",
+      "ja": "チ",
+      "ru": "ч"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_k",
+    "question_word": "ㅋ",
+    "pronunciations": {
+      "en": "k",
+      "zh": "k",
+      "fr": "k",
+      "es": "k",
+      "de": "k",
+      "ja": "ク",
+      "ru": "к"
+    },
+    "translations": {
+      "en": "k",
+      "zh": "k",
+      "fr": "k",
+      "es": "k",
+      "de": "k",
+      "ja": "ク",
+      "ru": "к"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_t",
+    "question_word": "ㅌ",
+    "pronunciations": {
+      "en": "t",
+      "zh": "t",
+      "fr": "t",
+      "es": "t",
+      "de": "t",
+      "ja": "ト",
+      "ru": "т"
+    },
+    "translations": {
+      "en": "t",
+      "zh": "t",
+      "fr": "t",
+      "es": "t",
+      "de": "t",
+      "ja": "ト",
+      "ru": "т"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_p",
+    "question_word": "ㅍ",
+    "pronunciations": {
+      "en": "p",
+      "zh": "p",
+      "fr": "p",
+      "es": "p",
+      "de": "p",
+      "ja": "プ",
+      "ru": "п"
+    },
+    "translations": {
+      "en": "p",
+      "zh": "p",
+      "fr": "p",
+      "es": "p",
+      "de": "p",
+      "ja": "プ",
+      "ru": "п"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_cons_h",
+    "question_word": "ㅎ",
+    "pronunciations": {
+      "en": "h",
+      "zh": "h",
+      "fr": "h",
+      "es": "h",
+      "de": "h",
+      "ja": "フ",
+      "ru": "х"
+    },
+    "translations": {
+      "en": "h",
+      "zh": "h",
+      "fr": "h",
+      "es": "h",
+      "de": "h",
+      "ja": "フ",
+      "ru": "х"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_a",
+    "question_word": "ㅏ",
+    "pronunciations": {
+      "en": "a",
+      "zh": "a",
+      "fr": "a",
+      "es": "a",
+      "de": "a",
+      "ja": "ア",
+      "ru": "а"
+    },
+    "translations": {
+      "en": "a",
+      "zh": "a",
+      "fr": "a",
+      "es": "a",
+      "de": "a",
+      "ja": "ア",
+      "ru": "а"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_ae",
+    "question_word": "ㅐ",
+    "pronunciations": {
+      "en": "ae",
+      "zh": "ae",
+      "fr": "ae",
+      "es": "ae",
+      "de": "ae",
+      "ja": "エ",
+      "ru": "э"
+    },
+    "translations": {
+      "en": "ae",
+      "zh": "ae",
+      "fr": "ae",
+      "es": "ae",
+      "de": "ae",
+      "ja": "エ",
+      "ru": "э"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_ya",
+    "question_word": "ㅑ",
+    "pronunciations": {
+      "en": "ya",
+      "zh": "ya",
+      "fr": "ya",
+      "es": "ya",
+      "de": "ya",
+      "ja": "ヤ",
+      "ru": "я"
+    },
+    "translations": {
+      "en": "ya",
+      "zh": "ya",
+      "fr": "ya",
+      "es": "ya",
+      "de": "ya",
+      "ja": "ヤ",
+      "ru": "я"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_yae",
+    "question_word": "ㅒ",
+    "pronunciations": {
+      "en": "yae",
+      "zh": "yae",
+      "fr": "yae",
+      "es": "yae",
+      "de": "yae",
+      "ja": "イェ",
+      "ru": "йэ"
+    },
+    "translations": {
+      "en": "yae",
+      "zh": "yae",
+      "fr": "yae",
+      "es": "yae",
+      "de": "yae",
+      "ja": "イェ",
+      "ru": "йэ"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_eo",
+    "question_word": "ㅓ",
+    "pronunciations": {
+      "en": "eo",
+      "zh": "eo",
+      "fr": "eo",
+      "es": "eo",
+      "de": "eo",
+      "ja": "オ",
+      "ru": "о"
+    },
+    "translations": {
+      "en": "eo",
+      "zh": "eo",
+      "fr": "eo",
+      "es": "eo",
+      "de": "eo",
+      "ja": "オ",
+      "ru": "о"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_e",
+    "question_word": "ㅔ",
+    "pronunciations": {
+      "en": "e",
+      "zh": "e",
+      "fr": "e",
+      "es": "e",
+      "de": "e",
+      "ja": "エ",
+      "ru": "е"
+    },
+    "translations": {
+      "en": "e",
+      "zh": "e",
+      "fr": "e",
+      "es": "e",
+      "de": "e",
+      "ja": "エ",
+      "ru": "е"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_yeo",
+    "question_word": "ㅕ",
+    "pronunciations": {
+      "en": "yeo",
+      "zh": "yeo",
+      "fr": "yeo",
+      "es": "yeo",
+      "de": "yeo",
+      "ja": "ヨ",
+      "ru": "ё"
+    },
+    "translations": {
+      "en": "yeo",
+      "zh": "yeo",
+      "fr": "yeo",
+      "es": "yeo",
+      "de": "yeo",
+      "ja": "ヨ",
+      "ru": "ё"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_ye",
+    "question_word": "ㅖ",
+    "pronunciations": {
+      "en": "ye",
+      "zh": "ye",
+      "fr": "ye",
+      "es": "ye",
+      "de": "ye",
+      "ja": "イェ",
+      "ru": "йе"
+    },
+    "translations": {
+      "en": "ye",
+      "zh": "ye",
+      "fr": "ye",
+      "es": "ye",
+      "de": "ye",
+      "ja": "イェ",
+      "ru": "йе"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_o",
+    "question_word": "ㅗ",
+    "pronunciations": {
+      "en": "o",
+      "zh": "o",
+      "fr": "o",
+      "es": "o",
+      "de": "o",
+      "ja": "オ",
+      "ru": "о"
+    },
+    "translations": {
+      "en": "o",
+      "zh": "o",
+      "fr": "o",
+      "es": "o",
+      "de": "o",
+      "ja": "オ",
+      "ru": "о"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_wa",
+    "question_word": "ㅘ",
+    "pronunciations": {
+      "en": "wa",
+      "zh": "wa",
+      "fr": "wa",
+      "es": "wa",
+      "de": "wa",
+      "ja": "ワ",
+      "ru": "ва"
+    },
+    "translations": {
+      "en": "wa",
+      "zh": "wa",
+      "fr": "wa",
+      "es": "wa",
+      "de": "wa",
+      "ja": "ワ",
+      "ru": "ва"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_wae",
+    "question_word": "ㅙ",
+    "pronunciations": {
+      "en": "wae",
+      "zh": "wae",
+      "fr": "wae",
+      "es": "wae",
+      "de": "wae",
+      "ja": "ウェ",
+      "ru": "вэ"
+    },
+    "translations": {
+      "en": "wae",
+      "zh": "wae",
+      "fr": "wae",
+      "es": "wae",
+      "de": "wae",
+      "ja": "ウェ",
+      "ru": "вэ"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_oe",
+    "question_word": "ㅚ",
+    "pronunciations": {
+      "en": "oe",
+      "zh": "oe",
+      "fr": "oe",
+      "es": "oe",
+      "de": "oe",
+      "ja": "ウェ",
+      "ru": "ве"
+    },
+    "translations": {
+      "en": "oe",
+      "zh": "oe",
+      "fr": "oe",
+      "es": "oe",
+      "de": "oe",
+      "ja": "ウェ",
+      "ru": "ве"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_yo",
+    "question_word": "ㅛ",
+    "pronunciations": {
+      "en": "yo",
+      "zh": "yo",
+      "fr": "yo",
+      "es": "yo",
+      "de": "yo",
+      "ja": "ヨ",
+      "ru": "ё"
+    },
+    "translations": {
+      "en": "yo",
+      "zh": "yo",
+      "fr": "yo",
+      "es": "yo",
+      "de": "yo",
+      "ja": "ヨ",
+      "ru": "ё"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_u",
+    "question_word": "ㅜ",
+    "pronunciations": {
+      "en": "u",
+      "zh": "u",
+      "fr": "u",
+      "es": "u",
+      "de": "u",
+      "ja": "ウ",
+      "ru": "у"
+    },
+    "translations": {
+      "en": "u",
+      "zh": "u",
+      "fr": "u",
+      "es": "u",
+      "de": "u",
+      "ja": "ウ",
+      "ru": "у"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_wo",
+    "question_word": "ㅝ",
+    "pronunciations": {
+      "en": "wo",
+      "zh": "wo",
+      "fr": "wo",
+      "es": "wo",
+      "de": "wo",
+      "ja": "ウォ",
+      "ru": "во"
+    },
+    "translations": {
+      "en": "wo",
+      "zh": "wo",
+      "fr": "wo",
+      "es": "wo",
+      "de": "wo",
+      "ja": "ウォ",
+      "ru": "во"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_we",
+    "question_word": "ㅞ",
+    "pronunciations": {
+      "en": "we",
+      "zh": "we",
+      "fr": "we",
+      "es": "we",
+      "de": "we",
+      "ja": "ウェ",
+      "ru": "ве"
+    },
+    "translations": {
+      "en": "we",
+      "zh": "we",
+      "fr": "we",
+      "es": "we",
+      "de": "we",
+      "ja": "ウェ",
+      "ru": "ве"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_wi",
+    "question_word": "ㅟ",
+    "pronunciations": {
+      "en": "wi",
+      "zh": "wi",
+      "fr": "wi",
+      "es": "wi",
+      "de": "wi",
+      "ja": "ウィ",
+      "ru": "уи"
+    },
+    "translations": {
+      "en": "wi",
+      "zh": "wi",
+      "fr": "wi",
+      "es": "wi",
+      "de": "wi",
+      "ja": "ウィ",
+      "ru": "уи"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_yu",
+    "question_word": "ㅠ",
+    "pronunciations": {
+      "en": "yu",
+      "zh": "yu",
+      "fr": "yu",
+      "es": "yu",
+      "de": "yu",
+      "ja": "ユ",
+      "ru": "ю"
+    },
+    "translations": {
+      "en": "yu",
+      "zh": "yu",
+      "fr": "yu",
+      "es": "yu",
+      "de": "yu",
+      "ja": "ユ",
+      "ru": "ю"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_eu",
+    "question_word": "ㅡ",
+    "pronunciations": {
+      "en": "eu",
+      "zh": "eu",
+      "fr": "eu",
+      "es": "eu",
+      "de": "eu",
+      "ja": "ウ",
+      "ru": "ы"
+    },
+    "translations": {
+      "en": "eu",
+      "zh": "eu",
+      "fr": "eu",
+      "es": "eu",
+      "de": "eu",
+      "ja": "ウ",
+      "ru": "ы"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_ui",
+    "question_word": "ㅢ",
+    "pronunciations": {
+      "en": "ui",
+      "zh": "ui",
+      "fr": "ui",
+      "es": "ui",
+      "de": "ui",
+      "ja": "ウィ",
+      "ru": "ый"
+    },
+    "translations": {
+      "en": "ui",
+      "zh": "ui",
+      "fr": "ui",
+      "es": "ui",
+      "de": "ui",
+      "ja": "ウィ",
+      "ru": "ый"
+    }
+  },
+  {
+    "quiz_id": "ko_alphabet_vowel_i",
+    "question_word": "ㅣ",
+    "pronunciations": {
+      "en": "i",
+      "zh": "i",
+      "fr": "i",
+      "es": "i",
+      "de": "i",
+      "ja": "イ",
+      "ru": "и"
+    },
+    "translations": {
+      "en": "i",
+      "zh": "i",
+      "fr": "i",
+      "es": "i",
+      "de": "i",
+      "ja": "イ",
+      "ru": "и"
+    }
+  }
+]

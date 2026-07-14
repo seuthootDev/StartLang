@@ -1,0 +1,48 @@
+[
+  {
+    "quiz_id": "ko_months_jan",
+    "question_word": "1월",
+    "pronunciations": {
+      "en": "il-wol",
+      "ja": "イルウォル",
+      "zh": "il-wol",
+      "fr": "il-wol",
+      "es": "il-wol",
+      "de": "il-wol",
+      "ru": "иль-воль"
+    },
+    "translations": {
+      "en": "January",
+      "zh": "一月",
+      "fr": "janvier",
+      "es": "enero",
+      "de": "Januar",
+      "ru": "январь",
+      "ko": "1월",
+      "ja": "1月"
+    }
+  },
+  {
+    "quiz_id": "ko_months_feb",
+    "question_word": "2월",
+    "pronunciations": {
+      "en": "i-wol",
+      "ja": "イウォル",
+      "zh": "i-wol",
+      "fr": "i-wol",
+      "es": "i-wol",
+      "de": "i-wol",
+      "ru": "и-воль"
+    },
+    "translations": {
+      "en": "February",
+      "zh": "二月",
+      "fr": "février",
+      "es": "febrero",
+      "de": "Februar",
+      "ru": "февраль",
+      "ko": "2월",
+      "ja": "2月"
+    }
+  }
+]

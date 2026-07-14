@@ -1,0 +1,50 @@
+[
+  {
+    "quiz_id": "ko_words_hello",
+    "question_word": "안녕하세요",
+    "pronunciations": {
+      "en": "an-nyeong-ha-se-yo",
+      "ja": "アンニョンハセヨ"
+    },
+    "translations": {
+      "en": "hello",
+      "ja": "こんにちは"
+    }
+  },
+  {
+    "quiz_id": "ko_words_thanks",
+    "question_word": "감사합니다",
+    "pronunciations": {
+      "en": "gam-sa-ham-ni-da",
+      "ja": "カムサハムニダ"
+    },
+    "translations": {
+      "en": "thank you",
+      "ja": "ありがとう"
+    }
+  },
+  {
+    "quiz_id": "ko_words_water",
+    "question_word": "물",
+    "pronunciations": {
+      "en": "mul",
+      "ja": "ムル"
+    },
+    "translations": {
+      "en": "water",
+      "ja": "水"
+    }
+  },
+  {
+    "quiz_id": "ko_words_apple",
+    "question_word": "사과",
+    "pronunciations": {
+      "en": "sa-gwa",
+      "ja": "サグァ"
+    },
+    "translations": {
+      "en": "apple",
+      "ja": "りんご"
+    }
+  }
+]

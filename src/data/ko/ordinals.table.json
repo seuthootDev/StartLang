@@ -1,0 +1,112 @@
+{
+  "table_id": "ko_ordinals_ref",
+  "title": {
+    "en": "Ordinal numbers",
+    "ko": "서수사",
+    "ja": "序数",
+    "zh": "序数词",
+    "fr": "Nombres ordinaux",
+    "es": "Números ordinales",
+    "de": "Ordinalzahlen",
+    "ru": "Порядковые числительные"
+  },
+  "note": {
+    "en": "Native Korean number + 번째.",
+    "ko": "고유어 수 + 번째 형태입니다.",
+    "ja": "固有語の数＋번째の形です。",
+    "zh": "固有语数字 + 번째。",
+    "fr": "Nombre natif + 번째.",
+    "es": "Número nativo + 번째.",
+    "de": "Native Zahl + 번째.",
+    "ru": "Собственное число + 번째."
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "첫 번째",
+      "meaning": {
+        "en": "first",
+        "zh": "第一",
+        "fr": "premier",
+        "es": "primero",
+        "de": "erste",
+        "ru": "первый",
+        "ko": "첫 번째",
+        "ja": "第一"
+      },
+      "sound": {
+        "en": "cheot beon-jjae",
+        "ko": "첫 번째",
+        "ja": "チョッ ボンジェ",
+        "zh": "cheot beon-jjae",
+        "fr": "cheot beon-jjae",
+        "es": "cheot beon-jjae",
+        "de": "cheot beon-jjae",
+        "ru": "чот пон-ччэ"
+      }
+    },
+    {
+      "form": "두 번째",
+      "meaning": {
+        "en": "second",
+        "zh": "第二",
+        "fr": "deuxième",
+        "es": "segundo",
+        "de": "zweite",
+        "ru": "второй",
+        "ko": "두 번째",
+        "ja": "第二"
+      },
+      "sound": {
+        "en": "du beon-jjae",
+        "ko": "두 번째",
+        "ja": "ドゥ ボンジェ",
+        "zh": "du beon-jjae",
+        "fr": "du beon-jjae",
+        "es": "du beon-jjae",
+        "de": "du beon-jjae",
+        "ru": "ту пон-ччэ"
+      }
+    }
+  ]
+}

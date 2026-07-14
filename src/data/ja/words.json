@@ -1,0 +1,50 @@
+[
+  {
+    "quiz_id": "ja_words_hello",
+    "question_word": "こんにちは",
+    "pronunciations": {
+      "en": "kon-ni-chi-wa",
+      "ko": "곤니치와"
+    },
+    "translations": {
+      "en": "hello",
+      "ko": "안녕하세요"
+    }
+  },
+  {
+    "quiz_id": "ja_words_thanks",
+    "question_word": "ありがとう",
+    "pronunciations": {
+      "en": "a-ri-ga-tou",
+      "ko": "아리가토"
+    },
+    "translations": {
+      "en": "thank you",
+      "ko": "고마워"
+    }
+  },
+  {
+    "quiz_id": "ja_words_water",
+    "question_word": "水",
+    "pronunciations": {
+      "en": "mi-zu",
+      "ko": "미즈"
+    },
+    "translations": {
+      "en": "water",
+      "ko": "물"
+    }
+  },
+  {
+    "quiz_id": "ja_words_apple",
+    "question_word": "りんご",
+    "pronunciations": {
+      "en": "rin-go",
+      "ko": "링고"
+    },
+    "translations": {
+      "en": "apple",
+      "ko": "사과"
+    }
+  }
+]
