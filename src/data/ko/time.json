@@ -1,5 +1,28 @@
 [
   {
+    "quiz_id": "ko_time_dawn",
+    "question_word": "새벽",
+    "pronunciations": {
+      "en": "sae-byeok",
+      "ja": "セビョク",
+      "zh": "sae-byeok",
+      "fr": "sae-byeok",
+      "es": "sae-byeok",
+      "de": "sae-byeok",
+      "ru": "сэ-бёк"
+    },
+    "translations": {
+      "en": "dawn / early morning",
+      "zh": "凌晨",
+      "fr": "aube",
+      "es": "madrugada",
+      "de": "Morgendämmerung",
+      "ru": "рассвет",
+      "ko": "새벽",
+      "ja": "明け方"
+    }
+  },
+  {
     "quiz_id": "ko_time_morning",
     "question_word": "아침",
     "pronunciations": {
@@ -15,11 +38,103 @@
       "en": "morning",
       "zh": "早上",
       "fr": "matin",
-      "es": "mañana",
+      "es": "por la mañana",
       "de": "Morgen",
       "ru": "утро",
       "ko": "아침",
       "ja": "朝"
+    }
+  },
+  {
+    "quiz_id": "ko_time_am",
+    "question_word": "오전",
+    "pronunciations": {
+      "en": "o-jeon",
+      "ja": "オジョン",
+      "zh": "o-jeon",
+      "fr": "o-jeon",
+      "es": "o-jeon",
+      "de": "o-jeon",
+      "ru": "о-джон"
+    },
+    "translations": {
+      "en": "a.m. / morning (before noon)",
+      "zh": "上午",
+      "fr": "matin (avant midi)",
+      "es": "a. m.",
+      "de": "Vormittag",
+      "ru": "до полудня",
+      "ko": "오전",
+      "ja": "午前"
+    }
+  },
+  {
+    "quiz_id": "ko_time_noon",
+    "question_word": "낮",
+    "pronunciations": {
+      "en": "nat",
+      "ja": "ナッ",
+      "zh": "nat",
+      "fr": "nat",
+      "es": "nat",
+      "de": "nat",
+      "ru": "нат"
+    },
+    "translations": {
+      "en": "daytime / noon",
+      "zh": "中午 / 白天",
+      "fr": "journée / midi",
+      "es": "mediodía / día",
+      "de": "Mittag / tagsüber",
+      "ru": "день / полдень",
+      "ko": "낮",
+      "ja": "昼"
+    }
+  },
+  {
+    "quiz_id": "ko_time_pm",
+    "question_word": "오후",
+    "pronunciations": {
+      "en": "o-hu",
+      "ja": "オフ",
+      "zh": "o-hu",
+      "fr": "o-hu",
+      "es": "o-hu",
+      "de": "o-hu",
+      "ru": "о-ху"
+    },
+    "translations": {
+      "en": "p.m. / afternoon",
+      "zh": "下午",
+      "fr": "après-midi",
+      "es": "p. m. / tarde",
+      "de": "Nachmittag",
+      "ru": "после полудня",
+      "ko": "오후",
+      "ja": "午後"
+    }
+  },
+  {
+    "quiz_id": "ko_time_evening",
+    "question_word": "저녁",
+    "pronunciations": {
+      "en": "jeo-nyeok",
+      "ja": "チョニョク",
+      "zh": "jeo-nyeok",
+      "fr": "jeo-nyeok",
+      "es": "jeo-nyeok",
+      "de": "jeo-nyeok",
+      "ru": "чо-нёк"
+    },
+    "translations": {
+      "en": "evening",
+      "zh": "傍晚 / 晚上",
+      "fr": "soir",
+      "es": "tarde / noche (temprana)",
+      "de": "Abend",
+      "ru": "вечер",
+      "ko": "저녁",
+      "ja": "夕方"
     }
   },
   {
@@ -36,13 +151,36 @@
     },
     "translations": {
       "en": "night",
-      "zh": "晚上",
+      "zh": "夜里",
       "fr": "nuit",
       "es": "noche",
       "de": "Nacht",
       "ru": "ночь",
       "ko": "밤",
       "ja": "夜"
+    }
+  },
+  {
+    "quiz_id": "ko_time_now",
+    "question_word": "지금",
+    "pronunciations": {
+      "en": "ji-geum",
+      "ja": "チグム",
+      "zh": "ji-geum",
+      "fr": "ji-geum",
+      "es": "ji-geum",
+      "de": "ji-geum",
+      "ru": "чи-гым"
+    },
+    "translations": {
+      "en": "now",
+      "zh": "现在",
+      "fr": "maintenant",
+      "es": "ahora",
+      "de": "jetzt",
+      "ru": "сейчас",
+      "ko": "지금",
+      "ja": "今"
     }
   }
 ]

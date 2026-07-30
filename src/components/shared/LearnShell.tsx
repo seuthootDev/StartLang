@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type CSSProperties } from 'react'
 import { Link, Navigate, Outlet, useLocation, useParams } from 'react-router-dom'
+import { promptFontFor } from '../../config/fonts'
 import { getLanguage, isTargetLang } from '../../config/languages'
 import { t } from '../../config/uiStrings'
 import { useSession } from '../../context/SessionContext'
-import type { LangCode } from '../../types/language'
+import type { LangCode, TargetLangCode } from '../../types/language'
 import { Navbar } from './Navbar'
 import { LearnSidebar } from './LearnSidebar'
 import './LearnSidebar.css'
@@ -27,6 +28,7 @@ export function LearnShell() {
     <LearnShellFrame
       learnerLang={learnerLang}
       exclude={targetLang as LangCode}
+      targetLang={targetLang}
       drawerOpen={drawerOpen}
       setDrawerOpen={setDrawerOpen}
       pathname={location.pathname}
@@ -37,12 +39,14 @@ export function LearnShell() {
 function LearnShellFrame({
   learnerLang,
   exclude,
+  targetLang,
   drawerOpen,
   setDrawerOpen,
   pathname,
 }: {
   learnerLang: LangCode
   exclude: LangCode
+  targetLang: TargetLangCode
   drawerOpen: boolean
   setDrawerOpen: (open: boolean | ((v: boolean) => boolean)) => void
   pathname: string
@@ -61,7 +65,11 @@ function LearnShellFrame({
   }, [drawerOpen, setDrawerOpen])
 
   return (
-    <div className="learn-shell">
+    <div
+      className="learn-shell"
+      data-target-lang={targetLang}
+      style={{ '--font-prompt': promptFontFor(targetLang) } as CSSProperties}
+    >
       <div className="learn-shell__chrome">
         <div className="learn-shell__top">
           <button

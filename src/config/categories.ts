@@ -24,6 +24,8 @@ export interface CategoryMeta {
   /** Display order within the group (1-based curriculum step) */
   step: number
   labels: Partial<Record<LangCode, string>>
+  /** Keep route compatibility without showing in the sidebar */
+  hidden?: boolean
   /** Optional short subtitle (e.g. Hangul / Hiragana) */
   hints?: Partial<Record<TargetLangCode, Partial<Record<LangCode, string>>>>
 }
@@ -37,13 +39,34 @@ export interface CategoryGroupMeta {
 
 const LEVEL = {
   basic: {
-    en: 'Basic', ko: 'Basic', ja: 'Basic', zh: '基础', fr: 'Basique', es: 'Básico', de: 'Basic', ru: 'Базовый',
+    en: 'Basic',
+    ko: '기초',
+    ja: '基礎',
+    zh: '基础',
+    fr: 'Bases',
+    es: 'Básico',
+    de: 'Grundlagen',
+    ru: 'Основы',
   },
   intermediate: {
-    en: 'Intermediate', ko: 'Intermediate', ja: 'Intermediate', zh: '中级', fr: 'Intermédiaire', es: 'Intermedio', de: 'Mittelstufe', ru: 'Средний',
+    en: 'Intermediate',
+    ko: '중급',
+    ja: '中級',
+    zh: '中级',
+    fr: 'Intermédiaire',
+    es: 'Intermedio',
+    de: 'Mittelstufe',
+    ru: 'Средний',
   },
   advanced: {
-    en: 'Advanced', ko: 'Advanced', ja: 'Advanced', zh: '高级', fr: 'Avancé', es: 'Avanzado', de: 'Fortgeschritten', ru: 'Продвинутый',
+    en: 'Advanced',
+    ko: '고급',
+    ja: '上級',
+    zh: '高级',
+    fr: 'Avancé',
+    es: 'Avanzado',
+    de: 'Fortgeschritten',
+    ru: 'Продвинутый',
   },
 } as const
 
@@ -113,23 +136,36 @@ export const CATEGORIES: CategoryMeta[] = [
     group: 'basic',
     step: 4,
     labels: {
-      en: 'Time', ko: '시간 표현', ja: '時間の表現', zh: '时间表达',
-      fr: 'L’heure', es: 'La hora', de: 'Uhrzeit', ru: 'Время',
+      en: 'Time & Calendar Basics',
+      ko: '시간과 달력 기초',
+      ja: '時間と暦の基礎',
+      zh: '时间与日历基础',
+      fr: 'Bases du temps et du calendrier',
+      es: 'Bases de tiempo y calendario',
+      de: 'Zeit- und Kalendergrundlagen',
+      ru: 'Основы времени и календаря',
     },
   },
   {
     id: 'weekdays',
     group: 'basic',
     step: 5,
+    hidden: true,
     labels: {
-      en: 'Days & Time Frames', ko: '요일과 때', ja: '曜日と時', zh: '星期与时段',
-      fr: 'Jours & moments', es: 'Días y momentos', de: 'Wochentage & Tageszeiten', ru: 'Дни и время суток',
+      en: 'Days & Relative Time',
+      ko: '요일과 상대적 때',
+      ja: '曜日と相対的な時',
+      zh: '星期与相对时间',
+      fr: 'Jours & temps relatif',
+      es: 'Días y tiempo relativo',
+      de: 'Wochentage & relative Zeit',
+      ru: 'Дни и относительное время',
     },
   },
   {
     id: 'questions',
     group: 'basic',
-    step: 6,
+    step: 5,
     labels: {
       en: 'Question Words', ko: '필수 의문사', ja: '疑問詞', zh: '疑问词',
       fr: 'Mots interrogatifs', es: 'Palabras interrogativas', de: 'Fragewörter', ru: 'Вопросительные слова',
@@ -138,7 +174,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'demonstratives',
     group: 'basic',
-    step: 7,
+    step: 6,
     labels: {
       en: 'Demonstratives & Directions', ko: '지시대명사·방향', ja: '指示詞・方向', zh: '指示词与方向',
       fr: 'Démonstratifs & directions', es: 'Demostrativos y direcciones', de: 'Demonstrativa & Richtungen', ru: 'Указательные и направления',
@@ -148,6 +184,7 @@ export const CATEGORIES: CategoryMeta[] = [
     id: 'ordinals',
     group: 'basic',
     step: 8,
+    hidden: true,
     labels: {
       en: 'Ordinal Numbers', ko: '서수사', ja: '序数', zh: '序数词',
       fr: 'Nombres ordinaux', es: 'Números ordinales', de: 'Ordinalzahlen', ru: 'Порядковые числительные',
@@ -157,6 +194,7 @@ export const CATEGORIES: CategoryMeta[] = [
     id: 'months',
     group: 'basic',
     step: 9,
+    hidden: true,
     labels: {
       en: 'Months & Seasons', ko: '월과 계절', ja: '月と季節', zh: '月份与季节',
       fr: 'Mois & saisons', es: 'Meses y estaciones', de: 'Monate & Jahreszeiten', ru: 'Месяцы и сезоны',
@@ -165,7 +203,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'dates',
     group: 'basic',
-    step: 10,
+    step: 7,
     labels: {
       en: 'Dates', ko: '날짜 표현', ja: '日付の表現', zh: '日期表达',
       fr: 'Dates', es: 'Fechas', de: 'Daten', ru: 'Даты',
@@ -182,7 +220,7 @@ export function isCategoryId(id: string): id is CategoryId {
 }
 
 export function categoriesInGroup(groupId: CategoryGroupId): CategoryMeta[] {
-  return CATEGORIES.filter((c) => c.group === groupId).sort(
+  return CATEGORIES.filter((c) => c.group === groupId && !c.hidden).sort(
     (a, b) => a.step - b.step,
   )
 }

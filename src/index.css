@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Manrope:wght@500;600;700&display=swap');
-
 :root {
-  --font-display: 'Literata', Georgia, serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-body: 'DM Sans', 'Segoe UI', sans-serif;
+  --font-display: 'DM Sans', 'Segoe UI', sans-serif;
+  /* Set on .learn-shell from config/fonts.ts */
+  --font-prompt: var(--font-body);
 
   --ink: #15231f;
   --ink-soft: #4a5c56;

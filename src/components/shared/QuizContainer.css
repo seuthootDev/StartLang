@@ -49,12 +49,18 @@
 
 .quiz__prompt {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-prompt);
   font-size: clamp(2.4rem, 8vw, 3.6rem);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
   color: var(--ink);
+}
+
+.learn-shell[data-target-lang='ja'] .quiz__prompt,
+.learn-shell[data-target-lang='ko'] .quiz__prompt,
+.learn-shell[data-target-lang='zh'] .quiz__prompt {
+  letter-spacing: 0.04em;
 }
 
 .quiz__prompt--tip {

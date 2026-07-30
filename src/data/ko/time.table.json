@@ -1,14 +1,14 @@
 {
   "table_id": "ko_time_ref",
   "title": {
-    "en": "Time words",
-    "ko": "시간 표현",
-    "ja": "時間の表現",
-    "zh": "时间词",
-    "fr": "Mots de temps",
-    "es": "Palabras de tiempo",
-    "de": "Zeitwörter",
-    "ru": "Слова о времени"
+    "en": "Time of day",
+    "ko": "하루 안의 때",
+    "ja": "一日の中の時",
+    "zh": "一天中的时段",
+    "fr": "Moments de la journée",
+    "es": "Momentos del día",
+    "de": "Tageszeiten",
+    "ru": "Время суток"
   },
   "columns": [
     {
@@ -53,12 +53,35 @@
   ],
   "rows": [
     {
+      "form": "새벽",
+      "meaning": {
+        "en": "dawn / early morning",
+        "zh": "凌晨",
+        "fr": "aube",
+        "es": "madrugada",
+        "de": "Morgendämmerung",
+        "ru": "рассвет",
+        "ko": "새벽",
+        "ja": "明け方"
+      },
+      "sound": {
+        "en": "sae-byeok",
+        "ja": "セビョク",
+        "zh": "sae-byeok",
+        "fr": "sae-byeok",
+        "es": "sae-byeok",
+        "de": "sae-byeok",
+        "ru": "сэ-бёк",
+        "ko": "새벽"
+      }
+    },
+    {
       "form": "아침",
       "meaning": {
         "en": "morning",
         "zh": "早上",
         "fr": "matin",
-        "es": "mañana",
+        "es": "por la mañana",
         "de": "Morgen",
         "ru": "утро",
         "ko": "아침",
@@ -66,20 +89,112 @@
       },
       "sound": {
         "en": "a-chim",
-        "ko": "아침",
         "ja": "アチム",
         "zh": "a-chim",
         "fr": "a-chim",
         "es": "a-chim",
         "de": "a-chim",
-        "ru": "а-чим"
+        "ru": "а-чим",
+        "ko": "아침"
+      }
+    },
+    {
+      "form": "오전",
+      "meaning": {
+        "en": "a.m. / morning (before noon)",
+        "zh": "上午",
+        "fr": "matin (avant midi)",
+        "es": "a. m.",
+        "de": "Vormittag",
+        "ru": "до полудня",
+        "ko": "오전",
+        "ja": "午前"
+      },
+      "sound": {
+        "en": "o-jeon",
+        "ja": "オジョン",
+        "zh": "o-jeon",
+        "fr": "o-jeon",
+        "es": "o-jeon",
+        "de": "o-jeon",
+        "ru": "о-джон",
+        "ko": "오전"
+      }
+    },
+    {
+      "form": "낮",
+      "meaning": {
+        "en": "daytime / noon",
+        "zh": "中午 / 白天",
+        "fr": "journée / midi",
+        "es": "mediodía / día",
+        "de": "Mittag / tagsüber",
+        "ru": "день / полдень",
+        "ko": "낮",
+        "ja": "昼"
+      },
+      "sound": {
+        "en": "nat",
+        "ja": "ナッ",
+        "zh": "nat",
+        "fr": "nat",
+        "es": "nat",
+        "de": "nat",
+        "ru": "нат",
+        "ko": "낮"
+      }
+    },
+    {
+      "form": "오후",
+      "meaning": {
+        "en": "p.m. / afternoon",
+        "zh": "下午",
+        "fr": "après-midi",
+        "es": "p. m. / tarde",
+        "de": "Nachmittag",
+        "ru": "после полудня",
+        "ko": "오후",
+        "ja": "午後"
+      },
+      "sound": {
+        "en": "o-hu",
+        "ja": "オフ",
+        "zh": "o-hu",
+        "fr": "o-hu",
+        "es": "o-hu",
+        "de": "o-hu",
+        "ru": "о-ху",
+        "ko": "오후"
+      }
+    },
+    {
+      "form": "저녁",
+      "meaning": {
+        "en": "evening",
+        "zh": "傍晚 / 晚上",
+        "fr": "soir",
+        "es": "tarde / noche (temprana)",
+        "de": "Abend",
+        "ru": "вечер",
+        "ko": "저녁",
+        "ja": "夕方"
+      },
+      "sound": {
+        "en": "jeo-nyeok",
+        "ja": "チョニョク",
+        "zh": "jeo-nyeok",
+        "fr": "jeo-nyeok",
+        "es": "jeo-nyeok",
+        "de": "jeo-nyeok",
+        "ru": "чо-нёк",
+        "ko": "저녁"
       }
     },
     {
       "form": "밤",
       "meaning": {
         "en": "night",
-        "zh": "晚上",
+        "zh": "夜里",
         "fr": "nuit",
         "es": "noche",
         "de": "Nacht",
@@ -89,13 +204,36 @@
       },
       "sound": {
         "en": "bam",
-        "ko": "밤",
         "ja": "パム",
         "zh": "bam",
         "fr": "bam",
         "es": "bam",
         "de": "bam",
-        "ru": "пам"
+        "ru": "пам",
+        "ko": "밤"
+      }
+    },
+    {
+      "form": "지금",
+      "meaning": {
+        "en": "now",
+        "zh": "现在",
+        "fr": "maintenant",
+        "es": "ahora",
+        "de": "jetzt",
+        "ru": "сейчас",
+        "ko": "지금",
+        "ja": "今"
+      },
+      "sound": {
+        "en": "ji-geum",
+        "ja": "チグム",
+        "zh": "ji-geum",
+        "fr": "ji-geum",
+        "es": "ji-geum",
+        "de": "ji-geum",
+        "ru": "чи-гым",
+        "ko": "지금"
       }
     }
   ]

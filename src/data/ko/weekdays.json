@@ -1,0 +1,347 @@
+[
+  {
+    "quiz_id": "ko_weekdays_day_before_yesterday",
+    "question_word": "그저께",
+    "pronunciations": {
+      "en": "geu-jeo-kke",
+      "ja": "クジョッケ",
+      "zh": "geu-jeo-kke",
+      "fr": "geu-jeo-kke",
+      "es": "geu-jeo-kke",
+      "de": "geu-jeo-kke",
+      "ru": "кы-чо-кке"
+    },
+    "translations": {
+      "en": "the day before yesterday",
+      "zh": "前天",
+      "fr": "avant-hier",
+      "es": "anteayer",
+      "de": "vorgestern",
+      "ru": "позавчера",
+      "ko": "그저께",
+      "ja": "一昨日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_yesterday",
+    "question_word": "어제",
+    "pronunciations": {
+      "en": "eo-je",
+      "ja": "オジェ",
+      "zh": "eo-je",
+      "fr": "eo-je",
+      "es": "eo-je",
+      "de": "eo-je",
+      "ru": "о-дже"
+    },
+    "translations": {
+      "en": "yesterday",
+      "zh": "昨天",
+      "fr": "hier",
+      "es": "ayer",
+      "de": "gestern",
+      "ru": "вчера",
+      "ko": "어제",
+      "ja": "昨日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_today",
+    "question_word": "오늘",
+    "pronunciations": {
+      "en": "o-neul",
+      "ja": "オヌル",
+      "zh": "o-neul",
+      "fr": "o-neul",
+      "es": "o-neul",
+      "de": "o-neul",
+      "ru": "о-ныль"
+    },
+    "translations": {
+      "en": "today",
+      "zh": "今天",
+      "fr": "aujourd’hui",
+      "es": "hoy",
+      "de": "heute",
+      "ru": "сегодня",
+      "ko": "오늘",
+      "ja": "今日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_tomorrow",
+    "question_word": "내일",
+    "pronunciations": {
+      "en": "nae-il",
+      "ja": "ネイル",
+      "zh": "nae-il",
+      "fr": "nae-il",
+      "es": "nae-il",
+      "de": "nae-il",
+      "ru": "нэ-иль"
+    },
+    "translations": {
+      "en": "tomorrow",
+      "zh": "明天",
+      "fr": "demain",
+      "es": "mañana (día siguiente)",
+      "de": "morgen (Tag)",
+      "ru": "завтра",
+      "ko": "내일",
+      "ja": "明日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_day_after_tomorrow",
+    "question_word": "모레",
+    "pronunciations": {
+      "en": "mo-re",
+      "ja": "モレ",
+      "zh": "mo-re",
+      "fr": "mo-re",
+      "es": "mo-re",
+      "de": "mo-re",
+      "ru": "мо-ре"
+    },
+    "translations": {
+      "en": "the day after tomorrow",
+      "zh": "后天",
+      "fr": "après-demain",
+      "es": "pasado mañana",
+      "de": "übermorgen",
+      "ru": "послезавтра",
+      "ko": "모레",
+      "ja": "明後日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_mon",
+    "question_word": "월요일",
+    "pronunciations": {
+      "en": "wo-ryo-il",
+      "ja": "ウォリョイル",
+      "zh": "wo-ryo-il",
+      "fr": "wo-ryo-il",
+      "es": "wo-ryo-il",
+      "de": "wo-ryo-il",
+      "ru": "во-рё-иль"
+    },
+    "translations": {
+      "en": "Monday",
+      "zh": "星期一",
+      "fr": "lundi",
+      "es": "lunes",
+      "de": "Montag",
+      "ru": "понедельник",
+      "ko": "월요일",
+      "ja": "月曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_tue",
+    "question_word": "화요일",
+    "pronunciations": {
+      "en": "hwa-yo-il",
+      "ja": "ファヨイル",
+      "zh": "hwa-yo-il",
+      "fr": "hwa-yo-il",
+      "es": "hwa-yo-il",
+      "de": "hwa-yo-il",
+      "ru": "хва-ё-иль"
+    },
+    "translations": {
+      "en": "Tuesday",
+      "zh": "星期二",
+      "fr": "mardi",
+      "es": "martes",
+      "de": "Dienstag",
+      "ru": "вторник",
+      "ko": "화요일",
+      "ja": "火曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_wed",
+    "question_word": "수요일",
+    "pronunciations": {
+      "en": "su-yo-il",
+      "ja": "スヨイル",
+      "zh": "su-yo-il",
+      "fr": "su-yo-il",
+      "es": "su-yo-il",
+      "de": "su-yo-il",
+      "ru": "су-ё-иль"
+    },
+    "translations": {
+      "en": "Wednesday",
+      "zh": "星期三",
+      "fr": "mercredi",
+      "es": "miércoles",
+      "de": "Mittwoch",
+      "ru": "среда",
+      "ko": "수요일",
+      "ja": "水曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_thu",
+    "question_word": "목요일",
+    "pronunciations": {
+      "en": "mo-gyo-il",
+      "ja": "モギョイル",
+      "zh": "mo-gyo-il",
+      "fr": "mo-gyo-il",
+      "es": "mo-gyo-il",
+      "de": "mo-gyo-il",
+      "ru": "мо-гё-иль"
+    },
+    "translations": {
+      "en": "Thursday",
+      "zh": "星期四",
+      "fr": "jeudi",
+      "es": "jueves",
+      "de": "Donnerstag",
+      "ru": "четверг",
+      "ko": "목요일",
+      "ja": "木曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_fri",
+    "question_word": "금요일",
+    "pronunciations": {
+      "en": "geu-myo-il",
+      "ja": "クミョイル",
+      "zh": "geu-myo-il",
+      "fr": "geu-myo-il",
+      "es": "geu-myo-il",
+      "de": "geu-myo-il",
+      "ru": "кы-мё-иль"
+    },
+    "translations": {
+      "en": "Friday",
+      "zh": "星期五",
+      "fr": "vendredi",
+      "es": "viernes",
+      "de": "Freitag",
+      "ru": "пятница",
+      "ko": "금요일",
+      "ja": "金曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_sat",
+    "question_word": "토요일",
+    "pronunciations": {
+      "en": "to-yo-il",
+      "ja": "トヨイル",
+      "zh": "to-yo-il",
+      "fr": "to-yo-il",
+      "es": "to-yo-il",
+      "de": "to-yo-il",
+      "ru": "то-ё-иль"
+    },
+    "translations": {
+      "en": "Saturday",
+      "zh": "星期六",
+      "fr": "samedi",
+      "es": "sábado",
+      "de": "Samstag",
+      "ru": "суббота",
+      "ko": "토요일",
+      "ja": "土曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_sun",
+    "question_word": "일요일",
+    "pronunciations": {
+      "en": "i-ryo-il",
+      "ja": "イリョイル",
+      "zh": "i-ryo-il",
+      "fr": "i-ryo-il",
+      "es": "i-ryo-il",
+      "de": "i-ryo-il",
+      "ru": "и-рё-иль"
+    },
+    "translations": {
+      "en": "Sunday",
+      "zh": "星期日",
+      "fr": "dimanche",
+      "es": "domingo",
+      "de": "Sonntag",
+      "ru": "воскресенье",
+      "ko": "일요일",
+      "ja": "日曜日"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_this_week",
+    "question_word": "이번 주",
+    "pronunciations": {
+      "en": "i-beon ju",
+      "ja": "イボン ジュ",
+      "zh": "i-beon ju",
+      "fr": "i-beon ju",
+      "es": "i-beon ju",
+      "de": "i-beon ju",
+      "ru": "и-бон чу"
+    },
+    "translations": {
+      "en": "this week",
+      "zh": "这周",
+      "fr": "cette semaine",
+      "es": "esta semana",
+      "de": "diese Woche",
+      "ru": "на этой неделе",
+      "ko": "이번 주",
+      "ja": "今週"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_last_week",
+    "question_word": "지난주",
+    "pronunciations": {
+      "en": "ji-nan-ju",
+      "ja": "チナンジュ",
+      "zh": "ji-nan-ju",
+      "fr": "ji-nan-ju",
+      "es": "ji-nan-ju",
+      "de": "ji-nan-ju",
+      "ru": "чи-нан-чу"
+    },
+    "translations": {
+      "en": "last week",
+      "zh": "上周",
+      "fr": "la semaine dernière",
+      "es": "la semana pasada",
+      "de": "letzte Woche",
+      "ru": "на прошлой неделе",
+      "ko": "지난주",
+      "ja": "先週"
+    }
+  },
+  {
+    "quiz_id": "ko_weekdays_next_week",
+    "question_word": "다음 주",
+    "pronunciations": {
+      "en": "da-eum ju",
+      "ja": "タウム ジュ",
+      "zh": "da-eum ju",
+      "fr": "da-eum ju",
+      "es": "da-eum ju",
+      "de": "da-eum ju",
+      "ru": "та-ым чу"
+    },
+    "translations": {
+      "en": "next week",
+      "zh": "下周",
+      "fr": "la semaine prochaine",
+      "es": "la semana que viene",
+      "de": "nächste Woche",
+      "ru": "на следующей неделе",
+      "ko": "다음 주",
+      "ja": "来週"
+    }
+  }
+]

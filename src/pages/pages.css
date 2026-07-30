@@ -67,10 +67,16 @@
 
 .section-head__title {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-prompt);
   font-size: clamp(1.8rem, 5vw, 2.4rem);
   letter-spacing: -0.03em;
   line-height: 1.2;
+}
+
+.learn-shell[data-target-lang='ja'] .section-head__title,
+.learn-shell[data-target-lang='ko'] .section-head__title,
+.learn-shell[data-target-lang='zh'] .section-head__title {
+  letter-spacing: 0.04em;
 }
 
 .section-head__lead {

@@ -11,14 +11,14 @@
     "ru": "Месяцы"
   },
   "note": {
-    "en": "Korean months use Sino-Korean number + 월.",
-    "ko": "한국어 월은 한자음 숫자 + 월로 만듭니다.",
-    "ja": "漢数字の音＋월で作ります。",
-    "zh": "韩语月份 = 汉字音数字 + 월。",
-    "fr": "Nombre sino-coréen + 월.",
-    "es": "Número sino-coreano + 월.",
-    "de": "Sino-koreanische Zahl + 월.",
-    "ru": "Сино-корейское число + 월."
+    "en": "Shown in spelled-out form: ilwol, iwol...",
+    "ko": "숫자 표기 대신 일월, 이월처럼 읽는 형태로 보여 줍니다.",
+    "ja": "数字ではなく、일월・이월のような読みの形で見せます。",
+    "zh": "不用数字写法，改用“일월、이월”这样的读法形式。",
+    "fr": "Affiché en forme lue: ilwol, iwol...",
+    "es": "Se muestra en forma leída: ilwol, iwol...",
+    "de": "In ausgeschriebener Leseform: ilwol, iwol ...",
+    "ru": "Показано в читаемой форме: ilwol, iwol ..."
   },
   "columns": [
     {
@@ -63,7 +63,7 @@
   ],
   "rows": [
     {
-      "form": "1월",
+      "form": "일월",
       "meaning": {
         "en": "January",
         "zh": "一月",
@@ -71,8 +71,8 @@
         "es": "enero",
         "de": "Januar",
         "ru": "январь",
-        "ko": "1월",
-        "ja": "1月"
+        "ko": "일월",
+        "ja": "一月"
       },
       "sound": {
         "en": "il-wol",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "form": "2월",
+      "form": "이월",
       "meaning": {
         "en": "February",
         "zh": "二月",
@@ -94,8 +94,8 @@
         "es": "febrero",
         "de": "Februar",
         "ru": "февраль",
-        "ko": "2월",
-        "ja": "2月"
+        "ko": "이월",
+        "ja": "二月"
       },
       "sound": {
         "en": "i-wol",
@@ -106,6 +106,236 @@
         "es": "i-wol",
         "de": "i-wol",
         "ru": "и-воль"
+      }
+    },
+    {
+      "form": "삼월",
+      "meaning": {
+        "en": "March",
+        "zh": "三月",
+        "fr": "mars",
+        "es": "marzo",
+        "de": "März",
+        "ru": "март",
+        "ko": "삼월",
+        "ja": "三月"
+      },
+      "sound": {
+        "en": "sam-wol",
+        "ko": "삼월",
+        "ja": "サムウォル",
+        "zh": "sam-wol",
+        "fr": "sam-wol",
+        "es": "sam-wol",
+        "de": "sam-wol",
+        "ru": "сам-воль"
+      }
+    },
+    {
+      "form": "사월",
+      "meaning": {
+        "en": "April",
+        "zh": "四月",
+        "fr": "avril",
+        "es": "abril",
+        "de": "April",
+        "ru": "апрель",
+        "ko": "사월",
+        "ja": "四月"
+      },
+      "sound": {
+        "en": "sa-wol",
+        "ko": "사월",
+        "ja": "サウォル",
+        "zh": "sa-wol",
+        "fr": "sa-wol",
+        "es": "sa-wol",
+        "de": "sa-wol",
+        "ru": "са-воль"
+      }
+    },
+    {
+      "form": "오월",
+      "meaning": {
+        "en": "May",
+        "zh": "五月",
+        "fr": "mai",
+        "es": "mayo",
+        "de": "Mai",
+        "ru": "май",
+        "ko": "오월",
+        "ja": "五月"
+      },
+      "sound": {
+        "en": "o-wol",
+        "ko": "오월",
+        "ja": "オウォル",
+        "zh": "o-wol",
+        "fr": "o-wol",
+        "es": "o-wol",
+        "de": "o-wol",
+        "ru": "о-воль"
+      }
+    },
+    {
+      "form": "유월",
+      "meaning": {
+        "en": "June",
+        "zh": "六月",
+        "fr": "juin",
+        "es": "junio",
+        "de": "Juni",
+        "ru": "июнь",
+        "ko": "유월",
+        "ja": "六月"
+      },
+      "sound": {
+        "en": "yu-wol",
+        "ko": "유월",
+        "ja": "ユウォル",
+        "zh": "yu-wol",
+        "fr": "yu-wol",
+        "es": "yu-wol",
+        "de": "yu-wol",
+        "ru": "ю-воль"
+      }
+    },
+    {
+      "form": "칠월",
+      "meaning": {
+        "en": "July",
+        "zh": "七月",
+        "fr": "juillet",
+        "es": "julio",
+        "de": "Juli",
+        "ru": "июль",
+        "ko": "칠월",
+        "ja": "七月"
+      },
+      "sound": {
+        "en": "chil-wol",
+        "ko": "칠월",
+        "ja": "チルウォル",
+        "zh": "chil-wol",
+        "fr": "chil-wol",
+        "es": "chil-wol",
+        "de": "chil-wol",
+        "ru": "чиль-воль"
+      }
+    },
+    {
+      "form": "팔월",
+      "meaning": {
+        "en": "August",
+        "zh": "八月",
+        "fr": "août",
+        "es": "agosto",
+        "de": "August",
+        "ru": "август",
+        "ko": "팔월",
+        "ja": "八月"
+      },
+      "sound": {
+        "en": "pal-wol",
+        "ko": "팔월",
+        "ja": "パルウォル",
+        "zh": "pal-wol",
+        "fr": "pal-wol",
+        "es": "pal-wol",
+        "de": "pal-wol",
+        "ru": "паль-воль"
+      }
+    },
+    {
+      "form": "구월",
+      "meaning": {
+        "en": "September",
+        "zh": "九月",
+        "fr": "septembre",
+        "es": "septiembre",
+        "de": "September",
+        "ru": "сентябрь",
+        "ko": "구월",
+        "ja": "九月"
+      },
+      "sound": {
+        "en": "gu-wol",
+        "ko": "구월",
+        "ja": "クウォル",
+        "zh": "gu-wol",
+        "fr": "gu-wol",
+        "es": "gu-wol",
+        "de": "gu-wol",
+        "ru": "ку-воль"
+      }
+    },
+    {
+      "form": "시월",
+      "meaning": {
+        "en": "October",
+        "zh": "十月",
+        "fr": "octobre",
+        "es": "octubre",
+        "de": "Oktober",
+        "ru": "октябрь",
+        "ko": "시월",
+        "ja": "十月"
+      },
+      "sound": {
+        "en": "si-wol",
+        "ko": "시월",
+        "ja": "シウォル",
+        "zh": "si-wol",
+        "fr": "si-wol",
+        "es": "si-wol",
+        "de": "si-wol",
+        "ru": "си-воль"
+      }
+    },
+    {
+      "form": "십일월",
+      "meaning": {
+        "en": "November",
+        "zh": "十一月",
+        "fr": "novembre",
+        "es": "noviembre",
+        "de": "November",
+        "ru": "ноябрь",
+        "ko": "십일월",
+        "ja": "十一月"
+      },
+      "sound": {
+        "en": "si-bil-wol",
+        "ko": "십일월",
+        "ja": "シビルウォル",
+        "zh": "si-bil-wol",
+        "fr": "si-bil-wol",
+        "es": "si-bil-wol",
+        "de": "si-bil-wol",
+        "ru": "си-биль-воль"
+      }
+    },
+    {
+      "form": "십이월",
+      "meaning": {
+        "en": "December",
+        "zh": "十二月",
+        "fr": "décembre",
+        "es": "diciembre",
+        "de": "Dezember",
+        "ru": "декабрь",
+        "ko": "십이월",
+        "ja": "十二月"
+      },
+      "sound": {
+        "en": "si-bi-wol",
+        "ko": "십이월",
+        "ja": "シビウォル",
+        "zh": "si-bi-wol",
+        "fr": "si-bi-wol",
+        "es": "si-bi-wol",
+        "de": "si-bi-wol",
+        "ru": "си-би-воль"
       }
     }
   ]

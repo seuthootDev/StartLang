@@ -44,5 +44,74 @@
       "ko": "두 번째",
       "ja": "第二"
     }
+  },
+  {
+    "quiz_id": "ja_ordinals_third",
+    "question_word": "第三",
+    "pronunciations": {
+      "en": "dai-san",
+      "ko": "다이산",
+      "zh": "dai-san",
+      "fr": "dai-san",
+      "es": "dai-san",
+      "de": "dai-san",
+      "ru": "дай-сан"
+    },
+    "translations": {
+      "en": "third",
+      "zh": "第三",
+      "fr": "troisième",
+      "es": "tercero",
+      "de": "dritte",
+      "ru": "третий",
+      "ko": "세 번째",
+      "ja": "第三"
+    }
+  },
+  {
+    "quiz_id": "ja_ordinals_fourth",
+    "question_word": "第四",
+    "pronunciations": {
+      "en": "dai-yon",
+      "ko": "다이욘",
+      "zh": "dai-yon",
+      "fr": "dai-yon",
+      "es": "dai-yon",
+      "de": "dai-yon",
+      "ru": "дай-ён"
+    },
+    "translations": {
+      "en": "fourth",
+      "zh": "第四",
+      "fr": "quatrième",
+      "es": "cuarto",
+      "de": "vierte",
+      "ru": "четвёртый",
+      "ko": "네 번째",
+      "ja": "第四"
+    }
+  },
+  {
+    "quiz_id": "ja_ordinals_fifth",
+    "question_word": "第五",
+    "pronunciations": {
+      "en": "dai-go",
+      "ko": "다이고",
+      "zh": "dai-go",
+      "fr": "dai-go",
+      "es": "dai-go",
+      "de": "dai-go",
+      "ru": "дай-го"
+    },
+    "translations": {
+      "en": "fifth",
+      "zh": "第五",
+      "fr": "cinquième",
+      "es": "quinto",
+      "de": "fünfte",
+      "ru": "пятый",
+      "ko": "다섯 번째",
+      "ja": "第五"
+    }
   }
 ]

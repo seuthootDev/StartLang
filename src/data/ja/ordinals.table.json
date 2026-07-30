@@ -77,12 +77,12 @@
       "sound": {
         "en": "dai-ichi",
         "ko": "다이이치",
-        "ja": "だいいち",
         "zh": "dai-ichi",
         "fr": "dai-ichi",
         "es": "dai-ichi",
         "de": "dai-ichi",
-        "ru": "дай-ити"
+        "ru": "дай-ити",
+        "ja": "だいいち"
       }
     },
     {
@@ -100,12 +100,81 @@
       "sound": {
         "en": "dai-ni",
         "ko": "다이니",
-        "ja": "だいに",
         "zh": "dai-ni",
         "fr": "dai-ni",
         "es": "dai-ni",
         "de": "dai-ni",
-        "ru": "дай-ни"
+        "ru": "дай-ни",
+        "ja": "だいに"
+      }
+    },
+    {
+      "form": "第三",
+      "meaning": {
+        "en": "third",
+        "zh": "第三",
+        "fr": "troisième",
+        "es": "tercero",
+        "de": "dritte",
+        "ru": "третий",
+        "ko": "세 번째",
+        "ja": "第三"
+      },
+      "sound": {
+        "en": "dai-san",
+        "ko": "다이산",
+        "zh": "dai-san",
+        "fr": "dai-san",
+        "es": "dai-san",
+        "de": "dai-san",
+        "ru": "дай-сан",
+        "ja": "だいさん"
+      }
+    },
+    {
+      "form": "第四",
+      "meaning": {
+        "en": "fourth",
+        "zh": "第四",
+        "fr": "quatrième",
+        "es": "cuarto",
+        "de": "vierte",
+        "ru": "четвёртый",
+        "ko": "네 번째",
+        "ja": "第四"
+      },
+      "sound": {
+        "en": "dai-yon",
+        "ko": "다이욘",
+        "zh": "dai-yon",
+        "fr": "dai-yon",
+        "es": "dai-yon",
+        "de": "dai-yon",
+        "ru": "дай-ён",
+        "ja": "だいよん"
+      }
+    },
+    {
+      "form": "第五",
+      "meaning": {
+        "en": "fifth",
+        "zh": "第五",
+        "fr": "cinquième",
+        "es": "quinto",
+        "de": "fünfte",
+        "ru": "пятый",
+        "ko": "다섯 번째",
+        "ja": "第五"
+      },
+      "sound": {
+        "en": "dai-go",
+        "ko": "다이고",
+        "zh": "dai-go",
+        "fr": "dai-go",
+        "es": "dai-go",
+        "de": "dai-go",
+        "ru": "дай-го",
+        "ja": "だいご"
       }
     }
   ]

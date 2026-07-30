@@ -44,5 +44,74 @@
       "ko": "두 번째",
       "ja": "第二"
     }
+  },
+  {
+    "quiz_id": "ko_ordinals_third",
+    "question_word": "세 번째",
+    "pronunciations": {
+      "en": "se beon-jjae",
+      "ja": "セ ボンジェ",
+      "zh": "se beon-jjae",
+      "fr": "se beon-jjae",
+      "es": "se beon-jjae",
+      "de": "se beon-jjae",
+      "ru": "се пон-ччэ"
+    },
+    "translations": {
+      "en": "third",
+      "zh": "第三",
+      "fr": "troisième",
+      "es": "tercero",
+      "de": "dritte",
+      "ru": "третий",
+      "ko": "세 번째",
+      "ja": "第三"
+    }
+  },
+  {
+    "quiz_id": "ko_ordinals_fourth",
+    "question_word": "네 번째",
+    "pronunciations": {
+      "en": "ne beon-jjae",
+      "ja": "ネ ボンジェ",
+      "zh": "ne beon-jjae",
+      "fr": "ne beon-jjae",
+      "es": "ne beon-jjae",
+      "de": "ne beon-jjae",
+      "ru": "не пон-ччэ"
+    },
+    "translations": {
+      "en": "fourth",
+      "zh": "第四",
+      "fr": "quatrième",
+      "es": "cuarto",
+      "de": "vierte",
+      "ru": "четвёртый",
+      "ko": "네 번째",
+      "ja": "第四"
+    }
+  },
+  {
+    "quiz_id": "ko_ordinals_fifth",
+    "question_word": "다섯 번째",
+    "pronunciations": {
+      "en": "da-seot beon-jjae",
+      "ja": "ダソッ ボンジェ",
+      "zh": "da-seot beon-jjae",
+      "fr": "da-seot beon-jjae",
+      "es": "da-seot beon-jjae",
+      "de": "da-seot beon-jjae",
+      "ru": "та-сот пон-ччэ"
+    },
+    "translations": {
+      "en": "fifth",
+      "zh": "第五",
+      "fr": "cinquième",
+      "es": "quinto",
+      "de": "fünfte",
+      "ru": "пятый",
+      "ko": "다섯 번째",
+      "ja": "第五"
+    }
   }
 ]

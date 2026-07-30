@@ -76,13 +76,13 @@
       },
       "sound": {
         "en": "cheot beon-jjae",
-        "ko": "첫 번째",
         "ja": "チョッ ボンジェ",
         "zh": "cheot beon-jjae",
         "fr": "cheot beon-jjae",
         "es": "cheot beon-jjae",
         "de": "cheot beon-jjae",
-        "ru": "чот пон-ччэ"
+        "ru": "чот пон-ччэ",
+        "ko": "첫 번째"
       }
     },
     {
@@ -99,13 +99,82 @@
       },
       "sound": {
         "en": "du beon-jjae",
-        "ko": "두 번째",
         "ja": "ドゥ ボンジェ",
         "zh": "du beon-jjae",
         "fr": "du beon-jjae",
         "es": "du beon-jjae",
         "de": "du beon-jjae",
-        "ru": "ту пон-ччэ"
+        "ru": "ту пон-ччэ",
+        "ko": "두 번째"
+      }
+    },
+    {
+      "form": "세 번째",
+      "meaning": {
+        "en": "third",
+        "zh": "第三",
+        "fr": "troisième",
+        "es": "tercero",
+        "de": "dritte",
+        "ru": "третий",
+        "ko": "세 번째",
+        "ja": "第三"
+      },
+      "sound": {
+        "en": "se beon-jjae",
+        "ja": "セ ボンジェ",
+        "zh": "se beon-jjae",
+        "fr": "se beon-jjae",
+        "es": "se beon-jjae",
+        "de": "se beon-jjae",
+        "ru": "се пон-ччэ",
+        "ko": "세 번째"
+      }
+    },
+    {
+      "form": "네 번째",
+      "meaning": {
+        "en": "fourth",
+        "zh": "第四",
+        "fr": "quatrième",
+        "es": "cuarto",
+        "de": "vierte",
+        "ru": "четвёртый",
+        "ko": "네 번째",
+        "ja": "第四"
+      },
+      "sound": {
+        "en": "ne beon-jjae",
+        "ja": "ネ ボンジェ",
+        "zh": "ne beon-jjae",
+        "fr": "ne beon-jjae",
+        "es": "ne beon-jjae",
+        "de": "ne beon-jjae",
+        "ru": "не пон-ччэ",
+        "ko": "네 번째"
+      }
+    },
+    {
+      "form": "다섯 번째",
+      "meaning": {
+        "en": "fifth",
+        "zh": "第五",
+        "fr": "cinquième",
+        "es": "quinto",
+        "de": "fünfte",
+        "ru": "пятый",
+        "ko": "다섯 번째",
+        "ja": "第五"
+      },
+      "sound": {
+        "en": "da-seot beon-jjae",
+        "ja": "ダソッ ボンジェ",
+        "zh": "da-seot beon-jjae",
+        "fr": "da-seot beon-jjae",
+        "es": "da-seot beon-jjae",
+        "de": "da-seot beon-jjae",
+        "ru": "та-сот пон-ччэ",
+        "ko": "다섯 번째"
       }
     }
   ]

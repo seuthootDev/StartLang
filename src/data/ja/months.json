@@ -1,7 +1,7 @@
 [
   {
     "quiz_id": "ja_months_jan",
-    "question_word": "1月",
+    "question_word": "一月",
     "pronunciations": {
       "en": "ichi-gatsu",
       "ko": "이치가쓰",
@@ -18,13 +18,13 @@
       "es": "enero",
       "de": "Januar",
       "ru": "январь",
-      "ko": "1월",
-      "ja": "1月"
+      "ko": "일월",
+      "ja": "一月"
     }
   },
   {
     "quiz_id": "ja_months_feb",
-    "question_word": "2月",
+    "question_word": "二月",
     "pronunciations": {
       "en": "ni-gatsu",
       "ko": "니가쓰",
@@ -41,8 +41,238 @@
       "es": "febrero",
       "de": "Februar",
       "ru": "февраль",
-      "ko": "2월",
-      "ja": "2月"
+      "ko": "이월",
+      "ja": "二月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_mar",
+    "question_word": "三月",
+    "pronunciations": {
+      "en": "san-gatsu",
+      "ko": "산가쓰",
+      "zh": "san-gatsu",
+      "fr": "san-gatsu",
+      "es": "san-gatsu",
+      "de": "san-gatsu",
+      "ru": "сан-гацу"
+    },
+    "translations": {
+      "en": "March",
+      "zh": "三月",
+      "fr": "mars",
+      "es": "marzo",
+      "de": "März",
+      "ru": "март",
+      "ko": "삼월",
+      "ja": "三月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_apr",
+    "question_word": "四月",
+    "pronunciations": {
+      "en": "shi-gatsu",
+      "ko": "시가쓰",
+      "zh": "shi-gatsu",
+      "fr": "shi-gatsu",
+      "es": "shi-gatsu",
+      "de": "shi-gatsu",
+      "ru": "си-гацу"
+    },
+    "translations": {
+      "en": "April",
+      "zh": "四月",
+      "fr": "avril",
+      "es": "abril",
+      "de": "April",
+      "ru": "апрель",
+      "ko": "사월",
+      "ja": "四月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_may",
+    "question_word": "五月",
+    "pronunciations": {
+      "en": "go-gatsu",
+      "ko": "고가쓰",
+      "zh": "go-gatsu",
+      "fr": "go-gatsu",
+      "es": "go-gatsu",
+      "de": "go-gatsu",
+      "ru": "го-гацу"
+    },
+    "translations": {
+      "en": "May",
+      "zh": "五月",
+      "fr": "mai",
+      "es": "mayo",
+      "de": "Mai",
+      "ru": "май",
+      "ko": "오월",
+      "ja": "五月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_jun",
+    "question_word": "六月",
+    "pronunciations": {
+      "en": "roku-gatsu",
+      "ko": "로쿠가쓰",
+      "zh": "roku-gatsu",
+      "fr": "roku-gatsu",
+      "es": "roku-gatsu",
+      "de": "roku-gatsu",
+      "ru": "року-гацу"
+    },
+    "translations": {
+      "en": "June",
+      "zh": "六月",
+      "fr": "juin",
+      "es": "junio",
+      "de": "Juni",
+      "ru": "июнь",
+      "ko": "유월",
+      "ja": "六月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_jul",
+    "question_word": "七月",
+    "pronunciations": {
+      "en": "shichi-gatsu",
+      "ko": "시치가쓰",
+      "zh": "shichi-gatsu",
+      "fr": "shichi-gatsu",
+      "es": "shichi-gatsu",
+      "de": "shichi-gatsu",
+      "ru": "сити-гацу"
+    },
+    "translations": {
+      "en": "July",
+      "zh": "七月",
+      "fr": "juillet",
+      "es": "julio",
+      "de": "Juli",
+      "ru": "июль",
+      "ko": "칠월",
+      "ja": "七月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_aug",
+    "question_word": "八月",
+    "pronunciations": {
+      "en": "hachi-gatsu",
+      "ko": "하치가쓰",
+      "zh": "hachi-gatsu",
+      "fr": "hachi-gatsu",
+      "es": "hachi-gatsu",
+      "de": "hachi-gatsu",
+      "ru": "хати-гацу"
+    },
+    "translations": {
+      "en": "August",
+      "zh": "八月",
+      "fr": "août",
+      "es": "agosto",
+      "de": "August",
+      "ru": "август",
+      "ko": "팔월",
+      "ja": "八月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_sep",
+    "question_word": "九月",
+    "pronunciations": {
+      "en": "ku-gatsu",
+      "ko": "쿠가쓰",
+      "zh": "ku-gatsu",
+      "fr": "ku-gatsu",
+      "es": "ku-gatsu",
+      "de": "ku-gatsu",
+      "ru": "ку-гацу"
+    },
+    "translations": {
+      "en": "September",
+      "zh": "九月",
+      "fr": "septembre",
+      "es": "septiembre",
+      "de": "September",
+      "ru": "сентябрь",
+      "ko": "구월",
+      "ja": "九月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_oct",
+    "question_word": "十月",
+    "pronunciations": {
+      "en": "juu-gatsu",
+      "ko": "주우가쓰",
+      "zh": "juu-gatsu",
+      "fr": "juu-gatsu",
+      "es": "juu-gatsu",
+      "de": "juu-gatsu",
+      "ru": "дзю:-гацу"
+    },
+    "translations": {
+      "en": "October",
+      "zh": "十月",
+      "fr": "octobre",
+      "es": "octubre",
+      "de": "Oktober",
+      "ru": "октябрь",
+      "ko": "시월",
+      "ja": "十月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_nov",
+    "question_word": "十一月",
+    "pronunciations": {
+      "en": "juu-ichi-gatsu",
+      "ko": "주우이치가쓰",
+      "zh": "juu-ichi-gatsu",
+      "fr": "juu-ichi-gatsu",
+      "es": "juu-ichi-gatsu",
+      "de": "juu-ichi-gatsu",
+      "ru": "дзю:-ити-гацу"
+    },
+    "translations": {
+      "en": "November",
+      "zh": "十一月",
+      "fr": "novembre",
+      "es": "noviembre",
+      "de": "November",
+      "ru": "ноябрь",
+      "ko": "십일월",
+      "ja": "十一月"
+    }
+  },
+  {
+    "quiz_id": "ja_months_dec",
+    "question_word": "十二月",
+    "pronunciations": {
+      "en": "juu-ni-gatsu",
+      "ko": "주우니가쓰",
+      "zh": "juu-ni-gatsu",
+      "fr": "juu-ni-gatsu",
+      "es": "juu-ni-gatsu",
+      "de": "juu-ni-gatsu",
+      "ru": "дзю:-ни-гацу"
+    },
+    "translations": {
+      "en": "December",
+      "zh": "十二月",
+      "fr": "décembre",
+      "es": "diciembre",
+      "de": "Dezember",
+      "ru": "декабрь",
+      "ko": "십이월",
+      "ja": "十二月"
     }
   }
 ]

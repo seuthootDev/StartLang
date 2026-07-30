@@ -35,13 +35,13 @@ Sidebar groups (collapsible):
 1. alphabet — Alphabet & Phonetics  
 2. pronouns — Personal Pronouns  
 3. numbers — Cardinal Numbers  
-4. time — Time  
-5. weekdays — Days & Time Frames  
+4. time — Time of Day (within a day: morning, a.m., night…)  
+5. weekdays — Days & Relative Time (yesterday, weekdays, this week…)  
 6. questions — Question Words  
 7. demonstratives — Demonstratives & Directions  
 8. ordinals — Ordinal Numbers  
 9. months — Months & Seasons  
-10. dates — Dates  
+10. dates — Dates (calendar reading: March 5, years…)  
 
 ## Reference tables
 

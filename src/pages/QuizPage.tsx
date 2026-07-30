@@ -18,6 +18,7 @@ import './pages.css'
 export function QuizPage() {
   const { targetLang: targetParam, categoryId } = useParams()
   const { learnerLang } = useSession()
+  const mergedIntoTime = categoryId === 'weekdays' || categoryId === 'ordinals' || categoryId === 'months'
 
   if (!targetParam || !isTargetLang(targetParam)) {
     return <Navigate to="/" replace />
@@ -30,6 +31,10 @@ export function QuizPage() {
 
   if (!categoryId || !isCategoryId(categoryId)) {
     return <Navigate to={`/${targetParam}`} replace />
+  }
+
+  if (mergedIntoTime) {
+    return <Navigate to={`/${targetParam}/time`} replace />
   }
 
   const effectiveLearner: LangCode =

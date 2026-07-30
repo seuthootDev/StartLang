@@ -11,14 +11,14 @@
     "ru": "Месяцы"
   },
   "note": {
-    "en": "Japanese months use number + 月 (gatsu).",
-    "ko": "일본어 월은 숫자 + 月(가쓰)로 만듭니다.",
-    "ja": "数字＋月（がつ）で作ります。",
-    "zh": "日语月份 = 数字 + 月（gatsu）。",
-    "fr": "Nombre + 月 (gatsu).",
-    "es": "Número + 月 (gatsu).",
-    "de": "Zahl + 月 (gatsu).",
-    "ru": "Число + 月 (гацу)."
+    "en": "Shown with kanji numerals: ichigatsu, nigatsu...",
+    "ko": "숫자 대신 한자 수 표기인 一月, 二月로 보여 줍니다.",
+    "ja": "数字ではなく、 一月・二月の形で見せます。",
+    "zh": "不用阿拉伯数字，改用一月、二月这样的汉字形式。",
+    "fr": "Affiché en kanji: 一月, 二月...",
+    "es": "Se muestra en kanji: 一月, 二月...",
+    "de": "Mit Kanji-Zahlen angezeigt: 一月, 二月 ...",
+    "ru": "Показано с иероглифическими числами: 一月, 二月 ..."
   },
   "columns": [
     {
@@ -63,7 +63,7 @@
   ],
   "rows": [
     {
-      "form": "1月",
+      "form": "一月",
       "meaning": {
         "en": "January",
         "zh": "一月",
@@ -71,8 +71,8 @@
         "es": "enero",
         "de": "Januar",
         "ru": "январь",
-        "ko": "1월",
-        "ja": "1月"
+        "ko": "일월",
+        "ja": "一月"
       },
       "sound": {
         "en": "ichi-gatsu",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "form": "2月",
+      "form": "二月",
       "meaning": {
         "en": "February",
         "zh": "二月",
@@ -94,8 +94,8 @@
         "es": "febrero",
         "de": "Februar",
         "ru": "февраль",
-        "ko": "2월",
-        "ja": "2月"
+        "ko": "이월",
+        "ja": "二月"
       },
       "sound": {
         "en": "ni-gatsu",
@@ -106,6 +106,236 @@
         "es": "ni-gatsu",
         "de": "ni-gatsu",
         "ru": "ни-гацу"
+      }
+    },
+    {
+      "form": "三月",
+      "meaning": {
+        "en": "March",
+        "zh": "三月",
+        "fr": "mars",
+        "es": "marzo",
+        "de": "März",
+        "ru": "март",
+        "ko": "삼월",
+        "ja": "三月"
+      },
+      "sound": {
+        "en": "san-gatsu",
+        "ko": "산가쓰",
+        "ja": "さんがつ",
+        "zh": "san-gatsu",
+        "fr": "san-gatsu",
+        "es": "san-gatsu",
+        "de": "san-gatsu",
+        "ru": "сан-гацу"
+      }
+    },
+    {
+      "form": "四月",
+      "meaning": {
+        "en": "April",
+        "zh": "四月",
+        "fr": "avril",
+        "es": "abril",
+        "de": "April",
+        "ru": "апрель",
+        "ko": "사월",
+        "ja": "四月"
+      },
+      "sound": {
+        "en": "shi-gatsu",
+        "ko": "시가쓰",
+        "ja": "しがつ",
+        "zh": "shi-gatsu",
+        "fr": "shi-gatsu",
+        "es": "shi-gatsu",
+        "de": "shi-gatsu",
+        "ru": "си-гацу"
+      }
+    },
+    {
+      "form": "五月",
+      "meaning": {
+        "en": "May",
+        "zh": "五月",
+        "fr": "mai",
+        "es": "mayo",
+        "de": "Mai",
+        "ru": "май",
+        "ko": "오월",
+        "ja": "五月"
+      },
+      "sound": {
+        "en": "go-gatsu",
+        "ko": "고가쓰",
+        "ja": "ごがつ",
+        "zh": "go-gatsu",
+        "fr": "go-gatsu",
+        "es": "go-gatsu",
+        "de": "go-gatsu",
+        "ru": "го-гацу"
+      }
+    },
+    {
+      "form": "六月",
+      "meaning": {
+        "en": "June",
+        "zh": "六月",
+        "fr": "juin",
+        "es": "junio",
+        "de": "Juni",
+        "ru": "июнь",
+        "ko": "유월",
+        "ja": "六月"
+      },
+      "sound": {
+        "en": "roku-gatsu",
+        "ko": "로쿠가쓰",
+        "ja": "ろくがつ",
+        "zh": "roku-gatsu",
+        "fr": "roku-gatsu",
+        "es": "roku-gatsu",
+        "de": "roku-gatsu",
+        "ru": "року-гацу"
+      }
+    },
+    {
+      "form": "七月",
+      "meaning": {
+        "en": "July",
+        "zh": "七月",
+        "fr": "juillet",
+        "es": "julio",
+        "de": "Juli",
+        "ru": "июль",
+        "ko": "칠월",
+        "ja": "七月"
+      },
+      "sound": {
+        "en": "shichi-gatsu",
+        "ko": "시치가쓰",
+        "ja": "しちがつ",
+        "zh": "shichi-gatsu",
+        "fr": "shichi-gatsu",
+        "es": "shichi-gatsu",
+        "de": "shichi-gatsu",
+        "ru": "сити-гацу"
+      }
+    },
+    {
+      "form": "八月",
+      "meaning": {
+        "en": "August",
+        "zh": "八月",
+        "fr": "août",
+        "es": "agosto",
+        "de": "August",
+        "ru": "август",
+        "ko": "팔월",
+        "ja": "八月"
+      },
+      "sound": {
+        "en": "hachi-gatsu",
+        "ko": "하치가쓰",
+        "ja": "はちがつ",
+        "zh": "hachi-gatsu",
+        "fr": "hachi-gatsu",
+        "es": "hachi-gatsu",
+        "de": "hachi-gatsu",
+        "ru": "хати-гацу"
+      }
+    },
+    {
+      "form": "九月",
+      "meaning": {
+        "en": "September",
+        "zh": "九月",
+        "fr": "septembre",
+        "es": "septiembre",
+        "de": "September",
+        "ru": "сентябрь",
+        "ko": "구월",
+        "ja": "九月"
+      },
+      "sound": {
+        "en": "ku-gatsu",
+        "ko": "쿠가쓰",
+        "ja": "くがつ",
+        "zh": "ku-gatsu",
+        "fr": "ku-gatsu",
+        "es": "ku-gatsu",
+        "de": "ku-gatsu",
+        "ru": "ку-гацу"
+      }
+    },
+    {
+      "form": "十月",
+      "meaning": {
+        "en": "October",
+        "zh": "十月",
+        "fr": "octobre",
+        "es": "octubre",
+        "de": "Oktober",
+        "ru": "октябрь",
+        "ko": "시월",
+        "ja": "十月"
+      },
+      "sound": {
+        "en": "juu-gatsu",
+        "ko": "주우가쓰",
+        "ja": "じゅうがつ",
+        "zh": "juu-gatsu",
+        "fr": "juu-gatsu",
+        "es": "juu-gatsu",
+        "de": "juu-gatsu",
+        "ru": "дзю:-гацу"
+      }
+    },
+    {
+      "form": "十一月",
+      "meaning": {
+        "en": "November",
+        "zh": "十一月",
+        "fr": "novembre",
+        "es": "noviembre",
+        "de": "November",
+        "ru": "ноябрь",
+        "ko": "십일월",
+        "ja": "十一月"
+      },
+      "sound": {
+        "en": "juu-ichi-gatsu",
+        "ko": "주우이치가쓰",
+        "ja": "じゅういちがつ",
+        "zh": "juu-ichi-gatsu",
+        "fr": "juu-ichi-gatsu",
+        "es": "juu-ichi-gatsu",
+        "de": "juu-ichi-gatsu",
+        "ru": "дзю:-ити-гацу"
+      }
+    },
+    {
+      "form": "十二月",
+      "meaning": {
+        "en": "December",
+        "zh": "十二月",
+        "fr": "décembre",
+        "es": "diciembre",
+        "de": "Dezember",
+        "ru": "декабрь",
+        "ko": "십이월",
+        "ja": "十二月"
+      },
+      "sound": {
+        "en": "juu-ni-gatsu",
+        "ko": "주우니가쓰",
+        "ja": "じゅうにがつ",
+        "zh": "juu-ni-gatsu",
+        "fr": "juu-ni-gatsu",
+        "es": "juu-ni-gatsu",
+        "de": "juu-ni-gatsu",
+        "ru": "дзю:-ни-гацу"
       }
     }
   ]

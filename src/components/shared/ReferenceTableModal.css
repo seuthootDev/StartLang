@@ -90,7 +90,7 @@
 }
 
 .ref-table td:first-child {
-  font-family: var(--font-display);
+  font-family: var(--font-prompt);
   font-weight: 700;
   font-size: 1.05rem;
 }
