@@ -1,5 +1,185 @@
 [
   {
+    "quiz_id": "ja_dates_month_1",
+    "question_word": "一月",
+    "pronunciations": {},
+    "translations": {
+      "en": "ichi-gatsu",
+      "ko": "이치가쓰",
+      "ja": "いちがつ",
+      "zh": "ichi-gatsu",
+      "fr": "ichi-gatsu",
+      "es": "ichi-gatsu",
+      "de": "ichi-gatsu",
+      "ru": "ити-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_2",
+    "question_word": "二月",
+    "pronunciations": {},
+    "translations": {
+      "en": "ni-gatsu",
+      "ko": "니가쓰",
+      "ja": "にがつ",
+      "zh": "ni-gatsu",
+      "fr": "ni-gatsu",
+      "es": "ni-gatsu",
+      "de": "ni-gatsu",
+      "ru": "ни-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_3",
+    "question_word": "三月",
+    "pronunciations": {},
+    "translations": {
+      "en": "san-gatsu",
+      "ko": "산가쓰",
+      "ja": "さんがつ",
+      "zh": "san-gatsu",
+      "fr": "san-gatsu",
+      "es": "san-gatsu",
+      "de": "san-gatsu",
+      "ru": "сан-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_4",
+    "question_word": "四月",
+    "pronunciations": {},
+    "translations": {
+      "en": "shi-gatsu",
+      "ko": "시가쓰",
+      "ja": "しがつ",
+      "zh": "shi-gatsu",
+      "fr": "shi-gatsu",
+      "es": "shi-gatsu",
+      "de": "shi-gatsu",
+      "ru": "си-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_5",
+    "question_word": "五月",
+    "pronunciations": {},
+    "translations": {
+      "en": "go-gatsu",
+      "ko": "고가쓰",
+      "ja": "ごがつ",
+      "zh": "go-gatsu",
+      "fr": "go-gatsu",
+      "es": "go-gatsu",
+      "de": "go-gatsu",
+      "ru": "го-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_6",
+    "question_word": "六月",
+    "pronunciations": {},
+    "translations": {
+      "en": "roku-gatsu",
+      "ko": "로쿠가쓰",
+      "ja": "ろくがつ",
+      "zh": "roku-gatsu",
+      "fr": "roku-gatsu",
+      "es": "roku-gatsu",
+      "de": "roku-gatsu",
+      "ru": "року-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_7",
+    "question_word": "七月",
+    "pronunciations": {},
+    "translations": {
+      "en": "shichi-gatsu",
+      "ko": "시치가쓰",
+      "ja": "しちがつ",
+      "zh": "shichi-gatsu",
+      "fr": "shichi-gatsu",
+      "es": "shichi-gatsu",
+      "de": "shichi-gatsu",
+      "ru": "сити-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_8",
+    "question_word": "八月",
+    "pronunciations": {},
+    "translations": {
+      "en": "hachi-gatsu",
+      "ko": "하치가쓰",
+      "ja": "はちがつ",
+      "zh": "hachi-gatsu",
+      "fr": "hachi-gatsu",
+      "es": "hachi-gatsu",
+      "de": "hachi-gatsu",
+      "ru": "хати-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_9",
+    "question_word": "九月",
+    "pronunciations": {},
+    "translations": {
+      "en": "ku-gatsu",
+      "ko": "쿠가쓰",
+      "ja": "くがつ",
+      "zh": "ku-gatsu",
+      "fr": "ku-gatsu",
+      "es": "ku-gatsu",
+      "de": "ku-gatsu",
+      "ru": "ку-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_10",
+    "question_word": "十月",
+    "pronunciations": {},
+    "translations": {
+      "en": "juu-gatsu",
+      "ko": "주우가쓰",
+      "ja": "じゅうがつ",
+      "zh": "juu-gatsu",
+      "fr": "juu-gatsu",
+      "es": "juu-gatsu",
+      "de": "juu-gatsu",
+      "ru": "дзю:-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_11",
+    "question_word": "十一月",
+    "pronunciations": {},
+    "translations": {
+      "en": "juuichi-gatsu",
+      "ko": "주우이치가쓰",
+      "ja": "じゅういちがつ",
+      "zh": "juuichi-gatsu",
+      "fr": "juuichi-gatsu",
+      "es": "juuichi-gatsu",
+      "de": "juuichi-gatsu",
+      "ru": "дзю:ити-гацу"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_month_12",
+    "question_word": "十二月",
+    "pronunciations": {},
+    "translations": {
+      "en": "juuni-gatsu",
+      "ko": "주우니가쓰",
+      "ja": "じゅうにがつ",
+      "zh": "juuni-gatsu",
+      "fr": "juuni-gatsu",
+      "es": "juuni-gatsu",
+      "de": "juuni-gatsu",
+      "ru": "дзю:ни-гацу"
+    }
+  },
+  {
     "quiz_id": "ja_dates_day_1",
     "question_word": "一日",
     "pronunciations": {},

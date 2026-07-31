@@ -38,7 +38,7 @@ Sidebar groups (collapsible):
 4. time — Time & Calendar Basics (day parts + relative days + months; weekdays/months JSON merged in)  
 5. questions — Question Words  
 6. demonstratives — Demonstratives & Directions  
-7. dates — Dates (Japanese only: irregular day readings + random 〜がつ)  
+7. dates — Dates (Japanese only: month 〜がつ readings + irregular day readings, separate cards)  
    Korean 년/월/일 and day samples are merged into `time`  
 8. ordinals — Ordinal Numbers (JSON kept; not in sidebar yet — move into Numbers later)  
 9. months / weekdays — merged into `time` (hidden routes redirect)  

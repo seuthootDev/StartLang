@@ -4,7 +4,11 @@ import {
   generateNumberComboEntries,
   type NumberSystemId,
 } from '../config/numberCombos'
-import { applyDateMonthCombos, type DateMonthComboMode } from '../config/dateMonthCombos'
+import {
+  entriesWithSharedMonth,
+  isDateMonthComboEntry,
+  type DateMonthComboMode,
+} from '../config/dateMonthCombos'
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -77,6 +81,23 @@ export function isTypedAnswerCorrect(
   return alternatives.length > 1 && alternatives.includes(user)
 }
 
+function sameFamilyPool(
+  entry: MeaningQuizEntry,
+  pool: MeaningQuizEntry[],
+): MeaningQuizEntry[] {
+  const id = entry.quiz_id
+  if (id.startsWith('ja_dates_month_')) {
+    return pool.filter((e) => e.quiz_id.startsWith('ja_dates_month_'))
+  }
+  if (id.startsWith('ja_dates_day_') || id === 'ja_dates_nannichi') {
+    return pool.filter(
+      (e) =>
+        e.quiz_id.startsWith('ja_dates_day_') || e.quiz_id === 'ja_dates_nannichi',
+    )
+  }
+  return pool
+}
+
 export function buildQuestion(
   entry: MeaningQuizEntry,
   pool: MeaningQuizEntry[],
@@ -94,7 +115,7 @@ export function buildQuestion(
     entry,
     prompt,
     pronunciation,
-    choices: generateChoices(entry, pool, learnerLang),
+    choices: generateChoices(entry, sameFamilyPool(entry, pool), learnerLang),
     correctAnswer,
     inputMode: 'choice',
   }
@@ -168,8 +189,16 @@ export function buildQuizDeck(
   }
 
   if (options?.dateMonthCombos) {
-    askFrom = applyDateMonthCombos(askFrom, options.dateMonthCombos)
-    pool = applyDateMonthCombos(pool, options.dateMonthCombos)
+    const mode = options.dateMonthCombos
+    return shuffle(askFrom)
+      .map((entry) => {
+        if (!isDateMonthComboEntry(entry, mode)) {
+          return buildQuestion(entry, pool, learnerLang)
+        }
+        const shared = entriesWithSharedMonth(entry, pool, mode)
+        return buildQuestion(shared.current, shared.pool, learnerLang)
+      })
+      .filter((q): q is QuizQuestion => q !== null)
   }
 
   return shuffle(askFrom)

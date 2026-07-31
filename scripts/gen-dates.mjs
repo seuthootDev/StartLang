@@ -595,7 +595,29 @@ writeJson('src/data/ko/dates.table.json', {
 // --- Japanese ---
 const irregularDays = new Set(JA_IRREGULAR.map((d) => d.day))
 
+const jaMonthRows = [
+  ['一月', 'いちがつ', 'ichi-gatsu', '이치가쓰', 'ити-гацу'],
+  ['二月', 'にがつ', 'ni-gatsu', '니가쓰', 'ни-гацу'],
+  ['三月', 'さんがつ', 'san-gatsu', '산가쓰', 'сан-гацу'],
+  ['四月', 'しがつ', 'shi-gatsu', '시가쓰', 'си-гацу'],
+  ['五月', 'ごがつ', 'go-gatsu', '고가쓰', 'го-гацу'],
+  ['六月', 'ろくがつ', 'roku-gatsu', '로쿠가쓰', 'року-гацу'],
+  ['七月', 'しちがつ', 'shichi-gatsu', '시치가쓰', 'сити-гацу'],
+  ['八月', 'はちがつ', 'hachi-gatsu', '하치가쓰', 'хати-гацу'],
+  ['九月', 'くがつ', 'ku-gatsu', '쿠가쓰', 'ку-гацу'],
+  ['十月', 'じゅうがつ', 'juu-gatsu', '주우가쓰', 'дзю:-гацу'],
+  ['十一月', 'じゅういちがつ', 'juuichi-gatsu', '주우이치가쓰', 'дзю:ити-гацу'],
+  ['十二月', 'じゅうにがつ', 'juuni-gatsu', '주우니가쓰', 'дзю:ни-гацу'],
+]
+
 const jaQuiz = [
+  // Months as separate reading drills (しがつ / しちがつ / くがつ).
+  ...jaMonthRows.map(([kanji, ja, en, ko, ru], index) => ({
+    quiz_id: `ja_dates_month_${index + 1}`,
+    question_word: kanji,
+    pronunciations: {},
+    translations: readingMap({ ja, en, ko, ru }),
+  })),
   ...JA_IRREGULAR.map((d) => ({
     quiz_id: `ja_dates_day_${d.day}`,
     question_word: d.kanji,
@@ -634,20 +656,6 @@ const jaQuiz = [
 
 const jaTableRows = []
 
-const jaMonthRows = [
-  ['一月', 'いちがつ', 'ichi-gatsu', '이치가쓰', 'ити-гацу'],
-  ['二月', 'にがつ', 'ni-gatsu', '니가쓰', 'ни-гацу'],
-  ['三月', 'さんがつ', 'san-gatsu', '산가쓰', 'сан-гацу'],
-  ['四月', 'しがつ', 'shi-gatsu', '시가쓰', 'си-гацу'],
-  ['五月', 'ごがつ', 'go-gatsu', '고가쓰', 'го-гацу'],
-  ['六月', 'ろくがつ', 'roku-gatsu', '로쿠가쓰', 'року-гацу'],
-  ['七月', 'しちがつ', 'shichi-gatsu', '시치가쓰', 'сити-гацу'],
-  ['八月', 'はちがつ', 'hachi-gatsu', '하치가쓰', 'хати-гацу'],
-  ['九月', 'くがつ', 'ku-gatsu', '쿠가쓰', 'ку-гацу'],
-  ['十月', 'じゅうがつ', 'juu-gatsu', '주우가쓰', 'дзю:-гацу'],
-  ['十一月', 'じゅういちがつ', 'juuichi-gatsu', '주우이치가쓰', 'дзю:ити-гацу'],
-  ['十二月', 'じゅうにがつ', 'juuni-gatsu', '주우니가쓰', 'дзю:ни-гацу'],
-]
 for (const [kanji, ja, en, ko, ru] of jaMonthRows) {
   const irr = kanji === '四月' || kanji === '七月' || kanji === '九月'
   jaTableRows.push({
@@ -710,73 +718,73 @@ jaTableRows.push({
 const jaTable = {
   table_id: 'ja_dates_ref',
   title: {
-    en: 'Dates (day of month)',
-    ko: '날짜 표현 (일자)',
-    ja: '日付の表現（日）',
-    zh: '日期表达（日）',
-    fr: 'Dates (jour du mois)',
-    es: 'Fechas (día del mes)',
-    de: 'Daten (Tag im Monat)',
-    ru: 'Даты (число месяца)',
+    en: 'Dates (months & days)',
+    ko: '날짜 표현 (월·일)',
+    ja: '日付の表現（月・日）',
+    zh: '日期表达（月·日）',
+    fr: 'Dates (mois & jours)',
+    es: 'Fechas (meses y días)',
+    de: 'Daten (Monate & Tage)',
+    ru: 'Даты (месяцы и дни)',
   },
   note: {
-    en: '★ = irregular day. Quiz adds a random month (〜がつ) to each prompt.',
-    ko: '★ = 불규칙 일자. 퀴즈마다 랜덤 월(〜がつ)이 붙습니다.',
-    ja: '★＝不規則の日。クイズでは毎回ランダムな月（〜がつ）が付く。',
-    zh: '★=不规则日。测验每次随机加上月份（〜がつ）。',
-    fr: '★ = jour irregulier. Le quiz ajoute un mois aleatoire (〜がつ).',
-    es: '★ = dia irregular. El quiz anade un mes aleatorio (〜がつ).',
-    de: '★ = unregelmassiger Tag. Quiz hangt einen Zufallsmonat (〜がつ) an.',
-    ru: '★ = нерегулярный день. В квизе к каждому вопросу — случайный месяц (〜がつ).',
+    en: 'Quiz drills months (〜がつ) and days separately. ★ = irregular.',
+    ko: '퀴즈는 월(〜がつ)과 일을 따로 묻습니다. ★ = 불규칙.',
+    ja: 'クイズは月（〜がつ）と日を別々に出題。★＝不規則。',
+    zh: '测验分开练月（〜がつ）和日。★=不规则。',
+    fr: 'Quiz: mois (〜がつ) et jours separes. ★ = irregulier.',
+    es: 'Quiz: meses (〜がつ) y dias por separado. ★ = irregular.',
+    de: 'Quiz: Monate (〜がつ) und Tage getrennt. ★ = unregelmassig.',
+    ru: 'Квиз: месяцы (〜がつ) и дни отдельно. ★ = нерегулярно.',
   },
   rules: {
     en: [
-      'Memorize irregulars: 1–10日, plus 14日 (juu-yokka), 20日 (hatsuka), 24日 (nijuuyokka).',
+      'Months use 〜がつ. Irregular: April しがつ, July しちがつ, September くがつ.',
+      'Day irregulars: 1–10日, plus 14日 (juu-yokka), 20日 (hatsuka), 24日 (nijuuyokka).',
       'Other days are mostly number + にち (十五日 = juugo-nichi). Not にじゅうにち for the 20th.',
-      'Quiz prompts look like 三月十五日; answers include the month reading too (san-gatsu juugo-nichi).',
-      'Month counter is 〜がつ. Watch April しがつ, July しちがつ, September くがつ.',
+      'Quiz asks month readings and day readings as separate cards (not combined).',
     ],
     ko: [
-      '불규칙: 1–10일, 그리고 14일(じゅうよっか), 20일(はつか), 24일(にじゅうよっか)을 외우세요.',
+      '월은 〜がつ. 불규칙: 4월 しがつ, 7월 しちがつ, 9월 くがつ.',
+      '일 불규칙: 1–10일, 그리고 14일(じゅうよっか), 20일(はつか), 24일(にじゅうよっか).',
       '나머지는 대체로 숫자+にち (十五日=じゅうごにち). 20일은 にじゅうにち가 아니라 はつか.',
-      '퀴즈는 三月十五日처럼 나오고, 답에도 월 읽기가 들어갑니다 (さんがつ じゅうごにち).',
-      '월은 〜がつ. 4월 しがつ, 7월 しちがつ, 9월 くがつ에 주의.',
+      '퀴즈는 월 읽기와 일 읽기를 따로 출제합니다 (합치지 않음).',
     ],
     ja: [
-      '不規則は 1〜10日、さらに 14日（じゅうよっか）・20日（はつか）・24日（にじゅうよっか）。',
+      '月は〜がつ。不規則：四月＝しがつ、七月＝しちがつ、九月＝くがつ。',
+      '日の不規則：1〜10日、さらに 14日（じゅうよっか）・20日（はつか）・24日（にじゅうよっか）。',
       '他はだいたい数字＋にち（十五日＝じゅうごにち）。20日は「にじゅうにち」ではない。',
-      'クイズは「三月十五日」のように出題。答えにも月の読み（さんがつ じゅうごにち）。',
-      '月は〜がつ。四月＝しがつ、七月＝しちがつ、九月＝くがつに注意。',
+      'クイズは月の読みと日の読みを別カードで出題（組み合わせない）。',
     ],
     zh: [
-      '不规则：1–10日，以及14日、20日、24日。',
+      '月用〜がつ。不规则：四月しがつ、七月しちがつ、九月くがつ。',
+      '日不规则：1–10日，以及14日、20日、24日。',
       '其余多为数字＋にち；20日读はつか，不是にじゅうにち。',
-      '测验会出「三月十五日」这类题，选项也含月份读法。',
-      '月用〜がつ。注意四月しがつ、七月しちがつ、九月くがつ。',
+      '测验把月读和日读分开出题（不组合）。',
     ],
     fr: [
-      'Irreguliers: 1–10日, plus 14·20·24日.',
-      'Sinon: nombre + にち. 20日 = hatsuka (pas nijuu-nichi).',
-      'Le quiz affiche p.ex. 三月十五日; les choix incluent aussi 〜がつ.',
-      'Mois = 〜がつ. Attention: しがつ, しちがつ, くがつ.',
+      'Mois = 〜がつ. Irreguliers: しがつ, しちがつ, くがつ.',
+      'Jours irreguliers: 1–10日, plus 14·20·24日.',
+      'Sinon: nombre + にち. 20日 = hatsuka.',
+      'Le quiz separe mois et jours (pas combines).',
     ],
     es: [
-      'Irregulares: 1–10日, mas 14·20·24日.',
-      'Otros: numero + にち. 20日 = hatsuka (no nijuu-nichi).',
-      'El quiz muestra p.ej. 三月十五日; las opciones incluyen 〜がつ.',
-      'Mes = 〜がつ. Cuidado: しがつ, しちがつ, くがつ.',
+      'Mes = 〜がつ. Irregulares: しがつ, しちがつ, くがつ.',
+      'Dias irregulares: 1–10日, mas 14·20·24日.',
+      'Otros: numero + にち. 20日 = hatsuka.',
+      'El quiz separa meses y dias (no combinados).',
     ],
     de: [
-      'Unregelmassig: 1–10日, dazu 14·20·24日.',
-      'Sonst: Zahl + にち. 20日 = hatsuka (nicht nijuu-nichi).',
-      'Quiz zeigt z.B. 三月十五日; Optionen inkl. 〜がつ.',
-      'Monat = 〜がつ. Achtung: しがつ, しちがつ, くがつ.',
+      'Monat = 〜がつ. Unregelmassig: しがつ, しちがつ, くがつ.',
+      'Unregelmassige Tage: 1–10日, dazu 14·20·24日.',
+      'Sonst: Zahl + にち. 20日 = hatsuka.',
+      'Quiz trennt Monate und Tage (nicht kombiniert).',
     ],
     ru: [
-      'Нерегулярные: 1–10日, плюс 14·20·24日.',
-      'Остальные: число + にち. 20日 = хацука (не нидзю:-нити).',
-      'В квизе будет вроде 三月十五日; в вариантах тоже 〜がつ.',
-      'Месяц = 〜がつ. Осторожно: しがつ, しちがつ, くがつ.',
+      'Месяц = 〜がつ. Нерегулярные: しがつ, しちがつ, くがつ.',
+      'Нерегулярные дни: 1–10日, плюс 14·20·24日.',
+      'Остальные: число + にち. 20日 = хацука.',
+      'Квиз разделяет месяцы и дни (без комбинаций).',
     ],
   },
   columns: [

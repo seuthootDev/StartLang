@@ -425,93 +425,154 @@ function koFullDateMeaning(month: number, day: number): Partial<Record<LangCode,
   }
 }
 
-/**
- * Prefix each Japanese day-reading card with a random 1–12 month so the
- * quiz practices 〜がつ + day together. Each card (and thus each choice)
- * carries its own month reading.
- */
-export function applyRandomJapaneseMonths(
-  entries: MeaningQuizEntry[],
-): MeaningQuizEntry[] {
-  return entries.map((entry) => {
-    if (/_m\d+$/.test(entry.quiz_id)) return entry
-
-    const isDay = /^ja_dates_day_\d+$/.test(entry.quiz_id)
-    const isNannichi = entry.quiz_id === 'ja_dates_nannichi'
-    if (!isDay && !isNannichi) return entry
-
-    const month = pickJaMonth()
-    const translations: MeaningQuizEntry['translations'] = {}
-
-    if (isNannichi) {
-      for (const lang of Object.keys(NANNICHI_READING) as LangCode[]) {
-        translations[lang] = joinReading(
-          month,
-          NANNICHI_READING[lang] as string,
-          lang,
-        )
-      }
-    } else {
-      for (const [lang, dayReading] of Object.entries(entry.translations)) {
-        if (!dayReading) continue
-        translations[lang as LangCode] = joinReading(
-          month,
-          dayReading,
-          lang as LangCode,
-        )
-      }
-    }
-
-    return {
-      ...entry,
-      quiz_id: `${entry.quiz_id}_m${month.n}`,
-      question_word: `${month.kanji}${entry.question_word}`,
-      translations,
-      pronunciations: {},
-    }
-  })
-}
-
-/**
- * Korean calendar day cards (1일, 5일…): prefix a random 1–12월.
- * Prompt becomes `3월 5일`; choices become full dates (March 5, …).
- */
-export function applyRandomKoreanMonths(
-  entries: MeaningQuizEntry[],
-): MeaningQuizEntry[] {
-  return entries.map((entry) => {
-    if (/_m\d+$/.test(entry.quiz_id)) return entry
-
-    const match = /^ko_calendar_day_(\d+)$/.exec(entry.quiz_id)
-    if (!match) return entry
-
-    const day = Number(match[1])
-    const month = pickKoMonth()
-    const meanings = koFullDateMeaning(month.n, day)
-    const pronunciations: MeaningQuizEntry['pronunciations'] = {}
-    for (const lang of Object.keys(month.reading) as LangCode[]) {
-      const daySound = entry.pronunciations[lang] ?? entry.pronunciations.en ?? ''
-      const monthSound = month.reading[lang] ?? month.reading.en ?? ''
-      pronunciations[lang] = `${monthSound} ${daySound}`.trim()
-    }
-
-    return {
-      ...entry,
-      quiz_id: `${entry.quiz_id}_m${month.n}`,
-      question_word: `${month.n}월 ${day}일`,
-      translations: meanings,
-      pronunciations,
-    }
-  })
-}
-
 export type DateMonthComboMode = 'ja' | 'ko'
 
-export function applyDateMonthCombos(
-  entries: MeaningQuizEntry[],
+export function baseDateQuizId(quizId: string): string {
+  return quizId.replace(/_m\d+$/, '')
+}
+
+function monthFromQuizId(quizId: string): number | null {
+  const match = /_m(\d+)$/.exec(quizId)
+  return match ? Number(match[1]) : null
+}
+
+export function isDateMonthComboEntry(
+  entry: MeaningQuizEntry,
   mode: DateMonthComboMode,
-): MeaningQuizEntry[] {
-  return mode === 'ja'
-    ? applyRandomJapaneseMonths(entries)
-    : applyRandomKoreanMonths(entries)
+): boolean {
+  const id = baseDateQuizId(entry.quiz_id)
+  if (mode === 'ja') {
+    return /^ja_dates_day_\d+$/.test(id) || id === 'ja_dates_nannichi'
+  }
+  return /^ko_calendar_day_\d+$/.test(id)
+}
+
+function resolveBaseEntry(
+  entry: MeaningQuizEntry,
+  originals: MeaningQuizEntry[],
+): MeaningQuizEntry {
+  const id = baseDateQuizId(entry.quiz_id)
+  return originals.find((e) => e.quiz_id === id) ?? { ...entry, quiz_id: id }
+}
+
+function withJapaneseMonth(
+  entry: MeaningQuizEntry,
+  month: (typeof JA_MONTHS)[number],
+): MeaningQuizEntry {
+  const id = baseDateQuizId(entry.quiz_id)
+  const isNannichi = id === 'ja_dates_nannichi'
+  const translations: MeaningQuizEntry['translations'] = {}
+
+  if (isNannichi) {
+    for (const lang of Object.keys(NANNICHI_READING) as LangCode[]) {
+      translations[lang] = joinReading(
+        month,
+        NANNICHI_READING[lang] as string,
+        lang,
+      )
+    }
+  } else {
+    for (const [lang, dayReading] of Object.entries(entry.translations)) {
+      if (!dayReading) continue
+      translations[lang as LangCode] = joinReading(
+        month,
+        dayReading,
+        lang as LangCode,
+      )
+    }
+  }
+
+  // Prefer base form from originals (一日), not a previously prefixed prompt.
+  const dayKanji =
+    id === 'ja_dates_nannichi'
+      ? '何日'
+      : (entry.question_word.match(
+          /(一日|二日|三日|四日|五日|六日|七日|八日|九日|十日|十一日|十二日|十三日|十四日|十五日|十六日|十七日|十八日|十九日|二十日|二十一日|二十二日|二十三日|二十四日|二十五日|二十六日|二十七日|二十八日|二十九日|三十日|三十一日|何日)$/,
+        )?.[1] ??
+        entry.question_word.replace(
+          /^(一月|二月|三月|四月|五月|六月|七月|八月|九月|十月|十一月|十二月)/,
+          '',
+        ))
+
+  return {
+    ...entry,
+    quiz_id: `${id}_m${month.n}`,
+    question_word: `${month.kanji}${dayKanji}`,
+    translations,
+    pronunciations: {},
+  }
+}
+
+function withKoreanMonth(
+  entry: MeaningQuizEntry,
+  month: (typeof KO_MONTH_SOUND)[number],
+): MeaningQuizEntry {
+  const id = baseDateQuizId(entry.quiz_id)
+  const dayMatch = /^ko_calendar_day_(\d+)$/.exec(id)
+  if (!dayMatch) return entry
+
+  const day = Number(dayMatch[1])
+  const pronunciations: MeaningQuizEntry['pronunciations'] = {}
+  for (const lang of Object.keys(month.reading) as LangCode[]) {
+    const daySound = entry.pronunciations[lang] ?? entry.pronunciations.en ?? ''
+    const monthSound = month.reading[lang] ?? month.reading.en ?? ''
+    pronunciations[lang] = `${monthSound} ${daySound}`.trim()
+  }
+
+  return {
+    ...entry,
+    quiz_id: `${id}_m${month.n}`,
+    question_word: `${month.n}월 ${day}일`,
+    translations: koFullDateMeaning(month.n, day),
+    pronunciations,
+  }
+}
+
+/**
+ * One random month for the prompt; the same month is applied to every
+ * distractor so month reading alone cannot reveal the answer.
+ */
+export function entriesWithSharedMonth(
+  current: MeaningQuizEntry,
+  pool: MeaningQuizEntry[],
+  mode: DateMonthComboMode,
+): { current: MeaningQuizEntry; pool: MeaningQuizEntry[] } {
+  const originals = pool.map((entry) => resolveBaseEntry(entry, pool))
+  const baseCurrent = resolveBaseEntry(current, originals)
+  if (!isDateMonthComboEntry(baseCurrent, mode)) {
+    return { current, pool }
+  }
+
+  const forcedMonth = monthFromQuizId(current.quiz_id)
+  const jaMonth =
+    mode === 'ja'
+      ? forcedMonth
+        ? (JA_MONTHS.find((m) => m.n === forcedMonth) ?? pickJaMonth())
+        : pickJaMonth()
+      : null
+  const koMonth =
+    mode === 'ko'
+      ? forcedMonth
+        ? (KO_MONTH_SOUND.find((m) => m.n === forcedMonth) ?? pickKoMonth())
+        : pickKoMonth()
+      : null
+
+  const apply = (entry: MeaningQuizEntry): MeaningQuizEntry => {
+    const base = resolveBaseEntry(entry, originals)
+    if (!isDateMonthComboEntry(base, mode)) return base
+    return mode === 'ja'
+      ? withJapaneseMonth(base, jaMonth!)
+      : withKoreanMonth(base, koMonth!)
+  }
+
+  const sharedCurrent = apply(baseCurrent)
+  const sharedPool = originals
+    .filter(
+      (entry) =>
+        isDateMonthComboEntry(entry, mode) &&
+        baseDateQuizId(entry.quiz_id) !== baseDateQuizId(baseCurrent.quiz_id),
+    )
+    .map(apply)
+
+  return { current: sharedCurrent, pool: sharedPool }
 }

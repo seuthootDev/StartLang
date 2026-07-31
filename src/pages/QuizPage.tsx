@@ -119,11 +119,7 @@ function QuizPageInner({
         ? { targetLang, system: numberSystem, count: 5 }
         : undefined,
     dateMonthCombos:
-      targetLang === 'ja' && categoryId === 'dates'
-        ? 'ja'
-        : targetLang === 'ko' && categoryId === 'time'
-          ? 'ko'
-          : undefined,
+      targetLang === 'ko' && categoryId === 'time' ? 'ko' : undefined,
   })
   const target = getLanguage(targetLang)
 
