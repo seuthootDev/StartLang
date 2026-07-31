@@ -107,6 +107,16 @@
   border: 1.5px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.55);
+  flex-wrap: wrap;
+  gap: 0.05rem;
+}
+
+.vocab-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .alphabet-toggle__button {
@@ -127,6 +137,11 @@
 .alphabet-toggle__button.is-active {
   background: var(--ink);
   color: var(--paper);
+}
+
+.alphabet-toggle__button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .alphabet-toggle__button:focus-visible {

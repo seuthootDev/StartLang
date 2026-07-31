@@ -27,7 +27,7 @@ data/
 Sidebar groups (collapsible):
 
 1. **Basic** — shared 10-step beginner TOC  
-2. **Intermediate** — coming soon  
+2. **Intermediate** — Japanese common kanji words (JMdict), more later  
 3. **Advanced** — coming soon  
 
 ## Basic curriculum (shared TOC)
@@ -103,6 +103,19 @@ Register the file in `src/data/index.ts` (`TABLES`) to show the quiz **Table** b
 - `question_word` — always in the learning language (folder name)
 - `pronunciations[learnerLang]` — how it sounds, written for the learner
 - `translations[learnerLang]` — correct choice for meaning quizzes
+
+## Japanese vocab (JLPT / OpenJLPT)
+
+`scripts/gen-jlpt-vocab.mjs` reads `scripts/openjlpt/{n5..n1}.json`
+([OpenJLPT](https://github.com/evanclan/OpenJLPT)) and writes
+`ja/vocab.n5.json` … `vocab.n1.json` (+ tables, `vocab.manifest.json`).
+
+- Levels N5→N1; each level split into **Day** chunks of **20 words**
+- Readings in hiragana; meaning quiz uses learner-language glosses
+- Routes: `/ja/vocab/:level/:day` (e.g. `/ja/vocab/n5/1`)
+- After generate: `node scripts/translate-vocab-meanings.mjs`
+
+Acknowledge: OpenJLPT dataset authors / upstream JLPT list sources.
 
 ## Gender quiz shape (language-specific, later)
 

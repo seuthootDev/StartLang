@@ -27,16 +27,22 @@ export function useQuizSession(
       count?: number
     }
     dateMonthCombos?: DateMonthComboMode
+    askLimit?: number
+    askEntries?: MeaningQuizEntry[]
   },
 ) {
   const inputMode = options?.inputMode ?? 'choice'
   const numberCombos = options?.numberCombos
   const dateMonthCombos = options?.dateMonthCombos
+  const askLimit = options?.askLimit
+  const askEntries = options?.askEntries
   const [deck, setDeck] = useState<QuizQuestion[]>(() =>
     buildQuizDeck(entries, learnerLang, undefined, {
       inputMode,
       numberCombos,
       dateMonthCombos,
+      askLimit,
+      askEntries,
     }),
   )
   const [index, setIndex] = useState(0)
@@ -89,6 +95,8 @@ export function useQuizSession(
         inputMode,
         numberCombos,
         dateMonthCombos,
+        askLimit,
+        askEntries,
       }),
     )
     setIndex(0)
@@ -96,7 +104,15 @@ export function useQuizSession(
     setScore(0)
     setRound(1)
     setMissed([])
-  }, [entries, learnerLang, inputMode, numberCombos, dateMonthCombos])
+  }, [
+    entries,
+    learnerLang,
+    inputMode,
+    numberCombos,
+    dateMonthCombos,
+    askLimit,
+    askEntries,
+  ])
 
   /** goJapan-style: reshuffle only the missed cards into a new round */
   const retryMissed = useCallback(() => {

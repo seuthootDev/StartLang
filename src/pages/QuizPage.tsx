@@ -10,23 +10,86 @@ import {
   filterNumberSystem,
   type NumberSystemId,
 } from '../config/numberCombos'
+import {
+  dayLabel,
+  filterVocabByDay,
+  filterVocabTableByDay,
+  isKanaOnlyWord,
+  jlptLevelLabel,
+  parseJlptLevel,
+  parseVocabDay,
+  toVocabModeEntry,
+  type JlptLevel,
+  type VocabQuizEntry,
+  type VocabQuizMode,
+} from '../config/vocabQuiz'
 import { getLanguage, isTargetLang } from '../config/languages'
 import { t, tf } from '../config/uiStrings'
 import { useSession } from '../context/SessionContext'
 import { QuizContainer } from '../components/shared/QuizContainer'
 import { useQuizSession } from '../hooks/useQuizSession'
-import { getMeaningQuizzes, getRefTable } from '../data'
+import {
+  getMeaningQuizzes,
+  getRefTable,
+  getVocabManifest,
+  loadVocabQuizzes,
+  loadVocabRefTable,
+} from '../data'
 import type { LangCode, TargetLangCode } from '../types/language'
+import type { RefTable } from '../types/table'
 import './pages.css'
 
 type JapaneseAlphabetSet = 'hiragana' | 'katakana'
 
 export function QuizPage() {
-  const { targetLang: targetParam, categoryId } = useParams()
+  const {
+    targetLang: targetParam,
+    categoryId: categoryParam,
+    jlptLevel: jlptLevelParam,
+    day: dayParam,
+  } = useParams()
   const { learnerLang } = useSession()
   const [japaneseAlphabetSet, setJapaneseAlphabetSet] =
     useState<JapaneseAlphabetSet>('hiragana')
   const [numberSystem, setNumberSystem] = useState<NumberSystemId>('sino')
+  const [vocabMode, setVocabMode] = useState<VocabQuizMode>('reading')
+  const [vocabRaw, setVocabRaw] = useState<VocabQuizEntry[]>([])
+  const [vocabTable, setVocabTable] = useState<RefTable | null>(null)
+  const [vocabReady, setVocabReady] = useState(false)
+
+  const isVocabRoute = Boolean(jlptLevelParam) || categoryParam === 'vocab'
+  const categoryId: CategoryId | undefined = isVocabRoute
+    ? 'vocab'
+    : categoryParam && isCategoryId(categoryParam)
+      ? categoryParam
+      : undefined
+
+  const jlptLevel = parseJlptLevel(jlptLevelParam) ?? 'n5'
+  const maxDay = getVocabManifest().levels[jlptLevel]?.days ?? 1
+  const vocabDay = parseVocabDay(dayParam, maxDay) ?? 1
+
+  useEffect(() => {
+    if (!isVocabRoute) {
+      setVocabRaw([])
+      setVocabTable(null)
+      setVocabReady(true)
+      return
+    }
+    let cancelled = false
+    setVocabReady(false)
+    Promise.all([loadVocabQuizzes(jlptLevel), loadVocabRefTable(jlptLevel)]).then(
+      ([quiz, table]) => {
+        if (cancelled) return
+        setVocabRaw(quiz)
+        setVocabTable(table)
+        setVocabReady(true)
+      },
+    )
+    return () => {
+      cancelled = true
+    }
+  }, [isVocabRoute, jlptLevel])
+
   const mergedIntoTime =
     categoryId === 'weekdays' ||
     categoryId === 'ordinals' ||
@@ -41,8 +104,21 @@ export function QuizPage() {
     return <Navigate to="/" replace />
   }
 
-  if (!categoryId || !isCategoryId(categoryId)) {
+  if (!categoryId) {
     return <Navigate to={`/${targetParam}`} replace />
+  }
+
+  if (isVocabRoute) {
+    const levelOk = parseJlptLevel(jlptLevelParam)
+    const dayOk = parseVocabDay(dayParam, maxDay)
+    if (!levelOk || !dayOk) {
+      return (
+        <Navigate
+          to={`/${targetParam}/vocab/${levelOk ?? 'n5'}/1`}
+          replace
+        />
+      )
+    }
   }
 
   if (mergedIntoTime) {
@@ -56,12 +132,22 @@ export function QuizPage() {
   const effectiveLearner: LangCode =
     learnerLang === targetParam ? 'en' : learnerLang
 
+  if (categoryId === 'vocab' && !vocabReady) {
+    return (
+      <main className="learn-main learn-main--center">
+        <h1 className="section-head__title">…</h1>
+      </main>
+    )
+  }
+
   const sessionKey =
     categoryId === 'numbers'
       ? numberSystem
       : categoryId === 'alphabet' && targetParam === 'ja'
         ? japaneseAlphabetSet
-        : 'default'
+        : categoryId === 'vocab'
+          ? `${jlptLevel}-${vocabDay}-${vocabMode}-ready`
+          : 'default'
 
   return (
     <QuizPageInner
@@ -73,6 +159,12 @@ export function QuizPage() {
       onJapaneseAlphabetSetChange={setJapaneseAlphabetSet}
       numberSystem={numberSystem}
       onNumberSystemChange={setNumberSystem}
+      jlptLevel={jlptLevel}
+      vocabDay={vocabDay}
+      vocabMode={vocabMode}
+      onVocabModeChange={setVocabMode}
+      vocabRaw={vocabRaw}
+      vocabTable={vocabTable}
     />
   )
 }
@@ -85,6 +177,12 @@ function QuizPageInner({
   onJapaneseAlphabetSetChange,
   numberSystem,
   onNumberSystemChange,
+  jlptLevel,
+  vocabDay,
+  vocabMode,
+  onVocabModeChange,
+  vocabRaw,
+  vocabTable,
 }: {
   targetLang: TargetLangCode
   categoryId: CategoryId
@@ -93,8 +191,35 @@ function QuizPageInner({
   onJapaneseAlphabetSetChange: (set: JapaneseAlphabetSet) => void
   numberSystem: NumberSystemId
   onNumberSystemChange: (set: NumberSystemId) => void
+  jlptLevel: JlptLevel
+  vocabDay: number
+  vocabMode: VocabQuizMode
+  onVocabModeChange: (mode: VocabQuizMode) => void
+  vocabRaw: VocabQuizEntry[]
+  vocabTable: RefTable | null
 }) {
   const category = getCategory(categoryId)
+
+  const levelEntries = useMemo(() => {
+    if (categoryId !== 'vocab') return []
+    const source =
+      vocabMode === 'reading'
+        ? vocabRaw.filter((entry) => !isKanaOnlyWord(entry.question_word))
+        : vocabRaw
+    return source.map((entry) => toVocabModeEntry(entry, vocabMode))
+  }, [categoryId, vocabRaw, vocabMode])
+
+  const dayEntries = useMemo(() => {
+    if (categoryId !== 'vocab') return []
+    const source =
+      vocabMode === 'reading'
+        ? filterVocabByDay(vocabRaw, vocabDay).filter(
+            (entry) => !isKanaOnlyWord(entry.question_word),
+          )
+        : filterVocabByDay(vocabRaw, vocabDay)
+    return source.map((entry) => toVocabModeEntry(entry, vocabMode))
+  }, [categoryId, vocabRaw, vocabDay, vocabMode])
+
   const entries = useMemo(() => {
     const allEntries = getMeaningQuizzes(targetLang, categoryId)
     if (categoryId === 'numbers') {
@@ -105,13 +230,25 @@ function QuizPageInner({
         entry.quiz_id.includes(`_alphabet_${japaneseAlphabetSet}_`),
       )
     }
+    if (categoryId === 'vocab') {
+      return levelEntries
+    }
     return allEntries
-  }, [targetLang, categoryId, japaneseAlphabetSet, numberSystem])
+  }, [
+    targetLang,
+    categoryId,
+    japaneseAlphabetSet,
+    numberSystem,
+    levelEntries,
+  ])
 
-  const refTable = useMemo(
-    () => getRefTable(targetLang, categoryId),
-    [targetLang, categoryId],
-  )
+  const refTable = useMemo(() => {
+    if (categoryId === 'vocab') {
+      return filterVocabTableByDay(vocabTable, vocabDay)
+    }
+    return getRefTable(targetLang, categoryId)
+  }, [targetLang, categoryId, vocabTable, vocabDay])
+
   const quiz = useQuizSession(entries, learnerLang, {
     inputMode: categoryId === 'alphabet' ? 'type' : 'choice',
     numberCombos:
@@ -120,16 +257,29 @@ function QuizPageInner({
         : undefined,
     dateMonthCombos:
       targetLang === 'ko' && categoryId === 'time' ? 'ko' : undefined,
+    askEntries: categoryId === 'vocab' ? dayEntries : undefined,
   })
   const target = getLanguage(targetLang)
 
   useEffect(() => {
     const catName = category ? categoryLabel(category, learnerLang) : categoryId
-    document.title = `${target?.englishName ?? targetLang} · ${catName} | LangStart`
+    const vocabBit =
+      categoryId === 'vocab'
+        ? ` · ${jlptLevelLabel(jlptLevel)} · ${dayLabel(vocabDay, learnerLang)}`
+        : ''
+    document.title = `${target?.englishName ?? targetLang} · ${catName}${vocabBit} | LangStart`
     return () => {
       document.title = 'LangStart'
     }
-  }, [target, targetLang, category, categoryId, learnerLang])
+  }, [
+    target,
+    targetLang,
+    category,
+    categoryId,
+    learnerLang,
+    jlptLevel,
+    vocabDay,
+  ])
 
   const scriptToggle =
     targetLang === 'ja' && categoryId === 'alphabet' ? (
@@ -149,7 +299,16 @@ function QuizPageInner({
       />
     ) : null
 
-  const toolbarExtra = numbersToggle ?? scriptToggle
+  const vocabToggle =
+    categoryId === 'vocab' ? (
+      <VocabControls
+        learnerLang={learnerLang}
+        mode={vocabMode}
+        onModeChange={onVocabModeChange}
+      />
+    ) : null
+
+  const toolbarExtra = vocabToggle ?? numbersToggle ?? scriptToggle
 
   if (quiz.total === 0) {
     return (
@@ -214,7 +373,12 @@ function QuizPageInner({
   return (
     <main className="learn-main">
       {category && (
-        <p className="quiz-eyebrow">{categoryLabel(category, learnerLang)}</p>
+        <p className="quiz-eyebrow">
+          {categoryLabel(category, learnerLang)}
+          {categoryId === 'vocab'
+            ? ` · ${jlptLevelLabel(jlptLevel)} · ${dayLabel(vocabDay, learnerLang)}`
+            : ''}
+        </p>
       )}
       <QuizContainer
         learnerLang={learnerLang}
@@ -302,6 +466,43 @@ function NumberSystemToggle({
       >
         {labels.native}
       </button>
+    </div>
+  )
+}
+
+function VocabControls({
+  learnerLang,
+  mode,
+  onModeChange,
+}: {
+  learnerLang: LangCode
+  mode: VocabQuizMode
+  onModeChange: (mode: VocabQuizMode) => void
+}) {
+  return (
+    <div className="vocab-controls">
+      <div
+        className="alphabet-toggle"
+        role="group"
+        aria-label={t(learnerLang, 'vocabMode')}
+      >
+        <button
+          type="button"
+          className={`alphabet-toggle__button${mode === 'reading' ? ' is-active' : ''}`}
+          aria-pressed={mode === 'reading'}
+          onClick={() => onModeChange('reading')}
+        >
+          {t(learnerLang, 'vocabModeReading')}
+        </button>
+        <button
+          type="button"
+          className={`alphabet-toggle__button${mode === 'meaning' ? ' is-active' : ''}`}
+          aria-pressed={mode === 'meaning'}
+          onClick={() => onModeChange('meaning')}
+        >
+          {t(learnerLang, 'vocabModeMeaning')}
+        </button>
+      </div>
     </div>
   )
 }

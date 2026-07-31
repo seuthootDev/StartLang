@@ -31,6 +31,11 @@ type UiKey =
   | 'checkAnswer'
   | 'openTable'
   | 'close'
+  | 'vocabGrade'
+  | 'vocabMode'
+  | 'vocabModeReading'
+  | 'vocabModeMeaning'
+  | 'vocabCount'
 
 const EN: Record<UiKey, string> = {
   appName: 'LangStart',
@@ -63,6 +68,11 @@ const EN: Record<UiKey, string> = {
   checkAnswer: 'Check',
   openTable: 'Table',
   close: 'Close',
+  vocabGrade: 'School grade',
+  vocabMode: 'Quiz mode',
+  vocabModeReading: 'Reading',
+  vocabModeMeaning: 'Meaning',
+  vocabCount: 'Questions',
 }
 
 export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
@@ -98,6 +108,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: '확인',
     openTable: '표',
     close: '닫기',
+    vocabGrade: '학년',
+    vocabMode: '퀴즈 모드',
+    vocabModeReading: '읽기',
+    vocabModeMeaning: '의미',
+    vocabCount: '문제 수',
   },
   ja: {
     appName: 'LangStart',
@@ -130,6 +145,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: '確認',
     openTable: '表',
     close: '閉じる',
+    vocabGrade: '学年',
+    vocabMode: 'クイズモード',
+    vocabModeReading: '読み',
+    vocabModeMeaning: '意味',
+    vocabCount: '問題数',
   },
   zh: {
     appName: 'LangStart',
@@ -162,6 +182,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: '检查',
     openTable: '对照表',
     close: '关闭',
+    vocabGrade: '学年',
+    vocabMode: '测验模式',
+    vocabModeReading: '读音',
+    vocabModeMeaning: '意思',
+    vocabCount: '题数',
   },
   fr: {
     appName: 'LangStart',
@@ -194,6 +219,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: 'Vérifier',
     openTable: 'Tableau',
     close: 'Fermer',
+    vocabGrade: 'Niveau scolaire',
+    vocabMode: 'Mode de quiz',
+    vocabModeReading: 'Lecture',
+    vocabModeMeaning: 'Sens',
+    vocabCount: 'Questions',
   },
   es: {
     appName: 'LangStart',
@@ -226,6 +256,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: 'Comprobar',
     openTable: 'Tabla',
     close: 'Cerrar',
+    vocabGrade: 'Grado escolar',
+    vocabMode: 'Modo de quiz',
+    vocabModeReading: 'Lectura',
+    vocabModeMeaning: 'Significado',
+    vocabCount: 'Preguntas',
   },
   de: {
     appName: 'LangStart',
@@ -258,6 +293,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: 'Prüfen',
     openTable: 'Tabelle',
     close: 'Schließen',
+    vocabGrade: 'Schuljahr',
+    vocabMode: 'Quizmodus',
+    vocabModeReading: 'Lesung',
+    vocabModeMeaning: 'Bedeutung',
+    vocabCount: 'Fragen',
   },
   ru: {
     appName: 'LangStart',
@@ -290,6 +330,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     checkAnswer: 'Проверить',
     openTable: 'Таблица',
     close: 'Закрыть',
+    vocabGrade: 'Класс',
+    vocabMode: 'Режим квиза',
+    vocabModeReading: 'Чтение',
+    vocabModeMeaning: 'Значение',
+    vocabCount: 'Вопросы',
   },
 }
 

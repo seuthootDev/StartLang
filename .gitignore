@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Large dictionary source dumps (generate quiz JSON via scripts/)
+src/data/ja/JMdict_b
+src/data/ja/JMdict_b.gz
+src/data/ja/kanjidic2.xml
+src/data/ja/kanjidic2.xml.gz
+src/data/ja/JMdict*.gz
+scripts/.vocab-meaning-cache.json
+scripts/.vocab-translate-status.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

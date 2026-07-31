@@ -15,6 +15,7 @@ export type CategoryId =
   | 'ordinals'
   | 'months'
   | 'dates'
+  | 'vocab'
 
 export type CategoryGroupId = 'basic' | 'intermediate' | 'advanced'
 
@@ -211,6 +212,34 @@ export const CATEGORIES: CategoryMeta[] = [
     labels: {
       en: 'Dates', ko: '날짜 표현', ja: '日付の表現', zh: '日期表达',
       fr: 'Dates', es: 'Fechas', de: 'Daten', ru: 'Даты',
+    },
+  },
+  {
+    id: 'vocab',
+    group: 'intermediate',
+    step: 1,
+    visibleFor: ['ja'],
+    labels: {
+      en: 'JLPT Vocabulary',
+      ko: 'JLPT 어휘',
+      ja: 'JLPT語彙',
+      zh: 'JLPT词汇',
+      fr: 'Vocabulaire JLPT',
+      es: 'Vocabulario JLPT',
+      de: 'JLPT-Wortschatz',
+      ru: 'Лексика JLPT',
+    },
+    hints: {
+      ja: {
+        en: 'N5–N1 · ~20 words per day',
+        ko: 'N5–N1 · Day당 약 20단어',
+        ja: 'N5–N1・1日約20語',
+        zh: 'N5–N1 · 每天约20词',
+        fr: 'N5–N1 · ~20 mots/jour',
+        es: 'N5–N1 · ~20 palabras/día',
+        de: 'N5–N1 · ~20 Wörter/Tag',
+        ru: 'N5–N1 · ~20 слов/день',
+      },
     },
   },
 ]

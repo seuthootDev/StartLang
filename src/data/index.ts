@@ -34,6 +34,7 @@ import jaWeekdays from './ja/weekdays.json'
 import jaQuestions from './ja/questions.json'
 import jaDemonstratives from './ja/demonstratives.json'
 import jaDates from './ja/dates.json'
+import jaVocabManifest from './ja/vocab.manifest.json'
 import jaAlphabetTable from './ja/alphabet.table.json'
 import jaPronounsTable from './ja/pronouns.table.json'
 import jaNumbersTable from './ja/numbers.table.json'
@@ -44,6 +45,7 @@ import jaWeekdaysTable from './ja/weekdays.table.json'
 import jaQuestionsTable from './ja/questions.table.json'
 import jaDemonstrativesTable from './ja/demonstratives.table.json'
 import jaDatesTable from './ja/dates.table.json'
+import type { JlptLevel, VocabManifest, VocabQuizEntry } from '../config/vocabQuiz'
 
 type CategoryBundles = Partial<Record<CategoryId, MeaningQuizEntry[]>>
 type TableBundles = Partial<Record<CategoryId, RefTable>>
@@ -156,6 +158,44 @@ const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
   },
 }
 
+const vocabQuizLoaders: Record<JlptLevel, () => Promise<{ default: VocabQuizEntry[] }>> = {
+  n5: () => import('./ja/vocab.n5.json') as Promise<{ default: VocabQuizEntry[] }>,
+  n4: () => import('./ja/vocab.n4.json') as Promise<{ default: VocabQuizEntry[] }>,
+  n3: () => import('./ja/vocab.n3.json') as Promise<{ default: VocabQuizEntry[] }>,
+  n2: () => import('./ja/vocab.n2.json') as Promise<{ default: VocabQuizEntry[] }>,
+  n1: () => import('./ja/vocab.n1.json') as Promise<{ default: VocabQuizEntry[] }>,
+}
+
+const vocabTableLoaders: Record<JlptLevel, () => Promise<{ default: RefTable }>> = {
+  n5: () => import('./ja/vocab.n5.table.json') as Promise<{ default: RefTable }>,
+  n4: () => import('./ja/vocab.n4.table.json') as Promise<{ default: RefTable }>,
+  n3: () => import('./ja/vocab.n3.table.json') as Promise<{ default: RefTable }>,
+  n2: () => import('./ja/vocab.n2.table.json') as Promise<{ default: RefTable }>,
+  n1: () => import('./ja/vocab.n1.table.json') as Promise<{ default: RefTable }>,
+}
+
+export function getVocabManifest(): VocabManifest {
+  return jaVocabManifest as VocabManifest
+}
+
+export async function loadVocabQuizzes(level: JlptLevel): Promise<VocabQuizEntry[]> {
+  const mod = await vocabQuizLoaders[level]()
+  return mod.default
+}
+
+export async function loadVocabRefTable(level: JlptLevel): Promise<RefTable | null> {
+  const mod = await vocabTableLoaders[level]()
+  return mod.default
+}
+
+export function getVocabTotalCount(): number {
+  const levels = getVocabManifest().levels
+  return (Object.values(levels) as Array<{ words: number }>).reduce(
+    (sum, row) => sum + (row?.words ?? 0),
+    0,
+  )
+}
+
 const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
   ko: {
     alphabet: koAlphabetTable as RefTable,
@@ -186,6 +226,9 @@ export function getMeaningQuizzes(
   targetLang: TargetLangCode,
   category: CategoryId,
 ): MeaningQuizEntry[] {
+  if (category === 'vocab') {
+    return []
+  }
   if (category === 'time') {
     const bundle = DATASET[targetLang]
     const base = mergeEntries(
@@ -203,6 +246,9 @@ export function getCategoryCount(
   targetLang: TargetLangCode,
   category: CategoryId,
 ): number {
+  if (category === 'vocab' && targetLang === 'ja') {
+    return getVocabTotalCount()
+  }
   return getMeaningQuizzes(targetLang, category).length
 }
 

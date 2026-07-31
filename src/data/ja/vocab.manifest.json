@@ -1,0 +1,30 @@
+{
+  "wordsPerDay": 20,
+  "levels": {
+    "n5": {
+      "words": 655,
+      "days": 33,
+      "wordsPerDay": 20
+    },
+    "n4": {
+      "words": 628,
+      "days": 32,
+      "wordsPerDay": 20
+    },
+    "n3": {
+      "words": 1784,
+      "days": 90,
+      "wordsPerDay": 20
+    },
+    "n2": {
+      "words": 1790,
+      "days": 90,
+      "wordsPerDay": 20
+    },
+    "n1": {
+      "words": 3463,
+      "days": 174,
+      "wordsPerDay": 20
+    }
+  }
+}

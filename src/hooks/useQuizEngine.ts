@@ -95,6 +95,11 @@ function sameFamilyPool(
         e.quiz_id.startsWith('ja_dates_day_') || e.quiz_id === 'ja_dates_nannichi',
     )
   }
+  const vocabLevel = id.match(/^ja_vocab_(n[1-5])_/)
+  if (vocabLevel) {
+    const prefix = `ja_vocab_${vocabLevel[1]}_`
+    return pool.filter((e) => e.quiz_id.startsWith(prefix))
+  }
   return pool
 }
 
@@ -162,6 +167,10 @@ export function buildQuizDeck(
     }
     /** JA dates / KO calendar days: prefix a random month on day cards. */
     dateMonthCombos?: DateMonthComboMode
+    /** Cap how many questions are asked; distractors still use full pool. */
+    askLimit?: number
+    /** Ask only these cards; distractors still use full `entries` pool. */
+    askEntries?: MeaningQuizEntry[]
   },
 ): QuizQuestion[] {
   const inputMode = options?.inputMode ?? 'choice'
@@ -176,7 +185,9 @@ export function buildQuizDeck(
   let pool = entries.filter((entry) => entry.translations[learnerLang])
   let askFrom = subset
     ? subset.filter((entry) => entry.translations[learnerLang])
-    : pool
+    : options?.askEntries
+      ? options.askEntries.filter((entry) => entry.translations[learnerLang])
+      : pool
 
   if (options?.numberCombos && !subset) {
     const combos = generateNumberComboEntries(
@@ -186,6 +197,13 @@ export function buildQuizDeck(
     )
     askFrom = [...askFrom, ...combos]
     pool = [...pool, ...combos]
+  }
+
+  if (options?.askLimit != null && !subset) {
+    askFrom = shuffle(askFrom).slice(
+      0,
+      Math.min(options.askLimit, askFrom.length),
+    )
   }
 
   if (options?.dateMonthCombos) {

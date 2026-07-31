@@ -144,6 +144,107 @@
   gap: 0.2rem;
 }
 
+.learn-sidebar__branch {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.learn-sidebar__link--parent {
+  cursor: default;
+}
+
+.learn-sidebar__link--parent.is-active {
+  border-color: transparent;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.learn-sidebar__sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0.1rem 0.35rem 0.35rem 1.95rem;
+}
+
+.learn-sidebar__sub--days {
+  max-height: 9.5rem;
+  overflow: auto;
+  padding-left: 0.55rem;
+  margin-bottom: 0.25rem;
+}
+
+.learn-sidebar__jlpt {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.1rem 0 0.2rem 0.15rem;
+}
+
+.learn-sidebar__jlpt-level {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.learn-sidebar__jlpt-toggle {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.35rem 0.5rem;
+  border: none;
+  border-radius: 0.55rem;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.learn-sidebar__jlpt-toggle:hover {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.learn-sidebar__jlpt-toggle.is-current {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.learn-sidebar__jlpt-meta {
+  margin-left: auto;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.learn-sidebar__sublink {
+  appearance: none;
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.28rem 0.5rem;
+  border-radius: 999px;
+  border: 1.5px solid transparent;
+  background: rgba(255, 255, 255, 0.35);
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.learn-sidebar__sublink:hover {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.learn-sidebar__sublink.is-active {
+  color: var(--paper);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
 .learn-sidebar__empty {
   margin: 0.15rem 0 0.35rem;
   padding: 0.45rem 0.65rem;
