@@ -1,0 +1,40 @@
+{
+  "table_id": "ko_dates_ref",
+  "title": {
+    "en": "Dates",
+    "ko": "날짜 표현"
+  },
+  "note": {
+    "en": "Moved into Time & calendar basics.",
+    "ko": "「시간과 달력 기초」로 옮겼습니다."
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    }
+  ],
+  "rows": []
+}

@@ -26,6 +26,8 @@ export interface CategoryMeta {
   labels: Partial<Record<LangCode, string>>
   /** Keep route compatibility without showing in the sidebar */
   hidden?: boolean
+  /** If set, only these learning languages show the category */
+  visibleFor?: TargetLangCode[]
   /** Optional short subtitle (e.g. Hangul / Hiragana) */
   hints?: Partial<Record<TargetLangCode, Partial<Record<LangCode, string>>>>
 }
@@ -204,6 +206,8 @@ export const CATEGORIES: CategoryMeta[] = [
     id: 'dates',
     group: 'basic',
     step: 7,
+    /** Korean date units live under Time & calendar; JA keeps irregular day drills here. */
+    visibleFor: ['ja'],
     labels: {
       en: 'Dates', ko: '날짜 표현', ja: '日付の表現', zh: '日期表达',
       fr: 'Dates', es: 'Fechas', de: 'Daten', ru: 'Даты',
@@ -219,10 +223,17 @@ export function isCategoryId(id: string): id is CategoryId {
   return CATEGORIES.some((c) => c.id === id)
 }
 
-export function categoriesInGroup(groupId: CategoryGroupId): CategoryMeta[] {
-  return CATEGORIES.filter((c) => c.group === groupId && !c.hidden).sort(
-    (a, b) => a.step - b.step,
-  )
+export function categoriesInGroup(
+  groupId: CategoryGroupId,
+  targetLang?: TargetLangCode,
+): CategoryMeta[] {
+  return CATEGORIES.filter((c) => {
+    if (c.group !== groupId || c.hidden) return false
+    if (targetLang && c.visibleFor && !c.visibleFor.includes(targetLang)) {
+      return false
+    }
+    return true
+  }).sort((a, b) => a.step - b.step)
 }
 
 export function groupLabel(

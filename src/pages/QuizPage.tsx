@@ -49,6 +49,10 @@ export function QuizPage() {
     return <Navigate to={`/${targetParam}/time`} replace />
   }
 
+  if (categoryId === 'dates' && targetParam === 'ko') {
+    return <Navigate to={`/${targetParam}/time`} replace />
+  }
+
   const effectiveLearner: LangCode =
     learnerLang === targetParam ? 'en' : learnerLang
 
@@ -114,6 +118,12 @@ function QuizPageInner({
       categoryId === 'numbers'
         ? { targetLang, system: numberSystem, count: 5 }
         : undefined,
+    dateMonthCombos:
+      targetLang === 'ja' && categoryId === 'dates'
+        ? 'ja'
+        : targetLang === 'ko' && categoryId === 'time'
+          ? 'ko'
+          : undefined,
   })
   const target = getLanguage(targetLang)
 

@@ -4,6 +4,7 @@ import {
   generateNumberComboEntries,
   type NumberSystemId,
 } from '../config/numberCombos'
+import { applyDateMonthCombos, type DateMonthComboMode } from '../config/dateMonthCombos'
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -138,6 +139,8 @@ export function buildQuizDeck(
       system: NumberSystemId
       count?: number
     }
+    /** JA dates / KO calendar days: prefix a random month on day cards. */
+    dateMonthCombos?: DateMonthComboMode
   },
 ): QuizQuestion[] {
   const inputMode = options?.inputMode ?? 'choice'
@@ -162,6 +165,11 @@ export function buildQuizDeck(
     )
     askFrom = [...askFrom, ...combos]
     pool = [...pool, ...combos]
+  }
+
+  if (options?.dateMonthCombos) {
+    askFrom = applyDateMonthCombos(askFrom, options.dateMonthCombos)
+    pool = applyDateMonthCombos(pool, options.dateMonthCombos)
   }
 
   return shuffle(askFrom)

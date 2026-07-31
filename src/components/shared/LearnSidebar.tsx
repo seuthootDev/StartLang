@@ -115,7 +115,7 @@ function SidebarGroup({
   collapsed: boolean
   onToggle: () => void
 }) {
-  const items = categoriesInGroup(group.id)
+  const items = categoriesInGroup(group.id, code)
   const panelId = `sidebar-group-${group.id}`
 
   return (

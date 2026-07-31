@@ -1,0 +1,236 @@
+[
+  {
+    "quiz_id": "ja_dates_day_1",
+    "question_word": "一日",
+    "pronunciations": {},
+    "translations": {
+      "en": "tsuitachi",
+      "ko": "츠이타치",
+      "ja": "ついたち",
+      "zh": "tsuitachi",
+      "fr": "tsuitachi",
+      "es": "tsuitachi",
+      "de": "tsuitachi",
+      "ru": "цуитати"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_2",
+    "question_word": "二日",
+    "pronunciations": {},
+    "translations": {
+      "en": "futsuka",
+      "ko": "후츠카",
+      "ja": "ふつか",
+      "zh": "futsuka",
+      "fr": "futsuka",
+      "es": "futsuka",
+      "de": "futsuka",
+      "ru": "фуцука"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_3",
+    "question_word": "三日",
+    "pronunciations": {},
+    "translations": {
+      "en": "mikka",
+      "ko": "밋카",
+      "ja": "みっか",
+      "zh": "mikka",
+      "fr": "mikka",
+      "es": "mikka",
+      "de": "mikka",
+      "ru": "микка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_4",
+    "question_word": "四日",
+    "pronunciations": {},
+    "translations": {
+      "en": "yokka",
+      "ko": "욕카",
+      "ja": "よっか",
+      "zh": "yokka",
+      "fr": "yokka",
+      "es": "yokka",
+      "de": "yokka",
+      "ru": "ёкка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_5",
+    "question_word": "五日",
+    "pronunciations": {},
+    "translations": {
+      "en": "itsuka",
+      "ko": "이츠카",
+      "ja": "いつか",
+      "zh": "itsuka",
+      "fr": "itsuka",
+      "es": "itsuka",
+      "de": "itsuka",
+      "ru": "ицука"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_6",
+    "question_word": "六日",
+    "pronunciations": {},
+    "translations": {
+      "en": "muika",
+      "ko": "무이카",
+      "ja": "むいか",
+      "zh": "muika",
+      "fr": "muika",
+      "es": "muika",
+      "de": "muika",
+      "ru": "муика"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_7",
+    "question_word": "七日",
+    "pronunciations": {},
+    "translations": {
+      "en": "nanoka",
+      "ko": "나노카",
+      "ja": "なのか",
+      "zh": "nanoka",
+      "fr": "nanoka",
+      "es": "nanoka",
+      "de": "nanoka",
+      "ru": "нанока"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_8",
+    "question_word": "八日",
+    "pronunciations": {},
+    "translations": {
+      "en": "youka",
+      "ko": "요오카",
+      "ja": "ようか",
+      "zh": "youka",
+      "fr": "youka",
+      "es": "youka",
+      "de": "youka",
+      "ru": "ё:ка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_9",
+    "question_word": "九日",
+    "pronunciations": {},
+    "translations": {
+      "en": "kokonoka",
+      "ko": "코코노카",
+      "ja": "ここのか",
+      "zh": "kokonoka",
+      "fr": "kokonoka",
+      "es": "kokonoka",
+      "de": "kokonoka",
+      "ru": "коконока"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_10",
+    "question_word": "十日",
+    "pronunciations": {},
+    "translations": {
+      "en": "tooka",
+      "ko": "토오카",
+      "ja": "とおか",
+      "zh": "tooka",
+      "fr": "tooka",
+      "es": "tooka",
+      "de": "tooka",
+      "ru": "то:ка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_14",
+    "question_word": "十四日",
+    "pronunciations": {},
+    "translations": {
+      "en": "juu-yokka",
+      "ko": "주우욕카",
+      "ja": "じゅうよっか",
+      "zh": "juu-yokka",
+      "fr": "juu-yokka",
+      "es": "juu-yokka",
+      "de": "juu-yokka",
+      "ru": "дзю:-ёкка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_20",
+    "question_word": "二十日",
+    "pronunciations": {},
+    "translations": {
+      "en": "hatsuka",
+      "ko": "하츠카",
+      "ja": "はつか",
+      "zh": "hatsuka",
+      "fr": "hatsuka",
+      "es": "hatsuka",
+      "de": "hatsuka",
+      "ru": "хацука"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_24",
+    "question_word": "二十四日",
+    "pronunciations": {},
+    "translations": {
+      "en": "nijuuyokka",
+      "ko": "니주우욕카",
+      "ja": "にじゅうよっか",
+      "zh": "nijuuyokka",
+      "fr": "nijuuyokka",
+      "es": "nijuuyokka",
+      "de": "nijuuyokka",
+      "ru": "нидзю:-ёкка"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_day_15",
+    "question_word": "十五日",
+    "pronunciations": {},
+    "translations": {
+      "en": "juugo-nichi",
+      "ko": "주우고니치",
+      "ja": "じゅうごにち",
+      "zh": "juugo-nichi",
+      "fr": "juugo-nichi",
+      "es": "juugo-nichi",
+      "de": "juugo-nichi",
+      "ru": "дзю:го-нити"
+    }
+  },
+  {
+    "quiz_id": "ja_dates_nannichi",
+    "question_word": "何日",
+    "pronunciations": {
+      "en": "nannichi",
+      "ko": "난니치",
+      "ja": "なんにち",
+      "zh": "nannichi",
+      "fr": "nannichi",
+      "es": "nannichi",
+      "de": "nannichi",
+      "ru": "наннити"
+    },
+    "translations": {
+      "en": "what day (of the month) / how many days",
+      "zh": "几号 / 几天",
+      "fr": "quel jour / combien de jours",
+      "es": "qué día / cuántos días",
+      "de": "welcher Tag / wie viele Tage",
+      "ru": "какое число / сколько дней",
+      "ko": "며칠 / 며칠(기간)",
+      "ja": "何日"
+    }
+  }
+]

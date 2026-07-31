@@ -1,0 +1,568 @@
+{
+  "table_id": "ko_demonstratives_ref",
+  "title": {
+    "en": "Demonstratives & directions",
+    "ko": "지시대명사·방향",
+    "ja": "指示詞・方向",
+    "zh": "指示词与方向",
+    "fr": "Démonstratifs & directions",
+    "es": "Demostrativos y direcciones",
+    "de": "Demonstrativa & Richtungen",
+    "ru": "Указательные и направления"
+  },
+  "note": {
+    "en": "이/그/저 distance system plus basic place words.",
+    "ko": "이·그·저 거리 체계와 기본 방향어.",
+    "ja": "이/그/저 の距離体系と基本の方向語。",
+    "zh": "이/그/저 距离体系与基本方位词。",
+    "fr": "Systeme i/geu/jeo et directions de base.",
+    "es": "Sistema i/geu/jeo y direcciones basicas.",
+    "de": "i/geu/jeo-System und Grundrichtungen.",
+    "ru": "Система и/гы/чо и базовые направления."
+  },
+  "rules": {
+    "en": [
+      "이 = near me, 그 = near you / already known, 저 = far from both.",
+      "이것/그것/저것 are the thing forms; spoken often shorten to 이거/그거/저거.",
+      "여기/거기/저기 and 이쪽/그쪽/저쪽 follow the same distance pattern."
+    ],
+    "ko": [
+      "이=화자 쪽, 그=청자·이미 알려진 것, 저=둘에서 먼 곳.",
+      "이것/그것/저것은 사물형; 회화에서는 이거/그거/저거가 흔합니다.",
+      "여기/거기/저기, 이쪽/그쪽/저쪽도 같은 거리 패턴입니다."
+    ],
+    "ja": [
+      "이＝話し手寄り、그＝相手寄り・既出、저＝両者から遠い。",
+      "이것/그것/저것がもの。会話では 이거/그거/저거 が多い。",
+      "여기/거기/저기、이쪽/그쪽/저쪽も同じ距離パターン。"
+    ],
+    "zh": [
+      "이靠近说话人，그靠近听者/已知，저两者都远。",
+      "이것/그것/저것是事物形式；口语常说 이거/그거/저거。",
+      "여기/거기/저기 与 이쪽/그쪽/저쪽 同一距离模式。"
+    ],
+    "fr": [
+      "이 = pres de moi, 그 = pres de toi / connu, 저 = loin.",
+      "이것/그것/저것 = objets ; oral: 이거/그거/저거.",
+      "여기/거기/저기 et 이쪽/그쪽/저쪽 suivent la meme distance."
+    ],
+    "es": [
+      "이 = cerca de mi, 그 = cerca de ti / conocido, 저 = lejos.",
+      "이것/그것/저것 = cosas; oral: 이거/그거/저거.",
+      "여기/거기/저기 y 이쪽/그쪽/저쪽 siguen la misma distancia."
+    ],
+    "de": [
+      "이 = bei mir, 그 = bei dir / bekannt, 저 = weit weg.",
+      "이것/그것/저것 = Dinge; mundlich oft 이거/그거/저거.",
+      "여기/거기/저기 und 이쪽/그쪽/저쪽 folgen demselben Abstand."
+    ],
+    "ru": [
+      "이 = рядом со мной, 그 = у тебя / известное, 저 = далеко.",
+      "이것/그것/저것 — предметы; в речи часто 이거/그거/저거.",
+      "여기/거기/저기 и 이쪽/그쪽/저쪽 — та же схема расстояния."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "이",
+      "meaning": {
+        "en": "this (+ noun, near me)",
+        "zh": "这（＋名词，近说话人）",
+        "fr": "ce (+ nom, près de moi)",
+        "es": "este (+ sustantivo, cerca de mí)",
+        "de": "dies- (+ Nomen, bei mir)",
+        "ru": "этот (+ сущ., рядом со мной)",
+        "ko": "이",
+        "ja": "この（話し手に近い）"
+      },
+      "sound": {
+        "en": "i",
+        "ja": "イ",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ru": "и",
+        "ko": "이"
+      }
+    },
+    {
+      "form": "그",
+      "meaning": {
+        "en": "that (+ noun, near you / known)",
+        "zh": "那（＋名词，近听者/已知）",
+        "fr": "ce (+ nom, près de toi / connu)",
+        "es": "ese (+ sustantivo, cerca de ti / conocido)",
+        "de": "jen- (+ Nomen, bei dir / bekannt)",
+        "ru": "тот (+ сущ., у тебя / известный)",
+        "ko": "그",
+        "ja": "その（相手寄り・既出）"
+      },
+      "sound": {
+        "en": "geu",
+        "ja": "ク",
+        "zh": "geu",
+        "fr": "geu",
+        "es": "geu",
+        "de": "geu",
+        "ru": "кы",
+        "ko": "그"
+      }
+    },
+    {
+      "form": "저",
+      "meaning": {
+        "en": "that (+ noun, over there)",
+        "zh": "那（＋名词，远处）",
+        "fr": "ce (+ nom, là-bas)",
+        "es": "aquel (+ sustantivo, allá)",
+        "de": "jen- (+ Nomen, dort drüben)",
+        "ru": "тот (+ сущ., вон там)",
+        "ko": "저",
+        "ja": "あの（遠く）"
+      },
+      "sound": {
+        "en": "jeo",
+        "ja": "チョ",
+        "zh": "jeo",
+        "fr": "jeo",
+        "es": "jeo",
+        "de": "jeo",
+        "ru": "чо",
+        "ko": "저"
+      }
+    },
+    {
+      "form": "이것",
+      "meaning": {
+        "en": "this (thing)",
+        "zh": "这个",
+        "fr": "ceci / ça (près de moi)",
+        "es": "esto",
+        "de": "dies (Ding)",
+        "ru": "это",
+        "ko": "이것",
+        "ja": "これ"
+      },
+      "sound": {
+        "en": "i-geot",
+        "ja": "イゴト",
+        "zh": "i-geot",
+        "fr": "i-geot",
+        "es": "i-geot",
+        "de": "i-geot",
+        "ru": "и-гот",
+        "ko": "이것"
+      }
+    },
+    {
+      "form": "그것",
+      "meaning": {
+        "en": "that (thing, near you / known)",
+        "zh": "那个（近听者/已知）",
+        "fr": "cela (près de toi / connu)",
+        "es": "eso",
+        "de": "das (bei dir / bekannt)",
+        "ru": "то (у тебя / известное)",
+        "ko": "그것",
+        "ja": "それ"
+      },
+      "sound": {
+        "en": "geu-geot",
+        "ja": "クゴト",
+        "zh": "geu-geot",
+        "fr": "geu-geot",
+        "es": "geu-geot",
+        "de": "geu-geot",
+        "ru": "кы-гот",
+        "ko": "그것"
+      }
+    },
+    {
+      "form": "저것",
+      "meaning": {
+        "en": "that (thing over there)",
+        "zh": "那个（远处）",
+        "fr": "cela (là-bas)",
+        "es": "aquello",
+        "de": "jenes (dort drüben)",
+        "ru": "то (вон там)",
+        "ko": "저것",
+        "ja": "あれ"
+      },
+      "sound": {
+        "en": "jeo-geot",
+        "ja": "チョゴト",
+        "zh": "jeo-geot",
+        "fr": "jeo-geot",
+        "es": "jeo-geot",
+        "de": "jeo-geot",
+        "ru": "чо-гот",
+        "ko": "저것"
+      }
+    },
+    {
+      "form": "여기",
+      "meaning": {
+        "en": "here",
+        "zh": "这里",
+        "fr": "ici",
+        "es": "aquí",
+        "de": "hier",
+        "ru": "здесь",
+        "ko": "여기",
+        "ja": "ここ"
+      },
+      "sound": {
+        "en": "yeo-gi",
+        "ja": "ヨギ",
+        "zh": "yeo-gi",
+        "fr": "yeo-gi",
+        "es": "yeo-gi",
+        "de": "yeo-gi",
+        "ru": "йо-ги",
+        "ko": "여기"
+      }
+    },
+    {
+      "form": "거기",
+      "meaning": {
+        "en": "there (near you / known place)",
+        "zh": "那里（近听者/已知处）",
+        "fr": "là (près de toi / lieu connu)",
+        "es": "ahí",
+        "de": "da (bei dir / bekannter Ort)",
+        "ru": "там (у тебя / известное место)",
+        "ko": "거기",
+        "ja": "そこ"
+      },
+      "sound": {
+        "en": "geo-gi",
+        "ja": "コギ",
+        "zh": "geo-gi",
+        "fr": "geo-gi",
+        "es": "geo-gi",
+        "de": "geo-gi",
+        "ru": "ко-ги",
+        "ko": "거기"
+      }
+    },
+    {
+      "form": "저기",
+      "meaning": {
+        "en": "over there",
+        "zh": "那边（远处）",
+        "fr": "là-bas",
+        "es": "allá",
+        "de": "dort drüben",
+        "ru": "вон там",
+        "ko": "저기",
+        "ja": "あそこ"
+      },
+      "sound": {
+        "en": "jeo-gi",
+        "ja": "チョギ",
+        "zh": "jeo-gi",
+        "fr": "jeo-gi",
+        "es": "jeo-gi",
+        "de": "jeo-gi",
+        "ru": "чо-ги",
+        "ko": "저기"
+      }
+    },
+    {
+      "form": "이쪽",
+      "meaning": {
+        "en": "this way / this side",
+        "zh": "这边",
+        "fr": "par ici / ce côté",
+        "es": "por aquí / este lado",
+        "de": "hierher / diese Seite",
+        "ru": "сюда / эта сторона",
+        "ko": "이쪽",
+        "ja": "こちら / こっち"
+      },
+      "sound": {
+        "en": "i-jjok",
+        "ja": "イッチョク",
+        "zh": "i-jjok",
+        "fr": "i-jjok",
+        "es": "i-jjok",
+        "de": "i-jjok",
+        "ru": "и-ччок",
+        "ko": "이쪽"
+      }
+    },
+    {
+      "form": "그쪽",
+      "meaning": {
+        "en": "that way / that side (near you)",
+        "zh": "那边（近听者）",
+        "fr": "par là / ce côté-là",
+        "es": "por ahí / ese lado",
+        "de": "dorthin / deine Seite",
+        "ru": "туда / та сторона (у тебя)",
+        "ko": "그쪽",
+        "ja": "そちら / そっち"
+      },
+      "sound": {
+        "en": "geu-jjok",
+        "ja": "クッチョク",
+        "zh": "geu-jjok",
+        "fr": "geu-jjok",
+        "es": "geu-jjok",
+        "de": "geu-jjok",
+        "ru": "кы-ччок",
+        "ko": "그쪽"
+      }
+    },
+    {
+      "form": "저쪽",
+      "meaning": {
+        "en": "that way over there",
+        "zh": "那边（远处）",
+        "fr": "par là-bas",
+        "es": "por allá",
+        "de": "dort hinüber",
+        "ru": "в ту сторону (вон там)",
+        "ko": "저쪽",
+        "ja": "あちら / あっち"
+      },
+      "sound": {
+        "en": "jeo-jjok",
+        "ja": "チョッチョク",
+        "zh": "jeo-jjok",
+        "fr": "jeo-jjok",
+        "es": "jeo-jjok",
+        "de": "jeo-jjok",
+        "ru": "чо-ччок",
+        "ko": "저쪽"
+      }
+    },
+    {
+      "form": "앞",
+      "meaning": {
+        "en": "front / ahead",
+        "zh": "前面",
+        "fr": "devant / avant",
+        "es": "delante / frente",
+        "de": "vorne / Vorderseite",
+        "ru": "перед / впереди",
+        "ko": "앞",
+        "ja": "前"
+      },
+      "sound": {
+        "en": "ap",
+        "ja": "アプ",
+        "zh": "ap",
+        "fr": "ap",
+        "es": "ap",
+        "de": "ap",
+        "ru": "ап",
+        "ko": "앞"
+      }
+    },
+    {
+      "form": "뒤",
+      "meaning": {
+        "en": "back / behind",
+        "zh": "后面",
+        "fr": "derrière",
+        "es": "detrás / espalda",
+        "de": "hinten / Rückseite",
+        "ru": "зад / сзади",
+        "ko": "뒤",
+        "ja": "後ろ"
+      },
+      "sound": {
+        "en": "dwi",
+        "ja": "トゥィ",
+        "zh": "dwi",
+        "fr": "dwi",
+        "es": "dwi",
+        "de": "dwi",
+        "ru": "тви",
+        "ko": "뒤"
+      }
+    },
+    {
+      "form": "위",
+      "meaning": {
+        "en": "above / on top",
+        "zh": "上面",
+        "fr": "au-dessus / sur",
+        "es": "arriba / encima",
+        "de": "oben / auf",
+        "ru": "верх / на",
+        "ko": "위",
+        "ja": "上"
+      },
+      "sound": {
+        "en": "wi",
+        "ja": "ウィ",
+        "zh": "wi",
+        "fr": "wi",
+        "es": "wi",
+        "de": "wi",
+        "ru": "ви",
+        "ko": "위"
+      }
+    },
+    {
+      "form": "아래",
+      "meaning": {
+        "en": "below / under",
+        "zh": "下面",
+        "fr": "en dessous / sous",
+        "es": "abajo / debajo",
+        "de": "unten / unter",
+        "ru": "низ / под",
+        "ko": "아래",
+        "ja": "下"
+      },
+      "sound": {
+        "en": "a-rae",
+        "ja": "アレ",
+        "zh": "a-rae",
+        "fr": "a-rae",
+        "es": "a-rae",
+        "de": "a-rae",
+        "ru": "а-рэ",
+        "ko": "아래"
+      }
+    },
+    {
+      "form": "왼쪽",
+      "meaning": {
+        "en": "left (side)",
+        "zh": "左边",
+        "fr": "gauche",
+        "es": "izquierda",
+        "de": "links",
+        "ru": "слева / левая сторона",
+        "ko": "왼쪽",
+        "ja": "左"
+      },
+      "sound": {
+        "en": "oen-jjok",
+        "ja": "ウェンチョク",
+        "zh": "oen-jjok",
+        "fr": "oen-jjok",
+        "es": "oen-jjok",
+        "de": "oen-jjok",
+        "ru": "вен-ччок",
+        "ko": "왼쪽"
+      }
+    },
+    {
+      "form": "오른쪽",
+      "meaning": {
+        "en": "right (side)",
+        "zh": "右边",
+        "fr": "droite",
+        "es": "derecha",
+        "de": "rechts",
+        "ru": "справа / правая сторона",
+        "ko": "오른쪽",
+        "ja": "右"
+      },
+      "sound": {
+        "en": "o-reun-jjok",
+        "ja": "オルンチョク",
+        "zh": "o-reun-jjok",
+        "fr": "o-reun-jjok",
+        "es": "o-reun-jjok",
+        "de": "o-reun-jjok",
+        "ru": "о-рын-ччок",
+        "ko": "오른쪽"
+      }
+    },
+    {
+      "form": "안",
+      "meaning": {
+        "en": "inside",
+        "zh": "里面",
+        "fr": "intérieur / dedans",
+        "es": "dentro",
+        "de": "innen / drinnen",
+        "ru": "внутри",
+        "ko": "안",
+        "ja": "中 / 内側"
+      },
+      "sound": {
+        "en": "an",
+        "ja": "アン",
+        "zh": "an",
+        "fr": "an",
+        "es": "an",
+        "de": "an",
+        "ru": "ан",
+        "ko": "안"
+      }
+    },
+    {
+      "form": "밖",
+      "meaning": {
+        "en": "outside",
+        "zh": "外面",
+        "fr": "extérieur / dehors",
+        "es": "fuera",
+        "de": "außen / draußen",
+        "ru": "снаружи",
+        "ko": "밖",
+        "ja": "外"
+      },
+      "sound": {
+        "en": "bak",
+        "ja": "パッ",
+        "zh": "bak",
+        "fr": "bak",
+        "es": "bak",
+        "de": "bak",
+        "ru": "пак",
+        "ko": "밖"
+      }
+    }
+  ]
+}

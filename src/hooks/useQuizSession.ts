@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react'
 import type { NumberSystemId } from '../config/numberCombos'
+import type { DateMonthComboMode } from '../config/dateMonthCombos'
 import type { LangCode, TargetLangCode } from '../types/language'
 import type { MeaningQuizEntry, QuizInputMode, QuizQuestion } from '../types/vocab'
 import {
@@ -25,12 +26,18 @@ export function useQuizSession(
       system: NumberSystemId
       count?: number
     }
+    dateMonthCombos?: DateMonthComboMode
   },
 ) {
   const inputMode = options?.inputMode ?? 'choice'
   const numberCombos = options?.numberCombos
+  const dateMonthCombos = options?.dateMonthCombos
   const [deck, setDeck] = useState<QuizQuestion[]>(() =>
-    buildQuizDeck(entries, learnerLang, undefined, { inputMode, numberCombos }),
+    buildQuizDeck(entries, learnerLang, undefined, {
+      inputMode,
+      numberCombos,
+      dateMonthCombos,
+    }),
   )
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
@@ -77,25 +84,37 @@ export function useQuizSession(
   }, [])
 
   const restart = useCallback(() => {
-    setDeck(buildQuizDeck(entries, learnerLang, undefined, { inputMode, numberCombos }))
+    setDeck(
+      buildQuizDeck(entries, learnerLang, undefined, {
+        inputMode,
+        numberCombos,
+        dateMonthCombos,
+      }),
+    )
     setIndex(0)
     setSelected(null)
     setScore(0)
     setRound(1)
     setMissed([])
-  }, [entries, learnerLang, inputMode, numberCombos])
+  }, [entries, learnerLang, inputMode, numberCombos, dateMonthCombos])
 
   /** goJapan-style: reshuffle only the missed cards into a new round */
   const retryMissed = useCallback(() => {
     if (missed.length === 0) return
     const subset = missed.map((m) => m.entry)
-    setDeck(buildQuizDeck(entries, learnerLang, subset, { inputMode, numberCombos }))
+    setDeck(
+      buildQuizDeck(entries, learnerLang, subset, {
+        inputMode,
+        numberCombos,
+        dateMonthCombos,
+      }),
+    )
     setIndex(0)
     setSelected(null)
     setScore(0)
     setRound((r) => r + 1)
     setMissed([])
-  }, [missed, entries, learnerLang, inputMode, numberCombos])
+  }, [missed, entries, learnerLang, inputMode, numberCombos, dateMonthCombos])
 
   return {
     current,

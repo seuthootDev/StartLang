@@ -11,6 +11,7 @@ import koMonths from './ko/months.json'
 import koTime from './ko/time.json'
 import koWeekdays from './ko/weekdays.json'
 import koQuestions from './ko/questions.json'
+import koDemonstratives from './ko/demonstratives.json'
 import koAlphabetTable from './ko/alphabet.table.json'
 import koPronounsTable from './ko/pronouns.table.json'
 import koNumbersTable from './ko/numbers.table.json'
@@ -19,6 +20,9 @@ import koMonthsTable from './ko/months.table.json'
 import koTimeTable from './ko/time.table.json'
 import koWeekdaysTable from './ko/weekdays.table.json'
 import koQuestionsTable from './ko/questions.table.json'
+import koDemonstrativesTable from './ko/demonstratives.table.json'
+import koDayOfMonth from './ko/dayOfMonth.json'
+import koDayOfMonthTable from './ko/dayOfMonth.table.json'
 
 import jaAlphabet from './ja/alphabet.json'
 import jaPronouns from './ja/pronouns.json'
@@ -28,6 +32,8 @@ import jaMonths from './ja/months.json'
 import jaTime from './ja/time.json'
 import jaWeekdays from './ja/weekdays.json'
 import jaQuestions from './ja/questions.json'
+import jaDemonstratives from './ja/demonstratives.json'
+import jaDates from './ja/dates.json'
 import jaAlphabetTable from './ja/alphabet.table.json'
 import jaPronounsTable from './ja/pronouns.table.json'
 import jaNumbersTable from './ja/numbers.table.json'
@@ -36,6 +42,8 @@ import jaMonthsTable from './ja/months.table.json'
 import jaTimeTable from './ja/time.table.json'
 import jaWeekdaysTable from './ja/weekdays.table.json'
 import jaQuestionsTable from './ja/questions.table.json'
+import jaDemonstrativesTable from './ja/demonstratives.table.json'
+import jaDatesTable from './ja/dates.table.json'
 
 type CategoryBundles = Partial<Record<CategoryId, MeaningQuizEntry[]>>
 type TableBundles = Partial<Record<CategoryId, RefTable>>
@@ -56,14 +64,14 @@ function mergeTables(
     table_id: tableId,
     title,
     note: {
-      en: 'Grouped into one compact quiz: time words, relative days, and months.',
-      ko: '시간말, 상대 날짜, 월 이름을 한 퀴즈로 묶었습니다.',
-      ja: '時間語・相対的な日付・月名を一つのクイズにまとめました。',
-      zh: '把时间词、相对日期和月份合并成一个紧凑的测验。',
-      fr: 'Un seul quiz compact: moments, jours relatifs et mois.',
-      es: 'Un solo quiz compacto: momentos, tiempo relativo y meses.',
-      de: 'Ein kompaktes Quiz: Tageszeiten, relative Tage und Monate.',
-      ru: 'Один компактный квиз: время суток, относительные дни и месяцы.',
+      en: 'Grouped into one compact quiz: time words, relative days, months, and (Korean) day-of-month samples.',
+      ko: '시간말, 상대 날짜, 월 이름, (한국어) 일자 예시를 한 퀴즈로 묶었습니다.',
+      ja: '時間語・相対的な日付・月名、（韓国語）日付の例を一つのクイズにまとめました。',
+      zh: '把时间词、相对日期、月份和（韩语）日子例子合并成一个紧凑的测验。',
+      fr: 'Un seul quiz compact: moments, jours relatifs, mois et (coreen) jours du mois.',
+      es: 'Un solo quiz compacto: momentos, tiempo relativo, meses y (coreano) dias del mes.',
+      de: 'Ein kompaktes Quiz: Tageszeiten, relative Tage, Monate und (Koreanisch) Monatstage.',
+      ru: 'Один компактный квиз: время суток, относительные дни, месяцы и (кор.) числа месяца.',
     },
     columns: [
       {
@@ -132,6 +140,7 @@ const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
     time: koTime as MeaningQuizEntry[],
     weekdays: koWeekdays as MeaningQuizEntry[],
     questions: koQuestions as MeaningQuizEntry[],
+    demonstratives: koDemonstratives as MeaningQuizEntry[],
   },
   ja: {
     alphabet: jaAlphabet as MeaningQuizEntry[],
@@ -142,6 +151,8 @@ const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
     time: jaTime as MeaningQuizEntry[],
     weekdays: jaWeekdays as MeaningQuizEntry[],
     questions: jaQuestions as MeaningQuizEntry[],
+    demonstratives: jaDemonstratives as MeaningQuizEntry[],
+    dates: jaDates as MeaningQuizEntry[],
   },
 }
 
@@ -155,6 +166,7 @@ const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
     time: koTimeTable as RefTable,
     weekdays: koWeekdaysTable as RefTable,
     questions: koQuestionsTable as RefTable,
+    demonstratives: koDemonstrativesTable as RefTable,
   },
   ja: {
     alphabet: jaAlphabetTable as RefTable,
@@ -165,6 +177,8 @@ const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
     time: jaTimeTable as RefTable,
     weekdays: jaWeekdaysTable as RefTable,
     questions: jaQuestionsTable as RefTable,
+    demonstratives: jaDemonstrativesTable as RefTable,
+    dates: jaDatesTable as RefTable,
   },
 }
 
@@ -174,9 +188,13 @@ export function getMeaningQuizzes(
 ): MeaningQuizEntry[] {
   if (category === 'time') {
     const bundle = DATASET[targetLang]
-    return mergeEntries(
+    const base = mergeEntries(
       ...MERGED_TIME_IDS.map((id) => (bundle?.[id] ?? []) as MeaningQuizEntry[]),
     )
+    if (targetLang === 'ko') {
+      return mergeEntries(base, koDayOfMonth as MeaningQuizEntry[])
+    }
+    return base
   }
   return DATASET[targetLang]?.[category] ?? []
 }
@@ -250,6 +268,23 @@ export function getRefTable(
         },
         table: tables.months,
       },
+      ...(targetLang === 'ko'
+        ? [
+            {
+              section: {
+                en: 'Day of month',
+                ko: '일자',
+                ja: '日付（日）',
+                zh: '几号',
+                fr: 'Jour du mois',
+                es: 'Día del mes',
+                de: 'Tag im Monat',
+                ru: 'Число месяца',
+              },
+              table: koDayOfMonthTable as RefTable,
+            },
+          ]
+        : []),
     ])
   }
   return TABLES[targetLang]?.[category] ?? null

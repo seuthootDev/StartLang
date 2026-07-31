@@ -1,0 +1,194 @@
+[
+  {
+    "quiz_id": "ko_calendar_nyeon",
+    "question_word": "년",
+    "pronunciations": {
+      "en": "nyeon / yeon",
+      "ja": "ニョン",
+      "zh": "nyeon",
+      "fr": "nyeon",
+      "es": "nyeon",
+      "de": "nyeon",
+      "ru": "нён",
+      "ko": "년 / 연"
+    },
+    "translations": {
+      "en": "year (년/연 after a number)",
+      "zh": "年（년/연，接在数字后）",
+      "fr": "année (년/연 après un nombre)",
+      "es": "año (년/연 después de un número)",
+      "de": "Jahr (년/연 nach einer Zahl)",
+      "ru": "год (년/연 после числа)",
+      "ko": "년 / 연",
+      "ja": "年（년／연・数字のあと）"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_wol",
+    "question_word": "월",
+    "pronunciations": {
+      "en": "wol",
+      "ja": "ウォル",
+      "zh": "wol",
+      "fr": "wol",
+      "es": "wol",
+      "de": "wol",
+      "ru": "воль",
+      "ko": "월"
+    },
+    "translations": {
+      "en": "month (after a number)",
+      "zh": "月（接在数字后）",
+      "fr": "mois (après un nombre)",
+      "es": "mes (después de un número)",
+      "de": "Monat (nach einer Zahl)",
+      "ru": "месяц (после числа)",
+      "ko": "월",
+      "ja": "月（数字のあと）"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_il",
+    "question_word": "일",
+    "pronunciations": {
+      "en": "il",
+      "ja": "イル",
+      "zh": "il",
+      "fr": "il",
+      "es": "il",
+      "de": "il",
+      "ru": "иль",
+      "ko": "일"
+    },
+    "translations": {
+      "en": "day of the month (after a number)",
+      "zh": "日 / 号（接在数字后）",
+      "fr": "jour du mois (après un nombre)",
+      "es": "día del mes (después de un número)",
+      "de": "Tag im Monat (nach einer Zahl)",
+      "ru": "число месяца (после числа)",
+      "ko": "일",
+      "ja": "日（数字のあと・日付）"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_myeochil",
+    "question_word": "며칠",
+    "pronunciations": {
+      "en": "myeo-chil",
+      "ja": "ミョチル",
+      "zh": "myeo-chil",
+      "fr": "myeo-chil",
+      "es": "myeo-chil",
+      "de": "myeo-chil",
+      "ru": "мё-чиль",
+      "ko": "며칠"
+    },
+    "translations": {
+      "en": "what day (of the month)",
+      "zh": "几号",
+      "fr": "quel jour (du mois)",
+      "es": "qué día (del mes)",
+      "de": "welcher Tag (im Monat)",
+      "ru": "какое число",
+      "ko": "며칠",
+      "ja": "何日"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_day_1",
+    "question_word": "1일",
+    "pronunciations": {
+      "en": "il-il",
+      "ja": "イルイル",
+      "zh": "il-il",
+      "fr": "il-il",
+      "es": "il-il",
+      "de": "il-il",
+      "ru": "il-il",
+      "ko": "일일"
+    },
+    "translations": {
+      "en": "1st (of the month)",
+      "ko": "1일",
+      "ja": "1日",
+      "zh": "1号 / 1日",
+      "fr": "le 1 (du mois)",
+      "es": "el día 1",
+      "de": "1. (des Monats)",
+      "ru": "1-е (число)"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_day_5",
+    "question_word": "5일",
+    "pronunciations": {
+      "en": "o-il",
+      "ja": "オイル",
+      "zh": "o-il",
+      "fr": "o-il",
+      "es": "o-il",
+      "de": "o-il",
+      "ru": "o-il",
+      "ko": "오일"
+    },
+    "translations": {
+      "en": "5th (of the month)",
+      "ko": "5일",
+      "ja": "5日",
+      "zh": "5号 / 5日",
+      "fr": "le 5 (du mois)",
+      "es": "el día 5",
+      "de": "5. (des Monats)",
+      "ru": "5-е (число)"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_day_10",
+    "question_word": "10일",
+    "pronunciations": {
+      "en": "sip-il",
+      "ja": "シピル",
+      "zh": "sip-il",
+      "fr": "sip-il",
+      "es": "sip-il",
+      "de": "sip-il",
+      "ru": "sip-il",
+      "ko": "십일"
+    },
+    "translations": {
+      "en": "10th (of the month)",
+      "ko": "10일",
+      "ja": "10日",
+      "zh": "10号 / 10日",
+      "fr": "le 10 (du mois)",
+      "es": "el día 10",
+      "de": "10. (des Monats)",
+      "ru": "10-е (число)"
+    }
+  },
+  {
+    "quiz_id": "ko_calendar_day_20",
+    "question_word": "20일",
+    "pronunciations": {
+      "en": "i-sip-il",
+      "ja": "イシピル",
+      "zh": "i-sip-il",
+      "fr": "i-sip-il",
+      "es": "i-sip-il",
+      "de": "i-sip-il",
+      "ru": "i-sip-il",
+      "ko": "이십일"
+    },
+    "translations": {
+      "en": "20th (of the month)",
+      "ko": "20일",
+      "ja": "20日",
+      "zh": "20号 / 20日",
+      "fr": "le 20 (du mois)",
+      "es": "el día 20",
+      "de": "20. (des Monats)",
+      "ru": "20-е (число)"
+    }
+  }
+]

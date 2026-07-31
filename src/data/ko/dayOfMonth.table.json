@@ -1,0 +1,338 @@
+{
+  "table_id": "ko_day_of_month_ref",
+  "title": {
+    "en": "Date units & day of month",
+    "ko": "날짜 단위·일자",
+    "ja": "日付の単位・日",
+    "zh": "日期单位与日子",
+    "fr": "Unites de date & jour",
+    "es": "Unidades de fecha y dia",
+    "de": "Datumseinheiten & Tag",
+    "ru": "Единицы даты и число"
+  },
+  "note": {
+    "en": "Quiz day cards get a random month (3월 5일). Order: 년 → 월 → 일.",
+    "ko": "일자 문항에는 랜덤 월이 붙습니다(3월 5일). 순서: 년 → 월 → 일.",
+    "ja": "日の問題にはランダムな月が付く（3월 5일）。順：년→월→일。",
+    "zh": "日子题会随机加月份（3월 5일）。顺序：년→월→일。",
+    "fr": "Les jours recoivent un mois aleatoire (3월 5일). Ordre: 년→월→일.",
+    "es": "Los dias reciben un mes aleatorio (3월 5일). Orden: 년→월→일.",
+    "de": "Tage bekommen einen Zufallsmonat (3월 5일). Reihenfolge: 년→월→일.",
+    "ru": "К числам случайный месяц (3월 5일). Порядок: 년→월→일."
+  },
+  "rules": {
+    "en": [
+      "Full date: 2024년 3월 5일 (year → month → day).",
+      "년 is also heard as 연 in some words; as a counter after numbers both appear (2024년).",
+      "Day cards in the quiz add a random 1–12월. 며칠 asks the date; 하루/이틀 are duration."
+    ],
+    "ko": [
+      "전체 날짜: 2024년 3월 5일 (년 → 월 → 일).",
+      "년은 단어에 따라 연으로도 읽힙니다. 숫자 뒤 단위로는 년이 기본입니다.",
+      "퀴즈의 일자에는 1–12월이 랜덤으로 붙습니다. 며칠=날짜 물음, 하루/이틀=기간."
+    ],
+    "ja": [
+      "日付全体：2024년 3월 5일（년→월→일）。",
+      "년は語によって 연 とも。数字のあとの単位は主に 년。",
+      "クイズの日には 1〜12월 がランダム付与。며칠＝日付、하루/이틀＝期間。"
+    ],
+    "zh": [
+      "完整日期：2024년 3월 5일（年→月→日）。",
+      "년有时也读 연；数字后作量词多用 년。",
+      "测验日子会随机加 1–12월。며칠问日期；하루/이틀表期间。"
+    ],
+    "fr": [
+      "Date complete: 2024년 3월 5일 (년→월→일).",
+      "년 peut aussi se lire 연; apres un nombre on ecrit surtout 년.",
+      "Les jours du quiz ajoutent 1–12월 au hasard. 며칠=date; 하루/이틀=duree."
+    ],
+    "es": [
+      "Fecha completa: 2024년 3월 5일 (년→월→일).",
+      "년 a veces se oye 연; tras numero suele ser 년.",
+      "Los dias del quiz anaden 1–12월 al azar. 며칠=fecha; 하루/이틀=duracion."
+    ],
+    "de": [
+      "Vollstandiges Datum: 2024년 3월 5일 (년→월→일).",
+      "년 kann auch 연 klingen; nach Zahlen meist 년.",
+      "Quiz-Tage bekommen zufallig 1–12월. 며칠=Datum; 하루/이틀=Dauer."
+    ],
+    "ru": [
+      "Полная дата: 2024년 3월 5일 (년→월→일).",
+      "년 иногда звучит как 연; после числа обычно 년.",
+      "В квизе к числам случайно 1–12월. 며칠=дата; 하루/이틀=длительность."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Reading",
+        "ko": "읽기",
+        "ja": "読み",
+        "zh": "读法",
+        "fr": "Lecture",
+        "es": "Lectura",
+        "de": "Lesung",
+        "ru": "Чтение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "년",
+      "meaning": {
+        "en": "year (년/연 after a number)",
+        "zh": "年（년/연，接在数字后）",
+        "fr": "année (년/연 après un nombre)",
+        "es": "año (년/연 después de un número)",
+        "de": "Jahr (년/연 nach einer Zahl)",
+        "ru": "год (년/연 после числа)",
+        "ko": "년 / 연",
+        "ja": "年（년／연・数字のあと）"
+      },
+      "sound": {
+        "en": "nyeon / yeon",
+        "ja": "ニョン",
+        "zh": "nyeon",
+        "fr": "nyeon",
+        "es": "nyeon",
+        "de": "nyeon",
+        "ru": "нён",
+        "ko": "년 / 연"
+      }
+    },
+    {
+      "form": "월",
+      "meaning": {
+        "en": "month (after a number)",
+        "zh": "月（接在数字后）",
+        "fr": "mois (après un nombre)",
+        "es": "mes (después de un número)",
+        "de": "Monat (nach einer Zahl)",
+        "ru": "месяц (после числа)",
+        "ko": "월",
+        "ja": "月（数字のあと）"
+      },
+      "sound": {
+        "en": "wol",
+        "ja": "ウォル",
+        "zh": "wol",
+        "fr": "wol",
+        "es": "wol",
+        "de": "wol",
+        "ru": "воль",
+        "ko": "월"
+      }
+    },
+    {
+      "form": "일",
+      "meaning": {
+        "en": "day of the month (after a number)",
+        "zh": "日 / 号（接在数字后）",
+        "fr": "jour du mois (après un nombre)",
+        "es": "día del mes (después de un número)",
+        "de": "Tag im Monat (nach einer Zahl)",
+        "ru": "число месяца (после числа)",
+        "ko": "일",
+        "ja": "日（数字のあと・日付）"
+      },
+      "sound": {
+        "en": "il",
+        "ja": "イル",
+        "zh": "il",
+        "fr": "il",
+        "es": "il",
+        "de": "il",
+        "ru": "иль",
+        "ko": "일"
+      }
+    },
+    {
+      "form": "며칠",
+      "meaning": {
+        "en": "what day (of the month)",
+        "zh": "几号",
+        "fr": "quel jour (du mois)",
+        "es": "qué día (del mes)",
+        "de": "welcher Tag (im Monat)",
+        "ru": "какое число",
+        "ko": "며칠",
+        "ja": "何日"
+      },
+      "sound": {
+        "en": "myeo-chil",
+        "ja": "ミョチル",
+        "zh": "myeo-chil",
+        "fr": "myeo-chil",
+        "es": "myeo-chil",
+        "de": "myeo-chil",
+        "ru": "мё-чиль",
+        "ko": "며칠"
+      }
+    },
+    {
+      "form": "1일",
+      "meaning": {
+        "en": "1st (of the month)",
+        "ko": "1일",
+        "ja": "1日",
+        "zh": "1号 / 1日",
+        "fr": "le 1 (du mois)",
+        "es": "el día 1",
+        "de": "1. (des Monats)",
+        "ru": "1-е (число)"
+      },
+      "sound": {
+        "en": "il-il",
+        "ja": "イルイル",
+        "zh": "il-il",
+        "fr": "il-il",
+        "es": "il-il",
+        "de": "il-il",
+        "ru": "il-il",
+        "ko": "일일"
+      }
+    },
+    {
+      "form": "5일",
+      "meaning": {
+        "en": "5th (of the month)",
+        "ko": "5일",
+        "ja": "5日",
+        "zh": "5号 / 5日",
+        "fr": "le 5 (du mois)",
+        "es": "el día 5",
+        "de": "5. (des Monats)",
+        "ru": "5-е (число)"
+      },
+      "sound": {
+        "en": "o-il",
+        "ja": "オイル",
+        "zh": "o-il",
+        "fr": "o-il",
+        "es": "o-il",
+        "de": "o-il",
+        "ru": "o-il",
+        "ko": "오일"
+      }
+    },
+    {
+      "form": "10일",
+      "meaning": {
+        "en": "10th (of the month)",
+        "ko": "10일",
+        "ja": "10日",
+        "zh": "10号 / 10日",
+        "fr": "le 10 (du mois)",
+        "es": "el día 10",
+        "de": "10. (des Monats)",
+        "ru": "10-е (число)"
+      },
+      "sound": {
+        "en": "sip-il",
+        "ja": "シピル",
+        "zh": "sip-il",
+        "fr": "sip-il",
+        "es": "sip-il",
+        "de": "sip-il",
+        "ru": "sip-il",
+        "ko": "십일"
+      }
+    },
+    {
+      "form": "20일",
+      "meaning": {
+        "en": "20th (of the month)",
+        "ko": "20일",
+        "ja": "20日",
+        "zh": "20号 / 20日",
+        "fr": "le 20 (du mois)",
+        "es": "el día 20",
+        "de": "20. (des Monats)",
+        "ru": "20-е (число)"
+      },
+      "sound": {
+        "en": "i-sip-il",
+        "ja": "イシピル",
+        "zh": "i-sip-il",
+        "fr": "i-sip-il",
+        "es": "i-sip-il",
+        "de": "i-sip-il",
+        "ru": "i-sip-il",
+        "ko": "이십일"
+      }
+    },
+    {
+      "form": "2024년 3월 5일",
+      "meaning": {
+        "en": "March 5, 2024",
+        "ko": "2024년 3월 5일",
+        "ja": "2024年3月5日",
+        "zh": "2024年3月5日",
+        "fr": "5 mars 2024",
+        "es": "5 de marzo de 2024",
+        "de": "5. März 2024",
+        "ru": "5 марта 2024 г."
+      },
+      "sound": {
+        "en": "i-cheon-i-sip-sa-nyeon sam-wol o-il",
+        "ko": "이천이십사 년 삼 월 오 일",
+        "ja": "イチョニシプサ ニョン サム ウォル オ イル",
+        "zh": "i-cheon-i-sip-sa-nyeon sam-wol o-il",
+        "fr": "i-cheon-i-sip-sa-nyeon sam-wol o-il",
+        "es": "i-cheon-i-sip-sa-nyeon sam-wol o-il",
+        "de": "i-cheon-i-sip-sa-nyeon sam-wol o-il",
+        "ru": "ичхон-исипса нён сам воль о иль"
+      }
+    },
+    {
+      "form": "하루 / 이틀",
+      "meaning": {
+        "en": "one day / two days (duration)",
+        "ko": "하루 / 이틀 (기간)",
+        "ja": "一日・二日（期間）",
+        "zh": "一天 / 两天（期间）",
+        "fr": "un jour / deux jours (duree)",
+        "es": "un dia / dos dias (duracion)",
+        "de": "einen Tag / zwei Tage (Dauer)",
+        "ru": "один день / два дня (длительность)"
+      },
+      "sound": {
+        "en": "ha-ru / i-teul",
+        "ko": "하루 / 이틀",
+        "ja": "ハル / イティル",
+        "zh": "ha-ru / i-teul",
+        "fr": "ha-ru / i-teul",
+        "es": "ha-ru / i-teul",
+        "de": "ha-ru / i-teul",
+        "ru": "ха-ру / и-тыль"
+      }
+    }
+  ]
+}

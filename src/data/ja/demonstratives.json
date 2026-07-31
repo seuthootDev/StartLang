@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "ja_demonstratives_kore",
+    "question_word": "これ",
+    "pronunciations": {
+      "en": "kore",
+      "ko": "고레",
+      "zh": "kore",
+      "fr": "kore",
+      "es": "kore",
+      "de": "kore",
+      "ru": "корэ",
+      "ja": "これ"
+    },
+    "translations": {
+      "en": "this (thing near me)",
+      "zh": "这个（近说话人）",
+      "fr": "ceci (près de moi)",
+      "es": "esto (cerca de mí)",
+      "de": "dies (bei mir)",
+      "ru": "это (рядом со мной)",
+      "ko": "이것",
+      "ja": "これ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_sore",
+    "question_word": "それ",
+    "pronunciations": {
+      "en": "sore",
+      "ko": "소레",
+      "zh": "sore",
+      "fr": "sore",
+      "es": "sore",
+      "de": "sore",
+      "ru": "сорэ",
+      "ja": "それ"
+    },
+    "translations": {
+      "en": "that (thing near you / known)",
+      "zh": "那个（近听者/已知）",
+      "fr": "cela (près de toi / connu)",
+      "es": "eso",
+      "de": "das (bei dir / bekannt)",
+      "ru": "то (у тебя / известное)",
+      "ko": "그것",
+      "ja": "それ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_are",
+    "question_word": "あれ",
+    "pronunciations": {
+      "en": "are",
+      "ko": "아레",
+      "zh": "are",
+      "fr": "are",
+      "es": "are",
+      "de": "are",
+      "ru": "арэ",
+      "ja": "あれ"
+    },
+    "translations": {
+      "en": "that (thing over there)",
+      "zh": "那个（远处）",
+      "fr": "cela (là-bas)",
+      "es": "aquello",
+      "de": "jenes (dort drüben)",
+      "ru": "то (вон там)",
+      "ko": "저것",
+      "ja": "あれ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_kono",
+    "question_word": "この",
+    "pronunciations": {
+      "en": "kono",
+      "ko": "고노",
+      "zh": "kono",
+      "fr": "kono",
+      "es": "kono",
+      "de": "kono",
+      "ru": "коно",
+      "ja": "この"
+    },
+    "translations": {
+      "en": "this (+ noun, near me)",
+      "zh": "这（＋名词，近说话人）",
+      "fr": "ce (+ nom, près de moi)",
+      "es": "este (+ sustantivo, cerca de mí)",
+      "de": "dies- (+ Nomen, bei mir)",
+      "ru": "этот (+ сущ., рядом со мной)",
+      "ko": "이 (+ 명사)",
+      "ja": "この"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_sono",
+    "question_word": "その",
+    "pronunciations": {
+      "en": "sono",
+      "ko": "소노",
+      "zh": "sono",
+      "fr": "sono",
+      "es": "sono",
+      "de": "sono",
+      "ru": "соно",
+      "ja": "その"
+    },
+    "translations": {
+      "en": "that (+ noun, near you / known)",
+      "zh": "那（＋名词，近听者/已知）",
+      "fr": "ce (+ nom, près de toi / connu)",
+      "es": "ese (+ sustantivo)",
+      "de": "jen- (+ Nomen, bei dir / bekannt)",
+      "ru": "тот (+ сущ., у тебя / известный)",
+      "ko": "그 (+ 명사)",
+      "ja": "その"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_ano",
+    "question_word": "あの",
+    "pronunciations": {
+      "en": "ano",
+      "ko": "아노",
+      "zh": "ano",
+      "fr": "ano",
+      "es": "ano",
+      "de": "ano",
+      "ru": "ано",
+      "ja": "あの"
+    },
+    "translations": {
+      "en": "that (+ noun, over there)",
+      "zh": "那（＋名词，远处）",
+      "fr": "ce (+ nom, là-bas)",
+      "es": "aquel (+ sustantivo)",
+      "de": "jen- (+ Nomen, dort drüben)",
+      "ru": "тот (+ сущ., вон там)",
+      "ko": "저 (+ 명사)",
+      "ja": "あの"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_koko",
+    "question_word": "ここ",
+    "pronunciations": {
+      "en": "koko",
+      "ko": "고코",
+      "zh": "koko",
+      "fr": "koko",
+      "es": "koko",
+      "de": "koko",
+      "ru": "коко",
+      "ja": "ここ"
+    },
+    "translations": {
+      "en": "here",
+      "zh": "这里",
+      "fr": "ici",
+      "es": "aquí",
+      "de": "hier",
+      "ru": "здесь",
+      "ko": "여기",
+      "ja": "ここ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_soko",
+    "question_word": "そこ",
+    "pronunciations": {
+      "en": "soko",
+      "ko": "소코",
+      "zh": "soko",
+      "fr": "soko",
+      "es": "soko",
+      "de": "soko",
+      "ru": "соко",
+      "ja": "そこ"
+    },
+    "translations": {
+      "en": "there (near you / known place)",
+      "zh": "那里（近听者/已知处）",
+      "fr": "là (près de toi / lieu connu)",
+      "es": "ahí",
+      "de": "da (bei dir / bekannter Ort)",
+      "ru": "там (у тебя / известное место)",
+      "ko": "거기",
+      "ja": "そこ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_asoko",
+    "question_word": "あそこ",
+    "pronunciations": {
+      "en": "a-soko",
+      "ko": "아소코",
+      "zh": "a-soko",
+      "fr": "a-soko",
+      "es": "a-soko",
+      "de": "a-soko",
+      "ru": "а-соко",
+      "ja": "あそこ"
+    },
+    "translations": {
+      "en": "over there",
+      "zh": "那边（远处）",
+      "fr": "là-bas",
+      "es": "allá",
+      "de": "dort drüben",
+      "ru": "вон там",
+      "ko": "저기",
+      "ja": "あそこ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_kochira",
+    "question_word": "こちら",
+    "pronunciations": {
+      "en": "kochira",
+      "ko": "고치라",
+      "zh": "kochira",
+      "fr": "kochira",
+      "es": "kochira",
+      "de": "kochira",
+      "ru": "котира",
+      "ja": "こちら"
+    },
+    "translations": {
+      "en": "this way / this side (polite)",
+      "zh": "这边（礼貌）",
+      "fr": "par ici (poli)",
+      "es": "por aquí (cortés)",
+      "de": "hierher (höflich)",
+      "ru": "сюда / эта сторона (вежл.)",
+      "ko": "이쪽 (공손)",
+      "ja": "こちら"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_sochira",
+    "question_word": "そちら",
+    "pronunciations": {
+      "en": "sochira",
+      "ko": "소치라",
+      "zh": "sochira",
+      "fr": "sochira",
+      "es": "sochira",
+      "de": "sochira",
+      "ru": "сотира",
+      "ja": "そちら"
+    },
+    "translations": {
+      "en": "that way / your side (polite)",
+      "zh": "那边（近听者，礼貌）",
+      "fr": "par là / votre côté (poli)",
+      "es": "por ahí / su lado (cortés)",
+      "de": "dorthin / Ihre Seite (höflich)",
+      "ru": "туда / ваша сторона (вежл.)",
+      "ko": "그쪽 (공손)",
+      "ja": "そちら"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_achira",
+    "question_word": "あちら",
+    "pronunciations": {
+      "en": "achira",
+      "ko": "아치라",
+      "zh": "achira",
+      "fr": "achira",
+      "es": "achira",
+      "de": "achira",
+      "ru": "атира",
+      "ja": "あちら"
+    },
+    "translations": {
+      "en": "that way over there (polite)",
+      "zh": "那边（远处，礼貌）",
+      "fr": "par là-bas (poli)",
+      "es": "por allá (cortés)",
+      "de": "dort hinüber (höflich)",
+      "ru": "в ту сторону (вежл.)",
+      "ko": "저쪽 (공손)",
+      "ja": "あちら"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_mae",
+    "question_word": "前",
+    "pronunciations": {
+      "en": "mae",
+      "ko": "마에",
+      "zh": "mae",
+      "fr": "mae",
+      "es": "mae",
+      "de": "mae",
+      "ru": "маэ",
+      "ja": "まえ"
+    },
+    "translations": {
+      "en": "front / ahead",
+      "zh": "前面",
+      "fr": "devant / avant",
+      "es": "delante / frente",
+      "de": "vorne / Vorderseite",
+      "ru": "перед / впереди",
+      "ko": "앞",
+      "ja": "前"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_ushiro",
+    "question_word": "後ろ",
+    "pronunciations": {
+      "en": "ushiro",
+      "ko": "우시로",
+      "zh": "ushiro",
+      "fr": "ushiro",
+      "es": "ushiro",
+      "de": "ushiro",
+      "ru": "усиро",
+      "ja": "うしろ"
+    },
+    "translations": {
+      "en": "back / behind",
+      "zh": "后面",
+      "fr": "derrière",
+      "es": "detrás",
+      "de": "hinten / Rückseite",
+      "ru": "зад / сзади",
+      "ko": "뒤",
+      "ja": "後ろ"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_ue",
+    "question_word": "上",
+    "pronunciations": {
+      "en": "ue",
+      "ko": "우에",
+      "zh": "ue",
+      "fr": "ue",
+      "es": "ue",
+      "de": "ue",
+      "ru": "уэ",
+      "ja": "うえ"
+    },
+    "translations": {
+      "en": "above / on top",
+      "zh": "上面",
+      "fr": "au-dessus / sur",
+      "es": "arriba / encima",
+      "de": "oben / auf",
+      "ru": "верх / на",
+      "ko": "위",
+      "ja": "上"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_shita",
+    "question_word": "下",
+    "pronunciations": {
+      "en": "shita",
+      "ko": "시타",
+      "zh": "shita",
+      "fr": "shita",
+      "es": "shita",
+      "de": "shita",
+      "ru": "сита",
+      "ja": "した"
+    },
+    "translations": {
+      "en": "below / under",
+      "zh": "下面",
+      "fr": "en dessous / sous",
+      "es": "abajo / debajo",
+      "de": "unten / unter",
+      "ru": "низ / под",
+      "ko": "아래",
+      "ja": "下"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_hidari",
+    "question_word": "左",
+    "pronunciations": {
+      "en": "hidari",
+      "ko": "히다리",
+      "zh": "hidari",
+      "fr": "hidari",
+      "es": "hidari",
+      "de": "hidari",
+      "ru": "хидари",
+      "ja": "ひだり"
+    },
+    "translations": {
+      "en": "left",
+      "zh": "左边",
+      "fr": "gauche",
+      "es": "izquierda",
+      "de": "links",
+      "ru": "слева",
+      "ko": "왼쪽",
+      "ja": "左"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_migi",
+    "question_word": "右",
+    "pronunciations": {
+      "en": "migi",
+      "ko": "미기",
+      "zh": "migi",
+      "fr": "migi",
+      "es": "migi",
+      "de": "migi",
+      "ru": "миги",
+      "ja": "みぎ"
+    },
+    "translations": {
+      "en": "right",
+      "zh": "右边",
+      "fr": "droite",
+      "es": "derecha",
+      "de": "rechts",
+      "ru": "справа",
+      "ko": "오른쪽",
+      "ja": "右"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_naka",
+    "question_word": "中",
+    "pronunciations": {
+      "en": "naka",
+      "ko": "나카",
+      "zh": "naka",
+      "fr": "naka",
+      "es": "naka",
+      "de": "naka",
+      "ru": "нака",
+      "ja": "なか"
+    },
+    "translations": {
+      "en": "inside / middle",
+      "zh": "里面 / 中间",
+      "fr": "intérieur / milieu",
+      "es": "dentro / medio",
+      "de": "innen / Mitte",
+      "ru": "внутри / середина",
+      "ko": "안 / 가운데",
+      "ja": "中"
+    }
+  },
+  {
+    "quiz_id": "ja_demonstratives_soto",
+    "question_word": "外",
+    "pronunciations": {
+      "en": "soto",
+      "ko": "소토",
+      "zh": "soto",
+      "fr": "soto",
+      "es": "soto",
+      "de": "soto",
+      "ru": "сото",
+      "ja": "そと"
+    },
+    "translations": {
+      "en": "outside",
+      "zh": "外面",
+      "fr": "extérieur / dehors",
+      "es": "fuera",
+      "de": "außen / draußen",
+      "ru": "снаружи",
+      "ko": "밖",
+      "ja": "外"
+    }
+  }
+]
