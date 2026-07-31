@@ -1,0 +1,384 @@
+{
+  "table_id": "ko_questions_ref",
+  "title": {
+    "en": "Question words",
+    "ko": "필수 의문사",
+    "ja": "疑問詞",
+    "zh": "疑问词",
+    "fr": "Mots interrogatifs",
+    "es": "Palabras interrogativas",
+    "de": "Fragewörter",
+    "ru": "Вопросительные слова"
+  },
+  "note": {
+    "en": "Core question words for beginners.",
+    "ko": "초급에서 자주 쓰는 의문사.",
+    "ja": "初級でよく使う疑問詞。",
+    "zh": "初学者常用疑问词。",
+    "fr": "Mots interrogatifs de base.",
+    "es": "Palabras interrogativas básicas.",
+    "de": "Wichtige Fragewörter für Anfänger.",
+    "ru": "Базовые вопросительные слова."
+  },
+  "rules": {
+    "en": [
+      "무엇 is the full form; 뭐 is the everyday casual form of \"what\".",
+      "몇 comes before counters/nouns (몇 명, 몇 시). 얼마 asks about price.",
+      "무슨 / 어떤 modify a noun (\"what kind of …\"); 어느 is closer to \"which\"."
+    ],
+    "ko": [
+      "무엇은 기본형, 뭐는 일상 회화형입니다.",
+      "몇은 명사·단위 앞에 붙습니다(몇 명, 몇 시). 얼마는 주로 가격.",
+      "무슨·어떤은 명사를 꾸미고, 어느는 \"어느 쪽/어느 것\"에 가깝습니다."
+    ],
+    "ja": [
+      "「무엇」が基本形、「뭐」が日常の「何」。",
+      "「몇」は名詞・助数詞の前（몇 명、몇 시）。「얼마」は値段。",
+      "「무슨・어떤」は名詞を修飾。「어느」は「どの／どちら」寄り。"
+    ],
+    "zh": [
+      "무엇是完整形式，뭐是口语“什么”。",
+      "몇放在量词/名词前；얼마多问价格。",
+      "무슨/어떤修饰名词；어느更接近“哪”。"
+    ],
+    "fr": [
+      "무엇 = forme pleine ; 뭐 = \"quoi\" familier.",
+      "몇 devant un nom/compteur ; 얼마 pour le prix.",
+      "무슨 / 어떤 + nom ; 어느 approx. \"lequel\"."
+    ],
+    "es": [
+      "무엇 es la forma completa; 뭐 es el \"qué\" cotidiano.",
+      "몇 va delante de sustantivos/contadores; 얼마 es el precio.",
+      "무슨 / 어떤 + sustantivo; 어느 approx. \"cuál\"."
+    ],
+    "de": [
+      "무엇 = Vollform; 뭐 = umgangssprachliches \"was\".",
+      "몇 vor Nomen/Zähleinheiten; 얼마 für den Preis.",
+      "무슨 / 어떤 + Nomen; 어느 approx. \"welch-\"."
+    ],
+    "ru": [
+      "무엇 — полная форма; 뭐 — разговорное «что».",
+      "몇 перед существительным/счётным словом; 얼마 — цена.",
+      "무슨 / 어떤 + сущ.; 어느 ≈ «какой/который»."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Korean",
+        "ko": "한국어",
+        "ja": "韓国語",
+        "zh": "韩语",
+        "fr": "Coréen",
+        "es": "Coreano",
+        "de": "Koreanisch",
+        "ru": "Корейский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "누구",
+      "meaning": {
+        "en": "who",
+        "zh": "谁",
+        "fr": "qui",
+        "es": "quién",
+        "de": "wer",
+        "ru": "кто",
+        "ko": "누구",
+        "ja": "誰"
+      },
+      "sound": {
+        "en": "nu-gu",
+        "ja": "ヌグ",
+        "zh": "nu-gu",
+        "fr": "nu-gu",
+        "es": "nu-gu",
+        "de": "nu-gu",
+        "ru": "ну-гу",
+        "ko": "누구"
+      }
+    },
+    {
+      "form": "무엇",
+      "meaning": {
+        "en": "what (full form)",
+        "zh": "什么（完整形）",
+        "fr": "quoi / que (forme pleine)",
+        "es": "qué (forma completa)",
+        "de": "was (Vollform)",
+        "ru": "что (полная форма)",
+        "ko": "무엇",
+        "ja": "何（丁寧・書き言葉寄り）"
+      },
+      "sound": {
+        "en": "mu-eot",
+        "ja": "ムオト",
+        "zh": "mu-eot",
+        "fr": "mu-eot",
+        "es": "mu-eot",
+        "de": "mu-eot",
+        "ru": "му-от",
+        "ko": "무엇"
+      }
+    },
+    {
+      "form": "뭐",
+      "meaning": {
+        "en": "what (casual)",
+        "zh": "什么（口语）",
+        "fr": "quoi (familier)",
+        "es": "qué (informal)",
+        "de": "was (umgangssprachlich)",
+        "ru": "что (разг.)",
+        "ko": "뭐",
+        "ja": "何（話し言葉）"
+      },
+      "sound": {
+        "en": "mwo",
+        "ja": "ムォ",
+        "zh": "mwo",
+        "fr": "mwo",
+        "es": "mwo",
+        "de": "mwo",
+        "ru": "мво",
+        "ko": "뭐"
+      }
+    },
+    {
+      "form": "어디",
+      "meaning": {
+        "en": "where",
+        "zh": "哪里",
+        "fr": "où",
+        "es": "dónde",
+        "de": "wo",
+        "ru": "где",
+        "ko": "어디",
+        "ja": "どこ"
+      },
+      "sound": {
+        "en": "eo-di",
+        "ja": "オディ",
+        "zh": "eo-di",
+        "fr": "eo-di",
+        "es": "eo-di",
+        "de": "eo-di",
+        "ru": "о-ди",
+        "ko": "어디"
+      }
+    },
+    {
+      "form": "언제",
+      "meaning": {
+        "en": "when",
+        "zh": "什么时候",
+        "fr": "quand",
+        "es": "cuándo",
+        "de": "wann",
+        "ru": "когда",
+        "ko": "언제",
+        "ja": "いつ"
+      },
+      "sound": {
+        "en": "eon-je",
+        "ja": "オンジェ",
+        "zh": "eon-je",
+        "fr": "eon-je",
+        "es": "eon-je",
+        "de": "eon-je",
+        "ru": "он-дже",
+        "ko": "언제"
+      }
+    },
+    {
+      "form": "왜",
+      "meaning": {
+        "en": "why",
+        "zh": "为什么",
+        "fr": "pourquoi",
+        "es": "por qué",
+        "de": "warum",
+        "ru": "почему",
+        "ko": "왜",
+        "ja": "なぜ / どうして"
+      },
+      "sound": {
+        "en": "wae",
+        "ja": "ウェ",
+        "zh": "wae",
+        "fr": "wae",
+        "es": "wae",
+        "de": "wae",
+        "ru": "вэ",
+        "ko": "왜"
+      }
+    },
+    {
+      "form": "어떻게",
+      "meaning": {
+        "en": "how",
+        "zh": "怎么 / 怎样",
+        "fr": "comment",
+        "es": "cómo",
+        "de": "wie",
+        "ru": "как",
+        "ko": "어떻게",
+        "ja": "どう / どのように"
+      },
+      "sound": {
+        "en": "eo-tteo-ke",
+        "ja": "オットケ",
+        "zh": "eo-tteo-ke",
+        "fr": "eo-tteo-ke",
+        "es": "eo-tteo-ke",
+        "de": "eo-tteo-ke",
+        "ru": "о-тто-ке",
+        "ko": "어떻게"
+      }
+    },
+    {
+      "form": "얼마",
+      "meaning": {
+        "en": "how much (price)",
+        "zh": "多少钱",
+        "fr": "combien (prix)",
+        "es": "cuánto (precio)",
+        "de": "wie viel (Preis)",
+        "ru": "сколько (цена)",
+        "ko": "얼마",
+        "ja": "いくら（値段）"
+      },
+      "sound": {
+        "en": "eol-ma",
+        "ja": "オルマ",
+        "zh": "eol-ma",
+        "fr": "eol-ma",
+        "es": "eol-ma",
+        "de": "eol-ma",
+        "ru": "оль-ма",
+        "ko": "얼마"
+      }
+    },
+    {
+      "form": "몇",
+      "meaning": {
+        "en": "how many / what (number)",
+        "zh": "几 / 多少（数量）",
+        "fr": "combien (nombre)",
+        "es": "cuántos / qué (número)",
+        "de": "wie viele / welche (Zahl)",
+        "ru": "сколько (число)",
+        "ko": "몇",
+        "ja": "何〜 / いくつ（数）"
+      },
+      "sound": {
+        "en": "myeot",
+        "ja": "ミョッ",
+        "zh": "myeot",
+        "fr": "myeot",
+        "es": "myeot",
+        "de": "myeot",
+        "ru": "мёт",
+        "ko": "몇"
+      }
+    },
+    {
+      "form": "어느",
+      "meaning": {
+        "en": "which",
+        "zh": "哪（个）",
+        "fr": "quel / laquelle",
+        "es": "cuál / qué",
+        "de": "welch-",
+        "ru": "какой / который",
+        "ko": "어느",
+        "ja": "どの / どちら"
+      },
+      "sound": {
+        "en": "eo-neu",
+        "ja": "オヌ",
+        "zh": "eo-neu",
+        "fr": "eo-neu",
+        "es": "eo-neu",
+        "de": "eo-neu",
+        "ru": "о-ны",
+        "ko": "어느"
+      }
+    },
+    {
+      "form": "무슨",
+      "meaning": {
+        "en": "what (kind of) + noun",
+        "zh": "什么（修饰名词）",
+        "fr": "quel / quelle (+ nom)",
+        "es": "qué (+ sustantivo)",
+        "de": "was für ein (+ Nomen)",
+        "ru": "какой (+ сущ.)",
+        "ko": "무슨",
+        "ja": "どんな / 何の（＋名詞）"
+      },
+      "sound": {
+        "en": "mu-seun",
+        "ja": "ムスン",
+        "zh": "mu-seun",
+        "fr": "mu-seun",
+        "es": "mu-seun",
+        "de": "mu-seun",
+        "ru": "му-сын",
+        "ko": "무슨"
+      }
+    },
+    {
+      "form": "어떤",
+      "meaning": {
+        "en": "what kind of / which (type)",
+        "zh": "什么样的 / 哪种",
+        "fr": "quel genre de / lequel",
+        "es": "qué tipo de / cuál",
+        "de": "was für / welch- (Art)",
+        "ru": "какой / какого рода",
+        "ko": "어떤",
+        "ja": "どんな / どのような"
+      },
+      "sound": {
+        "en": "eo-tteon",
+        "ja": "オットン",
+        "zh": "eo-tteon",
+        "fr": "eo-tteon",
+        "es": "eo-tteon",
+        "de": "eo-tteon",
+        "ru": "о-ттон",
+        "ko": "어떤"
+      }
+    }
+  ]
+}

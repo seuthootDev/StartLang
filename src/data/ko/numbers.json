@@ -1,0 +1,176 @@
+[
+  {
+    "quiz_id": "ko_numbers_sino_1",
+    "question_word": "일",
+    "pronunciations": { "en": "il", "ja": "イル", "zh": "il", "fr": "il", "es": "il", "de": "il", "ru": "иль", "ko": "일" },
+    "translations": { "en": "1", "ko": "1", "ja": "1", "zh": "1", "fr": "1", "es": "1", "de": "1", "ru": "1" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_2",
+    "question_word": "이",
+    "pronunciations": { "en": "i", "ja": "イ", "zh": "i", "fr": "i", "es": "i", "de": "i", "ru": "и", "ko": "이" },
+    "translations": { "en": "2", "ko": "2", "ja": "2", "zh": "2", "fr": "2", "es": "2", "de": "2", "ru": "2" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_3",
+    "question_word": "삼",
+    "pronunciations": { "en": "sam", "ja": "サム", "zh": "sam", "fr": "sam", "es": "sam", "de": "sam", "ru": "сам", "ko": "삼" },
+    "translations": { "en": "3", "ko": "3", "ja": "3", "zh": "3", "fr": "3", "es": "3", "de": "3", "ru": "3" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_4",
+    "question_word": "사",
+    "pronunciations": { "en": "sa", "ja": "サ", "zh": "sa", "fr": "sa", "es": "sa", "de": "sa", "ru": "са", "ko": "사" },
+    "translations": { "en": "4", "ko": "4", "ja": "4", "zh": "4", "fr": "4", "es": "4", "de": "4", "ru": "4" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_5",
+    "question_word": "오",
+    "pronunciations": { "en": "o", "ja": "オ", "zh": "o", "fr": "o", "es": "o", "de": "o", "ru": "о", "ko": "오" },
+    "translations": { "en": "5", "ko": "5", "ja": "5", "zh": "5", "fr": "5", "es": "5", "de": "5", "ru": "5" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_6",
+    "question_word": "육",
+    "pronunciations": { "en": "yuk", "ja": "ユク", "zh": "yuk", "fr": "yuk", "es": "yuk", "de": "yuk", "ru": "юк", "ko": "육" },
+    "translations": { "en": "6", "ko": "6", "ja": "6", "zh": "6", "fr": "6", "es": "6", "de": "6", "ru": "6" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_7",
+    "question_word": "칠",
+    "pronunciations": { "en": "chil", "ja": "チル", "zh": "chil", "fr": "chil", "es": "chil", "de": "chil", "ru": "чиль", "ko": "칠" },
+    "translations": { "en": "7", "ko": "7", "ja": "7", "zh": "7", "fr": "7", "es": "7", "de": "7", "ru": "7" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_8",
+    "question_word": "팔",
+    "pronunciations": { "en": "pal", "ja": "パル", "zh": "pal", "fr": "pal", "es": "pal", "de": "pal", "ru": "паль", "ko": "팔" },
+    "translations": { "en": "8", "ko": "8", "ja": "8", "zh": "8", "fr": "8", "es": "8", "de": "8", "ru": "8" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_9",
+    "question_word": "구",
+    "pronunciations": { "en": "gu", "ja": "ク", "zh": "gu", "fr": "gu", "es": "gu", "de": "gu", "ru": "ку", "ko": "구" },
+    "translations": { "en": "9", "ko": "9", "ja": "9", "zh": "9", "fr": "9", "es": "9", "de": "9", "ru": "9" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_10",
+    "question_word": "십",
+    "pronunciations": { "en": "sip", "ja": "シプ", "zh": "sip", "fr": "sip", "es": "sip", "de": "sip", "ru": "сип", "ko": "십" },
+    "translations": { "en": "10", "ko": "10", "ja": "10", "zh": "10", "fr": "10", "es": "10", "de": "10", "ru": "10" }
+  },
+  {
+    "quiz_id": "ko_numbers_sino_100",
+    "question_word": "백",
+    "pronunciations": { "en": "baek", "ja": "ペク", "zh": "baek", "fr": "baek", "es": "baek", "de": "baek", "ru": "пэк", "ko": "백" },
+    "translations": { "en": "100", "ko": "100", "ja": "100", "zh": "100", "fr": "100", "es": "100", "de": "100", "ru": "100" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_1",
+    "question_word": "하나",
+    "pronunciations": { "en": "ha-na", "ja": "ハナ", "zh": "ha-na", "fr": "ha-na", "es": "ha-na", "de": "ha-na", "ru": "ха-на", "ko": "하나" },
+    "translations": { "en": "1", "ko": "1", "ja": "1", "zh": "1", "fr": "1", "es": "1", "de": "1", "ru": "1" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_2",
+    "question_word": "둘",
+    "pronunciations": { "en": "dul", "ja": "ドゥル", "zh": "dul", "fr": "dul", "es": "dul", "de": "dul", "ru": "туль", "ko": "둘" },
+    "translations": { "en": "2", "ko": "2", "ja": "2", "zh": "2", "fr": "2", "es": "2", "de": "2", "ru": "2" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_3",
+    "question_word": "셋",
+    "pronunciations": { "en": "set", "ja": "セッ", "zh": "set", "fr": "set", "es": "set", "de": "set", "ru": "сет", "ko": "셋" },
+    "translations": { "en": "3", "ko": "3", "ja": "3", "zh": "3", "fr": "3", "es": "3", "de": "3", "ru": "3" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_4",
+    "question_word": "넷",
+    "pronunciations": { "en": "net", "ja": "ネッ", "zh": "net", "fr": "net", "es": "net", "de": "net", "ru": "нет", "ko": "넷" },
+    "translations": { "en": "4", "ko": "4", "ja": "4", "zh": "4", "fr": "4", "es": "4", "de": "4", "ru": "4" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_5",
+    "question_word": "다섯",
+    "pronunciations": { "en": "da-seot", "ja": "ダソッ", "zh": "da-seot", "fr": "da-seot", "es": "da-seot", "de": "da-seot", "ru": "та-сот", "ko": "다섯" },
+    "translations": { "en": "5", "ko": "5", "ja": "5", "zh": "5", "fr": "5", "es": "5", "de": "5", "ru": "5" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_6",
+    "question_word": "여섯",
+    "pronunciations": { "en": "yeo-seot", "ja": "ヨソッ", "zh": "yeo-seot", "fr": "yeo-seot", "es": "yeo-seot", "de": "yeo-seot", "ru": "ё-сот", "ko": "여섯" },
+    "translations": { "en": "6", "ko": "6", "ja": "6", "zh": "6", "fr": "6", "es": "6", "de": "6", "ru": "6" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_7",
+    "question_word": "일곱",
+    "pronunciations": { "en": "il-gop", "ja": "イルゴプ", "zh": "il-gop", "fr": "il-gop", "es": "il-gop", "de": "il-gop", "ru": "иль-гоп", "ko": "일곱" },
+    "translations": { "en": "7", "ko": "7", "ja": "7", "zh": "7", "fr": "7", "es": "7", "de": "7", "ru": "7" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_8",
+    "question_word": "여덟",
+    "pronunciations": { "en": "yeo-deol", "ja": "ヨドル", "zh": "yeo-deol", "fr": "yeo-deol", "es": "yeo-deol", "de": "yeo-deol", "ru": "ё-доль", "ko": "여덟" },
+    "translations": { "en": "8", "ko": "8", "ja": "8", "zh": "8", "fr": "8", "es": "8", "de": "8", "ru": "8" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_9",
+    "question_word": "아홉",
+    "pronunciations": { "en": "a-hop", "ja": "アホプ", "zh": "a-hop", "fr": "a-hop", "es": "a-hop", "de": "a-hop", "ru": "а-хоп", "ko": "아홉" },
+    "translations": { "en": "9", "ko": "9", "ja": "9", "zh": "9", "fr": "9", "es": "9", "de": "9", "ru": "9" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_10",
+    "question_word": "열",
+    "pronunciations": { "en": "yeol", "ja": "ヨル", "zh": "yeol", "fr": "yeol", "es": "yeol", "de": "yeol", "ru": "ёль", "ko": "열" },
+    "translations": { "en": "10", "ko": "10", "ja": "10", "zh": "10", "fr": "10", "es": "10", "de": "10", "ru": "10" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_20",
+    "question_word": "스물",
+    "pronunciations": { "en": "seu-mul", "ja": "スムル", "zh": "seu-mul", "fr": "seu-mul", "es": "seu-mul", "de": "seu-mul", "ru": "сы-муль", "ko": "스물" },
+    "translations": { "en": "20", "ko": "20", "ja": "20", "zh": "20", "fr": "20", "es": "20", "de": "20", "ru": "20" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_30",
+    "question_word": "서른",
+    "pronunciations": { "en": "seo-reun", "ja": "ソルン", "zh": "seo-reun", "fr": "seo-reun", "es": "seo-reun", "de": "seo-reun", "ru": "со-рын", "ko": "서른" },
+    "translations": { "en": "30", "ko": "30", "ja": "30", "zh": "30", "fr": "30", "es": "30", "de": "30", "ru": "30" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_40",
+    "question_word": "마흔",
+    "pronunciations": { "en": "ma-heun", "ja": "マフン", "zh": "ma-heun", "fr": "ma-heun", "es": "ma-heun", "de": "ma-heun", "ru": "ма-хын", "ko": "마흔" },
+    "translations": { "en": "40", "ko": "40", "ja": "40", "zh": "40", "fr": "40", "es": "40", "de": "40", "ru": "40" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_50",
+    "question_word": "쉰",
+    "pronunciations": { "en": "swin", "ja": "スィン", "zh": "swin", "fr": "swin", "es": "swin", "de": "swin", "ru": "свин", "ko": "쉰" },
+    "translations": { "en": "50", "ko": "50", "ja": "50", "zh": "50", "fr": "50", "es": "50", "de": "50", "ru": "50" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_60",
+    "question_word": "예순",
+    "pronunciations": { "en": "ye-sun", "ja": "イェスン", "zh": "ye-sun", "fr": "ye-sun", "es": "ye-sun", "de": "ye-sun", "ru": "е-сун", "ko": "예순" },
+    "translations": { "en": "60", "ko": "60", "ja": "60", "zh": "60", "fr": "60", "es": "60", "de": "60", "ru": "60" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_70",
+    "question_word": "일흔",
+    "pronunciations": { "en": "il-heun", "ja": "イルフン", "zh": "il-heun", "fr": "il-heun", "es": "il-heun", "de": "il-heun", "ru": "иль-хын", "ko": "일흔" },
+    "translations": { "en": "70", "ko": "70", "ja": "70", "zh": "70", "fr": "70", "es": "70", "de": "70", "ru": "70" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_80",
+    "question_word": "여든",
+    "pronunciations": { "en": "yeo-deun", "ja": "ヨドゥン", "zh": "yeo-deun", "fr": "yeo-deun", "es": "yeo-deun", "de": "yeo-deun", "ru": "ё-дын", "ko": "여든" },
+    "translations": { "en": "80", "ko": "80", "ja": "80", "zh": "80", "fr": "80", "es": "80", "de": "80", "ru": "80" }
+  },
+  {
+    "quiz_id": "ko_numbers_native_90",
+    "question_word": "아흔",
+    "pronunciations": { "en": "a-heun", "ja": "アフン", "zh": "a-heun", "fr": "a-heun", "es": "a-heun", "de": "a-heun", "ru": "а-хын", "ko": "아흔" },
+    "translations": { "en": "90", "ko": "90", "ja": "90", "zh": "90", "fr": "90", "es": "90", "de": "90", "ru": "90" }
+  }
+]

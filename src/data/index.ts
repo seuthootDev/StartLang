@@ -4,31 +4,43 @@ import type { MeaningQuizEntry } from '../types/vocab'
 import type { RefTable } from '../types/table'
 
 import koAlphabet from './ko/alphabet.json'
+import koPronouns from './ko/pronouns.json'
+import koNumbers from './ko/numbers.json'
 import koOrdinals from './ko/ordinals.json'
 import koMonths from './ko/months.json'
 import koTime from './ko/time.json'
 import koWeekdays from './ko/weekdays.json'
+import koQuestions from './ko/questions.json'
 import koAlphabetTable from './ko/alphabet.table.json'
+import koPronounsTable from './ko/pronouns.table.json'
+import koNumbersTable from './ko/numbers.table.json'
 import koOrdinalsTable from './ko/ordinals.table.json'
 import koMonthsTable from './ko/months.table.json'
 import koTimeTable from './ko/time.table.json'
 import koWeekdaysTable from './ko/weekdays.table.json'
+import koQuestionsTable from './ko/questions.table.json'
 
 import jaAlphabet from './ja/alphabet.json'
+import jaPronouns from './ja/pronouns.json'
+import jaNumbers from './ja/numbers.json'
 import jaOrdinals from './ja/ordinals.json'
 import jaMonths from './ja/months.json'
 import jaTime from './ja/time.json'
 import jaWeekdays from './ja/weekdays.json'
+import jaQuestions from './ja/questions.json'
 import jaAlphabetTable from './ja/alphabet.table.json'
+import jaPronounsTable from './ja/pronouns.table.json'
+import jaNumbersTable from './ja/numbers.table.json'
 import jaOrdinalsTable from './ja/ordinals.table.json'
 import jaMonthsTable from './ja/months.table.json'
 import jaTimeTable from './ja/time.table.json'
 import jaWeekdaysTable from './ja/weekdays.table.json'
+import jaQuestionsTable from './ja/questions.table.json'
 
 type CategoryBundles = Partial<Record<CategoryId, MeaningQuizEntry[]>>
 type TableBundles = Partial<Record<CategoryId, RefTable>>
 
-const MERGED_TIME_IDS: CategoryId[] = ['time', 'weekdays', 'ordinals', 'months']
+const MERGED_TIME_IDS: CategoryId[] = ['time', 'weekdays', 'months']
 
 function mergeEntries(...groups: MeaningQuizEntry[][]): MeaningQuizEntry[] {
   return groups.flat()
@@ -44,14 +56,14 @@ function mergeTables(
     table_id: tableId,
     title,
     note: {
-      en: 'Grouped into one compact quiz: time words, relative days, ordinals, and months.',
-      ko: '시간말, 상대 날짜, 서수, 월 이름을 한 퀴즈로 묶었습니다.',
-      ja: '時間語・相対的な日付・序数・月名を一つのクイズにまとめました。',
-      zh: '把时间词、相对日期、序数和月份合并成一个紧凑的测验。',
-      fr: 'Un seul quiz compact: moments, jours relatifs, ordinaux et mois.',
-      es: 'Un solo quiz compacto: momentos, tiempo relativo, ordinales y meses.',
-      de: 'Ein kompaktes Quiz: Tageszeiten, relative Tage, Ordnungszahlen und Monate.',
-      ru: 'Один компактный квиз: время суток, относительные дни, порядковые и месяцы.',
+      en: 'Grouped into one compact quiz: time words, relative days, and months.',
+      ko: '시간말, 상대 날짜, 월 이름을 한 퀴즈로 묶었습니다.',
+      ja: '時間語・相対的な日付・月名を一つのクイズにまとめました。',
+      zh: '把时间词、相对日期和月份合并成一个紧凑的测验。',
+      fr: 'Un seul quiz compact: moments, jours relatifs et mois.',
+      es: 'Un solo quiz compacto: momentos, tiempo relativo y meses.',
+      de: 'Ein kompaktes Quiz: Tageszeiten, relative Tage und Monate.',
+      ru: 'Один компактный квиз: время суток, относительные дни и месяцы.',
     },
     columns: [
       {
@@ -113,34 +125,46 @@ function mergeTables(
 const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
   ko: {
     alphabet: koAlphabet as MeaningQuizEntry[],
+    pronouns: koPronouns as MeaningQuizEntry[],
+    numbers: koNumbers as MeaningQuizEntry[],
     ordinals: koOrdinals as MeaningQuizEntry[],
     months: koMonths as MeaningQuizEntry[],
     time: koTime as MeaningQuizEntry[],
     weekdays: koWeekdays as MeaningQuizEntry[],
+    questions: koQuestions as MeaningQuizEntry[],
   },
   ja: {
     alphabet: jaAlphabet as MeaningQuizEntry[],
+    pronouns: jaPronouns as MeaningQuizEntry[],
+    numbers: jaNumbers as MeaningQuizEntry[],
     ordinals: jaOrdinals as MeaningQuizEntry[],
     months: jaMonths as MeaningQuizEntry[],
     time: jaTime as MeaningQuizEntry[],
     weekdays: jaWeekdays as MeaningQuizEntry[],
+    questions: jaQuestions as MeaningQuizEntry[],
   },
 }
 
 const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
   ko: {
     alphabet: koAlphabetTable as RefTable,
+    pronouns: koPronounsTable as RefTable,
+    numbers: koNumbersTable as RefTable,
     ordinals: koOrdinalsTable as RefTable,
     months: koMonthsTable as RefTable,
     time: koTimeTable as RefTable,
     weekdays: koWeekdaysTable as RefTable,
+    questions: koQuestionsTable as RefTable,
   },
   ja: {
     alphabet: jaAlphabetTable as RefTable,
+    pronouns: jaPronounsTable as RefTable,
+    numbers: jaNumbersTable as RefTable,
     ordinals: jaOrdinalsTable as RefTable,
     months: jaMonthsTable as RefTable,
     time: jaTimeTable as RefTable,
     weekdays: jaWeekdaysTable as RefTable,
+    questions: jaQuestionsTable as RefTable,
   },
 }
 
@@ -170,7 +194,7 @@ export function getRefTable(
 ): RefTable | null {
   if (category === 'time') {
     const tables = TABLES[targetLang]
-    if (!tables?.time || !tables.weekdays || !tables.ordinals || !tables.months) {
+    if (!tables?.time || !tables.weekdays || !tables.months) {
       return tables?.time ?? null
     }
 
@@ -212,19 +236,6 @@ export function getRefTable(
           ru: 'Дни',
         },
         table: tables.weekdays,
-      },
-      {
-        section: {
-          en: 'Ordinals',
-          ko: '서수',
-          ja: '序数',
-          zh: '序数',
-          fr: 'Ordinaux',
-          es: 'Ordinales',
-          de: 'Ordinalzahlen',
-          ru: 'Порядковые',
-        },
-        table: tables.ordinals,
       },
       {
         section: {

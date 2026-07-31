@@ -7,11 +7,11 @@ in the sidebar for every language; fill JSON when ready.
 data/
   ko/
     alphabet.json
-    pronouns.json      # planned
-    numbers.json       # planned
+    pronouns.json
+    numbers.json
     time.json
-    weekdays.json      # planned
-    questions.json     # planned
+    weekdays.json
+    questions.json
     demonstratives.json # planned
     ordinals.json
     months.json
@@ -35,13 +35,12 @@ Sidebar groups (collapsible):
 1. alphabet — Alphabet & Phonetics  
 2. pronouns — Personal Pronouns  
 3. numbers — Cardinal Numbers  
-4. time — Time of Day (within a day: morning, a.m., night…)  
-5. weekdays — Days & Relative Time (yesterday, weekdays, this week…)  
-6. questions — Question Words  
-7. demonstratives — Demonstratives & Directions  
-8. ordinals — Ordinal Numbers  
-9. months — Months & Seasons  
-10. dates — Dates (calendar reading: March 5, years…)  
+4. time — Time & Calendar Basics (day parts + relative days + months; weekdays/months JSON merged in)  
+5. questions — Question Words  
+6. demonstratives — Demonstratives & Directions  
+7. dates — Dates (calendar reading: March 5, years…)  
+8. ordinals — Ordinal Numbers (JSON kept; not in sidebar yet — move into Numbers later)  
+9. months / weekdays — merged into `time` (hidden routes redirect)  
 
 ## Reference tables
 
@@ -70,6 +69,16 @@ Example (`ja/alphabet.table.json`):
 
 Cell values may be a plain string (same for every learner) or a
 `{ "en": "...", "ko": "..." }` map resolved by the learner language.
+
+Optional `rules` — localized bullet tips above the grid (composition,
+irregulars like English *eleven* / *twelve*):
+
+```json
+"rules": {
+  "en": ["11–99 = tens + ones (regular).", "Quiz adds 5 random compounds."],
+  "ko": ["11–99는 십+일자리로 규칙적으로 만듭니다.", "퀴즈에 랜덤 조합 5문항."]
+}
+```
 
 Register the file in `src/data/index.ts` (`TABLES`) to show the quiz **Table** button.
 

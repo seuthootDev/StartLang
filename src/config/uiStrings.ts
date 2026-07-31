@@ -26,6 +26,9 @@ type UiKey =
   | 'yourAnswer'
   | 'correctAnswer'
   | 'tapToContinue'
+  | 'enterToContinue'
+  | 'typeCharacter'
+  | 'checkAnswer'
   | 'openTable'
   | 'close'
 
@@ -55,6 +58,9 @@ const EN: Record<UiKey, string> = {
   yourAnswer: 'You',
   correctAnswer: 'Answer',
   tapToContinue: 'Tap to continue',
+  enterToContinue: 'Press Enter or tap to continue',
+  typeCharacter: 'Type the sound',
+  checkAnswer: 'Check',
   openTable: 'Table',
   close: 'Close',
 }
@@ -87,6 +93,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: '내 답',
     correctAnswer: '정답',
     tapToContinue: '탭해서 계속',
+    enterToContinue: '엔터 또는 탭해서 계속',
+    typeCharacter: '소리를 입력하세요',
+    checkAnswer: '확인',
     openTable: '표',
     close: '닫기',
   },
@@ -116,6 +125,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: 'あなたの答え',
     correctAnswer: '正解',
     tapToContinue: 'タップして続く',
+    enterToContinue: 'Enter かタップで続く',
+    typeCharacter: '読みを入力',
+    checkAnswer: '確認',
     openTable: '表',
     close: '閉じる',
   },
@@ -145,6 +157,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: '你的答案',
     correctAnswer: '正确答案',
     tapToContinue: '点击继续',
+    enterToContinue: '按 Enter 或点击继续',
+    typeCharacter: '输入读音',
+    checkAnswer: '检查',
     openTable: '对照表',
     close: '关闭',
   },
@@ -174,6 +189,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: 'Vous',
     correctAnswer: 'Réponse',
     tapToContinue: 'Touchez pour continuer',
+    enterToContinue: 'Entrée ou touchez pour continuer',
+    typeCharacter: 'Saisissez le son',
+    checkAnswer: 'Vérifier',
     openTable: 'Tableau',
     close: 'Fermer',
   },
@@ -203,6 +221,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: 'Tú',
     correctAnswer: 'Respuesta',
     tapToContinue: 'Toca para continuar',
+    enterToContinue: 'Enter o toca para continuar',
+    typeCharacter: 'Escribe el sonido',
+    checkAnswer: 'Comprobar',
     openTable: 'Tabla',
     close: 'Cerrar',
   },
@@ -232,6 +253,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: 'Du',
     correctAnswer: 'Antwort',
     tapToContinue: 'Tippen zum Weiter',
+    enterToContinue: 'Enter oder tippen zum Weiter',
+    typeCharacter: 'Laut eingeben',
+    checkAnswer: 'Prüfen',
     openTable: 'Tabelle',
     close: 'Schließen',
   },
@@ -261,6 +285,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     yourAnswer: 'Вы',
     correctAnswer: 'Ответ',
     tapToContinue: 'Нажмите, чтобы продолжить',
+    enterToContinue: 'Enter или нажмите, чтобы продолжить',
+    typeCharacter: 'Введите звучание',
+    checkAnswer: 'Проверить',
     openTable: 'Таблица',
     close: 'Закрыть',
   },

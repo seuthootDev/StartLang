@@ -1,0 +1,232 @@
+[
+  {
+    "quiz_id": "ja_pronouns_watashi",
+    "question_word": "私",
+    "pronunciations": {
+      "en": "watashi",
+      "ko": "와타시",
+      "zh": "watashi",
+      "fr": "watashi",
+      "es": "watashi",
+      "de": "watashi",
+      "ru": "ватаси"
+    },
+    "translations": {
+      "en": "I / me (polite / neutral)",
+      "zh": "我（礼貌/中性）",
+      "fr": "je / moi (poli / neutre)",
+      "es": "yo (cortés / neutro)",
+      "de": "ich (höflich / neutral)",
+      "ru": "я (вежл. / нейтр.)",
+      "ko": "저 / 나 (공손·중립)",
+      "ja": "私"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_boku",
+    "question_word": "僕",
+    "pronunciations": {
+      "en": "boku",
+      "ko": "보쿠",
+      "zh": "boku",
+      "fr": "boku",
+      "es": "boku",
+      "de": "boku",
+      "ru": "боку"
+    },
+    "translations": {
+      "en": "I / me (masculine)",
+      "zh": "我（男性用语）",
+      "fr": "je / moi (masculin)",
+      "es": "yo (masculino)",
+      "de": "ich (männlich)",
+      "ru": "я (мужск.)",
+      "ko": "나 (남성 어투)",
+      "ja": "僕"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_ore",
+    "question_word": "俺",
+    "pronunciations": {
+      "en": "ore",
+      "ko": "오레",
+      "zh": "ore",
+      "fr": "ore",
+      "es": "ore",
+      "de": "ore",
+      "ru": "орэ"
+    },
+    "translations": {
+      "en": "I / me (casual masculine)",
+      "zh": "我（随便的男性用语）",
+      "fr": "je / moi (familier masculin)",
+      "es": "yo (informal masculino)",
+      "de": "ich (locker männlich)",
+      "ru": "я (неформ. мужск.)",
+      "ko": "나 (거친·친한 남성 어투)",
+      "ja": "俺"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_anata",
+    "question_word": "あなた",
+    "pronunciations": {
+      "en": "anata",
+      "ko": "아나타",
+      "zh": "anata",
+      "fr": "anata",
+      "es": "anata",
+      "de": "anata",
+      "ru": "аната"
+    },
+    "translations": {
+      "en": "you",
+      "zh": "你",
+      "fr": "tu / vous",
+      "es": "tú / usted",
+      "de": "du / Sie",
+      "ru": "ты / вы",
+      "ko": "당신 / 너",
+      "ja": "あなた"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_kimi",
+    "question_word": "君",
+    "pronunciations": {
+      "en": "kimi",
+      "ko": "키미",
+      "zh": "kimi",
+      "fr": "kimi",
+      "es": "kimi",
+      "de": "kimi",
+      "ru": "кими"
+    },
+    "translations": {
+      "en": "you (casual)",
+      "zh": "你（随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты (неформ.)",
+      "ko": "너 (친근)",
+      "ja": "君"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_kare",
+    "question_word": "彼",
+    "pronunciations": {
+      "en": "kare",
+      "ko": "카레",
+      "zh": "kare",
+      "fr": "kare",
+      "es": "kare",
+      "de": "kare",
+      "ru": "карэ"
+    },
+    "translations": {
+      "en": "he / him",
+      "zh": "他",
+      "fr": "il / lui",
+      "es": "él",
+      "de": "er / ihn",
+      "ru": "он / его",
+      "ko": "그 / 그 남자",
+      "ja": "彼"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_kanojo",
+    "question_word": "彼女",
+    "pronunciations": {
+      "en": "kanojo",
+      "ko": "카노조",
+      "zh": "kanojo",
+      "fr": "kanojo",
+      "es": "kanojo",
+      "de": "kanojo",
+      "ru": "канодзё"
+    },
+    "translations": {
+      "en": "she / her",
+      "zh": "她",
+      "fr": "elle",
+      "es": "ella",
+      "de": "sie / ihr",
+      "ru": "она / её",
+      "ko": "그녀",
+      "ja": "彼女"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_watashitachi",
+    "question_word": "私たち",
+    "pronunciations": {
+      "en": "watashi-tachi",
+      "ko": "와타시타치",
+      "zh": "watashi-tachi",
+      "fr": "watashi-tachi",
+      "es": "watashi-tachi",
+      "de": "watashi-tachi",
+      "ru": "ватаси-тати"
+    },
+    "translations": {
+      "en": "we / us",
+      "zh": "我们",
+      "fr": "nous",
+      "es": "nosotros",
+      "de": "wir / uns",
+      "ru": "мы / нас",
+      "ko": "우리",
+      "ja": "私たち"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_anatatachi",
+    "question_word": "あなたたち",
+    "pronunciations": {
+      "en": "anata-tachi",
+      "ko": "아나타타치",
+      "zh": "anata-tachi",
+      "fr": "anata-tachi",
+      "es": "anata-tachi",
+      "de": "anata-tachi",
+      "ru": "аната-тати"
+    },
+    "translations": {
+      "en": "you (plural)",
+      "zh": "你们",
+      "fr": "vous (pluriel)",
+      "es": "ustedes",
+      "de": "ihr / Sie (Plural)",
+      "ru": "вы (мн.)",
+      "ko": "너희 / 여러분",
+      "ja": "あなたたち"
+    }
+  },
+  {
+    "quiz_id": "ja_pronouns_karera",
+    "question_word": "彼ら",
+    "pronunciations": {
+      "en": "karera",
+      "ko": "카레라",
+      "zh": "karera",
+      "fr": "karera",
+      "es": "karera",
+      "de": "karera",
+      "ru": "карэра"
+    },
+    "translations": {
+      "en": "they / them",
+      "zh": "他们",
+      "fr": "ils / eux",
+      "es": "ellos",
+      "de": "sie (Plural)",
+      "ru": "они / их",
+      "ko": "그들",
+      "ja": "彼ら"
+    }
+  }
+]

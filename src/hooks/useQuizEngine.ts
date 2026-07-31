@@ -1,5 +1,9 @@
-import type { LangCode } from '../types/language'
+import type { LangCode, TargetLangCode } from '../types/language'
 import type { MeaningQuizEntry, QuizQuestion } from '../types/vocab'
+import {
+  generateNumberComboEntries,
+  type NumberSystemId,
+} from '../config/numberCombos'
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -43,6 +47,35 @@ export function generateChoices(
   return shuffle([correctAnswer, ...wrongAnswers])
 }
 
+export function normalizeTypedAnswer(value: string): string {
+  return value.normalize('NFC').trim()
+}
+
+/**
+ * Typed alphabet answers: when the key is `g/k` (or `グ/ク`), accept
+ * any single side (`g`, `k`) or the full slash form. Same rule for every
+ * language; Korean Hangul romanization is the main current case.
+ */
+export function isTypedAnswerCorrect(
+  userInput: string,
+  correctAnswer: string,
+): boolean {
+  const normalize = (value: string) =>
+    normalizeTypedAnswer(value)
+      .toLowerCase()
+      .replace(/／/g, '/')
+      .replace(/\s*\/\s*/g, '/')
+      .replace(/\s+/g, '')
+
+  const user = normalize(userInput)
+  const correct = normalize(correctAnswer)
+  if (!user || !correct) return false
+  if (user === correct) return true
+
+  const alternatives = correct.split('/').filter(Boolean)
+  return alternatives.length > 1 && alternatives.includes(user)
+}
+
 export function buildQuestion(
   entry: MeaningQuizEntry,
   pool: MeaningQuizEntry[],
@@ -62,6 +95,33 @@ export function buildQuestion(
     pronunciation,
     choices: generateChoices(entry, pool, learnerLang),
     correctAnswer,
+    inputMode: 'choice',
+  }
+}
+
+/**
+ * Alphabet: show the target character (ㄱ / あ), then type its sound
+ * using the learner's writing system (g/k / 아).
+ */
+export function buildTypedAlphabetQuestion(
+  entry: MeaningQuizEntry,
+  learnerLang: LangCode,
+): QuizQuestion | null {
+  const prompt = entry.question_word
+  const correctAnswer =
+    entry.translations[learnerLang] ??
+    entry.pronunciations[learnerLang] ??
+    entry.pronunciations.en ??
+    ''
+  if (!correctAnswer || !prompt) return null
+
+  return {
+    entry,
+    prompt,
+    pronunciation: '',
+    choices: [],
+    correctAnswer,
+    inputMode: 'type',
   }
 }
 
@@ -70,11 +130,39 @@ export function buildQuizDeck(
   learnerLang: LangCode,
   /** If set, only these cards are asked; distractors still come from `entries`. */
   subset?: MeaningQuizEntry[],
+  options?: {
+    inputMode?: 'choice' | 'type'
+    /** Append ~5 random compound-number cards for numbers drills. */
+    numberCombos?: {
+      targetLang: TargetLangCode
+      system: NumberSystemId
+      count?: number
+    }
+  },
 ): QuizQuestion[] {
-  const pool = entries.filter((entry) => entry.translations[learnerLang])
-  const askFrom = subset
+  const inputMode = options?.inputMode ?? 'choice'
+
+  if (inputMode === 'type') {
+    const askFrom = subset ?? entries
+    return shuffle(askFrom)
+      .map((entry) => buildTypedAlphabetQuestion(entry, learnerLang))
+      .filter((q): q is QuizQuestion => q !== null)
+  }
+
+  let pool = entries.filter((entry) => entry.translations[learnerLang])
+  let askFrom = subset
     ? subset.filter((entry) => entry.translations[learnerLang])
     : pool
+
+  if (options?.numberCombos && !subset) {
+    const combos = generateNumberComboEntries(
+      options.numberCombos.targetLang,
+      options.numberCombos.system,
+      options.numberCombos.count ?? 5,
+    )
+    askFrom = [...askFrom, ...combos]
+    pool = [...pool, ...combos]
+  }
 
   return shuffle(askFrom)
     .map((entry) => buildQuestion(entry, pool, learnerLang))

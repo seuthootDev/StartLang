@@ -1,0 +1,314 @@
+[
+  {
+    "quiz_id": "ja_questions_dare",
+    "question_word": "誰",
+    "pronunciations": {
+      "en": "dare",
+      "ko": "다레",
+      "zh": "dare",
+      "fr": "dare",
+      "es": "dare",
+      "de": "dare",
+      "ru": "дарэ",
+      "ja": "だれ"
+    },
+    "translations": {
+      "en": "who",
+      "zh": "谁",
+      "fr": "qui",
+      "es": "quién",
+      "de": "wer",
+      "ru": "кто",
+      "ko": "누구",
+      "ja": "誰"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_nani",
+    "question_word": "何",
+    "pronunciations": {
+      "en": "nani / nan",
+      "ko": "나니 / 난",
+      "zh": "nani / nan",
+      "fr": "nani / nan",
+      "es": "nani / nan",
+      "de": "nani / nan",
+      "ru": "нани / нан",
+      "ja": "なに / なん"
+    },
+    "translations": {
+      "en": "what",
+      "zh": "什么",
+      "fr": "quoi / que",
+      "es": "qué",
+      "de": "was",
+      "ru": "что",
+      "ko": "무엇 / 뭐",
+      "ja": "何"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_doko",
+    "question_word": "どこ",
+    "pronunciations": {
+      "en": "doko",
+      "ko": "도코",
+      "zh": "doko",
+      "fr": "doko",
+      "es": "doko",
+      "de": "doko",
+      "ru": "доко",
+      "ja": "どこ"
+    },
+    "translations": {
+      "en": "where",
+      "zh": "哪里",
+      "fr": "où",
+      "es": "dónde",
+      "de": "wo",
+      "ru": "где",
+      "ko": "어디",
+      "ja": "どこ"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_itsu",
+    "question_word": "いつ",
+    "pronunciations": {
+      "en": "itsu",
+      "ko": "이츠",
+      "zh": "itsu",
+      "fr": "itsu",
+      "es": "itsu",
+      "de": "itsu",
+      "ru": "ицу",
+      "ja": "いつ"
+    },
+    "translations": {
+      "en": "when",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда",
+      "ko": "언제",
+      "ja": "いつ"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_naze",
+    "question_word": "なぜ",
+    "pronunciations": {
+      "en": "naze",
+      "ko": "나제",
+      "zh": "naze",
+      "fr": "naze",
+      "es": "naze",
+      "de": "naze",
+      "ru": "надзэ",
+      "ja": "なぜ"
+    },
+    "translations": {
+      "en": "why (reason)",
+      "zh": "为什么（原因）",
+      "fr": "pourquoi (raison)",
+      "es": "por qué (razón)",
+      "de": "warum (Grund)",
+      "ru": "почему (причина)",
+      "ko": "왜 (이유)",
+      "ja": "なぜ"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_doushite",
+    "question_word": "どうして",
+    "pronunciations": {
+      "en": "dou-shite",
+      "ko": "도오시테",
+      "zh": "dou-shite",
+      "fr": "dou-shite",
+      "es": "dou-shite",
+      "de": "dou-shite",
+      "ru": "до:-ситэ",
+      "ja": "どうして"
+    },
+    "translations": {
+      "en": "why / how come",
+      "zh": "为什么 / 怎么会",
+      "fr": "pourquoi / comment se fait-il",
+      "es": "por qué / cómo es que",
+      "de": "warum / wieso",
+      "ru": "почему / как так",
+      "ko": "왜 / 어째서",
+      "ja": "どうして"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_dou",
+    "question_word": "どう",
+    "pronunciations": {
+      "en": "dou",
+      "ko": "도오",
+      "zh": "dou",
+      "fr": "dou",
+      "es": "dou",
+      "de": "dou",
+      "ru": "до:",
+      "ja": "どう"
+    },
+    "translations": {
+      "en": "how",
+      "zh": "怎么 / 怎样",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как",
+      "ko": "어떻게",
+      "ja": "どう"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_ikura",
+    "question_word": "いくら",
+    "pronunciations": {
+      "en": "ikura",
+      "ko": "이쿠라",
+      "zh": "ikura",
+      "fr": "ikura",
+      "es": "ikura",
+      "de": "ikura",
+      "ru": "икура",
+      "ja": "いくら"
+    },
+    "translations": {
+      "en": "how much (price)",
+      "zh": "多少钱",
+      "fr": "combien (prix)",
+      "es": "cuánto (precio)",
+      "de": "wie viel (Preis)",
+      "ru": "сколько (цена)",
+      "ko": "얼마 (가격)",
+      "ja": "いくら"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_ikutsu",
+    "question_word": "いくつ",
+    "pronunciations": {
+      "en": "ikutsu",
+      "ko": "이쿠츠",
+      "zh": "ikutsu",
+      "fr": "ikutsu",
+      "es": "ikutsu",
+      "de": "ikutsu",
+      "ru": "икуцу",
+      "ja": "いくつ"
+    },
+    "translations": {
+      "en": "how many / how old",
+      "zh": "几个 / 几岁",
+      "fr": "combien / quel âge",
+      "es": "cuántos / qué edad",
+      "de": "wie viele / wie alt",
+      "ru": "сколько / сколько лет",
+      "ko": "몇 개 / 몇 살",
+      "ja": "いくつ"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_dore",
+    "question_word": "どれ",
+    "pronunciations": {
+      "en": "dore",
+      "ko": "도레",
+      "zh": "dore",
+      "fr": "dore",
+      "es": "dore",
+      "de": "dore",
+      "ru": "дорэ",
+      "ja": "どれ"
+    },
+    "translations": {
+      "en": "which (of three or more)",
+      "zh": "哪个（三者以上）",
+      "fr": "lequel (parmi 3+)",
+      "es": "cuál (entre 3+)",
+      "de": "welches (von 3+)",
+      "ru": "который (из 3+)",
+      "ko": "어느 것 (셋 이상)",
+      "ja": "どれ"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_dono",
+    "question_word": "どの",
+    "pronunciations": {
+      "en": "dono",
+      "ko": "도노",
+      "zh": "dono",
+      "fr": "dono",
+      "es": "dono",
+      "de": "dono",
+      "ru": "доно",
+      "ja": "どの"
+    },
+    "translations": {
+      "en": "which (+ noun)",
+      "zh": "哪（＋名词）",
+      "fr": "quel (+ nom)",
+      "es": "qué / cuál (+ sustantivo)",
+      "de": "welch- (+ Nomen)",
+      "ru": "какой (+ сущ.)",
+      "ko": "어느 (+ 명사)",
+      "ja": "どの"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_dochira",
+    "question_word": "どちら",
+    "pronunciations": {
+      "en": "dochira",
+      "ko": "도치라",
+      "zh": "dochira",
+      "fr": "dochira",
+      "es": "dochira",
+      "de": "dochira",
+      "ru": "дотира",
+      "ja": "どちら"
+    },
+    "translations": {
+      "en": "which (of two) / which way",
+      "zh": "哪边 / 哪个（两者）",
+      "fr": "lequel (des deux) / où",
+      "es": "cuál (de dos) / hacia dónde",
+      "de": "welches (von zweien) / wohin",
+      "ru": "который (из двух) / куда",
+      "ko": "어느 쪽 (둘) / 어디 (공손)",
+      "ja": "どちら"
+    }
+  },
+  {
+    "quiz_id": "ja_questions_donna",
+    "question_word": "どんな",
+    "pronunciations": {
+      "en": "donna",
+      "ko": "돈나",
+      "zh": "donna",
+      "fr": "donna",
+      "es": "donna",
+      "de": "donna",
+      "ru": "донна",
+      "ja": "どんな"
+    },
+    "translations": {
+      "en": "what kind of",
+      "zh": "什么样的",
+      "fr": "quel genre de",
+      "es": "qué tipo de",
+      "de": "was für ein",
+      "ru": "какой / какого рода",
+      "ko": "어떤 / 무슨",
+      "ja": "どんな"
+    }
+  }
+]

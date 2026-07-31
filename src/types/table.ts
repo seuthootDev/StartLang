@@ -17,6 +17,11 @@ export interface RefTable {
   title: Partial<Record<LangCode, string>>
   /** Short tip under the title (optional) */
   note?: Partial<Record<LangCode, string>>
+  /**
+   * Number-system / formation rules shown above the grid.
+   * Useful for irregular systems (e.g. English teens) and regular composition patterns.
+   */
+  rules?: Partial<Record<LangCode, string[]>>
   columns: RefTableColumn[]
   rows: Array<Record<string, LocalizedText>>
 }

@@ -1,0 +1,290 @@
+[
+  {
+    "quiz_id": "ko_questions_nugu",
+    "question_word": "누구",
+    "pronunciations": {
+      "en": "nu-gu",
+      "ja": "ヌグ",
+      "zh": "nu-gu",
+      "fr": "nu-gu",
+      "es": "nu-gu",
+      "de": "nu-gu",
+      "ru": "ну-гу",
+      "ko": "누구"
+    },
+    "translations": {
+      "en": "who",
+      "zh": "谁",
+      "fr": "qui",
+      "es": "quién",
+      "de": "wer",
+      "ru": "кто",
+      "ko": "누구",
+      "ja": "誰"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_mueot",
+    "question_word": "무엇",
+    "pronunciations": {
+      "en": "mu-eot",
+      "ja": "ムオト",
+      "zh": "mu-eot",
+      "fr": "mu-eot",
+      "es": "mu-eot",
+      "de": "mu-eot",
+      "ru": "му-от",
+      "ko": "무엇"
+    },
+    "translations": {
+      "en": "what (full form)",
+      "zh": "什么（完整形）",
+      "fr": "quoi / que (forme pleine)",
+      "es": "qué (forma completa)",
+      "de": "was (Vollform)",
+      "ru": "что (полная форма)",
+      "ko": "무엇",
+      "ja": "何（丁寧・書き言葉寄り）"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_mwo",
+    "question_word": "뭐",
+    "pronunciations": {
+      "en": "mwo",
+      "ja": "ムォ",
+      "zh": "mwo",
+      "fr": "mwo",
+      "es": "mwo",
+      "de": "mwo",
+      "ru": "мво",
+      "ko": "뭐"
+    },
+    "translations": {
+      "en": "what (casual)",
+      "zh": "什么（口语）",
+      "fr": "quoi (familier)",
+      "es": "qué (informal)",
+      "de": "was (umgangssprachlich)",
+      "ru": "что (разг.)",
+      "ko": "뭐",
+      "ja": "何（話し言葉）"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eodi",
+    "question_word": "어디",
+    "pronunciations": {
+      "en": "eo-di",
+      "ja": "オディ",
+      "zh": "eo-di",
+      "fr": "eo-di",
+      "es": "eo-di",
+      "de": "eo-di",
+      "ru": "о-ди",
+      "ko": "어디"
+    },
+    "translations": {
+      "en": "where",
+      "zh": "哪里",
+      "fr": "où",
+      "es": "dónde",
+      "de": "wo",
+      "ru": "где",
+      "ko": "어디",
+      "ja": "どこ"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eonje",
+    "question_word": "언제",
+    "pronunciations": {
+      "en": "eon-je",
+      "ja": "オンジェ",
+      "zh": "eon-je",
+      "fr": "eon-je",
+      "es": "eon-je",
+      "de": "eon-je",
+      "ru": "он-дже",
+      "ko": "언제"
+    },
+    "translations": {
+      "en": "when",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда",
+      "ko": "언제",
+      "ja": "いつ"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_wae",
+    "question_word": "왜",
+    "pronunciations": {
+      "en": "wae",
+      "ja": "ウェ",
+      "zh": "wae",
+      "fr": "wae",
+      "es": "wae",
+      "de": "wae",
+      "ru": "вэ",
+      "ko": "왜"
+    },
+    "translations": {
+      "en": "why",
+      "zh": "为什么",
+      "fr": "pourquoi",
+      "es": "por qué",
+      "de": "warum",
+      "ru": "почему",
+      "ko": "왜",
+      "ja": "なぜ / どうして"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eotteoke",
+    "question_word": "어떻게",
+    "pronunciations": {
+      "en": "eo-tteo-ke",
+      "ja": "オットケ",
+      "zh": "eo-tteo-ke",
+      "fr": "eo-tteo-ke",
+      "es": "eo-tteo-ke",
+      "de": "eo-tteo-ke",
+      "ru": "о-тто-ке",
+      "ko": "어떻게"
+    },
+    "translations": {
+      "en": "how",
+      "zh": "怎么 / 怎样",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как",
+      "ko": "어떻게",
+      "ja": "どう / どのように"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eolma",
+    "question_word": "얼마",
+    "pronunciations": {
+      "en": "eol-ma",
+      "ja": "オルマ",
+      "zh": "eol-ma",
+      "fr": "eol-ma",
+      "es": "eol-ma",
+      "de": "eol-ma",
+      "ru": "оль-ма",
+      "ko": "얼마"
+    },
+    "translations": {
+      "en": "how much (price)",
+      "zh": "多少钱",
+      "fr": "combien (prix)",
+      "es": "cuánto (precio)",
+      "de": "wie viel (Preis)",
+      "ru": "сколько (цена)",
+      "ko": "얼마",
+      "ja": "いくら（値段）"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_myeot",
+    "question_word": "몇",
+    "pronunciations": {
+      "en": "myeot",
+      "ja": "ミョッ",
+      "zh": "myeot",
+      "fr": "myeot",
+      "es": "myeot",
+      "de": "myeot",
+      "ru": "мёт",
+      "ko": "몇"
+    },
+    "translations": {
+      "en": "how many / what (number)",
+      "zh": "几 / 多少（数量）",
+      "fr": "combien (nombre)",
+      "es": "cuántos / qué (número)",
+      "de": "wie viele / welche (Zahl)",
+      "ru": "сколько (число)",
+      "ko": "몇",
+      "ja": "何〜 / いくつ（数）"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eoneu",
+    "question_word": "어느",
+    "pronunciations": {
+      "en": "eo-neu",
+      "ja": "オヌ",
+      "zh": "eo-neu",
+      "fr": "eo-neu",
+      "es": "eo-neu",
+      "de": "eo-neu",
+      "ru": "о-ны",
+      "ko": "어느"
+    },
+    "translations": {
+      "en": "which",
+      "zh": "哪（个）",
+      "fr": "quel / laquelle",
+      "es": "cuál / qué",
+      "de": "welch-",
+      "ru": "какой / который",
+      "ko": "어느",
+      "ja": "どの / どちら"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_museun",
+    "question_word": "무슨",
+    "pronunciations": {
+      "en": "mu-seun",
+      "ja": "ムスン",
+      "zh": "mu-seun",
+      "fr": "mu-seun",
+      "es": "mu-seun",
+      "de": "mu-seun",
+      "ru": "му-сын",
+      "ko": "무슨"
+    },
+    "translations": {
+      "en": "what (kind of) + noun",
+      "zh": "什么（修饰名词）",
+      "fr": "quel / quelle (+ nom)",
+      "es": "qué (+ sustantivo)",
+      "de": "was für ein (+ Nomen)",
+      "ru": "какой (+ сущ.)",
+      "ko": "무슨",
+      "ja": "どんな / 何の（＋名詞）"
+    }
+  },
+  {
+    "quiz_id": "ko_questions_eotteon",
+    "question_word": "어떤",
+    "pronunciations": {
+      "en": "eo-tteon",
+      "ja": "オットン",
+      "zh": "eo-tteon",
+      "fr": "eo-tteon",
+      "es": "eo-tteon",
+      "de": "eo-tteon",
+      "ru": "о-ттон",
+      "ko": "어떤"
+    },
+    "translations": {
+      "en": "what kind of / which (type)",
+      "zh": "什么样的 / 哪种",
+      "fr": "quel genre de / lequel",
+      "es": "qué tipo de / cuál",
+      "de": "was für / welch- (Art)",
+      "ru": "какой / какого рода",
+      "ko": "어떤",
+      "ja": "どんな / どのような"
+    }
+  }
+]

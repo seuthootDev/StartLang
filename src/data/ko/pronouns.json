@@ -1,0 +1,232 @@
+[
+  {
+    "quiz_id": "ko_pronouns_na",
+    "question_word": "나",
+    "pronunciations": {
+      "en": "na",
+      "ja": "ナ",
+      "zh": "na",
+      "fr": "na",
+      "es": "na",
+      "de": "na",
+      "ru": "на"
+    },
+    "translations": {
+      "en": "I / me (casual)",
+      "zh": "我（随便）",
+      "fr": "je / moi (familier)",
+      "es": "yo (informal)",
+      "de": "ich (locker)",
+      "ru": "я (неформ.)",
+      "ko": "나",
+      "ja": "私（くだけた言い方）"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_jeo",
+    "question_word": "저",
+    "pronunciations": {
+      "en": "jeo",
+      "ja": "チョ",
+      "zh": "jeo",
+      "fr": "jeo",
+      "es": "jeo",
+      "de": "jeo",
+      "ru": "чо"
+    },
+    "translations": {
+      "en": "I / me (humble)",
+      "zh": "我（谦逊）",
+      "fr": "je / moi (humble)",
+      "es": "yo (humilde)",
+      "de": "ich (demütig)",
+      "ru": "я (скромно)",
+      "ko": "저",
+      "ja": "私（謙譲）"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_neo",
+    "question_word": "너",
+    "pronunciations": {
+      "en": "neo",
+      "ja": "ノ",
+      "zh": "neo",
+      "fr": "neo",
+      "es": "neo",
+      "de": "neo",
+      "ru": "но"
+    },
+    "translations": {
+      "en": "you (casual)",
+      "zh": "你（随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты (неформ.)",
+      "ko": "너",
+      "ja": "お前・君（くだけた「あなた」）"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_dangsin",
+    "question_word": "당신",
+    "pronunciations": {
+      "en": "dang-sin",
+      "ja": "タンシン",
+      "zh": "dang-sin",
+      "fr": "dang-sin",
+      "es": "dang-sin",
+      "de": "dang-sin",
+      "ru": "тан-син"
+    },
+    "translations": {
+      "en": "you (formal / written)",
+      "zh": "你（正式/书面）",
+      "fr": "vous (formel / écrit)",
+      "es": "usted (formal / escrito)",
+      "de": "Sie (förmlich / Schrift)",
+      "ru": "вы (форм. / письм.)",
+      "ko": "당신",
+      "ja": "あなた（改まった／書き言葉寄り）"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_geu",
+    "question_word": "그",
+    "pronunciations": {
+      "en": "geu",
+      "ja": "ク",
+      "zh": "geu",
+      "fr": "geu",
+      "es": "geu",
+      "de": "geu",
+      "ru": "кы"
+    },
+    "translations": {
+      "en": "he / that person",
+      "zh": "他 / 那个人",
+      "fr": "il / cette personne",
+      "es": "él / esa persona",
+      "de": "er / jene Person",
+      "ru": "он / тот человек",
+      "ko": "그",
+      "ja": "彼 / その人"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_geunyeo",
+    "question_word": "그녀",
+    "pronunciations": {
+      "en": "geu-nyeo",
+      "ja": "クニョ",
+      "zh": "geu-nyeo",
+      "fr": "geu-nyeo",
+      "es": "geu-nyeo",
+      "de": "geu-nyeo",
+      "ru": "кы-нё"
+    },
+    "translations": {
+      "en": "she",
+      "zh": "她",
+      "fr": "elle",
+      "es": "ella",
+      "de": "sie (Singular)",
+      "ru": "она",
+      "ko": "그녀",
+      "ja": "彼女"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_uri",
+    "question_word": "우리",
+    "pronunciations": {
+      "en": "u-ri",
+      "ja": "ウリ",
+      "zh": "u-ri",
+      "fr": "u-ri",
+      "es": "u-ri",
+      "de": "u-ri",
+      "ru": "у-ри"
+    },
+    "translations": {
+      "en": "we / us",
+      "zh": "我们",
+      "fr": "nous",
+      "es": "nosotros",
+      "de": "wir / uns",
+      "ru": "мы / нас",
+      "ko": "우리",
+      "ja": "私たち"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_jeohui",
+    "question_word": "저희",
+    "pronunciations": {
+      "en": "jeo-hui",
+      "ja": "チョヒ",
+      "zh": "jeo-hui",
+      "fr": "jeo-hui",
+      "es": "jeo-hui",
+      "de": "jeo-hui",
+      "ru": "чо-хи"
+    },
+    "translations": {
+      "en": "we / us (humble)",
+      "zh": "我们（谦逊）",
+      "fr": "nous (humble)",
+      "es": "nosotros (humilde)",
+      "de": "wir (demütig)",
+      "ru": "мы (скромно)",
+      "ko": "저희",
+      "ja": "私ども（謙譲）"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_yeoreobun",
+    "question_word": "여러분",
+    "pronunciations": {
+      "en": "yeo-reo-bun",
+      "ja": "ヨロブン",
+      "zh": "yeo-reo-bun",
+      "fr": "yeo-reo-bun",
+      "es": "yeo-reo-bun",
+      "de": "yeo-reo-bun",
+      "ru": "ё-ро-бун"
+    },
+    "translations": {
+      "en": "you all (polite)",
+      "zh": "各位 / 你们（礼貌）",
+      "fr": "vous tous (poli)",
+      "es": "ustedes (cortés)",
+      "de": "Sie alle (höflich)",
+      "ru": "вы (мн., вежл.)",
+      "ko": "여러분",
+      "ja": "皆さん"
+    }
+  },
+  {
+    "quiz_id": "ko_pronouns_geudeul",
+    "question_word": "그들",
+    "pronunciations": {
+      "en": "geu-deul",
+      "ja": "クドゥル",
+      "zh": "geu-deul",
+      "fr": "geu-deul",
+      "es": "geu-deul",
+      "de": "geu-deul",
+      "ru": "кы-дыль"
+    },
+    "translations": {
+      "en": "they / them",
+      "zh": "他们",
+      "fr": "ils / eux",
+      "es": "ellos",
+      "de": "sie (Plural)",
+      "ru": "они / их",
+      "ko": "그들",
+      "ja": "彼ら"
+    }
+  }
+]

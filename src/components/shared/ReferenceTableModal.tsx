@@ -30,6 +30,8 @@ export function ReferenceTableModal({
 
   const title = resolveLocalized(table.title, learnerLang)
   const note = resolveLocalized(table.note, learnerLang)
+  const rules =
+    table.rules?.[learnerLang] ?? table.rules?.en ?? Object.values(table.rules ?? {})[0] ?? []
 
   return (
     <div className="ref-modal" role="presentation" onClick={onClose}>
@@ -44,6 +46,13 @@ export function ReferenceTableModal({
           <div>
             <h2 className="ref-modal__title">{title}</h2>
             {note && <p className="ref-modal__note">{note}</p>}
+            {rules.length > 0 && (
+              <ul className="ref-modal__rules">
+                {rules.map((rule) => (
+                  <li key={rule}>{rule}</li>
+                ))}
+              </ul>
+            )}
           </div>
           <button
             type="button"

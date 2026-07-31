@@ -37,10 +37,14 @@ export function isGenderQuiz(entry: QuizEntry): entry is GenderQuizEntry {
   return 'correct_gender' in entry
 }
 
+export type QuizInputMode = 'choice' | 'type'
+
 export interface QuizQuestion {
   entry: MeaningQuizEntry
   prompt: string
   pronunciation: string
   choices: string[]
   correctAnswer: string
+  /** Alphabet drills type the character; others pick a meaning. */
+  inputMode?: QuizInputMode
 }

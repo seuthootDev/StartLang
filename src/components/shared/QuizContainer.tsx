@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { t } from '../../config/uiStrings'
+import { isTypedAnswerCorrect } from '../../hooks/useQuizEngine'
 import type { LangCode } from '../../types/language'
 import type { RefTable } from '../../types/table'
 import type { QuizQuestion } from '../../types/vocab'
@@ -17,10 +18,12 @@ interface QuizContainerProps {
   selected: string | null
   onSelect: (choice: string) => void
   onNext: () => void
-  /** Alphabet drills already are the sound — hide pronunciation tip */
+  /** Alphabet drills ask the sound as typed input — hide pronunciation tip */
   showPronunciation?: boolean
   /** Optional category reference chart (JSON-driven) */
   refTable?: RefTable | null
+  /** Small controls placed next to the table button (e.g. script switch) */
+  toolbarExtra?: ReactNode
 }
 
 export function QuizContainer({
@@ -34,18 +37,31 @@ export function QuizContainer({
   onNext,
   showPronunciation = true,
   refTable = null,
+  toolbarExtra = null,
 }: QuizContainerProps) {
   const [tableOpen, setTableOpen] = useState(false)
+  const [draft, setDraft] = useState('')
+  const inputRef = useRef<HTMLInputElement>(null)
+  const isTypeMode = question.inputMode === 'type'
   const isAnswered = selected !== null
-  const isCorrect = selected === question.correctAnswer
+  const isCorrect = isTypeMode
+    ? selected !== null &&
+      isTypedAnswerCorrect(selected, question.correctAnswer)
+    : selected === question.correctAnswer
   const tip =
-    showPronunciation && question.pronunciation
+    !isTypeMode && showPronunciation && question.pronunciation
       ? question.pronunciation
       : ''
 
   useEffect(() => {
     setTableOpen(false)
+    setDraft('')
   }, [question.entry.quiz_id])
+
+  useEffect(() => {
+    if (!isTypeMode || isAnswered) return
+    inputRef.current?.focus()
+  }, [isTypeMode, isAnswered, question.entry.quiz_id])
 
   useEffect(() => {
     if (!isAnswered || tableOpen) return
@@ -53,10 +69,22 @@ export function QuizContainer({
     return () => window.clearTimeout(timer)
   }, [isAnswered, tableOpen, question.entry.quiz_id, onNext])
 
+  useEffect(() => {
+    if (!isAnswered || !isTypeMode) return
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== 'Enter' || event.isComposing) return
+      if (tableOpen) return
+      event.preventDefault()
+      onNext()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [isAnswered, isTypeMode, tableOpen, onNext])
+
   return (
     <>
       <section
-        className={`quiz${isAnswered ? ' quiz--continue' : ''}`}
+        className={`quiz${isAnswered ? ' quiz--continue' : ''}${isTypeMode ? ' quiz--type' : ''}`}
         onClick={isAnswered && !tableOpen ? onNext : undefined}
       >
         <div className="quiz__progress">
@@ -64,6 +92,14 @@ export function QuizContainer({
             {index + 1} / {total}
           </span>
           <div className="quiz__progress-actions">
+            {toolbarExtra && (
+              <div
+                className="quiz__toolbar-extra"
+                onClick={(event) => event.stopPropagation()}
+              >
+                {toolbarExtra}
+              </div>
+            )}
             {refTable && (
               <button
                 type="button"
@@ -97,41 +133,94 @@ export function QuizContainer({
           </p>
         </div>
 
-        <div className="quiz__choices" role="group">
-          {question.choices.map((choice) => {
-            let stateClass = ''
-            if (isAnswered) {
-              if (choice === question.correctAnswer) stateClass = 'is-correct'
-              else if (choice === selected) stateClass = 'is-wrong'
-              else stateClass = 'is-dimmed'
-            }
+        {isTypeMode ? (
+          <form
+            className="quiz__type"
+            onSubmit={(event) => {
+              event.preventDefault()
+              if (!isAnswered) onSelect(draft)
+            }}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <div className="quiz__type-row">
+              <input
+                ref={inputRef}
+                className={`quiz__type-input${
+                  isAnswered ? (isCorrect ? ' is-correct' : ' is-wrong') : ''
+                }`}
+                type="text"
+                value={isAnswered ? (selected ?? '') : draft}
+                onChange={(event) => setDraft(event.target.value)}
+                placeholder={t(learnerLang, 'typeCharacter')}
+                autoComplete="off"
+                autoCorrect="off"
+                autoCapitalize="off"
+                spellCheck={false}
+                disabled={isAnswered}
+                aria-label={t(learnerLang, 'typeCharacter')}
+              />
+              {isAnswered ? (
+                <button
+                  type="button"
+                  className="quiz__type-submit"
+                  onClick={onNext}
+                >
+                  {t(learnerLang, 'next')}
+                </button>
+              ) : (
+                <button type="submit" className="quiz__type-submit">
+                  {t(learnerLang, 'checkAnswer')}
+                </button>
+              )}
+            </div>
+            {isAnswered && !isCorrect && (
+              <p className="quiz__type-answer">
+                {t(learnerLang, 'correctAnswer')}:{' '}
+                <span className="quiz__type-answer-char">
+                  {question.correctAnswer}
+                </span>
+              </p>
+            )}
+          </form>
+        ) : (
+          <div className="quiz__choices" role="group">
+            {question.choices.map((choice) => {
+              let stateClass = ''
+              if (isAnswered) {
+                if (choice === question.correctAnswer) stateClass = 'is-correct'
+                else if (choice === selected) stateClass = 'is-wrong'
+                else stateClass = 'is-dimmed'
+              }
 
-            return (
-              <button
-                key={choice}
-                type="button"
-                className={`quiz__choice ${stateClass}`}
-                onClick={(event) => {
-                  event.stopPropagation()
-                  if (isAnswered) {
-                    onNext()
-                    return
-                  }
-                  onSelect(choice)
-                }}
-              >
-                {choice}
-              </button>
-            )
-          })}
-        </div>
+              return (
+                <button
+                  key={choice}
+                  type="button"
+                  className={`quiz__choice ${stateClass}`}
+                  onClick={(event) => {
+                    event.stopPropagation()
+                    if (isAnswered) {
+                      onNext()
+                      return
+                    }
+                    onSelect(choice)
+                  }}
+                >
+                  {choice}
+                </button>
+              )
+            })}
+          </div>
+        )}
 
         {isAnswered && (
           <div className="quiz__feedback">
             <p className={isCorrect ? 'is-ok' : 'is-bad'}>
               {isCorrect ? t(learnerLang, 'correct') : t(learnerLang, 'wrong')}
             </p>
-            <p className="quiz__continue-hint">{t(learnerLang, 'tapToContinue')}</p>
+            <p className="quiz__continue-hint">
+              {t(learnerLang, isTypeMode ? 'enterToContinue' : 'tapToContinue')}
+            </p>
           </div>
         )}
       </section>

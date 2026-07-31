@@ -43,6 +43,21 @@
   font-size: 0.88rem;
 }
 
+.ref-modal__rules {
+  margin: 0.55rem 0 0;
+  padding: 0.55rem 0.75rem 0.55rem 1.25rem;
+  border-radius: 0.65rem;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid color-mix(in srgb, var(--line) 80%, transparent);
+  color: var(--ink);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.ref-modal__rules li + li {
+  margin-top: 0.28rem;
+}
+
 .ref-modal__close {
   appearance: none;
   border: 1.5px solid var(--line);
