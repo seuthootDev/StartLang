@@ -27,6 +27,7 @@ import { getLanguage, isTargetLang } from '../config/languages'
 import { t, tf } from '../config/uiStrings'
 import { useSession } from '../context/SessionContext'
 import { QuizContainer } from '../components/shared/QuizContainer'
+import { useMediaQuery } from '../hooks/useMediaQuery'
 import { useQuizSession } from '../hooks/useQuizSession'
 import {
   getMeaningQuizzes,
@@ -249,8 +250,11 @@ function QuizPageInner({
     return getRefTable(targetLang, categoryId)
   }, [targetLang, categoryId, vocabTable, vocabDay])
 
+  const isCompactViewport = useMediaQuery('(max-width: 639px)')
+
   const quiz = useQuizSession(entries, learnerLang, {
-    inputMode: categoryId === 'alphabet' ? 'type' : 'choice',
+    inputMode:
+      categoryId === 'alphabet' && !isCompactViewport ? 'type' : 'choice',
     numberCombos:
       categoryId === 'numbers'
         ? { targetLang, system: numberSystem, count: 5 }

@@ -52,6 +52,14 @@ function LanguageHubInner({
         <p className="section-head__eyebrow">{targetEnglish}</p>
         <h1 className="section-head__title">{targetNative}</h1>
         <p className="section-head__lead">{t(learnerLang, 'languageHubLead')}</p>
+        <p className="section-head__menu-hint">
+          <span className="section-head__menu-icon" aria-hidden>
+            <span />
+            <span />
+            <span />
+          </span>
+          {t(learnerLang, 'languageHubMenuHint')}
+        </p>
       </div>
     </main>
   )

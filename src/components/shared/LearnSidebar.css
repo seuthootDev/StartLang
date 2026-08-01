@@ -471,6 +471,7 @@
 .learn-shell[data-target-lang='ja'] .learn-shell__chrome,
 .learn-shell[data-target-lang='ko'] .learn-shell__chrome,
 .learn-shell[data-target-lang='ru'] .learn-shell__chrome {
+  z-index: 30;
   background: color-mix(in srgb, var(--paper) 82%, white);
   border-bottom-color: color-mix(in srgb, var(--line) 70%, transparent);
   backdrop-filter: blur(10px);

@@ -18,6 +18,7 @@ type UiKey =
   | 'startCategory'
   | 'emptyCategory'
   | 'languageHubLead'
+  | 'languageHubMenuHint'
   | 'overview'
   | 'roundResult'
   | 'perfectRound'
@@ -58,6 +59,8 @@ const EN: Record<UiKey, string> = {
   startCategory: 'Start quiz',
   emptyCategory: 'No cards in this category yet.',
   languageHubLead: 'Start with the basics — the must-memorize steps for beginners.',
+  languageHubMenuHint:
+    'On mobile, tap the three lines at the top left to open the category menu.',
   overview: 'Overview',
   roundResult: 'Round {n} results',
   perfectRound: 'Perfect — all correct!',
@@ -102,6 +105,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: '퀴즈 시작',
     emptyCategory: '아직 이 카테고리 카드가 없어요.',
     languageHubLead: '기초부터 시작하세요. 외우기 귀찮지만 꼭 필요한 목차입니다.',
+    languageHubMenuHint:
+      '모바일에서는 왼쪽 위 작대기 세 개를 눌러 카테고리 메뉴를 여세요.',
     overview: '개요',
     roundResult: '{n}라운드 결과',
     perfectRound: '완벽해요. 전부 정답입니다!',
@@ -143,6 +148,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: 'クイズを始める',
     emptyCategory: 'このカテゴリーにはまだカードがありません。',
     languageHubLead: 'まず基礎から。覚えるのは面倒でも必須のメニューです。',
+    languageHubMenuHint:
+      'モバイルでは左上の三本線をタップしてカテゴリーメニューを開きます。',
     overview: '概要',
     roundResult: '{n}ラウンドの結果',
     perfectRound: 'パーフェクト！全部正解です',
@@ -184,6 +191,7 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: '开始测验',
     emptyCategory: '该类别还没有卡片。',
     languageHubLead: '从基础开始——初学者必背的入门内容。',
+    languageHubMenuHint: '手机上请点左上角三条线打开分类菜单。',
     overview: '概览',
     roundResult: '第 {n} 轮结果',
     perfectRound: '完美！全部正确',
@@ -224,6 +232,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: 'Commencer le quiz',
     emptyCategory: 'Pas encore de cartes dans cette catégorie.',
     languageHubLead: 'Commencez par les bases — l’essentiel à mémoriser.',
+    languageHubMenuHint:
+      'Sur mobile, appuyez sur les trois traits en haut à gauche pour ouvrir le menu.',
     overview: 'Aperçu',
     roundResult: 'Résultat du tour {n}',
     perfectRound: 'Parfait — tout est correct !',
@@ -265,6 +275,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: 'Empezar quiz',
     emptyCategory: 'Aún no hay tarjetas en esta categoría.',
     languageHubLead: 'Empieza por lo básico — lo esencial que hay que memorizar.',
+    languageHubMenuHint:
+      'En el móvil, toca las tres rayas arriba a la izquierda para abrir el menú.',
     overview: 'Resumen',
     roundResult: 'Resultados de la ronda {n}',
     perfectRound: '¡Perfecto — todo correcto!',
@@ -306,6 +318,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: 'Quiz starten',
     emptyCategory: 'In dieser Kategorie gibt es noch keine Karten.',
     languageHubLead: 'Fang mit den Grundlagen an — das, was man auswendig brauchen wird.',
+    languageHubMenuHint:
+      'Auf dem Handy: oben links die drei Striche tippen, um das Menü zu öffnen.',
     overview: 'Übersicht',
     roundResult: 'Runde-{n}-Ergebnis',
     perfectRound: 'Perfekt — alles richtig!',
@@ -347,6 +361,8 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     startCategory: 'Начать тест',
     emptyCategory: 'В этой категории пока нет карточек.',
     languageHubLead: 'Начните с основ — то, что скучно, но нужно запомнить.',
+    languageHubMenuHint:
+      'На телефоне нажмите три полоски слева сверху, чтобы открыть меню.',
     overview: 'Обзор',
     roundResult: 'Итог раунда {n}',
     perfectRound: 'Идеально — всё верно!',
