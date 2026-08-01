@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import { t } from '../../config/uiStrings'
 import { isTypedAnswerCorrect } from '../../hooks/useQuizEngine'
 import type { LangCode } from '../../types/language'
@@ -42,6 +42,8 @@ export function QuizContainer({
   const [tableOpen, setTableOpen] = useState(false)
   const [draft, setDraft] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
+  /** Blocks a ghost click/submit that lands on the next question's Check button. */
+  const blockSubmitRef = useRef(false)
   const isTypeMode = question.inputMode === 'type'
   const isAnswered = selected !== null
   const isCorrect = isTypeMode
@@ -53,9 +55,19 @@ export function QuizContainer({
       ? question.pronunciation
       : ''
 
+  const goNext = useCallback(() => {
+    blockSubmitRef.current = true
+    setDraft('')
+    onNext()
+  }, [onNext])
+
   useEffect(() => {
     setTableOpen(false)
     setDraft('')
+    const timer = window.setTimeout(() => {
+      blockSubmitRef.current = false
+    }, 300)
+    return () => window.clearTimeout(timer)
   }, [question.entry.quiz_id])
 
   useEffect(() => {
@@ -65,9 +77,9 @@ export function QuizContainer({
 
   useEffect(() => {
     if (!isAnswered || tableOpen) return
-    const timer = window.setTimeout(onNext, AUTO_NEXT_MS)
+    const timer = window.setTimeout(goNext, AUTO_NEXT_MS)
     return () => window.clearTimeout(timer)
-  }, [isAnswered, tableOpen, question.entry.quiz_id, onNext])
+  }, [isAnswered, tableOpen, question.entry.quiz_id, goNext])
 
   useEffect(() => {
     if (!isAnswered || !isTypeMode) return
@@ -75,17 +87,24 @@ export function QuizContainer({
       if (event.key !== 'Enter' || event.isComposing) return
       if (tableOpen) return
       event.preventDefault()
-      onNext()
+      goNext()
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [isAnswered, isTypeMode, tableOpen, onNext])
+  }, [isAnswered, isTypeMode, tableOpen, goNext])
+
+  function submitDraft() {
+    if (isAnswered || blockSubmitRef.current) return
+    const value = draft
+    if (!value.trim()) return
+    onSelect(value)
+  }
 
   return (
     <>
       <section
         className={`quiz${isAnswered ? ' quiz--continue' : ''}${isTypeMode ? ' quiz--type' : ''}`}
-        onClick={isAnswered && !tableOpen ? onNext : undefined}
+        onClick={isAnswered && !tableOpen ? goNext : undefined}
       >
         <div className="quiz__progress">
           <span>
@@ -138,7 +157,11 @@ export function QuizContainer({
             className="quiz__type"
             onSubmit={(event) => {
               event.preventDefault()
-              if (!isAnswered) onSelect(draft)
+              if (isAnswered) {
+                goNext()
+                return
+              }
+              submitDraft()
             }}
             onClick={(event) => event.stopPropagation()}
           >
@@ -159,19 +182,18 @@ export function QuizContainer({
                 disabled={isAnswered}
                 aria-label={t(learnerLang, 'typeCharacter')}
               />
-              {isAnswered ? (
-                <button
-                  type="button"
-                  className="quiz__type-submit"
-                  onClick={onNext}
-                >
-                  {t(learnerLang, 'next')}
-                </button>
-              ) : (
-                <button type="submit" className="quiz__type-submit">
-                  {t(learnerLang, 'checkAnswer')}
-                </button>
-              )}
+              <button
+                type="button"
+                className="quiz__type-submit"
+                onClick={(event) => {
+                  event.preventDefault()
+                  event.stopPropagation()
+                  if (isAnswered) goNext()
+                  else submitDraft()
+                }}
+              >
+                {t(learnerLang, isAnswered ? 'next' : 'checkAnswer')}
+              </button>
             </div>
             {isAnswered && !isCorrect && (
               <p className="quiz__type-answer">
@@ -200,7 +222,7 @@ export function QuizContainer({
                   onClick={(event) => {
                     event.stopPropagation()
                     if (isAnswered) {
-                      onNext()
+                      goNext()
                       return
                     }
                     onSelect(choice)
@@ -235,3 +257,4 @@ export function QuizContainer({
     </>
   )
 }
+

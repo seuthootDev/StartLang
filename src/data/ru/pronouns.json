@@ -1,0 +1,194 @@
+[
+  {
+    "quiz_id": "ru_pronouns_ya",
+    "question_word": "я",
+    "pronunciations": {
+      "en": "ya",
+      "ko": "야",
+      "ja": "ヤ",
+      "zh": "ya",
+      "fr": "ya",
+      "es": "ya",
+      "de": "ja",
+      "ru": "я"
+    },
+    "translations": {
+      "en": "I / me",
+      "ko": "나 / 저",
+      "ja": "私",
+      "zh": "我",
+      "fr": "je / moi",
+      "es": "yo / mí",
+      "de": "ich / mich",
+      "ru": "я"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_ty",
+    "question_word": "ты",
+    "pronunciations": {
+      "en": "ty",
+      "ko": "티",
+      "ja": "トゥィ",
+      "zh": "ty",
+      "fr": "ty",
+      "es": "ty",
+      "de": "ty",
+      "ru": "ты"
+    },
+    "translations": {
+      "en": "you (singular, informal)",
+      "ko": "너 (단수·반말)",
+      "ja": "君・お前（単数・くだけた）",
+      "zh": "你（单数、随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_on",
+    "question_word": "он",
+    "pronunciations": {
+      "en": "on",
+      "ko": "온",
+      "ja": "オン",
+      "zh": "on",
+      "fr": "on",
+      "es": "on",
+      "de": "on",
+      "ru": "он"
+    },
+    "translations": {
+      "en": "he / it (masculine)",
+      "ko": "그 (남성) / 그것(남)",
+      "ja": "彼 / それ（男性）",
+      "zh": "他 / 它（阳性）",
+      "fr": "il (masculin)",
+      "es": "él (masculino)",
+      "de": "er (maskulin)",
+      "ru": "он"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_ona",
+    "question_word": "она",
+    "pronunciations": {
+      "en": "o-na",
+      "ko": "아나",
+      "ja": "オナ",
+      "zh": "ona",
+      "fr": "ona",
+      "es": "ona",
+      "de": "ona",
+      "ru": "она"
+    },
+    "translations": {
+      "en": "she / it (feminine)",
+      "ko": "그녀 / 그것(여)",
+      "ja": "彼女 / それ（女性）",
+      "zh": "她 / 它（阴性）",
+      "fr": "elle (féminin)",
+      "es": "ella (femenino)",
+      "de": "sie (feminin)",
+      "ru": "она"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_ono",
+    "question_word": "оно",
+    "pronunciations": {
+      "en": "o-no",
+      "ko": "아노",
+      "ja": "オノ",
+      "zh": "ono",
+      "fr": "ono",
+      "es": "ono",
+      "de": "ono",
+      "ru": "оно"
+    },
+    "translations": {
+      "en": "it (neuter)",
+      "ko": "그것 (중성)",
+      "ja": "それ（中性）",
+      "zh": "它（中性）",
+      "fr": "il / ce (neutre)",
+      "es": "ello (neutro)",
+      "de": "es (neutrum)",
+      "ru": "оно"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_my",
+    "question_word": "мы",
+    "pronunciations": {
+      "en": "my",
+      "ko": "미",
+      "ja": "ムィ",
+      "zh": "my",
+      "fr": "my",
+      "es": "my",
+      "de": "my",
+      "ru": "мы"
+    },
+    "translations": {
+      "en": "we / us",
+      "ko": "우리",
+      "ja": "私たち",
+      "zh": "我们",
+      "fr": "nous",
+      "es": "nosotros",
+      "de": "wir / uns",
+      "ru": "мы"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_vy",
+    "question_word": "вы",
+    "pronunciations": {
+      "en": "vy",
+      "ko": "비",
+      "ja": "ヴイ",
+      "zh": "vy",
+      "fr": "vy",
+      "es": "vy",
+      "de": "wy",
+      "ru": "вы"
+    },
+    "translations": {
+      "en": "you (plural / polite singular)",
+      "ko": "당신·여러분 (복수 / 존댓말 단수)",
+      "ja": "あなたたち / あなた（丁寧の単数）",
+      "zh": "你们 / 您（礼貌单数）",
+      "fr": "vous (pluriel / poli)",
+      "es": "ustedes / usted",
+      "de": "ihr / Sie",
+      "ru": "вы"
+    }
+  },
+  {
+    "quiz_id": "ru_pronouns_oni",
+    "question_word": "они",
+    "pronunciations": {
+      "en": "o-ni",
+      "ko": "아니",
+      "ja": "アニ",
+      "zh": "oni",
+      "fr": "oni",
+      "es": "oni",
+      "de": "oni",
+      "ru": "они"
+    },
+    "translations": {
+      "en": "they / them",
+      "ko": "그들",
+      "ja": "彼ら",
+      "zh": "他们",
+      "fr": "ils / elles",
+      "es": "ellos / ellas",
+      "de": "sie (Plural)",
+      "ru": "они"
+    }
+  }
+]

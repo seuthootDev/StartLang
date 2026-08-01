@@ -1,0 +1,482 @@
+[
+  {
+    "quiz_id": "ru_demonstratives_etot",
+    "question_word": "этот",
+    "pronunciations": {
+      "en": "e-tot",
+      "ko": "에토트",
+      "ja": "エートト",
+      "zh": "e-tot",
+      "fr": "e-tot",
+      "es": "e-tot",
+      "de": "e-tot",
+      "ru": "этот"
+    },
+    "translations": {
+      "en": "this (masculine)",
+      "ko": "이 (남성)",
+      "ja": "この / これ（男性）",
+      "zh": "这个（阳性）",
+      "fr": "ce / cet (masculin)",
+      "es": "este (masculino)",
+      "de": "dieser (maskulin)",
+      "ru": "этот"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_eta",
+    "question_word": "эта",
+    "pronunciations": {
+      "en": "e-ta",
+      "ko": "에타",
+      "ja": "エータ",
+      "zh": "e-ta",
+      "fr": "e-ta",
+      "es": "e-ta",
+      "de": "e-ta",
+      "ru": "эта"
+    },
+    "translations": {
+      "en": "this (feminine)",
+      "ko": "이 (여성)",
+      "ja": "この / これ（女性）",
+      "zh": "这个（阴性）",
+      "fr": "cette (féminin)",
+      "es": "esta (femenino)",
+      "de": "diese (feminin)",
+      "ru": "эта"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_eto",
+    "question_word": "это",
+    "pronunciations": {
+      "en": "e-to",
+      "ko": "에토",
+      "ja": "エート",
+      "zh": "e-to",
+      "fr": "e-to",
+      "es": "e-to",
+      "de": "e-to",
+      "ru": "это"
+    },
+    "translations": {
+      "en": "this / it (neuter); “this is…”",
+      "ko": "이것 / 중성; “이것은…”",
+      "ja": "これ / 中性；「これは…」",
+      "zh": "这个 / 中性；“这是…”",
+      "fr": "ceci / ce (neutre)",
+      "es": "esto / eso (neutro)",
+      "de": "dies / es (Neutrum)",
+      "ru": "это"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_tot",
+    "question_word": "тот",
+    "pronunciations": {
+      "en": "tot",
+      "ko": "토트",
+      "ja": "トト",
+      "zh": "tot",
+      "fr": "tot",
+      "es": "tot",
+      "de": "tot",
+      "ru": "тот"
+    },
+    "translations": {
+      "en": "that (masculine)",
+      "ko": "그 / 저 (남성)",
+      "ja": "その / あの（男性）",
+      "zh": "那个（阳性）",
+      "fr": "ce / cet …-là (masculin)",
+      "es": "aquel / ese (masculino)",
+      "de": "jener (maskulin)",
+      "ru": "тот"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_ta",
+    "question_word": "та",
+    "pronunciations": {
+      "en": "ta",
+      "ko": "타",
+      "ja": "タ",
+      "zh": "ta",
+      "fr": "ta",
+      "es": "ta",
+      "de": "ta",
+      "ru": "та"
+    },
+    "translations": {
+      "en": "that (feminine)",
+      "ko": "그 / 저 (여성)",
+      "ja": "その / あの（女性）",
+      "zh": "那个（阴性）",
+      "fr": "cette …-là (féminin)",
+      "es": "aquella / esa (femenino)",
+      "de": "jene (feminin)",
+      "ru": "та"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_to",
+    "question_word": "то",
+    "pronunciations": {
+      "en": "to",
+      "ko": "토",
+      "ja": "ト",
+      "zh": "to",
+      "fr": "to",
+      "es": "to",
+      "de": "to",
+      "ru": "то"
+    },
+    "translations": {
+      "en": "that (neuter)",
+      "ko": "그것 / 저것 (중성)",
+      "ja": "それ / あれ（中性）",
+      "zh": "那个（中性）",
+      "fr": "cela (neutre)",
+      "es": "aquello / eso (neutro)",
+      "de": "jenes (Neutrum)",
+      "ru": "то"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_eti",
+    "question_word": "эти",
+    "pronunciations": {
+      "en": "e-ti",
+      "ko": "에티",
+      "ja": "エーチ",
+      "zh": "e-ti",
+      "fr": "e-ti",
+      "es": "e-ti",
+      "de": "e-ti",
+      "ru": "эти"
+    },
+    "translations": {
+      "en": "these",
+      "ko": "이들 / 이것들",
+      "ja": "これら",
+      "zh": "这些",
+      "fr": "ces (pluriel, proches)",
+      "es": "estos / estas",
+      "de": "diese (Plural)",
+      "ru": "эти"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_te",
+    "question_word": "те",
+    "pronunciations": {
+      "en": "te",
+      "ko": "테",
+      "ja": "テ",
+      "zh": "te",
+      "fr": "te",
+      "es": "te",
+      "de": "te",
+      "ru": "те"
+    },
+    "translations": {
+      "en": "those",
+      "ko": "그들 / 저것들",
+      "ja": "それら / あれら",
+      "zh": "那些",
+      "fr": "ces …-là (pluriel)",
+      "es": "aquellos / esos",
+      "de": "jene (Plural)",
+      "ru": "те"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_zdes",
+    "question_word": "здесь",
+    "pronunciations": {
+      "en": "zdesʹ",
+      "ko": "즈제스",
+      "ja": "ズジェシ",
+      "zh": "zdesʹ",
+      "fr": "zdesʹ",
+      "es": "zdesʹ",
+      "de": "zdesʹ",
+      "ru": "здесь"
+    },
+    "translations": {
+      "en": "here (location)",
+      "ko": "여기 (장소)",
+      "ja": "ここ（場所）",
+      "zh": "这里（地点）",
+      "fr": "ici (lieu)",
+      "es": "aquí (lugar)",
+      "de": "hier (Ort)",
+      "ru": "здесь"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_tam",
+    "question_word": "там",
+    "pronunciations": {
+      "en": "tam",
+      "ko": "탐",
+      "ja": "タム",
+      "zh": "tam",
+      "fr": "tam",
+      "es": "tam",
+      "de": "tam",
+      "ru": "там"
+    },
+    "translations": {
+      "en": "there (location)",
+      "ko": "거기 / 저기 (장소)",
+      "ja": "そこ / あそこ（場所）",
+      "zh": "那里（地点）",
+      "fr": "là (lieu)",
+      "es": "allí (lugar)",
+      "de": "dort (Ort)",
+      "ru": "там"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_syuda",
+    "question_word": "сюда",
+    "pronunciations": {
+      "en": "syu-da",
+      "ko": "슈다",
+      "ja": "スダー",
+      "zh": "syu-da",
+      "fr": "syu-da",
+      "es": "syu-da",
+      "de": "syu-da",
+      "ru": "сюда"
+    },
+    "translations": {
+      "en": "to here / hither",
+      "ko": "이리로 (오는·가는 방향)",
+      "ja": "ここへ",
+      "zh": "到这里（方向）",
+      "fr": "ici (direction)",
+      "es": "hacia aquí",
+      "de": "hierher",
+      "ru": "сюда"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_tuda",
+    "question_word": "туда",
+    "pronunciations": {
+      "en": "tu-da",
+      "ko": "투다",
+      "ja": "トゥダー",
+      "zh": "tu-da",
+      "fr": "tu-da",
+      "es": "tu-da",
+      "de": "tu-da",
+      "ru": "туда"
+    },
+    "translations": {
+      "en": "to there / thither",
+      "ko": "그리로 / 저기로",
+      "ja": "そこへ / あそこへ",
+      "zh": "到那里（方向）",
+      "fr": "là-bas (direction)",
+      "es": "hacia allí",
+      "de": "dorthin",
+      "ru": "туда"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_vperedi",
+    "question_word": "впереди",
+    "pronunciations": {
+      "en": "vpe-re-di",
+      "ko": "프페레디",
+      "ja": "フピレジェーヂ",
+      "zh": "vpe-re-di",
+      "fr": "vpe-re-di",
+      "es": "vpe-re-di",
+      "de": "vpe-re-di",
+      "ru": "впереди"
+    },
+    "translations": {
+      "en": "in front / ahead",
+      "ko": "앞",
+      "ja": "前",
+      "zh": "前面",
+      "fr": "devant",
+      "es": "delante",
+      "de": "vorn / voraus",
+      "ru": "впереди"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_szadi",
+    "question_word": "сзади",
+    "pronunciations": {
+      "en": "sza-di",
+      "ko": "스자디",
+      "ja": "スザーヂ",
+      "zh": "sza-di",
+      "fr": "sza-di",
+      "es": "sza-di",
+      "de": "sza-di",
+      "ru": "сзади"
+    },
+    "translations": {
+      "en": "behind / at the back",
+      "ko": "뒤",
+      "ja": "後ろ",
+      "zh": "后面",
+      "fr": "derrière",
+      "es": "detrás",
+      "de": "hinten",
+      "ru": "сзади"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_sverkhu",
+    "question_word": "сверху",
+    "pronunciations": {
+      "en": "sver-khu",
+      "ko": "스베르후",
+      "ja": "スヴェルフー",
+      "zh": "sver-khu",
+      "fr": "sver-khu",
+      "es": "sver-khu",
+      "de": "sver-khu",
+      "ru": "сверху"
+    },
+    "translations": {
+      "en": "above / from above",
+      "ko": "위",
+      "ja": "上",
+      "zh": "上面",
+      "fr": "au-dessus",
+      "es": "arriba",
+      "de": "oben",
+      "ru": "сверху"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_snizu",
+    "question_word": "снизу",
+    "pronunciations": {
+      "en": "sni-zu",
+      "ko": "스니주",
+      "ja": "スニズー",
+      "zh": "sni-zu",
+      "fr": "sni-zu",
+      "es": "sni-zu",
+      "de": "sni-zu",
+      "ru": "снизу"
+    },
+    "translations": {
+      "en": "below / from below",
+      "ko": "아래",
+      "ja": "下",
+      "zh": "下面",
+      "fr": "en bas",
+      "es": "abajo",
+      "de": "unten",
+      "ru": "снизу"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_sleva",
+    "question_word": "слева",
+    "pronunciations": {
+      "en": "sle-va",
+      "ko": "슬레바",
+      "ja": "スリェーヴァ",
+      "zh": "sle-va",
+      "fr": "sle-va",
+      "es": "sle-va",
+      "de": "sle-va",
+      "ru": "слева"
+    },
+    "translations": {
+      "en": "on the left",
+      "ko": "왼쪽",
+      "ja": "左",
+      "zh": "左边",
+      "fr": "à gauche",
+      "es": "a la izquierda",
+      "de": "links",
+      "ru": "слева"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_sprava",
+    "question_word": "справа",
+    "pronunciations": {
+      "en": "spra-va",
+      "ko": "스프라바",
+      "ja": "スプラーヴァ",
+      "zh": "spra-va",
+      "fr": "spra-va",
+      "es": "spra-va",
+      "de": "spra-va",
+      "ru": "справа"
+    },
+    "translations": {
+      "en": "on the right",
+      "ko": "오른쪽",
+      "ja": "右",
+      "zh": "右边",
+      "fr": "à droite",
+      "es": "a la derecha",
+      "de": "rechts",
+      "ru": "справа"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_vnutri",
+    "question_word": "внутри",
+    "pronunciations": {
+      "en": "vnu-tri",
+      "ko": "브누트리",
+      "ja": "ヴヌトリー",
+      "zh": "vnu-tri",
+      "fr": "vnu-tri",
+      "es": "vnu-tri",
+      "de": "vnu-tri",
+      "ru": "внутри"
+    },
+    "translations": {
+      "en": "inside",
+      "ko": "안",
+      "ja": "中",
+      "zh": "里面",
+      "fr": "à l’intérieur",
+      "es": "dentro",
+      "de": "innen",
+      "ru": "внутри"
+    }
+  },
+  {
+    "quiz_id": "ru_demonstratives_snaruzhi",
+    "question_word": "снаружи",
+    "pronunciations": {
+      "en": "sna-ru-zhi",
+      "ko": "스나루지",
+      "ja": "スナルージ",
+      "zh": "sna-ru-zhi",
+      "fr": "sna-ru-zhi",
+      "es": "sna-ru-zhi",
+      "de": "sna-ru-zhi",
+      "ru": "снаружи"
+    },
+    "translations": {
+      "en": "outside",
+      "ko": "밖",
+      "ja": "外",
+      "zh": "外面",
+      "fr": "à l’extérieur",
+      "es": "fuera",
+      "de": "außen",
+      "ru": "снаружи"
+    }
+  }
+]

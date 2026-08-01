@@ -1,0 +1,1034 @@
+[
+  {
+    "quiz_id": "ru_dates_month_1",
+    "question_word": "января",
+    "pronunciations": {
+      "en": "yan-va-rya",
+      "ko": "얀바랴",
+      "ja": "ヤンヴァーリャ",
+      "zh": "yan-va-rya",
+      "fr": "yan-va-rya",
+      "es": "yan-va-rya",
+      "de": "yan-va-rya",
+      "ru": "января"
+    },
+    "translations": {
+      "en": "January (in dates)",
+      "ko": "1월 (날짜·생격)",
+      "ja": "一月（日付・生格）",
+      "zh": "一月（日期用生格）",
+      "fr": "janvier (dans les dates)",
+      "es": "enero (en fechas)",
+      "de": "Januar (in Daten)",
+      "ru": "января"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_2",
+    "question_word": "февраля",
+    "pronunciations": {
+      "en": "fev-ra-lya",
+      "ko": "페브랄랴",
+      "ja": "フィヴラーリャ",
+      "zh": "fev-ra-lya",
+      "fr": "fev-ra-lya",
+      "es": "fev-ra-lya",
+      "de": "fev-ra-lya",
+      "ru": "февраля"
+    },
+    "translations": {
+      "en": "February (in dates)",
+      "ko": "2월 (날짜·생격)",
+      "ja": "二月（日付・生格）",
+      "zh": "二月（日期用生格）",
+      "fr": "février (dans les dates)",
+      "es": "febrero (en fechas)",
+      "de": "Februar (in Daten)",
+      "ru": "февраля"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_3",
+    "question_word": "марта",
+    "pronunciations": {
+      "en": "mar-ta",
+      "ko": "마르타",
+      "ja": "マルタ",
+      "zh": "mar-ta",
+      "fr": "mar-ta",
+      "es": "mar-ta",
+      "de": "mar-ta",
+      "ru": "марта"
+    },
+    "translations": {
+      "en": "March (in dates)",
+      "ko": "3월 (날짜·생격)",
+      "ja": "三月（日付・生格）",
+      "zh": "三月（日期用生格）",
+      "fr": "mars (dans les dates)",
+      "es": "marzo (en fechas)",
+      "de": "März (in Daten)",
+      "ru": "марта"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_4",
+    "question_word": "апреля",
+    "pronunciations": {
+      "en": "a-pre-lya",
+      "ko": "아프레랴",
+      "ja": "アプレーリャ",
+      "zh": "a-pre-lya",
+      "fr": "a-pre-lya",
+      "es": "a-pre-lya",
+      "de": "a-pre-lya",
+      "ru": "апреля"
+    },
+    "translations": {
+      "en": "April (in dates)",
+      "ko": "4월 (날짜·생격)",
+      "ja": "四月（日付・生格）",
+      "zh": "四月（日期用生格）",
+      "fr": "avril (dans les dates)",
+      "es": "abril (en fechas)",
+      "de": "April (in Daten)",
+      "ru": "апреля"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_5",
+    "question_word": "мая",
+    "pronunciations": {
+      "en": "ma-ya",
+      "ko": "마야",
+      "ja": "マーヤ",
+      "zh": "ma-ya",
+      "fr": "ma-ya",
+      "es": "ma-ya",
+      "de": "ma-ya",
+      "ru": "мая"
+    },
+    "translations": {
+      "en": "May (in dates)",
+      "ko": "5월 (날짜·생격)",
+      "ja": "五月（日付・生格）",
+      "zh": "五月（日期用生格）",
+      "fr": "mai (dans les dates)",
+      "es": "mayo (en fechas)",
+      "de": "Mai (in Daten)",
+      "ru": "мая"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_6",
+    "question_word": "июня",
+    "pronunciations": {
+      "en": "i-yu-nya",
+      "ko": "이유냐",
+      "ja": "イユーニャ",
+      "zh": "i-yu-nya",
+      "fr": "i-yu-nya",
+      "es": "i-yu-nya",
+      "de": "i-yu-nya",
+      "ru": "июня"
+    },
+    "translations": {
+      "en": "June (in dates)",
+      "ko": "6월 (날짜·생격)",
+      "ja": "六月（日付・生格）",
+      "zh": "六月（日期用生格）",
+      "fr": "juin (dans les dates)",
+      "es": "junio (en fechas)",
+      "de": "Juni (in Daten)",
+      "ru": "июня"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_7",
+    "question_word": "июля",
+    "pronunciations": {
+      "en": "i-yu-lya",
+      "ko": "이율랴",
+      "ja": "イユーリャ",
+      "zh": "i-yu-lya",
+      "fr": "i-yu-lya",
+      "es": "i-yu-lya",
+      "de": "i-yu-lya",
+      "ru": "июля"
+    },
+    "translations": {
+      "en": "July (in dates)",
+      "ko": "7월 (날짜·생격)",
+      "ja": "七月（日付・生格）",
+      "zh": "七月（日期用生格）",
+      "fr": "juillet (dans les dates)",
+      "es": "julio (en fechas)",
+      "de": "Juli (in Daten)",
+      "ru": "июля"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_8",
+    "question_word": "августа",
+    "pronunciations": {
+      "en": "av-gu-sta",
+      "ko": "아브구스타",
+      "ja": "アーヴグスタ",
+      "zh": "av-gu-sta",
+      "fr": "av-gu-sta",
+      "es": "av-gu-sta",
+      "de": "av-gu-sta",
+      "ru": "августа"
+    },
+    "translations": {
+      "en": "August (in dates)",
+      "ko": "8월 (날짜·생격)",
+      "ja": "八月（日付・生格）",
+      "zh": "八月（日期用生格）",
+      "fr": "août (dans les dates)",
+      "es": "agosto (en fechas)",
+      "de": "August (in Daten)",
+      "ru": "августа"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_9",
+    "question_word": "сентября",
+    "pronunciations": {
+      "en": "sen-tyab-rya",
+      "ko": "센탸브랴",
+      "ja": "センチャーブリャ",
+      "zh": "sen-tyab-rya",
+      "fr": "sen-tyab-rya",
+      "es": "sen-tyab-rya",
+      "de": "sen-tyab-rya",
+      "ru": "сентября"
+    },
+    "translations": {
+      "en": "September (in dates)",
+      "ko": "9월 (날짜·생격)",
+      "ja": "九月（日付・生格）",
+      "zh": "九月（日期用生格）",
+      "fr": "septembre (dans les dates)",
+      "es": "septiembre (en fechas)",
+      "de": "September (in Daten)",
+      "ru": "сентября"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_10",
+    "question_word": "октября",
+    "pronunciations": {
+      "en": "ok-tyab-rya",
+      "ko": "옥탸브랴",
+      "ja": "オクチャーブリャ",
+      "zh": "ok-tyab-rya",
+      "fr": "ok-tyab-rya",
+      "es": "ok-tyab-rya",
+      "de": "ok-tyab-rya",
+      "ru": "октября"
+    },
+    "translations": {
+      "en": "October (in dates)",
+      "ko": "10월 (날짜·생격)",
+      "ja": "十月（日付・生格）",
+      "zh": "十月（日期用生格）",
+      "fr": "octobre (dans les dates)",
+      "es": "octubre (en fechas)",
+      "de": "Oktober (in Daten)",
+      "ru": "октября"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_11",
+    "question_word": "ноября",
+    "pronunciations": {
+      "en": "no-yab-rya",
+      "ko": "나야브랴",
+      "ja": "ナヤーブリャ",
+      "zh": "no-yab-rya",
+      "fr": "no-yab-rya",
+      "es": "no-yab-rya",
+      "de": "no-yab-rya",
+      "ru": "ноября"
+    },
+    "translations": {
+      "en": "November (in dates)",
+      "ko": "11월 (날짜·생격)",
+      "ja": "十一月（日付・生格）",
+      "zh": "十一月（日期用生格）",
+      "fr": "novembre (dans les dates)",
+      "es": "noviembre (en fechas)",
+      "de": "November (in Daten)",
+      "ru": "ноября"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_month_12",
+    "question_word": "декабря",
+    "pronunciations": {
+      "en": "de-kab-rya",
+      "ko": "디카브랴",
+      "ja": "ヂィカブリーャ",
+      "zh": "de-kab-rya",
+      "fr": "de-kab-rya",
+      "es": "de-kab-rya",
+      "de": "de-kab-rya",
+      "ru": "декабря"
+    },
+    "translations": {
+      "en": "December (in dates)",
+      "ko": "12월 (날짜·생격)",
+      "ja": "十二月（日付・生格）",
+      "zh": "十二月（日期用生格）",
+      "fr": "décembre (dans les dates)",
+      "es": "diciembre (en fechas)",
+      "de": "Dezember (in Daten)",
+      "ru": "декабря"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_1",
+    "question_word": "первое",
+    "pronunciations": {
+      "en": "per-vo-ye",
+      "ko": "페르바예",
+      "ja": "ペールヴァイェ",
+      "zh": "per-vo-ye",
+      "fr": "per-vo-ye",
+      "es": "per-vo-ye",
+      "de": "per-vo-ye",
+      "ru": "первое"
+    },
+    "translations": {
+      "en": "1st (of the month)",
+      "ko": "1일",
+      "ja": "1日",
+      "zh": "1号",
+      "fr": "le 1",
+      "es": "día 1",
+      "de": "1.",
+      "ru": "1"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_2",
+    "question_word": "второе",
+    "pronunciations": {
+      "en": "vto-ro-ye",
+      "ko": "프토라예",
+      "ja": "フトーライェ",
+      "zh": "vto-ro-ye",
+      "fr": "vto-ro-ye",
+      "es": "vto-ro-ye",
+      "de": "vto-ro-ye",
+      "ru": "второе"
+    },
+    "translations": {
+      "en": "2nd (of the month)",
+      "ko": "2일",
+      "ja": "2日",
+      "zh": "2号",
+      "fr": "le 2",
+      "es": "día 2",
+      "de": "2.",
+      "ru": "2"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_3",
+    "question_word": "третье",
+    "pronunciations": {
+      "en": "tretʹ-ye",
+      "ko": "트레티예",
+      "ja": "トリェーチイェ",
+      "zh": "tretʹ-ye",
+      "fr": "tretʹ-ye",
+      "es": "tretʹ-ye",
+      "de": "tretʹ-ye",
+      "ru": "третье"
+    },
+    "translations": {
+      "en": "3rd (of the month)",
+      "ko": "3일",
+      "ja": "3日",
+      "zh": "3号",
+      "fr": "le 3",
+      "es": "día 3",
+      "de": "3.",
+      "ru": "3"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_4",
+    "question_word": "четвёртое",
+    "pronunciations": {
+      "en": "chet-vyor-to-ye",
+      "ko": "치트뵤르타예",
+      "ja": "チトヴョールタイェ",
+      "zh": "chet-vyor-to-ye",
+      "fr": "chet-vyor-to-ye",
+      "es": "chet-vyor-to-ye",
+      "de": "chet-vyor-to-ye",
+      "ru": "четвёртое"
+    },
+    "translations": {
+      "en": "4th (of the month)",
+      "ko": "4일",
+      "ja": "4日",
+      "zh": "4号",
+      "fr": "le 4",
+      "es": "día 4",
+      "de": "4.",
+      "ru": "4"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_5",
+    "question_word": "пятое",
+    "pronunciations": {
+      "en": "pya-to-ye",
+      "ko": "퍄타예",
+      "ja": "ピャータイェ",
+      "zh": "pya-to-ye",
+      "fr": "pya-to-ye",
+      "es": "pya-to-ye",
+      "de": "pya-to-ye",
+      "ru": "пятое"
+    },
+    "translations": {
+      "en": "5th (of the month)",
+      "ko": "5일",
+      "ja": "5日",
+      "zh": "5号",
+      "fr": "le 5",
+      "es": "día 5",
+      "de": "5.",
+      "ru": "5"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_6",
+    "question_word": "шестое",
+    "pronunciations": {
+      "en": "she-sto-ye",
+      "ko": "셰스타예",
+      "ja": "シェスターイェ",
+      "zh": "she-sto-ye",
+      "fr": "she-sto-ye",
+      "es": "she-sto-ye",
+      "de": "she-sto-ye",
+      "ru": "шестое"
+    },
+    "translations": {
+      "en": "6th (of the month)",
+      "ko": "6일",
+      "ja": "6日",
+      "zh": "6号",
+      "fr": "le 6",
+      "es": "día 6",
+      "de": "6.",
+      "ru": "6"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_7",
+    "question_word": "седьмое",
+    "pronunciations": {
+      "en": "sedʹ-mo-ye",
+      "ko": "세드마예",
+      "ja": "セーヂマイェ",
+      "zh": "sedʹ-mo-ye",
+      "fr": "sedʹ-mo-ye",
+      "es": "sedʹ-mo-ye",
+      "de": "sedʹ-mo-ye",
+      "ru": "седьмое"
+    },
+    "translations": {
+      "en": "7th (of the month)",
+      "ko": "7일",
+      "ja": "7日",
+      "zh": "7号",
+      "fr": "le 7",
+      "es": "día 7",
+      "de": "7.",
+      "ru": "7"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_8",
+    "question_word": "восьмое",
+    "pronunciations": {
+      "en": "vosʹ-mo-ye",
+      "ko": "보스마예",
+      "ja": "ヴォースマイェ",
+      "zh": "vosʹ-mo-ye",
+      "fr": "vosʹ-mo-ye",
+      "es": "vosʹ-mo-ye",
+      "de": "vosʹ-mo-ye",
+      "ru": "восьмое"
+    },
+    "translations": {
+      "en": "8th (of the month)",
+      "ko": "8일",
+      "ja": "8日",
+      "zh": "8号",
+      "fr": "le 8",
+      "es": "día 8",
+      "de": "8.",
+      "ru": "8"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_9",
+    "question_word": "девятое",
+    "pronunciations": {
+      "en": "de-vya-to-ye",
+      "ko": "제뱌타예",
+      "ja": "ヂェヴャータイェ",
+      "zh": "de-vya-to-ye",
+      "fr": "de-vya-to-ye",
+      "es": "de-vya-to-ye",
+      "de": "de-vya-to-ye",
+      "ru": "девятое"
+    },
+    "translations": {
+      "en": "9th (of the month)",
+      "ko": "9일",
+      "ja": "9日",
+      "zh": "9号",
+      "fr": "le 9",
+      "es": "día 9",
+      "de": "9.",
+      "ru": "9"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_10",
+    "question_word": "десятое",
+    "pronunciations": {
+      "en": "de-sya-to-ye",
+      "ko": "제샤타예",
+      "ja": "ヂェシャータイェ",
+      "zh": "de-sya-to-ye",
+      "fr": "de-sya-to-ye",
+      "es": "de-sya-to-ye",
+      "de": "de-sya-to-ye",
+      "ru": "десятое"
+    },
+    "translations": {
+      "en": "10th (of the month)",
+      "ko": "10일",
+      "ja": "10日",
+      "zh": "10号",
+      "fr": "le 10",
+      "es": "día 10",
+      "de": "10.",
+      "ru": "10"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_11",
+    "question_word": "одиннадцатое",
+    "pronunciations": {
+      "en": "o-di-nna-tsa-to-ye",
+      "ko": "아딘나차타예",
+      "ja": "アヂンナーツァタイェ",
+      "zh": "o-di-nna-tsa-to-ye",
+      "fr": "o-di-nna-tsa-to-ye",
+      "es": "o-di-nna-tsa-to-ye",
+      "de": "o-di-nna-tsa-to-ye",
+      "ru": "одиннадцатое"
+    },
+    "translations": {
+      "en": "11th (of the month)",
+      "ko": "11일",
+      "ja": "11日",
+      "zh": "11号",
+      "fr": "le 11",
+      "es": "día 11",
+      "de": "11.",
+      "ru": "11"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_12",
+    "question_word": "двенадцатое",
+    "pronunciations": {
+      "en": "dve-na-tsa-to-ye",
+      "ko": "드베나차타예",
+      "ja": "ドヴェナーツァタイェ",
+      "zh": "dve-na-tsa-to-ye",
+      "fr": "dve-na-tsa-to-ye",
+      "es": "dve-na-tsa-to-ye",
+      "de": "dve-na-tsa-to-ye",
+      "ru": "двенадцатое"
+    },
+    "translations": {
+      "en": "12th (of the month)",
+      "ko": "12일",
+      "ja": "12日",
+      "zh": "12号",
+      "fr": "le 12",
+      "es": "día 12",
+      "de": "12.",
+      "ru": "12"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_13",
+    "question_word": "тринадцатое",
+    "pronunciations": {
+      "en": "tri-na-tsa-to-ye",
+      "ko": "트리나차타예",
+      "ja": "トリナーツァタイェ",
+      "zh": "tri-na-tsa-to-ye",
+      "fr": "tri-na-tsa-to-ye",
+      "es": "tri-na-tsa-to-ye",
+      "de": "tri-na-tsa-to-ye",
+      "ru": "тринадцатое"
+    },
+    "translations": {
+      "en": "13th (of the month)",
+      "ko": "13일",
+      "ja": "13日",
+      "zh": "13号",
+      "fr": "le 13",
+      "es": "día 13",
+      "de": "13.",
+      "ru": "13"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_14",
+    "question_word": "четырнадцатое",
+    "pronunciations": {
+      "en": "che-tyr-na-tsa-to-ye",
+      "ko": "치티르나차타예",
+      "ja": "チティルナーツァタイェ",
+      "zh": "che-tyr-na-tsa-to-ye",
+      "fr": "che-tyr-na-tsa-to-ye",
+      "es": "che-tyr-na-tsa-to-ye",
+      "de": "che-tyr-na-tsa-to-ye",
+      "ru": "четырнадцатое"
+    },
+    "translations": {
+      "en": "14th (of the month)",
+      "ko": "14일",
+      "ja": "14日",
+      "zh": "14号",
+      "fr": "le 14",
+      "es": "día 14",
+      "de": "14.",
+      "ru": "14"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_15",
+    "question_word": "пятнадцатое",
+    "pronunciations": {
+      "en": "pyat-na-tsa-to-ye",
+      "ko": "퍄트나차타예",
+      "ja": "ピャトナーツァタイェ",
+      "zh": "pyat-na-tsa-to-ye",
+      "fr": "pyat-na-tsa-to-ye",
+      "es": "pyat-na-tsa-to-ye",
+      "de": "pyat-na-tsa-to-ye",
+      "ru": "пятнадцатое"
+    },
+    "translations": {
+      "en": "15th (of the month)",
+      "ko": "15일",
+      "ja": "15日",
+      "zh": "15号",
+      "fr": "le 15",
+      "es": "día 15",
+      "de": "15.",
+      "ru": "15"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_16",
+    "question_word": "шестнадцатое",
+    "pronunciations": {
+      "en": "shest-na-tsa-to-ye",
+      "ko": "셰스트나차타예",
+      "ja": "シェストナーツァタイェ",
+      "zh": "shest-na-tsa-to-ye",
+      "fr": "shest-na-tsa-to-ye",
+      "es": "shest-na-tsa-to-ye",
+      "de": "shest-na-tsa-to-ye",
+      "ru": "шестнадцатое"
+    },
+    "translations": {
+      "en": "16th (of the month)",
+      "ko": "16일",
+      "ja": "16日",
+      "zh": "16号",
+      "fr": "le 16",
+      "es": "día 16",
+      "de": "16.",
+      "ru": "16"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_17",
+    "question_word": "семнадцатое",
+    "pronunciations": {
+      "en": "sem-na-tsa-to-ye",
+      "ko": "셈나차타예",
+      "ja": "セムナーツァタイェ",
+      "zh": "sem-na-tsa-to-ye",
+      "fr": "sem-na-tsa-to-ye",
+      "es": "sem-na-tsa-to-ye",
+      "de": "sem-na-tsa-to-ye",
+      "ru": "семнадцатое"
+    },
+    "translations": {
+      "en": "17th (of the month)",
+      "ko": "17일",
+      "ja": "17日",
+      "zh": "17号",
+      "fr": "le 17",
+      "es": "día 17",
+      "de": "17.",
+      "ru": "17"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_18",
+    "question_word": "восемнадцатое",
+    "pronunciations": {
+      "en": "vo-sem-na-tsa-to-ye",
+      "ko": "바셈나차타예",
+      "ja": "ヴォセムナーツァタイェ",
+      "zh": "vo-sem-na-tsa-to-ye",
+      "fr": "vo-sem-na-tsa-to-ye",
+      "es": "vo-sem-na-tsa-to-ye",
+      "de": "vo-sem-na-tsa-to-ye",
+      "ru": "восемнадцатое"
+    },
+    "translations": {
+      "en": "18th (of the month)",
+      "ko": "18일",
+      "ja": "18日",
+      "zh": "18号",
+      "fr": "le 18",
+      "es": "día 18",
+      "de": "18.",
+      "ru": "18"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_19",
+    "question_word": "девятнадцатое",
+    "pronunciations": {
+      "en": "de-vyat-na-tsa-to-ye",
+      "ko": "제뱌트나차타예",
+      "ja": "ヂェヴャトナーツァタイェ",
+      "zh": "de-vyat-na-tsa-to-ye",
+      "fr": "de-vyat-na-tsa-to-ye",
+      "es": "de-vyat-na-tsa-to-ye",
+      "de": "de-vyat-na-tsa-to-ye",
+      "ru": "девятнадцатое"
+    },
+    "translations": {
+      "en": "19th (of the month)",
+      "ko": "19일",
+      "ja": "19日",
+      "zh": "19号",
+      "fr": "le 19",
+      "es": "día 19",
+      "de": "19.",
+      "ru": "19"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_20",
+    "question_word": "двадцатое",
+    "pronunciations": {
+      "en": "dva-tsa-to-ye",
+      "ko": "드바차타예",
+      "ja": "ドヴァツァータイェ",
+      "zh": "dva-tsa-to-ye",
+      "fr": "dva-tsa-to-ye",
+      "es": "dva-tsa-to-ye",
+      "de": "dva-tsa-to-ye",
+      "ru": "двадцатое"
+    },
+    "translations": {
+      "en": "20th (of the month)",
+      "ko": "20일",
+      "ja": "20日",
+      "zh": "20号",
+      "fr": "le 20",
+      "es": "día 20",
+      "de": "20.",
+      "ru": "20"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_21",
+    "question_word": "двадцать первое",
+    "pronunciations": {
+      "en": "dva-tsatʹ per-vo-ye",
+      "ko": "드바찻 페르바예",
+      "ja": "ドヴァーツァチ・ペールヴァイェ",
+      "zh": "dva-tsatʹ per-vo-ye",
+      "fr": "dva-tsatʹ per-vo-ye",
+      "es": "dva-tsatʹ per-vo-ye",
+      "de": "dva-tsatʹ per-vo-ye",
+      "ru": "двадцать первое"
+    },
+    "translations": {
+      "en": "21th (of the month)",
+      "ko": "21일",
+      "ja": "21日",
+      "zh": "21号",
+      "fr": "le 21",
+      "es": "día 21",
+      "de": "21.",
+      "ru": "21"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_22",
+    "question_word": "двадцать второе",
+    "pronunciations": {
+      "en": "dva-tsatʹ vto-ro-ye",
+      "ko": "드바찻 프토라예",
+      "ja": "ドヴァーツァチ・フトーライェ",
+      "zh": "dva-tsatʹ vto-ro-ye",
+      "fr": "dva-tsatʹ vto-ro-ye",
+      "es": "dva-tsatʹ vto-ro-ye",
+      "de": "dva-tsatʹ vto-ro-ye",
+      "ru": "двадцать второе"
+    },
+    "translations": {
+      "en": "22th (of the month)",
+      "ko": "22일",
+      "ja": "22日",
+      "zh": "22号",
+      "fr": "le 22",
+      "es": "día 22",
+      "de": "22.",
+      "ru": "22"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_23",
+    "question_word": "двадцать третье",
+    "pronunciations": {
+      "en": "dva-tsatʹ tretʹ-ye",
+      "ko": "드바찻 트레티예",
+      "ja": "ドヴァーツァチ・トリェーチイェ",
+      "zh": "dva-tsatʹ tretʹ-ye",
+      "fr": "dva-tsatʹ tretʹ-ye",
+      "es": "dva-tsatʹ tretʹ-ye",
+      "de": "dva-tsatʹ tretʹ-ye",
+      "ru": "двадцать третье"
+    },
+    "translations": {
+      "en": "23th (of the month)",
+      "ko": "23일",
+      "ja": "23日",
+      "zh": "23号",
+      "fr": "le 23",
+      "es": "día 23",
+      "de": "23.",
+      "ru": "23"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_24",
+    "question_word": "двадцать четвёртое",
+    "pronunciations": {
+      "en": "dva-tsatʹ chet-vyor-to-ye",
+      "ko": "드바찻 치트뵤르타예",
+      "ja": "ドヴァーツァチ・チトヴョールタイェ",
+      "zh": "dva-tsatʹ chet-vyor-to-ye",
+      "fr": "dva-tsatʹ chet-vyor-to-ye",
+      "es": "dva-tsatʹ chet-vyor-to-ye",
+      "de": "dva-tsatʹ chet-vyor-to-ye",
+      "ru": "двадцать четвёртое"
+    },
+    "translations": {
+      "en": "24th (of the month)",
+      "ko": "24일",
+      "ja": "24日",
+      "zh": "24号",
+      "fr": "le 24",
+      "es": "día 24",
+      "de": "24.",
+      "ru": "24"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_25",
+    "question_word": "двадцать пятое",
+    "pronunciations": {
+      "en": "dva-tsatʹ pya-to-ye",
+      "ko": "드바찻 퍄타예",
+      "ja": "ドヴァーツァチ・ピャータイェ",
+      "zh": "dva-tsatʹ pya-to-ye",
+      "fr": "dva-tsatʹ pya-to-ye",
+      "es": "dva-tsatʹ pya-to-ye",
+      "de": "dva-tsatʹ pya-to-ye",
+      "ru": "двадцать пятое"
+    },
+    "translations": {
+      "en": "25th (of the month)",
+      "ko": "25일",
+      "ja": "25日",
+      "zh": "25号",
+      "fr": "le 25",
+      "es": "día 25",
+      "de": "25.",
+      "ru": "25"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_26",
+    "question_word": "двадцать шестое",
+    "pronunciations": {
+      "en": "dva-tsatʹ she-sto-ye",
+      "ko": "드바찻 셰스타예",
+      "ja": "ドヴァーツァチ・シェスターイェ",
+      "zh": "dva-tsatʹ she-sto-ye",
+      "fr": "dva-tsatʹ she-sto-ye",
+      "es": "dva-tsatʹ she-sto-ye",
+      "de": "dva-tsatʹ she-sto-ye",
+      "ru": "двадцать шестое"
+    },
+    "translations": {
+      "en": "26th (of the month)",
+      "ko": "26일",
+      "ja": "26日",
+      "zh": "26号",
+      "fr": "le 26",
+      "es": "día 26",
+      "de": "26.",
+      "ru": "26"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_27",
+    "question_word": "двадцать седьмое",
+    "pronunciations": {
+      "en": "dva-tsatʹ sedʹ-mo-ye",
+      "ko": "드바찻 세드마예",
+      "ja": "ドヴァーツァチ・セーヂマイェ",
+      "zh": "dva-tsatʹ sedʹ-mo-ye",
+      "fr": "dva-tsatʹ sedʹ-mo-ye",
+      "es": "dva-tsatʹ sedʹ-mo-ye",
+      "de": "dva-tsatʹ sedʹ-mo-ye",
+      "ru": "двадцать седьмое"
+    },
+    "translations": {
+      "en": "27th (of the month)",
+      "ko": "27일",
+      "ja": "27日",
+      "zh": "27号",
+      "fr": "le 27",
+      "es": "día 27",
+      "de": "27.",
+      "ru": "27"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_28",
+    "question_word": "двадцать восьмое",
+    "pronunciations": {
+      "en": "dva-tsatʹ vosʹ-mo-ye",
+      "ko": "드바찻 보스마예",
+      "ja": "ドヴァーツァチ・ヴォースマイェ",
+      "zh": "dva-tsatʹ vosʹ-mo-ye",
+      "fr": "dva-tsatʹ vosʹ-mo-ye",
+      "es": "dva-tsatʹ vosʹ-mo-ye",
+      "de": "dva-tsatʹ vosʹ-mo-ye",
+      "ru": "двадцать восьмое"
+    },
+    "translations": {
+      "en": "28th (of the month)",
+      "ko": "28일",
+      "ja": "28日",
+      "zh": "28号",
+      "fr": "le 28",
+      "es": "día 28",
+      "de": "28.",
+      "ru": "28"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_29",
+    "question_word": "двадцать девятое",
+    "pronunciations": {
+      "en": "dva-tsatʹ de-vya-to-ye",
+      "ko": "드바찻 제뱌타예",
+      "ja": "ドヴァーツァチ・ヂェヴャータイェ",
+      "zh": "dva-tsatʹ de-vya-to-ye",
+      "fr": "dva-tsatʹ de-vya-to-ye",
+      "es": "dva-tsatʹ de-vya-to-ye",
+      "de": "dva-tsatʹ de-vya-to-ye",
+      "ru": "двадцать девятое"
+    },
+    "translations": {
+      "en": "29th (of the month)",
+      "ko": "29일",
+      "ja": "29日",
+      "zh": "29号",
+      "fr": "le 29",
+      "es": "día 29",
+      "de": "29.",
+      "ru": "29"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_30",
+    "question_word": "тридцатое",
+    "pronunciations": {
+      "en": "tri-tsa-to-ye",
+      "ko": "트리차타예",
+      "ja": "トリツァータイェ",
+      "zh": "tri-tsa-to-ye",
+      "fr": "tri-tsa-to-ye",
+      "es": "tri-tsa-to-ye",
+      "de": "tri-tsa-to-ye",
+      "ru": "тридцатое"
+    },
+    "translations": {
+      "en": "30th (of the month)",
+      "ko": "30일",
+      "ja": "30日",
+      "zh": "30号",
+      "fr": "le 30",
+      "es": "día 30",
+      "de": "30.",
+      "ru": "30"
+    }
+  },
+  {
+    "quiz_id": "ru_dates_day_31",
+    "question_word": "тридцать первое",
+    "pronunciations": {
+      "en": "tri-tsatʹ per-vo-ye",
+      "ko": "트리찻 페르바예",
+      "ja": "トリーツァチ・ペールヴァイェ",
+      "zh": "tri-tsatʹ per-vo-ye",
+      "fr": "tri-tsatʹ per-vo-ye",
+      "es": "tri-tsatʹ per-vo-ye",
+      "de": "tri-tsatʹ per-vo-ye",
+      "ru": "тридцать первое"
+    },
+    "translations": {
+      "en": "31th (of the month)",
+      "ko": "31일",
+      "ja": "31日",
+      "zh": "31号",
+      "fr": "le 31",
+      "es": "día 31",
+      "de": "31.",
+      "ru": "31"
+    }
+  }
+]

@@ -1,7 +1,12 @@
 import { useEffect } from 'react'
 import { t } from '../../config/uiStrings'
 import type { LangCode } from '../../types/language'
-import { resolveLocalized, type RefTable } from '../../types/table'
+import {
+  resolveLocalized,
+  resolveRefSections,
+  type RefTable,
+  type RefTableSection,
+} from '../../types/table'
 import './ReferenceTableModal.css'
 
 interface ReferenceTableModalProps {
@@ -32,6 +37,7 @@ export function ReferenceTableModal({
   const note = resolveLocalized(table.note, learnerLang)
   const rules =
     table.rules?.[learnerLang] ?? table.rules?.en ?? Object.values(table.rules ?? {})[0] ?? []
+  const sections = resolveRefSections(table)
 
   return (
     <div className="ref-modal" role="presentation" onClick={onClose}>
@@ -65,30 +71,58 @@ export function ReferenceTableModal({
         </header>
 
         <div className="ref-modal__scroll">
-          <table className="ref-table">
-            <thead>
-              <tr>
-                {table.columns.map((column) => (
-                  <th key={column.key}>
-                    {resolveLocalized(column.labels, learnerLang)}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {table.rows.map((row, rowIndex) => (
-                <tr key={rowIndex}>
-                  {table.columns.map((column) => (
-                    <td key={column.key}>
-                      {resolveLocalized(row[column.key], learnerLang)}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          {sections.map((section, index) => (
+            <RefSection
+              key={`${table.table_id}-${index}`}
+              section={section}
+              learnerLang={learnerLang}
+              showDivider={index > 0}
+            />
+          ))}
         </div>
       </div>
     </div>
+  )
+}
+
+function RefSection({
+  section,
+  learnerLang,
+  showDivider,
+}: {
+  section: RefTableSection
+  learnerLang: LangCode
+  showDivider: boolean
+}) {
+  const sectionTitle = resolveLocalized(section.title, learnerLang)
+  const sectionNote = resolveLocalized(section.note, learnerLang)
+
+  return (
+    <section className={`ref-section${showDivider ? ' ref-section--divided' : ''}`}>
+      {sectionTitle && <h3 className="ref-section__title">{sectionTitle}</h3>}
+      {sectionNote && <p className="ref-section__note">{sectionNote}</p>}
+      <table className="ref-table">
+        <thead>
+          <tr>
+            {section.columns.map((column) => (
+              <th key={column.key}>
+                {resolveLocalized(column.labels, learnerLang)}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {section.rows.map((row, rowIndex) => (
+            <tr key={rowIndex}>
+              {section.columns.map((column) => (
+                <td key={column.key}>
+                  {resolveLocalized(row[column.key], learnerLang)}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
   )
 }

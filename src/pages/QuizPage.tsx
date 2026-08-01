@@ -222,7 +222,7 @@ function QuizPageInner({
 
   const entries = useMemo(() => {
     const allEntries = getMeaningQuizzes(targetLang, categoryId)
-    if (categoryId === 'numbers') {
+    if (categoryId === 'numbers' && (targetLang === 'ko' || targetLang === 'ja')) {
       return filterNumberSystem(allEntries, numberSystem)
     }
     if (targetLang === 'ja' && categoryId === 'alphabet') {
@@ -256,7 +256,13 @@ function QuizPageInner({
         ? { targetLang, system: numberSystem, count: 5 }
         : undefined,
     dateMonthCombos:
-      targetLang === 'ko' && categoryId === 'time' ? 'ko' : undefined,
+      targetLang === 'ko' && categoryId === 'time'
+        ? 'ko'
+        : targetLang === 'ja' && categoryId === 'dates'
+          ? 'ja'
+          : targetLang === 'ru' && categoryId === 'dates'
+            ? 'ru'
+            : undefined,
     askEntries: categoryId === 'vocab' ? dayEntries : undefined,
   })
   const target = getLanguage(targetLang)

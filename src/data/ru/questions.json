@@ -1,0 +1,314 @@
+[
+  {
+    "quiz_id": "ru_questions_kto",
+    "question_word": "кто",
+    "pronunciations": {
+      "en": "kto",
+      "ko": "크토",
+      "ja": "クト",
+      "zh": "kto",
+      "fr": "kto",
+      "es": "kto",
+      "de": "kto",
+      "ru": "кто"
+    },
+    "translations": {
+      "en": "who",
+      "ko": "누구",
+      "ja": "誰",
+      "zh": "谁",
+      "fr": "qui",
+      "es": "quién",
+      "de": "wer",
+      "ru": "кто"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_chto",
+    "question_word": "что",
+    "pronunciations": {
+      "en": "chto",
+      "ko": "쉬토",
+      "ja": "シト",
+      "zh": "chto",
+      "fr": "chto",
+      "es": "chto",
+      "de": "chto",
+      "ru": "что"
+    },
+    "translations": {
+      "en": "what",
+      "ko": "무엇 / 뭐",
+      "ja": "何",
+      "zh": "什么",
+      "fr": "quoi / que",
+      "es": "qué",
+      "de": "was",
+      "ru": "что"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_gde",
+    "question_word": "где",
+    "pronunciations": {
+      "en": "gde",
+      "ko": "그제",
+      "ja": "グジェ",
+      "zh": "gde",
+      "fr": "gde",
+      "es": "gde",
+      "de": "gde",
+      "ru": "где"
+    },
+    "translations": {
+      "en": "where (location)",
+      "ko": "어디 (장소)",
+      "ja": "どこ（場所）",
+      "zh": "哪里（地点）",
+      "fr": "où (lieu)",
+      "es": "dónde (lugar)",
+      "de": "wo (Ort)",
+      "ru": "где"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_kuda",
+    "question_word": "куда",
+    "pronunciations": {
+      "en": "ku-da",
+      "ko": "쿠다",
+      "ja": "クダー",
+      "zh": "ku-da",
+      "fr": "ku-da",
+      "es": "ku-da",
+      "de": "ku-da",
+      "ru": "куда"
+    },
+    "translations": {
+      "en": "where to / whither",
+      "ko": "어디로 (방향)",
+      "ja": "どこへ（方向）",
+      "zh": "去哪里（方向）",
+      "fr": "où (direction)",
+      "es": "adónde",
+      "de": "wohin",
+      "ru": "куда"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_otkuda",
+    "question_word": "откуда",
+    "pronunciations": {
+      "en": "ot-ku-da",
+      "ko": "아트쿠다",
+      "ja": "アトクダー",
+      "zh": "ot-ku-da",
+      "fr": "ot-ku-da",
+      "es": "ot-ku-da",
+      "de": "ot-ku-da",
+      "ru": "откуда"
+    },
+    "translations": {
+      "en": "where from",
+      "ko": "어디에서 (출발)",
+      "ja": "どこから",
+      "zh": "从哪里",
+      "fr": "d’où",
+      "es": "de dónde",
+      "de": "woher",
+      "ru": "откуда"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_kogda",
+    "question_word": "когда",
+    "pronunciations": {
+      "en": "kog-da",
+      "ko": "칵다",
+      "ja": "カグダー",
+      "zh": "kog-da",
+      "fr": "kog-da",
+      "es": "kog-da",
+      "de": "kog-da",
+      "ru": "когда"
+    },
+    "translations": {
+      "en": "when",
+      "ko": "언제",
+      "ja": "いつ",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_pochemu",
+    "question_word": "почему",
+    "pronunciations": {
+      "en": "po-che-mu",
+      "ko": "파치무",
+      "ja": "パチムー",
+      "zh": "po-che-mu",
+      "fr": "po-che-mu",
+      "es": "po-che-mu",
+      "de": "po-che-mu",
+      "ru": "почему"
+    },
+    "translations": {
+      "en": "why (reason)",
+      "ko": "왜 (이유)",
+      "ja": "なぜ（理由）",
+      "zh": "为什么（原因）",
+      "fr": "pourquoi (raison)",
+      "es": "por qué (razón)",
+      "de": "warum (Grund)",
+      "ru": "почему"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_zachem",
+    "question_word": "зачем",
+    "pronunciations": {
+      "en": "za-chem",
+      "ko": "자쳄",
+      "ja": "ザーチェム",
+      "zh": "za-chem",
+      "fr": "za-chem",
+      "es": "za-chem",
+      "de": "za-chem",
+      "ru": "зачем"
+    },
+    "translations": {
+      "en": "why / what for (purpose)",
+      "ko": "왜 / 무엇 하러 (목적)",
+      "ja": "何のために（目的）",
+      "zh": "为什么 / 为了什么（目的）",
+      "fr": "pourquoi (but)",
+      "es": "para qué",
+      "de": "wozu (Zweck)",
+      "ru": "зачем"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_kak",
+    "question_word": "как",
+    "pronunciations": {
+      "en": "kak",
+      "ko": "칵",
+      "ja": "カーク",
+      "zh": "kak",
+      "fr": "kak",
+      "es": "kak",
+      "de": "kak",
+      "ru": "как"
+    },
+    "translations": {
+      "en": "how",
+      "ko": "어떻게",
+      "ja": "どう",
+      "zh": "怎么",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_skolko",
+    "question_word": "сколько",
+    "pronunciations": {
+      "en": "skolʹ-ko",
+      "ko": "스콜카",
+      "ja": "スコーリカ",
+      "zh": "skolʹ-ko",
+      "fr": "skolʹ-ko",
+      "es": "skolʹ-ko",
+      "de": "skolʹ-ko",
+      "ru": "сколько"
+    },
+    "translations": {
+      "en": "how much / how many",
+      "ko": "얼마 / 몇",
+      "ja": "いくら / いくつ",
+      "zh": "多少",
+      "fr": "combien",
+      "es": "cuánto",
+      "de": "wie viel",
+      "ru": "сколько"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_kakoy",
+    "question_word": "какой",
+    "pronunciations": {
+      "en": "ka-koy",
+      "ko": "카코이",
+      "ja": "カコーイ",
+      "zh": "ka-koy",
+      "fr": "ka-koy",
+      "es": "ka-koy",
+      "de": "ka-koy",
+      "ru": "какой"
+    },
+    "translations": {
+      "en": "which / what kind (masculine)",
+      "ko": "어떤 / 무슨 (남성)",
+      "ja": "どんな / どの（男性）",
+      "zh": "哪个 / 什么样的（阳性）",
+      "fr": "quel (masculin)",
+      "es": "qué / cuál (masculino)",
+      "de": "welch- (maskulin)",
+      "ru": "какой"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_kakaya",
+    "question_word": "какая",
+    "pronunciations": {
+      "en": "ka-ka-ya",
+      "ko": "카카야",
+      "ja": "カカーヤ",
+      "zh": "ka-ka-ya",
+      "fr": "ka-ka-ya",
+      "es": "ka-ka-ya",
+      "de": "ka-ka-ya",
+      "ru": "какая"
+    },
+    "translations": {
+      "en": "which / what kind (feminine)",
+      "ko": "어떤 / 무슨 (여성)",
+      "ja": "どんな / どの（女性）",
+      "zh": "哪个 / 什么样的（阴性）",
+      "fr": "quelle (féminin)",
+      "es": "qué / cuál (femenino)",
+      "de": "welch- (feminin)",
+      "ru": "какая"
+    }
+  },
+  {
+    "quiz_id": "ru_questions_chey",
+    "question_word": "чей",
+    "pronunciations": {
+      "en": "chey",
+      "ko": "체이",
+      "ja": "チェーイ",
+      "zh": "chey",
+      "fr": "chey",
+      "es": "chey",
+      "de": "chey",
+      "ru": "чей"
+    },
+    "translations": {
+      "en": "whose (masculine)",
+      "ko": "누구의 (남성)",
+      "ja": "誰の（男性）",
+      "zh": "谁的（阳性）",
+      "fr": "à qui (masculin)",
+      "es": "de quién (masculino)",
+      "de": "wessen (maskulin)",
+      "ru": "чей"
+    }
+  }
+]

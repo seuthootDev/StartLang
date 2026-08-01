@@ -1,0 +1,290 @@
+[
+  {
+    "quiz_id": "ru_months_jan",
+    "question_word": "январь",
+    "pronunciations": {
+      "en": "yan-varʹ",
+      "ko": "얀바리",
+      "ja": "ヤンヴァーリ",
+      "zh": "yan-varʹ",
+      "fr": "yan-varʹ",
+      "es": "yan-varʹ",
+      "de": "yan-varʹ",
+      "ru": "январь"
+    },
+    "translations": {
+      "en": "January",
+      "ko": "1월",
+      "ja": "一月",
+      "zh": "一月",
+      "fr": "janvier",
+      "es": "enero",
+      "de": "Januar",
+      "ru": "январь"
+    }
+  },
+  {
+    "quiz_id": "ru_months_feb",
+    "question_word": "февраль",
+    "pronunciations": {
+      "en": "fev-ralʹ",
+      "ko": "페브랄",
+      "ja": "フィヴラーリ",
+      "zh": "fev-ralʹ",
+      "fr": "fev-ralʹ",
+      "es": "fev-ralʹ",
+      "de": "fev-ralʹ",
+      "ru": "февраль"
+    },
+    "translations": {
+      "en": "February",
+      "ko": "2월",
+      "ja": "二月",
+      "zh": "二月",
+      "fr": "février",
+      "es": "febrero",
+      "de": "Februar",
+      "ru": "февраль"
+    }
+  },
+  {
+    "quiz_id": "ru_months_mar",
+    "question_word": "март",
+    "pronunciations": {
+      "en": "mart",
+      "ko": "마트",
+      "ja": "マルト",
+      "zh": "mart",
+      "fr": "mart",
+      "es": "mart",
+      "de": "mart",
+      "ru": "март"
+    },
+    "translations": {
+      "en": "March",
+      "ko": "3월",
+      "ja": "三月",
+      "zh": "三月",
+      "fr": "mars",
+      "es": "marzo",
+      "de": "März",
+      "ru": "март"
+    }
+  },
+  {
+    "quiz_id": "ru_months_apr",
+    "question_word": "апрель",
+    "pronunciations": {
+      "en": "a-prelʹ",
+      "ko": "아프레리",
+      "ja": "アプレーリ",
+      "zh": "a-prelʹ",
+      "fr": "a-prelʹ",
+      "es": "a-prelʹ",
+      "de": "a-prelʹ",
+      "ru": "апрель"
+    },
+    "translations": {
+      "en": "April",
+      "ko": "4월",
+      "ja": "四月",
+      "zh": "四月",
+      "fr": "avril",
+      "es": "abril",
+      "de": "April",
+      "ru": "апрель"
+    }
+  },
+  {
+    "quiz_id": "ru_months_may",
+    "question_word": "май",
+    "pronunciations": {
+      "en": "may",
+      "ko": "마이",
+      "ja": "マイ",
+      "zh": "may",
+      "fr": "may",
+      "es": "may",
+      "de": "may",
+      "ru": "май"
+    },
+    "translations": {
+      "en": "May",
+      "ko": "5월",
+      "ja": "五月",
+      "zh": "五月",
+      "fr": "mai",
+      "es": "mayo",
+      "de": "Mai",
+      "ru": "май"
+    }
+  },
+  {
+    "quiz_id": "ru_months_jun",
+    "question_word": "июнь",
+    "pronunciations": {
+      "en": "i-yunʹ",
+      "ko": "이윤",
+      "ja": "イユーニ",
+      "zh": "i-yunʹ",
+      "fr": "i-yunʹ",
+      "es": "i-yunʹ",
+      "de": "i-yunʹ",
+      "ru": "июнь"
+    },
+    "translations": {
+      "en": "June",
+      "ko": "6월",
+      "ja": "六月",
+      "zh": "六月",
+      "fr": "juin",
+      "es": "junio",
+      "de": "Juni",
+      "ru": "июнь"
+    }
+  },
+  {
+    "quiz_id": "ru_months_jul",
+    "question_word": "июль",
+    "pronunciations": {
+      "en": "i-yulʹ",
+      "ko": "이율",
+      "ja": "イユーリ",
+      "zh": "i-yulʹ",
+      "fr": "i-yulʹ",
+      "es": "i-yulʹ",
+      "de": "i-yulʹ",
+      "ru": "июль"
+    },
+    "translations": {
+      "en": "July",
+      "ko": "7월",
+      "ja": "七月",
+      "zh": "七月",
+      "fr": "juillet",
+      "es": "julio",
+      "de": "Juli",
+      "ru": "июль"
+    }
+  },
+  {
+    "quiz_id": "ru_months_aug",
+    "question_word": "август",
+    "pronunciations": {
+      "en": "av-gust",
+      "ko": "아브구스트",
+      "ja": "アーヴグスト",
+      "zh": "av-gust",
+      "fr": "av-gust",
+      "es": "av-gust",
+      "de": "av-gust",
+      "ru": "август"
+    },
+    "translations": {
+      "en": "August",
+      "ko": "8월",
+      "ja": "八月",
+      "zh": "八月",
+      "fr": "août",
+      "es": "agosto",
+      "de": "August",
+      "ru": "август"
+    }
+  },
+  {
+    "quiz_id": "ru_months_sep",
+    "question_word": "сентябрь",
+    "pronunciations": {
+      "en": "sen-tyabrʹ",
+      "ko": "센탸브리",
+      "ja": "センチャーブリ",
+      "zh": "sen-tyabrʹ",
+      "fr": "sen-tyabrʹ",
+      "es": "sen-tyabrʹ",
+      "de": "sen-tyabrʹ",
+      "ru": "сентябрь"
+    },
+    "translations": {
+      "en": "September",
+      "ko": "9월",
+      "ja": "九月",
+      "zh": "九月",
+      "fr": "septembre",
+      "es": "septiembre",
+      "de": "September",
+      "ru": "сентябрь"
+    }
+  },
+  {
+    "quiz_id": "ru_months_oct",
+    "question_word": "октябрь",
+    "pronunciations": {
+      "en": "ok-tyabrʹ",
+      "ko": "옥탸브리",
+      "ja": "オクチャーブリ",
+      "zh": "ok-tyabrʹ",
+      "fr": "ok-tyabrʹ",
+      "es": "ok-tyabrʹ",
+      "de": "ok-tyabrʹ",
+      "ru": "октябрь"
+    },
+    "translations": {
+      "en": "October",
+      "ko": "10월",
+      "ja": "十月",
+      "zh": "十月",
+      "fr": "octobre",
+      "es": "octubre",
+      "de": "Oktober",
+      "ru": "октябрь"
+    }
+  },
+  {
+    "quiz_id": "ru_months_nov",
+    "question_word": "ноябрь",
+    "pronunciations": {
+      "en": "no-yabrʹ",
+      "ko": "나야브리",
+      "ja": "ナヤーブリ",
+      "zh": "no-yabrʹ",
+      "fr": "no-yabrʹ",
+      "es": "no-yabrʹ",
+      "de": "no-yabrʹ",
+      "ru": "ноябрь"
+    },
+    "translations": {
+      "en": "November",
+      "ko": "11월",
+      "ja": "十一月",
+      "zh": "十一月",
+      "fr": "novembre",
+      "es": "noviembre",
+      "de": "November",
+      "ru": "ноябрь"
+    }
+  },
+  {
+    "quiz_id": "ru_months_dec",
+    "question_word": "декабрь",
+    "pronunciations": {
+      "en": "de-kabrʹ",
+      "ko": "디카브리",
+      "ja": "ヂィカブリー",
+      "zh": "de-kabrʹ",
+      "fr": "de-kabrʹ",
+      "es": "de-kabrʹ",
+      "de": "de-kabrʹ",
+      "ru": "декабрь"
+    },
+    "translations": {
+      "en": "December",
+      "ko": "12월",
+      "ja": "十二月",
+      "zh": "十二月",
+      "fr": "décembre",
+      "es": "diciembre",
+      "de": "Dezember",
+      "ru": "декабрь"
+    }
+  }
+]

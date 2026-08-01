@@ -1,0 +1,499 @@
+{
+  "table_id": "ru_pronouns_ref",
+  "title": {
+    "en": "Personal pronouns",
+    "ko": "인칭대명사",
+    "ja": "人称代名詞",
+    "zh": "人称代词",
+    "fr": "Pronoms personnels",
+    "es": "Pronombres personales",
+    "de": "Personalpronomen",
+    "ru": "Личные местоимения"
+  },
+  "note": {
+    "en": "Russian pronouns mark person, number, and (in 3rd person) gender — and they change by case. Learn the person chart, then the core cases.",
+    "ko": "러시아어 대명사는 인칭·수·(3인칭) 성뿐 아니라 격에 따라 형태가 바뀝니다. 인칭 표 → 핵심 격 순으로 외우세요.",
+    "ja": "ロシア語の代名詞は人称・数・（三人称の）性に加え、格でも形が変わります。先に人称表、次に基本格を覚えましょう。",
+    "zh": "俄语代词有人称、数、（第三人称）性，还会随格变。先记人称表，再记常用格。",
+    "fr": "Les pronoms russes marquent personne, nombre et (à la 3e) genre — et changent selon le cas. Tableau des personnes, puis cas de base.",
+    "es": "Los pronombres rusos marcan persona, número y (en 3.ª) género, y cambian por caso. Primero el cuadro, luego los casos básicos.",
+    "de": "Russische Pronomen zeigen Person, Zahl und (in der 3.) Genus — und ändern sich nach Kasus. Zuerst Personen, dann Kernfälle.",
+    "ru": "Личные местоимения меняются по лицам, числам, роду (в 3-м лице) и падежам. Сначала таблица лиц, затем основные падежи."
+  },
+  "rules": {
+    "en": [
+      "вы = you (plural) and polite you (singular).",
+      "он / она / оно follow grammatical gender (people and things).",
+      "After many prepositions, 3rd-person forms take н-: него, неё, них, нём, ней."
+    ],
+    "ko": [
+      "вы = 복수 ‘여러분’이자 존댓말 단수 ‘당신/선생님’.",
+      "он / она / оно 는 사람뿐 아니라 사물의 문법적 성에도 맞춥니다.",
+      "많은 전치사 뒤 3인칭은 н-이 붙습니다: него, неё, них, нём, ней."
+    ],
+    "ja": [
+      "вы は複数の「あなたたち」と丁寧な単数の「あなた」の両方。",
+      "он / она / оно は人だけでなく物の文法上の性にも合わせます。",
+      "多くの前置詞のあと、三人称は н- が付きます（него, неё, них など）。"
+    ],
+    "zh": [
+      "вы = 复数“你们”，也作礼貌单数“您”。",
+      "он / она / оно 也跟事物的语法性别一致。",
+      "许多前置词后，第三人称会加 н-：него, неё, них, нём, ней。"
+    ],
+    "fr": [
+      "вы = vous (pluriel) et vous de politesse (singulier).",
+      "он / она / оно suivent le genre grammatical (personnes et choses).",
+      "Après beaucoup de prépositions, la 3e personne prend н- : него, неё, них…"
+    ],
+    "es": [
+      "вы = ustedes y usted (cortesía).",
+      "он / она / оно siguen el género gramatical (personas y cosas).",
+      "Tras muchas preposiciones, la 3.ª persona lleva н-: него, неё, них…"
+    ],
+    "de": [
+      "вы = ihr und höfliches Sie (Singular).",
+      "он / она / оно folgen dem grammatischen Genus (Menschen und Dinge).",
+      "Nach vielen Präpositionen: н- bei der 3. Person (него, неё, них…)."
+    ],
+    "ru": [
+      "вы — и множественное число, и вежливое обращение к одному человеку.",
+      "он / она / оно согласуются с грамматическим родом (люди и предметы).",
+      "После многих предлогов у 3-го лица появляется н-: него, неё, них, нём, ней."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Person chart (nominative)",
+        "ko": "인칭 표 (주격)",
+        "ja": "人称表（主格）",
+        "zh": "人称表（主格）",
+        "fr": "Tableau des personnes (nominatif)",
+        "es": "Cuadro de persona (nominativo)",
+        "de": "Personentabelle (Nominativ)",
+        "ru": "Таблица лиц (именительный)"
+      },
+      "note": {
+        "en": "3rd person singular splits by gender. · separates variants.",
+        "ko": "3인칭 단수는 성(남·여·중)으로 갈립니다. · 는 변이형 구분입니다.",
+        "ja": "三人称単数は性で分かれます。・は変異形の区切りです。",
+        "zh": "第三人称单数按性分开。· 分隔变体。",
+        "fr": "La 3e personne du singulier se divise par genre.",
+        "es": "La 3.ª del singular se divide por género.",
+        "de": "3. Person Singular teilt sich nach Genus.",
+        "ru": "В 3-м лице ед. числа — три рода."
+      },
+      "columns": [
+        {
+          "key": "person",
+          "labels": {
+            "en": "Person",
+            "ko": "인칭",
+            "ja": "人称",
+            "zh": "人称",
+            "fr": "Personne",
+            "es": "Persona",
+            "de": "Person",
+            "ru": "Лицо"
+          }
+        },
+        {
+          "key": "singular",
+          "labels": {
+            "en": "Singular",
+            "ko": "단수",
+            "ja": "単数",
+            "zh": "单数",
+            "fr": "Singulier",
+            "es": "Singular",
+            "de": "Singular",
+            "ru": "Ед. число"
+          }
+        },
+        {
+          "key": "plural",
+          "labels": {
+            "en": "Plural",
+            "ko": "복수",
+            "ja": "複数",
+            "zh": "复数",
+            "fr": "Pluriel",
+            "es": "Plural",
+            "de": "Plural",
+            "ru": "Мн. число"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "person": {
+            "en": "1st",
+            "ko": "1인칭",
+            "ja": "一人称",
+            "zh": "第一人称",
+            "fr": "1re",
+            "es": "1.ª",
+            "de": "1.",
+            "ru": "1-е"
+          },
+          "singular": "я",
+          "plural": "мы"
+        },
+        {
+          "person": {
+            "en": "2nd",
+            "ko": "2인칭",
+            "ja": "二人称",
+            "zh": "第二人称",
+            "fr": "2e",
+            "es": "2.ª",
+            "de": "2.",
+            "ru": "2-е"
+          },
+          "singular": "ты · вы*",
+          "plural": "вы"
+        },
+        {
+          "person": {
+            "en": "3rd",
+            "ko": "3인칭",
+            "ja": "三人称",
+            "zh": "第三人称",
+            "fr": "3e",
+            "es": "3.ª",
+            "de": "3.",
+            "ru": "3-е"
+          },
+          "singular": "он · она · оно",
+          "plural": "они"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Core cases",
+        "ko": "핵심 격",
+        "ja": "基本の格",
+        "zh": "常用格",
+        "fr": "Cas de base",
+        "es": "Casos básicos",
+        "de": "Kernfälle",
+        "ru": "Основные падежи"
+      },
+      "note": {
+        "en": "Accusative ≈ genitive for personal pronouns. Prep. often needs a preposition (о / об / обо).",
+        "ko": "인칭대명사는 대격≈생격이 같습니다. 전치격은 보통 전치사(о/об/обо)와 씁니다.",
+        "ja": "人称代名詞では対格≈生格。前置格は前置詞（о/об/обо）と使うことが多いです。",
+        "zh": "人称代词的宾格≈生格。前置格常与前置词（о/об/обо）连用。",
+        "fr": "Accusatif ≈ génitif pour les pronoms. Le prépositionnel va souvent avec о / об / обо.",
+        "es": "Acusativo ≈ genitivo. El preposicional suele ir con о / об / обо.",
+        "de": "Akkusativ ≈ Genitiv. Präpositiv oft mit о / об / обо.",
+        "ru": "Винительный ≈ родительный. Предложный обычно с о / об / обо."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Nom.",
+            "ko": "주격",
+            "ja": "主格",
+            "zh": "主格",
+            "fr": "Nom.",
+            "es": "Nom.",
+            "de": "Nom.",
+            "ru": "Им."
+          }
+        },
+        {
+          "key": "acc",
+          "labels": {
+            "en": "Acc. / Gen.",
+            "ko": "대격 / 생격",
+            "ja": "対格 / 生格",
+            "zh": "宾格 / 生格",
+            "fr": "Acc. / Gén.",
+            "es": "Ac. / Gen.",
+            "de": "Akk. / Gen.",
+            "ru": "Вин. / Род."
+          }
+        },
+        {
+          "key": "dat",
+          "labels": {
+            "en": "Dat.",
+            "ko": "여격",
+            "ja": "与格",
+            "zh": "与格",
+            "fr": "Dat.",
+            "es": "Dat.",
+            "de": "Dat.",
+            "ru": "Дат."
+          }
+        },
+        {
+          "key": "prep",
+          "labels": {
+            "en": "Prep.",
+            "ko": "전치격",
+            "ja": "前置格",
+            "zh": "前置格",
+            "fr": "Prépos.",
+            "es": "Prep.",
+            "de": "Präp.",
+            "ru": "Предл."
+          }
+        }
+      ],
+      "rows": [
+        { "form": "я", "acc": "меня", "dat": "мне", "prep": "(обо) мне" },
+        { "form": "ты", "acc": "тебя", "dat": "тебе", "prep": "(о) тебе" },
+        { "form": "он", "acc": "его", "dat": "ему", "prep": "(о) нём" },
+        { "form": "она", "acc": "её", "dat": "ей", "prep": "(о) ней" },
+        { "form": "оно", "acc": "его", "dat": "ему", "prep": "(о) нём" },
+        { "form": "мы", "acc": "нас", "dat": "нам", "prep": "(о) нас" },
+        { "form": "вы", "acc": "вас", "dat": "вам", "prep": "(о) вас" },
+        { "form": "они", "acc": "их", "dat": "им", "prep": "(о) них" }
+      ]
+    },
+    {
+      "title": {
+        "en": "Forms & sounds",
+        "ko": "형태와 발음",
+        "ja": "語形と読み",
+        "zh": "词形与读音",
+        "fr": "Formes et sons",
+        "es": "Formas y sonidos",
+        "de": "Formen & Laute",
+        "ru": "Формы и звучание"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "я",
+          "meaning": {
+            "en": "I / me",
+            "ko": "나 / 저",
+            "ja": "私",
+            "zh": "我",
+            "fr": "je / moi",
+            "es": "yo / mí",
+            "de": "ich / mich",
+            "ru": "я"
+          },
+          "sound": {
+            "en": "ya",
+            "ko": "야",
+            "ja": "ヤ",
+            "zh": "ya",
+            "fr": "ya",
+            "es": "ya",
+            "de": "ja",
+            "ru": "я"
+          }
+        },
+        {
+          "form": "ты",
+          "meaning": {
+            "en": "you (singular, informal)",
+            "ko": "너 (단수·반말)",
+            "ja": "君・お前（単数・くだけた）",
+            "zh": "你（单数、随便）",
+            "fr": "tu (familier)",
+            "es": "tú (informal)",
+            "de": "du (locker)",
+            "ru": "ты"
+          },
+          "sound": {
+            "en": "ty",
+            "ko": "티",
+            "ja": "トゥィ",
+            "zh": "ty",
+            "fr": "ty",
+            "es": "ty",
+            "de": "ty",
+            "ru": "ты"
+          }
+        },
+        {
+          "form": "он",
+          "meaning": {
+            "en": "he / it (masculine)",
+            "ko": "그 (남성) / 그것(남)",
+            "ja": "彼 / それ（男性）",
+            "zh": "他 / 它（阳性）",
+            "fr": "il (masculin)",
+            "es": "él (masculino)",
+            "de": "er (maskulin)",
+            "ru": "он"
+          },
+          "sound": {
+            "en": "on",
+            "ko": "온",
+            "ja": "オン",
+            "zh": "on",
+            "fr": "on",
+            "es": "on",
+            "de": "on",
+            "ru": "он"
+          }
+        },
+        {
+          "form": "она",
+          "meaning": {
+            "en": "she / it (feminine)",
+            "ko": "그녀 / 그것(여)",
+            "ja": "彼女 / それ（女性）",
+            "zh": "她 / 它（阴性）",
+            "fr": "elle (féminin)",
+            "es": "ella (femenino)",
+            "de": "sie (feminin)",
+            "ru": "она"
+          },
+          "sound": {
+            "en": "o-na",
+            "ko": "아나",
+            "ja": "オナ",
+            "zh": "ona",
+            "fr": "ona",
+            "es": "ona",
+            "de": "ona",
+            "ru": "она"
+          }
+        },
+        {
+          "form": "оно",
+          "meaning": {
+            "en": "it (neuter)",
+            "ko": "그것 (중성)",
+            "ja": "それ（中性）",
+            "zh": "它（中性）",
+            "fr": "il / ce (neutre)",
+            "es": "ello (neutro)",
+            "de": "es (neutrum)",
+            "ru": "оно"
+          },
+          "sound": {
+            "en": "o-no",
+            "ko": "아노",
+            "ja": "オノ",
+            "zh": "ono",
+            "fr": "ono",
+            "es": "ono",
+            "de": "ono",
+            "ru": "оно"
+          }
+        },
+        {
+          "form": "мы",
+          "meaning": {
+            "en": "we / us",
+            "ko": "우리",
+            "ja": "私たち",
+            "zh": "我们",
+            "fr": "nous",
+            "es": "nosotros",
+            "de": "wir / uns",
+            "ru": "мы"
+          },
+          "sound": {
+            "en": "my",
+            "ko": "미",
+            "ja": "ムィ",
+            "zh": "my",
+            "fr": "my",
+            "es": "my",
+            "de": "my",
+            "ru": "мы"
+          }
+        },
+        {
+          "form": "вы",
+          "meaning": {
+            "en": "you (plural / polite singular)",
+            "ko": "당신·여러분 (복수 / 존댓말 단수)",
+            "ja": "あなたたち / あなた（丁寧の単数）",
+            "zh": "你们 / 您（礼貌单数）",
+            "fr": "vous (pluriel / poli)",
+            "es": "ustedes / usted",
+            "de": "ihr / Sie",
+            "ru": "вы"
+          },
+          "sound": {
+            "en": "vy",
+            "ko": "비",
+            "ja": "ヴイ",
+            "zh": "vy",
+            "fr": "vy",
+            "es": "vy",
+            "de": "wy",
+            "ru": "вы"
+          }
+        },
+        {
+          "form": "они",
+          "meaning": {
+            "en": "they / them",
+            "ko": "그들",
+            "ja": "彼ら",
+            "zh": "他们",
+            "fr": "ils / elles",
+            "es": "ellos / ellas",
+            "de": "sie (Plural)",
+            "ru": "они"
+          },
+          "sound": {
+            "en": "o-ni",
+            "ko": "아니",
+            "ja": "アニ",
+            "zh": "oni",
+            "fr": "oni",
+            "es": "oni",
+            "de": "oni",
+            "ru": "они"
+          }
+        }
+      ]
+    }
+  ]
+}

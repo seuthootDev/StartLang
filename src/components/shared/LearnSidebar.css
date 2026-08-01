@@ -404,3 +404,105 @@
     padding: 1.75rem 1.5rem 3rem 1.75rem;
   }
 }
+
+/* —— Learn themes: per-language palette + frosted UI over full-bleed art —— */
+.learn-shell[data-target-lang='ja'],
+.learn-shell[data-target-lang='ko'],
+.learn-shell[data-target-lang='ru'] {
+  background-color: var(--paper);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: var(--ink);
+}
+
+.learn-shell[data-target-lang='ja'] {
+  --ink: #1a2744;
+  --ink-soft: #4a5a78;
+  --paper: #f4f1ea;
+  --line: #b7c0d1;
+  --accent: #c43c2c;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/ja/bg_j.png');
+}
+
+.learn-shell[data-target-lang='ko'] {
+  --ink: #1e2a32;
+  --ink-soft: #4d5c66;
+  --paper: #f7f3eb;
+  --line: #cfc6b8;
+  --accent: #2f4f7a;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/ko/bg_k.png');
+}
+
+.learn-shell[data-target-lang='ru'] {
+  --ink: #1c2430;
+  --ink-soft: #4a5564;
+  --paper: #eef1f5;
+  --line: #c5ccd6;
+  --accent: #9c2b2b;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/ru/bg_ru.png');
+}
+
+/* Soft wash so illustration detail doesn’t fight text contrast */
+.learn-shell[data-target-lang='ja']::before,
+.learn-shell[data-target-lang='ko']::before,
+.learn-shell[data-target-lang='ru']::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--paper) 28%, transparent);
+}
+
+.learn-shell[data-target-lang='ja'] > *,
+.learn-shell[data-target-lang='ko'] > *,
+.learn-shell[data-target-lang='ru'] > * {
+  position: relative;
+  z-index: 1;
+}
+
+.learn-shell[data-target-lang='ja'] .learn-shell__chrome,
+.learn-shell[data-target-lang='ko'] .learn-shell__chrome,
+.learn-shell[data-target-lang='ru'] .learn-shell__chrome {
+  background: color-mix(in srgb, var(--paper) 82%, white);
+  border-bottom-color: color-mix(in srgb, var(--line) 70%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.learn-shell[data-target-lang='ja'] .learn-sidebar,
+.learn-shell[data-target-lang='ko'] .learn-sidebar,
+.learn-shell[data-target-lang='ru'] .learn-sidebar {
+  background: color-mix(in srgb, var(--paper) 88%, white);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--line) 40%, transparent);
+}
+
+@media (min-width: 860px) {
+  .learn-shell[data-target-lang='ja'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='ko'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='ru'] .learn-sidebar--desktop {
+    background: color-mix(in srgb, var(--paper) 78%, white);
+    border-right-color: color-mix(in srgb, var(--line) 65%, transparent);
+    backdrop-filter: blur(10px);
+    box-shadow: none;
+    /* Round the panel so art peeks at the outer edge */
+    margin: 0.75rem 0 1rem 0.35rem;
+    padding: 1.25rem 0.85rem 1.75rem 0.85rem;
+    border-radius: 0.85rem;
+    border-right: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+    min-height: calc(100vh - 5rem);
+  }
+
+  .learn-shell[data-target-lang='ja'] .learn-shell__body,
+  .learn-shell[data-target-lang='ko'] .learn-shell__body,
+  .learn-shell[data-target-lang='ru'] .learn-shell__body {
+    width: min(1120px, 100%);
+  }
+}

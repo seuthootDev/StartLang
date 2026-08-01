@@ -1,0 +1,1199 @@
+{
+  "table_id": "ru_numbers_ref",
+  "title": {
+    "en": "Cardinal numbers",
+    "ko": "기수사",
+    "ja": "基数",
+    "zh": "基数词",
+    "fr": "Nombres cardinaux",
+    "es": "Números cardinales",
+    "de": "Kardinalzahlen",
+    "ru": "Количественные числительные"
+  },
+  "note": {
+    "en": "Russian has many irregularities: teens, 40/90, and most hundreds must be memorized. Compounds 21–99 use a space.",
+    "ko": "러시아어는 11–19, 40·90, 대부분의 백 단위가 불규칙입니다. 21–99는 띄어 씁니다.",
+    "ja": "ロシア語は11–19・40・90・百の多くが不規則。21–99はスペースでつなぎます。",
+    "zh": "俄语不规则多：11–19、40/90、多数百位需死记。21–99用空格连接。",
+    "fr": "Beaucoup d’irrégularités : 11–19, 40/90, centaines. 21–99 avec un espace.",
+    "es": "Muchas irregularidades: 11–19, 40/90, centenas. 21–99 con espacio.",
+    "de": "Viele Unregelmäßigkeiten: 11–19, 40/90, Hunderter. 21–99 mit Leerzeichen.",
+    "ru": "Много нерегулярных форм: 11–19, 40/90, сотни. 21–99 пишутся через пробел."
+  },
+  "rules": {
+    "en": [
+      "Memorize 0–20, the tens (esp. сорок, девяносто), and hundreds (esp. двести, триста…).",
+      "21–99 = tens + ones with a space: двадцать один, сорок пять.",
+      "Gender: один/одна/одно, два/две — quiz uses masculine один / два.",
+      "Quiz adds random 21–99 compounds so you practice the regular pattern."
+    ],
+    "ko": [
+      "0–20, 십 단위(특히 сорок·девяносто), 백 단위(특히 двести·триста…)를 외우세요.",
+      "21–99 = 십 + 일자리, 띄어쓰기: двадцать один, сорок пять.",
+      "성 일치: один/одна/одно, два/две — 퀴즈는 남성형 один·два.",
+      "퀴즈에 21–99 랜덤 조합이 나와 규칙 패턴을 연습합니다."
+    ],
+    "ja": [
+      "0–20、十の位（とくに сорок・девяносто）、百（とくに двести・триста…）を覚える。",
+      "21–99は十＋一の位をスペースで：двадцать один、сорок пять。",
+      "性：один/одна/одно、два/две — クイズは男性形 один・два。",
+      "クイズに21–99のランダム結合が入り、規則を練習します。"
+    ],
+    "zh": [
+      "先记 0–20、整十（尤其 сорок、девяносто）和百位（尤其 двести、триста…）。",
+      "21–99 = 十位 + 个位，中间空格：двадцать один。",
+      "性：один/одна/одно、два/две — 测验用阳性 один / два。",
+      "测验另加随机 21–99 组合，练习规则拼法。"
+    ],
+    "fr": [
+      "Apprenez 0–20, les dizaines (surtout сорок, девяносто) et les centaines.",
+      "21–99 = dizaine + unité avec espace : двадцать один.",
+      "Genre : один/одна/одно, два/две — le quiz utilise один / два.",
+      "Le quiz ajoute des composés 21–99 aléatoires."
+    ],
+    "es": [
+      "Memoriza 0–20, las decenas (esp. сорок, девяносто) y las centenas.",
+      "21–99 = decena + unidad con espacio: двадцать один.",
+      "Género: один/одна/одно, два/две — el quiz usa один / два.",
+      "El quiz añade compuestos aleatorios 21–99."
+    ],
+    "de": [
+      "0–20, Zehner (bes. сорок, девяносто) und Hunderter auswendig lernen.",
+      "21–99 = Zehner + Einer mit Leerzeichen: двадцать один.",
+      "Genus: один/одна/одно, два/две — Quiz nutzt один / два.",
+      "Quiz ergänzt zufällige 21–99-Verbindungen."
+    ],
+    "ru": [
+      "Выучите 0–20, десятки (особенно сорок, девяносто) и сотни.",
+      "21–99 = десятки + единицы через пробел: двадцать один.",
+      "Род: один/одна/одно, два/две — в квизе мужской род один / два.",
+      "В квизе — случайные сочетания 21–99 для правила."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "0–10",
+        "ko": "0–10",
+        "ja": "0–10",
+        "zh": "0–10",
+        "fr": "0–10",
+        "es": "0–10",
+        "de": "0–10",
+        "ru": "0–10"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "ноль",
+          "meaning": {
+            "en": "0",
+            "ko": "0",
+            "ja": "0",
+            "zh": "0",
+            "fr": "0",
+            "es": "0",
+            "de": "0",
+            "ru": "0"
+          },
+          "sound": {
+            "en": "nolʹ",
+            "ko": "놀",
+            "ja": "ノリ",
+            "zh": "nolʹ",
+            "fr": "nolʹ",
+            "es": "nolʹ",
+            "de": "nolʹ",
+            "ru": "ноль"
+          }
+        },
+        {
+          "form": "один",
+          "meaning": {
+            "en": "1",
+            "ko": "1",
+            "ja": "1",
+            "zh": "1",
+            "fr": "1",
+            "es": "1",
+            "de": "1",
+            "ru": "1"
+          },
+          "sound": {
+            "en": "o-din",
+            "ko": "아딘",
+            "ja": "アヂン",
+            "zh": "o-din",
+            "fr": "o-din",
+            "es": "o-din",
+            "de": "o-din",
+            "ru": "один"
+          }
+        },
+        {
+          "form": "два",
+          "meaning": {
+            "en": "2",
+            "ko": "2",
+            "ja": "2",
+            "zh": "2",
+            "fr": "2",
+            "es": "2",
+            "de": "2",
+            "ru": "2"
+          },
+          "sound": {
+            "en": "dva",
+            "ko": "드바",
+            "ja": "ドヴァ",
+            "zh": "dva",
+            "fr": "dva",
+            "es": "dva",
+            "de": "dva",
+            "ru": "два"
+          }
+        },
+        {
+          "form": "три",
+          "meaning": {
+            "en": "3",
+            "ko": "3",
+            "ja": "3",
+            "zh": "3",
+            "fr": "3",
+            "es": "3",
+            "de": "3",
+            "ru": "3"
+          },
+          "sound": {
+            "en": "tri",
+            "ko": "트리",
+            "ja": "トリ",
+            "zh": "tri",
+            "fr": "tri",
+            "es": "tri",
+            "de": "tri",
+            "ru": "три"
+          }
+        },
+        {
+          "form": "четыре",
+          "meaning": {
+            "en": "4",
+            "ko": "4",
+            "ja": "4",
+            "zh": "4",
+            "fr": "4",
+            "es": "4",
+            "de": "4",
+            "ru": "4"
+          },
+          "sound": {
+            "en": "che-ty-re",
+            "ko": "치티레",
+            "ja": "チティレ",
+            "zh": "che-ty-re",
+            "fr": "che-ty-re",
+            "es": "che-ty-re",
+            "de": "che-ty-re",
+            "ru": "четыре"
+          }
+        },
+        {
+          "form": "пять",
+          "meaning": {
+            "en": "5",
+            "ko": "5",
+            "ja": "5",
+            "zh": "5",
+            "fr": "5",
+            "es": "5",
+            "de": "5",
+            "ru": "5"
+          },
+          "sound": {
+            "en": "pyatʹ",
+            "ko": "퍄찌",
+            "ja": "ピャチ",
+            "zh": "pyatʹ",
+            "fr": "pyatʹ",
+            "es": "pyatʹ",
+            "de": "pyatʹ",
+            "ru": "пять"
+          }
+        },
+        {
+          "form": "шесть",
+          "meaning": {
+            "en": "6",
+            "ko": "6",
+            "ja": "6",
+            "zh": "6",
+            "fr": "6",
+            "es": "6",
+            "de": "6",
+            "ru": "6"
+          },
+          "sound": {
+            "en": "shestʹ",
+            "ko": "셰스찌",
+            "ja": "シェスチ",
+            "zh": "shestʹ",
+            "fr": "shestʹ",
+            "es": "shestʹ",
+            "de": "shestʹ",
+            "ru": "шесть"
+          }
+        },
+        {
+          "form": "семь",
+          "meaning": {
+            "en": "7",
+            "ko": "7",
+            "ja": "7",
+            "zh": "7",
+            "fr": "7",
+            "es": "7",
+            "de": "7",
+            "ru": "7"
+          },
+          "sound": {
+            "en": "semʹ",
+            "ko": "셈",
+            "ja": "セミ",
+            "zh": "semʹ",
+            "fr": "semʹ",
+            "es": "semʹ",
+            "de": "semʹ",
+            "ru": "семь"
+          }
+        },
+        {
+          "form": "восемь",
+          "meaning": {
+            "en": "8",
+            "ko": "8",
+            "ja": "8",
+            "zh": "8",
+            "fr": "8",
+            "es": "8",
+            "de": "8",
+            "ru": "8"
+          },
+          "sound": {
+            "en": "vo-semʹ",
+            "ko": "바셈",
+            "ja": "ヴォセミ",
+            "zh": "vo-semʹ",
+            "fr": "vo-semʹ",
+            "es": "vo-semʹ",
+            "de": "vo-semʹ",
+            "ru": "восемь"
+          }
+        },
+        {
+          "form": "девять",
+          "meaning": {
+            "en": "9",
+            "ko": "9",
+            "ja": "9",
+            "zh": "9",
+            "fr": "9",
+            "es": "9",
+            "de": "9",
+            "ru": "9"
+          },
+          "sound": {
+            "en": "de-vyatʹ",
+            "ko": "제뱌찌",
+            "ja": "ヂェヴャチ",
+            "zh": "de-vyatʹ",
+            "fr": "de-vyatʹ",
+            "es": "de-vyatʹ",
+            "de": "de-vyatʹ",
+            "ru": "девять"
+          }
+        },
+        {
+          "form": "десять",
+          "meaning": {
+            "en": "10",
+            "ko": "10",
+            "ja": "10",
+            "zh": "10",
+            "fr": "10",
+            "es": "10",
+            "de": "10",
+            "ru": "10"
+          },
+          "sound": {
+            "en": "de-syatʹ",
+            "ko": "제샤찌",
+            "ja": "ヂェシャチ",
+            "zh": "de-syatʹ",
+            "fr": "de-syatʹ",
+            "es": "de-syatʹ",
+            "de": "de-syatʹ",
+            "ru": "десять"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Teens (11–19) — irregular",
+        "ko": "11–19 — 불규칙",
+        "ja": "11–19 — 不規則",
+        "zh": "11–19 — 不规则",
+        "fr": "11–19 — irréguliers",
+        "es": "11–19 — irregulares",
+        "de": "11–19 — unregelmäßig",
+        "ru": "11–19 — нерегулярные"
+      },
+      "note": {
+        "en": "Like English eleven/twelve: each teen is its own word ending in -надцать.",
+        "ko": "영어 eleven처럼 하나씩 외웁니다. 대개 -надцать로 끝납니다.",
+        "ja": "英語のelevenのように一つずつ覚えます。多くは -надцать。",
+        "zh": "像英语 eleven，需逐个记。多以 -надцать 结尾。",
+        "fr": "Comme eleven : chaque forme se termine souvent par -надцать.",
+        "es": "Como eleven: casi todos terminan en -надцать.",
+        "de": "Wie eleven: meist auf -надцать.",
+        "ru": "Каждое числительное на -надцать нужно выучить отдельно."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "одиннадцать",
+          "meaning": {
+            "en": "11",
+            "ko": "11",
+            "ja": "11",
+            "zh": "11",
+            "fr": "11",
+            "es": "11",
+            "de": "11",
+            "ru": "11"
+          },
+          "sound": {
+            "en": "o-di-na-tsatʹ",
+            "ko": "아디나찻",
+            "ja": "アヂナーツァチ",
+            "zh": "o-di-na-tsatʹ",
+            "fr": "o-di-na-tsatʹ",
+            "es": "o-di-na-tsatʹ",
+            "de": "o-di-na-tsatʹ",
+            "ru": "одиннадцать"
+          }
+        },
+        {
+          "form": "двенадцать",
+          "meaning": {
+            "en": "12",
+            "ko": "12",
+            "ja": "12",
+            "zh": "12",
+            "fr": "12",
+            "es": "12",
+            "de": "12",
+            "ru": "12"
+          },
+          "sound": {
+            "en": "dve-na-tsatʹ",
+            "ko": "드베나찻",
+            "ja": "ドヴェナーツァチ",
+            "zh": "dve-na-tsatʹ",
+            "fr": "dve-na-tsatʹ",
+            "es": "dve-na-tsatʹ",
+            "de": "dve-na-tsatʹ",
+            "ru": "двенадцать"
+          }
+        },
+        {
+          "form": "тринадцать",
+          "meaning": {
+            "en": "13",
+            "ko": "13",
+            "ja": "13",
+            "zh": "13",
+            "fr": "13",
+            "es": "13",
+            "de": "13",
+            "ru": "13"
+          },
+          "sound": {
+            "en": "tri-na-tsatʹ",
+            "ko": "트리나찻",
+            "ja": "トリナーツァチ",
+            "zh": "tri-na-tsatʹ",
+            "fr": "tri-na-tsatʹ",
+            "es": "tri-na-tsatʹ",
+            "de": "tri-na-tsatʹ",
+            "ru": "тринадцать"
+          }
+        },
+        {
+          "form": "четырнадцать",
+          "meaning": {
+            "en": "14",
+            "ko": "14",
+            "ja": "14",
+            "zh": "14",
+            "fr": "14",
+            "es": "14",
+            "de": "14",
+            "ru": "14"
+          },
+          "sound": {
+            "en": "che-tyr-na-tsatʹ",
+            "ko": "치티르나찻",
+            "ja": "チティルナーツァチ",
+            "zh": "che-tyr-na-tsatʹ",
+            "fr": "che-tyr-na-tsatʹ",
+            "es": "che-tyr-na-tsatʹ",
+            "de": "che-tyr-na-tsatʹ",
+            "ru": "четырнадцать"
+          }
+        },
+        {
+          "form": "пятнадцать",
+          "meaning": {
+            "en": "15",
+            "ko": "15",
+            "ja": "15",
+            "zh": "15",
+            "fr": "15",
+            "es": "15",
+            "de": "15",
+            "ru": "15"
+          },
+          "sound": {
+            "en": "pyat-na-tsatʹ",
+            "ko": "퍄트나찻",
+            "ja": "ピャトナーツァチ",
+            "zh": "pyat-na-tsatʹ",
+            "fr": "pyat-na-tsatʹ",
+            "es": "pyat-na-tsatʹ",
+            "de": "pyat-na-tsatʹ",
+            "ru": "пятнадцать"
+          }
+        },
+        {
+          "form": "шестнадцать",
+          "meaning": {
+            "en": "16",
+            "ko": "16",
+            "ja": "16",
+            "zh": "16",
+            "fr": "16",
+            "es": "16",
+            "de": "16",
+            "ru": "16"
+          },
+          "sound": {
+            "en": "shest-na-tsatʹ",
+            "ko": "셰스트나찻",
+            "ja": "シェストナーツァチ",
+            "zh": "shest-na-tsatʹ",
+            "fr": "shest-na-tsatʹ",
+            "es": "shest-na-tsatʹ",
+            "de": "shest-na-tsatʹ",
+            "ru": "шестнадцать"
+          }
+        },
+        {
+          "form": "семнадцать",
+          "meaning": {
+            "en": "17",
+            "ko": "17",
+            "ja": "17",
+            "zh": "17",
+            "fr": "17",
+            "es": "17",
+            "de": "17",
+            "ru": "17"
+          },
+          "sound": {
+            "en": "sem-na-tsatʹ",
+            "ko": "셈나찻",
+            "ja": "セムナーツァチ",
+            "zh": "sem-na-tsatʹ",
+            "fr": "sem-na-tsatʹ",
+            "es": "sem-na-tsatʹ",
+            "de": "sem-na-tsatʹ",
+            "ru": "семнадцать"
+          }
+        },
+        {
+          "form": "восемнадцать",
+          "meaning": {
+            "en": "18",
+            "ko": "18",
+            "ja": "18",
+            "zh": "18",
+            "fr": "18",
+            "es": "18",
+            "de": "18",
+            "ru": "18"
+          },
+          "sound": {
+            "en": "vo-sem-na-tsatʹ",
+            "ko": "바셈나찻",
+            "ja": "ヴォセムナーツァチ",
+            "zh": "vo-sem-na-tsatʹ",
+            "fr": "vo-sem-na-tsatʹ",
+            "es": "vo-sem-na-tsatʹ",
+            "de": "vo-sem-na-tsatʹ",
+            "ru": "восемнадцать"
+          }
+        },
+        {
+          "form": "девятнадцать",
+          "meaning": {
+            "en": "19",
+            "ko": "19",
+            "ja": "19",
+            "zh": "19",
+            "fr": "19",
+            "es": "19",
+            "de": "19",
+            "ru": "19"
+          },
+          "sound": {
+            "en": "de-vyat-na-tsatʹ",
+            "ko": "제뱌트나찻",
+            "ja": "ヂェヴャトナーツァチ",
+            "zh": "de-vyat-na-tsatʹ",
+            "fr": "de-vyat-na-tsatʹ",
+            "es": "de-vyat-na-tsatʹ",
+            "de": "de-vyat-na-tsatʹ",
+            "ru": "девятнадцать"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Tens",
+        "ko": "십 단위",
+        "ja": "十の位",
+        "zh": "整十",
+        "fr": "Dizaines",
+        "es": "Decenas",
+        "de": "Zehner",
+        "ru": "Десятки"
+      },
+      "note": {
+        "en": "Watch сорок (40) and девяносто (90) — not *четыредесят / *девятьдесят.",
+        "ko": "сорок(40)·девяносто(90)에 주의 — *четыредесят / *девятьдесят가 아닙니다.",
+        "ja": "сорок（40）と девяносто（90）に注意。",
+        "zh": "注意 сорок（40）和 девяносто（90）。",
+        "fr": "Attention à сорок (40) et девяносто (90).",
+        "es": "Ojo con сорок (40) y девяносто (90).",
+        "de": "Achtung: сорок (40) und девяносто (90).",
+        "ru": "Особо: сорок и девяносто."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "двадцать",
+          "meaning": {
+            "en": "20",
+            "ko": "20",
+            "ja": "20",
+            "zh": "20",
+            "fr": "20",
+            "es": "20",
+            "de": "20",
+            "ru": "20"
+          },
+          "sound": {
+            "en": "dva-tsatʹ",
+            "ko": "드바찻",
+            "ja": "ドヴァーツァチ",
+            "zh": "dva-tsatʹ",
+            "fr": "dva-tsatʹ",
+            "es": "dva-tsatʹ",
+            "de": "dva-tsatʹ",
+            "ru": "двадцать"
+          }
+        },
+        {
+          "form": "тридцать",
+          "meaning": {
+            "en": "30",
+            "ko": "30",
+            "ja": "30",
+            "zh": "30",
+            "fr": "30",
+            "es": "30",
+            "de": "30",
+            "ru": "30"
+          },
+          "sound": {
+            "en": "tri-tsatʹ",
+            "ko": "트리찻",
+            "ja": "トリーツァチ",
+            "zh": "tri-tsatʹ",
+            "fr": "tri-tsatʹ",
+            "es": "tri-tsatʹ",
+            "de": "tri-tsatʹ",
+            "ru": "тридцать"
+          }
+        },
+        {
+          "form": "сорок",
+          "meaning": {
+            "en": "40",
+            "ko": "40",
+            "ja": "40",
+            "zh": "40",
+            "fr": "40",
+            "es": "40",
+            "de": "40",
+            "ru": "40"
+          },
+          "sound": {
+            "en": "so-rok",
+            "ko": "소록",
+            "ja": "ソーラク",
+            "zh": "so-rok",
+            "fr": "so-rok",
+            "es": "so-rok",
+            "de": "so-rok",
+            "ru": "сорок"
+          }
+        },
+        {
+          "form": "пятьдесят",
+          "meaning": {
+            "en": "50",
+            "ko": "50",
+            "ja": "50",
+            "zh": "50",
+            "fr": "50",
+            "es": "50",
+            "de": "50",
+            "ru": "50"
+          },
+          "sound": {
+            "en": "pyatʹ-de-syat",
+            "ko": "퍄찌젯샷",
+            "ja": "ピャチヂェシャト",
+            "zh": "pyatʹ-de-syat",
+            "fr": "pyatʹ-de-syat",
+            "es": "pyatʹ-de-syat",
+            "de": "pyatʹ-de-syat",
+            "ru": "пятьдесят"
+          }
+        },
+        {
+          "form": "шестьдесят",
+          "meaning": {
+            "en": "60",
+            "ko": "60",
+            "ja": "60",
+            "zh": "60",
+            "fr": "60",
+            "es": "60",
+            "de": "60",
+            "ru": "60"
+          },
+          "sound": {
+            "en": "shestʹ-de-syat",
+            "ko": "셰스찌젯샷",
+            "ja": "シェスチヂェシャト",
+            "zh": "shestʹ-de-syat",
+            "fr": "shestʹ-de-syat",
+            "es": "shestʹ-de-syat",
+            "de": "shestʹ-de-syat",
+            "ru": "шестьдесят"
+          }
+        },
+        {
+          "form": "семьдесят",
+          "meaning": {
+            "en": "70",
+            "ko": "70",
+            "ja": "70",
+            "zh": "70",
+            "fr": "70",
+            "es": "70",
+            "de": "70",
+            "ru": "70"
+          },
+          "sound": {
+            "en": "semʹ-de-syat",
+            "ko": "셈젯샷",
+            "ja": "セミヂェシャト",
+            "zh": "semʹ-de-syat",
+            "fr": "semʹ-de-syat",
+            "es": "semʹ-de-syat",
+            "de": "semʹ-de-syat",
+            "ru": "семьдесят"
+          }
+        },
+        {
+          "form": "восемьдесят",
+          "meaning": {
+            "en": "80",
+            "ko": "80",
+            "ja": "80",
+            "zh": "80",
+            "fr": "80",
+            "es": "80",
+            "de": "80",
+            "ru": "80"
+          },
+          "sound": {
+            "en": "vo-semʹ-de-syat",
+            "ko": "바셈젯샷",
+            "ja": "ヴォセミヂェシャト",
+            "zh": "vo-semʹ-de-syat",
+            "fr": "vo-semʹ-de-syat",
+            "es": "vo-semʹ-de-syat",
+            "de": "vo-semʹ-de-syat",
+            "ru": "восемьдесят"
+          }
+        },
+        {
+          "form": "девяносто",
+          "meaning": {
+            "en": "90",
+            "ko": "90",
+            "ja": "90",
+            "zh": "90",
+            "fr": "90",
+            "es": "90",
+            "de": "90",
+            "ru": "90"
+          },
+          "sound": {
+            "en": "de-vya-no-sto",
+            "ko": "제뱌노스토",
+            "ja": "ヂェヴャノースト",
+            "zh": "de-vya-no-sto",
+            "fr": "de-vya-no-sto",
+            "es": "de-vya-no-sto",
+            "de": "de-vya-no-sto",
+            "ru": "девяносто"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Hundreds & 1000",
+        "ko": "백 단위와 1000",
+        "ja": "百と1000",
+        "zh": "百位与1000",
+        "fr": "Centaines et 1000",
+        "es": "Centenas y 1000",
+        "de": "Hunderter & 1000",
+        "ru": "Сотни и 1000"
+      },
+      "note": {
+        "en": "двести / триста / четыреста change stem; 500–900 keep пять… + -сот.",
+        "ko": "двести·триста·четыреста는 어간이 바뀌고, 500–900은 -сот을 붙입니다.",
+        "ja": "двести・триста・четырестаは語幹変化。500–900は -сот。",
+        "zh": "двести / триста / четыреста 词干变化；500–900 加 -сот。",
+        "fr": "двести / триста / четыреста changent de radical ; 500–900 + -сот.",
+        "es": "двести / триста / четыреста cambian la raíz; 500–900 + -сот.",
+        "de": "двести / триста / четыреста ändern den Stamm; 500–900 + -сот.",
+        "ru": "двести, триста, четыреста — особые формы; 500–900 на -сот."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "сто",
+          "meaning": {
+            "en": "100",
+            "ko": "100",
+            "ja": "100",
+            "zh": "100",
+            "fr": "100",
+            "es": "100",
+            "de": "100",
+            "ru": "100"
+          },
+          "sound": {
+            "en": "sto",
+            "ko": "스토",
+            "ja": "スト",
+            "zh": "sto",
+            "fr": "sto",
+            "es": "sto",
+            "de": "sto",
+            "ru": "сто"
+          }
+        },
+        {
+          "form": "двести",
+          "meaning": {
+            "en": "200",
+            "ko": "200",
+            "ja": "200",
+            "zh": "200",
+            "fr": "200",
+            "es": "200",
+            "de": "200",
+            "ru": "200"
+          },
+          "sound": {
+            "en": "dve-sti",
+            "ko": "드베스티",
+            "ja": "ドヴェスティ",
+            "zh": "dve-sti",
+            "fr": "dve-sti",
+            "es": "dve-sti",
+            "de": "dve-sti",
+            "ru": "двести"
+          }
+        },
+        {
+          "form": "триста",
+          "meaning": {
+            "en": "300",
+            "ko": "300",
+            "ja": "300",
+            "zh": "300",
+            "fr": "300",
+            "es": "300",
+            "de": "300",
+            "ru": "300"
+          },
+          "sound": {
+            "en": "tri-sta",
+            "ko": "트리스타",
+            "ja": "トリスタ",
+            "zh": "tri-sta",
+            "fr": "tri-sta",
+            "es": "tri-sta",
+            "de": "tri-sta",
+            "ru": "триста"
+          }
+        },
+        {
+          "form": "четыреста",
+          "meaning": {
+            "en": "400",
+            "ko": "400",
+            "ja": "400",
+            "zh": "400",
+            "fr": "400",
+            "es": "400",
+            "de": "400",
+            "ru": "400"
+          },
+          "sound": {
+            "en": "che-ty-re-sta",
+            "ko": "치티레스타",
+            "ja": "チティレスタ",
+            "zh": "che-ty-re-sta",
+            "fr": "che-ty-re-sta",
+            "es": "che-ty-re-sta",
+            "de": "che-ty-re-sta",
+            "ru": "четыреста"
+          }
+        },
+        {
+          "form": "пятьсот",
+          "meaning": {
+            "en": "500",
+            "ko": "500",
+            "ja": "500",
+            "zh": "500",
+            "fr": "500",
+            "es": "500",
+            "de": "500",
+            "ru": "500"
+          },
+          "sound": {
+            "en": "pyatʹ-sot",
+            "ko": "퍄찌솟",
+            "ja": "ピャチソート",
+            "zh": "pyatʹ-sot",
+            "fr": "pyatʹ-sot",
+            "es": "pyatʹ-sot",
+            "de": "pyatʹ-sot",
+            "ru": "пятьсот"
+          }
+        },
+        {
+          "form": "шестьсот",
+          "meaning": {
+            "en": "600",
+            "ko": "600",
+            "ja": "600",
+            "zh": "600",
+            "fr": "600",
+            "es": "600",
+            "de": "600",
+            "ru": "600"
+          },
+          "sound": {
+            "en": "shestʹ-sot",
+            "ko": "셰스찌솟",
+            "ja": "シェスチソート",
+            "zh": "shestʹ-sot",
+            "fr": "shestʹ-sot",
+            "es": "shestʹ-sot",
+            "de": "shestʹ-sot",
+            "ru": "шестьсот"
+          }
+        },
+        {
+          "form": "семьсот",
+          "meaning": {
+            "en": "700",
+            "ko": "700",
+            "ja": "700",
+            "zh": "700",
+            "fr": "700",
+            "es": "700",
+            "de": "700",
+            "ru": "700"
+          },
+          "sound": {
+            "en": "semʹ-sot",
+            "ko": "셈솟",
+            "ja": "セミソート",
+            "zh": "semʹ-sot",
+            "fr": "semʹ-sot",
+            "es": "semʹ-sot",
+            "de": "semʹ-sot",
+            "ru": "семьсот"
+          }
+        },
+        {
+          "form": "восемьсот",
+          "meaning": {
+            "en": "800",
+            "ko": "800",
+            "ja": "800",
+            "zh": "800",
+            "fr": "800",
+            "es": "800",
+            "de": "800",
+            "ru": "800"
+          },
+          "sound": {
+            "en": "vo-semʹ-sot",
+            "ko": "바셈솟",
+            "ja": "ヴォセミソート",
+            "zh": "vo-semʹ-sot",
+            "fr": "vo-semʹ-sot",
+            "es": "vo-semʹ-sot",
+            "de": "vo-semʹ-sot",
+            "ru": "восемьсот"
+          }
+        },
+        {
+          "form": "девятьсот",
+          "meaning": {
+            "en": "900",
+            "ko": "900",
+            "ja": "900",
+            "zh": "900",
+            "fr": "900",
+            "es": "900",
+            "de": "900",
+            "ru": "900"
+          },
+          "sound": {
+            "en": "de-vyatʹ-sot",
+            "ko": "제뱌찌솟",
+            "ja": "ヂェヴャチソート",
+            "zh": "de-vyatʹ-sot",
+            "fr": "de-vyatʹ-sot",
+            "es": "de-vyatʹ-sot",
+            "de": "de-vyatʹ-sot",
+            "ru": "девятьсот"
+          }
+        },
+        {
+          "form": "тысяча",
+          "meaning": {
+            "en": "1000",
+            "ko": "1000",
+            "ja": "1000",
+            "zh": "1000",
+            "fr": "1000",
+            "es": "1000",
+            "de": "1000",
+            "ru": "1000"
+          },
+          "sound": {
+            "en": "ty-sya-cha",
+            "ko": "티샤차",
+            "ja": "トゥィシャーチャ",
+            "zh": "ty-sya-cha",
+            "fr": "ty-sya-cha",
+            "es": "ty-sya-cha",
+            "de": "ty-sya-cha",
+            "ru": "тысяча"
+          }
+        }
+      ]
+    }
+  ]
+}

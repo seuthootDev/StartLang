@@ -1,0 +1,194 @@
+[
+  {
+    "quiz_id": "ru_time_dawn",
+    "question_word": "рассвет",
+    "pronunciations": {
+      "en": "ras-svet",
+      "ko": "라스베트",
+      "ja": "ラススヴェト",
+      "zh": "ras-svet",
+      "fr": "ras-svet",
+      "es": "ras-svet",
+      "de": "ras-svet",
+      "ru": "рассвет"
+    },
+    "translations": {
+      "en": "dawn / early morning",
+      "ko": "새벽",
+      "ja": "明け方",
+      "zh": "黎明",
+      "fr": "aube",
+      "es": "madrugada",
+      "de": "Morgendämmerung",
+      "ru": "рассвет"
+    }
+  },
+  {
+    "quiz_id": "ru_time_morning",
+    "question_word": "утро",
+    "pronunciations": {
+      "en": "u-tro",
+      "ko": "우트로",
+      "ja": "ウトロ",
+      "zh": "u-tro",
+      "fr": "u-tro",
+      "es": "u-tro",
+      "de": "u-tro",
+      "ru": "утро"
+    },
+    "translations": {
+      "en": "morning",
+      "ko": "아침",
+      "ja": "朝",
+      "zh": "早上",
+      "fr": "matin",
+      "es": "mañana",
+      "de": "Morgen",
+      "ru": "утро"
+    }
+  },
+  {
+    "quiz_id": "ru_time_am",
+    "question_word": "до полудня",
+    "pronunciations": {
+      "en": "do po-lu-dnya",
+      "ko": "도 팔루드냐",
+      "ja": "ド・ポルドニャ",
+      "zh": "do po-lu-dnya",
+      "fr": "do po-lu-dnya",
+      "es": "do po-lu-dnya",
+      "de": "do po-lu-dnya",
+      "ru": "до полудня"
+    },
+    "translations": {
+      "en": "a.m. / morning (before noon)",
+      "ko": "오전",
+      "ja": "午前",
+      "zh": "上午",
+      "fr": "matin (avant midi)",
+      "es": "a. m.",
+      "de": "Vormittag",
+      "ru": "до полудня"
+    }
+  },
+  {
+    "quiz_id": "ru_time_day",
+    "question_word": "день",
+    "pronunciations": {
+      "en": "denʹ",
+      "ko": "젠",
+      "ja": "ヂェニ",
+      "zh": "denʹ",
+      "fr": "denʹ",
+      "es": "denʹ",
+      "de": "denʹ",
+      "ru": "день"
+    },
+    "translations": {
+      "en": "daytime / day",
+      "ko": "낮 / 하루",
+      "ja": "昼 / 日",
+      "zh": "白天 / 日",
+      "fr": "journée / jour",
+      "es": "día",
+      "de": "Tag / Tageszeit",
+      "ru": "день"
+    }
+  },
+  {
+    "quiz_id": "ru_time_pm",
+    "question_word": "после полудня",
+    "pronunciations": {
+      "en": "pos-le po-lu-dnya",
+      "ko": "포슬레 팔루드냐",
+      "ja": "ポーズレ・ポルドニャ",
+      "zh": "pos-le po-lu-dnya",
+      "fr": "pos-le po-lu-dnya",
+      "es": "pos-le po-lu-dnya",
+      "de": "pos-le po-lu-dnya",
+      "ru": "после полудня"
+    },
+    "translations": {
+      "en": "p.m. / afternoon",
+      "ko": "오후",
+      "ja": "午後",
+      "zh": "下午",
+      "fr": "après-midi",
+      "es": "tarde",
+      "de": "Nachmittag",
+      "ru": "после полудня"
+    }
+  },
+  {
+    "quiz_id": "ru_time_evening",
+    "question_word": "вечер",
+    "pronunciations": {
+      "en": "ve-cher",
+      "ko": "베체르",
+      "ja": "ヴェーチェル",
+      "zh": "ve-cher",
+      "fr": "ve-cher",
+      "es": "ve-cher",
+      "de": "ve-cher",
+      "ru": "вечер"
+    },
+    "translations": {
+      "en": "evening",
+      "ko": "저녁",
+      "ja": "夕方 / 晩",
+      "zh": "傍晚 / 晚上",
+      "fr": "soir",
+      "es": "tarde / noche",
+      "de": "Abend",
+      "ru": "вечер"
+    }
+  },
+  {
+    "quiz_id": "ru_time_night",
+    "question_word": "ночь",
+    "pronunciations": {
+      "en": "nochʹ",
+      "ko": "노치",
+      "ja": "ノーチ",
+      "zh": "nochʹ",
+      "fr": "nochʹ",
+      "es": "nochʹ",
+      "de": "nochʹ",
+      "ru": "ночь"
+    },
+    "translations": {
+      "en": "night",
+      "ko": "밤",
+      "ja": "夜",
+      "zh": "夜晚",
+      "fr": "nuit",
+      "es": "noche",
+      "de": "Nacht",
+      "ru": "ночь"
+    }
+  },
+  {
+    "quiz_id": "ru_time_now",
+    "question_word": "сейчас",
+    "pronunciations": {
+      "en": "sey-chas",
+      "ko": "세이차스",
+      "ja": "セイチャス",
+      "zh": "sey-chas",
+      "fr": "sey-chas",
+      "es": "sey-chas",
+      "de": "sey-chas",
+      "ru": "сейчас"
+    },
+    "translations": {
+      "en": "now",
+      "ko": "지금",
+      "ja": "今",
+      "zh": "现在",
+      "fr": "maintenant",
+      "es": "ahora",
+      "de": "jetzt",
+      "ru": "сейчас"
+    }
+  }
+]

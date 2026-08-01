@@ -1,0 +1,914 @@
+[
+  {
+    "quiz_id": "ru_numbers_0",
+    "question_word": "ноль",
+    "pronunciations": {
+      "en": "nolʹ",
+      "ko": "놀",
+      "ja": "ノリ",
+      "zh": "nolʹ",
+      "fr": "nolʹ",
+      "es": "nolʹ",
+      "de": "nolʹ",
+      "ru": "ноль"
+    },
+    "translations": {
+      "en": "0",
+      "ko": "0",
+      "ja": "0",
+      "zh": "0",
+      "fr": "0",
+      "es": "0",
+      "de": "0",
+      "ru": "0"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_1",
+    "question_word": "один",
+    "pronunciations": {
+      "en": "o-din",
+      "ko": "아딘",
+      "ja": "アヂン",
+      "zh": "o-din",
+      "fr": "o-din",
+      "es": "o-din",
+      "de": "o-din",
+      "ru": "один"
+    },
+    "translations": {
+      "en": "1",
+      "ko": "1",
+      "ja": "1",
+      "zh": "1",
+      "fr": "1",
+      "es": "1",
+      "de": "1",
+      "ru": "1"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_2",
+    "question_word": "два",
+    "pronunciations": {
+      "en": "dva",
+      "ko": "드바",
+      "ja": "ドヴァ",
+      "zh": "dva",
+      "fr": "dva",
+      "es": "dva",
+      "de": "dva",
+      "ru": "два"
+    },
+    "translations": {
+      "en": "2",
+      "ko": "2",
+      "ja": "2",
+      "zh": "2",
+      "fr": "2",
+      "es": "2",
+      "de": "2",
+      "ru": "2"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_3",
+    "question_word": "три",
+    "pronunciations": {
+      "en": "tri",
+      "ko": "트리",
+      "ja": "トリ",
+      "zh": "tri",
+      "fr": "tri",
+      "es": "tri",
+      "de": "tri",
+      "ru": "три"
+    },
+    "translations": {
+      "en": "3",
+      "ko": "3",
+      "ja": "3",
+      "zh": "3",
+      "fr": "3",
+      "es": "3",
+      "de": "3",
+      "ru": "3"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_4",
+    "question_word": "четыре",
+    "pronunciations": {
+      "en": "che-ty-re",
+      "ko": "치티레",
+      "ja": "チティレ",
+      "zh": "che-ty-re",
+      "fr": "che-ty-re",
+      "es": "che-ty-re",
+      "de": "che-ty-re",
+      "ru": "четыре"
+    },
+    "translations": {
+      "en": "4",
+      "ko": "4",
+      "ja": "4",
+      "zh": "4",
+      "fr": "4",
+      "es": "4",
+      "de": "4",
+      "ru": "4"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_5",
+    "question_word": "пять",
+    "pronunciations": {
+      "en": "pyatʹ",
+      "ko": "퍄찌",
+      "ja": "ピャチ",
+      "zh": "pyatʹ",
+      "fr": "pyatʹ",
+      "es": "pyatʹ",
+      "de": "pyatʹ",
+      "ru": "пять"
+    },
+    "translations": {
+      "en": "5",
+      "ko": "5",
+      "ja": "5",
+      "zh": "5",
+      "fr": "5",
+      "es": "5",
+      "de": "5",
+      "ru": "5"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_6",
+    "question_word": "шесть",
+    "pronunciations": {
+      "en": "shestʹ",
+      "ko": "셰스찌",
+      "ja": "シェスチ",
+      "zh": "shestʹ",
+      "fr": "shestʹ",
+      "es": "shestʹ",
+      "de": "shestʹ",
+      "ru": "шесть"
+    },
+    "translations": {
+      "en": "6",
+      "ko": "6",
+      "ja": "6",
+      "zh": "6",
+      "fr": "6",
+      "es": "6",
+      "de": "6",
+      "ru": "6"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_7",
+    "question_word": "семь",
+    "pronunciations": {
+      "en": "semʹ",
+      "ko": "셈",
+      "ja": "セミ",
+      "zh": "semʹ",
+      "fr": "semʹ",
+      "es": "semʹ",
+      "de": "semʹ",
+      "ru": "семь"
+    },
+    "translations": {
+      "en": "7",
+      "ko": "7",
+      "ja": "7",
+      "zh": "7",
+      "fr": "7",
+      "es": "7",
+      "de": "7",
+      "ru": "7"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_8",
+    "question_word": "восемь",
+    "pronunciations": {
+      "en": "vo-semʹ",
+      "ko": "바셈",
+      "ja": "ヴォセミ",
+      "zh": "vo-semʹ",
+      "fr": "vo-semʹ",
+      "es": "vo-semʹ",
+      "de": "vo-semʹ",
+      "ru": "восемь"
+    },
+    "translations": {
+      "en": "8",
+      "ko": "8",
+      "ja": "8",
+      "zh": "8",
+      "fr": "8",
+      "es": "8",
+      "de": "8",
+      "ru": "8"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_9",
+    "question_word": "девять",
+    "pronunciations": {
+      "en": "de-vyatʹ",
+      "ko": "제뱌찌",
+      "ja": "ヂェヴャチ",
+      "zh": "de-vyatʹ",
+      "fr": "de-vyatʹ",
+      "es": "de-vyatʹ",
+      "de": "de-vyatʹ",
+      "ru": "девять"
+    },
+    "translations": {
+      "en": "9",
+      "ko": "9",
+      "ja": "9",
+      "zh": "9",
+      "fr": "9",
+      "es": "9",
+      "de": "9",
+      "ru": "9"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_10",
+    "question_word": "десять",
+    "pronunciations": {
+      "en": "de-syatʹ",
+      "ko": "제샤찌",
+      "ja": "ヂェシャチ",
+      "zh": "de-syatʹ",
+      "fr": "de-syatʹ",
+      "es": "de-syatʹ",
+      "de": "de-syatʹ",
+      "ru": "десять"
+    },
+    "translations": {
+      "en": "10",
+      "ko": "10",
+      "ja": "10",
+      "zh": "10",
+      "fr": "10",
+      "es": "10",
+      "de": "10",
+      "ru": "10"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_11",
+    "question_word": "одиннадцать",
+    "pronunciations": {
+      "en": "o-di-na-tsatʹ",
+      "ko": "아디나찻",
+      "ja": "アヂナーツァチ",
+      "zh": "o-di-na-tsatʹ",
+      "fr": "o-di-na-tsatʹ",
+      "es": "o-di-na-tsatʹ",
+      "de": "o-di-na-tsatʹ",
+      "ru": "одиннадцать"
+    },
+    "translations": {
+      "en": "11",
+      "ko": "11",
+      "ja": "11",
+      "zh": "11",
+      "fr": "11",
+      "es": "11",
+      "de": "11",
+      "ru": "11"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_12",
+    "question_word": "двенадцать",
+    "pronunciations": {
+      "en": "dve-na-tsatʹ",
+      "ko": "드베나찻",
+      "ja": "ドヴェナーツァチ",
+      "zh": "dve-na-tsatʹ",
+      "fr": "dve-na-tsatʹ",
+      "es": "dve-na-tsatʹ",
+      "de": "dve-na-tsatʹ",
+      "ru": "двенадцать"
+    },
+    "translations": {
+      "en": "12",
+      "ko": "12",
+      "ja": "12",
+      "zh": "12",
+      "fr": "12",
+      "es": "12",
+      "de": "12",
+      "ru": "12"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_13",
+    "question_word": "тринадцать",
+    "pronunciations": {
+      "en": "tri-na-tsatʹ",
+      "ko": "트리나찻",
+      "ja": "トリナーツァチ",
+      "zh": "tri-na-tsatʹ",
+      "fr": "tri-na-tsatʹ",
+      "es": "tri-na-tsatʹ",
+      "de": "tri-na-tsatʹ",
+      "ru": "тринадцать"
+    },
+    "translations": {
+      "en": "13",
+      "ko": "13",
+      "ja": "13",
+      "zh": "13",
+      "fr": "13",
+      "es": "13",
+      "de": "13",
+      "ru": "13"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_14",
+    "question_word": "четырнадцать",
+    "pronunciations": {
+      "en": "che-tyr-na-tsatʹ",
+      "ko": "치티르나찻",
+      "ja": "チティルナーツァチ",
+      "zh": "che-tyr-na-tsatʹ",
+      "fr": "che-tyr-na-tsatʹ",
+      "es": "che-tyr-na-tsatʹ",
+      "de": "che-tyr-na-tsatʹ",
+      "ru": "четырнадцать"
+    },
+    "translations": {
+      "en": "14",
+      "ko": "14",
+      "ja": "14",
+      "zh": "14",
+      "fr": "14",
+      "es": "14",
+      "de": "14",
+      "ru": "14"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_15",
+    "question_word": "пятнадцать",
+    "pronunciations": {
+      "en": "pyat-na-tsatʹ",
+      "ko": "퍄트나찻",
+      "ja": "ピャトナーツァチ",
+      "zh": "pyat-na-tsatʹ",
+      "fr": "pyat-na-tsatʹ",
+      "es": "pyat-na-tsatʹ",
+      "de": "pyat-na-tsatʹ",
+      "ru": "пятнадцать"
+    },
+    "translations": {
+      "en": "15",
+      "ko": "15",
+      "ja": "15",
+      "zh": "15",
+      "fr": "15",
+      "es": "15",
+      "de": "15",
+      "ru": "15"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_16",
+    "question_word": "шестнадцать",
+    "pronunciations": {
+      "en": "shest-na-tsatʹ",
+      "ko": "셰스트나찻",
+      "ja": "シェストナーツァチ",
+      "zh": "shest-na-tsatʹ",
+      "fr": "shest-na-tsatʹ",
+      "es": "shest-na-tsatʹ",
+      "de": "shest-na-tsatʹ",
+      "ru": "шестнадцать"
+    },
+    "translations": {
+      "en": "16",
+      "ko": "16",
+      "ja": "16",
+      "zh": "16",
+      "fr": "16",
+      "es": "16",
+      "de": "16",
+      "ru": "16"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_17",
+    "question_word": "семнадцать",
+    "pronunciations": {
+      "en": "sem-na-tsatʹ",
+      "ko": "셈나찻",
+      "ja": "セムナーツァチ",
+      "zh": "sem-na-tsatʹ",
+      "fr": "sem-na-tsatʹ",
+      "es": "sem-na-tsatʹ",
+      "de": "sem-na-tsatʹ",
+      "ru": "семнадцать"
+    },
+    "translations": {
+      "en": "17",
+      "ko": "17",
+      "ja": "17",
+      "zh": "17",
+      "fr": "17",
+      "es": "17",
+      "de": "17",
+      "ru": "17"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_18",
+    "question_word": "восемнадцать",
+    "pronunciations": {
+      "en": "vo-sem-na-tsatʹ",
+      "ko": "바셈나찻",
+      "ja": "ヴォセムナーツァチ",
+      "zh": "vo-sem-na-tsatʹ",
+      "fr": "vo-sem-na-tsatʹ",
+      "es": "vo-sem-na-tsatʹ",
+      "de": "vo-sem-na-tsatʹ",
+      "ru": "восемнадцать"
+    },
+    "translations": {
+      "en": "18",
+      "ko": "18",
+      "ja": "18",
+      "zh": "18",
+      "fr": "18",
+      "es": "18",
+      "de": "18",
+      "ru": "18"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_19",
+    "question_word": "девятнадцать",
+    "pronunciations": {
+      "en": "de-vyat-na-tsatʹ",
+      "ko": "제뱌트나찻",
+      "ja": "ヂェヴャトナーツァチ",
+      "zh": "de-vyat-na-tsatʹ",
+      "fr": "de-vyat-na-tsatʹ",
+      "es": "de-vyat-na-tsatʹ",
+      "de": "de-vyat-na-tsatʹ",
+      "ru": "девятнадцать"
+    },
+    "translations": {
+      "en": "19",
+      "ko": "19",
+      "ja": "19",
+      "zh": "19",
+      "fr": "19",
+      "es": "19",
+      "de": "19",
+      "ru": "19"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_20",
+    "question_word": "двадцать",
+    "pronunciations": {
+      "en": "dva-tsatʹ",
+      "ko": "드바찻",
+      "ja": "ドヴァーツァチ",
+      "zh": "dva-tsatʹ",
+      "fr": "dva-tsatʹ",
+      "es": "dva-tsatʹ",
+      "de": "dva-tsatʹ",
+      "ru": "двадцать"
+    },
+    "translations": {
+      "en": "20",
+      "ko": "20",
+      "ja": "20",
+      "zh": "20",
+      "fr": "20",
+      "es": "20",
+      "de": "20",
+      "ru": "20"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_30",
+    "question_word": "тридцать",
+    "pronunciations": {
+      "en": "tri-tsatʹ",
+      "ko": "트리찻",
+      "ja": "トリーツァチ",
+      "zh": "tri-tsatʹ",
+      "fr": "tri-tsatʹ",
+      "es": "tri-tsatʹ",
+      "de": "tri-tsatʹ",
+      "ru": "тридцать"
+    },
+    "translations": {
+      "en": "30",
+      "ko": "30",
+      "ja": "30",
+      "zh": "30",
+      "fr": "30",
+      "es": "30",
+      "de": "30",
+      "ru": "30"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_40",
+    "question_word": "сорок",
+    "pronunciations": {
+      "en": "so-rok",
+      "ko": "소록",
+      "ja": "ソーラク",
+      "zh": "so-rok",
+      "fr": "so-rok",
+      "es": "so-rok",
+      "de": "so-rok",
+      "ru": "сорок"
+    },
+    "translations": {
+      "en": "40",
+      "ko": "40",
+      "ja": "40",
+      "zh": "40",
+      "fr": "40",
+      "es": "40",
+      "de": "40",
+      "ru": "40"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_50",
+    "question_word": "пятьдесят",
+    "pronunciations": {
+      "en": "pyatʹ-de-syat",
+      "ko": "퍄찌젯샷",
+      "ja": "ピャチヂェシャト",
+      "zh": "pyatʹ-de-syat",
+      "fr": "pyatʹ-de-syat",
+      "es": "pyatʹ-de-syat",
+      "de": "pyatʹ-de-syat",
+      "ru": "пятьдесят"
+    },
+    "translations": {
+      "en": "50",
+      "ko": "50",
+      "ja": "50",
+      "zh": "50",
+      "fr": "50",
+      "es": "50",
+      "de": "50",
+      "ru": "50"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_60",
+    "question_word": "шестьдесят",
+    "pronunciations": {
+      "en": "shestʹ-de-syat",
+      "ko": "셰스찌젯샷",
+      "ja": "シェスチヂェシャト",
+      "zh": "shestʹ-de-syat",
+      "fr": "shestʹ-de-syat",
+      "es": "shestʹ-de-syat",
+      "de": "shestʹ-de-syat",
+      "ru": "шестьдесят"
+    },
+    "translations": {
+      "en": "60",
+      "ko": "60",
+      "ja": "60",
+      "zh": "60",
+      "fr": "60",
+      "es": "60",
+      "de": "60",
+      "ru": "60"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_70",
+    "question_word": "семьдесят",
+    "pronunciations": {
+      "en": "semʹ-de-syat",
+      "ko": "셈젯샷",
+      "ja": "セミヂェシャト",
+      "zh": "semʹ-de-syat",
+      "fr": "semʹ-de-syat",
+      "es": "semʹ-de-syat",
+      "de": "semʹ-de-syat",
+      "ru": "семьдесят"
+    },
+    "translations": {
+      "en": "70",
+      "ko": "70",
+      "ja": "70",
+      "zh": "70",
+      "fr": "70",
+      "es": "70",
+      "de": "70",
+      "ru": "70"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_80",
+    "question_word": "восемьдесят",
+    "pronunciations": {
+      "en": "vo-semʹ-de-syat",
+      "ko": "바셈젯샷",
+      "ja": "ヴォセミヂェシャト",
+      "zh": "vo-semʹ-de-syat",
+      "fr": "vo-semʹ-de-syat",
+      "es": "vo-semʹ-de-syat",
+      "de": "vo-semʹ-de-syat",
+      "ru": "восемьдесят"
+    },
+    "translations": {
+      "en": "80",
+      "ko": "80",
+      "ja": "80",
+      "zh": "80",
+      "fr": "80",
+      "es": "80",
+      "de": "80",
+      "ru": "80"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_90",
+    "question_word": "девяносто",
+    "pronunciations": {
+      "en": "de-vya-no-sto",
+      "ko": "제뱌노스토",
+      "ja": "ヂェヴャノースト",
+      "zh": "de-vya-no-sto",
+      "fr": "de-vya-no-sto",
+      "es": "de-vya-no-sto",
+      "de": "de-vya-no-sto",
+      "ru": "девяносто"
+    },
+    "translations": {
+      "en": "90",
+      "ko": "90",
+      "ja": "90",
+      "zh": "90",
+      "fr": "90",
+      "es": "90",
+      "de": "90",
+      "ru": "90"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_100",
+    "question_word": "сто",
+    "pronunciations": {
+      "en": "sto",
+      "ko": "스토",
+      "ja": "スト",
+      "zh": "sto",
+      "fr": "sto",
+      "es": "sto",
+      "de": "sto",
+      "ru": "сто"
+    },
+    "translations": {
+      "en": "100",
+      "ko": "100",
+      "ja": "100",
+      "zh": "100",
+      "fr": "100",
+      "es": "100",
+      "de": "100",
+      "ru": "100"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_200",
+    "question_word": "двести",
+    "pronunciations": {
+      "en": "dve-sti",
+      "ko": "드베스티",
+      "ja": "ドヴェスティ",
+      "zh": "dve-sti",
+      "fr": "dve-sti",
+      "es": "dve-sti",
+      "de": "dve-sti",
+      "ru": "двести"
+    },
+    "translations": {
+      "en": "200",
+      "ko": "200",
+      "ja": "200",
+      "zh": "200",
+      "fr": "200",
+      "es": "200",
+      "de": "200",
+      "ru": "200"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_300",
+    "question_word": "триста",
+    "pronunciations": {
+      "en": "tri-sta",
+      "ko": "트리스타",
+      "ja": "トリスタ",
+      "zh": "tri-sta",
+      "fr": "tri-sta",
+      "es": "tri-sta",
+      "de": "tri-sta",
+      "ru": "триста"
+    },
+    "translations": {
+      "en": "300",
+      "ko": "300",
+      "ja": "300",
+      "zh": "300",
+      "fr": "300",
+      "es": "300",
+      "de": "300",
+      "ru": "300"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_400",
+    "question_word": "четыреста",
+    "pronunciations": {
+      "en": "che-ty-re-sta",
+      "ko": "치티레스타",
+      "ja": "チティレスタ",
+      "zh": "che-ty-re-sta",
+      "fr": "che-ty-re-sta",
+      "es": "che-ty-re-sta",
+      "de": "che-ty-re-sta",
+      "ru": "четыреста"
+    },
+    "translations": {
+      "en": "400",
+      "ko": "400",
+      "ja": "400",
+      "zh": "400",
+      "fr": "400",
+      "es": "400",
+      "de": "400",
+      "ru": "400"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_500",
+    "question_word": "пятьсот",
+    "pronunciations": {
+      "en": "pyatʹ-sot",
+      "ko": "퍄찌솟",
+      "ja": "ピャチソート",
+      "zh": "pyatʹ-sot",
+      "fr": "pyatʹ-sot",
+      "es": "pyatʹ-sot",
+      "de": "pyatʹ-sot",
+      "ru": "пятьсот"
+    },
+    "translations": {
+      "en": "500",
+      "ko": "500",
+      "ja": "500",
+      "zh": "500",
+      "fr": "500",
+      "es": "500",
+      "de": "500",
+      "ru": "500"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_600",
+    "question_word": "шестьсот",
+    "pronunciations": {
+      "en": "shestʹ-sot",
+      "ko": "셰스찌솟",
+      "ja": "シェスチソート",
+      "zh": "shestʹ-sot",
+      "fr": "shestʹ-sot",
+      "es": "shestʹ-sot",
+      "de": "shestʹ-sot",
+      "ru": "шестьсот"
+    },
+    "translations": {
+      "en": "600",
+      "ko": "600",
+      "ja": "600",
+      "zh": "600",
+      "fr": "600",
+      "es": "600",
+      "de": "600",
+      "ru": "600"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_700",
+    "question_word": "семьсот",
+    "pronunciations": {
+      "en": "semʹ-sot",
+      "ko": "셈솟",
+      "ja": "セミソート",
+      "zh": "semʹ-sot",
+      "fr": "semʹ-sot",
+      "es": "semʹ-sot",
+      "de": "semʹ-sot",
+      "ru": "семьсот"
+    },
+    "translations": {
+      "en": "700",
+      "ko": "700",
+      "ja": "700",
+      "zh": "700",
+      "fr": "700",
+      "es": "700",
+      "de": "700",
+      "ru": "700"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_800",
+    "question_word": "восемьсот",
+    "pronunciations": {
+      "en": "vo-semʹ-sot",
+      "ko": "바셈솟",
+      "ja": "ヴォセミソート",
+      "zh": "vo-semʹ-sot",
+      "fr": "vo-semʹ-sot",
+      "es": "vo-semʹ-sot",
+      "de": "vo-semʹ-sot",
+      "ru": "восемьсот"
+    },
+    "translations": {
+      "en": "800",
+      "ko": "800",
+      "ja": "800",
+      "zh": "800",
+      "fr": "800",
+      "es": "800",
+      "de": "800",
+      "ru": "800"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_900",
+    "question_word": "девятьсот",
+    "pronunciations": {
+      "en": "de-vyatʹ-sot",
+      "ko": "제뱌찌솟",
+      "ja": "ヂェヴャチソート",
+      "zh": "de-vyatʹ-sot",
+      "fr": "de-vyatʹ-sot",
+      "es": "de-vyatʹ-sot",
+      "de": "de-vyatʹ-sot",
+      "ru": "девятьсот"
+    },
+    "translations": {
+      "en": "900",
+      "ko": "900",
+      "ja": "900",
+      "zh": "900",
+      "fr": "900",
+      "es": "900",
+      "de": "900",
+      "ru": "900"
+    }
+  },
+  {
+    "quiz_id": "ru_numbers_1000",
+    "question_word": "тысяча",
+    "pronunciations": {
+      "en": "ty-sya-cha",
+      "ko": "티샤차",
+      "ja": "トゥィシャーチャ",
+      "zh": "ty-sya-cha",
+      "fr": "ty-sya-cha",
+      "es": "ty-sya-cha",
+      "de": "ty-sya-cha",
+      "ru": "тысяча"
+    },
+    "translations": {
+      "en": "1000",
+      "ko": "1000",
+      "ja": "1000",
+      "zh": "1000",
+      "fr": "1000",
+      "es": "1000",
+      "de": "1000",
+      "ru": "1000"
+    }
+  }
+]

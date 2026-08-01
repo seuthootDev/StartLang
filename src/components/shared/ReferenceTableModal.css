@@ -82,6 +82,25 @@
   padding: 0.85rem 1.2rem 1.2rem;
 }
 
+.ref-section + .ref-section--divided {
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.ref-section__title {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  letter-spacing: -0.02em;
+}
+
+.ref-section__note {
+  margin: 0 0 0.55rem;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+}
+
 .ref-table {
   width: 100%;
   border-collapse: collapse;

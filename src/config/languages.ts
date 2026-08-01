@@ -8,7 +8,7 @@ export const LANGUAGES: LanguageMeta[] = [
   { code: 'fr', nativeName: 'Français', englishName: 'French', enabledAsTarget: false, enabledAsLearner: true },
   { code: 'es', nativeName: 'Español', englishName: 'Spanish', enabledAsTarget: false, enabledAsLearner: true },
   { code: 'de', nativeName: 'Deutsch', englishName: 'German', enabledAsTarget: false, enabledAsLearner: true },
-  { code: 'ru', nativeName: 'Русский', englishName: 'Russian', enabledAsTarget: false, enabledAsLearner: true },
+  { code: 'ru', nativeName: 'Русский', englishName: 'Russian', enabledAsTarget: true, enabledAsLearner: true },
 ]
 
 /** All planned learning targets (enabled + coming soon) */

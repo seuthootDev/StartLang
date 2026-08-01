@@ -1,0 +1,598 @@
+{
+  "table_id": "ru_questions_ref",
+  "title": {
+    "en": "Question words",
+    "ko": "필수 의문사",
+    "ja": "疑問詞",
+    "zh": "疑问词",
+    "fr": "Mots interrogatifs",
+    "es": "Palabras interrogativas",
+    "de": "Fragewörter",
+    "ru": "Вопросительные слова"
+  },
+  "note": {
+    "en": "Russian splits “where” and “why”, and какой declines by gender. Chart first, then forms.",
+    "ko": "러시아어는 “어디/왜”가 갈라지고, какой는 성에 따라 변합니다. 의미 표 → 형태 목록.",
+    "ja": "「どこ／なぜ」が分かれ、какойは性で変化。先に意味表、次に語形。",
+    "zh": "俄语的“哪里/为什么”会细分，какой随性变化。先意义表，后词形。",
+    "fr": "« Où » et « pourquoi » se dédoublent ; какой s’accorde en genre.",
+    "es": "“Dónde” y “por qué” se dividen; какой cambia de género.",
+    "de": "„Wo“ und „warum“ sind gespalten; какой richtet sich nach dem Genus.",
+    "ru": "Где/куда/откуда и почему/зачем различаются; какой согласуется по роду."
+  },
+  "rules": {
+    "en": [
+      "где = at/in a place; куда = direction to; откуда = direction from.",
+      "почему = reason; зачем = purpose (“what for”).",
+      "какой / какая (and какое / какие) agree with the noun’s gender/number.",
+      "кто and что also decline by case (кого, чего…) — later with cases."
+    ],
+    "ko": [
+      "где = 장소; куда = 가는 방향; откуда = 오는 방향.",
+      "почему = 이유; зачем = 목적(“무엇 하러”).",
+      "какой / какая (и какое / какие)는 명사의 성·수에 맞춥니다.",
+      "кто·что도 격변화(кого, чего…) — 격 단원에서 이어집니다."
+    ],
+    "ja": [
+      "где＝場所、куда＝行く方向、откуда＝来る方向。",
+      "почему＝理由、зачем＝目的。",
+      "какой / какая（・какое / какие）は名詞の性・数に一致。",
+      "кто・чтоも格変化（кого, чего…）— 格の単元で。"
+    ],
+    "zh": [
+      "где＝地点；куда＝去向；откуда＝来处。",
+      "почему＝原因；зачем＝目的。",
+      "какой / какая（及 какое / какие）随名词性、数变化。",
+      "кто / что也有格变化（кого, чего…）— 见格单元。"
+    ],
+    "fr": [
+      "где = lieu ; куда = direction ; откуда = provenance.",
+      "почему = cause ; зачем = but.",
+      "какой / какая s’accordent en genre/nombre.",
+      "кто / что déclinent aussi (кого, чего…) — avec les cas."
+    ],
+    "es": [
+      "где = lugar; куда = hacia; откуда = desde.",
+      "почему = causa; зачем = propósito.",
+      "какой / какая concuerdan en género/número.",
+      "кто / что también declinan (кого, чего…)."
+    ],
+    "de": [
+      "где = Ort; куда = wohin; откуда = woher.",
+      "почему = Grund; зачем = Zweck.",
+      "какой / какая richten sich nach Genus/Numerus.",
+      "кто / что deklinieren auch (кого, чего…)."
+    ],
+    "ru": [
+      "где — место; куда — направление; откуда — исходная точка.",
+      "почему — причина; зачем — цель.",
+      "какой / какая согласуются с родом и числом.",
+      "кто и что тоже склоняются (кого, чего…) — в теме падежей."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Meaning chart",
+        "ko": "의미 표",
+        "ja": "意味表",
+        "zh": "意义表",
+        "fr": "Tableau des sens",
+        "es": "Cuadro de sentidos",
+        "de": "Bedeutungstabelle",
+        "ru": "Таблица смыслов"
+      },
+      "note": {
+        "en": "· separates related forms (direction, gender, purpose).",
+        "ko": "· 는 관련 형태(방향·성·목적)를 이은 것입니다.",
+        "ja": "・は関連形（方向・性・目的）の区切りです。",
+        "zh": "· 连接相关形式（方向、性、目的）。",
+        "fr": "Le point médian sépare les formes liées.",
+        "es": "El punto medio separa formas relacionadas.",
+        "de": "Mittelpunkt trennt verwandte Formen.",
+        "ru": "Точка разделяет связанные формы."
+      },
+      "columns": [
+        {
+          "key": "type",
+          "labels": {
+            "en": "Ask about",
+            "ko": "묻는 것",
+            "ja": "尋ねる内容",
+            "zh": "询问内容",
+            "fr": "Demande",
+            "es": "Pregunta",
+            "de": "Fragt nach",
+            "ru": "О чём"
+          }
+        },
+        {
+          "key": "forms",
+          "labels": {
+            "en": "Forms",
+            "ko": "형태",
+            "ja": "形",
+            "zh": "形式",
+            "fr": "Formes",
+            "es": "Formas",
+            "de": "Formen",
+            "ru": "Формы"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": {
+            "en": "Who",
+            "ko": "누구",
+            "ja": "誰",
+            "zh": "谁",
+            "fr": "Qui",
+            "es": "Quién",
+            "de": "Wer",
+            "ru": "Кто"
+          },
+          "forms": "кто"
+        },
+        {
+          "type": {
+            "en": "What",
+            "ko": "무엇",
+            "ja": "何",
+            "zh": "什么",
+            "fr": "Quoi",
+            "es": "Qué",
+            "de": "Was",
+            "ru": "Что"
+          },
+          "forms": "что"
+        },
+        {
+          "type": {
+            "en": "Where",
+            "ko": "어디",
+            "ja": "どこ",
+            "zh": "哪里",
+            "fr": "Où",
+            "es": "Dónde",
+            "de": "Wo",
+            "ru": "Где"
+          },
+          "forms": "где · куда · откуда"
+        },
+        {
+          "type": {
+            "en": "When",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "何时",
+            "fr": "Quand",
+            "es": "Cuándo",
+            "de": "Wann",
+            "ru": "Когда"
+          },
+          "forms": "когда"
+        },
+        {
+          "type": {
+            "en": "Why",
+            "ko": "왜",
+            "ja": "なぜ",
+            "zh": "为什么",
+            "fr": "Pourquoi",
+            "es": "Por qué",
+            "de": "Warum",
+            "ru": "Почему"
+          },
+          "forms": "почему · зачем"
+        },
+        {
+          "type": {
+            "en": "How",
+            "ko": "어떻게",
+            "ja": "どう",
+            "zh": "怎么",
+            "fr": "Comment",
+            "es": "Cómo",
+            "de": "Wie",
+            "ru": "Как"
+          },
+          "forms": "как"
+        },
+        {
+          "type": {
+            "en": "How much / many",
+            "ko": "얼마·몇",
+            "ja": "いくら・いくつ",
+            "zh": "多少",
+            "fr": "Combien",
+            "es": "Cuánto",
+            "de": "Wie viel",
+            "ru": "Сколько"
+          },
+          "forms": "сколько"
+        },
+        {
+          "type": {
+            "en": "Which / what kind",
+            "ko": "어느·무슨·어떤",
+            "ja": "どれ・どの・どんな",
+            "zh": "哪个 / 什么样",
+            "fr": "Lequel / quel",
+            "es": "Cuál / qué tipo",
+            "de": "Welch- / was für",
+            "ru": "Какой"
+          },
+          "forms": "какой · какая"
+        },
+        {
+          "type": {
+            "en": "Whose",
+            "ko": "누구의",
+            "ja": "誰の",
+            "zh": "谁的",
+            "fr": "À qui",
+            "es": "De quién",
+            "de": "Wessen",
+            "ru": "Чей"
+          },
+          "forms": "чей"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Forms & sounds",
+        "ko": "형태와 발음",
+        "ja": "語形と読み",
+        "zh": "词形与读音",
+        "fr": "Formes et sons",
+        "es": "Formas y sonidos",
+        "de": "Formen & Laute",
+        "ru": "Формы и звучание"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Russian",
+            "ko": "러시아어",
+            "ja": "ロシア語",
+            "zh": "俄语",
+            "fr": "Russe",
+            "es": "Ruso",
+            "de": "Russisch",
+            "ru": "Русский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "кто",
+          "meaning": {
+            "en": "who",
+            "ko": "누구",
+            "ja": "誰",
+            "zh": "谁",
+            "fr": "qui",
+            "es": "quién",
+            "de": "wer",
+            "ru": "кто"
+          },
+          "sound": {
+            "en": "kto",
+            "ko": "크토",
+            "ja": "クト",
+            "zh": "kto",
+            "fr": "kto",
+            "es": "kto",
+            "de": "kto",
+            "ru": "кто"
+          }
+        },
+        {
+          "form": "что",
+          "meaning": {
+            "en": "what",
+            "ko": "무엇 / 뭐",
+            "ja": "何",
+            "zh": "什么",
+            "fr": "quoi / que",
+            "es": "qué",
+            "de": "was",
+            "ru": "что"
+          },
+          "sound": {
+            "en": "chto",
+            "ko": "쉬토",
+            "ja": "シト",
+            "zh": "chto",
+            "fr": "chto",
+            "es": "chto",
+            "de": "chto",
+            "ru": "что"
+          }
+        },
+        {
+          "form": "где",
+          "meaning": {
+            "en": "where (location)",
+            "ko": "어디 (장소)",
+            "ja": "どこ（場所）",
+            "zh": "哪里（地点）",
+            "fr": "où (lieu)",
+            "es": "dónde (lugar)",
+            "de": "wo (Ort)",
+            "ru": "где"
+          },
+          "sound": {
+            "en": "gde",
+            "ko": "그제",
+            "ja": "グジェ",
+            "zh": "gde",
+            "fr": "gde",
+            "es": "gde",
+            "de": "gde",
+            "ru": "где"
+          }
+        },
+        {
+          "form": "куда",
+          "meaning": {
+            "en": "where to / whither",
+            "ko": "어디로 (방향)",
+            "ja": "どこへ（方向）",
+            "zh": "去哪里（方向）",
+            "fr": "où (direction)",
+            "es": "adónde",
+            "de": "wohin",
+            "ru": "куда"
+          },
+          "sound": {
+            "en": "ku-da",
+            "ko": "쿠다",
+            "ja": "クダー",
+            "zh": "ku-da",
+            "fr": "ku-da",
+            "es": "ku-da",
+            "de": "ku-da",
+            "ru": "куда"
+          }
+        },
+        {
+          "form": "откуда",
+          "meaning": {
+            "en": "where from",
+            "ko": "어디에서 (출발)",
+            "ja": "どこから",
+            "zh": "从哪里",
+            "fr": "d’où",
+            "es": "de dónde",
+            "de": "woher",
+            "ru": "откуда"
+          },
+          "sound": {
+            "en": "ot-ku-da",
+            "ko": "아트쿠다",
+            "ja": "アトクダー",
+            "zh": "ot-ku-da",
+            "fr": "ot-ku-da",
+            "es": "ot-ku-da",
+            "de": "ot-ku-da",
+            "ru": "откуда"
+          }
+        },
+        {
+          "form": "когда",
+          "meaning": {
+            "en": "when",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "什么时候",
+            "fr": "quand",
+            "es": "cuándo",
+            "de": "wann",
+            "ru": "когда"
+          },
+          "sound": {
+            "en": "kog-da",
+            "ko": "칵다",
+            "ja": "カグダー",
+            "zh": "kog-da",
+            "fr": "kog-da",
+            "es": "kog-da",
+            "de": "kog-da",
+            "ru": "когда"
+          }
+        },
+        {
+          "form": "почему",
+          "meaning": {
+            "en": "why (reason)",
+            "ko": "왜 (이유)",
+            "ja": "なぜ（理由）",
+            "zh": "为什么（原因）",
+            "fr": "pourquoi (raison)",
+            "es": "por qué (razón)",
+            "de": "warum (Grund)",
+            "ru": "почему"
+          },
+          "sound": {
+            "en": "po-che-mu",
+            "ko": "파치무",
+            "ja": "パチムー",
+            "zh": "po-che-mu",
+            "fr": "po-che-mu",
+            "es": "po-che-mu",
+            "de": "po-che-mu",
+            "ru": "почему"
+          }
+        },
+        {
+          "form": "зачем",
+          "meaning": {
+            "en": "why / what for (purpose)",
+            "ko": "왜 / 무엇 하러 (목적)",
+            "ja": "何のために（目的）",
+            "zh": "为什么 / 为了什么（目的）",
+            "fr": "pourquoi (but)",
+            "es": "para qué",
+            "de": "wozu (Zweck)",
+            "ru": "зачем"
+          },
+          "sound": {
+            "en": "za-chem",
+            "ko": "자쳄",
+            "ja": "ザーチェム",
+            "zh": "za-chem",
+            "fr": "za-chem",
+            "es": "za-chem",
+            "de": "za-chem",
+            "ru": "зачем"
+          }
+        },
+        {
+          "form": "как",
+          "meaning": {
+            "en": "how",
+            "ko": "어떻게",
+            "ja": "どう",
+            "zh": "怎么",
+            "fr": "comment",
+            "es": "cómo",
+            "de": "wie",
+            "ru": "как"
+          },
+          "sound": {
+            "en": "kak",
+            "ko": "칵",
+            "ja": "カーク",
+            "zh": "kak",
+            "fr": "kak",
+            "es": "kak",
+            "de": "kak",
+            "ru": "как"
+          }
+        },
+        {
+          "form": "сколько",
+          "meaning": {
+            "en": "how much / how many",
+            "ko": "얼마 / 몇",
+            "ja": "いくら / いくつ",
+            "zh": "多少",
+            "fr": "combien",
+            "es": "cuánto",
+            "de": "wie viel",
+            "ru": "сколько"
+          },
+          "sound": {
+            "en": "skolʹ-ko",
+            "ko": "스콜카",
+            "ja": "スコーリカ",
+            "zh": "skolʹ-ko",
+            "fr": "skolʹ-ko",
+            "es": "skolʹ-ko",
+            "de": "skolʹ-ko",
+            "ru": "сколько"
+          }
+        },
+        {
+          "form": "какой",
+          "meaning": {
+            "en": "which / what kind (masculine)",
+            "ko": "어떤 / 무슨 (남성)",
+            "ja": "どんな / どの（男性）",
+            "zh": "哪个 / 什么样的（阳性）",
+            "fr": "quel (masculin)",
+            "es": "qué / cuál (masculino)",
+            "de": "welch- (maskulin)",
+            "ru": "какой"
+          },
+          "sound": {
+            "en": "ka-koy",
+            "ko": "카코이",
+            "ja": "カコーイ",
+            "zh": "ka-koy",
+            "fr": "ka-koy",
+            "es": "ka-koy",
+            "de": "ka-koy",
+            "ru": "какой"
+          }
+        },
+        {
+          "form": "какая",
+          "meaning": {
+            "en": "which / what kind (feminine)",
+            "ko": "어떤 / 무슨 (여성)",
+            "ja": "どんな / どの（女性）",
+            "zh": "哪个 / 什么样的（阴性）",
+            "fr": "quelle (féminin)",
+            "es": "qué / cuál (femenino)",
+            "de": "welch- (feminin)",
+            "ru": "какая"
+          },
+          "sound": {
+            "en": "ka-ka-ya",
+            "ko": "카카야",
+            "ja": "カカーヤ",
+            "zh": "ka-ka-ya",
+            "fr": "ka-ka-ya",
+            "es": "ka-ka-ya",
+            "de": "ka-ka-ya",
+            "ru": "какая"
+          }
+        },
+        {
+          "form": "чей",
+          "meaning": {
+            "en": "whose (masculine)",
+            "ko": "누구의 (남성)",
+            "ja": "誰の（男性）",
+            "zh": "谁的（阳性）",
+            "fr": "à qui (masculin)",
+            "es": "de quién (masculino)",
+            "de": "wessen (maskulin)",
+            "ru": "чей"
+          },
+          "sound": {
+            "en": "chey",
+            "ko": "체이",
+            "ja": "チェーイ",
+            "zh": "chey",
+            "fr": "chey",
+            "es": "chey",
+            "de": "chey",
+            "ru": "чей"
+          }
+        }
+      ]
+    }
+  ]
+}

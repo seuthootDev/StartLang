@@ -47,6 +47,25 @@ import jaDemonstrativesTable from './ja/demonstratives.table.json'
 import jaDatesTable from './ja/dates.table.json'
 import type { JlptLevel, VocabManifest, VocabQuizEntry } from '../config/vocabQuiz'
 
+import ruAlphabet from './ru/alphabet.json'
+import ruPronouns from './ru/pronouns.json'
+import ruNumbers from './ru/numbers.json'
+import ruTime from './ru/time.json'
+import ruWeekdays from './ru/weekdays.json'
+import ruMonths from './ru/months.json'
+import ruDates from './ru/dates.json'
+import ruQuestions from './ru/questions.json'
+import ruDemonstratives from './ru/demonstratives.json'
+import ruAlphabetTable from './ru/alphabet.table.json'
+import ruPronounsTable from './ru/pronouns.table.json'
+import ruNumbersTable from './ru/numbers.table.json'
+import ruTimeTable from './ru/time.table.json'
+import ruWeekdaysTable from './ru/weekdays.table.json'
+import ruMonthsTable from './ru/months.table.json'
+import ruDatesTable from './ru/dates.table.json'
+import ruQuestionsTable from './ru/questions.table.json'
+import ruDemonstrativesTable from './ru/demonstratives.table.json'
+
 type CategoryBundles = Partial<Record<CategoryId, MeaningQuizEntry[]>>
 type TableBundles = Partial<Record<CategoryId, RefTable>>
 
@@ -59,7 +78,7 @@ function mergeEntries(...groups: MeaningQuizEntry[][]): MeaningQuizEntry[] {
 function mergeTables(
   tableId: string,
   title: RefTable['title'],
-  formLabels: RefTable['columns'][number]['labels'],
+  formLabels: NonNullable<RefTable['columns']>[number]['labels'],
   tables: Array<{ section: RefTable['title']; table: RefTable }>,
 ): RefTable {
   return {
@@ -118,7 +137,7 @@ function mergeTables(
       },
     ],
     rows: tables.flatMap(({ section, table }) =>
-      table.rows.map((row) => ({
+      (table.rows ?? []).map((row) => ({
         section,
         form: row.form,
         meaning: row.meaning,
@@ -155,6 +174,17 @@ const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
     questions: jaQuestions as MeaningQuizEntry[],
     demonstratives: jaDemonstratives as MeaningQuizEntry[],
     dates: jaDates as MeaningQuizEntry[],
+  },
+  ru: {
+    alphabet: ruAlphabet as MeaningQuizEntry[],
+    pronouns: ruPronouns as MeaningQuizEntry[],
+    numbers: ruNumbers as MeaningQuizEntry[],
+    time: ruTime as MeaningQuizEntry[],
+    weekdays: ruWeekdays as MeaningQuizEntry[],
+    months: ruMonths as MeaningQuizEntry[],
+    dates: ruDates as MeaningQuizEntry[],
+    questions: ruQuestions as MeaningQuizEntry[],
+    demonstratives: ruDemonstratives as MeaningQuizEntry[],
   },
 }
 
@@ -220,6 +250,17 @@ const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
     demonstratives: jaDemonstrativesTable as RefTable,
     dates: jaDatesTable as RefTable,
   },
+  ru: {
+    alphabet: ruAlphabetTable as RefTable,
+    pronouns: ruPronounsTable as RefTable,
+    numbers: ruNumbersTable as RefTable,
+    time: ruTimeTable as RefTable,
+    weekdays: ruWeekdaysTable as RefTable,
+    months: ruMonthsTable as RefTable,
+    dates: ruDatesTable as RefTable,
+    questions: ruQuestionsTable as RefTable,
+    demonstratives: ruDemonstrativesTable as RefTable,
+  },
 }
 
 export function getMeaningQuizzes(
@@ -262,7 +303,7 @@ export function getRefTable(
       return tables?.time ?? null
     }
 
-    const formLabels = tables.time.columns[0]?.labels ?? { en: 'Form' }
+    const formLabels = tables.time.columns?.[0]?.labels ?? { en: 'Form' }
     const title = {
       en: 'Time & calendar basics',
       ko: '시간과 달력 기초',

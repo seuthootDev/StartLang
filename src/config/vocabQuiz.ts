@@ -141,7 +141,7 @@ export function filterVocabTableByDay(
   const dayText = String(day)
   return {
     ...table,
-    rows: table.rows.filter((row) => {
+    rows: (table.rows ?? []).filter((row) => {
       const d = row.day
       const text =
         typeof d === 'string'

@@ -260,6 +260,85 @@ function toJaKanaHint(ones: number): string {
   return map[ones]
 }
 
+/** Nominative masculine forms used for compounds (один / два). */
+const RU_ONES = [
+  '',
+  'один',
+  'два',
+  'три',
+  'четыре',
+  'пять',
+  'шесть',
+  'семь',
+  'восемь',
+  'девять',
+] as const
+const RU_ONES_EN = [
+  '',
+  'o-din',
+  'dva',
+  'tri',
+  'che-ty-re',
+  'pyatʹ',
+  'shestʹ',
+  'semʹ',
+  'vo-semʹ',
+  'de-vyatʹ',
+] as const
+const RU_ONES_KO = [
+  '',
+  '아딘',
+  '드바',
+  '트리',
+  '치티레',
+  '퍄찌',
+  '셰스찌',
+  '셈',
+  '바셈',
+  '제뱌찌',
+] as const
+const RU_ONES_JA = [
+  '',
+  'アヂン',
+  'ドヴァ',
+  'トリ',
+  'チティレ',
+  'ピャチ',
+  'シェスチ',
+  'セミ',
+  'ヴォセミ',
+  'ヂェヴャチ',
+] as const
+const RU_TENS: Record<number, { form: string; en: string; ko: string; ja: string }> = {
+  20: { form: 'двадцать', en: 'dva-tsatʹ', ko: '드바찻', ja: 'ドヴァーツァチ' },
+  30: { form: 'тридцать', en: 'tri-tsatʹ', ko: '트리찻', ja: 'トリーツァチ' },
+  40: { form: 'сорок', en: 'so-rok', ko: '소록', ja: 'ソーラク' },
+  50: { form: 'пятьдесят', en: 'pyatʹ-de-syat', ko: '퍄찌젯샷', ja: 'ピャチヂェシャト' },
+  60: { form: 'шестьдесят', en: 'shestʹ-de-syat', ko: '셰스찌젯샷', ja: 'シェスチヂェシャト' },
+  70: { form: 'семьдесят', en: 'semʹ-de-syat', ko: '셈젯샷', ja: 'セミヂェシャト' },
+  80: { form: 'восемьдесят', en: 'vo-semʹ-de-syat', ko: '바셈젯샷', ja: 'ヴォセミヂェシャト' },
+  90: { form: 'девяносто', en: 'de-vya-no-sto', ko: '제뱌노스토', ja: 'ヂェヴャノースト' },
+}
+
+const RU_COMBO_COUNT = 8
+
+function ruCompoundWord(n: number): string {
+  const tens = Math.floor(n / 10) * 10
+  const ones = n % 10
+  return `${RU_TENS[tens].form} ${RU_ONES[ones]}`
+}
+
+function ruCompoundReading(n: number): { en: string; ko: string; ja: string } {
+  const tens = Math.floor(n / 10) * 10
+  const ones = n % 10
+  const t = RU_TENS[tens]
+  return {
+    en: `${t.en} ${RU_ONES_EN[ones]}`,
+    ko: `${t.ko} ${RU_ONES_KO[ones]}`,
+    ja: `${t.ja} ${RU_ONES_JA[ones]}`,
+  }
+}
+
 function makeEntry(
   quizId: string,
   word: string,
@@ -283,7 +362,7 @@ function makeEntry(
   }
 }
 
-/** Random compound numbers (11–99) built from the language’s number system. */
+/** Random compound numbers built from the language’s number system. */
 export function generateNumberComboEntries(
   targetLang: TargetLangCode,
   system: NumberSystemId,
@@ -291,6 +370,28 @@ export function generateNumberComboEntries(
 ): MeaningQuizEntry[] {
   // Japanese native counters (ひとつ…) do not compose past 10.
   if (targetLang === 'ja' && system === 'native') return []
+
+  if (targetLang === 'ru') {
+    // Teens + round tens are in the base list; practice spaced 21–99 compounds.
+    const comboCount = count === COMBO_COUNT ? RU_COMBO_COUNT : count
+    const candidates = pickDistinct(21, 99, comboCount * 4, new Set()).filter(
+      (n) => n % 10 !== 0,
+    )
+    const chosen = candidates.slice(0, comboCount)
+    while (chosen.length < comboCount) {
+      const n = 21 + Math.floor(Math.random() * 79)
+      if (n % 10 === 0 || chosen.includes(n)) continue
+      chosen.push(n)
+    }
+    return chosen.map((n) =>
+      makeEntry(
+        `ru_numbers_combo_${n}`,
+        ruCompoundWord(n),
+        n,
+        ruCompoundReading(n),
+      ),
+    )
+  }
 
   const exclude = new Set<number>()
   // Prefer non-round teens/compounds for practice.

@@ -11,286 +11,407 @@
     "ru": "Личные местоимения"
   },
   "note": {
-    "en": "Japanese has several I and you forms by gender and casualness.",
-    "ko": "일본어 나/너는 성별·친소에 따라 私·僕·俺·君 등으로 갈립니다.",
-    "ja": "「私・僕・俺」「あなた・君」など、性別や砕け方で形が分かれます。",
-    "zh": "日语的“我/你”常因性别和随意程度而不同。",
-    "fr": "Le japonais a plusieurs formes de je et tu.",
-    "es": "El japonés tiene varias formas de yo y tú.",
-    "de": "Japanisch hat mehrere Ich-/Du-Formen.",
-    "ru": "В японском несколько форм я и ты."
+    "en": "Japanese has several I and you forms by gender and casualness. Learn the person chart first.",
+    "ko": "일본어 나/너는 성별·친소에 따라 私·僕·俺·君 등으로 갈립니다. 먼저 인칭 표를 외우세요.",
+    "ja": "「私・僕・俺」「あなた・君」など、性別や砕け方で形が分かれます。先に人称表を覚えましょう。",
+    "zh": "日语的“我/你”常因性别和随意程度而不同。先记人称表。",
+    "fr": "Plusieurs formes de je et tu selon le genre et le registre. Apprenez d’abord le tableau.",
+    "es": "Varias formas de yo y tú según género y registro. Primero el cuadro de persona.",
+    "de": "Mehrere Ich-/Du-Formen nach Geschlecht und Register. Zuerst die Personentabelle.",
+    "ru": "Несколько форм я и ты по полу и стилю. Сначала выучите таблицу лиц."
   },
-  "columns": [
+  "sections": [
     {
-      "key": "form",
-      "labels": {
-        "en": "Japanese",
-        "ko": "일본어",
-        "ja": "日本語",
-        "zh": "日语",
-        "fr": "Japonais",
-        "es": "Japonés",
-        "de": "Japanisch",
-        "ru": "Японский"
-      }
-    },
-    {
-      "key": "meaning",
-      "labels": {
-        "en": "Meaning",
-        "ko": "의미",
-        "ja": "意味",
-        "zh": "意思",
-        "fr": "Sens",
-        "es": "Significado",
-        "de": "Bedeutung",
-        "ru": "Значение"
-      }
-    },
-    {
-      "key": "sound",
-      "labels": {
-        "en": "Sound",
-        "ko": "발음",
-        "ja": "読み",
-        "zh": "发音",
-        "fr": "Prononciation",
-        "es": "Pronunciación",
-        "de": "Aussprache",
-        "ru": "Произношение"
-      }
-    }
-  ],
-  "rows": [
-    {
-      "form": "私",
-      "meaning": {
-        "en": "I / me (polite / neutral)",
-        "zh": "我（礼貌/中性）",
-        "fr": "je / moi (poli / neutre)",
-        "es": "yo (cortés / neutro)",
-        "de": "ich (höflich / neutral)",
-        "ru": "я (вежл. / нейтр.)",
-        "ko": "저 / 나 (공손·중립)",
-        "ja": "私"
+      "title": {
+        "en": "Person chart",
+        "ko": "인칭 표",
+        "ja": "人称表",
+        "zh": "人称表",
+        "fr": "Tableau des personnes",
+        "es": "Cuadro de persona",
+        "de": "Personentabelle",
+        "ru": "Таблица лиц"
       },
-      "sound": {
-        "en": "watashi",
-        "ko": "와타시",
-        "zh": "watashi",
-        "fr": "watashi",
-        "es": "watashi",
-        "de": "watashi",
-        "ru": "ватаси",
-        "ja": "わたし"
-      }
+      "note": {
+        "en": "Slash = common variants (politeness / masculine).",
+        "ko": "· 로 이은 것은 공손도·남성 어투 등 변이형입니다.",
+        "ja": "・でつないだものは丁寧さ・男性語などの変異形です。",
+        "zh": "用 · 连接的是礼貌或男性用语等变体。",
+        "fr": "Le point médian sépare les variantes (politesse / masculin).",
+        "es": "El punto medio separa variantes (cortesía / masculino).",
+        "de": "Mittelpunkt trennt Varianten (Höflichkeit / männlich).",
+        "ru": "Точка разделяет варианты (вежливость / мужск.)."
+      },
+      "columns": [
+        {
+          "key": "person",
+          "labels": {
+            "en": "Person",
+            "ko": "인칭",
+            "ja": "人称",
+            "zh": "人称",
+            "fr": "Personne",
+            "es": "Persona",
+            "de": "Person",
+            "ru": "Лицо"
+          }
+        },
+        {
+          "key": "singular",
+          "labels": {
+            "en": "Singular",
+            "ko": "단수",
+            "ja": "単数",
+            "zh": "单数",
+            "fr": "Singulier",
+            "es": "Singular",
+            "de": "Singular",
+            "ru": "Ед. число"
+          }
+        },
+        {
+          "key": "plural",
+          "labels": {
+            "en": "Plural",
+            "ko": "복수",
+            "ja": "複数",
+            "zh": "复数",
+            "fr": "Pluriel",
+            "es": "Plural",
+            "de": "Plural",
+            "ru": "Мн. число"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "person": {
+            "en": "1st",
+            "ko": "1인칭",
+            "ja": "一人称",
+            "zh": "第一人称",
+            "fr": "1re",
+            "es": "1.ª",
+            "de": "1.",
+            "ru": "1-е"
+          },
+          "singular": "私 · 僕 · 俺",
+          "plural": "私たち"
+        },
+        {
+          "person": {
+            "en": "2nd",
+            "ko": "2인칭",
+            "ja": "二人称",
+            "zh": "第二人称",
+            "fr": "2e",
+            "es": "2.ª",
+            "de": "2.",
+            "ru": "2-е"
+          },
+          "singular": "あなた · 君",
+          "plural": "あなたたち"
+        },
+        {
+          "person": {
+            "en": "3rd",
+            "ko": "3인칭",
+            "ja": "三人称",
+            "zh": "第三人称",
+            "fr": "3e",
+            "es": "3.ª",
+            "de": "3.",
+            "ru": "3-е"
+          },
+          "singular": "彼 · 彼女",
+          "plural": "彼ら"
+        }
+      ]
     },
     {
-      "form": "僕",
-      "meaning": {
-        "en": "I / me (masculine)",
-        "zh": "我（男性用语）",
-        "fr": "je / moi (masculin)",
-        "es": "yo (masculino)",
-        "de": "ich (männlich)",
-        "ru": "я (мужск.)",
-        "ko": "나 (남성 어투)",
-        "ja": "僕"
+      "title": {
+        "en": "Forms & sounds",
+        "ko": "형태와 발음",
+        "ja": "語形と読み",
+        "zh": "词形与读音",
+        "fr": "Formes et sons",
+        "es": "Formas y sonidos",
+        "de": "Formen & Laute",
+        "ru": "Формы и звучание"
       },
-      "sound": {
-        "en": "boku",
-        "ko": "보쿠",
-        "zh": "boku",
-        "fr": "boku",
-        "es": "boku",
-        "de": "boku",
-        "ru": "боку",
-        "ja": "ぼく"
-      }
-    },
-    {
-      "form": "俺",
-      "meaning": {
-        "en": "I / me (casual masculine)",
-        "zh": "我（随便的男性用语）",
-        "fr": "je / moi (familier masculin)",
-        "es": "yo (informal masculino)",
-        "de": "ich (locker männlich)",
-        "ru": "я (неформ. мужск.)",
-        "ko": "나 (거친·친한 남성 어투)",
-        "ja": "俺"
-      },
-      "sound": {
-        "en": "ore",
-        "ko": "오레",
-        "zh": "ore",
-        "fr": "ore",
-        "es": "ore",
-        "de": "ore",
-        "ru": "орэ",
-        "ja": "おれ"
-      }
-    },
-    {
-      "form": "あなた",
-      "meaning": {
-        "en": "you",
-        "zh": "你",
-        "fr": "tu / vous",
-        "es": "tú / usted",
-        "de": "du / Sie",
-        "ru": "ты / вы",
-        "ko": "당신 / 너",
-        "ja": "あなた"
-      },
-      "sound": {
-        "en": "anata",
-        "ko": "아나타",
-        "zh": "anata",
-        "fr": "anata",
-        "es": "anata",
-        "de": "anata",
-        "ru": "аната",
-        "ja": "あなた"
-      }
-    },
-    {
-      "form": "君",
-      "meaning": {
-        "en": "you (casual)",
-        "zh": "你（随便）",
-        "fr": "tu (familier)",
-        "es": "tú (informal)",
-        "de": "du (locker)",
-        "ru": "ты (неформ.)",
-        "ko": "너 (친근)",
-        "ja": "君"
-      },
-      "sound": {
-        "en": "kimi",
-        "ko": "키미",
-        "zh": "kimi",
-        "fr": "kimi",
-        "es": "kimi",
-        "de": "kimi",
-        "ru": "кими",
-        "ja": "きみ"
-      }
-    },
-    {
-      "form": "彼",
-      "meaning": {
-        "en": "he / him",
-        "zh": "他",
-        "fr": "il / lui",
-        "es": "él",
-        "de": "er / ihn",
-        "ru": "он / его",
-        "ko": "그 / 그 남자",
-        "ja": "彼"
-      },
-      "sound": {
-        "en": "kare",
-        "ko": "카레",
-        "zh": "kare",
-        "fr": "kare",
-        "es": "kare",
-        "de": "kare",
-        "ru": "карэ",
-        "ja": "かれ"
-      }
-    },
-    {
-      "form": "彼女",
-      "meaning": {
-        "en": "she / her",
-        "zh": "她",
-        "fr": "elle",
-        "es": "ella",
-        "de": "sie / ihr",
-        "ru": "она / её",
-        "ko": "그녀",
-        "ja": "彼女"
-      },
-      "sound": {
-        "en": "kanojo",
-        "ko": "카노조",
-        "zh": "kanojo",
-        "fr": "kanojo",
-        "es": "kanojo",
-        "de": "kanojo",
-        "ru": "канодзё",
-        "ja": "かのじょ"
-      }
-    },
-    {
-      "form": "私たち",
-      "meaning": {
-        "en": "we / us",
-        "zh": "我们",
-        "fr": "nous",
-        "es": "nosotros",
-        "de": "wir / uns",
-        "ru": "мы / нас",
-        "ko": "우리",
-        "ja": "私たち"
-      },
-      "sound": {
-        "en": "watashi-tachi",
-        "ko": "와타시타치",
-        "zh": "watashi-tachi",
-        "fr": "watashi-tachi",
-        "es": "watashi-tachi",
-        "de": "watashi-tachi",
-        "ru": "ватаси-тати",
-        "ja": "わたしたち"
-      }
-    },
-    {
-      "form": "あなたたち",
-      "meaning": {
-        "en": "you (plural)",
-        "zh": "你们",
-        "fr": "vous (pluriel)",
-        "es": "ustedes",
-        "de": "ihr / Sie (Plural)",
-        "ru": "вы (мн.)",
-        "ko": "너희 / 여러분",
-        "ja": "あなたたち"
-      },
-      "sound": {
-        "en": "anata-tachi",
-        "ko": "아나타타치",
-        "zh": "anata-tachi",
-        "fr": "anata-tachi",
-        "es": "anata-tachi",
-        "de": "anata-tachi",
-        "ru": "аната-тати",
-        "ja": "あなたたち"
-      }
-    },
-    {
-      "form": "彼ら",
-      "meaning": {
-        "en": "they / them",
-        "zh": "他们",
-        "fr": "ils / eux",
-        "es": "ellos",
-        "de": "sie (Plural)",
-        "ru": "они / их",
-        "ko": "그들",
-        "ja": "彼ら"
-      },
-      "sound": {
-        "en": "karera",
-        "ko": "카레라",
-        "zh": "karera",
-        "fr": "karera",
-        "es": "karera",
-        "de": "karera",
-        "ru": "карэра",
-        "ja": "かれら"
-      }
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Japanese",
+            "ko": "일본어",
+            "ja": "日本語",
+            "zh": "日语",
+            "fr": "Japonais",
+            "es": "Japonés",
+            "de": "Japanisch",
+            "ru": "Японский"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "私",
+          "meaning": {
+            "en": "I / me (polite / neutral)",
+            "zh": "我（礼貌/中性）",
+            "fr": "je / moi (poli / neutre)",
+            "es": "yo (cortés / neutro)",
+            "de": "ich (höflich / neutral)",
+            "ru": "я (вежл. / нейтр.)",
+            "ko": "저 / 나 (공손·중립)",
+            "ja": "私"
+          },
+          "sound": {
+            "en": "watashi",
+            "ko": "와타시",
+            "zh": "watashi",
+            "fr": "watashi",
+            "es": "watashi",
+            "de": "watashi",
+            "ru": "ватаси",
+            "ja": "わたし"
+          }
+        },
+        {
+          "form": "僕",
+          "meaning": {
+            "en": "I / me (masculine)",
+            "zh": "我（男性用语）",
+            "fr": "je / moi (masculin)",
+            "es": "yo (masculino)",
+            "de": "ich (männlich)",
+            "ru": "я (мужск.)",
+            "ko": "나 (남성 어투)",
+            "ja": "僕"
+          },
+          "sound": {
+            "en": "boku",
+            "ko": "보쿠",
+            "zh": "boku",
+            "fr": "boku",
+            "es": "boku",
+            "de": "boku",
+            "ru": "боку",
+            "ja": "ぼく"
+          }
+        },
+        {
+          "form": "俺",
+          "meaning": {
+            "en": "I / me (casual masculine)",
+            "zh": "我（随便的男性用语）",
+            "fr": "je / moi (familier masculin)",
+            "es": "yo (informal masculino)",
+            "de": "ich (locker männlich)",
+            "ru": "я (неформ. мужск.)",
+            "ko": "나 (거친·친한 남성 어투)",
+            "ja": "俺"
+          },
+          "sound": {
+            "en": "ore",
+            "ko": "오레",
+            "zh": "ore",
+            "fr": "ore",
+            "es": "ore",
+            "de": "ore",
+            "ru": "орэ",
+            "ja": "おれ"
+          }
+        },
+        {
+          "form": "あなた",
+          "meaning": {
+            "en": "you",
+            "zh": "你",
+            "fr": "tu / vous",
+            "es": "tú / usted",
+            "de": "du / Sie",
+            "ru": "ты / вы",
+            "ko": "당신 / 너",
+            "ja": "あなた"
+          },
+          "sound": {
+            "en": "anata",
+            "ko": "아나타",
+            "zh": "anata",
+            "fr": "anata",
+            "es": "anata",
+            "de": "anata",
+            "ru": "аната",
+            "ja": "あなた"
+          }
+        },
+        {
+          "form": "君",
+          "meaning": {
+            "en": "you (casual)",
+            "zh": "你（随便）",
+            "fr": "tu (familier)",
+            "es": "tú (informal)",
+            "de": "du (locker)",
+            "ru": "ты (неформ.)",
+            "ko": "너 (친근)",
+            "ja": "君"
+          },
+          "sound": {
+            "en": "kimi",
+            "ko": "키미",
+            "zh": "kimi",
+            "fr": "kimi",
+            "es": "kimi",
+            "de": "kimi",
+            "ru": "кими",
+            "ja": "きみ"
+          }
+        },
+        {
+          "form": "彼",
+          "meaning": {
+            "en": "he / him",
+            "zh": "他",
+            "fr": "il / lui",
+            "es": "él",
+            "de": "er / ihn",
+            "ru": "он / его",
+            "ko": "그 / 그 남자",
+            "ja": "彼"
+          },
+          "sound": {
+            "en": "kare",
+            "ko": "카레",
+            "zh": "kare",
+            "fr": "kare",
+            "es": "kare",
+            "de": "kare",
+            "ru": "карэ",
+            "ja": "かれ"
+          }
+        },
+        {
+          "form": "彼女",
+          "meaning": {
+            "en": "she / her",
+            "zh": "她",
+            "fr": "elle",
+            "es": "ella",
+            "de": "sie / ihr",
+            "ru": "она / её",
+            "ko": "그녀",
+            "ja": "彼女"
+          },
+          "sound": {
+            "en": "kanojo",
+            "ko": "카노조",
+            "zh": "kanojo",
+            "fr": "kanojo",
+            "es": "kanojo",
+            "de": "kanojo",
+            "ru": "канодзё",
+            "ja": "かのじょ"
+          }
+        },
+        {
+          "form": "私たち",
+          "meaning": {
+            "en": "we / us",
+            "zh": "我们",
+            "fr": "nous",
+            "es": "nosotros",
+            "de": "wir / uns",
+            "ru": "мы / нас",
+            "ko": "우리",
+            "ja": "私たち"
+          },
+          "sound": {
+            "en": "watashi-tachi",
+            "ko": "와타시타치",
+            "zh": "watashi-tachi",
+            "fr": "watashi-tachi",
+            "es": "watashi-tachi",
+            "de": "watashi-tachi",
+            "ru": "ватаси-тати",
+            "ja": "わたしたち"
+          }
+        },
+        {
+          "form": "あなたたち",
+          "meaning": {
+            "en": "you (plural)",
+            "zh": "你们",
+            "fr": "vous (pluriel)",
+            "es": "ustedes",
+            "de": "ihr / Sie (Plural)",
+            "ru": "вы (мн.)",
+            "ko": "너희 / 여러분",
+            "ja": "あなたたち"
+          },
+          "sound": {
+            "en": "anata-tachi",
+            "ko": "아나타타치",
+            "zh": "anata-tachi",
+            "fr": "anata-tachi",
+            "es": "anata-tachi",
+            "de": "anata-tachi",
+            "ru": "аната-тати",
+            "ja": "あなたたち"
+          }
+        },
+        {
+          "form": "彼ら",
+          "meaning": {
+            "en": "they / them",
+            "zh": "他们",
+            "fr": "ils / eux",
+            "es": "ellos",
+            "de": "sie (Plural)",
+            "ru": "они / их",
+            "ko": "그들",
+            "ja": "彼ら"
+          },
+          "sound": {
+            "en": "karera",
+            "ko": "카레라",
+            "zh": "karera",
+            "fr": "karera",
+            "es": "karera",
+            "de": "karera",
+            "ru": "карэра",
+            "ja": "かれら"
+          }
+        }
+      ]
     }
   ]
 }

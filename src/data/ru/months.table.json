@@ -1,0 +1,342 @@
+{
+  "table_id": "ru_months_ref",
+  "title": {
+    "en": "Months (nominative)",
+    "ko": "월 이름 (주격)",
+    "ja": "月名（主格）",
+    "zh": "月份（主格）",
+    "fr": "Mois (nominatif)",
+    "es": "Meses (nominativo)",
+    "de": "Monate (Nominativ)",
+    "ru": "Месяцы (именительный)"
+  },
+  "note": {
+    "en": "Use nominative when naming the month alone. In dates you need the genitive (see Dates).",
+    "ko": "월 이름만 말할 때는 주격. 날짜에서는 생격이 필요합니다(날짜 단원).",
+    "ja": "月名だけのときは主格。日付では生格（「日付」カテゴリ）。",
+    "zh": "单独说月份用主格；写日期要用生格（见“日期”）。",
+    "fr": "Nominatif pour le nom seul ; génitif dans les dates.",
+    "es": "Nominativo solo; genitivo en fechas.",
+    "de": "Nominativ allein; Genitiv in Daten.",
+    "ru": "Именительный — название месяца; в датах — родительный."
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Russian",
+        "ko": "러시아어",
+        "ja": "ロシア語",
+        "zh": "俄语",
+        "fr": "Russe",
+        "es": "Ruso",
+        "de": "Russisch",
+        "ru": "Русский"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "январь",
+      "meaning": {
+        "en": "January",
+        "ko": "1월",
+        "ja": "一月",
+        "zh": "一月",
+        "fr": "janvier",
+        "es": "enero",
+        "de": "Januar",
+        "ru": "январь"
+      },
+      "sound": {
+        "en": "yan-varʹ",
+        "ko": "얀바리",
+        "ja": "ヤンヴァーリ",
+        "zh": "yan-varʹ",
+        "fr": "yan-varʹ",
+        "es": "yan-varʹ",
+        "de": "yan-varʹ",
+        "ru": "январь"
+      }
+    },
+    {
+      "form": "февраль",
+      "meaning": {
+        "en": "February",
+        "ko": "2월",
+        "ja": "二月",
+        "zh": "二月",
+        "fr": "février",
+        "es": "febrero",
+        "de": "Februar",
+        "ru": "февраль"
+      },
+      "sound": {
+        "en": "fev-ralʹ",
+        "ko": "페브랄",
+        "ja": "フィヴラーリ",
+        "zh": "fev-ralʹ",
+        "fr": "fev-ralʹ",
+        "es": "fev-ralʹ",
+        "de": "fev-ralʹ",
+        "ru": "февраль"
+      }
+    },
+    {
+      "form": "март",
+      "meaning": {
+        "en": "March",
+        "ko": "3월",
+        "ja": "三月",
+        "zh": "三月",
+        "fr": "mars",
+        "es": "marzo",
+        "de": "März",
+        "ru": "март"
+      },
+      "sound": {
+        "en": "mart",
+        "ko": "마트",
+        "ja": "マルト",
+        "zh": "mart",
+        "fr": "mart",
+        "es": "mart",
+        "de": "mart",
+        "ru": "март"
+      }
+    },
+    {
+      "form": "апрель",
+      "meaning": {
+        "en": "April",
+        "ko": "4월",
+        "ja": "四月",
+        "zh": "四月",
+        "fr": "avril",
+        "es": "abril",
+        "de": "April",
+        "ru": "апрель"
+      },
+      "sound": {
+        "en": "a-prelʹ",
+        "ko": "아프레리",
+        "ja": "アプレーリ",
+        "zh": "a-prelʹ",
+        "fr": "a-prelʹ",
+        "es": "a-prelʹ",
+        "de": "a-prelʹ",
+        "ru": "апрель"
+      }
+    },
+    {
+      "form": "май",
+      "meaning": {
+        "en": "May",
+        "ko": "5월",
+        "ja": "五月",
+        "zh": "五月",
+        "fr": "mai",
+        "es": "mayo",
+        "de": "Mai",
+        "ru": "май"
+      },
+      "sound": {
+        "en": "may",
+        "ko": "마이",
+        "ja": "マイ",
+        "zh": "may",
+        "fr": "may",
+        "es": "may",
+        "de": "may",
+        "ru": "май"
+      }
+    },
+    {
+      "form": "июнь",
+      "meaning": {
+        "en": "June",
+        "ko": "6월",
+        "ja": "六月",
+        "zh": "六月",
+        "fr": "juin",
+        "es": "junio",
+        "de": "Juni",
+        "ru": "июнь"
+      },
+      "sound": {
+        "en": "i-yunʹ",
+        "ko": "이윤",
+        "ja": "イユーニ",
+        "zh": "i-yunʹ",
+        "fr": "i-yunʹ",
+        "es": "i-yunʹ",
+        "de": "i-yunʹ",
+        "ru": "июнь"
+      }
+    },
+    {
+      "form": "июль",
+      "meaning": {
+        "en": "July",
+        "ko": "7월",
+        "ja": "七月",
+        "zh": "七月",
+        "fr": "juillet",
+        "es": "julio",
+        "de": "Juli",
+        "ru": "июль"
+      },
+      "sound": {
+        "en": "i-yulʹ",
+        "ko": "이율",
+        "ja": "イユーリ",
+        "zh": "i-yulʹ",
+        "fr": "i-yulʹ",
+        "es": "i-yulʹ",
+        "de": "i-yulʹ",
+        "ru": "июль"
+      }
+    },
+    {
+      "form": "август",
+      "meaning": {
+        "en": "August",
+        "ko": "8월",
+        "ja": "八月",
+        "zh": "八月",
+        "fr": "août",
+        "es": "agosto",
+        "de": "August",
+        "ru": "август"
+      },
+      "sound": {
+        "en": "av-gust",
+        "ko": "아브구스트",
+        "ja": "アーヴグスト",
+        "zh": "av-gust",
+        "fr": "av-gust",
+        "es": "av-gust",
+        "de": "av-gust",
+        "ru": "август"
+      }
+    },
+    {
+      "form": "сентябрь",
+      "meaning": {
+        "en": "September",
+        "ko": "9월",
+        "ja": "九月",
+        "zh": "九月",
+        "fr": "septembre",
+        "es": "septiembre",
+        "de": "September",
+        "ru": "сентябрь"
+      },
+      "sound": {
+        "en": "sen-tyabrʹ",
+        "ko": "센탸브리",
+        "ja": "センチャーブリ",
+        "zh": "sen-tyabrʹ",
+        "fr": "sen-tyabrʹ",
+        "es": "sen-tyabrʹ",
+        "de": "sen-tyabrʹ",
+        "ru": "сентябрь"
+      }
+    },
+    {
+      "form": "октябрь",
+      "meaning": {
+        "en": "October",
+        "ko": "10월",
+        "ja": "十月",
+        "zh": "十月",
+        "fr": "octobre",
+        "es": "octubre",
+        "de": "Oktober",
+        "ru": "октябрь"
+      },
+      "sound": {
+        "en": "ok-tyabrʹ",
+        "ko": "옥탸브리",
+        "ja": "オクチャーブリ",
+        "zh": "ok-tyabrʹ",
+        "fr": "ok-tyabrʹ",
+        "es": "ok-tyabrʹ",
+        "de": "ok-tyabrʹ",
+        "ru": "октябрь"
+      }
+    },
+    {
+      "form": "ноябрь",
+      "meaning": {
+        "en": "November",
+        "ko": "11월",
+        "ja": "十一月",
+        "zh": "十一月",
+        "fr": "novembre",
+        "es": "noviembre",
+        "de": "November",
+        "ru": "ноябрь"
+      },
+      "sound": {
+        "en": "no-yabrʹ",
+        "ko": "나야브리",
+        "ja": "ナヤーブリ",
+        "zh": "no-yabrʹ",
+        "fr": "no-yabrʹ",
+        "es": "no-yabrʹ",
+        "de": "no-yabrʹ",
+        "ru": "ноябрь"
+      }
+    },
+    {
+      "form": "декабрь",
+      "meaning": {
+        "en": "December",
+        "ko": "12월",
+        "ja": "十二月",
+        "zh": "十二月",
+        "fr": "décembre",
+        "es": "diciembre",
+        "de": "Dezember",
+        "ru": "декабрь"
+      },
+      "sound": {
+        "en": "de-kabrʹ",
+        "ko": "디카브리",
+        "ja": "ヂィカブリー",
+        "zh": "de-kabrʹ",
+        "fr": "de-kabrʹ",
+        "es": "de-kabrʹ",
+        "de": "de-kabrʹ",
+        "ru": "декабрь"
+      }
+    }
+  ]
+}
