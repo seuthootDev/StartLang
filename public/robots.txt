@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://start-lang-liart.vercel.app/sitemap.xml

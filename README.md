@@ -6,6 +6,8 @@ English month names for many Asian learners. Irregular day readings in Japanese.
 
 **Drill the must-know basics until they stick.**
 
+**Live:** [https://start-lang-liart.vercel.app/](https://start-lang-liart.vercel.app/)
+
 ---
 
 ## Contents
@@ -16,8 +18,9 @@ English month names for many Asian learners. Irregular day readings in Japanese.
 4. [What you can practice now](#what-you-can-practice-now)
 5. [Where we want to go](#where-we-want-to-go)
 6. [Run locally](#run-locally)
-7. [Contributing](#contributing)
-8. [Updates](#updates)
+7. [Search / indexing](#search--indexing)
+8. [Contributing](#contributing)
+9. [Updates](#updates)
 
 ---
 
@@ -115,6 +118,23 @@ Stack: Vite + React + TypeScript.
 
 ---
 
+## Search / indexing
+
+Temporary production host (custom domain later):
+[https://start-lang-liart.vercel.app/](https://start-lang-liart.vercel.app/)
+
+Already in the repo for crawlers:
+
+- [`public/robots.txt`](public/robots.txt)
+- [`public/sitemap.xml`](public/sitemap.xml)
+- Open Graph + canonical tags in [`index.html`](index.html)
+
+**Next step for you:** [Google Search Console](https://search.google.com/search-console) → add URL prefix `https://start-lang-liart.vercel.app/` → verify → submit `https://start-lang-liart.vercel.app/sitemap.xml`.
+
+This is a client-rendered SPA, so rankings will be modest until pages are prerendered or a custom domain is locked in. Indexing the home and language hubs is still worth doing now.
+
+---
+
 ## Contributing
 
 Almost everything you practice is **JSON** in `src/data/{lang}/`.
@@ -130,6 +150,12 @@ Thank you for helping learners start stronger.
 ## Updates
 
 Newest first. Add a dated entry whenever something meaningful ships.
+
+### 2026-08-02 (SEO scaffold)
+
+- `robots.txt`, `sitemap.xml`, stronger meta/OG/canonical for the Vercel host.
+- SPA rewrite via `vercel.json`.
+- Russian learn-shell paper shifted to ivory to match the illustration.
 
 ### 2026-08-02
 
