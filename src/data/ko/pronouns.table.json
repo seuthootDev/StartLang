@@ -8,7 +8,8 @@
     "fr": "Pronoms personnels",
     "es": "Pronombres personales",
     "de": "Personalpronomen",
-    "ru": "Личные местоимения"
+    "ru": "Личные местоимения",
+    "it": "Personal pronouns"
   },
   "note": {
     "en": "Korean pronouns change a lot with politeness. Learn the person chart first, then the form list.",
@@ -18,7 +19,8 @@
     "fr": "Les pronoms coréens changent selon la politesse. Apprenez d’abord le tableau des personnes.",
     "es": "Los pronombres coreanos cambian con la cortesía. Primero el cuadro de persona.",
     "de": "Koreanische Pronomen hängen von Höflichkeit ab. Zuerst die Personentabelle lernen.",
-    "ru": "Корейские местоимения зависят от вежливости. Сначала выучите таблицу лиц."
+    "ru": "Корейские местоимения зависят от вежливости. Сначала выучите таблицу лиц.",
+    "it": "Korean pronouns change a lot with politeness. Learn the person chart first, then the form list."
   },
   "sections": [
     {
@@ -30,7 +32,8 @@
         "fr": "Tableau des personnes",
         "es": "Cuadro de persona",
         "de": "Personentabelle",
-        "ru": "Таблица лиц"
+        "ru": "Таблица лиц",
+        "it": "Person chart"
       },
       "note": {
         "en": "Slash = variants (casual / humble or formal).",
@@ -40,7 +43,8 @@
         "fr": "Le point médian sépare les variantes (familier / humble).",
         "es": "El punto medio separa variantes (informal / humilde).",
         "de": "Mittelpunkt trennt Varianten (locker / demütig).",
-        "ru": "Точка разделяет варианты (неформ. / скромно)."
+        "ru": "Точка разделяет варианты (неформ. / скромно).",
+        "it": "Slash = variants (casual / humble or formal)."
       },
       "columns": [
         {
@@ -53,7 +57,8 @@
             "fr": "Personne",
             "es": "Persona",
             "de": "Person",
-            "ru": "Лицо"
+            "ru": "Лицо",
+            "it": "Person"
           }
         },
         {
@@ -66,7 +71,8 @@
             "fr": "Singulier",
             "es": "Singular",
             "de": "Singular",
-            "ru": "Ед. число"
+            "ru": "Ед. число",
+            "it": "Singular"
           }
         },
         {
@@ -79,7 +85,8 @@
             "fr": "Pluriel",
             "es": "Plural",
             "de": "Plural",
-            "ru": "Мн. число"
+            "ru": "Мн. число",
+            "it": "Plural"
           }
         }
       ],
@@ -93,7 +100,8 @@
             "fr": "1re",
             "es": "1.ª",
             "de": "1.",
-            "ru": "1-е"
+            "ru": "1-е",
+            "it": "1st"
           },
           "singular": "나 · 저",
           "plural": "우리 · 저희"
@@ -107,7 +115,8 @@
             "fr": "2e",
             "es": "2.ª",
             "de": "2.",
-            "ru": "2-е"
+            "ru": "2-е",
+            "it": "2nd"
           },
           "singular": "너 · 당신",
           "plural": "여러분"
@@ -121,7 +130,8 @@
             "fr": "3e",
             "es": "3.ª",
             "de": "3.",
-            "ru": "3-е"
+            "ru": "3-е",
+            "it": "3rd"
           },
           "singular": "그 · 그녀",
           "plural": "그들"
@@ -137,7 +147,8 @@
         "fr": "Formes et sons",
         "es": "Formas y sonidos",
         "de": "Formen & Laute",
-        "ru": "Формы и звучание"
+        "ru": "Формы и звучание",
+        "it": "Forms & sounds"
       },
       "columns": [
         {
@@ -150,7 +161,8 @@
             "fr": "Coréen",
             "es": "Coreano",
             "de": "Koreanisch",
-            "ru": "Корейский"
+            "ru": "Корейский",
+            "it": "Korean"
           }
         },
         {
@@ -163,7 +175,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -176,7 +189,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -191,7 +205,8 @@
             "de": "ich (locker)",
             "ru": "я (неформ.)",
             "ko": "나",
-            "ja": "私（くだけた言い方）"
+            "ja": "私（くだけた言い方）",
+            "it": "I / me (casual)"
           },
           "sound": {
             "en": "na",
@@ -201,7 +216,8 @@
             "es": "na",
             "de": "na",
             "ru": "на",
-            "ko": "나"
+            "ko": "나",
+            "it": "na"
           }
         },
         {
@@ -214,7 +230,8 @@
             "de": "ich (demütig)",
             "ru": "я (скромно)",
             "ko": "저",
-            "ja": "私（謙譲）"
+            "ja": "私（謙譲）",
+            "it": "I / me (humble)"
           },
           "sound": {
             "en": "jeo",
@@ -224,7 +241,8 @@
             "es": "jeo",
             "de": "jeo",
             "ru": "чо",
-            "ko": "저"
+            "ko": "저",
+            "it": "jeo"
           }
         },
         {
@@ -237,7 +255,8 @@
             "de": "du (locker)",
             "ru": "ты (неформ.)",
             "ko": "너",
-            "ja": "お前・君（くだけた「あなた」）"
+            "ja": "お前・君（くだけた「あなた」）",
+            "it": "you (casual)"
           },
           "sound": {
             "en": "neo",
@@ -247,7 +266,8 @@
             "es": "neo",
             "de": "neo",
             "ru": "но",
-            "ko": "너"
+            "ko": "너",
+            "it": "neo"
           }
         },
         {
@@ -260,7 +280,8 @@
             "de": "Sie (förmlich / Schrift)",
             "ru": "вы (форм. / письм.)",
             "ko": "당신",
-            "ja": "あなた（改まった／書き言葉寄り）"
+            "ja": "あなた（改まった／書き言葉寄り）",
+            "it": "you (formal / written)"
           },
           "sound": {
             "en": "dang-sin",
@@ -270,7 +291,8 @@
             "es": "dang-sin",
             "de": "dang-sin",
             "ru": "тан-син",
-            "ko": "당신"
+            "ko": "당신",
+            "it": "dang-sin"
           }
         },
         {
@@ -283,7 +305,8 @@
             "de": "er / jene Person",
             "ru": "он / тот человек",
             "ko": "그",
-            "ja": "彼 / その人"
+            "ja": "彼 / その人",
+            "it": "he / that person"
           },
           "sound": {
             "en": "geu",
@@ -293,7 +316,8 @@
             "es": "geu",
             "de": "geu",
             "ru": "кы",
-            "ko": "그"
+            "ko": "그",
+            "it": "geu"
           }
         },
         {
@@ -306,7 +330,8 @@
             "de": "sie (Singular)",
             "ru": "она",
             "ko": "그녀",
-            "ja": "彼女"
+            "ja": "彼女",
+            "it": "she"
           },
           "sound": {
             "en": "geu-nyeo",
@@ -316,7 +341,8 @@
             "es": "geu-nyeo",
             "de": "geu-nyeo",
             "ru": "кы-нё",
-            "ko": "그녀"
+            "ko": "그녀",
+            "it": "geu-nyeo"
           }
         },
         {
@@ -329,7 +355,8 @@
             "de": "wir / uns",
             "ru": "мы / нас",
             "ko": "우리",
-            "ja": "私たち"
+            "ja": "私たち",
+            "it": "we / us"
           },
           "sound": {
             "en": "u-ri",
@@ -339,7 +366,8 @@
             "es": "u-ri",
             "de": "u-ri",
             "ru": "у-ри",
-            "ko": "우리"
+            "ko": "우리",
+            "it": "u-ri"
           }
         },
         {
@@ -352,7 +380,8 @@
             "de": "wir (demütig)",
             "ru": "мы (скромно)",
             "ko": "저희",
-            "ja": "私ども（謙譲）"
+            "ja": "私ども（謙譲）",
+            "it": "we / us (humble)"
           },
           "sound": {
             "en": "jeo-hui",
@@ -362,7 +391,8 @@
             "es": "jeo-hui",
             "de": "jeo-hui",
             "ru": "чо-хи",
-            "ko": "저희"
+            "ko": "저희",
+            "it": "jeo-hui"
           }
         },
         {
@@ -375,7 +405,8 @@
             "de": "Sie alle (höflich)",
             "ru": "вы (мн., вежл.)",
             "ko": "여러분",
-            "ja": "皆さん"
+            "ja": "皆さん",
+            "it": "you all (polite)"
           },
           "sound": {
             "en": "yeo-reo-bun",
@@ -385,7 +416,8 @@
             "es": "yeo-reo-bun",
             "de": "yeo-reo-bun",
             "ru": "ё-ро-бун",
-            "ko": "여러분"
+            "ko": "여러분",
+            "it": "yeo-reo-bun"
           }
         },
         {
@@ -398,7 +430,8 @@
             "de": "sie (Plural)",
             "ru": "они / их",
             "ko": "그들",
-            "ja": "彼ら"
+            "ja": "彼ら",
+            "it": "they / them"
           },
           "sound": {
             "en": "geu-deul",
@@ -408,7 +441,8 @@
             "es": "geu-deul",
             "de": "geu-deul",
             "ru": "кы-дыль",
-            "ko": "그들"
+            "ko": "그들",
+            "it": "geu-deul"
           }
         }
       ]

@@ -8,7 +8,8 @@
     "fr": "Dates (mois & jours)",
     "es": "Fechas (meses y días)",
     "de": "Daten (Monate & Tage)",
-    "ru": "Даты (месяцы и дни)"
+    "ru": "Даты (месяцы и дни)",
+    "it": "Dates (months & days)"
   },
   "note": {
     "en": "Quiz drills months (〜がつ) and days separately. ★ = irregular.",
@@ -18,7 +19,8 @@
     "fr": "Quiz: mois (〜がつ) et jours separes. ★ = irregulier.",
     "es": "Quiz: meses (〜がつ) y dias por separado. ★ = irregular.",
     "de": "Quiz: Monate (〜がつ) und Tage getrennt. ★ = unregelmassig.",
-    "ru": "Квиз: месяцы (〜がつ) и дни отдельно. ★ = нерегулярно."
+    "ru": "Квиз: месяцы (〜がつ) и дни отдельно. ★ = нерегулярно.",
+    "it": "Quiz drills months (〜がつ) and days separately. ★ = irregular."
   },
   "rules": {
     "en": [
@@ -68,6 +70,12 @@
       "Нерегулярные дни: 1–10日, плюс 14·20·24日.",
       "Остальные: число + にち. 20日 = хацука.",
       "Квиз разделяет месяцы и дни (без комбинаций)."
+    ],
+    "it": [
+      "Months use 〜がつ. Irregular: April しがつ, July しちがつ, September くがつ.",
+      "Day irregulars: 1–10日, plus 14日 (juu-yokka), 20日 (hatsuka), 24日 (nijuuyokka).",
+      "Other days are mostly number + にち (十五日 = juugo-nichi). Not にじゅうにち for the 20th.",
+      "Quiz asks month readings and day readings as separate cards (not combined)."
     ]
   },
   "columns": [
@@ -81,7 +89,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -94,7 +103,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -107,7 +117,8 @@
         "fr": "Lecture",
         "es": "Lectura",
         "de": "Lesung",
-        "ru": "Чтение"
+        "ru": "Чтение",
+        "it": "Reading"
       }
     }
   ],
@@ -122,7 +133,8 @@
         "fr": "ichi-gatsu (mois)",
         "es": "ichi-gatsu (mes)",
         "de": "ichi-gatsu (Monat)",
-        "ru": "ити-гацу (месяц)"
+        "ru": "ити-гацу (месяц)",
+        "it": "ichi-gatsu (month)"
       },
       "sound": {
         "en": "ichi-gatsu",
@@ -132,7 +144,8 @@
         "fr": "ichi-gatsu",
         "es": "ichi-gatsu",
         "de": "ichi-gatsu",
-        "ru": "ити-гацу"
+        "ru": "ити-гацу",
+        "it": "ichi-gatsu"
       }
     },
     {
@@ -145,7 +158,8 @@
         "fr": "ni-gatsu (mois)",
         "es": "ni-gatsu (mes)",
         "de": "ni-gatsu (Monat)",
-        "ru": "ни-гацу (месяц)"
+        "ru": "ни-гацу (месяц)",
+        "it": "ni-gatsu (month)"
       },
       "sound": {
         "en": "ni-gatsu",
@@ -155,7 +169,8 @@
         "fr": "ni-gatsu",
         "es": "ni-gatsu",
         "de": "ni-gatsu",
-        "ru": "ни-гацу"
+        "ru": "ни-гацу",
+        "it": "ni-gatsu"
       }
     },
     {
@@ -168,7 +183,8 @@
         "fr": "san-gatsu (mois)",
         "es": "san-gatsu (mes)",
         "de": "san-gatsu (Monat)",
-        "ru": "сан-гацу (месяц)"
+        "ru": "сан-гацу (месяц)",
+        "it": "san-gatsu (month)"
       },
       "sound": {
         "en": "san-gatsu",
@@ -178,7 +194,8 @@
         "fr": "san-gatsu",
         "es": "san-gatsu",
         "de": "san-gatsu",
-        "ru": "сан-гацу"
+        "ru": "сан-гацу",
+        "it": "san-gatsu"
       }
     },
     {
@@ -191,7 +208,8 @@
         "fr": "shi-gatsu ★ mois",
         "es": "shi-gatsu ★ mes",
         "de": "shi-gatsu ★ Monat",
-        "ru": "си-гацу ★ месяц"
+        "ru": "си-гацу ★ месяц",
+        "it": "shi-gatsu ★ month"
       },
       "sound": {
         "en": "shi-gatsu",
@@ -201,7 +219,8 @@
         "fr": "shi-gatsu",
         "es": "shi-gatsu",
         "de": "shi-gatsu",
-        "ru": "си-гацу"
+        "ru": "си-гацу",
+        "it": "shi-gatsu"
       }
     },
     {
@@ -214,7 +233,8 @@
         "fr": "go-gatsu (mois)",
         "es": "go-gatsu (mes)",
         "de": "go-gatsu (Monat)",
-        "ru": "го-гацу (месяц)"
+        "ru": "го-гацу (месяц)",
+        "it": "go-gatsu (month)"
       },
       "sound": {
         "en": "go-gatsu",
@@ -224,7 +244,8 @@
         "fr": "go-gatsu",
         "es": "go-gatsu",
         "de": "go-gatsu",
-        "ru": "го-гацу"
+        "ru": "го-гацу",
+        "it": "go-gatsu"
       }
     },
     {
@@ -237,7 +258,8 @@
         "fr": "roku-gatsu (mois)",
         "es": "roku-gatsu (mes)",
         "de": "roku-gatsu (Monat)",
-        "ru": "року-гацу (месяц)"
+        "ru": "року-гацу (месяц)",
+        "it": "roku-gatsu (month)"
       },
       "sound": {
         "en": "roku-gatsu",
@@ -247,7 +269,8 @@
         "fr": "roku-gatsu",
         "es": "roku-gatsu",
         "de": "roku-gatsu",
-        "ru": "року-гацу"
+        "ru": "року-гацу",
+        "it": "roku-gatsu"
       }
     },
     {
@@ -260,7 +283,8 @@
         "fr": "shichi-gatsu ★ mois",
         "es": "shichi-gatsu ★ mes",
         "de": "shichi-gatsu ★ Monat",
-        "ru": "сити-гацу ★ месяц"
+        "ru": "сити-гацу ★ месяц",
+        "it": "shichi-gatsu ★ month"
       },
       "sound": {
         "en": "shichi-gatsu",
@@ -270,7 +294,8 @@
         "fr": "shichi-gatsu",
         "es": "shichi-gatsu",
         "de": "shichi-gatsu",
-        "ru": "сити-гацу"
+        "ru": "сити-гацу",
+        "it": "shichi-gatsu"
       }
     },
     {
@@ -283,7 +308,8 @@
         "fr": "hachi-gatsu (mois)",
         "es": "hachi-gatsu (mes)",
         "de": "hachi-gatsu (Monat)",
-        "ru": "хати-гацу (месяц)"
+        "ru": "хати-гацу (месяц)",
+        "it": "hachi-gatsu (month)"
       },
       "sound": {
         "en": "hachi-gatsu",
@@ -293,7 +319,8 @@
         "fr": "hachi-gatsu",
         "es": "hachi-gatsu",
         "de": "hachi-gatsu",
-        "ru": "хати-гацу"
+        "ru": "хати-гацу",
+        "it": "hachi-gatsu"
       }
     },
     {
@@ -306,7 +333,8 @@
         "fr": "ku-gatsu ★ mois",
         "es": "ku-gatsu ★ mes",
         "de": "ku-gatsu ★ Monat",
-        "ru": "ку-гацу ★ месяц"
+        "ru": "ку-гацу ★ месяц",
+        "it": "ku-gatsu ★ month"
       },
       "sound": {
         "en": "ku-gatsu",
@@ -316,7 +344,8 @@
         "fr": "ku-gatsu",
         "es": "ku-gatsu",
         "de": "ku-gatsu",
-        "ru": "ку-гацу"
+        "ru": "ку-гацу",
+        "it": "ku-gatsu"
       }
     },
     {
@@ -329,7 +358,8 @@
         "fr": "juu-gatsu (mois)",
         "es": "juu-gatsu (mes)",
         "de": "juu-gatsu (Monat)",
-        "ru": "дзю:-гацу (месяц)"
+        "ru": "дзю:-гацу (месяц)",
+        "it": "juu-gatsu (month)"
       },
       "sound": {
         "en": "juu-gatsu",
@@ -339,7 +369,8 @@
         "fr": "juu-gatsu",
         "es": "juu-gatsu",
         "de": "juu-gatsu",
-        "ru": "дзю:-гацу"
+        "ru": "дзю:-гацу",
+        "it": "juu-gatsu"
       }
     },
     {
@@ -352,7 +383,8 @@
         "fr": "juuichi-gatsu (mois)",
         "es": "juuichi-gatsu (mes)",
         "de": "juuichi-gatsu (Monat)",
-        "ru": "дзю:ити-гацу (месяц)"
+        "ru": "дзю:ити-гацу (месяц)",
+        "it": "juuichi-gatsu (month)"
       },
       "sound": {
         "en": "juuichi-gatsu",
@@ -362,7 +394,8 @@
         "fr": "juuichi-gatsu",
         "es": "juuichi-gatsu",
         "de": "juuichi-gatsu",
-        "ru": "дзю:ити-гацу"
+        "ru": "дзю:ити-гацу",
+        "it": "juuichi-gatsu"
       }
     },
     {
@@ -375,7 +408,8 @@
         "fr": "juuni-gatsu (mois)",
         "es": "juuni-gatsu (mes)",
         "de": "juuni-gatsu (Monat)",
-        "ru": "дзю:ни-гацу (месяц)"
+        "ru": "дзю:ни-гацу (месяц)",
+        "it": "juuni-gatsu (month)"
       },
       "sound": {
         "en": "juuni-gatsu",
@@ -385,7 +419,8 @@
         "fr": "juuni-gatsu",
         "es": "juuni-gatsu",
         "de": "juuni-gatsu",
-        "ru": "дзю:ни-гацу"
+        "ru": "дзю:ни-гацу",
+        "it": "juuni-gatsu"
       }
     },
     {
@@ -398,7 +433,8 @@
         "fr": "le 1 (du mois) ★ irregulier",
         "es": "el día 1 ★ irregular",
         "de": "1. (des Monats) ★ unregelmassig",
-        "ru": "1-е (число) ★ нерегулярно"
+        "ru": "1-е (число) ★ нерегулярно",
+        "it": "1st (of the month) ★ irregular"
       },
       "sound": {
         "en": "tsuitachi",
@@ -408,7 +444,8 @@
         "fr": "tsuitachi",
         "es": "tsuitachi",
         "de": "tsuitachi",
-        "ru": "цуитати"
+        "ru": "цуитати",
+        "it": "tsuitachi"
       }
     },
     {
@@ -421,7 +458,8 @@
         "fr": "le 2 (du mois) ★ irregulier",
         "es": "el día 2 ★ irregular",
         "de": "2. (des Monats) ★ unregelmassig",
-        "ru": "2-е (число) ★ нерегулярно"
+        "ru": "2-е (число) ★ нерегулярно",
+        "it": "2nd (of the month) ★ irregular"
       },
       "sound": {
         "en": "futsuka",
@@ -431,7 +469,8 @@
         "fr": "futsuka",
         "es": "futsuka",
         "de": "futsuka",
-        "ru": "фуцука"
+        "ru": "фуцука",
+        "it": "futsuka"
       }
     },
     {
@@ -444,7 +483,8 @@
         "fr": "le 3 (du mois) ★ irregulier",
         "es": "el día 3 ★ irregular",
         "de": "3. (des Monats) ★ unregelmassig",
-        "ru": "3-е (число) ★ нерегулярно"
+        "ru": "3-е (число) ★ нерегулярно",
+        "it": "3rd (of the month) ★ irregular"
       },
       "sound": {
         "en": "mikka",
@@ -454,7 +494,8 @@
         "fr": "mikka",
         "es": "mikka",
         "de": "mikka",
-        "ru": "микка"
+        "ru": "микка",
+        "it": "mikka"
       }
     },
     {
@@ -467,7 +508,8 @@
         "fr": "le 4 (du mois) ★ irregulier",
         "es": "el día 4 ★ irregular",
         "de": "4. (des Monats) ★ unregelmassig",
-        "ru": "4-е (число) ★ нерегулярно"
+        "ru": "4-е (число) ★ нерегулярно",
+        "it": "4th (of the month) ★ irregular"
       },
       "sound": {
         "en": "yokka",
@@ -477,7 +519,8 @@
         "fr": "yokka",
         "es": "yokka",
         "de": "yokka",
-        "ru": "ёкка"
+        "ru": "ёкка",
+        "it": "yokka"
       }
     },
     {
@@ -490,7 +533,8 @@
         "fr": "le 5 (du mois) ★ irregulier",
         "es": "el día 5 ★ irregular",
         "de": "5. (des Monats) ★ unregelmassig",
-        "ru": "5-е (число) ★ нерегулярно"
+        "ru": "5-е (число) ★ нерегулярно",
+        "it": "5th (of the month) ★ irregular"
       },
       "sound": {
         "en": "itsuka",
@@ -500,7 +544,8 @@
         "fr": "itsuka",
         "es": "itsuka",
         "de": "itsuka",
-        "ru": "ицука"
+        "ru": "ицука",
+        "it": "itsuka"
       }
     },
     {
@@ -513,7 +558,8 @@
         "fr": "le 6 (du mois) ★ irregulier",
         "es": "el día 6 ★ irregular",
         "de": "6. (des Monats) ★ unregelmassig",
-        "ru": "6-е (число) ★ нерегулярно"
+        "ru": "6-е (число) ★ нерегулярно",
+        "it": "6th (of the month) ★ irregular"
       },
       "sound": {
         "en": "muika",
@@ -523,7 +569,8 @@
         "fr": "muika",
         "es": "muika",
         "de": "muika",
-        "ru": "муика"
+        "ru": "муика",
+        "it": "muika"
       }
     },
     {
@@ -536,7 +583,8 @@
         "fr": "le 7 (du mois) ★ irregulier",
         "es": "el día 7 ★ irregular",
         "de": "7. (des Monats) ★ unregelmassig",
-        "ru": "7-е (число) ★ нерегулярно"
+        "ru": "7-е (число) ★ нерегулярно",
+        "it": "7th (of the month) ★ irregular"
       },
       "sound": {
         "en": "nanoka",
@@ -546,7 +594,8 @@
         "fr": "nanoka",
         "es": "nanoka",
         "de": "nanoka",
-        "ru": "нанока"
+        "ru": "нанока",
+        "it": "nanoka"
       }
     },
     {
@@ -559,7 +608,8 @@
         "fr": "le 8 (du mois) ★ irregulier",
         "es": "el día 8 ★ irregular",
         "de": "8. (des Monats) ★ unregelmassig",
-        "ru": "8-е (число) ★ нерегулярно"
+        "ru": "8-е (число) ★ нерегулярно",
+        "it": "8th (of the month) ★ irregular"
       },
       "sound": {
         "en": "youka",
@@ -569,7 +619,8 @@
         "fr": "youka",
         "es": "youka",
         "de": "youka",
-        "ru": "ё:ка"
+        "ru": "ё:ка",
+        "it": "youka"
       }
     },
     {
@@ -582,7 +633,8 @@
         "fr": "le 9 (du mois) ★ irregulier",
         "es": "el día 9 ★ irregular",
         "de": "9. (des Monats) ★ unregelmassig",
-        "ru": "9-е (число) ★ нерегулярно"
+        "ru": "9-е (число) ★ нерегулярно",
+        "it": "9th (of the month) ★ irregular"
       },
       "sound": {
         "en": "kokonoka",
@@ -592,7 +644,8 @@
         "fr": "kokonoka",
         "es": "kokonoka",
         "de": "kokonoka",
-        "ru": "коконока"
+        "ru": "коконока",
+        "it": "kokonoka"
       }
     },
     {
@@ -605,7 +658,8 @@
         "fr": "le 10 (du mois) ★ irregulier",
         "es": "el día 10 ★ irregular",
         "de": "10. (des Monats) ★ unregelmassig",
-        "ru": "10-е (число) ★ нерегулярно"
+        "ru": "10-е (число) ★ нерегулярно",
+        "it": "10th (of the month) ★ irregular"
       },
       "sound": {
         "en": "tooka",
@@ -615,7 +669,8 @@
         "fr": "tooka",
         "es": "tooka",
         "de": "tooka",
-        "ru": "то:ка"
+        "ru": "то:ка",
+        "it": "tooka"
       }
     },
     {
@@ -628,7 +683,8 @@
         "fr": "le 11 (du mois)",
         "es": "el día 11",
         "de": "11. (des Monats)",
-        "ru": "11-е (число)"
+        "ru": "11-е (число)",
+        "it": "11th (of the month)"
       },
       "sound": {
         "en": "juuichi-nichi",
@@ -638,7 +694,8 @@
         "fr": "juuichi-nichi",
         "es": "juuichi-nichi",
         "de": "juuichi-nichi",
-        "ru": "дзю:ити-нити"
+        "ru": "дзю:ити-нити",
+        "it": "juuichi-nichi"
       }
     },
     {
@@ -651,7 +708,8 @@
         "fr": "le 12 (du mois)",
         "es": "el día 12",
         "de": "12. (des Monats)",
-        "ru": "12-е (число)"
+        "ru": "12-е (число)",
+        "it": "12th (of the month)"
       },
       "sound": {
         "en": "juuni-nichi",
@@ -661,7 +719,8 @@
         "fr": "juuni-nichi",
         "es": "juuni-nichi",
         "de": "juuni-nichi",
-        "ru": "дзю:ни-нити"
+        "ru": "дзю:ни-нити",
+        "it": "juuni-nichi"
       }
     },
     {
@@ -674,7 +733,8 @@
         "fr": "le 13 (du mois)",
         "es": "el día 13",
         "de": "13. (des Monats)",
-        "ru": "13-е (число)"
+        "ru": "13-е (число)",
+        "it": "13th (of the month)"
       },
       "sound": {
         "en": "juusan-nichi",
@@ -684,7 +744,8 @@
         "fr": "juusan-nichi",
         "es": "juusan-nichi",
         "de": "juusan-nichi",
-        "ru": "дзю:сан-нити"
+        "ru": "дзю:сан-нити",
+        "it": "juusan-nichi"
       }
     },
     {
@@ -697,7 +758,8 @@
         "fr": "le 14 (du mois) ★ irregulier",
         "es": "el día 14 ★ irregular",
         "de": "14. (des Monats) ★ unregelmassig",
-        "ru": "14-е (число) ★ нерегулярно"
+        "ru": "14-е (число) ★ нерегулярно",
+        "it": "14th (of the month) ★ irregular"
       },
       "sound": {
         "en": "juu-yokka",
@@ -707,7 +769,8 @@
         "fr": "juu-yokka",
         "es": "juu-yokka",
         "de": "juu-yokka",
-        "ru": "дзю:-ёкка"
+        "ru": "дзю:-ёкка",
+        "it": "juu-yokka"
       }
     },
     {
@@ -720,7 +783,8 @@
         "fr": "le 15 (du mois)",
         "es": "el día 15",
         "de": "15. (des Monats)",
-        "ru": "15-е (число)"
+        "ru": "15-е (число)",
+        "it": "15th (of the month)"
       },
       "sound": {
         "en": "juugo-nichi",
@@ -730,7 +794,8 @@
         "fr": "juugo-nichi",
         "es": "juugo-nichi",
         "de": "juugo-nichi",
-        "ru": "дзю:го-нити"
+        "ru": "дзю:го-нити",
+        "it": "juugo-nichi"
       }
     },
     {
@@ -743,7 +808,8 @@
         "fr": "le 16 (du mois)",
         "es": "el día 16",
         "de": "16. (des Monats)",
-        "ru": "16-е (число)"
+        "ru": "16-е (число)",
+        "it": "16th (of the month)"
       },
       "sound": {
         "en": "juuroku-nichi",
@@ -753,7 +819,8 @@
         "fr": "juuroku-nichi",
         "es": "juuroku-nichi",
         "de": "juuroku-nichi",
-        "ru": "дзю:року-нити"
+        "ru": "дзю:року-нити",
+        "it": "juuroku-nichi"
       }
     },
     {
@@ -766,7 +833,8 @@
         "fr": "le 17 (du mois)",
         "es": "el día 17",
         "de": "17. (des Monats)",
-        "ru": "17-е (число)"
+        "ru": "17-е (число)",
+        "it": "17th (of the month)"
       },
       "sound": {
         "en": "juunana-nichi",
@@ -776,7 +844,8 @@
         "fr": "juunana-nichi",
         "es": "juunana-nichi",
         "de": "juunana-nichi",
-        "ru": "дзю:нана-нити"
+        "ru": "дзю:нана-нити",
+        "it": "juunana-nichi"
       }
     },
     {
@@ -789,7 +858,8 @@
         "fr": "le 18 (du mois)",
         "es": "el día 18",
         "de": "18. (des Monats)",
-        "ru": "18-е (число)"
+        "ru": "18-е (число)",
+        "it": "18th (of the month)"
       },
       "sound": {
         "en": "juuhachi-nichi",
@@ -799,7 +869,8 @@
         "fr": "juuhachi-nichi",
         "es": "juuhachi-nichi",
         "de": "juuhachi-nichi",
-        "ru": "дзю:хати-нити"
+        "ru": "дзю:хати-нити",
+        "it": "juuhachi-nichi"
       }
     },
     {
@@ -812,7 +883,8 @@
         "fr": "le 19 (du mois)",
         "es": "el día 19",
         "de": "19. (des Monats)",
-        "ru": "19-е (число)"
+        "ru": "19-е (число)",
+        "it": "19th (of the month)"
       },
       "sound": {
         "en": "juukyuu-nichi",
@@ -822,7 +894,8 @@
         "fr": "juukyuu-nichi",
         "es": "juukyuu-nichi",
         "de": "juukyuu-nichi",
-        "ru": "дзю:кю:-нити"
+        "ru": "дзю:кю:-нити",
+        "it": "juukyuu-nichi"
       }
     },
     {
@@ -835,7 +908,8 @@
         "fr": "le 20 (du mois) ★ irregulier",
         "es": "el día 20 ★ irregular",
         "de": "20. (des Monats) ★ unregelmassig",
-        "ru": "20-е (число) ★ нерегулярно"
+        "ru": "20-е (число) ★ нерегулярно",
+        "it": "20th (of the month) ★ irregular"
       },
       "sound": {
         "en": "hatsuka",
@@ -845,7 +919,8 @@
         "fr": "hatsuka",
         "es": "hatsuka",
         "de": "hatsuka",
-        "ru": "хацука"
+        "ru": "хацука",
+        "it": "hatsuka"
       }
     },
     {
@@ -858,7 +933,8 @@
         "fr": "le 21 (du mois)",
         "es": "el día 21",
         "de": "21. (des Monats)",
-        "ru": "21-е (число)"
+        "ru": "21-е (число)",
+        "it": "21th (of the month)"
       },
       "sound": {
         "en": "nijuichi-nichi",
@@ -868,7 +944,8 @@
         "fr": "nijuichi-nichi",
         "es": "nijuichi-nichi",
         "de": "nijuichi-nichi",
-        "ru": "нидзю:ити-нити"
+        "ru": "нидзю:ити-нити",
+        "it": "nijuichi-nichi"
       }
     },
     {
@@ -881,7 +958,8 @@
         "fr": "le 22 (du mois)",
         "es": "el día 22",
         "de": "22. (des Monats)",
-        "ru": "22-е (число)"
+        "ru": "22-е (число)",
+        "it": "22th (of the month)"
       },
       "sound": {
         "en": "nijuni-nichi",
@@ -891,7 +969,8 @@
         "fr": "nijuni-nichi",
         "es": "nijuni-nichi",
         "de": "nijuni-nichi",
-        "ru": "нидзю:ни-нити"
+        "ru": "нидзю:ни-нити",
+        "it": "nijuni-nichi"
       }
     },
     {
@@ -904,7 +983,8 @@
         "fr": "le 23 (du mois)",
         "es": "el día 23",
         "de": "23. (des Monats)",
-        "ru": "23-е (число)"
+        "ru": "23-е (число)",
+        "it": "23th (of the month)"
       },
       "sound": {
         "en": "nijusan-nichi",
@@ -914,7 +994,8 @@
         "fr": "nijusan-nichi",
         "es": "nijusan-nichi",
         "de": "nijusan-nichi",
-        "ru": "нидзю:сан-нити"
+        "ru": "нидзю:сан-нити",
+        "it": "nijusan-nichi"
       }
     },
     {
@@ -927,7 +1008,8 @@
         "fr": "le 24 (du mois) ★ irregulier",
         "es": "el día 24 ★ irregular",
         "de": "24. (des Monats) ★ unregelmassig",
-        "ru": "24-е (число) ★ нерегулярно"
+        "ru": "24-е (число) ★ нерегулярно",
+        "it": "24th (of the month) ★ irregular"
       },
       "sound": {
         "en": "nijuuyokka",
@@ -937,7 +1019,8 @@
         "fr": "nijuuyokka",
         "es": "nijuuyokka",
         "de": "nijuuyokka",
-        "ru": "нидзю:-ёкка"
+        "ru": "нидзю:-ёкка",
+        "it": "nijuuyokka"
       }
     },
     {
@@ -950,7 +1033,8 @@
         "fr": "le 25 (du mois)",
         "es": "el día 25",
         "de": "25. (des Monats)",
-        "ru": "25-е (число)"
+        "ru": "25-е (число)",
+        "it": "25th (of the month)"
       },
       "sound": {
         "en": "nijugo-nichi",
@@ -960,7 +1044,8 @@
         "fr": "nijugo-nichi",
         "es": "nijugo-nichi",
         "de": "nijugo-nichi",
-        "ru": "нидзю:го-нити"
+        "ru": "нидзю:го-нити",
+        "it": "nijugo-nichi"
       }
     },
     {
@@ -973,7 +1058,8 @@
         "fr": "le 26 (du mois)",
         "es": "el día 26",
         "de": "26. (des Monats)",
-        "ru": "26-е (число)"
+        "ru": "26-е (число)",
+        "it": "26th (of the month)"
       },
       "sound": {
         "en": "nijuroku-nichi",
@@ -983,7 +1069,8 @@
         "fr": "nijuroku-nichi",
         "es": "nijuroku-nichi",
         "de": "nijuroku-nichi",
-        "ru": "нидзю:року-нити"
+        "ru": "нидзю:року-нити",
+        "it": "nijuroku-nichi"
       }
     },
     {
@@ -996,7 +1083,8 @@
         "fr": "le 27 (du mois)",
         "es": "el día 27",
         "de": "27. (des Monats)",
-        "ru": "27-е (число)"
+        "ru": "27-е (число)",
+        "it": "27th (of the month)"
       },
       "sound": {
         "en": "nijunana-nichi",
@@ -1006,7 +1094,8 @@
         "fr": "nijunana-nichi",
         "es": "nijunana-nichi",
         "de": "nijunana-nichi",
-        "ru": "нидзю:нана-нити"
+        "ru": "нидзю:нана-нити",
+        "it": "nijunana-nichi"
       }
     },
     {
@@ -1019,7 +1108,8 @@
         "fr": "le 28 (du mois)",
         "es": "el día 28",
         "de": "28. (des Monats)",
-        "ru": "28-е (число)"
+        "ru": "28-е (число)",
+        "it": "28th (of the month)"
       },
       "sound": {
         "en": "nijuhachi-nichi",
@@ -1029,7 +1119,8 @@
         "fr": "nijuhachi-nichi",
         "es": "nijuhachi-nichi",
         "de": "nijuhachi-nichi",
-        "ru": "нидзю:хати-нити"
+        "ru": "нидзю:хати-нити",
+        "it": "nijuhachi-nichi"
       }
     },
     {
@@ -1042,7 +1133,8 @@
         "fr": "le 29 (du mois)",
         "es": "el día 29",
         "de": "29. (des Monats)",
-        "ru": "29-е (число)"
+        "ru": "29-е (число)",
+        "it": "29th (of the month)"
       },
       "sound": {
         "en": "nijukyuu-nichi",
@@ -1052,7 +1144,8 @@
         "fr": "nijukyuu-nichi",
         "es": "nijukyuu-nichi",
         "de": "nijukyuu-nichi",
-        "ru": "нидзю:кю:-нити"
+        "ru": "нидзю:кю:-нити",
+        "it": "nijukyuu-nichi"
       }
     },
     {
@@ -1065,7 +1158,8 @@
         "fr": "le 30 (du mois)",
         "es": "el día 30",
         "de": "30. (des Monats)",
-        "ru": "30-е (число)"
+        "ru": "30-е (число)",
+        "it": "30th (of the month)"
       },
       "sound": {
         "en": "sanjuu-nichi",
@@ -1075,7 +1169,8 @@
         "fr": "sanjuu-nichi",
         "es": "sanjuu-nichi",
         "de": "sanjuu-nichi",
-        "ru": "сандзю:-нити"
+        "ru": "сандзю:-нити",
+        "it": "sanjuu-nichi"
       }
     },
     {
@@ -1088,7 +1183,8 @@
         "fr": "le 31 (du mois)",
         "es": "el día 31",
         "de": "31. (des Monats)",
-        "ru": "31-е (число)"
+        "ru": "31-е (число)",
+        "it": "31th (of the month)"
       },
       "sound": {
         "en": "sanjuichi-nichi",
@@ -1098,7 +1194,8 @@
         "fr": "sanjuichi-nichi",
         "es": "sanjuichi-nichi",
         "de": "sanjuichi-nichi",
-        "ru": "сандзю:ити-нити"
+        "ru": "сандзю:ити-нити",
+        "it": "sanjuichi-nichi"
       }
     },
     {
@@ -1111,7 +1208,8 @@
         "de": "welcher Tag / wie viele Tage",
         "ru": "какое число / сколько дней",
         "ko": "며칠 / 며칠(기간)",
-        "ja": "何日"
+        "ja": "何日",
+        "it": "what day (of the month) / how many days"
       },
       "sound": {
         "en": "nannichi",
@@ -1121,7 +1219,8 @@
         "fr": "nannichi",
         "es": "nannichi",
         "de": "nannichi",
-        "ru": "наннити"
+        "ru": "наннити",
+        "it": "nannichi"
       }
     }
   ]

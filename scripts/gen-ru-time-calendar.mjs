@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const outDir = path.join(__dirname, '../src/data/ru')
 
-const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'ru']
+const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'it', 'ru']
 
 function digitMeaning(n) {
   const s = String(n)

@@ -5,7 +5,7 @@
  */
 import { readFileSync, writeFileSync } from 'fs'
 
-const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'ru']
+const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'it', 'ru']
 
 const meaningLabels = {
   en: 'Meaning',

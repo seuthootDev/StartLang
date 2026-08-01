@@ -15,6 +15,7 @@ const DIGIT_TRANSLATIONS = (n: number): Partial<Record<LangCode, string>> => {
     fr: s,
     es: s,
     de: s,
+    it: s,
     ru: s,
   }
 }

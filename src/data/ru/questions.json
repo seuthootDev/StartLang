@@ -10,7 +10,8 @@
       "fr": "kto",
       "es": "kto",
       "de": "kto",
-      "ru": "кто"
+      "ru": "кто",
+      "it": "kto"
     },
     "translations": {
       "en": "who",
@@ -20,7 +21,8 @@
       "fr": "qui",
       "es": "quién",
       "de": "wer",
-      "ru": "кто"
+      "ru": "кто",
+      "it": "who"
     }
   },
   {
@@ -34,7 +36,8 @@
       "fr": "chto",
       "es": "chto",
       "de": "chto",
-      "ru": "что"
+      "ru": "что",
+      "it": "chto"
     },
     "translations": {
       "en": "what",
@@ -44,7 +47,8 @@
       "fr": "quoi / que",
       "es": "qué",
       "de": "was",
-      "ru": "что"
+      "ru": "что",
+      "it": "what"
     }
   },
   {
@@ -58,7 +62,8 @@
       "fr": "gde",
       "es": "gde",
       "de": "gde",
-      "ru": "где"
+      "ru": "где",
+      "it": "gde"
     },
     "translations": {
       "en": "where (location)",
@@ -68,7 +73,8 @@
       "fr": "où (lieu)",
       "es": "dónde (lugar)",
       "de": "wo (Ort)",
-      "ru": "где"
+      "ru": "где",
+      "it": "where (location)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "fr": "ku-da",
       "es": "ku-da",
       "de": "ku-da",
-      "ru": "куда"
+      "ru": "куда",
+      "it": "ku-da"
     },
     "translations": {
       "en": "where to / whither",
@@ -92,7 +99,8 @@
       "fr": "où (direction)",
       "es": "adónde",
       "de": "wohin",
-      "ru": "куда"
+      "ru": "куда",
+      "it": "where to / whither"
     }
   },
   {
@@ -106,7 +114,8 @@
       "fr": "ot-ku-da",
       "es": "ot-ku-da",
       "de": "ot-ku-da",
-      "ru": "откуда"
+      "ru": "откуда",
+      "it": "ot-ku-da"
     },
     "translations": {
       "en": "where from",
@@ -116,7 +125,8 @@
       "fr": "d’où",
       "es": "de dónde",
       "de": "woher",
-      "ru": "откуда"
+      "ru": "откуда",
+      "it": "where from"
     }
   },
   {
@@ -130,7 +140,8 @@
       "fr": "kog-da",
       "es": "kog-da",
       "de": "kog-da",
-      "ru": "когда"
+      "ru": "когда",
+      "it": "kog-da"
     },
     "translations": {
       "en": "when",
@@ -140,7 +151,8 @@
       "fr": "quand",
       "es": "cuándo",
       "de": "wann",
-      "ru": "когда"
+      "ru": "когда",
+      "it": "when"
     }
   },
   {
@@ -154,7 +166,8 @@
       "fr": "po-che-mu",
       "es": "po-che-mu",
       "de": "po-che-mu",
-      "ru": "почему"
+      "ru": "почему",
+      "it": "po-che-mu"
     },
     "translations": {
       "en": "why (reason)",
@@ -164,7 +177,8 @@
       "fr": "pourquoi (raison)",
       "es": "por qué (razón)",
       "de": "warum (Grund)",
-      "ru": "почему"
+      "ru": "почему",
+      "it": "why (reason)"
     }
   },
   {
@@ -178,7 +192,8 @@
       "fr": "za-chem",
       "es": "za-chem",
       "de": "za-chem",
-      "ru": "зачем"
+      "ru": "зачем",
+      "it": "za-chem"
     },
     "translations": {
       "en": "why / what for (purpose)",
@@ -188,7 +203,8 @@
       "fr": "pourquoi (but)",
       "es": "para qué",
       "de": "wozu (Zweck)",
-      "ru": "зачем"
+      "ru": "зачем",
+      "it": "why / what for (purpose)"
     }
   },
   {
@@ -202,7 +218,8 @@
       "fr": "kak",
       "es": "kak",
       "de": "kak",
-      "ru": "как"
+      "ru": "как",
+      "it": "kak"
     },
     "translations": {
       "en": "how",
@@ -212,7 +229,8 @@
       "fr": "comment",
       "es": "cómo",
       "de": "wie",
-      "ru": "как"
+      "ru": "как",
+      "it": "how"
     }
   },
   {
@@ -226,7 +244,8 @@
       "fr": "skolʹ-ko",
       "es": "skolʹ-ko",
       "de": "skolʹ-ko",
-      "ru": "сколько"
+      "ru": "сколько",
+      "it": "skolʹ-ko"
     },
     "translations": {
       "en": "how much / how many",
@@ -236,7 +255,8 @@
       "fr": "combien",
       "es": "cuánto",
       "de": "wie viel",
-      "ru": "сколько"
+      "ru": "сколько",
+      "it": "how much / how many"
     }
   },
   {
@@ -250,7 +270,8 @@
       "fr": "ka-koy",
       "es": "ka-koy",
       "de": "ka-koy",
-      "ru": "какой"
+      "ru": "какой",
+      "it": "ka-koy"
     },
     "translations": {
       "en": "which / what kind (masculine)",
@@ -260,7 +281,8 @@
       "fr": "quel (masculin)",
       "es": "qué / cuál (masculino)",
       "de": "welch- (maskulin)",
-      "ru": "какой"
+      "ru": "какой",
+      "it": "which / what kind (masculine)"
     }
   },
   {
@@ -274,7 +296,8 @@
       "fr": "ka-ka-ya",
       "es": "ka-ka-ya",
       "de": "ka-ka-ya",
-      "ru": "какая"
+      "ru": "какая",
+      "it": "ka-ka-ya"
     },
     "translations": {
       "en": "which / what kind (feminine)",
@@ -284,7 +307,8 @@
       "fr": "quelle (féminin)",
       "es": "qué / cuál (femenino)",
       "de": "welch- (feminin)",
-      "ru": "какая"
+      "ru": "какая",
+      "it": "which / what kind (feminine)"
     }
   },
   {
@@ -298,7 +322,8 @@
       "fr": "chey",
       "es": "chey",
       "de": "chey",
-      "ru": "чей"
+      "ru": "чей",
+      "it": "chey"
     },
     "translations": {
       "en": "whose (masculine)",
@@ -308,7 +333,8 @@
       "fr": "à qui (masculin)",
       "es": "de quién (masculino)",
       "de": "wessen (maskulin)",
-      "ru": "чей"
+      "ru": "чей",
+      "it": "whose (masculine)"
     }
   }
 ]

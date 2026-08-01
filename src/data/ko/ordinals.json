@@ -9,7 +9,8 @@
       "fr": "cheot beon-jjae",
       "es": "cheot beon-jjae",
       "de": "cheot beon-jjae",
-      "ru": "чот пон-ччэ"
+      "ru": "чот пон-ччэ",
+      "it": "cheot beon-jjae"
     },
     "translations": {
       "en": "first",
@@ -19,7 +20,8 @@
       "de": "erste",
       "ru": "первый",
       "ko": "첫 번째",
-      "ja": "第一"
+      "ja": "第一",
+      "it": "first"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "du beon-jjae",
       "es": "du beon-jjae",
       "de": "du beon-jjae",
-      "ru": "ту пон-ччэ"
+      "ru": "ту пон-ччэ",
+      "it": "du beon-jjae"
     },
     "translations": {
       "en": "second",
@@ -42,7 +45,8 @@
       "de": "zweite",
       "ru": "второй",
       "ko": "두 번째",
-      "ja": "第二"
+      "ja": "第二",
+      "it": "second"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "se beon-jjae",
       "es": "se beon-jjae",
       "de": "se beon-jjae",
-      "ru": "се пон-ччэ"
+      "ru": "се пон-ччэ",
+      "it": "se beon-jjae"
     },
     "translations": {
       "en": "third",
@@ -65,7 +70,8 @@
       "de": "dritte",
       "ru": "третий",
       "ko": "세 번째",
-      "ja": "第三"
+      "ja": "第三",
+      "it": "third"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "ne beon-jjae",
       "es": "ne beon-jjae",
       "de": "ne beon-jjae",
-      "ru": "не пон-ччэ"
+      "ru": "не пон-ччэ",
+      "it": "ne beon-jjae"
     },
     "translations": {
       "en": "fourth",
@@ -88,7 +95,8 @@
       "de": "vierte",
       "ru": "четвёртый",
       "ko": "네 번째",
-      "ja": "第四"
+      "ja": "第四",
+      "it": "fourth"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "da-seot beon-jjae",
       "es": "da-seot beon-jjae",
       "de": "da-seot beon-jjae",
-      "ru": "та-сот пон-ччэ"
+      "ru": "та-сот пон-ччэ",
+      "it": "da-seot beon-jjae"
     },
     "translations": {
       "en": "fifth",
@@ -111,7 +120,8 @@
       "de": "fünfte",
       "ru": "пятый",
       "ko": "다섯 번째",
-      "ja": "第五"
+      "ja": "第五",
+      "it": "fifth"
     }
   }
 ]

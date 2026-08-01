@@ -49,6 +49,7 @@ const LEVEL = {
     fr: 'Bases',
     es: 'Básico',
     de: 'Grundlagen',
+    it: 'Base',
     ru: 'Основы',
   },
   intermediate: {
@@ -59,6 +60,7 @@ const LEVEL = {
     fr: 'Intermédiaire',
     es: 'Intermedio',
     de: 'Mittelstufe',
+    it: 'Intermedio',
     ru: 'Средний',
   },
   advanced: {
@@ -69,6 +71,7 @@ const LEVEL = {
     fr: 'Avancé',
     es: 'Avanzado',
     de: 'Fortgeschritten',
+    it: 'Avanzato',
     ru: 'Продвинутый',
   },
 } as const
@@ -93,11 +96,12 @@ export const CATEGORIES: CategoryMeta[] = [
       fr: 'Alphabet & phonétique',
       es: 'Alfabeto y fonética',
       de: 'Alphabet & Phonetik',
+      it: 'Alfabeto e fonetica',
       ru: 'Алфавит и фонетика',
     },
     hints: {
       ko: {
-        en: 'Hangul', ko: '한글', ja: 'ハングル', zh: '韩文', fr: 'Hangeul', es: 'Hangul', de: 'Hangul', ru: 'Хангыль',
+        en: 'Hangul', ko: '한글', ja: 'ハングル', zh: '韩文', fr: 'Hangeul', es: 'Hangul', de: 'Hangul', it: 'Hangul', ru: 'Хангыль',
       },
       ja: {
         en: 'Hiragana & Katakana',
@@ -107,13 +111,15 @@ export const CATEGORIES: CategoryMeta[] = [
         fr: 'Hiragana & katakana',
         es: 'Hiragana y katakana',
         de: 'Hiragana & Katakana',
+        it: 'Hiragana e katakana',
         ru: 'Хирагана и катакана',
       },
-      zh: { en: 'Pinyin', ko: '병음', ja: 'ピンイン', zh: '拼音', fr: 'Pinyin', es: 'Pinyin', de: 'Pinyin', ru: 'Пиньинь' },
-      fr: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', ru: 'Алфавит' },
-      es: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', ru: 'Алфавит' },
-      de: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', ru: 'Алфавит' },
-      ru: { en: 'Cyrillic', ko: '키릴 문자', ja: 'キリル文字', zh: '西里尔字母', fr: 'Cyrillique', es: 'Cirílico', de: 'Kyrillisch', ru: 'Кириллица' },
+      zh: { en: 'Pinyin', ko: '병음', ja: 'ピンイン', zh: '拼音', fr: 'Pinyin', es: 'Pinyin', de: 'Pinyin', it: 'Pinyin', ru: 'Пиньинь' },
+      fr: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', it: 'Alfabeto', ru: 'Алфавит' },
+      es: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', it: 'Alfabeto', ru: 'Алфавит' },
+      de: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', it: 'Alfabeto', ru: 'Алфавит' },
+      it: { en: 'Alphabet', ko: '알파벳', ja: 'アルファベット', zh: '字母', fr: 'Alphabet', es: 'Alfabeto', de: 'Alphabet', it: 'Alfabeto', ru: 'Алфавит' },
+      ru: { en: 'Cyrillic', ko: '키릴 문자', ja: 'キリル文字', zh: '西里尔字母', fr: 'Cyrillique', es: 'Cirílico', de: 'Kyrillisch', it: 'Cirillico', ru: 'Кириллица' },
     },
   },
   {
@@ -122,7 +128,8 @@ export const CATEGORIES: CategoryMeta[] = [
     step: 2,
     labels: {
       en: 'Personal Pronouns', ko: '인칭대명사', ja: '人称代名詞', zh: '人称代词',
-      fr: 'Pronoms personnels', es: 'Pronombres personales', de: 'Personalpronomen', ru: 'Личные местоимения',
+      fr: 'Pronoms personnels', es: 'Pronombres personales', de: 'Personalpronomen',
+      it: 'Pronomi personali', ru: 'Личные местоимения',
     },
   },
   {
@@ -131,7 +138,8 @@ export const CATEGORIES: CategoryMeta[] = [
     step: 3,
     labels: {
       en: 'Cardinal Numbers', ko: '기수사', ja: '基数', zh: '基数词',
-      fr: 'Nombres cardinaux', es: 'Números cardinales', de: 'Kardinalzahlen', ru: 'Количественные числительные',
+      fr: 'Nombres cardinaux', es: 'Números cardinales', de: 'Kardinalzahlen',
+      it: 'Numeri cardinali', ru: 'Количественные числительные',
     },
   },
   {
@@ -146,6 +154,7 @@ export const CATEGORIES: CategoryMeta[] = [
       fr: 'Bases du temps et du calendrier',
       es: 'Bases de tiempo y calendario',
       de: 'Zeit- und Kalendergrundlagen',
+      it: 'Basi di tempo e calendario',
       ru: 'Основы времени и календаря',
     },
   },
@@ -162,6 +171,7 @@ export const CATEGORIES: CategoryMeta[] = [
       fr: 'Jours & temps relatif',
       es: 'Días y tiempo relativo',
       de: 'Wochentage & relative Zeit',
+      it: 'Giorni e tempo relativo',
       ru: 'Дни и относительное время',
     },
   },
@@ -171,7 +181,8 @@ export const CATEGORIES: CategoryMeta[] = [
     step: 5,
     labels: {
       en: 'Question Words', ko: '필수 의문사', ja: '疑問詞', zh: '疑问词',
-      fr: 'Mots interrogatifs', es: 'Palabras interrogativas', de: 'Fragewörter', ru: 'Вопросительные слова',
+      fr: 'Mots interrogatifs', es: 'Palabras interrogativas', de: 'Fragewörter',
+      it: 'Parole interrogative', ru: 'Вопросительные слова',
     },
   },
   {
@@ -180,7 +191,8 @@ export const CATEGORIES: CategoryMeta[] = [
     step: 6,
     labels: {
       en: 'Demonstratives & Directions', ko: '지시대명사·방향', ja: '指示詞・方向', zh: '指示词与方向',
-      fr: 'Démonstratifs & directions', es: 'Demostrativos y direcciones', de: 'Demonstrativa & Richtungen', ru: 'Указательные и направления',
+      fr: 'Démonstratifs & directions', es: 'Demostrativos y direcciones', de: 'Demonstrativa & Richtungen',
+      it: 'Dimostrativi e direzioni', ru: 'Указательные и направления',
     },
   },
   {
@@ -190,7 +202,8 @@ export const CATEGORIES: CategoryMeta[] = [
     hidden: true,
     labels: {
       en: 'Ordinal Numbers', ko: '서수사', ja: '序数', zh: '序数词',
-      fr: 'Nombres ordinaux', es: 'Números ordinales', de: 'Ordinalzahlen', ru: 'Порядковые числительные',
+      fr: 'Nombres ordinaux', es: 'Números ordinales', de: 'Ordinalzahlen',
+      it: 'Numeri ordinali', ru: 'Порядковые числительные',
     },
   },
   {
@@ -200,7 +213,8 @@ export const CATEGORIES: CategoryMeta[] = [
     hidden: true,
     labels: {
       en: 'Months & Seasons', ko: '월과 계절', ja: '月と季節', zh: '月份与季节',
-      fr: 'Mois & saisons', es: 'Meses y estaciones', de: 'Monate & Jahreszeiten', ru: 'Месяцы и сезоны',
+      fr: 'Mois & saisons', es: 'Meses y estaciones', de: 'Monate & Jahreszeiten',
+      it: 'Mesi e stagioni', ru: 'Месяцы и сезоны',
     },
   },
   {
@@ -211,7 +225,7 @@ export const CATEGORIES: CategoryMeta[] = [
     visibleFor: ['ja', 'ru'],
     labels: {
       en: 'Dates', ko: '날짜 표현', ja: '日付の表現', zh: '日期表达',
-      fr: 'Dates', es: 'Fechas', de: 'Daten', ru: 'Даты',
+      fr: 'Dates', es: 'Fechas', de: 'Daten', it: 'Date', ru: 'Даты',
     },
   },
   {
@@ -227,6 +241,7 @@ export const CATEGORIES: CategoryMeta[] = [
       fr: 'Vocabulaire JLPT',
       es: 'Vocabulario JLPT',
       de: 'JLPT-Wortschatz',
+      it: 'Vocabolario JLPT',
       ru: 'Лексика JLPT',
     },
     hints: {
@@ -238,6 +253,7 @@ export const CATEGORIES: CategoryMeta[] = [
         fr: 'Hub séparé · N5–N1',
         es: 'Hub aparte · N5–N1',
         de: 'Eigener Hub · N5–N1',
+        it: 'Hub separato · N5–N1',
         ru: 'Отдельный хаб · N5–N1',
       },
     },

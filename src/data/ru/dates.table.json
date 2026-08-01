@@ -8,7 +8,8 @@
     "fr": "Dates",
     "es": "Fechas",
     "de": "Daten",
-    "ru": "Даты"
+    "ru": "Даты",
+    "it": "Dates"
   },
   "note": {
     "en": "Unlike Korean, Russian dates need ordinals + genitive months: пятое января / 5 января.",
@@ -18,7 +19,8 @@
     "fr": "Contrairement au coréen : ordinaux + mois au génitif.",
     "es": "A diferencia del coreano: ordinales + mes en genitivo.",
     "de": "Anders als Koreanisch: Ordinalia + Monat im Genitiv.",
-    "ru": "Нужны порядковые (ср. р.) и месяцы в родительном: пятое января."
+    "ru": "Нужны порядковые (ср. р.) и месяцы в родительном: пятое января.",
+    "it": "Unlike Korean, Russian dates need ordinals + genitive months: пятое января / 5 января."
   },
   "rules": {
     "en": [
@@ -60,6 +62,11 @@
       "Устно: порядковое ср. р. + месяц в род. п.",
       "Письменно часто: 1 мая.",
       "21–31 = десятки + порядковое."
+    ],
+    "it": [
+      "Spoken date: neuter ordinal + genitive month (первое мая).",
+      "Writing often uses Arabic numerals: 1 мая, 23 февраля.",
+      "21–31 = tens + ordinal ones (двадцать первое), like number compounds."
     ]
   },
   "sections": [
@@ -72,7 +79,8 @@
         "fr": "Mois dans les dates (génitif)",
         "es": "Meses en fechas (genitivo)",
         "de": "Monate in Daten (Genitiv)",
-        "ru": "Месяцы в датах (родительный)"
+        "ru": "Месяцы в датах (родительный)",
+        "it": "Months in dates (genitive)"
       },
       "columns": [
         {
@@ -85,7 +93,8 @@
             "fr": "Russe",
             "es": "Ruso",
             "de": "Russisch",
-            "ru": "Русский"
+            "ru": "Русский",
+            "it": "Russian"
           }
         },
         {
@@ -98,7 +107,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -111,7 +121,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -126,7 +137,8 @@
             "fr": "janvier (dans les dates)",
             "es": "enero (en fechas)",
             "de": "Januar (in Daten)",
-            "ru": "января"
+            "ru": "января",
+            "it": "January (in dates)"
           },
           "sound": {
             "en": "yan-va-rya",
@@ -136,7 +148,8 @@
             "fr": "yan-va-rya",
             "es": "yan-va-rya",
             "de": "yan-va-rya",
-            "ru": "января"
+            "ru": "января",
+            "it": "yan-va-rya"
           }
         },
         {
@@ -149,7 +162,8 @@
             "fr": "février (dans les dates)",
             "es": "febrero (en fechas)",
             "de": "Februar (in Daten)",
-            "ru": "февраля"
+            "ru": "февраля",
+            "it": "February (in dates)"
           },
           "sound": {
             "en": "fev-ra-lya",
@@ -159,7 +173,8 @@
             "fr": "fev-ra-lya",
             "es": "fev-ra-lya",
             "de": "fev-ra-lya",
-            "ru": "февраля"
+            "ru": "февраля",
+            "it": "fev-ra-lya"
           }
         },
         {
@@ -172,7 +187,8 @@
             "fr": "mars (dans les dates)",
             "es": "marzo (en fechas)",
             "de": "März (in Daten)",
-            "ru": "марта"
+            "ru": "марта",
+            "it": "March (in dates)"
           },
           "sound": {
             "en": "mar-ta",
@@ -182,7 +198,8 @@
             "fr": "mar-ta",
             "es": "mar-ta",
             "de": "mar-ta",
-            "ru": "марта"
+            "ru": "марта",
+            "it": "mar-ta"
           }
         },
         {
@@ -195,7 +212,8 @@
             "fr": "avril (dans les dates)",
             "es": "abril (en fechas)",
             "de": "April (in Daten)",
-            "ru": "апреля"
+            "ru": "апреля",
+            "it": "April (in dates)"
           },
           "sound": {
             "en": "a-pre-lya",
@@ -205,7 +223,8 @@
             "fr": "a-pre-lya",
             "es": "a-pre-lya",
             "de": "a-pre-lya",
-            "ru": "апреля"
+            "ru": "апреля",
+            "it": "a-pre-lya"
           }
         },
         {
@@ -218,7 +237,8 @@
             "fr": "mai (dans les dates)",
             "es": "mayo (en fechas)",
             "de": "Mai (in Daten)",
-            "ru": "мая"
+            "ru": "мая",
+            "it": "May (in dates)"
           },
           "sound": {
             "en": "ma-ya",
@@ -228,7 +248,8 @@
             "fr": "ma-ya",
             "es": "ma-ya",
             "de": "ma-ya",
-            "ru": "мая"
+            "ru": "мая",
+            "it": "ma-ya"
           }
         },
         {
@@ -241,7 +262,8 @@
             "fr": "juin (dans les dates)",
             "es": "junio (en fechas)",
             "de": "Juni (in Daten)",
-            "ru": "июня"
+            "ru": "июня",
+            "it": "June (in dates)"
           },
           "sound": {
             "en": "i-yu-nya",
@@ -251,7 +273,8 @@
             "fr": "i-yu-nya",
             "es": "i-yu-nya",
             "de": "i-yu-nya",
-            "ru": "июня"
+            "ru": "июня",
+            "it": "i-yu-nya"
           }
         },
         {
@@ -264,7 +287,8 @@
             "fr": "juillet (dans les dates)",
             "es": "julio (en fechas)",
             "de": "Juli (in Daten)",
-            "ru": "июля"
+            "ru": "июля",
+            "it": "July (in dates)"
           },
           "sound": {
             "en": "i-yu-lya",
@@ -274,7 +298,8 @@
             "fr": "i-yu-lya",
             "es": "i-yu-lya",
             "de": "i-yu-lya",
-            "ru": "июля"
+            "ru": "июля",
+            "it": "i-yu-lya"
           }
         },
         {
@@ -287,7 +312,8 @@
             "fr": "août (dans les dates)",
             "es": "agosto (en fechas)",
             "de": "August (in Daten)",
-            "ru": "августа"
+            "ru": "августа",
+            "it": "August (in dates)"
           },
           "sound": {
             "en": "av-gu-sta",
@@ -297,7 +323,8 @@
             "fr": "av-gu-sta",
             "es": "av-gu-sta",
             "de": "av-gu-sta",
-            "ru": "августа"
+            "ru": "августа",
+            "it": "av-gu-sta"
           }
         },
         {
@@ -310,7 +337,8 @@
             "fr": "septembre (dans les dates)",
             "es": "septiembre (en fechas)",
             "de": "September (in Daten)",
-            "ru": "сентября"
+            "ru": "сентября",
+            "it": "September (in dates)"
           },
           "sound": {
             "en": "sen-tyab-rya",
@@ -320,7 +348,8 @@
             "fr": "sen-tyab-rya",
             "es": "sen-tyab-rya",
             "de": "sen-tyab-rya",
-            "ru": "сентября"
+            "ru": "сентября",
+            "it": "sen-tyab-rya"
           }
         },
         {
@@ -333,7 +362,8 @@
             "fr": "octobre (dans les dates)",
             "es": "octubre (en fechas)",
             "de": "Oktober (in Daten)",
-            "ru": "октября"
+            "ru": "октября",
+            "it": "October (in dates)"
           },
           "sound": {
             "en": "ok-tyab-rya",
@@ -343,7 +373,8 @@
             "fr": "ok-tyab-rya",
             "es": "ok-tyab-rya",
             "de": "ok-tyab-rya",
-            "ru": "октября"
+            "ru": "октября",
+            "it": "ok-tyab-rya"
           }
         },
         {
@@ -356,7 +387,8 @@
             "fr": "novembre (dans les dates)",
             "es": "noviembre (en fechas)",
             "de": "November (in Daten)",
-            "ru": "ноября"
+            "ru": "ноября",
+            "it": "November (in dates)"
           },
           "sound": {
             "en": "no-yab-rya",
@@ -366,7 +398,8 @@
             "fr": "no-yab-rya",
             "es": "no-yab-rya",
             "de": "no-yab-rya",
-            "ru": "ноября"
+            "ru": "ноября",
+            "it": "no-yab-rya"
           }
         },
         {
@@ -379,7 +412,8 @@
             "fr": "décembre (dans les dates)",
             "es": "diciembre (en fechas)",
             "de": "Dezember (in Daten)",
-            "ru": "декабря"
+            "ru": "декабря",
+            "it": "December (in dates)"
           },
           "sound": {
             "en": "de-kab-rya",
@@ -389,7 +423,8 @@
             "fr": "de-kab-rya",
             "es": "de-kab-rya",
             "de": "de-kab-rya",
-            "ru": "декабря"
+            "ru": "декабря",
+            "it": "de-kab-rya"
           }
         }
       ]
@@ -403,7 +438,8 @@
         "fr": "Jour du mois (ordinal neutre)",
         "es": "Día del mes (ordinal neutro)",
         "de": "Tag im Monat (Neutrum)",
-        "ru": "Число (порядковое ср. р.)"
+        "ru": "Число (порядковое ср. р.)",
+        "it": "Day of month (neuter ordinal)"
       },
       "columns": [
         {
@@ -416,7 +452,8 @@
             "fr": "Russe",
             "es": "Ruso",
             "de": "Russisch",
-            "ru": "Русский"
+            "ru": "Русский",
+            "it": "Russian"
           }
         },
         {
@@ -429,7 +466,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -442,7 +480,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -457,7 +496,8 @@
             "fr": "le 1",
             "es": "día 1",
             "de": "1.",
-            "ru": "1"
+            "ru": "1",
+            "it": "1st (of the month)"
           },
           "sound": {
             "en": "per-vo-ye",
@@ -467,7 +507,8 @@
             "fr": "per-vo-ye",
             "es": "per-vo-ye",
             "de": "per-vo-ye",
-            "ru": "первое"
+            "ru": "первое",
+            "it": "per-vo-ye"
           }
         },
         {
@@ -480,7 +521,8 @@
             "fr": "le 2",
             "es": "día 2",
             "de": "2.",
-            "ru": "2"
+            "ru": "2",
+            "it": "2nd (of the month)"
           },
           "sound": {
             "en": "vto-ro-ye",
@@ -490,7 +532,8 @@
             "fr": "vto-ro-ye",
             "es": "vto-ro-ye",
             "de": "vto-ro-ye",
-            "ru": "второе"
+            "ru": "второе",
+            "it": "vto-ro-ye"
           }
         },
         {
@@ -503,7 +546,8 @@
             "fr": "le 3",
             "es": "día 3",
             "de": "3.",
-            "ru": "3"
+            "ru": "3",
+            "it": "3rd (of the month)"
           },
           "sound": {
             "en": "tretʹ-ye",
@@ -513,7 +557,8 @@
             "fr": "tretʹ-ye",
             "es": "tretʹ-ye",
             "de": "tretʹ-ye",
-            "ru": "третье"
+            "ru": "третье",
+            "it": "tretʹ-ye"
           }
         },
         {
@@ -526,7 +571,8 @@
             "fr": "le 4",
             "es": "día 4",
             "de": "4.",
-            "ru": "4"
+            "ru": "4",
+            "it": "4th (of the month)"
           },
           "sound": {
             "en": "chet-vyor-to-ye",
@@ -536,7 +582,8 @@
             "fr": "chet-vyor-to-ye",
             "es": "chet-vyor-to-ye",
             "de": "chet-vyor-to-ye",
-            "ru": "четвёртое"
+            "ru": "четвёртое",
+            "it": "chet-vyor-to-ye"
           }
         },
         {
@@ -549,7 +596,8 @@
             "fr": "le 5",
             "es": "día 5",
             "de": "5.",
-            "ru": "5"
+            "ru": "5",
+            "it": "5th (of the month)"
           },
           "sound": {
             "en": "pya-to-ye",
@@ -559,7 +607,8 @@
             "fr": "pya-to-ye",
             "es": "pya-to-ye",
             "de": "pya-to-ye",
-            "ru": "пятое"
+            "ru": "пятое",
+            "it": "pya-to-ye"
           }
         },
         {
@@ -572,7 +621,8 @@
             "fr": "le 6",
             "es": "día 6",
             "de": "6.",
-            "ru": "6"
+            "ru": "6",
+            "it": "6th (of the month)"
           },
           "sound": {
             "en": "she-sto-ye",
@@ -582,7 +632,8 @@
             "fr": "she-sto-ye",
             "es": "she-sto-ye",
             "de": "she-sto-ye",
-            "ru": "шестое"
+            "ru": "шестое",
+            "it": "she-sto-ye"
           }
         },
         {
@@ -595,7 +646,8 @@
             "fr": "le 7",
             "es": "día 7",
             "de": "7.",
-            "ru": "7"
+            "ru": "7",
+            "it": "7th (of the month)"
           },
           "sound": {
             "en": "sedʹ-mo-ye",
@@ -605,7 +657,8 @@
             "fr": "sedʹ-mo-ye",
             "es": "sedʹ-mo-ye",
             "de": "sedʹ-mo-ye",
-            "ru": "седьмое"
+            "ru": "седьмое",
+            "it": "sedʹ-mo-ye"
           }
         },
         {
@@ -618,7 +671,8 @@
             "fr": "le 8",
             "es": "día 8",
             "de": "8.",
-            "ru": "8"
+            "ru": "8",
+            "it": "8th (of the month)"
           },
           "sound": {
             "en": "vosʹ-mo-ye",
@@ -628,7 +682,8 @@
             "fr": "vosʹ-mo-ye",
             "es": "vosʹ-mo-ye",
             "de": "vosʹ-mo-ye",
-            "ru": "восьмое"
+            "ru": "восьмое",
+            "it": "vosʹ-mo-ye"
           }
         },
         {
@@ -641,7 +696,8 @@
             "fr": "le 9",
             "es": "día 9",
             "de": "9.",
-            "ru": "9"
+            "ru": "9",
+            "it": "9th (of the month)"
           },
           "sound": {
             "en": "de-vya-to-ye",
@@ -651,7 +707,8 @@
             "fr": "de-vya-to-ye",
             "es": "de-vya-to-ye",
             "de": "de-vya-to-ye",
-            "ru": "девятое"
+            "ru": "девятое",
+            "it": "de-vya-to-ye"
           }
         },
         {
@@ -664,7 +721,8 @@
             "fr": "le 10",
             "es": "día 10",
             "de": "10.",
-            "ru": "10"
+            "ru": "10",
+            "it": "10th (of the month)"
           },
           "sound": {
             "en": "de-sya-to-ye",
@@ -674,7 +732,8 @@
             "fr": "de-sya-to-ye",
             "es": "de-sya-to-ye",
             "de": "de-sya-to-ye",
-            "ru": "десятое"
+            "ru": "десятое",
+            "it": "de-sya-to-ye"
           }
         },
         {
@@ -687,7 +746,8 @@
             "fr": "le 11",
             "es": "día 11",
             "de": "11.",
-            "ru": "11"
+            "ru": "11",
+            "it": "11th (of the month)"
           },
           "sound": {
             "en": "o-di-nna-tsa-to-ye",
@@ -697,7 +757,8 @@
             "fr": "o-di-nna-tsa-to-ye",
             "es": "o-di-nna-tsa-to-ye",
             "de": "o-di-nna-tsa-to-ye",
-            "ru": "одиннадцатое"
+            "ru": "одиннадцатое",
+            "it": "o-di-nna-tsa-to-ye"
           }
         },
         {
@@ -710,7 +771,8 @@
             "fr": "le 12",
             "es": "día 12",
             "de": "12.",
-            "ru": "12"
+            "ru": "12",
+            "it": "12th (of the month)"
           },
           "sound": {
             "en": "dve-na-tsa-to-ye",
@@ -720,7 +782,8 @@
             "fr": "dve-na-tsa-to-ye",
             "es": "dve-na-tsa-to-ye",
             "de": "dve-na-tsa-to-ye",
-            "ru": "двенадцатое"
+            "ru": "двенадцатое",
+            "it": "dve-na-tsa-to-ye"
           }
         },
         {
@@ -733,7 +796,8 @@
             "fr": "le 13",
             "es": "día 13",
             "de": "13.",
-            "ru": "13"
+            "ru": "13",
+            "it": "13th (of the month)"
           },
           "sound": {
             "en": "tri-na-tsa-to-ye",
@@ -743,7 +807,8 @@
             "fr": "tri-na-tsa-to-ye",
             "es": "tri-na-tsa-to-ye",
             "de": "tri-na-tsa-to-ye",
-            "ru": "тринадцатое"
+            "ru": "тринадцатое",
+            "it": "tri-na-tsa-to-ye"
           }
         },
         {
@@ -756,7 +821,8 @@
             "fr": "le 14",
             "es": "día 14",
             "de": "14.",
-            "ru": "14"
+            "ru": "14",
+            "it": "14th (of the month)"
           },
           "sound": {
             "en": "che-tyr-na-tsa-to-ye",
@@ -766,7 +832,8 @@
             "fr": "che-tyr-na-tsa-to-ye",
             "es": "che-tyr-na-tsa-to-ye",
             "de": "che-tyr-na-tsa-to-ye",
-            "ru": "четырнадцатое"
+            "ru": "четырнадцатое",
+            "it": "che-tyr-na-tsa-to-ye"
           }
         },
         {
@@ -779,7 +846,8 @@
             "fr": "le 15",
             "es": "día 15",
             "de": "15.",
-            "ru": "15"
+            "ru": "15",
+            "it": "15th (of the month)"
           },
           "sound": {
             "en": "pyat-na-tsa-to-ye",
@@ -789,7 +857,8 @@
             "fr": "pyat-na-tsa-to-ye",
             "es": "pyat-na-tsa-to-ye",
             "de": "pyat-na-tsa-to-ye",
-            "ru": "пятнадцатое"
+            "ru": "пятнадцатое",
+            "it": "pyat-na-tsa-to-ye"
           }
         },
         {
@@ -802,7 +871,8 @@
             "fr": "le 16",
             "es": "día 16",
             "de": "16.",
-            "ru": "16"
+            "ru": "16",
+            "it": "16th (of the month)"
           },
           "sound": {
             "en": "shest-na-tsa-to-ye",
@@ -812,7 +882,8 @@
             "fr": "shest-na-tsa-to-ye",
             "es": "shest-na-tsa-to-ye",
             "de": "shest-na-tsa-to-ye",
-            "ru": "шестнадцатое"
+            "ru": "шестнадцатое",
+            "it": "shest-na-tsa-to-ye"
           }
         },
         {
@@ -825,7 +896,8 @@
             "fr": "le 17",
             "es": "día 17",
             "de": "17.",
-            "ru": "17"
+            "ru": "17",
+            "it": "17th (of the month)"
           },
           "sound": {
             "en": "sem-na-tsa-to-ye",
@@ -835,7 +907,8 @@
             "fr": "sem-na-tsa-to-ye",
             "es": "sem-na-tsa-to-ye",
             "de": "sem-na-tsa-to-ye",
-            "ru": "семнадцатое"
+            "ru": "семнадцатое",
+            "it": "sem-na-tsa-to-ye"
           }
         },
         {
@@ -848,7 +921,8 @@
             "fr": "le 18",
             "es": "día 18",
             "de": "18.",
-            "ru": "18"
+            "ru": "18",
+            "it": "18th (of the month)"
           },
           "sound": {
             "en": "vo-sem-na-tsa-to-ye",
@@ -858,7 +932,8 @@
             "fr": "vo-sem-na-tsa-to-ye",
             "es": "vo-sem-na-tsa-to-ye",
             "de": "vo-sem-na-tsa-to-ye",
-            "ru": "восемнадцатое"
+            "ru": "восемнадцатое",
+            "it": "vo-sem-na-tsa-to-ye"
           }
         },
         {
@@ -871,7 +946,8 @@
             "fr": "le 19",
             "es": "día 19",
             "de": "19.",
-            "ru": "19"
+            "ru": "19",
+            "it": "19th (of the month)"
           },
           "sound": {
             "en": "de-vyat-na-tsa-to-ye",
@@ -881,7 +957,8 @@
             "fr": "de-vyat-na-tsa-to-ye",
             "es": "de-vyat-na-tsa-to-ye",
             "de": "de-vyat-na-tsa-to-ye",
-            "ru": "девятнадцатое"
+            "ru": "девятнадцатое",
+            "it": "de-vyat-na-tsa-to-ye"
           }
         },
         {
@@ -894,7 +971,8 @@
             "fr": "le 20",
             "es": "día 20",
             "de": "20.",
-            "ru": "20"
+            "ru": "20",
+            "it": "20th (of the month)"
           },
           "sound": {
             "en": "dva-tsa-to-ye",
@@ -904,7 +982,8 @@
             "fr": "dva-tsa-to-ye",
             "es": "dva-tsa-to-ye",
             "de": "dva-tsa-to-ye",
-            "ru": "двадцатое"
+            "ru": "двадцатое",
+            "it": "dva-tsa-to-ye"
           }
         },
         {
@@ -917,7 +996,8 @@
             "fr": "le 21",
             "es": "día 21",
             "de": "21.",
-            "ru": "21"
+            "ru": "21",
+            "it": "21th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ per-vo-ye",
@@ -927,7 +1007,8 @@
             "fr": "dva-tsatʹ per-vo-ye",
             "es": "dva-tsatʹ per-vo-ye",
             "de": "dva-tsatʹ per-vo-ye",
-            "ru": "двадцать первое"
+            "ru": "двадцать первое",
+            "it": "dva-tsatʹ per-vo-ye"
           }
         },
         {
@@ -940,7 +1021,8 @@
             "fr": "le 22",
             "es": "día 22",
             "de": "22.",
-            "ru": "22"
+            "ru": "22",
+            "it": "22th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ vto-ro-ye",
@@ -950,7 +1032,8 @@
             "fr": "dva-tsatʹ vto-ro-ye",
             "es": "dva-tsatʹ vto-ro-ye",
             "de": "dva-tsatʹ vto-ro-ye",
-            "ru": "двадцать второе"
+            "ru": "двадцать второе",
+            "it": "dva-tsatʹ vto-ro-ye"
           }
         },
         {
@@ -963,7 +1046,8 @@
             "fr": "le 23",
             "es": "día 23",
             "de": "23.",
-            "ru": "23"
+            "ru": "23",
+            "it": "23th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ tretʹ-ye",
@@ -973,7 +1057,8 @@
             "fr": "dva-tsatʹ tretʹ-ye",
             "es": "dva-tsatʹ tretʹ-ye",
             "de": "dva-tsatʹ tretʹ-ye",
-            "ru": "двадцать третье"
+            "ru": "двадцать третье",
+            "it": "dva-tsatʹ tretʹ-ye"
           }
         },
         {
@@ -986,7 +1071,8 @@
             "fr": "le 24",
             "es": "día 24",
             "de": "24.",
-            "ru": "24"
+            "ru": "24",
+            "it": "24th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ chet-vyor-to-ye",
@@ -996,7 +1082,8 @@
             "fr": "dva-tsatʹ chet-vyor-to-ye",
             "es": "dva-tsatʹ chet-vyor-to-ye",
             "de": "dva-tsatʹ chet-vyor-to-ye",
-            "ru": "двадцать четвёртое"
+            "ru": "двадцать четвёртое",
+            "it": "dva-tsatʹ chet-vyor-to-ye"
           }
         },
         {
@@ -1009,7 +1096,8 @@
             "fr": "le 25",
             "es": "día 25",
             "de": "25.",
-            "ru": "25"
+            "ru": "25",
+            "it": "25th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ pya-to-ye",
@@ -1019,7 +1107,8 @@
             "fr": "dva-tsatʹ pya-to-ye",
             "es": "dva-tsatʹ pya-to-ye",
             "de": "dva-tsatʹ pya-to-ye",
-            "ru": "двадцать пятое"
+            "ru": "двадцать пятое",
+            "it": "dva-tsatʹ pya-to-ye"
           }
         },
         {
@@ -1032,7 +1121,8 @@
             "fr": "le 26",
             "es": "día 26",
             "de": "26.",
-            "ru": "26"
+            "ru": "26",
+            "it": "26th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ she-sto-ye",
@@ -1042,7 +1132,8 @@
             "fr": "dva-tsatʹ she-sto-ye",
             "es": "dva-tsatʹ she-sto-ye",
             "de": "dva-tsatʹ she-sto-ye",
-            "ru": "двадцать шестое"
+            "ru": "двадцать шестое",
+            "it": "dva-tsatʹ she-sto-ye"
           }
         },
         {
@@ -1055,7 +1146,8 @@
             "fr": "le 27",
             "es": "día 27",
             "de": "27.",
-            "ru": "27"
+            "ru": "27",
+            "it": "27th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ sedʹ-mo-ye",
@@ -1065,7 +1157,8 @@
             "fr": "dva-tsatʹ sedʹ-mo-ye",
             "es": "dva-tsatʹ sedʹ-mo-ye",
             "de": "dva-tsatʹ sedʹ-mo-ye",
-            "ru": "двадцать седьмое"
+            "ru": "двадцать седьмое",
+            "it": "dva-tsatʹ sedʹ-mo-ye"
           }
         },
         {
@@ -1078,7 +1171,8 @@
             "fr": "le 28",
             "es": "día 28",
             "de": "28.",
-            "ru": "28"
+            "ru": "28",
+            "it": "28th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ vosʹ-mo-ye",
@@ -1088,7 +1182,8 @@
             "fr": "dva-tsatʹ vosʹ-mo-ye",
             "es": "dva-tsatʹ vosʹ-mo-ye",
             "de": "dva-tsatʹ vosʹ-mo-ye",
-            "ru": "двадцать восьмое"
+            "ru": "двадцать восьмое",
+            "it": "dva-tsatʹ vosʹ-mo-ye"
           }
         },
         {
@@ -1101,7 +1196,8 @@
             "fr": "le 29",
             "es": "día 29",
             "de": "29.",
-            "ru": "29"
+            "ru": "29",
+            "it": "29th (of the month)"
           },
           "sound": {
             "en": "dva-tsatʹ de-vya-to-ye",
@@ -1111,7 +1207,8 @@
             "fr": "dva-tsatʹ de-vya-to-ye",
             "es": "dva-tsatʹ de-vya-to-ye",
             "de": "dva-tsatʹ de-vya-to-ye",
-            "ru": "двадцать девятое"
+            "ru": "двадцать девятое",
+            "it": "dva-tsatʹ de-vya-to-ye"
           }
         },
         {
@@ -1124,7 +1221,8 @@
             "fr": "le 30",
             "es": "día 30",
             "de": "30.",
-            "ru": "30"
+            "ru": "30",
+            "it": "30th (of the month)"
           },
           "sound": {
             "en": "tri-tsa-to-ye",
@@ -1134,7 +1232,8 @@
             "fr": "tri-tsa-to-ye",
             "es": "tri-tsa-to-ye",
             "de": "tri-tsa-to-ye",
-            "ru": "тридцатое"
+            "ru": "тридцатое",
+            "it": "tri-tsa-to-ye"
           }
         },
         {
@@ -1147,7 +1246,8 @@
             "fr": "le 31",
             "es": "día 31",
             "de": "31.",
-            "ru": "31"
+            "ru": "31",
+            "it": "31th (of the month)"
           },
           "sound": {
             "en": "tri-tsatʹ per-vo-ye",
@@ -1157,7 +1257,8 @@
             "fr": "tri-tsatʹ per-vo-ye",
             "es": "tri-tsatʹ per-vo-ye",
             "de": "tri-tsatʹ per-vo-ye",
-            "ru": "тридцать первое"
+            "ru": "тридцать первое",
+            "it": "tri-tsatʹ per-vo-ye"
           }
         }
       ]

@@ -1,5 +1,5 @@
 /** ISO-like codes used across the app */
-export type LangCode = 'ko' | 'zh' | 'ja' | 'fr' | 'es' | 'de' | 'ru' | 'en'
+export type LangCode = 'ko' | 'zh' | 'ja' | 'fr' | 'es' | 'de' | 'it' | 'ru' | 'en'
 
 export type TargetLangCode = Exclude<LangCode, 'en'>
 

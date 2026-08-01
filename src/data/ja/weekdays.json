@@ -9,7 +9,8 @@
       "fr": "ototoi",
       "es": "ototoi",
       "de": "ototoi",
-      "ru": "ототои"
+      "ru": "ототои",
+      "it": "ototoi"
     },
     "translations": {
       "en": "the day before yesterday",
@@ -19,7 +20,8 @@
       "de": "vorgestern",
       "ru": "позавчера",
       "ko": "그저께",
-      "ja": "一昨日"
+      "ja": "一昨日",
+      "it": "the day before yesterday"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "kinou",
       "es": "kinou",
       "de": "kinou",
-      "ru": "кино:"
+      "ru": "кино:",
+      "it": "kinou"
     },
     "translations": {
       "en": "yesterday",
@@ -42,7 +45,8 @@
       "de": "gestern",
       "ru": "вчера",
       "ko": "어제",
-      "ja": "昨日"
+      "ja": "昨日",
+      "it": "yesterday"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "kyou",
       "es": "kyou",
       "de": "kyou",
-      "ru": "кё:"
+      "ru": "кё:",
+      "it": "kyou"
     },
     "translations": {
       "en": "today",
@@ -65,7 +70,8 @@
       "de": "heute",
       "ru": "сегодня",
       "ko": "오늘",
-      "ja": "今日"
+      "ja": "今日",
+      "it": "today"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "ashita",
       "es": "ashita",
       "de": "ashita",
-      "ru": "асита"
+      "ru": "асита",
+      "it": "ashita"
     },
     "translations": {
       "en": "tomorrow",
@@ -88,7 +95,8 @@
       "de": "morgen (Tag)",
       "ru": "завтра",
       "ko": "내일",
-      "ja": "明日"
+      "ja": "明日",
+      "it": "tomorrow"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "asatte",
       "es": "asatte",
       "de": "asatte",
-      "ru": "асаттэ"
+      "ru": "асаттэ",
+      "it": "asatte"
     },
     "translations": {
       "en": "the day after tomorrow",
@@ -111,7 +120,8 @@
       "de": "übermorgen",
       "ru": "послезавтра",
       "ko": "모레",
-      "ja": "明後日"
+      "ja": "明後日",
+      "it": "the day after tomorrow"
     }
   },
   {
@@ -124,7 +134,8 @@
       "fr": "getsu-you-bi",
       "es": "getsu-you-bi",
       "de": "getsu-you-bi",
-      "ru": "гэцу-ё:-би"
+      "ru": "гэцу-ё:-би",
+      "it": "getsu-you-bi"
     },
     "translations": {
       "en": "Monday",
@@ -134,7 +145,8 @@
       "de": "Montag",
       "ru": "понедельник",
       "ko": "월요일",
-      "ja": "月曜日"
+      "ja": "月曜日",
+      "it": "Monday"
     }
   },
   {
@@ -147,7 +159,8 @@
       "fr": "ka-you-bi",
       "es": "ka-you-bi",
       "de": "ka-you-bi",
-      "ru": "ка-ё:-би"
+      "ru": "ка-ё:-би",
+      "it": "ka-you-bi"
     },
     "translations": {
       "en": "Tuesday",
@@ -157,7 +170,8 @@
       "de": "Dienstag",
       "ru": "вторник",
       "ko": "화요일",
-      "ja": "火曜日"
+      "ja": "火曜日",
+      "it": "Tuesday"
     }
   },
   {
@@ -170,7 +184,8 @@
       "fr": "sui-you-bi",
       "es": "sui-you-bi",
       "de": "sui-you-bi",
-      "ru": "суи-ё:-би"
+      "ru": "суи-ё:-би",
+      "it": "sui-you-bi"
     },
     "translations": {
       "en": "Wednesday",
@@ -180,7 +195,8 @@
       "de": "Mittwoch",
       "ru": "среда",
       "ko": "수요일",
-      "ja": "水曜日"
+      "ja": "水曜日",
+      "it": "Wednesday"
     }
   },
   {
@@ -193,7 +209,8 @@
       "fr": "moku-you-bi",
       "es": "moku-you-bi",
       "de": "moku-you-bi",
-      "ru": "моку-ё:-би"
+      "ru": "моку-ё:-би",
+      "it": "moku-you-bi"
     },
     "translations": {
       "en": "Thursday",
@@ -203,7 +220,8 @@
       "de": "Donnerstag",
       "ru": "четверг",
       "ko": "목요일",
-      "ja": "木曜日"
+      "ja": "木曜日",
+      "it": "Thursday"
     }
   },
   {
@@ -216,7 +234,8 @@
       "fr": "kin-you-bi",
       "es": "kin-you-bi",
       "de": "kin-you-bi",
-      "ru": "кин-ё:-би"
+      "ru": "кин-ё:-би",
+      "it": "kin-you-bi"
     },
     "translations": {
       "en": "Friday",
@@ -226,7 +245,8 @@
       "de": "Freitag",
       "ru": "пятница",
       "ko": "금요일",
-      "ja": "金曜日"
+      "ja": "金曜日",
+      "it": "Friday"
     }
   },
   {
@@ -239,7 +259,8 @@
       "fr": "do-you-bi",
       "es": "do-you-bi",
       "de": "do-you-bi",
-      "ru": "до-ё:-би"
+      "ru": "до-ё:-би",
+      "it": "do-you-bi"
     },
     "translations": {
       "en": "Saturday",
@@ -249,7 +270,8 @@
       "de": "Samstag",
       "ru": "суббота",
       "ko": "토요일",
-      "ja": "土曜日"
+      "ja": "土曜日",
+      "it": "Saturday"
     }
   },
   {
@@ -262,7 +284,8 @@
       "fr": "nichi-you-bi",
       "es": "nichi-you-bi",
       "de": "nichi-you-bi",
-      "ru": "нити-ё:-би"
+      "ru": "нити-ё:-би",
+      "it": "nichi-you-bi"
     },
     "translations": {
       "en": "Sunday",
@@ -272,7 +295,8 @@
       "de": "Sonntag",
       "ru": "воскресенье",
       "ko": "일요일",
-      "ja": "日曜日"
+      "ja": "日曜日",
+      "it": "Sunday"
     }
   },
   {
@@ -285,7 +309,8 @@
       "fr": "kon-shuu",
       "es": "kon-shuu",
       "de": "kon-shuu",
-      "ru": "кон-сю:"
+      "ru": "кон-сю:",
+      "it": "kon-shuu"
     },
     "translations": {
       "en": "this week",
@@ -295,7 +320,8 @@
       "de": "diese Woche",
       "ru": "на этой неделе",
       "ko": "이번 주",
-      "ja": "今週"
+      "ja": "今週",
+      "it": "this week"
     }
   },
   {
@@ -308,7 +334,8 @@
       "fr": "sen-shuu",
       "es": "sen-shuu",
       "de": "sen-shuu",
-      "ru": "сэн-сю:"
+      "ru": "сэн-сю:",
+      "it": "sen-shuu"
     },
     "translations": {
       "en": "last week",
@@ -318,7 +345,8 @@
       "de": "letzte Woche",
       "ru": "на прошлой неделе",
       "ko": "지난주",
-      "ja": "先週"
+      "ja": "先週",
+      "it": "last week"
     }
   },
   {
@@ -331,7 +359,8 @@
       "fr": "rai-shuu",
       "es": "rai-shuu",
       "de": "rai-shuu",
-      "ru": "рай-сю:"
+      "ru": "рай-сю:",
+      "it": "rai-shuu"
     },
     "translations": {
       "en": "next week",
@@ -341,7 +370,8 @@
       "de": "nächste Woche",
       "ru": "на следующей неделе",
       "ko": "다음 주",
-      "ja": "来週"
+      "ja": "来週",
+      "it": "next week"
     }
   }
 ]

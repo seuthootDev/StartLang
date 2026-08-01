@@ -10,7 +10,8 @@
       "es": "nyeon",
       "de": "nyeon",
       "ru": "нён",
-      "ko": "년 / 연"
+      "ko": "년 / 연",
+      "it": "nyeon / yeon"
     },
     "translations": {
       "en": "year (년/연 after a number)",
@@ -20,7 +21,8 @@
       "de": "Jahr (년/연 nach einer Zahl)",
       "ru": "год (년/연 после числа)",
       "ko": "년 / 연",
-      "ja": "年（년／연・数字のあと）"
+      "ja": "年（년／연・数字のあと）",
+      "it": "year (년/연 after a number)"
     }
   },
   {
@@ -34,7 +36,8 @@
       "es": "wol",
       "de": "wol",
       "ru": "воль",
-      "ko": "월"
+      "ko": "월",
+      "it": "wol"
     },
     "translations": {
       "en": "month (after a number)",
@@ -44,7 +47,8 @@
       "de": "Monat (nach einer Zahl)",
       "ru": "месяц (после числа)",
       "ko": "월",
-      "ja": "月（数字のあと）"
+      "ja": "月（数字のあと）",
+      "it": "month (after a number)"
     }
   },
   {
@@ -58,7 +62,8 @@
       "es": "il",
       "de": "il",
       "ru": "иль",
-      "ko": "일"
+      "ko": "일",
+      "it": "il"
     },
     "translations": {
       "en": "day of the month (after a number)",
@@ -68,7 +73,8 @@
       "de": "Tag im Monat (nach einer Zahl)",
       "ru": "число месяца (после числа)",
       "ko": "일",
-      "ja": "日（数字のあと・日付）"
+      "ja": "日（数字のあと・日付）",
+      "it": "day of the month (after a number)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "es": "myeo-chil",
       "de": "myeo-chil",
       "ru": "мё-чиль",
-      "ko": "며칠"
+      "ko": "며칠",
+      "it": "myeo-chil"
     },
     "translations": {
       "en": "what day (of the month)",
@@ -92,7 +99,8 @@
       "de": "welcher Tag (im Monat)",
       "ru": "какое число",
       "ko": "며칠",
-      "ja": "何日"
+      "ja": "何日",
+      "it": "what day (of the month)"
     }
   },
   {
@@ -106,7 +114,8 @@
       "es": "il-il",
       "de": "il-il",
       "ru": "il-il",
-      "ko": "일일"
+      "ko": "일일",
+      "it": "il-il"
     },
     "translations": {
       "en": "1st (of the month)",
@@ -116,7 +125,8 @@
       "fr": "le 1 (du mois)",
       "es": "el día 1",
       "de": "1. (des Monats)",
-      "ru": "1-е (число)"
+      "ru": "1-е (число)",
+      "it": "1st (of the month)"
     }
   },
   {
@@ -130,7 +140,8 @@
       "es": "o-il",
       "de": "o-il",
       "ru": "o-il",
-      "ko": "오일"
+      "ko": "오일",
+      "it": "o-il"
     },
     "translations": {
       "en": "5th (of the month)",
@@ -140,7 +151,8 @@
       "fr": "le 5 (du mois)",
       "es": "el día 5",
       "de": "5. (des Monats)",
-      "ru": "5-е (число)"
+      "ru": "5-е (число)",
+      "it": "5th (of the month)"
     }
   },
   {
@@ -154,7 +166,8 @@
       "es": "sip-il",
       "de": "sip-il",
       "ru": "sip-il",
-      "ko": "십일"
+      "ko": "십일",
+      "it": "sip-il"
     },
     "translations": {
       "en": "10th (of the month)",
@@ -164,7 +177,8 @@
       "fr": "le 10 (du mois)",
       "es": "el día 10",
       "de": "10. (des Monats)",
-      "ru": "10-е (число)"
+      "ru": "10-е (число)",
+      "it": "10th (of the month)"
     }
   },
   {
@@ -178,7 +192,8 @@
       "es": "i-sip-il",
       "de": "i-sip-il",
       "ru": "i-sip-il",
-      "ko": "이십일"
+      "ko": "이십일",
+      "it": "i-sip-il"
     },
     "translations": {
       "en": "20th (of the month)",
@@ -188,7 +203,8 @@
       "fr": "le 20 (du mois)",
       "es": "el día 20",
       "de": "20. (des Monats)",
-      "ru": "20-е (число)"
+      "ru": "20-е (число)",
+      "it": "20th (of the month)"
     }
   }
 ]

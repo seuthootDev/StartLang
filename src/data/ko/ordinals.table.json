@@ -8,7 +8,8 @@
     "fr": "Nombres ordinaux",
     "es": "Números ordinales",
     "de": "Ordinalzahlen",
-    "ru": "Порядковые числительные"
+    "ru": "Порядковые числительные",
+    "it": "Ordinal numbers"
   },
   "note": {
     "en": "Native Korean number + 번째.",
@@ -18,7 +19,8 @@
     "fr": "Nombre natif + 번째.",
     "es": "Número nativo + 번째.",
     "de": "Native Zahl + 번째.",
-    "ru": "Собственное число + 번째."
+    "ru": "Собственное число + 번째.",
+    "it": "Native Korean number + 번째."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Coréen",
         "es": "Coreano",
         "de": "Koreanisch",
-        "ru": "Корейский"
+        "ru": "Корейский",
+        "it": "Korean"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -72,7 +77,8 @@
         "de": "erste",
         "ru": "первый",
         "ko": "첫 번째",
-        "ja": "第一"
+        "ja": "第一",
+        "it": "first"
       },
       "sound": {
         "en": "cheot beon-jjae",
@@ -82,7 +88,8 @@
         "es": "cheot beon-jjae",
         "de": "cheot beon-jjae",
         "ru": "чот пон-ччэ",
-        "ko": "첫 번째"
+        "ko": "첫 번째",
+        "it": "cheot beon-jjae"
       }
     },
     {
@@ -95,7 +102,8 @@
         "de": "zweite",
         "ru": "второй",
         "ko": "두 번째",
-        "ja": "第二"
+        "ja": "第二",
+        "it": "second"
       },
       "sound": {
         "en": "du beon-jjae",
@@ -105,7 +113,8 @@
         "es": "du beon-jjae",
         "de": "du beon-jjae",
         "ru": "ту пон-ччэ",
-        "ko": "두 번째"
+        "ko": "두 번째",
+        "it": "du beon-jjae"
       }
     },
     {
@@ -118,7 +127,8 @@
         "de": "dritte",
         "ru": "третий",
         "ko": "세 번째",
-        "ja": "第三"
+        "ja": "第三",
+        "it": "third"
       },
       "sound": {
         "en": "se beon-jjae",
@@ -128,7 +138,8 @@
         "es": "se beon-jjae",
         "de": "se beon-jjae",
         "ru": "се пон-ччэ",
-        "ko": "세 번째"
+        "ko": "세 번째",
+        "it": "se beon-jjae"
       }
     },
     {
@@ -141,7 +152,8 @@
         "de": "vierte",
         "ru": "четвёртый",
         "ko": "네 번째",
-        "ja": "第四"
+        "ja": "第四",
+        "it": "fourth"
       },
       "sound": {
         "en": "ne beon-jjae",
@@ -151,7 +163,8 @@
         "es": "ne beon-jjae",
         "de": "ne beon-jjae",
         "ru": "не пон-ччэ",
-        "ko": "네 번째"
+        "ko": "네 번째",
+        "it": "ne beon-jjae"
       }
     },
     {
@@ -164,7 +177,8 @@
         "de": "fünfte",
         "ru": "пятый",
         "ko": "다섯 번째",
-        "ja": "第五"
+        "ja": "第五",
+        "it": "fifth"
       },
       "sound": {
         "en": "da-seot beon-jjae",
@@ -174,7 +188,8 @@
         "es": "da-seot beon-jjae",
         "de": "da-seot beon-jjae",
         "ru": "та-сот пон-ччэ",
-        "ko": "다섯 번째"
+        "ko": "다섯 번째",
+        "it": "da-seot beon-jjae"
       }
     }
   ]

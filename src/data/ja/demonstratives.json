@@ -10,7 +10,8 @@
       "es": "kore",
       "de": "kore",
       "ru": "корэ",
-      "ja": "これ"
+      "ja": "これ",
+      "it": "kore"
     },
     "translations": {
       "en": "this (thing near me)",
@@ -20,7 +21,8 @@
       "de": "dies (bei mir)",
       "ru": "это (рядом со мной)",
       "ko": "이것",
-      "ja": "これ"
+      "ja": "これ",
+      "it": "this (thing near me)"
     }
   },
   {
@@ -34,7 +36,8 @@
       "es": "sore",
       "de": "sore",
       "ru": "сорэ",
-      "ja": "それ"
+      "ja": "それ",
+      "it": "sore"
     },
     "translations": {
       "en": "that (thing near you / known)",
@@ -44,7 +47,8 @@
       "de": "das (bei dir / bekannt)",
       "ru": "то (у тебя / известное)",
       "ko": "그것",
-      "ja": "それ"
+      "ja": "それ",
+      "it": "that (thing near you / known)"
     }
   },
   {
@@ -58,7 +62,8 @@
       "es": "are",
       "de": "are",
       "ru": "арэ",
-      "ja": "あれ"
+      "ja": "あれ",
+      "it": "are"
     },
     "translations": {
       "en": "that (thing over there)",
@@ -68,7 +73,8 @@
       "de": "jenes (dort drüben)",
       "ru": "то (вон там)",
       "ko": "저것",
-      "ja": "あれ"
+      "ja": "あれ",
+      "it": "that (thing over there)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "es": "kono",
       "de": "kono",
       "ru": "коно",
-      "ja": "この"
+      "ja": "この",
+      "it": "kono"
     },
     "translations": {
       "en": "this (+ noun, near me)",
@@ -92,7 +99,8 @@
       "de": "dies- (+ Nomen, bei mir)",
       "ru": "этот (+ сущ., рядом со мной)",
       "ko": "이 (+ 명사)",
-      "ja": "この"
+      "ja": "この",
+      "it": "this (+ noun, near me)"
     }
   },
   {
@@ -106,7 +114,8 @@
       "es": "sono",
       "de": "sono",
       "ru": "соно",
-      "ja": "その"
+      "ja": "その",
+      "it": "sono"
     },
     "translations": {
       "en": "that (+ noun, near you / known)",
@@ -116,7 +125,8 @@
       "de": "jen- (+ Nomen, bei dir / bekannt)",
       "ru": "тот (+ сущ., у тебя / известный)",
       "ko": "그 (+ 명사)",
-      "ja": "その"
+      "ja": "その",
+      "it": "that (+ noun, near you / known)"
     }
   },
   {
@@ -130,7 +140,8 @@
       "es": "ano",
       "de": "ano",
       "ru": "ано",
-      "ja": "あの"
+      "ja": "あの",
+      "it": "ano"
     },
     "translations": {
       "en": "that (+ noun, over there)",
@@ -140,7 +151,8 @@
       "de": "jen- (+ Nomen, dort drüben)",
       "ru": "тот (+ сущ., вон там)",
       "ko": "저 (+ 명사)",
-      "ja": "あの"
+      "ja": "あの",
+      "it": "that (+ noun, over there)"
     }
   },
   {
@@ -154,7 +166,8 @@
       "es": "koko",
       "de": "koko",
       "ru": "коко",
-      "ja": "ここ"
+      "ja": "ここ",
+      "it": "koko"
     },
     "translations": {
       "en": "here",
@@ -164,7 +177,8 @@
       "de": "hier",
       "ru": "здесь",
       "ko": "여기",
-      "ja": "ここ"
+      "ja": "ここ",
+      "it": "here"
     }
   },
   {
@@ -178,7 +192,8 @@
       "es": "soko",
       "de": "soko",
       "ru": "соко",
-      "ja": "そこ"
+      "ja": "そこ",
+      "it": "soko"
     },
     "translations": {
       "en": "there (near you / known place)",
@@ -188,7 +203,8 @@
       "de": "da (bei dir / bekannter Ort)",
       "ru": "там (у тебя / известное место)",
       "ko": "거기",
-      "ja": "そこ"
+      "ja": "そこ",
+      "it": "there (near you / known place)"
     }
   },
   {
@@ -202,7 +218,8 @@
       "es": "a-soko",
       "de": "a-soko",
       "ru": "а-соко",
-      "ja": "あそこ"
+      "ja": "あそこ",
+      "it": "a-soko"
     },
     "translations": {
       "en": "over there",
@@ -212,7 +229,8 @@
       "de": "dort drüben",
       "ru": "вон там",
       "ko": "저기",
-      "ja": "あそこ"
+      "ja": "あそこ",
+      "it": "over there"
     }
   },
   {
@@ -226,7 +244,8 @@
       "es": "kochira",
       "de": "kochira",
       "ru": "котира",
-      "ja": "こちら"
+      "ja": "こちら",
+      "it": "kochira"
     },
     "translations": {
       "en": "this way / this side (polite)",
@@ -236,7 +255,8 @@
       "de": "hierher (höflich)",
       "ru": "сюда / эта сторона (вежл.)",
       "ko": "이쪽 (공손)",
-      "ja": "こちら"
+      "ja": "こちら",
+      "it": "this way / this side (polite)"
     }
   },
   {
@@ -250,7 +270,8 @@
       "es": "sochira",
       "de": "sochira",
       "ru": "сотира",
-      "ja": "そちら"
+      "ja": "そちら",
+      "it": "sochira"
     },
     "translations": {
       "en": "that way / your side (polite)",
@@ -260,7 +281,8 @@
       "de": "dorthin / Ihre Seite (höflich)",
       "ru": "туда / ваша сторона (вежл.)",
       "ko": "그쪽 (공손)",
-      "ja": "そちら"
+      "ja": "そちら",
+      "it": "that way / your side (polite)"
     }
   },
   {
@@ -274,7 +296,8 @@
       "es": "achira",
       "de": "achira",
       "ru": "атира",
-      "ja": "あちら"
+      "ja": "あちら",
+      "it": "achira"
     },
     "translations": {
       "en": "that way over there (polite)",
@@ -284,7 +307,8 @@
       "de": "dort hinüber (höflich)",
       "ru": "в ту сторону (вежл.)",
       "ko": "저쪽 (공손)",
-      "ja": "あちら"
+      "ja": "あちら",
+      "it": "that way over there (polite)"
     }
   },
   {
@@ -298,7 +322,8 @@
       "es": "mae",
       "de": "mae",
       "ru": "маэ",
-      "ja": "まえ"
+      "ja": "まえ",
+      "it": "mae"
     },
     "translations": {
       "en": "front / ahead",
@@ -308,7 +333,8 @@
       "de": "vorne / Vorderseite",
       "ru": "перед / впереди",
       "ko": "앞",
-      "ja": "前"
+      "ja": "前",
+      "it": "front / ahead"
     }
   },
   {
@@ -322,7 +348,8 @@
       "es": "ushiro",
       "de": "ushiro",
       "ru": "усиро",
-      "ja": "うしろ"
+      "ja": "うしろ",
+      "it": "ushiro"
     },
     "translations": {
       "en": "back / behind",
@@ -332,7 +359,8 @@
       "de": "hinten / Rückseite",
       "ru": "зад / сзади",
       "ko": "뒤",
-      "ja": "後ろ"
+      "ja": "後ろ",
+      "it": "back / behind"
     }
   },
   {
@@ -346,7 +374,8 @@
       "es": "ue",
       "de": "ue",
       "ru": "уэ",
-      "ja": "うえ"
+      "ja": "うえ",
+      "it": "ue"
     },
     "translations": {
       "en": "above / on top",
@@ -356,7 +385,8 @@
       "de": "oben / auf",
       "ru": "верх / на",
       "ko": "위",
-      "ja": "上"
+      "ja": "上",
+      "it": "above / on top"
     }
   },
   {
@@ -370,7 +400,8 @@
       "es": "shita",
       "de": "shita",
       "ru": "сита",
-      "ja": "した"
+      "ja": "した",
+      "it": "shita"
     },
     "translations": {
       "en": "below / under",
@@ -380,7 +411,8 @@
       "de": "unten / unter",
       "ru": "низ / под",
       "ko": "아래",
-      "ja": "下"
+      "ja": "下",
+      "it": "below / under"
     }
   },
   {
@@ -394,7 +426,8 @@
       "es": "hidari",
       "de": "hidari",
       "ru": "хидари",
-      "ja": "ひだり"
+      "ja": "ひだり",
+      "it": "hidari"
     },
     "translations": {
       "en": "left",
@@ -404,7 +437,8 @@
       "de": "links",
       "ru": "слева",
       "ko": "왼쪽",
-      "ja": "左"
+      "ja": "左",
+      "it": "left"
     }
   },
   {
@@ -418,7 +452,8 @@
       "es": "migi",
       "de": "migi",
       "ru": "миги",
-      "ja": "みぎ"
+      "ja": "みぎ",
+      "it": "migi"
     },
     "translations": {
       "en": "right",
@@ -428,7 +463,8 @@
       "de": "rechts",
       "ru": "справа",
       "ko": "오른쪽",
-      "ja": "右"
+      "ja": "右",
+      "it": "right"
     }
   },
   {
@@ -442,7 +478,8 @@
       "es": "naka",
       "de": "naka",
       "ru": "нака",
-      "ja": "なか"
+      "ja": "なか",
+      "it": "naka"
     },
     "translations": {
       "en": "inside / middle",
@@ -452,7 +489,8 @@
       "de": "innen / Mitte",
       "ru": "внутри / середина",
       "ko": "안 / 가운데",
-      "ja": "中"
+      "ja": "中",
+      "it": "inside / middle"
     }
   },
   {
@@ -466,7 +504,8 @@
       "es": "soto",
       "de": "soto",
       "ru": "сото",
-      "ja": "そと"
+      "ja": "そと",
+      "it": "soto"
     },
     "translations": {
       "en": "outside",
@@ -476,7 +515,8 @@
       "de": "außen / draußen",
       "ru": "снаружи",
       "ko": "밖",
-      "ja": "外"
+      "ja": "外",
+      "it": "outside"
     }
   }
 ]

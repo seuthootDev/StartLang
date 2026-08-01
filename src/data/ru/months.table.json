@@ -8,7 +8,8 @@
     "fr": "Mois (nominatif)",
     "es": "Meses (nominativo)",
     "de": "Monate (Nominativ)",
-    "ru": "Месяцы (именительный)"
+    "ru": "Месяцы (именительный)",
+    "it": "Months (nominative)"
   },
   "note": {
     "en": "Use nominative when naming the month alone. In dates you need the genitive (see Dates).",
@@ -18,7 +19,8 @@
     "fr": "Nominatif pour le nom seul ; génitif dans les dates.",
     "es": "Nominativo solo; genitivo en fechas.",
     "de": "Nominativ allein; Genitiv in Daten.",
-    "ru": "Именительный — название месяца; в датах — родительный."
+    "ru": "Именительный — название месяца; в датах — родительный.",
+    "it": "Use nominative when naming the month alone. In dates you need the genitive (see Dates)."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Russe",
         "es": "Ruso",
         "de": "Russisch",
-        "ru": "Русский"
+        "ru": "Русский",
+        "it": "Russian"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -72,7 +77,8 @@
         "fr": "janvier",
         "es": "enero",
         "de": "Januar",
-        "ru": "январь"
+        "ru": "январь",
+        "it": "January"
       },
       "sound": {
         "en": "yan-varʹ",
@@ -82,7 +88,8 @@
         "fr": "yan-varʹ",
         "es": "yan-varʹ",
         "de": "yan-varʹ",
-        "ru": "январь"
+        "ru": "январь",
+        "it": "yan-varʹ"
       }
     },
     {
@@ -95,7 +102,8 @@
         "fr": "février",
         "es": "febrero",
         "de": "Februar",
-        "ru": "февраль"
+        "ru": "февраль",
+        "it": "February"
       },
       "sound": {
         "en": "fev-ralʹ",
@@ -105,7 +113,8 @@
         "fr": "fev-ralʹ",
         "es": "fev-ralʹ",
         "de": "fev-ralʹ",
-        "ru": "февраль"
+        "ru": "февраль",
+        "it": "fev-ralʹ"
       }
     },
     {
@@ -118,7 +127,8 @@
         "fr": "mars",
         "es": "marzo",
         "de": "März",
-        "ru": "март"
+        "ru": "март",
+        "it": "March"
       },
       "sound": {
         "en": "mart",
@@ -128,7 +138,8 @@
         "fr": "mart",
         "es": "mart",
         "de": "mart",
-        "ru": "март"
+        "ru": "март",
+        "it": "mart"
       }
     },
     {
@@ -141,7 +152,8 @@
         "fr": "avril",
         "es": "abril",
         "de": "April",
-        "ru": "апрель"
+        "ru": "апрель",
+        "it": "April"
       },
       "sound": {
         "en": "a-prelʹ",
@@ -151,7 +163,8 @@
         "fr": "a-prelʹ",
         "es": "a-prelʹ",
         "de": "a-prelʹ",
-        "ru": "апрель"
+        "ru": "апрель",
+        "it": "a-prelʹ"
       }
     },
     {
@@ -164,7 +177,8 @@
         "fr": "mai",
         "es": "mayo",
         "de": "Mai",
-        "ru": "май"
+        "ru": "май",
+        "it": "May"
       },
       "sound": {
         "en": "may",
@@ -174,7 +188,8 @@
         "fr": "may",
         "es": "may",
         "de": "may",
-        "ru": "май"
+        "ru": "май",
+        "it": "may"
       }
     },
     {
@@ -187,7 +202,8 @@
         "fr": "juin",
         "es": "junio",
         "de": "Juni",
-        "ru": "июнь"
+        "ru": "июнь",
+        "it": "June"
       },
       "sound": {
         "en": "i-yunʹ",
@@ -197,7 +213,8 @@
         "fr": "i-yunʹ",
         "es": "i-yunʹ",
         "de": "i-yunʹ",
-        "ru": "июнь"
+        "ru": "июнь",
+        "it": "i-yunʹ"
       }
     },
     {
@@ -210,7 +227,8 @@
         "fr": "juillet",
         "es": "julio",
         "de": "Juli",
-        "ru": "июль"
+        "ru": "июль",
+        "it": "July"
       },
       "sound": {
         "en": "i-yulʹ",
@@ -220,7 +238,8 @@
         "fr": "i-yulʹ",
         "es": "i-yulʹ",
         "de": "i-yulʹ",
-        "ru": "июль"
+        "ru": "июль",
+        "it": "i-yulʹ"
       }
     },
     {
@@ -233,7 +252,8 @@
         "fr": "août",
         "es": "agosto",
         "de": "August",
-        "ru": "август"
+        "ru": "август",
+        "it": "August"
       },
       "sound": {
         "en": "av-gust",
@@ -243,7 +263,8 @@
         "fr": "av-gust",
         "es": "av-gust",
         "de": "av-gust",
-        "ru": "август"
+        "ru": "август",
+        "it": "av-gust"
       }
     },
     {
@@ -256,7 +277,8 @@
         "fr": "septembre",
         "es": "septiembre",
         "de": "September",
-        "ru": "сентябрь"
+        "ru": "сентябрь",
+        "it": "September"
       },
       "sound": {
         "en": "sen-tyabrʹ",
@@ -266,7 +288,8 @@
         "fr": "sen-tyabrʹ",
         "es": "sen-tyabrʹ",
         "de": "sen-tyabrʹ",
-        "ru": "сентябрь"
+        "ru": "сентябрь",
+        "it": "sen-tyabrʹ"
       }
     },
     {
@@ -279,7 +302,8 @@
         "fr": "octobre",
         "es": "octubre",
         "de": "Oktober",
-        "ru": "октябрь"
+        "ru": "октябрь",
+        "it": "October"
       },
       "sound": {
         "en": "ok-tyabrʹ",
@@ -289,7 +313,8 @@
         "fr": "ok-tyabrʹ",
         "es": "ok-tyabrʹ",
         "de": "ok-tyabrʹ",
-        "ru": "октябрь"
+        "ru": "октябрь",
+        "it": "ok-tyabrʹ"
       }
     },
     {
@@ -302,7 +327,8 @@
         "fr": "novembre",
         "es": "noviembre",
         "de": "November",
-        "ru": "ноябрь"
+        "ru": "ноябрь",
+        "it": "November"
       },
       "sound": {
         "en": "no-yabrʹ",
@@ -312,7 +338,8 @@
         "fr": "no-yabrʹ",
         "es": "no-yabrʹ",
         "de": "no-yabrʹ",
-        "ru": "ноябрь"
+        "ru": "ноябрь",
+        "it": "no-yabrʹ"
       }
     },
     {
@@ -325,7 +352,8 @@
         "fr": "décembre",
         "es": "diciembre",
         "de": "Dezember",
-        "ru": "декабрь"
+        "ru": "декабрь",
+        "it": "December"
       },
       "sound": {
         "en": "de-kabrʹ",
@@ -335,7 +363,8 @@
         "fr": "de-kabrʹ",
         "es": "de-kabrʹ",
         "de": "de-kabrʹ",
-        "ru": "декабрь"
+        "ru": "декабрь",
+        "it": "de-kabrʹ"
       }
     }
   ]

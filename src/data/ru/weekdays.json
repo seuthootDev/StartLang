@@ -10,7 +10,8 @@
       "fr": "po-za-vche-ra",
       "es": "po-za-vche-ra",
       "de": "po-za-vche-ra",
-      "ru": "позавчера"
+      "ru": "позавчера",
+      "it": "po-za-vche-ra"
     },
     "translations": {
       "en": "the day before yesterday",
@@ -20,7 +21,8 @@
       "fr": "avant-hier",
       "es": "anteayer",
       "de": "vorgestern",
-      "ru": "позавчера"
+      "ru": "позавчера",
+      "it": "the day before yesterday"
     }
   },
   {
@@ -34,7 +36,8 @@
       "fr": "vche-ra",
       "es": "vche-ra",
       "de": "vche-ra",
-      "ru": "вчера"
+      "ru": "вчера",
+      "it": "vche-ra"
     },
     "translations": {
       "en": "yesterday",
@@ -44,7 +47,8 @@
       "fr": "hier",
       "es": "ayer",
       "de": "gestern",
-      "ru": "вчера"
+      "ru": "вчера",
+      "it": "yesterday"
     }
   },
   {
@@ -58,7 +62,8 @@
       "fr": "se-vod-nya",
       "es": "se-vod-nya",
       "de": "se-vod-nya",
-      "ru": "сегодня"
+      "ru": "сегодня",
+      "it": "se-vod-nya"
     },
     "translations": {
       "en": "today",
@@ -68,7 +73,8 @@
       "fr": "aujourd’hui",
       "es": "hoy",
       "de": "heute",
-      "ru": "сегодня"
+      "ru": "сегодня",
+      "it": "today"
     }
   },
   {
@@ -82,7 +88,8 @@
       "fr": "zav-tra",
       "es": "zav-tra",
       "de": "zav-tra",
-      "ru": "завтра"
+      "ru": "завтра",
+      "it": "zav-tra"
     },
     "translations": {
       "en": "tomorrow",
@@ -92,7 +99,8 @@
       "fr": "demain",
       "es": "mañana",
       "de": "morgen",
-      "ru": "завтра"
+      "ru": "завтра",
+      "it": "tomorrow"
     }
   },
   {
@@ -106,7 +114,8 @@
       "fr": "pos-le-zav-tra",
       "es": "pos-le-zav-tra",
       "de": "pos-le-zav-tra",
-      "ru": "послезавтра"
+      "ru": "послезавтра",
+      "it": "pos-le-zav-tra"
     },
     "translations": {
       "en": "the day after tomorrow",
@@ -116,7 +125,8 @@
       "fr": "après-demain",
       "es": "pasado mañana",
       "de": "übermorgen",
-      "ru": "послезавтра"
+      "ru": "послезавтра",
+      "it": "the day after tomorrow"
     }
   },
   {
@@ -130,7 +140,8 @@
       "fr": "po-ne-delʹ-nik",
       "es": "po-ne-delʹ-nik",
       "de": "po-ne-delʹ-nik",
-      "ru": "понедельник"
+      "ru": "понедельник",
+      "it": "po-ne-delʹ-nik"
     },
     "translations": {
       "en": "Monday",
@@ -140,7 +151,8 @@
       "fr": "lundi",
       "es": "lunes",
       "de": "Montag",
-      "ru": "понедельник"
+      "ru": "понедельник",
+      "it": "Monday"
     }
   },
   {
@@ -154,7 +166,8 @@
       "fr": "vtor-nik",
       "es": "vtor-nik",
       "de": "vtor-nik",
-      "ru": "вторник"
+      "ru": "вторник",
+      "it": "vtor-nik"
     },
     "translations": {
       "en": "Tuesday",
@@ -164,7 +177,8 @@
       "fr": "mardi",
       "es": "martes",
       "de": "Dienstag",
-      "ru": "вторник"
+      "ru": "вторник",
+      "it": "Tuesday"
     }
   },
   {
@@ -178,7 +192,8 @@
       "fr": "sre-da",
       "es": "sre-da",
       "de": "sre-da",
-      "ru": "среда"
+      "ru": "среда",
+      "it": "sre-da"
     },
     "translations": {
       "en": "Wednesday",
@@ -188,7 +203,8 @@
       "fr": "mercredi",
       "es": "miércoles",
       "de": "Mittwoch",
-      "ru": "среда"
+      "ru": "среда",
+      "it": "Wednesday"
     }
   },
   {
@@ -202,7 +218,8 @@
       "fr": "chet-verg",
       "es": "chet-verg",
       "de": "chet-verg",
-      "ru": "четверг"
+      "ru": "четверг",
+      "it": "chet-verg"
     },
     "translations": {
       "en": "Thursday",
@@ -212,7 +229,8 @@
       "fr": "jeudi",
       "es": "jueves",
       "de": "Donnerstag",
-      "ru": "четверг"
+      "ru": "четверг",
+      "it": "Thursday"
     }
   },
   {
@@ -226,7 +244,8 @@
       "fr": "pyat-ni-tsa",
       "es": "pyat-ni-tsa",
       "de": "pyat-ni-tsa",
-      "ru": "пятница"
+      "ru": "пятница",
+      "it": "pyat-ni-tsa"
     },
     "translations": {
       "en": "Friday",
@@ -236,7 +255,8 @@
       "fr": "vendredi",
       "es": "viernes",
       "de": "Freitag",
-      "ru": "пятница"
+      "ru": "пятница",
+      "it": "Friday"
     }
   },
   {
@@ -250,7 +270,8 @@
       "fr": "sub-bo-ta",
       "es": "sub-bo-ta",
       "de": "sub-bo-ta",
-      "ru": "суббота"
+      "ru": "суббота",
+      "it": "sub-bo-ta"
     },
     "translations": {
       "en": "Saturday",
@@ -260,7 +281,8 @@
       "fr": "samedi",
       "es": "sábado",
       "de": "Samstag",
-      "ru": "суббота"
+      "ru": "суббота",
+      "it": "Saturday"
     }
   },
   {
@@ -274,7 +296,8 @@
       "fr": "vos-kre-senʹ-ye",
       "es": "vos-kre-senʹ-ye",
       "de": "vos-kre-senʹ-ye",
-      "ru": "воскресенье"
+      "ru": "воскресенье",
+      "it": "vos-kre-senʹ-ye"
     },
     "translations": {
       "en": "Sunday",
@@ -284,7 +307,8 @@
       "fr": "dimanche",
       "es": "domingo",
       "de": "Sonntag",
-      "ru": "воскресенье"
+      "ru": "воскресенье",
+      "it": "Sunday"
     }
   },
   {
@@ -298,7 +322,8 @@
       "fr": "e-ta ne-de-lya",
       "es": "e-ta ne-de-lya",
       "de": "e-ta ne-de-lya",
-      "ru": "эта неделя"
+      "ru": "эта неделя",
+      "it": "e-ta ne-de-lya"
     },
     "translations": {
       "en": "this week",
@@ -308,7 +333,8 @@
       "fr": "cette semaine",
       "es": "esta semana",
       "de": "diese Woche",
-      "ru": "эта неделя"
+      "ru": "эта неделя",
+      "it": "this week"
     }
   },
   {
@@ -322,7 +348,8 @@
       "fr": "prosh-la-ya ne-de-lya",
       "es": "prosh-la-ya ne-de-lya",
       "de": "prosh-la-ya ne-de-lya",
-      "ru": "прошлая неделя"
+      "ru": "прошлая неделя",
+      "it": "prosh-la-ya ne-de-lya"
     },
     "translations": {
       "en": "last week",
@@ -332,7 +359,8 @@
       "fr": "la semaine dernière",
       "es": "la semana pasada",
       "de": "letzte Woche",
-      "ru": "прошлая неделя"
+      "ru": "прошлая неделя",
+      "it": "last week"
     }
   },
   {
@@ -346,7 +374,8 @@
       "fr": "sle-du-yu-shcha-ya ne-de-lya",
       "es": "sle-du-yu-shcha-ya ne-de-lya",
       "de": "sle-du-yu-shcha-ya ne-de-lya",
-      "ru": "следующая неделя"
+      "ru": "следующая неделя",
+      "it": "sle-du-yu-shcha-ya ne-de-lya"
     },
     "translations": {
       "en": "next week",
@@ -356,7 +385,8 @@
       "fr": "la semaine prochaine",
       "es": "la próxima semana",
       "de": "nächste Woche",
-      "ru": "следующая неделя"
+      "ru": "следующая неделя",
+      "it": "next week"
     }
   }
 ]

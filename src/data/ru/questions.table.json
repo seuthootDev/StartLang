@@ -8,7 +8,8 @@
     "fr": "Mots interrogatifs",
     "es": "Palabras interrogativas",
     "de": "Fragewörter",
-    "ru": "Вопросительные слова"
+    "ru": "Вопросительные слова",
+    "it": "Question words"
   },
   "note": {
     "en": "Russian splits “where” and “why”, and какой declines by gender. Chart first, then forms.",
@@ -18,7 +19,8 @@
     "fr": "« Où » et « pourquoi » se dédoublent ; какой s’accorde en genre.",
     "es": "“Dónde” y “por qué” se dividen; какой cambia de género.",
     "de": "„Wo“ und „warum“ sind gespalten; какой richtet sich nach dem Genus.",
-    "ru": "Где/куда/откуда и почему/зачем различаются; какой согласуется по роду."
+    "ru": "Где/куда/откуда и почему/зачем различаются; какой согласуется по роду.",
+    "it": "Russian splits “where” and “why”, and какой declines by gender. Chart first, then forms."
   },
   "rules": {
     "en": [
@@ -68,6 +70,12 @@
       "почему — причина; зачем — цель.",
       "какой / какая согласуются с родом и числом.",
       "кто и что тоже склоняются (кого, чего…) — в теме падежей."
+    ],
+    "it": [
+      "где = at/in a place; куда = direction to; откуда = direction from.",
+      "почему = reason; зачем = purpose (“what for”).",
+      "какой / какая (and какое / какие) agree with the noun’s gender/number.",
+      "кто and что also decline by case (кого, чего…) — later with cases."
     ]
   },
   "sections": [
@@ -80,7 +88,8 @@
         "fr": "Tableau des sens",
         "es": "Cuadro de sentidos",
         "de": "Bedeutungstabelle",
-        "ru": "Таблица смыслов"
+        "ru": "Таблица смыслов",
+        "it": "Meaning chart"
       },
       "note": {
         "en": "· separates related forms (direction, gender, purpose).",
@@ -90,7 +99,8 @@
         "fr": "Le point médian sépare les formes liées.",
         "es": "El punto medio separa formas relacionadas.",
         "de": "Mittelpunkt trennt verwandte Formen.",
-        "ru": "Точка разделяет связанные формы."
+        "ru": "Точка разделяет связанные формы.",
+        "it": "· separates related forms (direction, gender, purpose)."
       },
       "columns": [
         {
@@ -103,7 +113,8 @@
             "fr": "Demande",
             "es": "Pregunta",
             "de": "Fragt nach",
-            "ru": "О чём"
+            "ru": "О чём",
+            "it": "Ask about"
           }
         },
         {
@@ -116,7 +127,8 @@
             "fr": "Formes",
             "es": "Formas",
             "de": "Formen",
-            "ru": "Формы"
+            "ru": "Формы",
+            "it": "Forms"
           }
         }
       ],
@@ -130,7 +142,8 @@
             "fr": "Qui",
             "es": "Quién",
             "de": "Wer",
-            "ru": "Кто"
+            "ru": "Кто",
+            "it": "Who"
           },
           "forms": "кто"
         },
@@ -143,7 +156,8 @@
             "fr": "Quoi",
             "es": "Qué",
             "de": "Was",
-            "ru": "Что"
+            "ru": "Что",
+            "it": "What"
           },
           "forms": "что"
         },
@@ -156,7 +170,8 @@
             "fr": "Où",
             "es": "Dónde",
             "de": "Wo",
-            "ru": "Где"
+            "ru": "Где",
+            "it": "Where"
           },
           "forms": "где · куда · откуда"
         },
@@ -169,7 +184,8 @@
             "fr": "Quand",
             "es": "Cuándo",
             "de": "Wann",
-            "ru": "Когда"
+            "ru": "Когда",
+            "it": "When"
           },
           "forms": "когда"
         },
@@ -182,7 +198,8 @@
             "fr": "Pourquoi",
             "es": "Por qué",
             "de": "Warum",
-            "ru": "Почему"
+            "ru": "Почему",
+            "it": "Why"
           },
           "forms": "почему · зачем"
         },
@@ -195,7 +212,8 @@
             "fr": "Comment",
             "es": "Cómo",
             "de": "Wie",
-            "ru": "Как"
+            "ru": "Как",
+            "it": "How"
           },
           "forms": "как"
         },
@@ -208,7 +226,8 @@
             "fr": "Combien",
             "es": "Cuánto",
             "de": "Wie viel",
-            "ru": "Сколько"
+            "ru": "Сколько",
+            "it": "How much / many"
           },
           "forms": "сколько"
         },
@@ -221,7 +240,8 @@
             "fr": "Lequel / quel",
             "es": "Cuál / qué tipo",
             "de": "Welch- / was für",
-            "ru": "Какой"
+            "ru": "Какой",
+            "it": "Which / what kind"
           },
           "forms": "какой · какая"
         },
@@ -234,7 +254,8 @@
             "fr": "À qui",
             "es": "De quién",
             "de": "Wessen",
-            "ru": "Чей"
+            "ru": "Чей",
+            "it": "Whose"
           },
           "forms": "чей"
         }
@@ -249,7 +270,8 @@
         "fr": "Formes et sons",
         "es": "Formas y sonidos",
         "de": "Formen & Laute",
-        "ru": "Формы и звучание"
+        "ru": "Формы и звучание",
+        "it": "Forms & sounds"
       },
       "columns": [
         {
@@ -262,7 +284,8 @@
             "fr": "Russe",
             "es": "Ruso",
             "de": "Russisch",
-            "ru": "Русский"
+            "ru": "Русский",
+            "it": "Russian"
           }
         },
         {
@@ -275,7 +298,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -288,7 +312,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -303,7 +328,8 @@
             "fr": "qui",
             "es": "quién",
             "de": "wer",
-            "ru": "кто"
+            "ru": "кто",
+            "it": "who"
           },
           "sound": {
             "en": "kto",
@@ -313,7 +339,8 @@
             "fr": "kto",
             "es": "kto",
             "de": "kto",
-            "ru": "кто"
+            "ru": "кто",
+            "it": "kto"
           }
         },
         {
@@ -326,7 +353,8 @@
             "fr": "quoi / que",
             "es": "qué",
             "de": "was",
-            "ru": "что"
+            "ru": "что",
+            "it": "what"
           },
           "sound": {
             "en": "chto",
@@ -336,7 +364,8 @@
             "fr": "chto",
             "es": "chto",
             "de": "chto",
-            "ru": "что"
+            "ru": "что",
+            "it": "chto"
           }
         },
         {
@@ -349,7 +378,8 @@
             "fr": "où (lieu)",
             "es": "dónde (lugar)",
             "de": "wo (Ort)",
-            "ru": "где"
+            "ru": "где",
+            "it": "where (location)"
           },
           "sound": {
             "en": "gde",
@@ -359,7 +389,8 @@
             "fr": "gde",
             "es": "gde",
             "de": "gde",
-            "ru": "где"
+            "ru": "где",
+            "it": "gde"
           }
         },
         {
@@ -372,7 +403,8 @@
             "fr": "où (direction)",
             "es": "adónde",
             "de": "wohin",
-            "ru": "куда"
+            "ru": "куда",
+            "it": "where to / whither"
           },
           "sound": {
             "en": "ku-da",
@@ -382,7 +414,8 @@
             "fr": "ku-da",
             "es": "ku-da",
             "de": "ku-da",
-            "ru": "куда"
+            "ru": "куда",
+            "it": "ku-da"
           }
         },
         {
@@ -395,7 +428,8 @@
             "fr": "d’où",
             "es": "de dónde",
             "de": "woher",
-            "ru": "откуда"
+            "ru": "откуда",
+            "it": "where from"
           },
           "sound": {
             "en": "ot-ku-da",
@@ -405,7 +439,8 @@
             "fr": "ot-ku-da",
             "es": "ot-ku-da",
             "de": "ot-ku-da",
-            "ru": "откуда"
+            "ru": "откуда",
+            "it": "ot-ku-da"
           }
         },
         {
@@ -418,7 +453,8 @@
             "fr": "quand",
             "es": "cuándo",
             "de": "wann",
-            "ru": "когда"
+            "ru": "когда",
+            "it": "when"
           },
           "sound": {
             "en": "kog-da",
@@ -428,7 +464,8 @@
             "fr": "kog-da",
             "es": "kog-da",
             "de": "kog-da",
-            "ru": "когда"
+            "ru": "когда",
+            "it": "kog-da"
           }
         },
         {
@@ -441,7 +478,8 @@
             "fr": "pourquoi (raison)",
             "es": "por qué (razón)",
             "de": "warum (Grund)",
-            "ru": "почему"
+            "ru": "почему",
+            "it": "why (reason)"
           },
           "sound": {
             "en": "po-che-mu",
@@ -451,7 +489,8 @@
             "fr": "po-che-mu",
             "es": "po-che-mu",
             "de": "po-che-mu",
-            "ru": "почему"
+            "ru": "почему",
+            "it": "po-che-mu"
           }
         },
         {
@@ -464,7 +503,8 @@
             "fr": "pourquoi (but)",
             "es": "para qué",
             "de": "wozu (Zweck)",
-            "ru": "зачем"
+            "ru": "зачем",
+            "it": "why / what for (purpose)"
           },
           "sound": {
             "en": "za-chem",
@@ -474,7 +514,8 @@
             "fr": "za-chem",
             "es": "za-chem",
             "de": "za-chem",
-            "ru": "зачем"
+            "ru": "зачем",
+            "it": "za-chem"
           }
         },
         {
@@ -487,7 +528,8 @@
             "fr": "comment",
             "es": "cómo",
             "de": "wie",
-            "ru": "как"
+            "ru": "как",
+            "it": "how"
           },
           "sound": {
             "en": "kak",
@@ -497,7 +539,8 @@
             "fr": "kak",
             "es": "kak",
             "de": "kak",
-            "ru": "как"
+            "ru": "как",
+            "it": "kak"
           }
         },
         {
@@ -510,7 +553,8 @@
             "fr": "combien",
             "es": "cuánto",
             "de": "wie viel",
-            "ru": "сколько"
+            "ru": "сколько",
+            "it": "how much / how many"
           },
           "sound": {
             "en": "skolʹ-ko",
@@ -520,7 +564,8 @@
             "fr": "skolʹ-ko",
             "es": "skolʹ-ko",
             "de": "skolʹ-ko",
-            "ru": "сколько"
+            "ru": "сколько",
+            "it": "skolʹ-ko"
           }
         },
         {
@@ -533,7 +578,8 @@
             "fr": "quel (masculin)",
             "es": "qué / cuál (masculino)",
             "de": "welch- (maskulin)",
-            "ru": "какой"
+            "ru": "какой",
+            "it": "which / what kind (masculine)"
           },
           "sound": {
             "en": "ka-koy",
@@ -543,7 +589,8 @@
             "fr": "ka-koy",
             "es": "ka-koy",
             "de": "ka-koy",
-            "ru": "какой"
+            "ru": "какой",
+            "it": "ka-koy"
           }
         },
         {
@@ -556,7 +603,8 @@
             "fr": "quelle (féminin)",
             "es": "qué / cuál (femenino)",
             "de": "welch- (feminin)",
-            "ru": "какая"
+            "ru": "какая",
+            "it": "which / what kind (feminine)"
           },
           "sound": {
             "en": "ka-ka-ya",
@@ -566,7 +614,8 @@
             "fr": "ka-ka-ya",
             "es": "ka-ka-ya",
             "de": "ka-ka-ya",
-            "ru": "какая"
+            "ru": "какая",
+            "it": "ka-ka-ya"
           }
         },
         {
@@ -579,7 +628,8 @@
             "fr": "à qui (masculin)",
             "es": "de quién (masculino)",
             "de": "wessen (maskulin)",
-            "ru": "чей"
+            "ru": "чей",
+            "it": "whose (masculine)"
           },
           "sound": {
             "en": "chey",
@@ -589,7 +639,8 @@
             "fr": "chey",
             "es": "chey",
             "de": "chey",
-            "ru": "чей"
+            "ru": "чей",
+            "it": "chey"
           }
         }
       ]

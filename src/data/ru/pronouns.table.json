@@ -8,7 +8,8 @@
     "fr": "Pronoms personnels",
     "es": "Pronombres personales",
     "de": "Personalpronomen",
-    "ru": "Личные местоимения"
+    "ru": "Личные местоимения",
+    "it": "Personal pronouns"
   },
   "note": {
     "en": "Russian pronouns mark person, number, and (in 3rd person) gender — and they change by case. Learn the person chart, then the core cases.",
@@ -18,7 +19,8 @@
     "fr": "Les pronoms russes marquent personne, nombre et (à la 3e) genre — et changent selon le cas. Tableau des personnes, puis cas de base.",
     "es": "Los pronombres rusos marcan persona, número y (en 3.ª) género, y cambian por caso. Primero el cuadro, luego los casos básicos.",
     "de": "Russische Pronomen zeigen Person, Zahl und (in der 3.) Genus — und ändern sich nach Kasus. Zuerst Personen, dann Kernfälle.",
-    "ru": "Личные местоимения меняются по лицам, числам, роду (в 3-м лице) и падежам. Сначала таблица лиц, затем основные падежи."
+    "ru": "Личные местоимения меняются по лицам, числам, роду (в 3-м лице) и падежам. Сначала таблица лиц, затем основные падежи.",
+    "it": "Russian pronouns mark person, number, and (in 3rd person) gender — and they change by case. Learn the person chart, then the core cases."
   },
   "rules": {
     "en": [
@@ -60,6 +62,11 @@
       "вы — и множественное число, и вежливое обращение к одному человеку.",
       "он / она / оно согласуются с грамматическим родом (люди и предметы).",
       "После многих предлогов у 3-го лица появляется н-: него, неё, них, нём, ней."
+    ],
+    "it": [
+      "вы = you (plural) and polite you (singular).",
+      "он / она / оно follow grammatical gender (people and things).",
+      "After many prepositions, 3rd-person forms take н-: него, неё, них, нём, ней."
     ]
   },
   "sections": [
@@ -72,7 +79,8 @@
         "fr": "Tableau des personnes (nominatif)",
         "es": "Cuadro de persona (nominativo)",
         "de": "Personentabelle (Nominativ)",
-        "ru": "Таблица лиц (именительный)"
+        "ru": "Таблица лиц (именительный)",
+        "it": "Person chart (nominative)"
       },
       "note": {
         "en": "3rd person singular splits by gender. · separates variants.",
@@ -82,7 +90,8 @@
         "fr": "La 3e personne du singulier se divise par genre.",
         "es": "La 3.ª del singular se divide por género.",
         "de": "3. Person Singular teilt sich nach Genus.",
-        "ru": "В 3-м лице ед. числа — три рода."
+        "ru": "В 3-м лице ед. числа — три рода.",
+        "it": "3rd person singular splits by gender. · separates variants."
       },
       "columns": [
         {
@@ -95,7 +104,8 @@
             "fr": "Personne",
             "es": "Persona",
             "de": "Person",
-            "ru": "Лицо"
+            "ru": "Лицо",
+            "it": "Person"
           }
         },
         {
@@ -108,7 +118,8 @@
             "fr": "Singulier",
             "es": "Singular",
             "de": "Singular",
-            "ru": "Ед. число"
+            "ru": "Ед. число",
+            "it": "Singular"
           }
         },
         {
@@ -121,7 +132,8 @@
             "fr": "Pluriel",
             "es": "Plural",
             "de": "Plural",
-            "ru": "Мн. число"
+            "ru": "Мн. число",
+            "it": "Plural"
           }
         }
       ],
@@ -135,7 +147,8 @@
             "fr": "1re",
             "es": "1.ª",
             "de": "1.",
-            "ru": "1-е"
+            "ru": "1-е",
+            "it": "1st"
           },
           "singular": "я",
           "plural": "мы"
@@ -149,7 +162,8 @@
             "fr": "2e",
             "es": "2.ª",
             "de": "2.",
-            "ru": "2-е"
+            "ru": "2-е",
+            "it": "2nd"
           },
           "singular": "ты · вы*",
           "plural": "вы"
@@ -163,7 +177,8 @@
             "fr": "3e",
             "es": "3.ª",
             "de": "3.",
-            "ru": "3-е"
+            "ru": "3-е",
+            "it": "3rd"
           },
           "singular": "он · она · оно",
           "plural": "они"
@@ -179,7 +194,8 @@
         "fr": "Cas de base",
         "es": "Casos básicos",
         "de": "Kernfälle",
-        "ru": "Основные падежи"
+        "ru": "Основные падежи",
+        "it": "Core cases"
       },
       "note": {
         "en": "Accusative ≈ genitive for personal pronouns. Prep. often needs a preposition (о / об / обо).",
@@ -189,7 +205,8 @@
         "fr": "Accusatif ≈ génitif pour les pronoms. Le prépositionnel va souvent avec о / об / обо.",
         "es": "Acusativo ≈ genitivo. El preposicional suele ir con о / об / обо.",
         "de": "Akkusativ ≈ Genitiv. Präpositiv oft mit о / об / обо.",
-        "ru": "Винительный ≈ родительный. Предложный обычно с о / об / обо."
+        "ru": "Винительный ≈ родительный. Предложный обычно с о / об / обо.",
+        "it": "Accusative ≈ genitive for personal pronouns. Prep. often needs a preposition (о / об / обо)."
       },
       "columns": [
         {
@@ -202,7 +219,8 @@
             "fr": "Nom.",
             "es": "Nom.",
             "de": "Nom.",
-            "ru": "Им."
+            "ru": "Им.",
+            "it": "Nom."
           }
         },
         {
@@ -215,7 +233,8 @@
             "fr": "Acc. / Gén.",
             "es": "Ac. / Gen.",
             "de": "Akk. / Gen.",
-            "ru": "Вин. / Род."
+            "ru": "Вин. / Род.",
+            "it": "Acc. / Gen."
           }
         },
         {
@@ -228,7 +247,8 @@
             "fr": "Dat.",
             "es": "Dat.",
             "de": "Dat.",
-            "ru": "Дат."
+            "ru": "Дат.",
+            "it": "Dat."
           }
         },
         {
@@ -241,19 +261,60 @@
             "fr": "Prépos.",
             "es": "Prep.",
             "de": "Präp.",
-            "ru": "Предл."
+            "ru": "Предл.",
+            "it": "Prep."
           }
         }
       ],
       "rows": [
-        { "form": "я", "acc": "меня", "dat": "мне", "prep": "(обо) мне" },
-        { "form": "ты", "acc": "тебя", "dat": "тебе", "prep": "(о) тебе" },
-        { "form": "он", "acc": "его", "dat": "ему", "prep": "(о) нём" },
-        { "form": "она", "acc": "её", "dat": "ей", "prep": "(о) ней" },
-        { "form": "оно", "acc": "его", "dat": "ему", "prep": "(о) нём" },
-        { "form": "мы", "acc": "нас", "dat": "нам", "prep": "(о) нас" },
-        { "form": "вы", "acc": "вас", "dat": "вам", "prep": "(о) вас" },
-        { "form": "они", "acc": "их", "dat": "им", "prep": "(о) них" }
+        {
+          "form": "я",
+          "acc": "меня",
+          "dat": "мне",
+          "prep": "(обо) мне"
+        },
+        {
+          "form": "ты",
+          "acc": "тебя",
+          "dat": "тебе",
+          "prep": "(о) тебе"
+        },
+        {
+          "form": "он",
+          "acc": "его",
+          "dat": "ему",
+          "prep": "(о) нём"
+        },
+        {
+          "form": "она",
+          "acc": "её",
+          "dat": "ей",
+          "prep": "(о) ней"
+        },
+        {
+          "form": "оно",
+          "acc": "его",
+          "dat": "ему",
+          "prep": "(о) нём"
+        },
+        {
+          "form": "мы",
+          "acc": "нас",
+          "dat": "нам",
+          "prep": "(о) нас"
+        },
+        {
+          "form": "вы",
+          "acc": "вас",
+          "dat": "вам",
+          "prep": "(о) вас"
+        },
+        {
+          "form": "они",
+          "acc": "их",
+          "dat": "им",
+          "prep": "(о) них"
+        }
       ]
     },
     {
@@ -265,7 +326,8 @@
         "fr": "Formes et sons",
         "es": "Formas y sonidos",
         "de": "Formen & Laute",
-        "ru": "Формы и звучание"
+        "ru": "Формы и звучание",
+        "it": "Forms & sounds"
       },
       "columns": [
         {
@@ -278,7 +340,8 @@
             "fr": "Russe",
             "es": "Ruso",
             "de": "Russisch",
-            "ru": "Русский"
+            "ru": "Русский",
+            "it": "Russian"
           }
         },
         {
@@ -291,7 +354,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -304,7 +368,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -319,7 +384,8 @@
             "fr": "je / moi",
             "es": "yo / mí",
             "de": "ich / mich",
-            "ru": "я"
+            "ru": "я",
+            "it": "I / me"
           },
           "sound": {
             "en": "ya",
@@ -329,7 +395,8 @@
             "fr": "ya",
             "es": "ya",
             "de": "ja",
-            "ru": "я"
+            "ru": "я",
+            "it": "ya"
           }
         },
         {
@@ -342,7 +409,8 @@
             "fr": "tu (familier)",
             "es": "tú (informal)",
             "de": "du (locker)",
-            "ru": "ты"
+            "ru": "ты",
+            "it": "you (singular, informal)"
           },
           "sound": {
             "en": "ty",
@@ -352,7 +420,8 @@
             "fr": "ty",
             "es": "ty",
             "de": "ty",
-            "ru": "ты"
+            "ru": "ты",
+            "it": "ty"
           }
         },
         {
@@ -365,7 +434,8 @@
             "fr": "il (masculin)",
             "es": "él (masculino)",
             "de": "er (maskulin)",
-            "ru": "он"
+            "ru": "он",
+            "it": "he / it (masculine)"
           },
           "sound": {
             "en": "on",
@@ -375,7 +445,8 @@
             "fr": "on",
             "es": "on",
             "de": "on",
-            "ru": "он"
+            "ru": "он",
+            "it": "on"
           }
         },
         {
@@ -388,7 +459,8 @@
             "fr": "elle (féminin)",
             "es": "ella (femenino)",
             "de": "sie (feminin)",
-            "ru": "она"
+            "ru": "она",
+            "it": "she / it (feminine)"
           },
           "sound": {
             "en": "o-na",
@@ -398,7 +470,8 @@
             "fr": "ona",
             "es": "ona",
             "de": "ona",
-            "ru": "она"
+            "ru": "она",
+            "it": "o-na"
           }
         },
         {
@@ -411,7 +484,8 @@
             "fr": "il / ce (neutre)",
             "es": "ello (neutro)",
             "de": "es (neutrum)",
-            "ru": "оно"
+            "ru": "оно",
+            "it": "it (neuter)"
           },
           "sound": {
             "en": "o-no",
@@ -421,7 +495,8 @@
             "fr": "ono",
             "es": "ono",
             "de": "ono",
-            "ru": "оно"
+            "ru": "оно",
+            "it": "o-no"
           }
         },
         {
@@ -434,7 +509,8 @@
             "fr": "nous",
             "es": "nosotros",
             "de": "wir / uns",
-            "ru": "мы"
+            "ru": "мы",
+            "it": "we / us"
           },
           "sound": {
             "en": "my",
@@ -444,7 +520,8 @@
             "fr": "my",
             "es": "my",
             "de": "my",
-            "ru": "мы"
+            "ru": "мы",
+            "it": "my"
           }
         },
         {
@@ -457,7 +534,8 @@
             "fr": "vous (pluriel / poli)",
             "es": "ustedes / usted",
             "de": "ihr / Sie",
-            "ru": "вы"
+            "ru": "вы",
+            "it": "you (plural / polite singular)"
           },
           "sound": {
             "en": "vy",
@@ -467,7 +545,8 @@
             "fr": "vy",
             "es": "vy",
             "de": "wy",
-            "ru": "вы"
+            "ru": "вы",
+            "it": "vy"
           }
         },
         {
@@ -480,7 +559,8 @@
             "fr": "ils / elles",
             "es": "ellos / ellas",
             "de": "sie (Plural)",
-            "ru": "они"
+            "ru": "они",
+            "it": "they / them"
           },
           "sound": {
             "en": "o-ni",
@@ -490,7 +570,8 @@
             "fr": "oni",
             "es": "oni",
             "de": "oni",
-            "ru": "они"
+            "ru": "они",
+            "it": "o-ni"
           }
         }
       ]

@@ -22,7 +22,7 @@ const PER_GRADE = 100
 const MAX_KEB_LEN = 4
 const JOYO_GRADES = new Set([1, 2, 3, 4, 5, 6, 8])
 const P_TAGS = new Set(['news1', 'ichi1', 'spec1', 'gai1'])
-const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'ru']
+const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'it', 'ru']
 
 function loadKanjiGrades(xmlPath) {
   const xml = readFileSync(xmlPath, 'utf8')

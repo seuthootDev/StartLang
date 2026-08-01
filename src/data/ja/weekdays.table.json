@@ -8,7 +8,8 @@
     "fr": "Jours & temps relatif",
     "es": "Días y tiempo relativo",
     "de": "Wochentage & relative Zeit",
-    "ru": "Дни и относительное время"
+    "ru": "Дни и относительное время",
+    "it": "Days & relative time"
   },
   "columns": [
     {
@@ -21,7 +22,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -34,7 +36,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -47,7 +50,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -62,7 +66,8 @@
         "de": "vorgestern",
         "ru": "позавчера",
         "ko": "그저께",
-        "ja": "一昨日"
+        "ja": "一昨日",
+        "it": "the day before yesterday"
       },
       "sound": {
         "en": "ototoi",
@@ -72,7 +77,8 @@
         "es": "ototoi",
         "de": "ototoi",
         "ru": "ототои",
-        "ja": "一昨日"
+        "ja": "一昨日",
+        "it": "ototoi"
       }
     },
     {
@@ -85,7 +91,8 @@
         "de": "gestern",
         "ru": "вчера",
         "ko": "어제",
-        "ja": "昨日"
+        "ja": "昨日",
+        "it": "yesterday"
       },
       "sound": {
         "en": "kinou",
@@ -95,7 +102,8 @@
         "es": "kinou",
         "de": "kinou",
         "ru": "кино:",
-        "ja": "昨日"
+        "ja": "昨日",
+        "it": "kinou"
       }
     },
     {
@@ -108,7 +116,8 @@
         "de": "heute",
         "ru": "сегодня",
         "ko": "오늘",
-        "ja": "今日"
+        "ja": "今日",
+        "it": "today"
       },
       "sound": {
         "en": "kyou",
@@ -118,7 +127,8 @@
         "es": "kyou",
         "de": "kyou",
         "ru": "кё:",
-        "ja": "今日"
+        "ja": "今日",
+        "it": "kyou"
       }
     },
     {
@@ -131,7 +141,8 @@
         "de": "morgen (Tag)",
         "ru": "завтра",
         "ko": "내일",
-        "ja": "明日"
+        "ja": "明日",
+        "it": "tomorrow"
       },
       "sound": {
         "en": "ashita",
@@ -141,7 +152,8 @@
         "es": "ashita",
         "de": "ashita",
         "ru": "асита",
-        "ja": "明日"
+        "ja": "明日",
+        "it": "ashita"
       }
     },
     {
@@ -154,7 +166,8 @@
         "de": "übermorgen",
         "ru": "послезавтра",
         "ko": "모레",
-        "ja": "明後日"
+        "ja": "明後日",
+        "it": "the day after tomorrow"
       },
       "sound": {
         "en": "asatte",
@@ -164,7 +177,8 @@
         "es": "asatte",
         "de": "asatte",
         "ru": "асаттэ",
-        "ja": "明後日"
+        "ja": "明後日",
+        "it": "asatte"
       }
     },
     {
@@ -177,7 +191,8 @@
         "de": "Montag",
         "ru": "понедельник",
         "ko": "월요일",
-        "ja": "月曜日"
+        "ja": "月曜日",
+        "it": "Monday"
       },
       "sound": {
         "en": "getsu-you-bi",
@@ -187,7 +202,8 @@
         "es": "getsu-you-bi",
         "de": "getsu-you-bi",
         "ru": "гэцу-ё:-би",
-        "ja": "月曜日"
+        "ja": "月曜日",
+        "it": "getsu-you-bi"
       }
     },
     {
@@ -200,7 +216,8 @@
         "de": "Dienstag",
         "ru": "вторник",
         "ko": "화요일",
-        "ja": "火曜日"
+        "ja": "火曜日",
+        "it": "Tuesday"
       },
       "sound": {
         "en": "ka-you-bi",
@@ -210,7 +227,8 @@
         "es": "ka-you-bi",
         "de": "ka-you-bi",
         "ru": "ка-ё:-би",
-        "ja": "火曜日"
+        "ja": "火曜日",
+        "it": "ka-you-bi"
       }
     },
     {
@@ -223,7 +241,8 @@
         "de": "Mittwoch",
         "ru": "среда",
         "ko": "수요일",
-        "ja": "水曜日"
+        "ja": "水曜日",
+        "it": "Wednesday"
       },
       "sound": {
         "en": "sui-you-bi",
@@ -233,7 +252,8 @@
         "es": "sui-you-bi",
         "de": "sui-you-bi",
         "ru": "суи-ё:-би",
-        "ja": "水曜日"
+        "ja": "水曜日",
+        "it": "sui-you-bi"
       }
     },
     {
@@ -246,7 +266,8 @@
         "de": "Donnerstag",
         "ru": "четверг",
         "ko": "목요일",
-        "ja": "木曜日"
+        "ja": "木曜日",
+        "it": "Thursday"
       },
       "sound": {
         "en": "moku-you-bi",
@@ -256,7 +277,8 @@
         "es": "moku-you-bi",
         "de": "moku-you-bi",
         "ru": "моку-ё:-би",
-        "ja": "木曜日"
+        "ja": "木曜日",
+        "it": "moku-you-bi"
       }
     },
     {
@@ -269,7 +291,8 @@
         "de": "Freitag",
         "ru": "пятница",
         "ko": "금요일",
-        "ja": "金曜日"
+        "ja": "金曜日",
+        "it": "Friday"
       },
       "sound": {
         "en": "kin-you-bi",
@@ -279,7 +302,8 @@
         "es": "kin-you-bi",
         "de": "kin-you-bi",
         "ru": "кин-ё:-би",
-        "ja": "金曜日"
+        "ja": "金曜日",
+        "it": "kin-you-bi"
       }
     },
     {
@@ -292,7 +316,8 @@
         "de": "Samstag",
         "ru": "суббота",
         "ko": "토요일",
-        "ja": "土曜日"
+        "ja": "土曜日",
+        "it": "Saturday"
       },
       "sound": {
         "en": "do-you-bi",
@@ -302,7 +327,8 @@
         "es": "do-you-bi",
         "de": "do-you-bi",
         "ru": "до-ё:-би",
-        "ja": "土曜日"
+        "ja": "土曜日",
+        "it": "do-you-bi"
       }
     },
     {
@@ -315,7 +341,8 @@
         "de": "Sonntag",
         "ru": "воскресенье",
         "ko": "일요일",
-        "ja": "日曜日"
+        "ja": "日曜日",
+        "it": "Sunday"
       },
       "sound": {
         "en": "nichi-you-bi",
@@ -325,7 +352,8 @@
         "es": "nichi-you-bi",
         "de": "nichi-you-bi",
         "ru": "нити-ё:-би",
-        "ja": "日曜日"
+        "ja": "日曜日",
+        "it": "nichi-you-bi"
       }
     },
     {
@@ -338,7 +366,8 @@
         "de": "diese Woche",
         "ru": "на этой неделе",
         "ko": "이번 주",
-        "ja": "今週"
+        "ja": "今週",
+        "it": "this week"
       },
       "sound": {
         "en": "kon-shuu",
@@ -348,7 +377,8 @@
         "es": "kon-shuu",
         "de": "kon-shuu",
         "ru": "кон-сю:",
-        "ja": "今週"
+        "ja": "今週",
+        "it": "kon-shuu"
       }
     },
     {
@@ -361,7 +391,8 @@
         "de": "letzte Woche",
         "ru": "на прошлой неделе",
         "ko": "지난주",
-        "ja": "先週"
+        "ja": "先週",
+        "it": "last week"
       },
       "sound": {
         "en": "sen-shuu",
@@ -371,7 +402,8 @@
         "es": "sen-shuu",
         "de": "sen-shuu",
         "ru": "сэн-сю:",
-        "ja": "先週"
+        "ja": "先週",
+        "it": "sen-shuu"
       }
     },
     {
@@ -384,7 +416,8 @@
         "de": "nächste Woche",
         "ru": "на следующей неделе",
         "ko": "다음 주",
-        "ja": "来週"
+        "ja": "来週",
+        "it": "next week"
       },
       "sound": {
         "en": "rai-shuu",
@@ -394,7 +427,8 @@
         "es": "rai-shuu",
         "de": "rai-shuu",
         "ru": "рай-сю:",
-        "ja": "来週"
+        "ja": "来週",
+        "it": "rai-shuu"
       }
     }
   ]

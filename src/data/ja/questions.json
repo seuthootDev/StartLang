@@ -10,7 +10,8 @@
       "es": "dare",
       "de": "dare",
       "ru": "дарэ",
-      "ja": "だれ"
+      "ja": "だれ",
+      "it": "dare"
     },
     "translations": {
       "en": "who",
@@ -20,7 +21,8 @@
       "de": "wer",
       "ru": "кто",
       "ko": "누구",
-      "ja": "誰"
+      "ja": "誰",
+      "it": "who"
     }
   },
   {
@@ -34,7 +36,8 @@
       "es": "nani / nan",
       "de": "nani / nan",
       "ru": "нани / нан",
-      "ja": "なに / なん"
+      "ja": "なに / なん",
+      "it": "nani / nan"
     },
     "translations": {
       "en": "what",
@@ -44,7 +47,8 @@
       "de": "was",
       "ru": "что",
       "ko": "무엇 / 뭐",
-      "ja": "何"
+      "ja": "何",
+      "it": "what"
     }
   },
   {
@@ -58,7 +62,8 @@
       "es": "doko",
       "de": "doko",
       "ru": "доко",
-      "ja": "どこ"
+      "ja": "どこ",
+      "it": "doko"
     },
     "translations": {
       "en": "where",
@@ -68,7 +73,8 @@
       "de": "wo",
       "ru": "где",
       "ko": "어디",
-      "ja": "どこ"
+      "ja": "どこ",
+      "it": "where"
     }
   },
   {
@@ -82,7 +88,8 @@
       "es": "itsu",
       "de": "itsu",
       "ru": "ицу",
-      "ja": "いつ"
+      "ja": "いつ",
+      "it": "itsu"
     },
     "translations": {
       "en": "when",
@@ -92,7 +99,8 @@
       "de": "wann",
       "ru": "когда",
       "ko": "언제",
-      "ja": "いつ"
+      "ja": "いつ",
+      "it": "when"
     }
   },
   {
@@ -106,7 +114,8 @@
       "es": "naze",
       "de": "naze",
       "ru": "надзэ",
-      "ja": "なぜ"
+      "ja": "なぜ",
+      "it": "naze"
     },
     "translations": {
       "en": "why (reason)",
@@ -116,7 +125,8 @@
       "de": "warum (Grund)",
       "ru": "почему (причина)",
       "ko": "왜 (이유)",
-      "ja": "なぜ"
+      "ja": "なぜ",
+      "it": "why (reason)"
     }
   },
   {
@@ -130,7 +140,8 @@
       "es": "dou-shite",
       "de": "dou-shite",
       "ru": "до:-ситэ",
-      "ja": "どうして"
+      "ja": "どうして",
+      "it": "dou-shite"
     },
     "translations": {
       "en": "why / how come",
@@ -140,7 +151,8 @@
       "de": "warum / wieso",
       "ru": "почему / как так",
       "ko": "왜 / 어째서",
-      "ja": "どうして"
+      "ja": "どうして",
+      "it": "why / how come"
     }
   },
   {
@@ -154,7 +166,8 @@
       "es": "dou",
       "de": "dou",
       "ru": "до:",
-      "ja": "どう"
+      "ja": "どう",
+      "it": "dou"
     },
     "translations": {
       "en": "how",
@@ -164,7 +177,8 @@
       "de": "wie",
       "ru": "как",
       "ko": "어떻게",
-      "ja": "どう"
+      "ja": "どう",
+      "it": "how"
     }
   },
   {
@@ -178,7 +192,8 @@
       "es": "ikura",
       "de": "ikura",
       "ru": "икура",
-      "ja": "いくら"
+      "ja": "いくら",
+      "it": "ikura"
     },
     "translations": {
       "en": "how much (price)",
@@ -188,7 +203,8 @@
       "de": "wie viel (Preis)",
       "ru": "сколько (цена)",
       "ko": "얼마 (가격)",
-      "ja": "いくら"
+      "ja": "いくら",
+      "it": "how much (price)"
     }
   },
   {
@@ -202,7 +218,8 @@
       "es": "ikutsu",
       "de": "ikutsu",
       "ru": "икуцу",
-      "ja": "いくつ"
+      "ja": "いくつ",
+      "it": "ikutsu"
     },
     "translations": {
       "en": "how many / how old",
@@ -212,7 +229,8 @@
       "de": "wie viele / wie alt",
       "ru": "сколько / сколько лет",
       "ko": "몇 개 / 몇 살",
-      "ja": "いくつ"
+      "ja": "いくつ",
+      "it": "how many / how old"
     }
   },
   {
@@ -226,7 +244,8 @@
       "es": "dore",
       "de": "dore",
       "ru": "дорэ",
-      "ja": "どれ"
+      "ja": "どれ",
+      "it": "dore"
     },
     "translations": {
       "en": "which (of three or more)",
@@ -236,7 +255,8 @@
       "de": "welches (von 3+)",
       "ru": "который (из 3+)",
       "ko": "어느 것 (셋 이상)",
-      "ja": "どれ"
+      "ja": "どれ",
+      "it": "which (of three or more)"
     }
   },
   {
@@ -250,7 +270,8 @@
       "es": "dono",
       "de": "dono",
       "ru": "доно",
-      "ja": "どの"
+      "ja": "どの",
+      "it": "dono"
     },
     "translations": {
       "en": "which (+ noun)",
@@ -260,7 +281,8 @@
       "de": "welch- (+ Nomen)",
       "ru": "какой (+ сущ.)",
       "ko": "어느 (+ 명사)",
-      "ja": "どの"
+      "ja": "どの",
+      "it": "which (+ noun)"
     }
   },
   {
@@ -274,7 +296,8 @@
       "es": "dochira",
       "de": "dochira",
       "ru": "дотира",
-      "ja": "どちら"
+      "ja": "どちら",
+      "it": "dochira"
     },
     "translations": {
       "en": "which (of two) / which way",
@@ -284,7 +307,8 @@
       "de": "welches (von zweien) / wohin",
       "ru": "который (из двух) / куда",
       "ko": "어느 쪽 (둘) / 어디 (공손)",
-      "ja": "どちら"
+      "ja": "どちら",
+      "it": "which (of two) / which way"
     }
   },
   {
@@ -298,7 +322,8 @@
       "es": "donna",
       "de": "donna",
       "ru": "донна",
-      "ja": "どんな"
+      "ja": "どんな",
+      "it": "donna"
     },
     "translations": {
       "en": "what kind of",
@@ -308,7 +333,8 @@
       "de": "was für ein",
       "ru": "какой / какого рода",
       "ko": "어떤 / 무슨",
-      "ja": "どんな"
+      "ja": "どんな",
+      "it": "what kind of"
     }
   }
 ]

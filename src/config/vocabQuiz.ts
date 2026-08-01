@@ -25,7 +25,7 @@ export interface VocabManifest {
   >
 }
 
-const LANGS: LangCode[] = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'ru']
+const LANGS: LangCode[] = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'it', 'ru']
 
 function fillAllLangs(value: string): Partial<Record<LangCode, string>> {
   return Object.fromEntries(LANGS.map((l) => [l, value]))
@@ -97,6 +97,7 @@ export function dayLabel(day: number, learnerLang: LangCode): string {
     fr: 'Jour',
     es: 'Día',
     de: 'Tag',
+    it: 'Giorno',
     ru: 'День',
   }
   return `${prefix[learnerLang] ?? 'Day'} ${day}`

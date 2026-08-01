@@ -8,7 +8,8 @@
     "fr": "Démonstratifs & directions",
     "es": "Demostrativos y direcciones",
     "de": "Demonstrativa & Richtungen",
-    "ru": "Указательные и направления"
+    "ru": "Указательные и направления",
+    "it": "Demonstratives & directions"
   },
   "note": {
     "en": "Russian uses a two-way this/that system with gender, plus здесь/там and сюда/туда (like где/куда).",
@@ -18,7 +19,8 @@
     "fr": "Système à deux pôles (этот/тот) + genre ; здесь/там et сюда/туда.",
     "es": "Sistema de dos polos (этот/тот) + género; здесь/там y сюда/туда.",
     "de": "Zwei-Wege-System (этот/тот) + Genus; здесь/там und сюда/туда.",
-    "ru": "Два полюса (этот/тот) + род; здесь/там и сюда/туда (как где/куда)."
+    "ru": "Два полюса (этот/тот) + род; здесь/там и сюда/туда (как где/куда).",
+    "it": "Russian uses a two-way this/that system with gender, plus здесь/там and сюда/туда (like где/куда)."
   },
   "rules": {
     "en": [
@@ -68,6 +70,12 @@
       "эти / те — множественное число.",
       "здесь / там — место; сюда / туда — направление.",
       "это также в конструкциях «это…»."
+    ],
+    "it": [
+      "этот/эта/это = this; тот/та/то = that — agree with the noun’s gender.",
+      "эти / те = these / those (plural).",
+      "здесь / там = location; сюда / туда = direction (to).",
+      "это is also the everyday “this is…” / “it” in many sentences."
     ]
   },
   "sections": [
@@ -80,7 +88,8 @@
         "fr": "Tableau de distance",
         "es": "Cuadro de distancia",
         "de": "Abstandstabelle",
-        "ru": "Таблица расстояния"
+        "ru": "Таблица расстояния",
+        "it": "Distance chart"
       },
       "note": {
         "en": "Unlike Korean/Japanese, Russian has two distance poles, but gender splits “this/that”.",
@@ -90,7 +99,8 @@
         "fr": "Deux distances, formes selon le genre.",
         "es": "Dos distancias; formas según género.",
         "de": "Zwei Abstände; Formen nach Genus.",
-        "ru": "Два расстояния; формы по роду."
+        "ru": "Два расстояния; формы по роду.",
+        "it": "Unlike Korean/Japanese, Russian has two distance poles, but gender splits “this/that”."
       },
       "columns": [
         {
@@ -103,7 +113,8 @@
             "fr": "Rôle",
             "es": "Rol",
             "de": "Rolle",
-            "ru": "Роль"
+            "ru": "Роль",
+            "it": "Role"
           }
         },
         {
@@ -116,7 +127,8 @@
             "fr": "Ceci / ici",
             "es": "Esto / aquí",
             "de": "Dies / hier",
-            "ru": "Этот / здесь"
+            "ru": "Этот / здесь",
+            "it": "This / here"
           }
         },
         {
@@ -129,7 +141,8 @@
             "fr": "Cela / là",
             "es": "Eso / allí",
             "de": "Jenes / dort",
-            "ru": "Тот / там"
+            "ru": "Тот / там",
+            "it": "That / there"
           }
         }
       ],
@@ -143,7 +156,8 @@
             "fr": "Masculin",
             "es": "Masculino",
             "de": "Maskulin",
-            "ru": "Мужской"
+            "ru": "Мужской",
+            "it": "Masc. (+ noun)"
           },
           "this": "этот",
           "that": "тот"
@@ -157,7 +171,8 @@
             "fr": "Féminin",
             "es": "Femenino",
             "de": "Feminin",
-            "ru": "Женский"
+            "ru": "Женский",
+            "it": "Fem. (+ noun)"
           },
           "this": "эта",
           "that": "та"
@@ -171,7 +186,8 @@
             "fr": "Neutre / « c’est »",
             "es": "Neutro / « esto es »",
             "de": "Neutrum / « das ist »",
-            "ru": "Средний / «это…»"
+            "ru": "Средний / «это…»",
+            "it": "Neuter / “this is”"
           },
           "this": "это",
           "that": "то"
@@ -185,7 +201,8 @@
             "fr": "Pluriel",
             "es": "Plural",
             "de": "Plural",
-            "ru": "Мн. число"
+            "ru": "Мн. число",
+            "it": "Plural"
           },
           "this": "эти",
           "that": "те"
@@ -201,7 +218,8 @@
         "fr": "Lieu & direction",
         "es": "Lugar y dirección",
         "de": "Ort & Richtung",
-        "ru": "Место и направление"
+        "ru": "Место и направление",
+        "it": "Place & way"
       },
       "note": {
         "en": "Location vs direction — same idea as где / куда.",
@@ -211,7 +229,8 @@
         "fr": "Lieu vs direction — comme где / куда.",
         "es": "Lugar vs dirección — como где / куда.",
         "de": "Ort vs Richtung — wie где / куда.",
-        "ru": "Место и направление — как где / куда."
+        "ru": "Место и направление — как где / куда.",
+        "it": "Location vs direction — same idea as где / куда."
       },
       "columns": [
         {
@@ -224,7 +243,8 @@
             "fr": "Rôle",
             "es": "Rol",
             "de": "Rolle",
-            "ru": "Роль"
+            "ru": "Роль",
+            "it": "Role"
           }
         },
         {
@@ -237,7 +257,8 @@
             "fr": "Ceci / ici",
             "es": "Esto / aquí",
             "de": "Dies / hier",
-            "ru": "Этот / здесь"
+            "ru": "Этот / здесь",
+            "it": "This / here"
           }
         },
         {
@@ -250,7 +271,8 @@
             "fr": "Cela / là",
             "es": "Eso / allí",
             "de": "Jenes / dort",
-            "ru": "Тот / там"
+            "ru": "Тот / там",
+            "it": "That / there"
           }
         }
       ],
@@ -264,7 +286,8 @@
             "fr": "Lieu",
             "es": "Lugar",
             "de": "Ort",
-            "ru": "Место"
+            "ru": "Место",
+            "it": "Location"
           },
           "this": "здесь",
           "that": "там"
@@ -278,7 +301,8 @@
             "fr": "Direction",
             "es": "Dirección",
             "de": "Richtung",
-            "ru": "Направление"
+            "ru": "Направление",
+            "it": "Direction (to)"
           },
           "this": "сюда",
           "that": "туда"
@@ -294,7 +318,8 @@
         "fr": "Mots spatiaux",
         "es": "Palabras espaciales",
         "de": "Raumwörter",
-        "ru": "Пространственные слова"
+        "ru": "Пространственные слова",
+        "it": "Spatial words"
       },
       "columns": [
         {
@@ -307,7 +332,8 @@
             "fr": "Paire",
             "es": "Par",
             "de": "Paar",
-            "ru": "Пара"
+            "ru": "Пара",
+            "it": "Pair"
           }
         },
         {
@@ -320,7 +346,8 @@
             "fr": "Formes",
             "es": "Formas",
             "de": "Formen",
-            "ru": "Формы"
+            "ru": "Формы",
+            "it": "Forms"
           }
         }
       ],
@@ -334,7 +361,8 @@
             "fr": "Devant / derrière",
             "es": "Delante / detrás",
             "de": "Vorne / hinten",
-            "ru": "Спереди / сзади"
+            "ru": "Спереди / сзади",
+            "it": "Front / back"
           },
           "forms": "впереди · сзади"
         },
@@ -347,7 +375,8 @@
             "fr": "Haut / bas",
             "es": "Arriba / abajo",
             "de": "Oben / unten",
-            "ru": "Сверху / снизу"
+            "ru": "Сверху / снизу",
+            "it": "Above / below"
           },
           "forms": "сверху · снизу"
         },
@@ -360,7 +389,8 @@
             "fr": "Gauche / droite",
             "es": "Izquierda / derecha",
             "de": "Links / rechts",
-            "ru": "Слева / справа"
+            "ru": "Слева / справа",
+            "it": "Left / right"
           },
           "forms": "слева · справа"
         },
@@ -373,7 +403,8 @@
             "fr": "Dedans / dehors",
             "es": "Dentro / fuera",
             "de": "Innen / außen",
-            "ru": "Внутри / снаружи"
+            "ru": "Внутри / снаружи",
+            "it": "Inside / outside"
           },
           "forms": "внутри · снаружи"
         }
@@ -388,7 +419,8 @@
         "fr": "Formes et sons",
         "es": "Formas y sonidos",
         "de": "Formen & Laute",
-        "ru": "Формы и звучание"
+        "ru": "Формы и звучание",
+        "it": "Forms & sounds"
       },
       "columns": [
         {
@@ -401,7 +433,8 @@
             "fr": "Russe",
             "es": "Ruso",
             "de": "Russisch",
-            "ru": "Русский"
+            "ru": "Русский",
+            "it": "Russian"
           }
         },
         {
@@ -414,7 +447,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -427,7 +461,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -442,7 +477,8 @@
             "fr": "ce / cet (masculin)",
             "es": "este (masculino)",
             "de": "dieser (maskulin)",
-            "ru": "этот"
+            "ru": "этот",
+            "it": "this (masculine)"
           },
           "sound": {
             "en": "e-tot",
@@ -452,7 +488,8 @@
             "fr": "e-tot",
             "es": "e-tot",
             "de": "e-tot",
-            "ru": "этот"
+            "ru": "этот",
+            "it": "e-tot"
           }
         },
         {
@@ -465,7 +502,8 @@
             "fr": "cette (féminin)",
             "es": "esta (femenino)",
             "de": "diese (feminin)",
-            "ru": "эта"
+            "ru": "эта",
+            "it": "this (feminine)"
           },
           "sound": {
             "en": "e-ta",
@@ -475,7 +513,8 @@
             "fr": "e-ta",
             "es": "e-ta",
             "de": "e-ta",
-            "ru": "эта"
+            "ru": "эта",
+            "it": "e-ta"
           }
         },
         {
@@ -488,7 +527,8 @@
             "fr": "ceci / ce (neutre)",
             "es": "esto / eso (neutro)",
             "de": "dies / es (Neutrum)",
-            "ru": "это"
+            "ru": "это",
+            "it": "this / it (neuter); “this is…”"
           },
           "sound": {
             "en": "e-to",
@@ -498,7 +538,8 @@
             "fr": "e-to",
             "es": "e-to",
             "de": "e-to",
-            "ru": "это"
+            "ru": "это",
+            "it": "e-to"
           }
         },
         {
@@ -511,7 +552,8 @@
             "fr": "ce / cet …-là (masculin)",
             "es": "aquel / ese (masculino)",
             "de": "jener (maskulin)",
-            "ru": "тот"
+            "ru": "тот",
+            "it": "that (masculine)"
           },
           "sound": {
             "en": "tot",
@@ -521,7 +563,8 @@
             "fr": "tot",
             "es": "tot",
             "de": "tot",
-            "ru": "тот"
+            "ru": "тот",
+            "it": "tot"
           }
         },
         {
@@ -534,7 +577,8 @@
             "fr": "cette …-là (féminin)",
             "es": "aquella / esa (femenino)",
             "de": "jene (feminin)",
-            "ru": "та"
+            "ru": "та",
+            "it": "that (feminine)"
           },
           "sound": {
             "en": "ta",
@@ -544,7 +588,8 @@
             "fr": "ta",
             "es": "ta",
             "de": "ta",
-            "ru": "та"
+            "ru": "та",
+            "it": "ta"
           }
         },
         {
@@ -557,7 +602,8 @@
             "fr": "cela (neutre)",
             "es": "aquello / eso (neutro)",
             "de": "jenes (Neutrum)",
-            "ru": "то"
+            "ru": "то",
+            "it": "that (neuter)"
           },
           "sound": {
             "en": "to",
@@ -567,7 +613,8 @@
             "fr": "to",
             "es": "to",
             "de": "to",
-            "ru": "то"
+            "ru": "то",
+            "it": "to"
           }
         },
         {
@@ -580,7 +627,8 @@
             "fr": "ces (pluriel, proches)",
             "es": "estos / estas",
             "de": "diese (Plural)",
-            "ru": "эти"
+            "ru": "эти",
+            "it": "these"
           },
           "sound": {
             "en": "e-ti",
@@ -590,7 +638,8 @@
             "fr": "e-ti",
             "es": "e-ti",
             "de": "e-ti",
-            "ru": "эти"
+            "ru": "эти",
+            "it": "e-ti"
           }
         },
         {
@@ -603,7 +652,8 @@
             "fr": "ces …-là (pluriel)",
             "es": "aquellos / esos",
             "de": "jene (Plural)",
-            "ru": "те"
+            "ru": "те",
+            "it": "those"
           },
           "sound": {
             "en": "te",
@@ -613,7 +663,8 @@
             "fr": "te",
             "es": "te",
             "de": "te",
-            "ru": "те"
+            "ru": "те",
+            "it": "te"
           }
         },
         {
@@ -626,7 +677,8 @@
             "fr": "ici (lieu)",
             "es": "aquí (lugar)",
             "de": "hier (Ort)",
-            "ru": "здесь"
+            "ru": "здесь",
+            "it": "here (location)"
           },
           "sound": {
             "en": "zdesʹ",
@@ -636,7 +688,8 @@
             "fr": "zdesʹ",
             "es": "zdesʹ",
             "de": "zdesʹ",
-            "ru": "здесь"
+            "ru": "здесь",
+            "it": "zdesʹ"
           }
         },
         {
@@ -649,7 +702,8 @@
             "fr": "là (lieu)",
             "es": "allí (lugar)",
             "de": "dort (Ort)",
-            "ru": "там"
+            "ru": "там",
+            "it": "there (location)"
           },
           "sound": {
             "en": "tam",
@@ -659,7 +713,8 @@
             "fr": "tam",
             "es": "tam",
             "de": "tam",
-            "ru": "там"
+            "ru": "там",
+            "it": "tam"
           }
         },
         {
@@ -672,7 +727,8 @@
             "fr": "ici (direction)",
             "es": "hacia aquí",
             "de": "hierher",
-            "ru": "сюда"
+            "ru": "сюда",
+            "it": "to here / hither"
           },
           "sound": {
             "en": "syu-da",
@@ -682,7 +738,8 @@
             "fr": "syu-da",
             "es": "syu-da",
             "de": "syu-da",
-            "ru": "сюда"
+            "ru": "сюда",
+            "it": "syu-da"
           }
         },
         {
@@ -695,7 +752,8 @@
             "fr": "là-bas (direction)",
             "es": "hacia allí",
             "de": "dorthin",
-            "ru": "туда"
+            "ru": "туда",
+            "it": "to there / thither"
           },
           "sound": {
             "en": "tu-da",
@@ -705,7 +763,8 @@
             "fr": "tu-da",
             "es": "tu-da",
             "de": "tu-da",
-            "ru": "туда"
+            "ru": "туда",
+            "it": "tu-da"
           }
         },
         {
@@ -718,7 +777,8 @@
             "fr": "devant",
             "es": "delante",
             "de": "vorn / voraus",
-            "ru": "впереди"
+            "ru": "впереди",
+            "it": "in front / ahead"
           },
           "sound": {
             "en": "vpe-re-di",
@@ -728,7 +788,8 @@
             "fr": "vpe-re-di",
             "es": "vpe-re-di",
             "de": "vpe-re-di",
-            "ru": "впереди"
+            "ru": "впереди",
+            "it": "vpe-re-di"
           }
         },
         {
@@ -741,7 +802,8 @@
             "fr": "derrière",
             "es": "detrás",
             "de": "hinten",
-            "ru": "сзади"
+            "ru": "сзади",
+            "it": "behind / at the back"
           },
           "sound": {
             "en": "sza-di",
@@ -751,7 +813,8 @@
             "fr": "sza-di",
             "es": "sza-di",
             "de": "sza-di",
-            "ru": "сзади"
+            "ru": "сзади",
+            "it": "sza-di"
           }
         },
         {
@@ -764,7 +827,8 @@
             "fr": "au-dessus",
             "es": "arriba",
             "de": "oben",
-            "ru": "сверху"
+            "ru": "сверху",
+            "it": "above / from above"
           },
           "sound": {
             "en": "sver-khu",
@@ -774,7 +838,8 @@
             "fr": "sver-khu",
             "es": "sver-khu",
             "de": "sver-khu",
-            "ru": "сверху"
+            "ru": "сверху",
+            "it": "sver-khu"
           }
         },
         {
@@ -787,7 +852,8 @@
             "fr": "en bas",
             "es": "abajo",
             "de": "unten",
-            "ru": "снизу"
+            "ru": "снизу",
+            "it": "below / from below"
           },
           "sound": {
             "en": "sni-zu",
@@ -797,7 +863,8 @@
             "fr": "sni-zu",
             "es": "sni-zu",
             "de": "sni-zu",
-            "ru": "снизу"
+            "ru": "снизу",
+            "it": "sni-zu"
           }
         },
         {
@@ -810,7 +877,8 @@
             "fr": "à gauche",
             "es": "a la izquierda",
             "de": "links",
-            "ru": "слева"
+            "ru": "слева",
+            "it": "on the left"
           },
           "sound": {
             "en": "sle-va",
@@ -820,7 +888,8 @@
             "fr": "sle-va",
             "es": "sle-va",
             "de": "sle-va",
-            "ru": "слева"
+            "ru": "слева",
+            "it": "sle-va"
           }
         },
         {
@@ -833,7 +902,8 @@
             "fr": "à droite",
             "es": "a la derecha",
             "de": "rechts",
-            "ru": "справа"
+            "ru": "справа",
+            "it": "on the right"
           },
           "sound": {
             "en": "spra-va",
@@ -843,7 +913,8 @@
             "fr": "spra-va",
             "es": "spra-va",
             "de": "spra-va",
-            "ru": "справа"
+            "ru": "справа",
+            "it": "spra-va"
           }
         },
         {
@@ -856,7 +927,8 @@
             "fr": "à l’intérieur",
             "es": "dentro",
             "de": "innen",
-            "ru": "внутри"
+            "ru": "внутри",
+            "it": "inside"
           },
           "sound": {
             "en": "vnu-tri",
@@ -866,7 +938,8 @@
             "fr": "vnu-tri",
             "es": "vnu-tri",
             "de": "vnu-tri",
-            "ru": "внутри"
+            "ru": "внутри",
+            "it": "vnu-tri"
           }
         },
         {
@@ -879,7 +952,8 @@
             "fr": "à l’extérieur",
             "es": "fuera",
             "de": "außen",
-            "ru": "снаружи"
+            "ru": "снаружи",
+            "it": "outside"
           },
           "sound": {
             "en": "sna-ru-zhi",
@@ -889,7 +963,8 @@
             "fr": "sna-ru-zhi",
             "es": "sna-ru-zhi",
             "de": "sna-ru-zhi",
-            "ru": "снаружи"
+            "ru": "снаружи",
+            "it": "sna-ru-zhi"
           }
         }
       ]

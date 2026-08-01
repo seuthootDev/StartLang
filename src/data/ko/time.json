@@ -9,7 +9,8 @@
       "fr": "sae-byeok",
       "es": "sae-byeok",
       "de": "sae-byeok",
-      "ru": "сэ-бёк"
+      "ru": "сэ-бёк",
+      "it": "sae-byeok"
     },
     "translations": {
       "en": "dawn / early morning",
@@ -19,7 +20,8 @@
       "de": "Morgendämmerung",
       "ru": "рассвет",
       "ko": "새벽",
-      "ja": "明け方"
+      "ja": "明け方",
+      "it": "dawn / early morning"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "a-chim",
       "es": "a-chim",
       "de": "a-chim",
-      "ru": "а-чим"
+      "ru": "а-чим",
+      "it": "a-chim"
     },
     "translations": {
       "en": "morning",
@@ -42,7 +45,8 @@
       "de": "Morgen",
       "ru": "утро",
       "ko": "아침",
-      "ja": "朝"
+      "ja": "朝",
+      "it": "morning"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "o-jeon",
       "es": "o-jeon",
       "de": "o-jeon",
-      "ru": "о-джон"
+      "ru": "о-джон",
+      "it": "o-jeon"
     },
     "translations": {
       "en": "a.m. / morning (before noon)",
@@ -65,7 +70,8 @@
       "de": "Vormittag",
       "ru": "до полудня",
       "ko": "오전",
-      "ja": "午前"
+      "ja": "午前",
+      "it": "a.m. / morning (before noon)"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "nat",
       "es": "nat",
       "de": "nat",
-      "ru": "нат"
+      "ru": "нат",
+      "it": "nat"
     },
     "translations": {
       "en": "daytime / noon",
@@ -88,7 +95,8 @@
       "de": "Mittag / tagsüber",
       "ru": "день / полдень",
       "ko": "낮",
-      "ja": "昼"
+      "ja": "昼",
+      "it": "daytime / noon"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "o-hu",
       "es": "o-hu",
       "de": "o-hu",
-      "ru": "о-ху"
+      "ru": "о-ху",
+      "it": "o-hu"
     },
     "translations": {
       "en": "p.m. / afternoon",
@@ -111,7 +120,8 @@
       "de": "Nachmittag",
       "ru": "после полудня",
       "ko": "오후",
-      "ja": "午後"
+      "ja": "午後",
+      "it": "p.m. / afternoon"
     }
   },
   {
@@ -124,7 +134,8 @@
       "fr": "jeo-nyeok",
       "es": "jeo-nyeok",
       "de": "jeo-nyeok",
-      "ru": "чо-нёк"
+      "ru": "чо-нёк",
+      "it": "jeo-nyeok"
     },
     "translations": {
       "en": "evening",
@@ -134,7 +145,8 @@
       "de": "Abend",
       "ru": "вечер",
       "ko": "저녁",
-      "ja": "夕方"
+      "ja": "夕方",
+      "it": "evening"
     }
   },
   {
@@ -147,7 +159,8 @@
       "fr": "bam",
       "es": "bam",
       "de": "bam",
-      "ru": "пам"
+      "ru": "пам",
+      "it": "bam"
     },
     "translations": {
       "en": "night",
@@ -157,7 +170,8 @@
       "de": "Nacht",
       "ru": "ночь",
       "ko": "밤",
-      "ja": "夜"
+      "ja": "夜",
+      "it": "night"
     }
   },
   {
@@ -170,7 +184,8 @@
       "fr": "ji-geum",
       "es": "ji-geum",
       "de": "ji-geum",
-      "ru": "чи-гым"
+      "ru": "чи-гым",
+      "it": "ji-geum"
     },
     "translations": {
       "en": "now",
@@ -180,7 +195,8 @@
       "de": "jetzt",
       "ru": "сейчас",
       "ko": "지금",
-      "ja": "今"
+      "ja": "今",
+      "it": "now"
     }
   }
 ]

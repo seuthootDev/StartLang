@@ -10,7 +10,8 @@
       "fr": "ras-svet",
       "es": "ras-svet",
       "de": "ras-svet",
-      "ru": "рассвет"
+      "ru": "рассвет",
+      "it": "ras-svet"
     },
     "translations": {
       "en": "dawn / early morning",
@@ -20,7 +21,8 @@
       "fr": "aube",
       "es": "madrugada",
       "de": "Morgendämmerung",
-      "ru": "рассвет"
+      "ru": "рассвет",
+      "it": "dawn / early morning"
     }
   },
   {
@@ -34,7 +36,8 @@
       "fr": "u-tro",
       "es": "u-tro",
       "de": "u-tro",
-      "ru": "утро"
+      "ru": "утро",
+      "it": "u-tro"
     },
     "translations": {
       "en": "morning",
@@ -44,7 +47,8 @@
       "fr": "matin",
       "es": "mañana",
       "de": "Morgen",
-      "ru": "утро"
+      "ru": "утро",
+      "it": "morning"
     }
   },
   {
@@ -58,7 +62,8 @@
       "fr": "do po-lu-dnya",
       "es": "do po-lu-dnya",
       "de": "do po-lu-dnya",
-      "ru": "до полудня"
+      "ru": "до полудня",
+      "it": "do po-lu-dnya"
     },
     "translations": {
       "en": "a.m. / morning (before noon)",
@@ -68,7 +73,8 @@
       "fr": "matin (avant midi)",
       "es": "a. m.",
       "de": "Vormittag",
-      "ru": "до полудня"
+      "ru": "до полудня",
+      "it": "a.m. / morning (before noon)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "fr": "denʹ",
       "es": "denʹ",
       "de": "denʹ",
-      "ru": "день"
+      "ru": "день",
+      "it": "denʹ"
     },
     "translations": {
       "en": "daytime / day",
@@ -92,7 +99,8 @@
       "fr": "journée / jour",
       "es": "día",
       "de": "Tag / Tageszeit",
-      "ru": "день"
+      "ru": "день",
+      "it": "daytime / day"
     }
   },
   {
@@ -106,7 +114,8 @@
       "fr": "pos-le po-lu-dnya",
       "es": "pos-le po-lu-dnya",
       "de": "pos-le po-lu-dnya",
-      "ru": "после полудня"
+      "ru": "после полудня",
+      "it": "pos-le po-lu-dnya"
     },
     "translations": {
       "en": "p.m. / afternoon",
@@ -116,7 +125,8 @@
       "fr": "après-midi",
       "es": "tarde",
       "de": "Nachmittag",
-      "ru": "после полудня"
+      "ru": "после полудня",
+      "it": "p.m. / afternoon"
     }
   },
   {
@@ -130,7 +140,8 @@
       "fr": "ve-cher",
       "es": "ve-cher",
       "de": "ve-cher",
-      "ru": "вечер"
+      "ru": "вечер",
+      "it": "ve-cher"
     },
     "translations": {
       "en": "evening",
@@ -140,7 +151,8 @@
       "fr": "soir",
       "es": "tarde / noche",
       "de": "Abend",
-      "ru": "вечер"
+      "ru": "вечер",
+      "it": "evening"
     }
   },
   {
@@ -154,7 +166,8 @@
       "fr": "nochʹ",
       "es": "nochʹ",
       "de": "nochʹ",
-      "ru": "ночь"
+      "ru": "ночь",
+      "it": "nochʹ"
     },
     "translations": {
       "en": "night",
@@ -164,7 +177,8 @@
       "fr": "nuit",
       "es": "noche",
       "de": "Nacht",
-      "ru": "ночь"
+      "ru": "ночь",
+      "it": "night"
     }
   },
   {
@@ -178,7 +192,8 @@
       "fr": "sey-chas",
       "es": "sey-chas",
       "de": "sey-chas",
-      "ru": "сейчас"
+      "ru": "сейчас",
+      "it": "sey-chas"
     },
     "translations": {
       "en": "now",
@@ -188,7 +203,8 @@
       "fr": "maintenant",
       "es": "ahora",
       "de": "jetzt",
-      "ru": "сейчас"
+      "ru": "сейчас",
+      "it": "now"
     }
   }
 ]

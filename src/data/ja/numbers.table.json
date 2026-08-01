@@ -8,7 +8,8 @@
     "fr": "Nombres cardinaux",
     "es": "Números cardinales",
     "de": "Kardinalzahlen",
-    "ru": "Количественные числительные"
+    "ru": "Количественные числительные",
+    "it": "Cardinal numbers"
   },
   "note": {
     "en": "Two systems + composition rules below.",
@@ -18,7 +19,8 @@
     "fr": "Deux systemes et regles de composition.",
     "es": "Dos sistemas y reglas de composicion.",
     "de": "Zwei Systeme und Bildungsregeln.",
-    "ru": "Две системы и правила сложения."
+    "ru": "Две системы и правила сложения.",
+    "it": "Two systems + composition rules below."
   },
   "rules": {
     "en": [
@@ -60,6 +62,11 @@
       "Сино (一…): в основном регулярны. 11–99 = 十 + единицы (十一, 二十三). 4/7/9 часто よん・なな・きゅう.",
       "Собственные счётные (一つ…とお): для предметов; обычно до 10.",
       "В сино-квизе +5 случайных сочетаний (11–99). Нерегулярности (как eleven) будут в правилах соответствующего языка."
+    ],
+    "it": [
+      "Sino (一, 二…): mostly regular. 11–99 = 十 + ones / tens+十+ones (十一, 二十三). 4/7/9 often よん・なな・きゅう.",
+      "Native counters (一つ…とお): used for counting things; usually stop at 10 — no 23-style compounds.",
+      "Sino quizzes add 5 random compounds (11–99). Later languages may list irregularities here (like English eleven, twelve)."
     ]
   },
   "columns": [
@@ -73,7 +80,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -86,7 +94,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -99,7 +108,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -114,7 +124,8 @@
         "fr": "1",
         "es": "1",
         "de": "1",
-        "ru": "1"
+        "ru": "1",
+        "it": "1"
       },
       "sound": {
         "en": "ichi",
@@ -124,7 +135,8 @@
         "es": "ichi",
         "de": "ichi",
         "ru": "ити",
-        "ja": "いち"
+        "ja": "いち",
+        "it": "ichi"
       }
     },
     {
@@ -137,7 +149,8 @@
         "fr": "2",
         "es": "2",
         "de": "2",
-        "ru": "2"
+        "ru": "2",
+        "it": "2"
       },
       "sound": {
         "en": "ni",
@@ -147,7 +160,8 @@
         "es": "ni",
         "de": "ni",
         "ru": "ни",
-        "ja": "に"
+        "ja": "に",
+        "it": "ni"
       }
     },
     {
@@ -160,7 +174,8 @@
         "fr": "3",
         "es": "3",
         "de": "3",
-        "ru": "3"
+        "ru": "3",
+        "it": "3"
       },
       "sound": {
         "en": "san",
@@ -170,7 +185,8 @@
         "es": "san",
         "de": "san",
         "ru": "сан",
-        "ja": "さん"
+        "ja": "さん",
+        "it": "san"
       }
     },
     {
@@ -183,7 +199,8 @@
         "fr": "4",
         "es": "4",
         "de": "4",
-        "ru": "4"
+        "ru": "4",
+        "it": "4"
       },
       "sound": {
         "en": "yon",
@@ -193,7 +210,8 @@
         "es": "yon",
         "de": "yon",
         "ru": "ён",
-        "ja": "よん"
+        "ja": "よん",
+        "it": "yon"
       }
     },
     {
@@ -206,7 +224,8 @@
         "fr": "5",
         "es": "5",
         "de": "5",
-        "ru": "5"
+        "ru": "5",
+        "it": "5"
       },
       "sound": {
         "en": "go",
@@ -216,7 +235,8 @@
         "es": "go",
         "de": "go",
         "ru": "го",
-        "ja": "ご"
+        "ja": "ご",
+        "it": "go"
       }
     },
     {
@@ -229,7 +249,8 @@
         "fr": "6",
         "es": "6",
         "de": "6",
-        "ru": "6"
+        "ru": "6",
+        "it": "6"
       },
       "sound": {
         "en": "roku",
@@ -239,7 +260,8 @@
         "es": "roku",
         "de": "roku",
         "ru": "року",
-        "ja": "ろく"
+        "ja": "ろく",
+        "it": "roku"
       }
     },
     {
@@ -252,7 +274,8 @@
         "fr": "7",
         "es": "7",
         "de": "7",
-        "ru": "7"
+        "ru": "7",
+        "it": "7"
       },
       "sound": {
         "en": "nana",
@@ -262,7 +285,8 @@
         "es": "nana",
         "de": "nana",
         "ru": "нана",
-        "ja": "なな"
+        "ja": "なな",
+        "it": "nana"
       }
     },
     {
@@ -275,7 +299,8 @@
         "fr": "8",
         "es": "8",
         "de": "8",
-        "ru": "8"
+        "ru": "8",
+        "it": "8"
       },
       "sound": {
         "en": "hachi",
@@ -285,7 +310,8 @@
         "es": "hachi",
         "de": "hachi",
         "ru": "хати",
-        "ja": "はち"
+        "ja": "はち",
+        "it": "hachi"
       }
     },
     {
@@ -298,7 +324,8 @@
         "fr": "9",
         "es": "9",
         "de": "9",
-        "ru": "9"
+        "ru": "9",
+        "it": "9"
       },
       "sound": {
         "en": "kyuu",
@@ -308,7 +335,8 @@
         "es": "kyuu",
         "de": "kyuu",
         "ru": "кю:",
-        "ja": "きゅう"
+        "ja": "きゅう",
+        "it": "kyuu"
       }
     },
     {
@@ -321,7 +349,8 @@
         "fr": "10",
         "es": "10",
         "de": "10",
-        "ru": "10"
+        "ru": "10",
+        "it": "10"
       },
       "sound": {
         "en": "juu",
@@ -331,7 +360,8 @@
         "es": "juu",
         "de": "juu",
         "ru": "дзю:",
-        "ja": "じゅう"
+        "ja": "じゅう",
+        "it": "juu"
       }
     },
     {
@@ -344,7 +374,8 @@
         "fr": "100",
         "es": "100",
         "de": "100",
-        "ru": "100"
+        "ru": "100",
+        "it": "100"
       },
       "sound": {
         "en": "hyaku",
@@ -354,7 +385,8 @@
         "es": "hyaku",
         "de": "hyaku",
         "ru": "хяку",
-        "ja": "ひゃく"
+        "ja": "ひゃく",
+        "it": "hyaku"
       }
     },
     {
@@ -367,7 +399,8 @@
         "fr": "1",
         "es": "1",
         "de": "1",
-        "ru": "1"
+        "ru": "1",
+        "it": "1"
       },
       "sound": {
         "en": "hito-tsu",
@@ -377,7 +410,8 @@
         "es": "hito-tsu",
         "de": "hito-tsu",
         "ru": "хито-цу",
-        "ja": "ひとつ"
+        "ja": "ひとつ",
+        "it": "hito-tsu"
       }
     },
     {
@@ -390,7 +424,8 @@
         "fr": "2",
         "es": "2",
         "de": "2",
-        "ru": "2"
+        "ru": "2",
+        "it": "2"
       },
       "sound": {
         "en": "futa-tsu",
@@ -400,7 +435,8 @@
         "es": "futa-tsu",
         "de": "futa-tsu",
         "ru": "фута-цу",
-        "ja": "ふたつ"
+        "ja": "ふたつ",
+        "it": "futa-tsu"
       }
     },
     {
@@ -413,7 +449,8 @@
         "fr": "3",
         "es": "3",
         "de": "3",
-        "ru": "3"
+        "ru": "3",
+        "it": "3"
       },
       "sound": {
         "en": "mit-tsu",
@@ -423,7 +460,8 @@
         "es": "mit-tsu",
         "de": "mit-tsu",
         "ru": "мит-цу",
-        "ja": "みっつ"
+        "ja": "みっつ",
+        "it": "mit-tsu"
       }
     },
     {
@@ -436,7 +474,8 @@
         "fr": "4",
         "es": "4",
         "de": "4",
-        "ru": "4"
+        "ru": "4",
+        "it": "4"
       },
       "sound": {
         "en": "yot-tsu",
@@ -446,7 +485,8 @@
         "es": "yot-tsu",
         "de": "yot-tsu",
         "ru": "ёт-цу",
-        "ja": "よっつ"
+        "ja": "よっつ",
+        "it": "yot-tsu"
       }
     },
     {
@@ -459,7 +499,8 @@
         "fr": "5",
         "es": "5",
         "de": "5",
-        "ru": "5"
+        "ru": "5",
+        "it": "5"
       },
       "sound": {
         "en": "itsu-tsu",
@@ -469,7 +510,8 @@
         "es": "itsu-tsu",
         "de": "itsu-tsu",
         "ru": "ицу-цу",
-        "ja": "いつつ"
+        "ja": "いつつ",
+        "it": "itsu-tsu"
       }
     },
     {
@@ -482,7 +524,8 @@
         "fr": "6",
         "es": "6",
         "de": "6",
-        "ru": "6"
+        "ru": "6",
+        "it": "6"
       },
       "sound": {
         "en": "mut-tsu",
@@ -492,7 +535,8 @@
         "es": "mut-tsu",
         "de": "mut-tsu",
         "ru": "мут-цу",
-        "ja": "むっつ"
+        "ja": "むっつ",
+        "it": "mut-tsu"
       }
     },
     {
@@ -505,7 +549,8 @@
         "fr": "7",
         "es": "7",
         "de": "7",
-        "ru": "7"
+        "ru": "7",
+        "it": "7"
       },
       "sound": {
         "en": "nana-tsu",
@@ -515,7 +560,8 @@
         "es": "nana-tsu",
         "de": "nana-tsu",
         "ru": "нана-цу",
-        "ja": "ななつ"
+        "ja": "ななつ",
+        "it": "nana-tsu"
       }
     },
     {
@@ -528,7 +574,8 @@
         "fr": "8",
         "es": "8",
         "de": "8",
-        "ru": "8"
+        "ru": "8",
+        "it": "8"
       },
       "sound": {
         "en": "yat-tsu",
@@ -538,7 +585,8 @@
         "es": "yat-tsu",
         "de": "yat-tsu",
         "ru": "ят-цу",
-        "ja": "やっつ"
+        "ja": "やっつ",
+        "it": "yat-tsu"
       }
     },
     {
@@ -551,7 +599,8 @@
         "fr": "9",
         "es": "9",
         "de": "9",
-        "ru": "9"
+        "ru": "9",
+        "it": "9"
       },
       "sound": {
         "en": "kokono-tsu",
@@ -561,7 +610,8 @@
         "es": "kokono-tsu",
         "de": "kokono-tsu",
         "ru": "коконо-цу",
-        "ja": "ここのつ"
+        "ja": "ここのつ",
+        "it": "kokono-tsu"
       }
     },
     {
@@ -574,7 +624,8 @@
         "fr": "10",
         "es": "10",
         "de": "10",
-        "ru": "10"
+        "ru": "10",
+        "it": "10"
       },
       "sound": {
         "en": "too",
@@ -584,7 +635,8 @@
         "es": "too",
         "de": "too",
         "ru": "то:",
-        "ja": "とお"
+        "ja": "とお",
+        "it": "too"
       }
     }
   ]

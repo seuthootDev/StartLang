@@ -4,11 +4,13 @@
     "question_word": "こんにちは",
     "pronunciations": {
       "en": "kon-ni-chi-wa",
-      "ko": "곤니치와"
+      "ko": "곤니치와",
+      "it": "kon-ni-chi-wa"
     },
     "translations": {
       "en": "hello",
-      "ko": "안녕하세요"
+      "ko": "안녕하세요",
+      "it": "hello"
     }
   },
   {
@@ -16,11 +18,13 @@
     "question_word": "ありがとう",
     "pronunciations": {
       "en": "a-ri-ga-tou",
-      "ko": "아리가토"
+      "ko": "아리가토",
+      "it": "a-ri-ga-tou"
     },
     "translations": {
       "en": "thank you",
-      "ko": "고마워"
+      "ko": "고마워",
+      "it": "thank you"
     }
   },
   {
@@ -28,11 +32,13 @@
     "question_word": "水",
     "pronunciations": {
       "en": "mi-zu",
-      "ko": "미즈"
+      "ko": "미즈",
+      "it": "mi-zu"
     },
     "translations": {
       "en": "water",
-      "ko": "물"
+      "ko": "물",
+      "it": "water"
     }
   },
   {
@@ -40,11 +46,13 @@
     "question_word": "りんご",
     "pronunciations": {
       "en": "rin-go",
-      "ko": "링고"
+      "ko": "링고",
+      "it": "rin-go"
     },
     "translations": {
       "en": "apple",
-      "ko": "사과"
+      "ko": "사과",
+      "it": "apple"
     }
   }
 ]

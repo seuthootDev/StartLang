@@ -9,7 +9,8 @@
       "fr": "ake-gata",
       "es": "ake-gata",
       "de": "ake-gata",
-      "ru": "акэ-гата"
+      "ru": "акэ-гата",
+      "it": "ake-gata"
     },
     "translations": {
       "en": "dawn / early morning",
@@ -19,7 +20,8 @@
       "de": "Morgendämmerung",
       "ru": "рассвет",
       "ko": "새벽",
-      "ja": "明け方"
+      "ja": "明け方",
+      "it": "dawn / early morning"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "asa",
       "es": "asa",
       "de": "asa",
-      "ru": "аса"
+      "ru": "аса",
+      "it": "asa"
     },
     "translations": {
       "en": "morning",
@@ -42,7 +45,8 @@
       "de": "Morgen",
       "ru": "утро",
       "ko": "아침",
-      "ja": "朝"
+      "ja": "朝",
+      "it": "morning"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "go-zen",
       "es": "go-zen",
       "de": "go-zen",
-      "ru": "го-дзэн"
+      "ru": "го-дзэн",
+      "it": "go-zen"
     },
     "translations": {
       "en": "a.m. / morning (before noon)",
@@ -65,7 +70,8 @@
       "de": "Vormittag",
       "ru": "до полудня",
       "ko": "오전",
-      "ja": "午前"
+      "ja": "午前",
+      "it": "a.m. / morning (before noon)"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "hiru",
       "es": "hiru",
       "de": "hiru",
-      "ru": "хиру"
+      "ru": "хиру",
+      "it": "hiru"
     },
     "translations": {
       "en": "daytime / noon",
@@ -88,7 +95,8 @@
       "de": "Mittag / tagsüber",
       "ru": "день / полдень",
       "ko": "낮",
-      "ja": "昼"
+      "ja": "昼",
+      "it": "daytime / noon"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "go-go",
       "es": "go-go",
       "de": "go-go",
-      "ru": "го-го"
+      "ru": "го-го",
+      "it": "go-go"
     },
     "translations": {
       "en": "p.m. / afternoon",
@@ -111,7 +120,8 @@
       "de": "Nachmittag",
       "ru": "после полудня",
       "ko": "오후",
-      "ja": "午後"
+      "ja": "午後",
+      "it": "p.m. / afternoon"
     }
   },
   {
@@ -124,7 +134,8 @@
       "fr": "yuu-gata",
       "es": "yuu-gata",
       "de": "yuu-gata",
-      "ru": "ю:-гата"
+      "ru": "ю:-гата",
+      "it": "yuu-gata"
     },
     "translations": {
       "en": "evening",
@@ -134,7 +145,8 @@
       "de": "Abend",
       "ru": "вечер",
       "ko": "저녁",
-      "ja": "夕方"
+      "ja": "夕方",
+      "it": "evening"
     }
   },
   {
@@ -147,7 +159,8 @@
       "fr": "yoru",
       "es": "yoru",
       "de": "yoru",
-      "ru": "ёру"
+      "ru": "ёру",
+      "it": "yoru"
     },
     "translations": {
       "en": "night",
@@ -157,7 +170,8 @@
       "de": "Nacht",
       "ru": "ночь",
       "ko": "밤",
-      "ja": "夜"
+      "ja": "夜",
+      "it": "night"
     }
   },
   {
@@ -170,7 +184,8 @@
       "fr": "ima",
       "es": "ima",
       "de": "ima",
-      "ru": "има"
+      "ru": "има",
+      "it": "ima"
     },
     "translations": {
       "en": "now",
@@ -180,7 +195,8 @@
       "de": "jetzt",
       "ru": "сейчас",
       "ko": "지금",
-      "ja": "今"
+      "ja": "今",
+      "it": "now"
     }
   }
 ]

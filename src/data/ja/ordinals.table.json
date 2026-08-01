@@ -8,7 +8,8 @@
     "fr": "Nombres ordinaux",
     "es": "Números ordinales",
     "de": "Ordinalzahlen",
-    "ru": "Порядковые числительные"
+    "ru": "Порядковые числительные",
+    "it": "Ordinal numbers"
   },
   "note": {
     "en": "Often 第 + number (dai-).",
@@ -18,7 +19,8 @@
     "fr": "Souvent 第 + nombre (dai-).",
     "es": "A menudo 第 + número (dai-).",
     "de": "Oft 第 + Zahl (dai-).",
-    "ru": "Часто 第 + число (дай-)."
+    "ru": "Часто 第 + число (дай-).",
+    "it": "Often 第 + number (dai-)."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -72,7 +77,8 @@
         "de": "erste",
         "ru": "первый",
         "ko": "첫 번째",
-        "ja": "第一"
+        "ja": "第一",
+        "it": "first"
       },
       "sound": {
         "en": "dai-ichi",
@@ -82,7 +88,8 @@
         "es": "dai-ichi",
         "de": "dai-ichi",
         "ru": "дай-ити",
-        "ja": "だいいち"
+        "ja": "だいいち",
+        "it": "dai-ichi"
       }
     },
     {
@@ -95,7 +102,8 @@
         "de": "zweite",
         "ru": "второй",
         "ko": "두 번째",
-        "ja": "第二"
+        "ja": "第二",
+        "it": "second"
       },
       "sound": {
         "en": "dai-ni",
@@ -105,7 +113,8 @@
         "es": "dai-ni",
         "de": "dai-ni",
         "ru": "дай-ни",
-        "ja": "だいに"
+        "ja": "だいに",
+        "it": "dai-ni"
       }
     },
     {
@@ -118,7 +127,8 @@
         "de": "dritte",
         "ru": "третий",
         "ko": "세 번째",
-        "ja": "第三"
+        "ja": "第三",
+        "it": "third"
       },
       "sound": {
         "en": "dai-san",
@@ -128,7 +138,8 @@
         "es": "dai-san",
         "de": "dai-san",
         "ru": "дай-сан",
-        "ja": "だいさん"
+        "ja": "だいさん",
+        "it": "dai-san"
       }
     },
     {
@@ -141,7 +152,8 @@
         "de": "vierte",
         "ru": "четвёртый",
         "ko": "네 번째",
-        "ja": "第四"
+        "ja": "第四",
+        "it": "fourth"
       },
       "sound": {
         "en": "dai-yon",
@@ -151,7 +163,8 @@
         "es": "dai-yon",
         "de": "dai-yon",
         "ru": "дай-ён",
-        "ja": "だいよん"
+        "ja": "だいよん",
+        "it": "dai-yon"
       }
     },
     {
@@ -164,7 +177,8 @@
         "de": "fünfte",
         "ru": "пятый",
         "ko": "다섯 번째",
-        "ja": "第五"
+        "ja": "第五",
+        "it": "fifth"
       },
       "sound": {
         "en": "dai-go",
@@ -174,7 +188,8 @@
         "es": "dai-go",
         "de": "dai-go",
         "ru": "дай-го",
-        "ja": "だいご"
+        "ja": "だいご",
+        "it": "dai-go"
       }
     }
   ]

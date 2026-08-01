@@ -8,7 +8,8 @@
     "fr": "Vocabulaire JLPT N4",
     "es": "Vocabulario JLPT N4",
     "de": "JLPT-N4-Wortschatz",
-    "ru": "Лексика JLPT N4"
+    "ru": "Лексика JLPT N4",
+    "it": "JLPT N4 vocabulary"
   },
   "note": {
     "en": "OpenJLPT · 20 words/day · 32 days. Meanings start in English; run translate script for learner langs.",
@@ -18,7 +19,8 @@
     "fr": "OpenJLPT · 20 mots/jour · 32 jours.",
     "es": "OpenJLPT · 20 palabras/día · 32 días.",
     "de": "OpenJLPT · 20 Wörter/Tag · 32 Tage.",
-    "ru": "OpenJLPT · 20 слов/день · 32 дней."
+    "ru": "OpenJLPT · 20 слов/день · 32 дней.",
+    "it": "OpenJLPT · 20 words/day · 32 days. Meanings start in English; run translate script for learner langs."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Day",
         "es": "Day",
         "de": "Day",
-        "ru": "Day"
+        "ru": "Day",
+        "it": "Day"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Lecture",
         "es": "Lectura",
         "de": "Lesung",
-        "ru": "Чтение"
+        "ru": "Чтение",
+        "it": "Reading"
       }
     },
     {
@@ -70,7 +75,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     }
   ],
@@ -87,6 +93,7 @@
         "fr": "Ah",
         "es": "ah",
         "de": "Ah",
+        "it": "Ah",
         "ru": "Ах"
       }
     },
@@ -102,6 +109,7 @@
         "fr": "comme ça",
         "es": "así",
         "de": "so",
+        "it": "così",
         "ru": "вот так"
       }
     },
@@ -117,6 +125,7 @@
         "fr": "saluer",
         "es": "saludar",
         "de": "grüßen",
+        "it": "salutare",
         "ru": "приветствовать"
       }
     },
@@ -132,6 +141,7 @@
         "fr": "nourrisson",
         "es": "niño",
         "de": "Säugling",
+        "it": "infantile",
         "ru": "младенец"
       }
     },
@@ -147,6 +157,7 @@
         "fr": "accessoire",
         "es": "accesorio",
         "de": "Zubehör",
+        "it": "accessorio",
         "ru": "аксессуар"
       }
     },
@@ -162,6 +173,7 @@
         "fr": "donner",
         "es": "dar",
         "de": "geben",
+        "it": "dare",
         "ru": "дать"
       }
     },
@@ -177,6 +189,7 @@
         "fr": "Asie",
         "es": "Asia",
         "de": "Asien",
+        "it": "Asia",
         "ru": "Азия"
       }
     },
@@ -192,6 +205,7 @@
         "fr": "annonceur",
         "es": "locutor",
         "de": "Ansager",
+        "it": "annunciatore",
         "ru": "диктор"
       }
     },
@@ -207,6 +221,7 @@
         "fr": "Afrique",
         "es": "África",
         "de": "Afrika",
+        "it": "Africa",
         "ru": "Африка"
       }
     },
@@ -222,6 +237,7 @@
         "fr": "Amérique",
         "es": "América",
         "de": "Amerika",
+        "it": "America",
         "ru": "Америка"
       }
     },
@@ -237,6 +253,7 @@
         "fr": "alcool",
         "es": "alcohol",
         "de": "Alkohol",
+        "it": "alcol",
         "ru": "алкоголь"
       }
     },
@@ -252,6 +269,7 @@
         "fr": "travail à temps partiel",
         "es": "trabajo a tiempo parcial",
         "de": "Teilzeitbeschäftigung",
+        "it": "lavoro part-time",
         "ru": "неполная занятость"
       }
     },
@@ -267,6 +285,7 @@
         "fr": "tel",
         "es": "semejante",
         "de": "solch",
+        "it": "come",
         "ru": "такой"
       }
     },
@@ -282,6 +301,7 @@
         "fr": "taquiner",
         "es": "burlarse",
         "de": "necken",
+        "it": "prendere in giro",
         "ru": "дразнить"
       }
     },
@@ -297,6 +317,7 @@
         "fr": "(humble) recevoir",
         "es": "(humilde) recibir",
         "de": "(demütig) zu empfangen",
+        "it": "(umile) ricevere",
         "ru": "(смиренно) получить"
       }
     },
@@ -312,6 +333,7 @@
         "fr": "complet",
         "es": "lleno",
         "de": "voll",
+        "it": "pieno",
         "ru": "полный"
       }
     },
@@ -327,6 +349,7 @@
         "fr": "(respectueux) être; venir ou partir",
         "es": "(respetuoso) ser; venir o ir",
         "de": "(respektvoll) sein; kommen oder gehen",
+        "it": "(rispettoso) essere; venire o andare",
         "ru": "(уважительно) быть; прийти или уйти"
       }
     },
@@ -342,6 +365,7 @@
         "fr": "visiter",
         "es": "visitar",
         "de": "zu besuchen",
+        "it": "da visitare",
         "ru": "посетить"
       }
     },
@@ -357,6 +381,7 @@
         "fr": "un mensonge",
         "es": "una mentira",
         "de": "eine Lüge",
+        "it": "una bugia",
         "ru": "ложь"
       }
     },
@@ -372,6 +397,7 @@
         "fr": "dans",
         "es": "dentro",
         "de": "innerhalb",
+        "it": "entro",
         "ru": "в пределах"
       }
     },
@@ -387,6 +413,7 @@
         "fr": "délicieux",
         "es": "delicioso",
         "de": "lecker",
+        "it": "delizioso",
         "ru": "вкусный"
       }
     },
@@ -402,6 +429,7 @@
         "fr": "content",
         "es": "contento",
         "de": "froh",
+        "it": "lieto",
         "ru": "радостный"
       }
     },
@@ -417,6 +445,7 @@
         "fr": "(informel) oui",
         "es": "(informal) si",
         "de": "(informell) ja",
+        "it": "(informale) sì",
         "ru": "(неформально) да"
       }
     },
@@ -432,6 +461,7 @@
         "fr": "escalator",
         "es": "escalera mecánica",
         "de": "Rolltreppe",
+        "it": "scala mobile",
         "ru": "эскалатор"
       }
     },
@@ -447,6 +477,7 @@
         "fr": "(respectueux) être",
         "es": "(respetuoso) ser",
         "de": "(respektvoll) sein",
+        "it": "(rispettoso) essere",
         "ru": "(уважительно) быть"
       }
     },
@@ -462,6 +493,7 @@
         "fr": "moto",
         "es": "motocicleta",
         "de": "Motorrad",
+        "it": "motociclo",
         "ru": "мотоцикл"
       }
     },
@@ -477,6 +509,7 @@
         "fr": "en raison de",
         "es": "debido a",
         "de": "aufgrund von",
+        "it": "a causa di",
         "ru": "из-за"
       }
     },
@@ -492,6 +525,7 @@
         "fr": "étrange ou drôle",
         "es": "extraño o divertido",
         "de": "seltsam oder lustig",
+        "it": "strano o divertente",
         "ru": "странный или смешной"
       }
     },
@@ -507,6 +541,7 @@
         "fr": "(respectueux) dire",
         "es": "(respetuoso) decir",
         "de": "(respektvoll) zu sagen",
+        "it": "(rispettoso) dire",
         "ru": "(уважительно) сказать"
       }
     },
@@ -522,6 +557,7 @@
         "fr": "changement par rapport à l'achat ; équilibre",
         "es": "cambio de compra; balance",
         "de": "Änderung vom Kauf; Gleichgewicht",
+        "it": "cambiamento dall'acquisto; bilancia",
         "ru": "изменение с момента покупки; баланс"
       }
     },
@@ -537,6 +573,7 @@
         "fr": "jouet",
         "es": "juguete",
         "de": "Spielzeug",
+        "it": "giocattolo",
         "ru": "игрушка"
       }
     },
@@ -552,6 +589,7 @@
         "fr": "homme riche",
         "es": "hombre rico",
         "de": "Reiche",
+        "it": "uomo ricco",
         "ru": "богатый человек"
       }
     },
@@ -567,6 +605,7 @@
         "fr": "appeler quelqu'un qui est malade; enquête",
         "es": "visitar a alguien que está enfermo; consulta",
         "de": "jemanden anrufen, der krank ist; Anfrage",
+        "it": "invitare qualcuno che è malato; inchiesta",
         "ru": "обращение к больному; расследование"
       }
     },
@@ -582,6 +621,7 @@
         "fr": "festival",
         "es": "festival",
         "de": "Festival",
+        "it": "festival",
         "ru": "фестиваль"
       }
     },
@@ -597,6 +637,7 @@
         "fr": "félicitation",
         "es": "felicitaciones",
         "de": "Glückwunsch",
+        "it": "congratulazioni",
         "ru": "поздравление"
       }
     },
@@ -612,6 +653,7 @@
         "fr": "demoiselle",
         "es": "señorita",
         "de": "junge Dame",
+        "it": "signorina",
         "ru": "юная леди"
       }
     },
@@ -627,6 +669,7 @@
         "fr": "(poli) ta maison",
         "es": "(educado) tu casa",
         "de": "(höflich) Ihr Haus",
+        "it": "(educato) la tua casa",
         "ru": "(вежливо) твой дом"
       }
     },
@@ -642,6 +685,7 @@
         "fr": "souvenir",
         "es": "recuerdo",
         "de": "Souvenir",
+        "it": "souvenir",
         "ru": "сувенир"
       }
     },
@@ -657,6 +701,7 @@
         "fr": "expression de gratitude",
         "es": "expresión de gratitud",
         "de": "Ausdruck der Dankbarkeit",
+        "it": "espressione di gratitudine",
         "ru": "выражение благодарности"
       }
     },
@@ -672,6 +717,7 @@
         "fr": "rideau",
         "es": "cortina",
         "de": "Vorhang",
+        "it": "tenda",
         "ru": "занавес"
       }
     },
@@ -687,6 +733,7 @@
         "fr": "essence",
         "es": "gasolina",
         "de": "Benzin",
+        "it": "benzina",
         "ru": "бензин"
       }
     },
@@ -702,6 +749,7 @@
         "fr": "essence",
         "es": "gasolina",
         "de": "Benzin",
+        "it": "benzina",
         "ru": "бензин"
       }
     },
@@ -717,6 +765,7 @@
         "fr": "station essence",
         "es": "gasolinera",
         "de": "Tankstelle",
+        "it": "distributore di benzina",
         "ru": "заправочная станция"
       }
     },
@@ -732,6 +781,7 @@
         "fr": "apparence",
         "es": "apariencia",
         "de": "Aussehen",
+        "it": "aspetto",
         "ru": "появление"
       }
     },
@@ -747,6 +797,7 @@
         "fr": "à l'esprit",
         "es": "a la mente",
         "de": "in den Sinn kommen",
+        "it": "alla mente",
         "ru": "на ум"
       }
     },
@@ -762,6 +813,7 @@
         "fr": "une vitre",
         "es": "un panel de vidrio",
         "de": "eine Glasscheibe",
+        "it": "una lastra di vetro",
         "ru": "стеклянная панель"
       }
     },
@@ -777,6 +829,7 @@
         "fr": "sûrement",
         "es": "seguramente",
         "de": "sicherlich",
+        "it": "sicuramente",
         "ru": "конечно"
       }
     },
@@ -792,6 +845,7 @@
         "fr": "(respectueux) donner",
         "es": "(respetuoso) dar",
         "de": "(respektvoll) geben",
+        "it": "(rispettoso) dare",
         "ru": "(уважительно) дать"
       }
     },
@@ -807,6 +861,7 @@
         "fr": "donner",
         "es": "dar",
         "de": "geben",
+        "it": "dare",
         "ru": "дать"
       }
     },
@@ -822,6 +877,7 @@
         "fr": "gâteau",
         "es": "pastel",
         "de": "Kuchen",
+        "it": "torta",
         "ru": "торт"
       }
     },
@@ -837,6 +893,7 @@
         "fr": "blesser",
         "es": "herir",
         "de": "verletzen",
+        "it": "ferire",
         "ru": "ранить"
       }
     },
@@ -852,6 +909,7 @@
         "fr": "se disputer",
         "es": "pelear",
         "de": "streiten",
+        "it": "litigare",
         "ru": "ссориться"
       }
     },
@@ -867,6 +925,7 @@
         "fr": "Par ici",
         "es": "Por aquí",
         "de": "Hier entlang",
+        "it": "Da questa parte",
         "ru": "Сюда"
       }
     },
@@ -882,6 +941,7 @@
         "fr": "une fête",
         "es": "una fiesta",
         "de": "ein Fest",
+        "it": "una festa",
         "ru": "праздник"
       }
     },
@@ -897,6 +957,7 @@
         "fr": "chose; matière",
         "es": "cosa; asunto",
         "de": "Ding; Gegenstand",
+        "it": "cosa; questione",
         "ru": "вещь; иметь значение"
       }
     },
@@ -912,6 +973,7 @@
         "fr": "l'autre jour; récemment",
         "es": "el otro día; recientemente",
         "de": "neulich; kürzlich",
+        "it": "l'altro giorno; recentemente",
         "ru": "на днях; недавно"
       }
     },
@@ -927,6 +989,7 @@
         "fr": "ces jours; aujourd'hui",
         "es": "estos días; hoy en día",
         "de": "heutzutage; heutzutage",
+        "it": "in questi giorni; Al giorno d'oggi",
         "ru": "в эти дни; настоящее время"
       }
     },
@@ -942,6 +1005,7 @@
         "fr": "déchets",
         "es": "basura",
         "de": "Müll",
+        "it": "spazzatura",
         "ru": "мусор"
       }
     },
@@ -957,6 +1021,7 @@
         "fr": "(respectueux) à voir",
         "es": "(respetuoso) ver",
         "de": "(respektvoll) zu sehen",
+        "it": "(rispettoso) vedere",
         "ru": "(уважительно) видеть"
       }
     },
@@ -972,6 +1037,7 @@
         "fr": "après ça",
         "es": "después de esto",
         "de": "danach",
+        "it": "dopo questo",
         "ru": "после этого"
       }
     },
@@ -987,6 +1053,7 @@
         "fr": "concert",
         "es": "concierto",
         "de": "Konzert",
+        "it": "concerto",
         "ru": "концерт"
       }
     },
@@ -1002,6 +1069,7 @@
         "fr": "connaissance; connaissance",
         "es": "conocimiento; conocido",
         "de": "wissen; Bekanntschaft",
+        "it": "sapere; conoscenza",
         "ru": "зная; знакомство"
       }
     },
@@ -1017,6 +1085,7 @@
         "fr": "il y a quelque temps",
         "es": "hace un tiempo",
         "de": "vor einiger Zeit",
+        "it": "qualche tempo fa",
         "ru": "некоторое время назад"
       }
     },
@@ -1032,6 +1101,7 @@
         "fr": "salade",
         "es": "ensalada",
         "de": "Salat",
+        "it": "insalata",
         "ru": "салат"
       }
     },
@@ -1047,6 +1117,7 @@
         "fr": "sandale",
         "es": "sandalia",
         "de": "Sandale",
+        "it": "sandalo",
         "ru": "сандалии"
       }
     },
@@ -1062,6 +1133,7 @@
         "fr": "sandwich",
         "es": "sándwich",
         "de": "Sandwich",
+        "it": "sandwich",
         "ru": "бутерброд"
       }
     },
@@ -1077,6 +1149,7 @@
         "fr": "le mois d'après",
         "es": "el mes siguiente",
         "de": "übernächsten Monat",
+        "it": "il mese successivo",
         "ru": "через месяц после следующего"
       }
     },
@@ -1092,6 +1165,7 @@
         "fr": "la semaine d'après",
         "es": "la semana siguiente",
         "de": "übernächste Woche",
+        "it": "la settimana dopo la prossima",
         "ru": "через неделю после следующей"
       }
     },
@@ -1107,6 +1181,7 @@
         "fr": "un particulier",
         "es": "un particular",
         "de": "ein bestimmtes",
+        "it": "un particolare",
         "ru": "конкретный"
       }
     },
@@ -1122,6 +1197,7 @@
         "fr": "fermement; régulièrement",
         "es": "firmemente; continuamente",
         "de": "fest; ständig",
+        "it": "fermamente; costantemente",
         "ru": "твердо; стабильно"
       }
     },
@@ -1137,6 +1213,7 @@
         "fr": "peu de temps",
         "es": "poco tiempo",
         "de": "eine Weile",
+        "it": "poco tempo",
         "ru": "немного времени"
       }
     },
@@ -1152,6 +1229,7 @@
         "fr": "obstacle; intrusion",
         "es": "obstáculo; intrusión",
         "de": "Behinderung; Intrusion",
+        "it": "ostacolo; intrusione",
         "ru": "помеха; вторжение"
       }
     },
@@ -1167,6 +1245,7 @@
         "fr": "Confiture",
         "es": "atasco",
         "de": "Marmelade",
+        "it": "marmellata",
         "ru": "варенье"
       }
     },
@@ -1182,6 +1261,7 @@
         "fr": "extrêmement",
         "es": "extremadamente",
         "de": "äußerst",
+        "it": "estremamente",
         "ru": "очень сильно"
       }
     },
@@ -1197,6 +1277,7 @@
         "fr": "costume",
         "es": "traje",
         "de": "Anzug",
+        "it": "abito",
         "ru": "подходить"
       }
     },
@@ -1212,6 +1293,7 @@
         "fr": "valise",
         "es": "maleta",
         "de": "Koffer",
+        "it": "valigia",
         "ru": "чемодан"
       }
     },
@@ -1227,6 +1309,7 @@
         "fr": "devenir vide",
         "es": "quedar vacío",
         "de": "leer werden",
+        "it": "diventare vuoto",
         "ru": "стать пустым"
       }
     },
@@ -1242,6 +1325,7 @@
         "fr": "écran",
         "es": "pantalla",
         "de": "Bildschirm",
+        "it": "schermo",
         "ru": "экран"
       }
     },
@@ -1257,6 +1341,7 @@
         "fr": "complètement",
         "es": "completamente",
         "de": "vollständig",
+        "it": "completamente",
         "ru": "полностью"
       }
     },
@@ -1272,6 +1357,7 @@
         "fr": "droit; tout à coup",
         "es": "derecho; de repente",
         "de": "gerade; plötzlich",
+        "it": "Dritto; all'improvviso",
         "ru": "прямой; внезапно"
       }
     },
@@ -1287,6 +1373,7 @@
         "fr": "steak",
         "es": "bife",
         "de": "Steak",
+        "it": "bistecca",
         "ru": "стейк"
       }
     },
@@ -1302,6 +1389,7 @@
         "fr": "stéréo",
         "es": "estéreo",
         "de": "Stereo",
+        "it": "stereo",
         "ru": "стерео"
       }
     },
@@ -1317,6 +1405,7 @@
         "fr": "merveilleux",
         "es": "maravilloso",
         "de": "wunderbar",
+        "it": "meraviglioso",
         "ru": "замечательный"
       }
     },
@@ -1332,6 +1421,7 @@
         "fr": "pickpocket",
         "es": "carterista",
         "de": "Taschendieb",
+        "it": "borsaiolo",
         "ru": "карманник"
       }
     },
@@ -1347,6 +1437,7 @@
         "fr": "alors",
         "es": "entonces",
         "de": "Dann",
+        "it": "Poi",
         "ru": "затем"
       }
     },
@@ -1362,6 +1453,7 @@
         "fr": "à coup sûr",
         "es": "sin falta",
         "de": "unbedingt",
+        "it": "senza fallo",
         "ru": "обязательно"
       }
     },
@@ -1377,6 +1469,7 @@
         "fr": "pas entièrement (utilisé dans une phrase négative)",
         "es": "no del todo (usado en una oración negativa)",
         "de": "nicht ganz (in einem negativen Satz verwendet)",
+        "it": "non del tutto (usato in una frase negativa)",
         "ru": "не совсем (употребляется в отрицательном предложении)"
       }
     },
@@ -1392,6 +1485,7 @@
         "fr": "vraiment",
         "es": "en realidad",
         "de": "Wirklich",
+        "it": "Veramente",
         "ru": "Действительно"
       }
     },
@@ -1407,6 +1501,7 @@
         "fr": "doux",
         "es": "suave",
         "de": "weich",
+        "it": "morbido",
         "ru": "мягкий"
       }
     },
@@ -1422,6 +1517,7 @@
         "fr": "à cause de ça",
         "es": "por eso",
         "de": "deswegen",
+        "it": "per questo motivo",
         "ru": "из-за этого"
       }
     },
@@ -1437,6 +1533,7 @@
         "fr": "de plus",
         "es": "además",
         "de": "darüber hinaus",
+        "it": "Inoltre",
         "ru": "более того"
       }
     },
@@ -1452,6 +1549,7 @@
         "fr": "dans cette mesure",
         "es": "en esa medida",
         "de": "insofern",
+        "it": "in quella misura",
         "ru": "в такой степени"
       }
     },
@@ -1467,6 +1565,7 @@
         "fr": "progressivement; bientôt",
         "es": "gradualmente; pronto",
         "de": "schrittweise; bald",
+        "it": "gradualmente; Presto",
         "ru": "постепенно; скоро"
       }
     },
@@ -1482,6 +1581,7 @@
         "fr": "ce genre de",
         "es": "ese tipo de",
         "de": "so in der Art",
+        "it": "quel genere di cose",
         "ru": "такого рода"
       }
     },
@@ -1497,6 +1597,7 @@
         "fr": "tellement; comme ça",
         "es": "mucho; así",
         "de": "so viel; so",
+        "it": "tanto; così",
         "ru": "так много; вот так"
       }
     },
@@ -1512,6 +1613,7 @@
         "fr": "généralement",
         "es": "generalmente",
         "de": "normalerweise",
+        "it": "Generalmente",
         "ru": "обычно"
       }
     },
@@ -1527,6 +1629,7 @@
         "fr": "taper; style",
         "es": "tipo; estilo",
         "de": "Typ; Stil",
+        "it": "tipo; stile",
         "ru": "тип; стиль"
       }
     },
@@ -1542,6 +1645,7 @@
         "fr": "donc; donc",
         "es": "entonces; por lo tanto",
         "de": "Also; daher",
+        "it": "COSÌ; Perciò",
         "ru": "так; поэтому"
       }
     },
@@ -1557,6 +1661,7 @@
         "fr": "occasionnellement",
         "es": "ocasionalmente",
         "de": "gelegentlich",
+        "it": "occasionalmente",
         "ru": "изредка"
       }
     },
@@ -1572,6 +1677,7 @@
         "fr": "pas bon",
         "es": "nada bueno",
         "de": "nicht gut",
+        "it": "non va bene",
         "ru": "бесполезно"
       }
     },
@@ -1587,6 +1693,7 @@
         "fr": "vérifier",
         "es": "comprobar",
         "de": "zu überprüfen",
+        "it": "per controllare",
         "ru": "проверить"
       }
     },
@@ -1602,6 +1709,7 @@
         "fr": "pas du tout (utilisé avec un verbe négatif)",
         "es": "en absoluto (usado con un verbo negativo)",
         "de": "überhaupt nicht (wird mit einem negativen Verb verwendet)",
+        "it": "per niente (usato con un verbo negativo)",
         "ru": "совсем нет (используется с отрицательным глаголом)"
       }
     },
@@ -1617,6 +1725,7 @@
         "fr": "suffixe pour une personne familière",
         "es": "sufijo para persona femenina familiar",
         "de": "Suffix für bekannte weibliche Person",
+        "it": "suffisso per persona femminile familiare",
         "ru": "суффикс знакомого лица женского пола"
       }
     },
@@ -1632,6 +1741,7 @@
         "fr": "lune",
         "es": "luna",
         "de": "Mond",
+        "it": "luna",
         "ru": "луна"
       }
     },
@@ -1647,6 +1757,7 @@
         "fr": "intention",
         "es": "intención",
         "de": "Absicht",
+        "it": "intenzione",
         "ru": "намерение"
       }
     },
@@ -1662,6 +1773,7 @@
         "fr": "texte; livre de texte",
         "es": "texto; libro de texto",
         "de": "Text; Lehrbuch",
+        "it": "testo; libro di testo",
         "ru": "текст; учебник"
       }
     },
@@ -1677,6 +1789,7 @@
         "fr": "autant que possible",
         "es": "todo lo posible",
         "de": "so viel wie möglich",
+        "it": "il più possibile",
         "ru": "как можно больше"
       }
     },
@@ -1692,6 +1805,7 @@
         "fr": "tennis",
         "es": "tenis",
         "de": "Tennis",
+        "it": "tennis",
         "ru": "теннис"
       }
     },
@@ -1707,6 +1821,7 @@
         "fr": "enfin; après tout",
         "es": "finalmente; después de todo",
         "de": "Endlich; schließlich",
+        "it": "Finalmente; Dopotutto",
         "ru": "окончательно; после всего"
       }
     },
@@ -1722,6 +1837,7 @@
         "fr": "coiffeur",
         "es": "barbero",
         "de": "Barbier",
+        "it": "barbiere",
         "ru": "парикмахер"
       }
     },
@@ -1737,6 +1853,7 @@
         "fr": "de plus en plus",
         "es": "cada vez más",
         "de": "immer mehr",
+        "it": "sempre di più",
         "ru": "все больше и больше"
       }
     },
@@ -1752,6 +1869,7 @@
         "fr": "(respectueux) faire",
         "es": "(respetuoso) hacer",
         "de": "(respektvoll) zu tun",
+        "it": "(rispettoso) fare",
         "ru": "(уважительно) делать"
       }
     },
@@ -1767,6 +1885,7 @@
         "fr": "autant que possible",
         "es": "todo lo posible",
         "de": "so viel wie möglich",
+        "it": "il più possibile",
         "ru": "как можно больше"
       }
     },
@@ -1782,6 +1901,7 @@
         "fr": "maintenant je comprends",
         "es": "ahora lo entiendo",
         "de": "Jetzt verstehe ich",
+        "it": "ora capisco",
         "ru": "теперь я понимаю"
       }
     },
@@ -1797,6 +1917,7 @@
         "fr": "une odeur",
         "es": "un olor",
         "de": "ein Geruch",
+        "it": "un odore",
         "ru": "запах"
       }
     },
@@ -1812,6 +1933,7 @@
         "fr": "se mouiller",
         "es": "mojarse",
         "de": "nass werden",
+        "it": "bagnarsi",
         "ru": "промокнуть"
       }
     },
@@ -1827,6 +1949,7 @@
         "fr": "prix",
         "es": "precio",
         "de": "Preis",
+        "it": "prezzo",
         "ru": "цена"
       }
     },
@@ -1842,6 +1965,7 @@
         "fr": "enthousiasme",
         "es": "entusiasmo",
         "de": "Begeisterung",
+        "it": "entusiasmo",
         "ru": "энтузиазм"
       }
     },
@@ -1857,6 +1981,7 @@
         "fr": "gorge",
         "es": "garganta",
         "de": "Kehle",
+        "it": "gola",
         "ru": "горло"
       }
     },
@@ -1872,6 +1997,7 @@
         "fr": "temps partiel",
         "es": "tiempo parcial",
         "de": "Teilzeit",
+        "it": "part time",
         "ru": "неполная занятость"
       }
     },
@@ -1887,6 +2013,7 @@
         "fr": "ça devrait être ainsi",
         "es": "debería ser así",
         "de": "es sollte so sein",
+        "it": "dovrebbe essere così",
         "ru": "так и должно быть"
       }
     },
@@ -1902,6 +2029,7 @@
         "fr": "ordinateur personnel",
         "es": "ordenador personal",
         "de": "Personalcomputer",
+        "it": "personal computer",
         "ru": "персональный компьютер"
       }
     },
@@ -1917,6 +2045,7 @@
         "fr": "clairement",
         "es": "claramente",
         "de": "deutlich",
+        "it": "chiaramente",
         "ru": "четко"
       }
     },
@@ -1932,6 +2061,7 @@
         "fr": "sac à main",
         "es": "bolso",
         "de": "Handtasche",
+        "it": "borsetta",
         "ru": "сумочка"
       }
     },
@@ -1947,6 +2077,7 @@
         "fr": "piano",
         "es": "piano",
         "de": "Klavier",
+        "it": "pianoforte",
         "ru": "фортепиано"
       }
     },
@@ -1962,6 +2093,7 @@
         "fr": "barbe",
         "es": "barba",
         "de": "Bart",
+        "it": "barba",
         "ru": "борода"
       }
     },
@@ -1977,6 +2109,7 @@
         "fr": "être surpris",
         "es": "estar sorprendido",
         "de": "überrascht sein",
+        "it": "essere sorpreso",
         "ru": "удивляться"
       }
     },
@@ -1992,6 +2125,7 @@
         "fr": "affreux",
         "es": "horrible",
         "de": "schrecklich",
+        "it": "Terribile",
         "ru": "ужасный"
       }
     },
@@ -2007,6 +2141,7 @@
         "fr": "bâtiment ou facture",
         "es": "edificio o factura",
         "de": "Gebäude oder Rechnung",
+        "it": "edificio o fattura",
         "ru": "здание или счет"
       }
     },
@@ -2022,6 +2157,7 @@
         "fr": "fax",
         "es": "fax",
         "de": "Fax",
+        "it": "fax",
         "ru": "факс"
       }
     },
@@ -2037,6 +2173,7 @@
         "fr": "raisins",
         "es": "uvas",
         "de": "Trauben",
+        "it": "uva",
         "ru": "виноград"
       }
     },
@@ -2052,6 +2189,7 @@
         "fr": "présent",
         "es": "presente",
         "de": "gegenwärtig",
+        "it": "presente",
         "ru": "подарок"
       }
     },
@@ -2067,6 +2205,7 @@
         "fr": "cloche",
         "es": "campana",
         "de": "Glocke",
+        "it": "campana",
         "ru": "колокол"
       }
     },
@@ -2082,6 +2221,7 @@
         "fr": "étendue",
         "es": "medida",
         "de": "Ausmaß",
+        "it": "estensione",
         "ru": "степень"
       }
     },
@@ -2097,6 +2237,7 @@
         "fr": "surtout",
         "es": "principalmente",
         "de": "meistens",
+        "it": "soprattutto",
         "ru": "по большей части"
       }
     },
@@ -2112,6 +2253,7 @@
         "fr": "faire l'éloge",
         "es": "alabar",
         "de": "loben",
+        "it": "lodare",
         "ru": "хвалить"
       }
     },
@@ -2127,6 +2269,7 @@
         "fr": "sérieux",
         "es": "grave",
         "de": "ernst",
+        "it": "serio",
         "ru": "серьезный"
       }
     },
@@ -2142,6 +2285,7 @@
         "fr": "tout d'abord",
         "es": "en primer lugar",
         "de": "Erstens",
+        "it": "Prima di tutto",
         "ru": "прежде всего"
       }
     },
@@ -2157,6 +2301,7 @@
         "fr": "ou; sinon",
         "es": "o; de lo contrario",
         "de": "oder; ansonsten",
+        "it": "O; Altrimenti",
         "ru": "или; в противном случае"
       }
     },
@@ -2172,6 +2317,7 @@
         "fr": "bientôt",
         "es": "pronto",
         "de": "bald",
+        "it": "Presto",
         "ru": "скоро"
       }
     },
@@ -2187,6 +2333,7 @@
         "fr": "si",
         "es": "si",
         "de": "Wenn",
+        "it": "Se",
         "ru": "если"
       }
     },
@@ -2202,6 +2349,7 @@
         "fr": "bien sûr",
         "es": "por supuesto",
         "de": "Natürlich",
+        "it": "Ovviamente",
         "ru": "конечно"
       }
     },
@@ -2217,6 +2365,7 @@
         "fr": "extrêmement",
         "es": "extremadamente",
         "de": "äußerst",
+        "it": "estremamente",
         "ru": "очень сильно"
       }
     },
@@ -2232,6 +2381,7 @@
         "fr": "recevoir",
         "es": "recibir",
         "de": "zu empfangen",
+        "it": "ricevere",
         "ru": "получать"
       }
     },
@@ -2247,6 +2397,7 @@
         "fr": "enfin",
         "es": "por fin",
         "de": "endlich",
+        "it": "infine",
         "ru": "наконец"
       }
     },
@@ -2262,6 +2413,7 @@
         "fr": "(respectueux) OK ; d'accord",
         "es": "(respetuoso) Está bien; está bien",
         "de": "(respektvoll) OK; in Ordnung",
+        "it": "(rispettoso) OK; Va bene",
         "ru": "(уважительно) Хорошо; все в порядке"
       }
     },
@@ -2277,6 +2429,7 @@
         "fr": "registre",
         "es": "registro",
         "de": "registrieren",
+        "it": "registro",
         "ru": "зарегистрироваться"
       }
     },
@@ -2292,6 +2445,7 @@
         "fr": "traitement de texte",
         "es": "procesador de textos",
         "de": "Textverarbeitungsprogramm",
+        "it": "elaboratore di testi",
         "ru": "текстовый процессор"
       }
     },
@@ -2307,6 +2461,7 @@
         "fr": "relief",
         "es": "alivio",
         "de": "Erleichterung",
+        "it": "sollievo",
         "ru": "облегчение"
       }
     },
@@ -2322,6 +2477,7 @@
         "fr": "sécurité",
         "es": "seguridad",
         "de": "Sicherheit",
+        "it": "sicurezza",
         "ru": "безопасность"
       }
     },
@@ -2337,6 +2493,7 @@
         "fr": "guider",
         "es": "guiar",
         "de": "zu führen",
+        "it": "guidare",
         "ru": "направлять"
       }
     },
@@ -2352,6 +2509,7 @@
         "fr": "moins que",
         "es": "menos que",
         "de": "weniger als",
+        "it": "meno di",
         "ru": "меньше, чем"
       }
     },
@@ -2367,6 +2525,7 @@
         "fr": "à l'exception de",
         "es": "con exclusión de",
         "de": "mit Ausnahme von",
+        "it": "ad eccezione di",
         "ru": "за исключением"
       }
     },
@@ -2382,6 +2541,7 @@
         "fr": "plus que; c'est tout",
         "es": "más que; esto es todo",
         "de": "mehr als; das ist alles",
+        "it": "più di; questo è tutto",
         "ru": "больше, чем; это все"
       }
     },
@@ -2397,6 +2557,7 @@
         "fr": "dans",
         "es": "dentro",
         "de": "innerhalb",
+        "it": "entro",
         "ru": "в пределах"
       }
     },
@@ -2412,6 +2573,7 @@
         "fr": "avis",
         "es": "opinión",
         "de": "Meinung",
+        "it": "opinione",
         "ru": "мнение"
       }
     },
@@ -2427,6 +2589,7 @@
         "fr": "pour",
         "es": "con el fin de",
         "de": "um zu",
+        "it": "in modo da",
         "ru": "для того, чтобы"
       }
     },
@@ -2442,6 +2605,7 @@
         "fr": "déménager ou transférer",
         "es": "mudarse de casa o trasladarse",
         "de": "umziehen oder umziehen",
+        "it": "cambiare casa o trasferirsi",
         "ru": "переехать или переехать"
       }
     },
@@ -2457,6 +2621,7 @@
         "fr": "sciences médicales",
         "es": "ciencia médica",
         "de": "medizinische Wissenschaft",
+        "it": "scienza medica",
         "ru": "медицинская наука"
       }
     },
@@ -2472,6 +2637,7 @@
         "fr": "à l'arrière; élever",
         "es": "para atrás; criar",
         "de": "nach hinten; erziehen",
+        "it": "arretrare; allevare",
         "ru": "стоять на задворках; воспитывать"
       }
     },
@@ -2487,6 +2653,7 @@
         "fr": "avec le plus grand effort",
         "es": "con el mayor esfuerzo",
         "de": "mit größter Anstrengung",
+        "it": "con il massimo sforzo",
         "ru": "с максимальным усилием"
       }
     },
@@ -2502,6 +2669,7 @@
         "fr": "une fois",
         "es": "una vez",
         "de": "einmal",
+        "it": "una volta",
         "ru": "один раз"
       }
     },
@@ -2517,6 +2685,7 @@
         "fr": "tiroir; dessiner",
         "es": "cajón; dibujando",
         "de": "Schublade; herausziehen",
+        "it": "cassetto; estraendo",
         "ru": "ящик; вытягивание"
       }
     },
@@ -2532,6 +2701,7 @@
         "fr": "se retirer",
         "es": "retirarse",
         "de": "zurückziehen",
+        "it": "ritirarsi",
         "ru": "вывести"
       }
     },
@@ -2547,6 +2717,7 @@
         "fr": "déménager",
         "es": "mudarse de casa",
         "de": "umziehen",
+        "it": "cambiare casa",
         "ru": "переехать домой"
       }
     },
@@ -2562,6 +2733,7 @@
         "fr": "transporter",
         "es": "transportar",
         "de": "zu transportieren",
+        "it": "trasportare",
         "ru": "перевозить"
       }
     },
@@ -2577,6 +2749,7 @@
         "fr": "conduire",
         "es": "conducir",
         "de": "fahren",
+        "it": "guidare",
         "ru": "водить"
       }
     },
@@ -2592,6 +2765,7 @@
         "fr": "conducteur",
         "es": "conductor",
         "de": "Treiber",
+        "it": "autista",
         "ru": "водитель"
       }
     },
@@ -2607,6 +2781,7 @@
         "fr": "faire de l'exercice",
         "es": "hacer ejercicio",
         "de": "trainieren",
+        "it": "esercitare",
         "ru": "тренировать"
       }
     },
@@ -2622,6 +2797,7 @@
         "fr": "nuage",
         "es": "nube",
         "de": "Wolke",
+        "it": "nuvola",
         "ru": "облако"
       }
     },
@@ -2637,6 +2813,7 @@
         "fr": "façon de nager",
         "es": "forma de nadar",
         "de": "Art zu schwimmen",
+        "it": "modo di nuotare",
         "ru": "способ плавания"
       }
     },
@@ -2652,6 +2829,7 @@
         "fr": "loin",
         "es": "distante",
         "de": "entfernt",
+        "it": "distante",
         "ru": "далекий"
       }
     },
@@ -2667,6 +2845,7 @@
         "fr": "être réservé; être retenu",
         "es": "ser reservado; ser restringido",
         "de": "reserviert sein; zurückgehalten werden",
+        "it": "da prenotare; essere trattenuto",
         "ru": "быть зарезервированным; быть сдержанным"
       }
     },
@@ -2682,6 +2861,7 @@
         "fr": "se salir",
         "es": "ensuciarse",
         "de": "schmutzig werden",
+        "it": "sporcarsi",
         "ru": "испачкаться"
       }
     },
@@ -2697,6 +2877,7 @@
         "fr": "placard",
         "es": "armario",
         "de": "Kleiderschrank",
+        "it": "guardaroba",
         "ru": "шкаф"
       }
     },
@@ -2712,6 +2893,7 @@
         "fr": "cent millions",
         "es": "cien millones",
         "de": "einhundert Millionen",
+        "it": "cento milioni",
         "ru": "сто миллионов"
       }
     },
@@ -2727,6 +2909,7 @@
         "fr": "toit",
         "es": "azotea",
         "de": "Dach",
+        "it": "tetto",
         "ru": "крыша"
       }
     },
@@ -2742,6 +2925,7 @@
         "fr": "son; note",
         "es": "sonido; nota",
         "de": "Klang; Notiz",
+        "it": "suono; nota",
         "ru": "звук; примечание"
       }
     },
@@ -2757,6 +2941,7 @@
         "fr": "pendre; abaisser; reculer",
         "es": "colgar; bajar; retroceder",
         "de": "hängen; senken; zurückziehen",
+        "it": "appendere; abbassare; tornare indietro",
         "ru": "повесить; опустить; двигаться назад"
       }
     },
@@ -2772,6 +2957,7 @@
         "fr": "descendre",
         "es": "bajar",
         "de": "aussteigen",
+        "it": "scendere",
         "ru": "выйти"
       }
     },
@@ -2787,6 +2973,7 @@
         "fr": "descendre; descendre",
         "es": "bajar; descender",
         "de": "runterkommen; absteigen",
+        "it": "scendere; scendere",
         "ru": "спуститься; спуститься"
       }
     },
@@ -2802,6 +2989,7 @@
         "fr": "hébergement",
         "es": "alojamiento",
         "de": "Unterkunft",
+        "it": "alloggio",
         "ru": "жилье"
       }
     },
@@ -2817,6 +3005,7 @@
         "fr": "sous-vêtement",
         "es": "ropa interior",
         "de": "Unterwäsche",
+        "it": "biancheria intima",
         "ru": "нижнее белье"
       }
     },
@@ -2832,6 +3021,7 @@
         "fr": "ménagère",
         "es": "ama de casa",
         "de": "Hausfrau",
+        "it": "casalinga",
         "ru": "домохозяйка"
       }
     },
@@ -2847,6 +3037,7 @@
         "fr": "science",
         "es": "ciencia",
         "de": "Wissenschaft",
+        "it": "scienza",
         "ru": "наука"
       }
     },
@@ -2862,6 +3053,7 @@
         "fr": "feu",
         "es": "fuego",
         "de": "Feuer",
+        "it": "fuoco",
         "ru": "огонь"
       }
     },
@@ -2877,6 +3069,7 @@
         "fr": "feu",
         "es": "fuego",
         "de": "Feuer",
+        "it": "fuoco",
         "ru": "огонь"
       }
     },
@@ -2892,6 +3085,7 @@
         "fr": "observation des fleurs de cerisier",
         "es": "observación de flores de cerezo",
         "de": "Kirschblütenbesichtigung",
+        "it": "osservazione dei fiori di ciliegio",
         "ru": "просмотр цветущей вишни"
       }
     },
@@ -2907,6 +3101,7 @@
         "fr": "chef de section",
         "es": "gerente de sección",
         "de": "Bereichsleiter",
+        "it": "responsabile di sezione",
         "ru": "менеджер секции"
       }
     },
@@ -2922,6 +3117,7 @@
         "fr": "dépasser",
         "es": "exceder",
         "de": "überschreiten",
+        "it": "superare",
         "ru": "превышать"
       }
     },
@@ -2937,6 +3133,7 @@
         "fr": "réunion",
         "es": "reunión",
         "de": "treffen",
+        "it": "incontro",
         "ru": "встреча"
       }
     },
@@ -2952,6 +3149,7 @@
         "fr": "salle de réunion",
         "es": "sala de reuniones",
         "de": "Besprechungsraum",
+        "it": "sala riunioni",
         "ru": "конференц-зал"
       }
     },
@@ -2967,6 +3165,7 @@
         "fr": "salle de réunion ou lieu de réunion",
         "es": "salón de actos o lugar de reunión",
         "de": "Aula oder Treffpunkt",
+        "it": "sala riunioni o luogo di incontro",
         "ru": "актовый зал или место встреч"
       }
     },
@@ -2982,6 +3181,7 @@
         "fr": "conversation",
         "es": "conversación",
         "de": "Gespräch",
+        "it": "conversazione",
         "ru": "беседа"
       }
     },
@@ -2997,6 +3197,7 @@
         "fr": "faire le tour",
         "es": "para dar vueltas",
         "de": "herumgehen",
+        "it": "andare in giro",
         "ru": "обойти"
       }
     },
@@ -3012,6 +3213,7 @@
         "fr": "briser",
         "es": "romper",
         "de": "brechen",
+        "it": "rompere",
         "ru": "сломать"
       }
     },
@@ -3027,6 +3229,7 @@
         "fr": "être brisé",
         "es": "estar roto",
         "de": "gebrochen sein",
+        "it": "essere rotto",
         "ru": "быть сломанным"
       }
     },
@@ -3042,6 +3245,7 @@
         "fr": "côte",
         "es": "costa",
         "de": "Küste",
+        "it": "costa",
         "ru": "побережье"
       }
     },
@@ -3057,6 +3261,7 @@
         "fr": "tout le monde",
         "es": "todos",
         "de": "alle",
+        "it": "tutti",
         "ru": "все"
       }
     },
@@ -3072,6 +3277,7 @@
         "fr": "ouvrir un événement",
         "es": "para abrir un evento",
         "de": "eine Veranstaltung eröffnen",
+        "it": "per aprire un evento",
         "ru": "открыть мероприятие"
       }
     },
@@ -3087,6 +3293,7 @@
         "fr": "précis",
         "es": "definido",
         "de": "definitiv",
+        "it": "definito",
         "ru": "определенный"
       }
     },
@@ -3102,6 +3309,7 @@
         "fr": "joie",
         "es": "alegría",
         "de": "Freude",
+        "it": "gioia",
         "ru": "радость"
       }
     },
@@ -3117,6 +3325,7 @@
         "fr": "se faire plaisir",
         "es": "disfrutar",
         "de": "sich amüsieren",
+        "it": "divertirsi",
         "ru": "получать удовольствие"
       }
     },
@@ -3132,6 +3341,7 @@
         "fr": "accrocher quelque chose",
         "es": "colgar algo",
         "de": "etwas aufhängen",
+        "it": "appendere qualcosa",
         "ru": "повесить что-нибудь"
       }
     },
@@ -3147,6 +3357,7 @@
         "fr": "briser",
         "es": "romper",
         "de": "brechen",
+        "it": "rompere",
         "ru": "сломать"
       }
     },
@@ -3162,6 +3373,7 @@
         "fr": "taux; rapport; pourcentage",
         "es": "tasa; relación; porcentaje",
         "de": "Rate; Verhältnis; Prozentsatz",
+        "it": "valutare; rapporto; percentuale",
         "ru": "ставка; соотношение; процент"
       }
     },
@@ -3177,6 +3389,7 @@
         "fr": "glisser; glisser",
         "es": "deslizarse; deslizarse",
         "de": "rutschen; ausrutschen",
+        "it": "scivolare; scivolare",
         "ru": "скользить; скользить"
       }
     },
@@ -3192,6 +3405,7 @@
         "fr": "mordre; mâcher",
         "es": "morder; masticar",
         "de": "beißen; zu kauen",
+        "it": "mordere; masticare",
         "ru": "кусать; жевать"
       }
     },
@@ -3207,6 +3421,7 @@
         "fr": "se sécher",
         "es": "secarse",
         "de": "trocken werden",
+        "it": "per asciugarsi",
         "ru": "высохнуть"
       }
     },
@@ -3222,6 +3437,7 @@
         "fr": "s'habituer à",
         "es": "acostumbrarse a",
         "de": "sich daran gewöhnen",
+        "it": "a cui abituarsi",
         "ru": "привыкнуть к"
       }
     },
@@ -3237,6 +3453,7 @@
         "fr": "infirmière",
         "es": "enfermera",
         "de": "Krankenschwester",
+        "it": "infermiera",
         "ru": "медсестра"
       }
     },
@@ -3252,6 +3469,7 @@
         "fr": "simple",
         "es": "simple",
         "de": "einfach",
+        "it": "semplice",
         "ru": "простой"
       }
     },
@@ -3267,6 +3485,7 @@
         "fr": "un espace",
         "es": "un espacio",
         "de": "ein Raum",
+        "it": "uno spazio",
         "ru": "пространство"
       }
     },
@@ -3282,6 +3501,7 @@
         "fr": "être à temps pour",
         "es": "llegar a tiempo para",
         "de": "pünktlich sein",
+        "it": "essere in tempo per",
         "ru": "успеть на"
       }
     },
@@ -3297,6 +3517,7 @@
         "fr": "faire une erreur",
         "es": "cometer un error",
         "de": "einen Fehler machen",
+        "it": "fare un errore",
         "ru": "совершить ошибку"
       }
     },
@@ -3312,6 +3533,7 @@
         "fr": "relation",
         "es": "relación",
         "de": "Beziehung",
+        "it": "relazione",
         "ru": "отношение"
       }
     },
@@ -3327,6 +3549,7 @@
         "fr": "danger",
         "es": "peligro",
         "de": "Gefahr",
+        "it": "Pericolo",
         "ru": "Опасность"
       }
     },
@@ -3342,6 +3565,7 @@
         "fr": "être ravi",
         "es": "estar encantado",
         "de": "erfreut sein",
+        "it": "essere felice",
         "ru": "быть в восторге"
       }
     },
@@ -3357,6 +3581,7 @@
         "fr": "visiter",
         "es": "visitar",
         "de": "zu besuchen",
+        "it": "da visitare",
         "ru": "посетить"
       }
     },
@@ -3372,6 +3597,7 @@
         "fr": "opportunité",
         "es": "oportunidad",
         "de": "Gelegenheit",
+        "it": "opportunità",
         "ru": "возможность"
       }
     },
@@ -3387,6 +3613,7 @@
         "fr": "retour",
         "es": "devolver",
         "de": "zurückkehren",
+        "it": "ritorno",
         "ru": "возвращаться"
       }
     },
@@ -3402,6 +3629,7 @@
         "fr": "esprit; humeur",
         "es": "espíritu; ánimo",
         "de": "Geist; Stimmung",
+        "it": "spirito; Umore",
         "ru": "дух; настроение"
       }
     },
@@ -3417,6 +3645,7 @@
         "fr": "sentiment; humeur",
         "es": "sentimiento; ánimo",
         "de": "Gefühl; Stimmung",
+        "it": "sensazione; Umore",
         "ru": "чувство; настроение"
       }
     },
@@ -3432,6 +3661,7 @@
         "fr": "humeur",
         "es": "ánimo",
         "de": "Stimmung",
+        "it": "Umore",
         "ru": "настроение"
       }
     },
@@ -3447,6 +3677,7 @@
         "fr": "train à vapeur",
         "es": "tren de vapor",
         "de": "Dampfzug",
+        "it": "treno a vapore",
         "ru": "паровоз"
       }
     },
@@ -3462,6 +3693,7 @@
         "fr": "prier",
         "es": "orar",
         "de": "beten",
+        "it": "pregare",
         "ru": "молиться"
       }
     },
@@ -3477,6 +3709,7 @@
         "fr": "saison",
         "es": "estación",
         "de": "Jahreszeit",
+        "it": "stagione",
         "ru": "сезон"
       }
     },
@@ -3492,6 +3725,7 @@
         "fr": "règlements",
         "es": "regulaciones",
         "de": "Vorschriften",
+        "it": "regolamenti",
         "ru": "правила"
       }
     },
@@ -3507,6 +3741,7 @@
         "fr": "se réveiller",
         "es": "despertar",
         "de": "aufwachen",
+        "it": "svegliarsi",
         "ru": "проснуться"
       }
     },
@@ -3522,6 +3757,7 @@
         "fr": "art; technologie; compétence",
         "es": "arte; tecnología; habilidad",
         "de": "Kunst; Technologie; Fähigkeit",
+        "it": "arte; tecnologia; abilità",
         "ru": "искусство; технология; навык"
       }
     },
@@ -3537,6 +3773,7 @@
         "fr": "invité; client",
         "es": "invitado; cliente",
         "de": "Gast; Kunde",
+        "it": "ospite; cliente",
         "ru": "гость; клиент"
       }
     },
@@ -3552,6 +3789,7 @@
         "fr": "après un long moment",
         "es": "después de mucho tiempo",
         "de": "nach langer Zeit",
+        "it": "dopo molto tempo",
         "ru": "после долгого времени"
       }
     },
@@ -3567,6 +3805,7 @@
         "fr": "urgent; raide",
         "es": "urgente; empinado",
         "de": "dringend; steil",
+        "it": "urgente; ripido",
         "ru": "срочный; отвесный"
       }
     },
@@ -3582,6 +3821,7 @@
         "fr": "se dépêcher",
         "es": "darse prisa",
         "de": "sich beeilen",
+        "it": "fare in fretta",
         "ru": "спешить"
       }
     },
@@ -3597,6 +3837,7 @@
         "fr": "rapide; exprimer",
         "es": "rápido; expresar",
         "de": "schnell; äußern",
+        "it": "veloce; esprimere",
         "ru": "быстрый; выражать"
       }
     },
@@ -3612,6 +3853,7 @@
         "fr": "pleurer",
         "es": "llorar",
         "de": "weinen",
+        "it": "piangere",
         "ru": "плакать"
       }
     },
@@ -3627,6 +3869,7 @@
         "fr": "concours",
         "es": "competencia",
         "de": "Wettbewerb",
+        "it": "concorrenza",
         "ru": "соревнование"
       }
     },
@@ -3642,6 +3885,7 @@
         "fr": "éducation",
         "es": "educación",
         "de": "Ausbildung",
+        "it": "istruzione",
         "ru": "образование"
       }
     },
@@ -3657,6 +3901,7 @@
         "fr": "église",
         "es": "iglesia",
         "de": "Kirche",
+        "it": "Chiesa",
         "ru": "церковь"
       }
     },
@@ -3672,6 +3917,7 @@
         "fr": "un intérêt",
         "es": "un interés",
         "de": "ein Interesse",
+        "it": "un interesse",
         "ru": "интерес"
       }
     },
@@ -3687,6 +3933,7 @@
         "fr": "miroir",
         "es": "espejo",
         "de": "Spiegel",
+        "it": "specchio",
         "ru": "зеркало"
       }
     },
@@ -3702,6 +3949,7 @@
         "fr": "être surpris",
         "es": "estar sorprendido",
         "de": "überrascht sein",
+        "it": "essere sorpreso",
         "ru": "удивляться"
       }
     },
@@ -3717,6 +3965,7 @@
         "fr": "quartier",
         "es": "vecindario",
         "de": "Nachbarschaft",
+        "it": "quartiere",
         "ru": "район"
       }
     },
@@ -3732,6 +3981,7 @@
         "fr": "amer",
         "es": "amargo",
         "de": "bitter",
+        "it": "amaro",
         "ru": "горький"
       }
     },
@@ -3747,6 +3997,7 @@
         "fr": "condition; santé",
         "es": "condición; salud",
         "de": "Zustand; Gesundheit",
+        "it": "condizione; salute",
         "ru": "состояние; здоровье"
       }
     },
@@ -3762,6 +4013,7 @@
         "fr": "ouvrir; devenir vide",
         "es": "abrir; quedar vacío",
         "de": "öffnen; leer werden",
+        "it": "aprire; diventare vuoto",
         "ru": "открыть; стать пустым"
       }
     },
@@ -3777,6 +4029,7 @@
         "fr": "air; atmosphère",
         "es": "aire; atmósfera",
         "de": "Luft; Atmosphäre",
+        "it": "aria; atmosfera",
         "ru": "воздух; атмосфера"
       }
     },
@@ -3792,6 +4045,7 @@
         "fr": "aéroport",
         "es": "aeropuerto",
         "de": "Flughafen",
+        "it": "aeroporto",
         "ru": "аэропорт"
       }
     },
@@ -3807,6 +4061,7 @@
         "fr": "coin; coin",
         "es": "esquina; rincón",
         "de": "Ecke; Winkel",
+        "it": "angolo; angolo",
         "ru": "угол; уголок"
       }
     },
@@ -3822,6 +4077,7 @@
         "fr": "(informel) Vous (utilisé par les hommes envers les femmes)",
         "es": "(informal) Tú (usado por hombres hacia mujeres)",
         "de": "(informell) Sie (von Männern gegenüber Frauen verwendet)",
+        "it": "(informale) Tu (usato dagli uomini nei confronti delle donne)",
         "ru": "(неформальный) Вы (используется мужчинами по отношению к женщинам)"
       }
     },
@@ -3837,6 +4093,7 @@
         "fr": "forme",
         "es": "forma",
         "de": "Form",
+        "it": "forma",
         "ru": "форма"
       }
     },
@@ -3852,6 +4109,7 @@
         "fr": "scène; paysage",
         "es": "escena; paisaje",
         "de": "Szene; Landschaft",
+        "it": "scena; paesaggio",
         "ru": "сцена; пейзаж"
       }
     },
@@ -3867,6 +4125,7 @@
         "fr": "faire l'expérience",
         "es": "experimentar",
         "de": "zu erleben",
+        "it": "sperimentare",
         "ru": "испытать"
       }
     },
@@ -3882,6 +4141,7 @@
         "fr": "finance; économie",
         "es": "finanzas; economía",
         "de": "Finanzen; Wirtschaft",
+        "it": "finanza; economia",
         "ru": "финансы; экономика"
       }
     },
@@ -3897,6 +4157,7 @@
         "fr": "planifier",
         "es": "planear",
         "de": "planen",
+        "it": "pianificare",
         "ru": "планировать"
       }
     },
@@ -3912,6 +4173,7 @@
         "fr": "police",
         "es": "policía",
         "de": "Polizei",
+        "it": "Polizia Stradale",
         "ru": "полиция"
       }
     },
@@ -3927,6 +4189,7 @@
         "fr": "sortir pour rencontrer",
         "es": "salir a encontrarse",
         "de": "ausgehen, um sich zu treffen",
+        "it": "uscire per incontrarsi",
         "ru": "выйти навстречу"
       }
     },
@@ -3942,6 +4205,7 @@
         "fr": "jamais",
         "es": "nunca",
         "de": "niemals",
+        "it": "Mai",
         "ru": "никогда"
       }
     },
@@ -3957,6 +4221,7 @@
         "fr": "décider",
         "es": "decidir",
         "de": "zu entscheiden",
+        "it": "decidere",
         "ru": "решать"
       }
     },
@@ -3972,6 +4237,7 @@
         "fr": "à décider",
         "es": "por decidir",
         "de": "entschieden werden",
+        "it": "da decidere",
         "ru": "быть решено"
       }
     },
@@ -3987,6 +4253,7 @@
         "fr": "sang",
         "es": "sangre",
         "de": "Blut",
+        "it": "sangue",
         "ru": "кровь"
       }
     },
@@ -4002,6 +4269,7 @@
         "fr": "dur",
         "es": "duro",
         "de": "hart",
+        "it": "difficile",
         "ru": "жесткий"
       }
     },
@@ -4017,6 +4285,7 @@
         "fr": "construire",
         "es": "construir",
         "de": "zu bauen",
+        "it": "costruire",
         "ru": "строить"
       }
     },
@@ -4032,6 +4301,7 @@
         "fr": "recherche",
         "es": "investigación",
         "de": "Forschung",
+        "it": "ricerca",
         "ru": "исследовать"
       }
     },
@@ -4047,6 +4317,7 @@
         "fr": "salle d'étude; laboratoire",
         "es": "sala de estudio; laboratorio",
         "de": "Arbeitszimmer; Labor",
+        "it": "sala studio; laboratorio",
         "ru": "учебная комната; лаборатория"
       }
     },
@@ -4062,6 +4333,7 @@
         "fr": "soie",
         "es": "seda",
         "de": "Seide",
+        "it": "seta",
         "ru": "шелк"
       }
     },
@@ -4077,6 +4349,7 @@
         "fr": "être en vue",
         "es": "estar a la vista",
         "de": "in Sichtweite sein",
+        "it": "essere in vista",
         "ru": "быть на виду"
       }
     },
@@ -4092,6 +4365,7 @@
         "fr": "à découvrir",
         "es": "ser descubierto",
         "de": "entdeckt zu werden",
+        "it": "da scoprire",
         "ru": "быть обнаруженным"
       }
     },
@@ -4107,6 +4381,7 @@
         "fr": "à découvrir",
         "es": "descubrir",
         "de": "zu entdecken",
+        "it": "da scoprire",
         "ru": "обнаружить"
       }
     },
@@ -4122,6 +4397,7 @@
         "fr": "touristique",
         "es": "pasear",
         "de": "Besichtigungen",
+        "it": "giro turistico",
         "ru": "осмотр достопримечательностей"
       }
     },
@@ -4137,6 +4413,7 @@
         "fr": "cause; source",
         "es": "causa; fuente",
         "de": "Ursache; Quelle",
+        "it": "causa; fonte",
         "ru": "причина; источник"
       }
     },
@@ -4152,6 +4429,7 @@
         "fr": "strict",
         "es": "estricto",
         "de": "strikt",
+        "it": "rigoroso",
         "ru": "строгий"
       }
     },
@@ -4167,6 +4445,7 @@
         "fr": "s'effondrer",
         "es": "descomponerse",
         "de": "zusammenbrechen",
+        "it": "crollare",
         "ru": "сломать"
       }
     },
@@ -4182,6 +4461,7 @@
         "fr": "lac",
         "es": "lago",
         "de": "See",
+        "it": "lago",
         "ru": "озеро"
       }
     },
@@ -4197,6 +4477,7 @@
         "fr": "(honorable) ton mari",
         "es": "(honorable) tu marido",
         "de": "(ehrenwert) Ihr Mann",
+        "it": "(onorevole) tuo marito",
         "ru": "(благородный) твой муж"
       }
     },
@@ -4212,6 +4493,7 @@
         "fr": "trafic; transport",
         "es": "tráfico; transporte",
         "de": "Verkehr; Transport",
+        "it": "traffico; trasporto",
         "ru": "трафик; транспорт"
       }
     },
@@ -4227,6 +4509,7 @@
         "fr": "lumière",
         "es": "luz",
         "de": "Licht",
+        "it": "leggero",
         "ru": "свет"
       }
     },
@@ -4242,6 +4525,7 @@
         "fr": "briller; briller",
         "es": "brillar; brillar",
         "de": "glänzen; glitzern",
+        "it": "brillare; brillare",
         "ru": "сиять; блестеть"
       }
     },
@@ -4257,6 +4541,7 @@
         "fr": "fonctionnaire du gouvernement",
         "es": "trabajador del gobierno",
         "de": "Regierungsangestellter",
+        "it": "impiegato statale",
         "ru": "государственный служащий"
       }
     },
@@ -4272,6 +4557,7 @@
         "fr": "faire face",
         "es": "enfrentar",
         "de": "gegenüberstehen",
+        "it": "affrontare",
         "ru": "лицом к лицу"
       }
     },
@@ -4287,6 +4573,7 @@
         "fr": "l'industrie manufacturière",
         "es": "la industria manufacturera",
         "de": "der verarbeitenden Industrie",
+        "it": "l'industria manifatturiera",
         "ru": "обрабатывающая промышленность"
       }
     },
@@ -4302,6 +4589,7 @@
         "fr": "usine",
         "es": "fábrica",
         "de": "Fabrik",
+        "it": "fabbrica",
         "ru": "фабрика"
       }
     },
@@ -4317,6 +4605,7 @@
         "fr": "directeur",
         "es": "director de escuela",
         "de": "Schulleiter",
+        "it": "preside",
         "ru": "директор"
       }
     },
@@ -4332,6 +4621,7 @@
         "fr": "port",
         "es": "puerto",
         "de": "Hafen",
+        "it": "porto",
         "ru": "гавань"
       }
     },
@@ -4347,6 +4637,7 @@
         "fr": "considérer",
         "es": "considerar",
         "de": "zu berücksichtigen",
+        "it": "da considerare",
         "ru": "рассмотреть"
       }
     },
@@ -4362,6 +4653,7 @@
         "fr": "faire",
         "es": "hacer",
         "de": "zu tun",
+        "it": "fare",
         "ru": "делать"
       }
     },
@@ -4377,6 +4669,7 @@
         "fr": "conférence",
         "es": "conferencia",
         "de": "Vortrag",
+        "it": "lezione",
         "ru": "лекция"
       }
     },
@@ -4392,6 +4685,7 @@
         "fr": "salle",
         "es": "sala",
         "de": "Auditorium",
+        "it": "auditorium",
         "ru": "зрительный зал"
       }
     },
@@ -4407,6 +4701,7 @@
         "fr": "faubourgs",
         "es": "afueras",
         "de": "Stadtrand",
+        "it": "periferia",
         "ru": "окраина"
       }
     },
@@ -4422,6 +4717,7 @@
         "fr": "commencer à pleuvoir",
         "es": "para empezar a llover",
         "de": "anfangen zu regnen",
+        "it": "per iniziare a piovere",
         "ru": "начаться дождь"
       }
     },
@@ -4437,6 +4733,7 @@
         "fr": "lycée",
         "es": "escuela secundaria",
         "de": "Gymnasium",
+        "it": "Scuola superiore",
         "ru": "средняя школа"
       }
     },
@@ -4452,6 +4749,7 @@
         "fr": "lycéen",
         "es": "estudiante de secundaria",
         "de": "Gymnasiast",
+        "it": "studente delle scuole superiori",
         "ru": "ученик средней школы"
       }
     },
@@ -4467,6 +4765,7 @@
         "fr": "lycée",
         "es": "escuela secundaria",
         "de": "Gymnasium",
+        "it": "Scuola superiore",
         "ru": "средняя школа"
       }
     },
@@ -4482,6 +4781,7 @@
         "fr": "correspondre",
         "es": "para igualar",
         "de": "zusammenpassen",
+        "it": "abbinare",
         "ru": "соответствовать"
       }
     },
@@ -4497,6 +4797,7 @@
         "fr": "international",
         "es": "internacional",
         "de": "international",
+        "it": "internazionale",
         "ru": "международный"
       }
     },
@@ -4512,6 +4813,7 @@
         "fr": "être bondé",
         "es": "estar lleno de gente",
         "de": "überfüllt sein",
+        "it": "essere affollato",
         "ru": "быть переполненным"
       }
     },
@@ -4527,6 +4829,7 @@
         "fr": "maintenant; la prochaine fois",
         "es": "ahora; La próxima vez",
         "de": "Jetzt; Nächstes Mal",
+        "it": "Ora; la prossima volta",
         "ru": "сейчас; в следующий раз"
       }
     },
@@ -4542,6 +4845,7 @@
         "fr": "ce soir",
         "es": "esta noche",
         "de": "heute Abend",
+        "it": "stasera",
         "ru": "сегодня вечером"
       }
     },
@@ -4557,6 +4861,7 @@
         "fr": "(poli) donner",
         "es": "(educado) dar",
         "de": "(höflich) zu geben",
+        "it": "(educato) dare",
         "ru": "(вежливо) дать"
       }
     },
@@ -4572,6 +4877,7 @@
         "fr": "sable",
         "es": "arena",
         "de": "Sand",
+        "it": "sabbia",
         "ru": "песок"
       }
     },
@@ -4587,6 +4893,7 @@
         "fr": "dernier; aujourd'hui",
         "es": "el último; hoy en día",
         "de": "letzte; heutzutage",
+        "it": "ultimo; Al giorno d'oggi",
         "ru": "последний; настоящее время"
       }
     },
@@ -4602,6 +4909,7 @@
         "fr": "dernier; fin",
         "es": "último; fin",
         "de": "zuletzt; Ende",
+        "it": "scorso; FINE",
         "ru": "последний; конец"
       }
     },
@@ -4617,6 +4925,7 @@
         "fr": "début; d'abord",
         "es": "comienzo; primero",
         "de": "Anfang; Erste",
+        "it": "inizio; Primo",
         "ru": "начало; первый"
       }
     },
@@ -4632,6 +4941,7 @@
         "fr": "(humble) épouse",
         "es": "(humilde) esposa",
         "de": "(bescheidene) Frau",
+        "it": "(umile) moglie",
         "ru": "(скромная) жена"
       }
     },
@@ -4647,6 +4957,7 @@
         "fr": "pour finir",
         "es": "terminar",
         "de": "zum Abschluss",
+        "it": "per finire",
         "ru": "закончить"
       }
     },
@@ -4662,6 +4973,7 @@
         "fr": "petit; bien",
         "es": "pequeño; bien",
         "de": "klein; Bußgeld",
+        "it": "piccolo; Bene",
         "ru": "маленький; отлично"
       }
     },
@@ -4677,6 +4989,7 @@
         "fr": "pente; colline",
         "es": "pendiente; colina",
         "de": "Neigung; hügel",
+        "it": "pendenza; collina",
         "ru": "склон; холм"
       }
     },
@@ -4692,6 +5005,7 @@
         "fr": "(humble) partir; venir",
         "es": "(humilde) ir; venir",
         "de": "(demütig) gehen; kommen",
+        "it": "(umile) andare; venire",
         "ru": "(скромно) идти; прийти"
       }
     },
@@ -4707,6 +5021,7 @@
         "fr": "industrie",
         "es": "industria",
         "de": "Industrie",
+        "it": "industria",
         "ru": "промышленность"
       }
     },
@@ -4722,6 +5037,7 @@
         "fr": "rester",
         "es": "permanecer",
         "de": "bleiben",
+        "it": "rimanere",
         "ru": "оставаться"
       }
     },
@@ -4737,6 +5053,7 @@
         "fr": "déception",
         "es": "decepción",
         "de": "Enttäuschung",
+        "it": "delusione",
         "ru": "разочарование"
       }
     },
@@ -4752,6 +5069,7 @@
         "fr": "méthode",
         "es": "método",
         "de": "Verfahren",
+        "it": "metodo",
         "ru": "метод"
       }
     },
@@ -4767,6 +5085,7 @@
         "fr": "pour commencer",
         "es": "para empezar",
         "de": "beginnen",
+        "it": "per iniziare",
         "ru": "начать"
       }
     },
@@ -4782,6 +5101,7 @@
         "fr": "enfant",
         "es": "niño",
         "de": "Kind",
+        "it": "bambino",
         "ru": "ребенок"
       }
     },
@@ -4797,6 +5117,7 @@
         "fr": "ville",
         "es": "ciudad",
         "de": "Stadt",
+        "it": "città",
         "ru": "город"
       }
     },
@@ -4812,6 +5133,7 @@
         "fr": "citoyen",
         "es": "ciudadano",
         "de": "Bürger",
+        "it": "cittadino",
         "ru": "гражданин"
       }
     },
@@ -4827,6 +5149,7 @@
         "fr": "se souvenir",
         "es": "recordar",
         "de": "zu erinnern",
+        "it": "da ricordare",
         "ru": "помнить"
       }
     },
@@ -4842,6 +5165,7 @@
         "fr": "penser; ressentir",
         "es": "pensar; sentir",
         "de": "denken; zu fühlen",
+        "it": "pensare; sentire",
         "ru": "думать; чувствовать"
       }
     },
@@ -4857,6 +5181,7 @@
         "fr": "doigt",
         "es": "dedo",
         "de": "Finger",
+        "it": "dito",
         "ru": "палец"
       }
     },
@@ -4872,6 +5197,7 @@
         "fr": "bague",
         "es": "anillo de dedo",
         "de": "Fingerring",
+        "it": "anello da dito",
         "ru": "кольцо на палец"
       }
     },
@@ -4887,6 +5213,7 @@
         "fr": "préparer",
         "es": "preparar",
         "de": "vorbereiten",
+        "it": "preparare",
         "ru": "подготовить"
       }
     },
@@ -4902,6 +5229,7 @@
         "fr": "bifurquer; brindille",
         "es": "rama; ramita",
         "de": "Zweig; Zweig",
+        "it": "ramo; ramoscello",
         "ru": "ветвь; ветка"
       }
     },
@@ -4917,6 +5245,7 @@
         "fr": "arrêter",
         "es": "parar",
         "de": "aufzuhören",
+        "it": "fermarsi",
         "ru": "остановить"
       }
     },
@@ -4932,6 +5261,7 @@
         "fr": "arrêter quelque chose",
         "es": "detener algo",
         "de": "etwas stoppen",
+        "it": "per fermare qualcosa",
         "ru": "остановить что-то"
       }
     },
@@ -4947,6 +5277,7 @@
         "fr": "fil",
         "es": "hilo",
         "de": "Faden",
+        "it": "filo",
         "ru": "нить"
       }
     },
@@ -4962,6 +5293,7 @@
         "fr": "examen",
         "es": "examen",
         "de": "Prüfung",
+        "it": "esame",
         "ru": "обследование"
       }
     },
@@ -4977,6 +5309,7 @@
         "fr": "correspondre; jeu",
         "es": "fósforo; juego",
         "de": "übereinstimmen; Spiel",
+        "it": "incontro; gioco",
         "ru": "соответствовать; игра"
       }
     },
@@ -4992,6 +5325,7 @@
         "fr": "dentiste",
         "es": "dentista",
         "de": "Zahnarzt",
+        "it": "dentista",
         "ru": "дантист"
       }
     },
@@ -5007,6 +5341,7 @@
         "fr": "accident",
         "es": "accidente",
         "de": "Unfall",
+        "it": "incidente",
         "ru": "несчастный случай"
       }
     },
@@ -5022,6 +5357,7 @@
         "fr": "bureau",
         "es": "oficina",
         "de": "Büro",
+        "it": "ufficio",
         "ru": "офис"
       }
     },
@@ -5037,6 +5373,7 @@
         "fr": "être semblable",
         "es": "ser similar",
         "de": "ähnlich sein",
+        "it": "essere simile",
         "ru": "быть похожим"
       }
     },
@@ -5052,6 +5389,7 @@
         "fr": "personnage",
         "es": "personaje",
         "de": "Charakter",
+        "it": "carattere",
         "ru": "характер"
       }
     },
@@ -5067,6 +5405,7 @@
         "fr": "temple",
         "es": "templo",
         "de": "Tempel",
+        "it": "tempio",
         "ru": "храм"
       }
     },
@@ -5082,6 +5421,7 @@
         "fr": "ère",
         "es": "era",
         "de": "Epoche",
+        "it": "epoca",
         "ru": "эпоха"
       }
     },
@@ -5097,6 +5437,7 @@
         "fr": "être guéri; guérir",
         "es": "ser curado; sanar",
         "de": "geheilt werden; zu heilen",
+        "it": "essere curato; guarire",
         "ru": "вылечиться; исцелить"
       }
     },
@@ -5112,6 +5453,7 @@
         "fr": "liberté",
         "es": "libertad",
         "de": "Freiheit",
+        "it": "libertà",
         "ru": "свобода"
       }
     },
@@ -5127,6 +5469,7 @@
         "fr": "dictionnaire",
         "es": "diccionario",
         "de": "Wörterbuch",
+        "it": "dizionario",
         "ru": "словарь"
       }
     },
@@ -5142,6 +5485,7 @@
         "fr": "échec; erreur",
         "es": "falla; error",
         "de": "Versagen; Fehler",
+        "it": "fallimento; errore",
         "ru": "отказ; ошибка"
       }
     },
@@ -5157,6 +5501,7 @@
         "fr": "copier ou photographier",
         "es": "copiar o fotografiar",
         "de": "zum Kopieren oder Fotografieren",
+        "it": "copiare o fotografare",
         "ru": "скопировать или сфотографировать"
       }
     },
@@ -5172,6 +5517,7 @@
         "fr": "jeter",
         "es": "tirar",
         "de": "wegwerfen",
+        "it": "da buttare via",
         "ru": "выбросить"
       }
     },
@@ -5187,6 +5533,7 @@
         "fr": "société; publique",
         "es": "sociedad; público",
         "de": "Gesellschaft; öffentlich",
+        "it": "società; pubblico",
         "ru": "общество; общественный"
       }
     },
@@ -5202,6 +5549,7 @@
         "fr": "président de la société",
         "es": "presidente de la empresa",
         "de": "Firmenpräsident",
+        "it": "presidente della società",
         "ru": "президент компании"
       }
     },
@@ -5217,6 +5565,7 @@
         "fr": "s'excuser",
         "es": "disculparse",
         "de": "sich entschuldigen",
+        "it": "chiedere scusa",
         "ru": "извиниться"
       }
     },
@@ -5232,6 +5581,7 @@
         "fr": "solitaire",
         "es": "solitario",
         "de": "einsam",
+        "it": "solitario",
         "ru": "одинокий"
       }
     },
@@ -5247,6 +5597,7 @@
         "fr": "échanger",
         "es": "intercambiar",
         "de": "auszutauschen",
+        "it": "scambiare",
         "ru": "обменивать"
       }
     },
@@ -5262,6 +5613,7 @@
         "fr": "gant",
         "es": "guante",
         "de": "Handschuh",
+        "it": "guanto",
         "ru": "перчатка"
       }
     },
@@ -5277,6 +5629,7 @@
         "fr": "pour aider",
         "es": "ayudar",
         "de": "zu helfen",
+        "it": "assistere",
         "ru": "помогать"
       }
     },
@@ -5292,6 +5645,7 @@
         "fr": "passe-temps",
         "es": "pasatiempo",
         "de": "Hobby",
+        "it": "hobby",
         "ru": "хобби"
       }
     },
@@ -5307,6 +5661,7 @@
         "fr": "cou",
         "es": "cuello",
         "de": "Nacken",
+        "it": "collo",
         "ru": "шея"
       }
     },
@@ -5322,6 +5677,7 @@
         "fr": "prendre une leçon ou un examen",
         "es": "para tomar una lección o prueba",
         "de": "eine Lektion oder einen Test absolvieren",
+        "it": "per prendere una lezione o un test",
         "ru": "пройти урок или тест"
       }
     },
@@ -5337,6 +5693,7 @@
         "fr": "reçu",
         "es": "recibo",
         "de": "Quittung",
+        "it": "ricevuta",
         "ru": "квитанция"
       }
     },
@@ -5352,6 +5709,7 @@
         "fr": "alentours",
         "es": "alrededores",
         "de": "Umgebung",
+        "it": "dintorni",
         "ru": "окрестности"
       }
     },
@@ -5367,6 +5725,7 @@
         "fr": "ramasser; rassembler",
         "es": "recoger; reunir",
         "de": "abholen; zu sammeln",
+        "it": "raccogliere; raccogliere",
         "ru": "забрать; собрать"
       }
     },
@@ -5382,6 +5741,7 @@
         "fr": "la fin",
         "es": "el fin",
         "de": "das Ende",
+        "it": "la fine",
         "ru": "конец"
       }
     },
@@ -5397,6 +5757,7 @@
         "fr": "coutume; mœurs",
         "es": "costumbre; modales",
         "de": "Brauch; Manieren",
+        "it": "costume; maniere",
         "ru": "обычай; манеры"
       }
     },
@@ -5412,6 +5773,7 @@
         "fr": "bateau",
         "es": "barco",
         "de": "Schiff",
+        "it": "nave",
         "ru": "корабль"
       }
     },
@@ -5427,6 +5789,7 @@
         "fr": "collectionner quelque chose",
         "es": "recoger algo",
         "de": "etwas sammeln",
+        "it": "per raccogliere qualcosa",
         "ru": "собрать что-нибудь"
       }
     },
@@ -5442,6 +5805,7 @@
         "fr": "rassembler",
         "es": "reunir",
         "de": "zu sammeln",
+        "it": "raccogliere",
         "ru": "собрать"
       }
     },
@@ -5457,6 +5821,7 @@
         "fr": "une adresse ; une résidence",
         "es": "una dirección; una residencia",
         "de": "eine Adresse; ein Wohnsitz",
+        "it": "un indirizzo; una residenza",
         "ru": "адрес; резиденция"
       }
     },
@@ -5472,6 +5837,7 @@
         "fr": "assez",
         "es": "suficiente",
         "de": "genug",
+        "it": "Abbastanza",
         "ru": "достаточно"
       }
     },
@@ -5487,6 +5853,7 @@
         "fr": "doux",
         "es": "suave",
         "de": "weich",
+        "it": "morbido",
         "ru": "мягкий"
       }
     },
@@ -5502,6 +5869,7 @@
         "fr": "judo",
         "es": "judo",
         "de": "Judo",
+        "it": "judo",
         "ru": "дзюдо"
       }
     },
@@ -5517,6 +5885,7 @@
         "fr": "assister",
         "es": "asistir",
         "de": "teilnehmen",
+        "it": "partecipare",
         "ru": "присутствовать"
       }
     },
@@ -5532,6 +5901,7 @@
         "fr": "partir",
         "es": "partir",
         "de": "abreisen",
+        "it": "partire",
         "ru": "уйти"
       }
     },
@@ -5547,6 +5917,7 @@
         "fr": "préparer",
         "es": "preparar",
         "de": "vorbereiten",
+        "it": "preparare",
         "ru": "подготовить"
       }
     },
@@ -5562,6 +5933,7 @@
         "fr": "femme",
         "es": "mujer",
         "de": "Frau",
+        "it": "donna",
         "ru": "женщина"
       }
     },
@@ -5577,6 +5949,7 @@
         "fr": "gagner",
         "es": "ganar",
         "de": "gewinnen",
+        "it": "vincere",
         "ru": "выиграть"
       }
     },
@@ -5592,6 +5965,7 @@
         "fr": "(poli) manger",
         "es": "(educado) comer",
         "de": "(höflich) zu essen",
+        "it": "(educato) mangiare",
         "ru": "(вежливо) поесть"
       }
     },
@@ -5607,6 +5981,7 @@
         "fr": "avenir; perspectives",
         "es": "futuro; perspectivas",
         "de": "Zukunft; Aussichten",
+        "it": "futuro; prospettive",
         "ru": "будущее; перспективы"
       }
     },
@@ -5622,6 +5997,7 @@
         "fr": "école primaire",
         "es": "escuela primaria",
         "de": "Grundschule",
+        "it": "scuola elementare",
         "ru": "начальная школа"
       }
     },
@@ -5637,6 +6013,7 @@
         "fr": "roman",
         "es": "novedoso",
         "de": "Roman",
+        "it": "romanzo",
         "ru": "роман"
       }
     },
@@ -5652,6 +6029,7 @@
         "fr": "petit oiseau",
         "es": "pájaro pequeño",
         "de": "kleiner Vogel",
+        "it": "piccolo uccello",
         "ru": "маленькая птичка"
       }
     },
@@ -5667,6 +6045,7 @@
         "fr": "consentir",
         "es": "dar consentimiento",
         "de": "zustimmen",
+        "it": "acconsentire",
         "ru": "согласиться"
       }
     },
@@ -5682,6 +6061,7 @@
         "fr": "inviter",
         "es": "invitar",
         "de": "einladen",
+        "it": "invitare",
         "ru": "пригласить"
       }
     },
@@ -5697,6 +6077,7 @@
         "fr": "gomme",
         "es": "borrador",
         "de": "Radiergummi",
+        "it": "gomma per cancellare",
         "ru": "ластик"
       }
     },
@@ -5712,6 +6093,7 @@
         "fr": "cuire au four; griller",
         "es": "hornear; asar",
         "de": "backen; zum Grillen",
+        "it": "cuocere; grigliare",
         "ru": "испечь; жарить на гриле"
       }
     },
@@ -5727,6 +6109,7 @@
         "fr": "brûler; être rôti",
         "es": "quemar; ser asado",
         "de": "brennen; geröstet werden",
+        "it": "bruciare; da arrostire",
         "ru": "сжечь; быть поджаренным"
       }
     },
@@ -5742,6 +6125,7 @@
         "fr": "rire; sourire",
         "es": "reír; sonreír",
         "de": "lachen; lächeln",
+        "it": "ridere; sorridere",
         "ru": "смеяться; улыбаться"
       }
     },
@@ -5757,6 +6141,7 @@
         "fr": "introduction",
         "es": "introducción",
         "de": "Einführung",
+        "it": "introduzione",
         "ru": "введение"
       }
     },
@@ -5772,6 +6157,7 @@
         "fr": "s'élever",
         "es": "levantarse",
         "de": "steigen",
+        "it": "salire",
         "ru": "подняться"
       }
     },
@@ -5787,6 +6173,7 @@
         "fr": "changer de bus ou de train",
         "es": "para cambiar entre autobuses o trenes",
         "de": "um zwischen Bussen und Bahnen umzusteigen",
+        "it": "per cambiare tra autobus o treni",
         "ru": "пересаживаться между автобусами или поездами"
       }
     },
@@ -5802,6 +6189,7 @@
         "fr": "véhicule",
         "es": "vehículo",
         "de": "Fahrzeug",
+        "it": "veicolo",
         "ru": "транспортное средство"
       }
     },
@@ -5817,6 +6205,7 @@
         "fr": "situation",
         "es": "situación",
         "de": "Situation",
+        "it": "situazione",
         "ru": "ситуация"
       }
     },
@@ -5832,6 +6221,7 @@
         "fr": "emplacement",
         "es": "ubicación",
         "de": "Standort",
+        "it": "posizione",
         "ru": "расположение"
       }
     },
@@ -5847,6 +6237,7 @@
         "fr": "Tapis de paille japonais",
         "es": "estera de paja japonesa",
         "de": "Japanische Strohmatte",
+        "it": "Stuoia di paglia giapponese",
         "ru": "Японский соломенный коврик"
       }
     },
@@ -5862,6 +6253,7 @@
         "fr": "décorer",
         "es": "decorar",
         "de": "zum Dekorieren",
+        "it": "decorare",
         "ru": "украшать"
       }
     },
@@ -5877,6 +6269,7 @@
         "fr": "planter; grandir",
         "es": "plantar; crecer",
         "de": "pflanzen; wachsen",
+        "it": "piantare; crescere",
         "ru": "сажать; расти"
       }
     },
@@ -5892,6 +6285,7 @@
         "fr": "toucher",
         "es": "tocar",
         "de": "zu berühren",
+        "it": "toccare",
         "ru": "коснуться"
       }
     },
@@ -5907,6 +6301,7 @@
         "fr": "prendre un repas",
         "es": "tener una comida",
         "de": "etwas essen",
+        "it": "consumare un pasto",
         "ru": "перекусить"
       }
     },
@@ -5922,6 +6317,7 @@
         "fr": "épiceries",
         "es": "comestibles",
         "de": "Lebensmittel",
+        "it": "generi alimentari",
         "ru": "продукты"
       }
     },
@@ -5937,6 +6333,7 @@
         "fr": "dormir tard",
         "es": "durmiendo hasta tarde",
         "de": "lange schlafen",
+        "it": "dormire fino a tardi",
         "ru": "поздно сплю"
       }
     },
@@ -5952,6 +6349,7 @@
         "fr": "cœur; cœur",
         "es": "centro; corazón",
         "de": "Kern; Herz",
+        "it": "nucleo; cuore",
         "ru": "основной; сердце"
       }
     },
@@ -5967,6 +6365,7 @@
         "fr": "s'inquiéter",
         "es": "preocuparse",
         "de": "sich Sorgen machen",
+        "it": "preoccuparsi",
         "ru": "волноваться"
       }
     },
@@ -5982,6 +6381,7 @@
         "fr": "entreprise de presse",
         "es": "empresa de periódicos",
         "de": "Zeitungsunternehmen",
+        "it": "azienda giornalistica",
         "ru": "газетная компания"
       }
     },
@@ -5997,6 +6397,7 @@
         "fr": "forêt",
         "es": "bosque",
         "de": "Wald",
+        "it": "foresta",
         "ru": "лес"
       }
     },
@@ -6012,6 +6413,7 @@
         "fr": "profond",
         "es": "profundo",
         "de": "tief",
+        "it": "profondo",
         "ru": "глубокий"
       }
     },
@@ -6027,6 +6429,7 @@
         "fr": "(humble) dire; dire",
         "es": "(humilde) decir; decir",
         "de": "(bescheiden) zu sagen; erzählen",
+        "it": "(umile) dire; raccontare",
         "ru": "(скромно) сказать; рассказать"
       }
     },
@@ -6042,6 +6445,7 @@
         "fr": "(humble) être appelé; dire",
         "es": "(humilde) ser llamado; decir",
         "de": "(demütig) berufen werden; zu sagen",
+        "it": "(umile) essere chiamato; dire",
         "ru": "(скромный) быть призванным; сказать"
       }
     },
@@ -6057,6 +6461,7 @@
         "fr": "milieu",
         "es": "medio",
         "de": "Mitte",
+        "it": "mezzo",
         "ru": "середина"
       }
     },
@@ -6072,6 +6477,7 @@
         "fr": "Sanctuaire shinto",
         "es": "santuario sintoísta",
         "de": "Shinto-Schrein",
+        "it": "Santuario shintoista",
         "ru": "Синтоистский храм"
       }
     },
@@ -6087,6 +6493,7 @@
         "fr": "parents",
         "es": "padres",
         "de": "Eltern",
+        "it": "genitori",
         "ru": "родители"
       }
     },
@@ -6102,6 +6509,7 @@
         "fr": "gentillesse",
         "es": "amabilidad",
         "de": "Freundlichkeit",
+        "it": "gentilezza",
         "ru": "доброта"
       }
     },
@@ -6117,6 +6525,7 @@
         "fr": "faire des progrès",
         "es": "para progresar",
         "de": "Fortschritte machen",
+        "it": "per fare progressi",
         "ru": "добиться прогресса"
       }
     },
@@ -6132,6 +6541,7 @@
         "fr": "poupée; chiffre",
         "es": "muñeca; cifra",
         "de": "Puppe; Figur",
+        "it": "bambola; figura",
         "ru": "кукла; фигура"
       }
     },
@@ -6147,6 +6557,7 @@
         "fr": "population",
         "es": "población",
         "de": "Bevölkerung",
+        "it": "popolazione",
         "ru": "население"
       }
     },
@@ -6162,6 +6573,7 @@
         "fr": "demander",
         "es": "preguntar",
         "de": "fragen",
+        "it": "chiedere",
         "ru": "спросить"
       }
     },
@@ -6177,6 +6589,7 @@
         "fr": "natation",
         "es": "nadar",
         "de": "Baden",
+        "it": "nuoto",
         "ru": "плавание"
       }
     },
@@ -6192,6 +6605,7 @@
         "fr": "approvisionnement en eau",
         "es": "suministro de agua",
         "de": "Wasserversorgung",
+        "it": "fornitura d'acqua",
         "ru": "водоснабжение"
       }
     },
@@ -6207,6 +6621,7 @@
         "fr": "mathématiques; arithmétique",
         "es": "matemáticas; aritmética",
         "de": "Mathematik; Arithmetik",
+        "it": "matematica; aritmetica",
         "ru": "математика; арифметика"
       }
     },
@@ -6222,6 +6637,7 @@
         "fr": "le monde",
         "es": "el mundo",
         "de": "die Welt",
+        "it": "il mondo",
         "ru": "мир"
       }
     },
@@ -6237,6 +6653,7 @@
         "fr": "s'occuper",
         "es": "cuidar",
         "de": "zu betreuen",
+        "it": "prendersi cura di",
         "ru": "присматривать за"
       }
     },
@@ -6252,6 +6669,7 @@
         "fr": "formidable",
         "es": "fantástico",
         "de": "ausgezeichnet",
+        "it": "spaventoso",
         "ru": "потрясающий"
       }
     },
@@ -6267,6 +6685,7 @@
         "fr": "politique; gouvernement",
         "es": "política; gobierno",
         "de": "Politik; Regierung",
+        "it": "politica; governo",
         "ru": "политика; правительство"
       }
     },
@@ -6282,6 +6701,7 @@
         "fr": "étoile",
         "es": "estrella",
         "de": "Stern",
+        "it": "stella",
         "ru": "звезда"
       }
     },
@@ -6297,6 +6717,7 @@
         "fr": "correct",
         "es": "correcto",
         "de": "richtig",
+        "it": "corretto",
         "ru": "правильный"
       }
     },
@@ -6312,6 +6733,7 @@
         "fr": "vivre",
         "es": "vivir",
         "de": "leben",
+        "it": "vivere",
         "ru": "жить"
       }
     },
@@ -6327,6 +6749,7 @@
         "fr": "vivre",
         "es": "vivir",
         "de": "leben",
+        "it": "vivere",
         "ru": "жить"
       }
     },
@@ -6342,6 +6765,7 @@
         "fr": "produire",
         "es": "producir",
         "de": "zu produzieren",
+        "it": "produrre",
         "ru": "производить"
       }
     },
@@ -6357,6 +6781,7 @@
         "fr": "popularité; prospère",
         "es": "popularidad; próspero",
         "de": "Popularität; wohlhabend",
+        "it": "popolarità; prospero",
         "ru": "популярность; процветающий"
       }
     },
@@ -6372,6 +6797,7 @@
         "fr": "pays occidentaux",
         "es": "países occidentales",
         "de": "westliche Länder",
+        "it": "paesi occidentali",
         "ru": "западные страны"
       }
     },
@@ -6387,6 +6813,7 @@
         "fr": "siège",
         "es": "asiento",
         "de": "Sitz",
+        "it": "posto a sedere",
         "ru": "сиденье"
       }
     },
@@ -6402,6 +6829,7 @@
         "fr": "les temps anciens; ancien",
         "es": "viejos tiempos; anterior",
         "de": "alte Zeiten; ehemalig",
+        "it": "tempi antichi; ex",
         "ru": "былые времена; бывший"
       }
     },
@@ -6417,6 +6845,7 @@
         "fr": "pierre",
         "es": "piedra",
         "de": "Stein",
+        "it": "calcolo",
         "ru": "камень"
       }
     },
@@ -6432,6 +6861,7 @@
         "fr": "bébé",
         "es": "bebé",
         "de": "Baby",
+        "it": "Bambino",
         "ru": "малыш"
       }
     },
@@ -6447,6 +6877,7 @@
         "fr": "casser ou plier",
         "es": "romper o doblar",
         "de": "brechen oder falten",
+        "it": "rompersi o piegarsi",
         "ru": "сломать или сложить"
       }
     },
@@ -6462,6 +6893,7 @@
         "fr": "se casser ou être plié",
         "es": "romperse o doblarse",
         "de": "brechen oder gefaltet werden",
+        "it": "rompersi o piegarsi",
         "ru": "сломаться или сложиться"
       }
     },
@@ -6477,6 +6909,7 @@
         "fr": "explication",
         "es": "explicación",
         "de": "Erläuterung",
+        "it": "spiegazione",
         "ru": "объяснение"
       }
     },
@@ -6492,6 +6925,7 @@
         "fr": "senior",
         "es": "sénior",
         "de": "Senior",
+        "it": "anziano",
         "ru": "старший"
       }
     },
@@ -6507,6 +6941,7 @@
         "fr": "guerre",
         "es": "guerra",
         "de": "Krieg",
+        "it": "guerra",
         "ru": "война"
       }
     },
@@ -6522,6 +6957,7 @@
         "fr": "peu profond; superficiel",
         "es": "poco profundo; superficial",
         "de": "seicht; oberflächlich",
+        "it": "poco profondo; superficiale",
         "ru": "мелкий; поверхностный"
       }
     },
@@ -6537,6 +6973,7 @@
         "fr": "doubler",
         "es": "línea",
         "de": "Linie",
+        "it": "linea",
         "ru": "линия"
       }
     },
@@ -6552,6 +6989,7 @@
         "fr": "choisir",
         "es": "elegir",
         "de": "zu wählen",
+        "it": "scegliere",
         "ru": "выбирать"
       }
     },
@@ -6567,6 +7005,7 @@
         "fr": "grand-père",
         "es": "abuelo",
         "de": "Großvater",
+        "it": "nonno",
         "ru": "дедушка"
       }
     },
@@ -6582,6 +7021,7 @@
         "fr": "grand-mère",
         "es": "abuela",
         "de": "Großmutter",
+        "it": "nonna",
         "ru": "бабушка"
       }
     },
@@ -6597,6 +7037,7 @@
         "fr": "devenir mince",
         "es": "adelgazar",
         "de": "dünn werden",
+        "it": "diventare magro",
         "ru": "похудеть"
       }
     },
@@ -6612,6 +7053,7 @@
         "fr": "discuter",
         "es": "discutir",
         "de": "zu besprechen",
+        "it": "discutere",
         "ru": "обсудить"
       }
     },
@@ -6627,6 +7069,7 @@
         "fr": "herbe",
         "es": "césped",
         "de": "Gras",
+        "it": "erba",
         "ru": "трава"
       }
     },
@@ -6642,6 +7085,7 @@
         "fr": "envoyer",
         "es": "enviar",
         "de": "zu senden",
+        "it": "inviare",
         "ru": "отправить"
       }
     },
@@ -6657,6 +7101,7 @@
         "fr": "faire du bruit; être excité",
         "es": "hacer ruido; estar emocionado",
         "de": "Lärm machen; aufgeregt sein",
+        "it": "fare rumore; essere emozionato",
         "ru": "шуметь; быть взволнованным"
       }
     },
@@ -6672,6 +7117,7 @@
         "fr": "augmenter",
         "es": "aumentar",
         "de": "erhöhen",
+        "it": "aumentare",
         "ru": "увеличить"
       }
     },
@@ -6687,6 +7133,7 @@
         "fr": "cadeau",
         "es": "regalo",
         "de": "Geschenk",
+        "it": "regalo",
         "ru": "подарок"
       }
     },
@@ -6702,6 +7149,7 @@
         "fr": "(humble) fils",
         "es": "(humilde) hijo",
         "de": "(bescheidener) Sohn",
+        "it": "(umile) figlio",
         "ru": "(скромный) сын"
       }
     },
@@ -6717,6 +7165,7 @@
         "fr": "ajouter un numéro",
         "es": "para agregar un numero",
         "de": "eine Zahl hinzufügen",
+        "it": "per aggiungere un numero",
         "ru": "добавить номер"
       }
     },
@@ -6732,6 +7181,7 @@
         "fr": "être suffisant",
         "es": "ser suficiente",
         "de": "genug sein",
+        "it": "essere sufficiente",
         "ru": "быть достаточно"
       }
     },
@@ -6747,6 +7197,7 @@
         "fr": "à suivre",
         "es": "continuará",
         "de": "fortgesetzt werden",
+        "it": "continua",
         "ru": "продолжение следует"
       }
     },
@@ -6762,6 +7213,7 @@
         "fr": "continuer",
         "es": "continuar",
         "de": "weitermachen",
+        "it": "per continuare",
         "ru": "продолжать"
       }
     },
@@ -6777,6 +7229,7 @@
         "fr": "graduation",
         "es": "graduación",
         "de": "Abschluss",
+        "it": "laurea",
         "ru": "выпускной"
       }
     },
@@ -6792,6 +7245,7 @@
         "fr": "devenir gros",
         "es": "engordar",
         "de": "dick werden",
+        "it": "diventare grasso",
         "ru": "стать толстым"
       }
     },
@@ -6807,6 +7261,7 @@
         "fr": "frapper",
         "es": "golpear",
         "de": "schlagen",
+        "it": "colpire",
         "ru": "ударить"
       }
     },
@@ -6822,6 +7277,7 @@
         "fr": "quitter l'hôpital",
         "es": "salir del hospital",
         "de": "das Krankenhaus verlassen",
+        "it": "lasciare l'ospedale",
         "ru": "покинуть больницу"
       }
     },
@@ -6837,6 +7293,7 @@
         "fr": "remplaçant; alterner",
         "es": "sustituto; alternar",
         "de": "Ersatz; wechseln",
+        "it": "sostituire; alternare",
         "ru": "заменять; альтернативный"
       }
     },
@@ -6852,6 +7309,7 @@
         "fr": "typhon",
         "es": "tifón",
         "de": "Taifun",
+        "it": "tifone",
         "ru": "тайфун"
       }
     },
@@ -6867,6 +7325,7 @@
         "fr": "étudiant universitaire",
         "es": "estudiante universitario",
         "de": "Universitätsstudent",
+        "it": "studente universitario",
         "ru": "студент университета"
       }
     },
@@ -6882,6 +7341,7 @@
         "fr": "important; précieux; affaire sérieuse",
         "es": "importante; valioso; asunto serio",
         "de": "wichtig; wertvoll; ernste Angelegenheit",
+        "it": "importante; prezioso; cosa seria",
         "ru": "важный; ценный; серьезное дело"
       }
     },
@@ -6897,6 +7357,7 @@
         "fr": "en général",
         "es": "generalmente",
         "de": "allgemein",
+        "it": "generalmente",
         "ru": "в целом"
       }
     },
@@ -6912,6 +7373,7 @@
         "fr": "considérablement",
         "es": "muy",
         "de": "stark",
+        "it": "notevolmente",
         "ru": "значительно"
       }
     },
@@ -6927,6 +7389,7 @@
         "fr": "étagères",
         "es": "estantes",
         "de": "Regale",
+        "it": "scaffali",
         "ru": "полки"
       }
     },
@@ -6942,6 +7405,7 @@
         "fr": "chercher",
         "es": "buscar",
         "de": "suchen",
+        "it": "cercare",
         "ru": "искать"
       }
     },
@@ -6957,6 +7421,7 @@
         "fr": "chauffage",
         "es": "calefacción",
         "de": "Heizung",
+        "it": "riscaldamento",
         "ru": "обогрев"
       }
     },
@@ -6972,6 +7437,7 @@
         "fr": "mâle",
         "es": "masculino",
         "de": "männlich",
+        "it": "maschio",
         "ru": "мужской"
       }
     },
@@ -6987,6 +7453,7 @@
         "fr": "notifier",
         "es": "notificar",
         "de": "zu benachrichtigen",
+        "it": "notificare",
         "ru": "уведомить"
       }
     },
@@ -7002,6 +7469,7 @@
         "fr": "tremblement de terre",
         "es": "terremoto",
         "de": "Erdbeben",
+        "it": "terremoto",
         "ru": "землетрясение"
       }
     },
@@ -7017,6 +7485,7 @@
         "fr": "géographie",
         "es": "geografía",
         "de": "Geographie",
+        "it": "geografia",
         "ru": "география"
       }
     },
@@ -7032,6 +7501,7 @@
         "fr": "gêné",
         "es": "avergonzado",
         "de": "beschämt",
+        "it": "imbarazzato",
         "ru": "смущенный"
       }
     },
@@ -7047,6 +7517,7 @@
         "fr": "(humble) faire",
         "es": "(humilde) hacer",
         "de": "(bescheiden) zu tun",
+        "it": "(umile) fare",
         "ru": "(скромно) сделать"
       }
     },
@@ -7062,6 +7533,7 @@
         "fr": "être en retard",
         "es": "llegar tarde",
         "de": "zu spät kommen",
+        "it": "essere in ritardo",
         "ru": "опаздывать"
       }
     },
@@ -7077,6 +7549,7 @@
         "fr": "kimono",
         "es": "kimono",
         "de": "Kimono",
+        "it": "kimono",
         "ru": "кимоно"
       }
     },
@@ -7092,6 +7565,7 @@
         "fr": "considérablement",
         "es": "importantemente",
         "de": "wesentlich",
+        "it": "considerevolmente",
         "ru": "значительно"
       }
     },
@@ -7107,6 +7581,7 @@
         "fr": "lycée; collège",
         "es": "escuela secundaria; escuela secundaria",
         "de": "Mittelschule; Mittelschule",
+        "it": "scuola media; scuola media",
         "ru": "неполная средняя школа; средняя школа"
       }
     },
@@ -7122,6 +7597,7 @@
         "fr": "jour; pendant la journée",
         "es": "tiempo de día; durante el día",
         "de": "Tageszeit; tagsüber",
+        "it": "giorno; durante il giorno",
         "ru": "дневное время; в течение дня"
       }
     },
@@ -7137,6 +7613,7 @@
         "fr": "pause de midi",
         "es": "descanso del mediodía",
         "de": "Mittagspause",
+        "it": "pausa di mezzogiorno",
         "ru": "полуденный перерыв"
       }
     },
@@ -7152,6 +7629,7 @@
         "fr": "prudence",
         "es": "precaución",
         "de": "Vorsicht",
+        "it": "Attenzione",
         "ru": "осторожность"
       }
     },
@@ -7167,6 +7645,7 @@
         "fr": "injection",
         "es": "inyección",
         "de": "Injektion",
+        "it": "iniezione",
         "ru": "инъекция"
       }
     },
@@ -7182,6 +7661,7 @@
         "fr": "insecte",
         "es": "insecto",
         "de": "Insekt",
+        "it": "insetto",
         "ru": "насекомое"
       }
     },
@@ -7197,6 +7677,7 @@
         "fr": "parking",
         "es": "estacionamiento",
         "de": "Parkplatz",
+        "it": "parcheggio",
         "ru": "парковка"
       }
     },
@@ -7212,6 +7693,7 @@
         "fr": "poli",
         "es": "educado",
         "de": "höflich",
+        "it": "educato",
         "ru": "вежливый"
       }
     },
@@ -7227,6 +7709,7 @@
         "fr": "enquêter",
         "es": "investigar",
         "de": "zu untersuchen",
+        "it": "indagare",
         "ru": "расследовать"
       }
     },
@@ -7242,6 +7725,7 @@
         "fr": "réparer; réparer",
         "es": "arreglar; reparar",
         "de": "reparieren; reparieren",
+        "it": "riparare; riparare",
         "ru": "исправить; ремонтировать"
       }
     },
@@ -7257,6 +7741,7 @@
         "fr": "à réparer; à réparer",
         "es": "ser arreglado; para ser reparado",
         "de": "behoben werden; repariert werden",
+        "it": "da fissare; da riparare",
         "ru": "быть исправленным; быть отремонтированным"
       }
     },
@@ -7272,6 +7757,7 @@
         "fr": "rare",
         "es": "extraño",
         "de": "selten",
+        "it": "raro",
         "ru": "редкий"
       }
     },
@@ -7287,6 +7773,7 @@
         "fr": "faire la navette",
         "es": "viajar",
         "de": "pendeln",
+        "it": "fare il pendolare",
         "ru": "ездить на работу"
       }
     },
@@ -7302,6 +7789,7 @@
         "fr": "passer par",
         "es": "pasar por",
         "de": "durchgehen",
+        "it": "passare attraverso",
         "ru": "пройти"
       }
     },
@@ -7317,6 +7805,7 @@
         "fr": "tremper; mariner",
         "es": "remojar; encurtir",
         "de": "einweichen; einlegen",
+        "it": "immergere; sottaceto",
         "ru": "замачивать; мариновать"
       }
     },
@@ -7332,6 +7821,7 @@
         "fr": "pêcher",
         "es": "pescar",
         "de": "fischen",
+        "it": "pescare",
         "ru": "ловить рыбу"
       }
     },
@@ -7347,6 +7837,7 @@
         "fr": "voleur",
         "es": "ladrón",
         "de": "Dieb",
+        "it": "ladro",
         "ru": "вор"
       }
     },
@@ -7362,6 +7853,7 @@
         "fr": "pertinence",
         "es": "idoneidad",
         "de": "Eignung",
+        "it": "idoneità",
         "ru": "пригодность"
       }
     },
@@ -7377,6 +7869,7 @@
         "fr": "prévisions météorologiques",
         "es": "pronóstico del tiempo",
         "de": "Wettervorhersage",
+        "it": "previsioni del tempo",
         "ru": "прогноз погоды"
       }
     },
@@ -7392,6 +7885,7 @@
         "fr": "exposition",
         "es": "exhibición",
         "de": "Ausstellung",
+        "it": "mostra",
         "ru": "выставка"
       }
     },
@@ -7407,6 +7901,7 @@
         "fr": "vendeur",
         "es": "dependienta",
         "de": "Verkäufer",
+        "it": "commesso del negozio",
         "ru": "продавец-консультант"
       }
     },
@@ -7422,6 +7917,7 @@
         "fr": "indiquer; point",
         "es": "punto; punto",
         "de": "Punkt; Punkt",
+        "it": "punto; punto",
         "ru": "точка; точка"
       }
     },
@@ -7437,6 +7933,7 @@
         "fr": "signaler",
         "es": "informar",
         "de": "zu berichten",
+        "it": "segnalare",
         "ru": "сообщить"
       }
     },
@@ -7452,6 +7949,7 @@
         "fr": "campagne",
         "es": "campo",
         "de": "Landschaft",
+        "it": "campagna",
         "ru": "сельская местность"
       }
     },
@@ -7467,6 +7965,7 @@
         "fr": "lumière électrique",
         "es": "luz electrica",
         "de": "elektrisches Licht",
+        "it": "luce elettrica",
         "ru": "электрический свет"
       }
     },
@@ -7482,6 +7981,7 @@
         "fr": "télégramme",
         "es": "telegrama",
         "de": "Telegramm",
+        "it": "telegramma",
         "ru": "телеграмма"
       }
     },
@@ -7497,6 +7997,7 @@
         "fr": "peindre; plâtrer",
         "es": "pintar; enyesar",
         "de": "malen; verputzen",
+        "it": "dipingere; intonacare",
         "ru": "рисовать; штукатурить"
       }
     },
@@ -7512,6 +8013,7 @@
         "fr": "en route",
         "es": "en el camino",
         "de": "auf dem Weg",
+        "it": "sulla strada",
         "ru": "в пути"
       }
     },
@@ -7527,6 +8029,7 @@
         "fr": "métropolitain",
         "es": "metropolitano",
         "de": "Metropolitan-",
+        "it": "metropolitano",
         "ru": "столичный"
       }
     },
@@ -7542,6 +8045,7 @@
         "fr": "circonstances; commodité",
         "es": "circunstancias; conveniencia",
         "de": "Umstände; Bequemlichkeit",
+        "it": "circostanze; convenienza",
         "ru": "обстоятельства; удобство"
       }
     },
@@ -7557,6 +8061,7 @@
         "fr": "se mettre en colère; être en colère",
         "es": "enojarse; estar enojado",
         "de": "wütend werden; wütend sein",
+        "it": "arrabbiarsi; essere arrabbiato",
         "ru": "злиться; злиться"
       }
     },
@@ -7572,6 +8077,7 @@
         "fr": "se décomposer",
         "es": "descomponerse",
         "de": "zusammenbrechen",
+        "it": "abbattere",
         "ru": "сломаться"
       }
     },
@@ -7587,6 +8093,7 @@
         "fr": "île",
         "es": "isla",
         "de": "Insel",
+        "it": "isola",
         "ru": "остров"
       }
     },
@@ -7602,6 +8109,7 @@
         "fr": "jeter ou rejeter",
         "es": "tirar o desechar",
         "de": "wegwerfen oder wegwerfen",
+        "it": "buttare o gettare via",
         "ru": "выбросить или выбросить"
       }
     },
@@ -7617,6 +8125,7 @@
         "fr": "voler",
         "es": "robar",
         "de": "stehlen",
+        "it": "rubare",
         "ru": "украсть"
       }
     },
@@ -7632,6 +8141,7 @@
         "fr": "eau chaude",
         "es": "agua caliente",
         "de": "heißes Wasser",
+        "it": "acqua calda",
         "ru": "горячая вода"
       }
     },
@@ -7647,6 +8157,7 @@
         "fr": "réponse",
         "es": "respuesta",
         "de": "Antwort",
+        "it": "risposta",
         "ru": "ответ"
       }
     },
@@ -7662,6 +8173,7 @@
         "fr": "marcher dessus",
         "es": "pisar",
         "de": "auftreten",
+        "it": "calpestare",
         "ru": "наступать"
       }
     },
@@ -7677,6 +8189,7 @@
         "fr": "s'échapper",
         "es": "escapar",
         "de": "entkommen",
+        "it": "scappare",
         "ru": "убежать"
       }
     },
@@ -7692,6 +8205,7 @@
         "fr": "bouger",
         "es": "moverse",
         "de": "bewegen",
+        "it": "muoversi",
         "ru": "двигаться"
       }
     },
@@ -7707,6 +8221,7 @@
         "fr": "zoo",
         "es": "zoo",
         "de": "Zoo",
+        "it": "zoo",
         "ru": "зоопарк"
       }
     },
@@ -7722,6 +8237,7 @@
         "fr": "outil; moyens",
         "es": "herramienta; medio",
         "de": "Werkzeug; bedeutet",
+        "it": "attrezzo; significa",
         "ru": "инструмент; означает"
       }
     },
@@ -7737,6 +8253,7 @@
         "fr": "particulièrement; en particulier",
         "es": "particularmente; especialmente",
         "de": "insbesondere; besonders",
+        "it": "particolarmente; particolarmente",
         "ru": "особенно; особенно"
       }
     },
@@ -7752,6 +8269,7 @@
         "fr": "train express limité (plus rapide qu'un train express)",
         "es": "tren expreso limitado (más rápido que un tren expreso)",
         "de": "begrenzter Schnellzug (schneller als ein Schnellzug)",
+        "it": "treno espresso limitato (più veloce di un treno espresso)",
         "ru": "ограниченный экспресс (быстрее экспресса)"
       }
     },
@@ -7767,6 +8285,7 @@
         "fr": "spécial",
         "es": "especial",
         "de": "besonders",
+        "it": "speciale",
         "ru": "особенный"
       }
     },
@@ -7782,6 +8301,7 @@
         "fr": "atteindre",
         "es": "alcanzar",
         "de": "zu erreichen",
+        "it": "raggiungere",
         "ru": "достичь"
       }
     },
@@ -7797,6 +8317,7 @@
         "fr": "deux étages",
         "es": "dos pisos",
         "de": "zweistöckig",
+        "it": "due piani",
         "ru": "двухэтажный"
       }
     },
@@ -7812,6 +8333,7 @@
         "fr": "jour; soleil",
         "es": "día; sol",
         "de": "Tag; Sonne",
+        "it": "giorno; sole",
         "ru": "день; солнце"
       }
     },
@@ -7827,6 +8349,7 @@
         "fr": "journal",
         "es": "diario",
         "de": "Zeitschrift",
+        "it": "diario",
         "ru": "журнал"
       }
     },
@@ -7842,6 +8365,7 @@
         "fr": "hospitaliser",
         "es": "hospitalizar",
         "de": "ins Krankenhaus einweisen",
+        "it": "ricoverare in ospedale",
         "ru": "госпитализировать"
       }
     },
@@ -7857,6 +8381,7 @@
         "fr": "entrer à l'école ou à l'université",
         "es": "para ingresar a la escuela o universidad",
         "de": "um in die Schule oder Universität zu gehen",
+        "it": "per entrare a scuola o all’università",
         "ru": "поступить в школу или университет"
       }
     },
@@ -7872,6 +8397,7 @@
         "fr": "fièvre",
         "es": "fiebre",
         "de": "Fieber",
+        "it": "febbre",
         "ru": "высокая температура"
       }
     },
@@ -7887,6 +8413,7 @@
         "fr": "(humble) regarder",
         "es": "(humilde) mirar",
         "de": "(bescheiden) anzusehen",
+        "it": "(umile) da guardare",
         "ru": "(скромно) посмотреть"
       }
     },
@@ -7902,6 +8429,7 @@
         "fr": "l'arrière du corps",
         "es": "parte posterior del cuerpo",
         "de": "Rückseite des Körpers",
+        "it": "parte posteriore del corpo",
         "ru": "задняя часть тела"
       }
     },
@@ -7917,6 +8445,7 @@
         "fr": "double",
         "es": "doble",
         "de": "doppelt",
+        "it": "raddoppiare",
         "ru": "двойной"
       }
     },
@@ -7932,6 +8461,7 @@
         "fr": "endroit où les choses sont vendues",
         "es": "lugar donde se venden cosas",
         "de": "Ort, an dem Dinge verkauft werden",
+        "it": "luogo in cui si vendono le cose",
         "ru": "место, где продаются вещи"
       }
     },
@@ -7947,6 +8477,7 @@
         "fr": "loger à",
         "es": "alojarse en",
         "de": "übernachten",
+        "it": "alloggiare presso",
         "ru": "поселиться в"
       }
     },
@@ -7962,6 +8493,7 @@
         "fr": "prononciation",
         "es": "pronunciación",
         "de": "Aussprache",
+        "it": "pronuncia",
         "ru": "произношение"
       }
     },
@@ -7977,6 +8509,7 @@
         "fr": "cheveux",
         "es": "cabello",
         "de": "Haar",
+        "it": "capelli",
         "ru": "волосы"
       }
     },
@@ -7992,6 +8525,7 @@
         "fr": "opposition",
         "es": "oposición",
         "de": "Opposition",
+        "it": "opposizione",
         "ru": "оппозиция"
       }
     },
@@ -8007,6 +8541,7 @@
         "fr": "programme de télévision ou de radio",
         "es": "programa de televisión o radio",
         "de": "Fernseh- oder Radioprogramm",
+        "it": "programma televisivo o radiofonico",
         "ru": "теле- или радиопрограмма"
       }
     },
@@ -8022,6 +8557,7 @@
         "fr": "il; petit ami",
         "es": "él; novio",
         "de": "Er; Freund",
+        "it": "Lui; fidanzato",
         "ru": "он; парень"
       }
     },
@@ -8037,6 +8573,7 @@
         "fr": "ils",
         "es": "ellos",
         "de": "Sie",
+        "it": "Essi",
         "ru": "они"
       }
     },
@@ -8052,6 +8589,7 @@
         "fr": "elle; petite amie",
         "es": "ella; novia",
         "de": "sie; Freundin",
+        "it": "Lei; fidanzata",
         "ru": "она; подруга"
       }
     },
@@ -8067,6 +8605,7 @@
         "fr": "triste",
         "es": "triste",
         "de": "traurig",
+        "it": "triste",
         "ru": "грустный"
       }
     },
@@ -8082,6 +8621,7 @@
         "fr": "comparer",
         "es": "comparar",
         "de": "zu vergleichen",
+        "it": "confrontare",
         "ru": "сравнивать"
       }
     },
@@ -8097,6 +8637,7 @@
         "fr": "extrêmement",
         "es": "extremadamente",
         "de": "äußerst",
+        "it": "estremamente",
         "ru": "очень сильно"
       }
     },
@@ -8112,6 +8653,7 @@
         "fr": "aéroport",
         "es": "aeropuerto",
         "de": "Flughafen",
+        "it": "aeroporto",
         "ru": "аэропорт"
       }
     },
@@ -8127,6 +8669,7 @@
         "fr": "beau",
         "es": "hermoso",
         "de": "Schön",
+        "it": "Bellissimo",
         "ru": "красивый"
       }
     },
@@ -8142,6 +8685,7 @@
         "fr": "galerie d'art",
         "es": "galería de arte",
         "de": "Kunstgalerie",
+        "it": "galleria d'arte",
         "ru": "художественная галерея"
       }
     },
@@ -8157,6 +8701,7 @@
         "fr": "certainement; nécessairement",
         "es": "ciertamente; necesariamente",
         "de": "sicherlich; unbedingt",
+        "it": "certamente; necessariamente",
         "ru": "конечно; обязательно"
       }
     },
@@ -8172,6 +8717,7 @@
         "fr": "nécessaire",
         "es": "necesario",
         "de": "notwendig",
+        "it": "necessario",
         "ru": "необходимый"
       }
     },
@@ -8187,6 +8733,7 @@
         "fr": "le devant",
         "es": "el frente",
         "de": "die Vorderseite",
+        "it": "la parte anteriore",
         "ru": "фронт"
       }
     },
@@ -8202,6 +8749,7 @@
         "fr": "marchandises",
         "es": "bienes",
         "de": "Waren",
+        "it": "merce",
         "ru": "товары"
       }
     },
@@ -8217,6 +8765,7 @@
         "fr": "désagrément",
         "es": "inconveniencia",
         "de": "Unannehmlichkeit",
+        "it": "inconveniente",
         "ru": "неудобство"
       }
     },
@@ -8232,6 +8781,7 @@
         "fr": "être attaché",
         "es": "estar adjunto",
         "de": "angehängt werden",
+        "it": "da allegare",
         "ru": "быть прикрепленным"
       }
     },
@@ -8247,6 +8797,7 @@
         "fr": "mari",
         "es": "marido",
         "de": "Ehemann",
+        "it": "marito",
         "ru": "муж"
       }
     },
@@ -8262,6 +8813,7 @@
         "fr": "literie japonaise; futon",
         "es": "ropa de cama japonesa; futón",
         "de": "Japanische Bettwäsche; Futon",
+        "it": "Biancheria da letto giapponese; futone",
         "ru": "японское постельное белье; футон"
       }
     },
@@ -8277,6 +8829,7 @@
         "fr": "effrayant",
         "es": "alarmante",
         "de": "erschreckend",
+        "it": "spaventoso",
         "ru": "пугающий"
       }
     },
@@ -8292,6 +8845,7 @@
         "fr": "généralement; ou un train qui s'arrête à chaque gare",
         "es": "generalmente; o un tren que para en cada estación",
         "de": "normalerweise; oder ein Zug, der an jedem Bahnhof hält",
+        "it": "Generalmente; o un treno che si ferma ad ogni stazione",
         "ru": "обычно; или поезд, который останавливается на каждой станции"
       }
     },
@@ -8307,6 +8861,7 @@
         "fr": "perdre",
         "es": "perder",
         "de": "verlieren",
+        "it": "perdere",
         "ru": "потерять"
       }
     },
@@ -8322,6 +8877,7 @@
         "fr": "chef de section",
         "es": "jefe de una sección",
         "de": "Leiter einer Sektion",
+        "it": "capo di una sezione",
         "ru": "руководитель секции"
       }
     },
@@ -8337,6 +8893,7 @@
         "fr": "révision",
         "es": "revisión",
         "de": "Revision",
+        "it": "revisione",
         "ru": "пересмотр"
       }
     },
@@ -8352,6 +8909,7 @@
         "fr": "complexité; complication",
         "es": "complejidad; complicación",
         "de": "Komplexität; Komplikation",
+        "it": "complessità; complicazione",
         "ru": "сложность; осложнение"
       }
     },
@@ -8367,6 +8925,7 @@
         "fr": "payer",
         "es": "pagar",
         "de": "zu bezahlen",
+        "it": "pagare",
         "ru": "платить"
       }
     },
@@ -8382,6 +8941,7 @@
         "fr": "faire bouillir; chauffer",
         "es": "hervir; calentar",
         "de": "kochen; zu erhitzen",
+        "it": "bollire; riscaldare",
         "ru": "варить; нагревать"
       }
     },
@@ -8397,6 +8957,7 @@
         "fr": "faire bouillir; avoir chaud; s'enthousiasmer",
         "es": "hervir; calentarse; emocionarse",
         "de": "kochen; heiß werden; aufgeregt sein",
+        "it": "bollire; diventare caldo; emozionarsi",
         "ru": "варить; становиться горячим; волноваться"
       }
     },
@@ -8412,6 +8973,7 @@
         "fr": "culture",
         "es": "cultura",
         "de": "Kultur",
+        "it": "cultura",
         "ru": "культура"
       }
     },
@@ -8427,6 +8989,7 @@
         "fr": "littérature",
         "es": "literatura",
         "de": "Literatur",
+        "it": "letteratura",
         "ru": "литература"
       }
     },
@@ -8442,6 +9005,7 @@
         "fr": "grammaire",
         "es": "gramática",
         "de": "Grammatik",
+        "it": "grammatica",
         "ru": "грамматика"
       }
     },
@@ -8457,6 +9021,7 @@
         "fr": "être entendu",
         "es": "ser escuchado",
         "de": "gehört werden",
+        "it": "essere ascoltato",
         "ru": "быть услышанным"
       }
     },
@@ -8472,6 +9037,7 @@
         "fr": "riz cru",
         "es": "arroz crudo",
         "de": "ungekochter Reis",
+        "it": "riso crudo",
         "ru": "сырой рис"
       }
     },
@@ -8487,6 +9053,7 @@
         "fr": "mur",
         "es": "muro",
         "de": "Wand",
+        "it": "parete",
         "ru": "стена"
       }
     },
@@ -8502,6 +9069,7 @@
         "fr": "différent",
         "es": "diferente",
         "de": "anders",
+        "it": "diverso",
         "ru": "другой"
       }
     },
@@ -8517,6 +9085,7 @@
         "fr": "se séparer",
         "es": "separarse",
         "de": "trennen",
+        "it": "separare",
         "ru": "отделить"
       }
     },
@@ -8532,6 +9101,7 @@
         "fr": "étrange",
         "es": "extraño",
         "de": "seltsam",
+        "it": "strano",
         "ru": "странный"
       }
     },
@@ -8547,6 +9117,7 @@
         "fr": "changer",
         "es": "cambiar",
         "de": "ändern",
+        "it": "cambiare",
         "ru": "изменить"
       }
     },
@@ -8562,6 +9133,7 @@
         "fr": "changer",
         "es": "cambiar",
         "de": "ändern",
+        "it": "cambiare",
         "ru": "изменить"
       }
     },
@@ -8577,6 +9149,7 @@
         "fr": "ranger",
         "es": "ordenar",
         "de": "aufräumen",
+        "it": "per riordinare",
         "ru": "прибраться"
       }
     },
@@ -8592,6 +9165,7 @@
         "fr": "répondre",
         "es": "responder",
         "de": "Antwort",
+        "it": "rispondere",
         "ru": "отвечать"
       }
     },
@@ -8607,6 +9181,7 @@
         "fr": "saisir",
         "es": "apoderarse",
         "de": "ergreifen",
+        "it": "cogliere",
         "ru": "захватить"
       }
     },
@@ -8622,6 +9197,7 @@
         "fr": "faire nuit; arriver à une fin",
         "es": "oscurecer; llegar a su fin",
         "de": "dunkel werden; zu Ende gehen",
+        "it": "fare buio; per giungere al termine",
         "ru": "темнеть; прийти к концу"
       }
     },
@@ -8637,6 +9213,7 @@
         "fr": "envelopper",
         "es": "envolver",
         "de": "einwickeln",
+        "it": "avvolgere",
         "ru": "обернуть"
       }
     },
@@ -8652,6 +9229,7 @@
         "fr": "diffuser",
         "es": "transmitir",
         "de": "zu senden",
+        "it": "trasmettere",
         "ru": "транслировать"
       }
     },
@@ -8667,6 +9245,7 @@
         "fr": "loi",
         "es": "ley",
         "de": "Gesetz",
+        "it": "legge",
         "ru": "закон"
       }
     },
@@ -8682,6 +9261,7 @@
         "fr": "visiter",
         "es": "visitar",
         "de": "zu besuchen",
+        "it": "da visitare",
         "ru": "посетить"
       }
     },
@@ -8697,6 +9277,7 @@
         "fr": "mourir",
         "es": "morir",
         "de": "sterben",
+        "it": "morire",
         "ru": "умереть"
       }
     },
@@ -8712,6 +9293,7 @@
         "fr": "article perdu",
         "es": "artículo perdido",
         "de": "verlorener Artikel",
+        "it": "articolo perduto",
         "ru": "потерянная статья"
       }
     },
@@ -8727,6 +9309,7 @@
         "fr": "commerce",
         "es": "comercio",
         "de": "Handel",
+        "it": "commercio",
         "ru": "торговля"
       }
     },
@@ -8742,6 +9325,7 @@
         "fr": "Je (utilisé par les hommes)",
         "es": "Yo (usado por hombres)",
         "de": "I (von Männern verwendet)",
+        "it": "I (usato dai maschi)",
         "ru": "Я (используется мужчинами)"
       }
     },
@@ -8757,6 +9341,7 @@
         "fr": "traduction",
         "es": "traducción",
         "de": "Übersetzung",
+        "it": "traduzione",
         "ru": "перевод"
       }
     },
@@ -8772,6 +9357,7 @@
         "fr": "comique",
         "es": "cómic",
         "de": "komisch",
+        "it": "comico",
         "ru": "комикс"
       }
     },
@@ -8787,6 +9373,7 @@
         "fr": "saveur",
         "es": "sabor",
         "de": "Geschmack",
+        "it": "gusto",
         "ru": "вкус"
       }
     },
@@ -8802,6 +9389,7 @@
         "fr": "pâte de haricots",
         "es": "pasta de frijol",
         "de": "Bohnenpaste",
+        "it": "pasta di fagioli",
         "ru": "бобовая паста"
       }
     },
@@ -8817,6 +9405,7 @@
         "fr": "somnolent",
         "es": "somnoliento",
         "de": "schläfrig",
+        "it": "assonnato",
         "ru": "сонный"
       }
     },
@@ -8832,6 +9421,7 @@
         "fr": "dormir",
         "es": "dormir",
         "de": "schlafen",
+        "it": "dormire",
         "ru": "спать"
       }
     },
@@ -8847,6 +9437,7 @@
         "fr": "rêve",
         "es": "sueño",
         "de": "Traum",
+        "it": "sogno",
         "ru": "мечтать"
       }
     },
@@ -8862,6 +9453,7 @@
         "fr": "disparaître; se perdre",
         "es": "desaparecer; perderse",
         "de": "verschwinden; sich verlaufen",
+        "it": "scomparire; perdersi",
         "ru": "исчезнуть; заблудиться"
       }
     },
@@ -8877,6 +9469,7 @@
         "fr": "impossible",
         "es": "imposible",
         "de": "unmöglich",
+        "it": "impossibile",
         "ru": "невозможный"
       }
     },
@@ -8892,6 +9485,7 @@
         "fr": "(humble) fille",
         "es": "(humilde) hija",
         "de": "(bescheidene) Tochter",
+        "it": "(umile) figlia",
         "ru": "(скромная) дочь"
       }
     },
@@ -8907,6 +9501,7 @@
         "fr": "demain",
         "es": "mañana",
         "de": "morgen",
+        "it": "Domani",
         "ru": "завтра"
       }
     },
@@ -8922,6 +9517,7 @@
         "fr": "sonner",
         "es": "sonar",
         "de": "klingen",
+        "it": "suonare",
         "ru": "звучать"
       }
     },
@@ -8937,6 +9533,7 @@
         "fr": "cheveux ou fourrure",
         "es": "pelo o piel",
         "de": "Haare oder Fell",
+        "it": "capelli o pelliccia",
         "ru": "волосы или мех"
       }
     },
@@ -8952,6 +9549,7 @@
         "fr": "coton",
         "es": "algodón",
         "de": "Baumwolle",
+        "it": "cotone",
         "ru": "хлопок"
       }
     },
@@ -8967,6 +9565,7 @@
         "fr": "faire demi-tour",
         "es": "volver atrás",
         "de": "umkehren",
+        "it": "tornare indietro",
         "ru": "повернуть назад"
       }
     },
@@ -8982,6 +9581,7 @@
         "fr": "être utile",
         "es": "ser útil",
         "de": "hilfreich sein",
+        "it": "essere utile",
         "ru": "быть полезным"
       }
     },
@@ -8997,6 +9597,7 @@
         "fr": "promesse",
         "es": "promesa",
         "de": "versprechen",
+        "it": "promessa",
         "ru": "обещать"
       }
     },
@@ -9012,6 +9613,7 @@
         "fr": "signification; raison",
         "es": "significado; razón",
         "de": "Bedeutung; Grund",
+        "it": "Senso; motivo",
         "ru": "значение; причина"
       }
     },
@@ -9027,6 +9629,7 @@
         "fr": "exporter",
         "es": "exportar",
         "de": "exportieren",
+        "it": "esportare",
         "ru": "экспортировать"
       }
     },
@@ -9042,6 +9645,7 @@
         "fr": "importer",
         "es": "importar",
         "de": "importieren",
+        "it": "importare",
         "ru": "импортировать"
       }
     },
@@ -9057,6 +9661,7 @@
         "fr": "gentil",
         "es": "amable",
         "de": "Art",
+        "it": "Tipo",
         "ru": "добрый"
       }
     },
@@ -9072,6 +9677,7 @@
         "fr": "jouer",
         "es": "jugar",
         "de": "spielen",
+        "it": "giocare",
         "ru": "играть"
       }
     },
@@ -9087,6 +9693,7 @@
         "fr": "préparation d'un cours",
         "es": "preparación para una lección",
         "de": "Vorbereitung auf eine Unterrichtsstunde",
+        "it": "preparazione per una lezione",
         "ru": "подготовка к уроку"
       }
     },
@@ -9102,6 +9709,7 @@
         "fr": "arrangement",
         "es": "acuerdo",
         "de": "Anordnung",
+        "it": "disposizione",
         "ru": "договоренность"
       }
     },
@@ -9117,6 +9725,7 @@
         "fr": "réservation",
         "es": "reserva",
         "de": "Reservierung",
+        "it": "prenotazione",
         "ru": "бронирование"
       }
     },
@@ -9132,6 +9741,7 @@
         "fr": "secouer; influencer",
         "es": "sacudir; balancearse",
         "de": "schütteln; schwanken",
+        "it": "scuotere; ondeggiare",
         "ru": "трясти; раскачиваться"
       }
     },
@@ -9147,6 +9757,7 @@
         "fr": "utiliser",
         "es": "usar",
         "de": "verwenden",
+        "it": "utilizzo",
         "ru": "использовать"
       }
     },
@@ -9162,6 +9773,7 @@
         "fr": "préparation",
         "es": "preparación",
         "de": "Vorbereitung",
+        "it": "preparazione",
         "ru": "подготовка"
       }
     },
@@ -9177,6 +9789,7 @@
         "fr": "choses à faire",
         "es": "cosas que hacer",
         "de": "Dinge zu tun",
+        "it": "cose da fare",
         "ru": "чем заняться"
       }
     },
@@ -9192,6 +9805,7 @@
         "fr": "feuille",
         "es": "hoja",
         "de": "Blatt",
+        "it": "foglia",
         "ru": "лист"
       }
     },
@@ -9207,6 +9821,7 @@
         "fr": "une danse",
         "es": "un baile",
         "de": "ein Tanz",
+        "it": "una danza",
         "ru": "танец"
       }
     },
@@ -9222,6 +9837,7 @@
         "fr": "danser",
         "es": "bailar",
         "de": "tanzen",
+        "it": "ballare",
         "ru": "танцевать"
       }
     },
@@ -9237,6 +9853,7 @@
         "fr": "laisser tomber",
         "es": "dejar caer",
         "de": "fallen lassen",
+        "it": "far cadere",
         "ru": "уронить"
       }
     },
@@ -9252,6 +9869,7 @@
         "fr": "tomber ou tomber",
         "es": "caer o caer",
         "de": "fallen oder fallen lassen",
+        "it": "cadere o cadere",
         "ru": "упасть или упасть"
       }
     },
@@ -9267,6 +9885,7 @@
         "fr": "utilisation",
         "es": "utilización",
         "de": "Verwendung",
+        "it": "utilizzo",
         "ru": "использование"
       }
     },
@@ -9282,6 +9901,7 @@
         "fr": "raison",
         "es": "razón",
         "de": "Grund",
+        "it": "motivo",
         "ru": "причина"
       }
     },
@@ -9297,6 +9917,7 @@
         "fr": "revers",
         "es": "reverso",
         "de": "Rückseite",
+        "it": "retro",
         "ru": "обратная сторона"
       }
     },
@@ -9312,6 +9933,7 @@
         "fr": "tenir debout quelque chose",
         "es": "levantar algo",
         "de": "etwas auf die Beine stellen",
+        "it": "alzare qualcosa",
         "ru": "встать на что-нибудь"
       }
     },
@@ -9327,6 +9949,7 @@
         "fr": "absence",
         "es": "ausencia",
         "de": "Abwesenheit",
+        "it": "assenza",
         "ru": "отсутствие"
       }
     },
@@ -9342,6 +9965,7 @@
         "fr": "Hôtel japonais",
         "es": "hotel japonés",
         "de": "Japanisches Hotel",
+        "it": "Albergo giapponese",
         "ru": "Японский отель"
       }
     },
@@ -9357,6 +9981,7 @@
         "fr": "les deux côtés",
         "es": "ambos lados",
         "de": "beide seiten",
+        "it": "entrambi i lati",
         "ru": "обе стороны"
       }
     },
@@ -9372,6 +9997,7 @@
         "fr": "force; pouvoir",
         "es": "fortaleza; fuerza",
         "de": "Stärke; Leistung",
+        "it": "forza; energia",
         "ru": "сила; власть"
       }
     },
@@ -9387,6 +10013,7 @@
         "fr": "les bois; forestier",
         "es": "bosque; guardabosque",
         "de": "Wald; Förster",
+        "it": "boschi; guardia forestale",
         "ru": "леса; лесник"
       }
     },
@@ -9402,6 +10029,7 @@
         "fr": "Par exemple",
         "es": "Por ejemplo",
         "de": "Zum Beispiel",
+        "it": "Per esempio",
         "ru": "например"
       }
     },
@@ -9417,6 +10045,7 @@
         "fr": "avoir froid",
         "es": "enfriarse",
         "de": "kalt werden",
+        "it": "raffreddarsi",
         "ru": "охладеть"
       }
     },
@@ -9432,6 +10061,7 @@
         "fr": "climatisation",
         "es": "aire acondicionado",
         "de": "Klimaanlage",
+        "it": "aria condizionata",
         "ru": "кондиционер"
       }
     },
@@ -9447,6 +10077,7 @@
         "fr": "histoire",
         "es": "historia",
         "de": "Geschichte",
+        "it": "storia",
         "ru": "история"
       }
     },
@@ -9462,6 +10093,7 @@
         "fr": "diriger",
         "es": "liderar",
         "de": "führen",
+        "it": "condurre",
         "ru": "вести"
       }
     },
@@ -9477,6 +10109,7 @@
         "fr": "contact",
         "es": "contacto",
         "de": "Kontakt",
+        "it": "contatto",
         "ru": "контакт"
       }
     },
@@ -9492,6 +10125,7 @@
         "fr": "bras",
         "es": "brazo",
         "de": "Arm",
+        "it": "braccio",
         "ru": "рука"
       }
     }

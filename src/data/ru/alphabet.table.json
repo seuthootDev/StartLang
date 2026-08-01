@@ -8,7 +8,8 @@
     "fr": "Alphabet cyrillique",
     "es": "Alfabeto cirílico",
     "de": "Kyrillisches Alphabet",
-    "ru": "Кириллица"
+    "ru": "Кириллица",
+    "it": "Cyrillic alphabet"
   },
   "note": {
     "en": "33 letters. Type the sound (slash answers accept either side). Ъ/Ь are signs, not full vowels.",
@@ -18,7 +19,8 @@
     "fr": "33 lettres. Tapez le son (/ = les deux côtés). Ъ/Ь sont des signes.",
     "es": "33 letras. Escribe el sonido (/ acepta ambos lados). Ъ/Ь son signos.",
     "de": "33 Buchstaben. Laut tippen (/ = beide Seiten). Ъ/Ь sind Zeichen.",
-    "ru": "33 буквы. Введите звук или название. Ъ и Ь — знаки."
+    "ru": "33 буквы. Введите звук или название. Ъ и Ь — знаки.",
+    "it": "33 letters. Type the sound (slash answers accept either side). Ъ/Ь are signs, not full vowels."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Lettre",
         "es": "Letra",
         "de": "Buchstabe",
-        "ru": "Буква"
+        "ru": "Буква",
+        "it": "Letter"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Son",
         "es": "Sonido",
         "de": "Laut",
-        "ru": "Звук"
+        "ru": "Звук",
+        "it": "Sound"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Nom",
         "es": "Nombre",
         "de": "Name",
-        "ru": "Название"
+        "ru": "Название",
+        "it": "Name"
       }
     }
   ],
@@ -72,7 +77,8 @@
         "fr": "a",
         "es": "a",
         "de": "a",
-        "ru": "а"
+        "ru": "а",
+        "it": "a"
       },
       "name": {
         "en": "a",
@@ -82,7 +88,8 @@
         "fr": "a",
         "es": "a",
         "de": "a",
-        "ru": "а"
+        "ru": "а",
+        "it": "a"
       }
     },
     {
@@ -95,7 +102,8 @@
         "fr": "b",
         "es": "b",
         "de": "b",
-        "ru": "бэ"
+        "ru": "бэ",
+        "it": "b"
       },
       "name": {
         "en": "be",
@@ -105,7 +113,8 @@
         "fr": "bé",
         "es": "be",
         "de": "be",
-        "ru": "бэ"
+        "ru": "бэ",
+        "it": "be"
       }
     },
     {
@@ -118,7 +127,8 @@
         "fr": "v",
         "es": "v",
         "de": "w/v",
-        "ru": "вэ"
+        "ru": "вэ",
+        "it": "v"
       },
       "name": {
         "en": "ve",
@@ -128,7 +138,8 @@
         "fr": "vé",
         "es": "ve",
         "de": "we",
-        "ru": "вэ"
+        "ru": "вэ",
+        "it": "ve"
       }
     },
     {
@@ -141,7 +152,8 @@
         "fr": "g",
         "es": "g",
         "de": "g",
-        "ru": "гэ"
+        "ru": "гэ",
+        "it": "g"
       },
       "name": {
         "en": "ge",
@@ -151,7 +163,8 @@
         "fr": "gué",
         "es": "gue",
         "de": "ge",
-        "ru": "гэ"
+        "ru": "гэ",
+        "it": "ge"
       }
     },
     {
@@ -164,7 +177,8 @@
         "fr": "d",
         "es": "d",
         "de": "d",
-        "ru": "дэ"
+        "ru": "дэ",
+        "it": "d"
       },
       "name": {
         "en": "de",
@@ -174,7 +188,8 @@
         "fr": "dé",
         "es": "de",
         "de": "de",
-        "ru": "дэ"
+        "ru": "дэ",
+        "it": "de"
       }
     },
     {
@@ -187,7 +202,8 @@
         "fr": "ye/e",
         "es": "ye/e",
         "de": "je/e",
-        "ru": "е"
+        "ru": "е",
+        "it": "ye/e"
       },
       "name": {
         "en": "ye",
@@ -197,7 +213,8 @@
         "fr": "ié",
         "es": "ye",
         "de": "je",
-        "ru": "е"
+        "ru": "е",
+        "it": "ye"
       }
     },
     {
@@ -210,7 +227,8 @@
         "fr": "yo",
         "es": "yo",
         "de": "jo",
-        "ru": "ё"
+        "ru": "ё",
+        "it": "yo"
       },
       "name": {
         "en": "yo",
@@ -220,7 +238,8 @@
         "fr": "io",
         "es": "yo",
         "de": "jo",
-        "ru": "ё"
+        "ru": "ё",
+        "it": "yo"
       }
     },
     {
@@ -233,7 +252,8 @@
         "fr": "j",
         "es": "zh/y",
         "de": "sch",
-        "ru": "жэ"
+        "ru": "жэ",
+        "it": "zh"
       },
       "name": {
         "en": "zhe",
@@ -243,7 +263,8 @@
         "fr": "jé",
         "es": "zhe",
         "de": "sche",
-        "ru": "жэ"
+        "ru": "жэ",
+        "it": "zhe"
       }
     },
     {
@@ -256,7 +277,8 @@
         "fr": "z",
         "es": "z",
         "de": "s/z",
-        "ru": "зэ"
+        "ru": "зэ",
+        "it": "z"
       },
       "name": {
         "en": "ze",
@@ -266,7 +288,8 @@
         "fr": "zé",
         "es": "ze",
         "de": "se",
-        "ru": "зэ"
+        "ru": "зэ",
+        "it": "ze"
       }
     },
     {
@@ -279,7 +302,8 @@
         "fr": "i",
         "es": "i",
         "de": "i",
-        "ru": "и"
+        "ru": "и",
+        "it": "i"
       },
       "name": {
         "en": "i",
@@ -289,7 +313,8 @@
         "fr": "i",
         "es": "i",
         "de": "i",
-        "ru": "и"
+        "ru": "и",
+        "it": "i"
       }
     },
     {
@@ -302,7 +327,8 @@
         "fr": "y/ï",
         "es": "y/i",
         "de": "j",
-        "ru": "и краткое"
+        "ru": "и краткое",
+        "it": "y/j"
       },
       "name": {
         "en": "short i",
@@ -312,7 +338,8 @@
         "fr": "i court",
         "es": "i breve",
         "de": "kurzes i",
-        "ru": "и краткое"
+        "ru": "и краткое",
+        "it": "short i"
       }
     },
     {
@@ -325,7 +352,8 @@
         "fr": "k",
         "es": "k",
         "de": "k",
-        "ru": "ка"
+        "ru": "ка",
+        "it": "k"
       },
       "name": {
         "en": "ka",
@@ -335,7 +363,8 @@
         "fr": "ka",
         "es": "ka",
         "de": "ka",
-        "ru": "ка"
+        "ru": "ка",
+        "it": "ka"
       }
     },
     {
@@ -348,7 +377,8 @@
         "fr": "l",
         "es": "l",
         "de": "l",
-        "ru": "эль"
+        "ru": "эль",
+        "it": "l"
       },
       "name": {
         "en": "el",
@@ -358,7 +388,8 @@
         "fr": "èle",
         "es": "el",
         "de": "el",
-        "ru": "эль"
+        "ru": "эль",
+        "it": "el"
       }
     },
     {
@@ -371,7 +402,8 @@
         "fr": "m",
         "es": "m",
         "de": "m",
-        "ru": "эм"
+        "ru": "эм",
+        "it": "m"
       },
       "name": {
         "en": "em",
@@ -381,7 +413,8 @@
         "fr": "ème",
         "es": "em",
         "de": "em",
-        "ru": "эм"
+        "ru": "эм",
+        "it": "em"
       }
     },
     {
@@ -394,7 +427,8 @@
         "fr": "n",
         "es": "n",
         "de": "n",
-        "ru": "эн"
+        "ru": "эн",
+        "it": "n"
       },
       "name": {
         "en": "en",
@@ -404,7 +438,8 @@
         "fr": "ène",
         "es": "en",
         "de": "en",
-        "ru": "эн"
+        "ru": "эн",
+        "it": "en"
       }
     },
     {
@@ -417,7 +452,8 @@
         "fr": "o",
         "es": "o",
         "de": "o",
-        "ru": "о"
+        "ru": "о",
+        "it": "o"
       },
       "name": {
         "en": "o",
@@ -427,7 +463,8 @@
         "fr": "o",
         "es": "o",
         "de": "o",
-        "ru": "о"
+        "ru": "о",
+        "it": "o"
       }
     },
     {
@@ -440,7 +477,8 @@
         "fr": "p",
         "es": "p",
         "de": "p",
-        "ru": "пэ"
+        "ru": "пэ",
+        "it": "p"
       },
       "name": {
         "en": "pe",
@@ -450,7 +488,8 @@
         "fr": "pé",
         "es": "pe",
         "de": "pe",
-        "ru": "пэ"
+        "ru": "пэ",
+        "it": "pe"
       }
     },
     {
@@ -463,7 +502,8 @@
         "fr": "r",
         "es": "r",
         "de": "r",
-        "ru": "эр"
+        "ru": "эр",
+        "it": "r"
       },
       "name": {
         "en": "er",
@@ -473,7 +513,8 @@
         "fr": "ère",
         "es": "er",
         "de": "er",
-        "ru": "эр"
+        "ru": "эр",
+        "it": "er"
       }
     },
     {
@@ -486,7 +527,8 @@
         "fr": "s",
         "es": "s",
         "de": "s",
-        "ru": "эс"
+        "ru": "эс",
+        "it": "s"
       },
       "name": {
         "en": "es",
@@ -496,7 +538,8 @@
         "fr": "èsse",
         "es": "es",
         "de": "es",
-        "ru": "эс"
+        "ru": "эс",
+        "it": "es"
       }
     },
     {
@@ -509,7 +552,8 @@
         "fr": "t",
         "es": "t",
         "de": "t",
-        "ru": "тэ"
+        "ru": "тэ",
+        "it": "t"
       },
       "name": {
         "en": "te",
@@ -519,7 +563,8 @@
         "fr": "té",
         "es": "te",
         "de": "te",
-        "ru": "тэ"
+        "ru": "тэ",
+        "it": "te"
       }
     },
     {
@@ -532,7 +577,8 @@
         "fr": "ou/u",
         "es": "u",
         "de": "u",
-        "ru": "у"
+        "ru": "у",
+        "it": "u"
       },
       "name": {
         "en": "u",
@@ -542,7 +588,8 @@
         "fr": "ou",
         "es": "u",
         "de": "u",
-        "ru": "у"
+        "ru": "у",
+        "it": "u"
       }
     },
     {
@@ -555,7 +602,8 @@
         "fr": "f",
         "es": "f",
         "de": "f",
-        "ru": "эф"
+        "ru": "эф",
+        "it": "f"
       },
       "name": {
         "en": "ef",
@@ -565,7 +613,8 @@
         "fr": "èffe",
         "es": "efe",
         "de": "ef",
-        "ru": "эф"
+        "ru": "эф",
+        "it": "ef"
       }
     },
     {
@@ -578,7 +627,8 @@
         "fr": "kh/h",
         "es": "j/kh",
         "de": "ch/h",
-        "ru": "ха"
+        "ru": "ха",
+        "it": "kh/h"
       },
       "name": {
         "en": "kha",
@@ -588,7 +638,8 @@
         "fr": "kha",
         "es": "ja",
         "de": "cha",
-        "ru": "ха"
+        "ru": "ха",
+        "it": "kha"
       }
     },
     {
@@ -601,7 +652,8 @@
         "fr": "ts",
         "es": "ts",
         "de": "z/ts",
-        "ru": "цэ"
+        "ru": "цэ",
+        "it": "ts"
       },
       "name": {
         "en": "tse",
@@ -611,7 +663,8 @@
         "fr": "tsé",
         "es": "tse",
         "de": "ze",
-        "ru": "цэ"
+        "ru": "цэ",
+        "it": "tse"
       }
     },
     {
@@ -624,7 +677,8 @@
         "fr": "tch/ch",
         "es": "ch",
         "de": "tsch/ch",
-        "ru": "че"
+        "ru": "че",
+        "it": "ch"
       },
       "name": {
         "en": "che",
@@ -634,7 +688,8 @@
         "fr": "tché",
         "es": "che",
         "de": "tsche",
-        "ru": "че"
+        "ru": "че",
+        "it": "che"
       }
     },
     {
@@ -647,7 +702,8 @@
         "fr": "ch/sh",
         "es": "sh",
         "de": "sch",
-        "ru": "ша"
+        "ru": "ша",
+        "it": "sh"
       },
       "name": {
         "en": "sha",
@@ -657,7 +713,8 @@
         "fr": "cha",
         "es": "sha",
         "de": "scha",
-        "ru": "ша"
+        "ru": "ша",
+        "it": "sha"
       }
     },
     {
@@ -670,7 +727,8 @@
         "fr": "chtch/sch",
         "es": "shch",
         "de": "schtsch",
-        "ru": "ща"
+        "ru": "ща",
+        "it": "shch/sch"
       },
       "name": {
         "en": "shcha",
@@ -680,7 +738,8 @@
         "fr": "chtcha",
         "es": "shcha",
         "de": "schtscha",
-        "ru": "ща"
+        "ru": "ща",
+        "it": "shcha"
       }
     },
     {
@@ -693,7 +752,8 @@
         "fr": "signe dur / ъ",
         "es": "signo duro / ъ",
         "de": "hartes Zeichen / ъ",
-        "ru": "твёрдый знак / ъ"
+        "ru": "твёрдый знак / ъ",
+        "it": "\" / hard sign / ъ"
       },
       "name": {
         "en": "hard sign",
@@ -703,7 +763,8 @@
         "fr": "signe dur",
         "es": "signo duro",
         "de": "hartes Zeichen",
-        "ru": "твёрдый знак"
+        "ru": "твёрдый знак",
+        "it": "hard sign"
       }
     },
     {
@@ -716,7 +777,8 @@
         "fr": "y",
         "es": "y",
         "de": "y",
-        "ru": "ы"
+        "ru": "ы",
+        "it": "y"
       },
       "name": {
         "en": "y",
@@ -726,7 +788,8 @@
         "fr": "y",
         "es": "y",
         "de": "y",
-        "ru": "ы"
+        "ru": "ы",
+        "it": "y"
       }
     },
     {
@@ -739,7 +802,8 @@
         "fr": "signe mou / ь",
         "es": "signo blando / ь",
         "de": "weiches Zeichen / ь",
-        "ru": "мягкий знак / ь"
+        "ru": "мягкий знак / ь",
+        "it": "' / soft sign / ь"
       },
       "name": {
         "en": "soft sign",
@@ -749,7 +813,8 @@
         "fr": "signe mou",
         "es": "signo blando",
         "de": "weiches Zeichen",
-        "ru": "мягкий знак"
+        "ru": "мягкий знак",
+        "it": "soft sign"
       }
     },
     {
@@ -762,7 +827,8 @@
         "fr": "é/e",
         "es": "e",
         "de": "e",
-        "ru": "э"
+        "ru": "э",
+        "it": "e"
       },
       "name": {
         "en": "e",
@@ -772,7 +838,8 @@
         "fr": "é",
         "es": "e",
         "de": "e",
-        "ru": "э"
+        "ru": "э",
+        "it": "e"
       }
     },
     {
@@ -785,7 +852,8 @@
         "fr": "iou/yu",
         "es": "yu",
         "de": "ju",
-        "ru": "ю"
+        "ru": "ю",
+        "it": "yu"
       },
       "name": {
         "en": "yu",
@@ -795,7 +863,8 @@
         "fr": "iou",
         "es": "yu",
         "de": "ju",
-        "ru": "ю"
+        "ru": "ю",
+        "it": "yu"
       }
     },
     {
@@ -808,7 +877,8 @@
         "fr": "ia/ya",
         "es": "ya",
         "de": "ja",
-        "ru": "я"
+        "ru": "я",
+        "it": "ya"
       },
       "name": {
         "en": "ya",
@@ -818,7 +888,8 @@
         "fr": "ia",
         "es": "ya",
         "de": "ja",
-        "ru": "я"
+        "ru": "я",
+        "it": "ya"
       }
     }
   ]

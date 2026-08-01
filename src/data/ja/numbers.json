@@ -2,127 +2,547 @@
   {
     "quiz_id": "ja_numbers_sino_1",
     "question_word": "一",
-    "pronunciations": { "en": "ichi", "ko": "이치", "zh": "ichi", "fr": "ichi", "es": "ichi", "de": "ichi", "ru": "ити", "ja": "いち" },
-    "translations": { "en": "1", "ko": "1", "ja": "1", "zh": "1", "fr": "1", "es": "1", "de": "1", "ru": "1" }
+    "pronunciations": {
+      "en": "ichi",
+      "ko": "이치",
+      "zh": "ichi",
+      "fr": "ichi",
+      "es": "ichi",
+      "de": "ichi",
+      "ru": "ити",
+      "ja": "いち",
+      "it": "ichi"
+    },
+    "translations": {
+      "en": "1",
+      "ko": "1",
+      "ja": "1",
+      "zh": "1",
+      "fr": "1",
+      "es": "1",
+      "de": "1",
+      "ru": "1",
+      "it": "1"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_2",
     "question_word": "二",
-    "pronunciations": { "en": "ni", "ko": "니", "zh": "ni", "fr": "ni", "es": "ni", "de": "ni", "ru": "ни", "ja": "に" },
-    "translations": { "en": "2", "ko": "2", "ja": "2", "zh": "2", "fr": "2", "es": "2", "de": "2", "ru": "2" }
+    "pronunciations": {
+      "en": "ni",
+      "ko": "니",
+      "zh": "ni",
+      "fr": "ni",
+      "es": "ni",
+      "de": "ni",
+      "ru": "ни",
+      "ja": "に",
+      "it": "ni"
+    },
+    "translations": {
+      "en": "2",
+      "ko": "2",
+      "ja": "2",
+      "zh": "2",
+      "fr": "2",
+      "es": "2",
+      "de": "2",
+      "ru": "2",
+      "it": "2"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_3",
     "question_word": "三",
-    "pronunciations": { "en": "san", "ko": "산", "zh": "san", "fr": "san", "es": "san", "de": "san", "ru": "сан", "ja": "さん" },
-    "translations": { "en": "3", "ko": "3", "ja": "3", "zh": "3", "fr": "3", "es": "3", "de": "3", "ru": "3" }
+    "pronunciations": {
+      "en": "san",
+      "ko": "산",
+      "zh": "san",
+      "fr": "san",
+      "es": "san",
+      "de": "san",
+      "ru": "сан",
+      "ja": "さん",
+      "it": "san"
+    },
+    "translations": {
+      "en": "3",
+      "ko": "3",
+      "ja": "3",
+      "zh": "3",
+      "fr": "3",
+      "es": "3",
+      "de": "3",
+      "ru": "3",
+      "it": "3"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_4",
     "question_word": "四",
-    "pronunciations": { "en": "yon", "ko": "욘", "zh": "yon", "fr": "yon", "es": "yon", "de": "yon", "ru": "ён", "ja": "よん" },
-    "translations": { "en": "4", "ko": "4", "ja": "4", "zh": "4", "fr": "4", "es": "4", "de": "4", "ru": "4" }
+    "pronunciations": {
+      "en": "yon",
+      "ko": "욘",
+      "zh": "yon",
+      "fr": "yon",
+      "es": "yon",
+      "de": "yon",
+      "ru": "ён",
+      "ja": "よん",
+      "it": "yon"
+    },
+    "translations": {
+      "en": "4",
+      "ko": "4",
+      "ja": "4",
+      "zh": "4",
+      "fr": "4",
+      "es": "4",
+      "de": "4",
+      "ru": "4",
+      "it": "4"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_5",
     "question_word": "五",
-    "pronunciations": { "en": "go", "ko": "고", "zh": "go", "fr": "go", "es": "go", "de": "go", "ru": "го", "ja": "ご" },
-    "translations": { "en": "5", "ko": "5", "ja": "5", "zh": "5", "fr": "5", "es": "5", "de": "5", "ru": "5" }
+    "pronunciations": {
+      "en": "go",
+      "ko": "고",
+      "zh": "go",
+      "fr": "go",
+      "es": "go",
+      "de": "go",
+      "ru": "го",
+      "ja": "ご",
+      "it": "go"
+    },
+    "translations": {
+      "en": "5",
+      "ko": "5",
+      "ja": "5",
+      "zh": "5",
+      "fr": "5",
+      "es": "5",
+      "de": "5",
+      "ru": "5",
+      "it": "5"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_6",
     "question_word": "六",
-    "pronunciations": { "en": "roku", "ko": "로쿠", "zh": "roku", "fr": "roku", "es": "roku", "de": "roku", "ru": "року", "ja": "ろく" },
-    "translations": { "en": "6", "ko": "6", "ja": "6", "zh": "6", "fr": "6", "es": "6", "de": "6", "ru": "6" }
+    "pronunciations": {
+      "en": "roku",
+      "ko": "로쿠",
+      "zh": "roku",
+      "fr": "roku",
+      "es": "roku",
+      "de": "roku",
+      "ru": "року",
+      "ja": "ろく",
+      "it": "roku"
+    },
+    "translations": {
+      "en": "6",
+      "ko": "6",
+      "ja": "6",
+      "zh": "6",
+      "fr": "6",
+      "es": "6",
+      "de": "6",
+      "ru": "6",
+      "it": "6"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_7",
     "question_word": "七",
-    "pronunciations": { "en": "nana", "ko": "나나", "zh": "nana", "fr": "nana", "es": "nana", "de": "nana", "ru": "нана", "ja": "なな" },
-    "translations": { "en": "7", "ko": "7", "ja": "7", "zh": "7", "fr": "7", "es": "7", "de": "7", "ru": "7" }
+    "pronunciations": {
+      "en": "nana",
+      "ko": "나나",
+      "zh": "nana",
+      "fr": "nana",
+      "es": "nana",
+      "de": "nana",
+      "ru": "нана",
+      "ja": "なな",
+      "it": "nana"
+    },
+    "translations": {
+      "en": "7",
+      "ko": "7",
+      "ja": "7",
+      "zh": "7",
+      "fr": "7",
+      "es": "7",
+      "de": "7",
+      "ru": "7",
+      "it": "7"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_8",
     "question_word": "八",
-    "pronunciations": { "en": "hachi", "ko": "하치", "zh": "hachi", "fr": "hachi", "es": "hachi", "de": "hachi", "ru": "хати", "ja": "はち" },
-    "translations": { "en": "8", "ko": "8", "ja": "8", "zh": "8", "fr": "8", "es": "8", "de": "8", "ru": "8" }
+    "pronunciations": {
+      "en": "hachi",
+      "ko": "하치",
+      "zh": "hachi",
+      "fr": "hachi",
+      "es": "hachi",
+      "de": "hachi",
+      "ru": "хати",
+      "ja": "はち",
+      "it": "hachi"
+    },
+    "translations": {
+      "en": "8",
+      "ko": "8",
+      "ja": "8",
+      "zh": "8",
+      "fr": "8",
+      "es": "8",
+      "de": "8",
+      "ru": "8",
+      "it": "8"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_9",
     "question_word": "九",
-    "pronunciations": { "en": "kyuu", "ko": "큐우", "zh": "kyuu", "fr": "kyuu", "es": "kyuu", "de": "kyuu", "ru": "кю:", "ja": "きゅう" },
-    "translations": { "en": "9", "ko": "9", "ja": "9", "zh": "9", "fr": "9", "es": "9", "de": "9", "ru": "9" }
+    "pronunciations": {
+      "en": "kyuu",
+      "ko": "큐우",
+      "zh": "kyuu",
+      "fr": "kyuu",
+      "es": "kyuu",
+      "de": "kyuu",
+      "ru": "кю:",
+      "ja": "きゅう",
+      "it": "kyuu"
+    },
+    "translations": {
+      "en": "9",
+      "ko": "9",
+      "ja": "9",
+      "zh": "9",
+      "fr": "9",
+      "es": "9",
+      "de": "9",
+      "ru": "9",
+      "it": "9"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_10",
     "question_word": "十",
-    "pronunciations": { "en": "juu", "ko": "주우", "zh": "juu", "fr": "juu", "es": "juu", "de": "juu", "ru": "дзю:", "ja": "じゅう" },
-    "translations": { "en": "10", "ko": "10", "ja": "10", "zh": "10", "fr": "10", "es": "10", "de": "10", "ru": "10" }
+    "pronunciations": {
+      "en": "juu",
+      "ko": "주우",
+      "zh": "juu",
+      "fr": "juu",
+      "es": "juu",
+      "de": "juu",
+      "ru": "дзю:",
+      "ja": "じゅう",
+      "it": "juu"
+    },
+    "translations": {
+      "en": "10",
+      "ko": "10",
+      "ja": "10",
+      "zh": "10",
+      "fr": "10",
+      "es": "10",
+      "de": "10",
+      "ru": "10",
+      "it": "10"
+    }
   },
   {
     "quiz_id": "ja_numbers_sino_100",
     "question_word": "百",
-    "pronunciations": { "en": "hyaku", "ko": "햐쿠", "zh": "hyaku", "fr": "hyaku", "es": "hyaku", "de": "hyaku", "ru": "хяку", "ja": "ひゃく" },
-    "translations": { "en": "100", "ko": "100", "ja": "100", "zh": "100", "fr": "100", "es": "100", "de": "100", "ru": "100" }
+    "pronunciations": {
+      "en": "hyaku",
+      "ko": "햐쿠",
+      "zh": "hyaku",
+      "fr": "hyaku",
+      "es": "hyaku",
+      "de": "hyaku",
+      "ru": "хяку",
+      "ja": "ひゃく",
+      "it": "hyaku"
+    },
+    "translations": {
+      "en": "100",
+      "ko": "100",
+      "ja": "100",
+      "zh": "100",
+      "fr": "100",
+      "es": "100",
+      "de": "100",
+      "ru": "100",
+      "it": "100"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_1",
     "question_word": "一つ",
-    "pronunciations": { "en": "hito-tsu", "ko": "히토츠", "zh": "hito-tsu", "fr": "hito-tsu", "es": "hito-tsu", "de": "hito-tsu", "ru": "хито-цу", "ja": "ひとつ" },
-    "translations": { "en": "1", "ko": "1", "ja": "1", "zh": "1", "fr": "1", "es": "1", "de": "1", "ru": "1" }
+    "pronunciations": {
+      "en": "hito-tsu",
+      "ko": "히토츠",
+      "zh": "hito-tsu",
+      "fr": "hito-tsu",
+      "es": "hito-tsu",
+      "de": "hito-tsu",
+      "ru": "хито-цу",
+      "ja": "ひとつ",
+      "it": "hito-tsu"
+    },
+    "translations": {
+      "en": "1",
+      "ko": "1",
+      "ja": "1",
+      "zh": "1",
+      "fr": "1",
+      "es": "1",
+      "de": "1",
+      "ru": "1",
+      "it": "1"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_2",
     "question_word": "二つ",
-    "pronunciations": { "en": "futa-tsu", "ko": "후타츠", "zh": "futa-tsu", "fr": "futa-tsu", "es": "futa-tsu", "de": "futa-tsu", "ru": "фута-цу", "ja": "ふたつ" },
-    "translations": { "en": "2", "ko": "2", "ja": "2", "zh": "2", "fr": "2", "es": "2", "de": "2", "ru": "2" }
+    "pronunciations": {
+      "en": "futa-tsu",
+      "ko": "후타츠",
+      "zh": "futa-tsu",
+      "fr": "futa-tsu",
+      "es": "futa-tsu",
+      "de": "futa-tsu",
+      "ru": "фута-цу",
+      "ja": "ふたつ",
+      "it": "futa-tsu"
+    },
+    "translations": {
+      "en": "2",
+      "ko": "2",
+      "ja": "2",
+      "zh": "2",
+      "fr": "2",
+      "es": "2",
+      "de": "2",
+      "ru": "2",
+      "it": "2"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_3",
     "question_word": "三つ",
-    "pronunciations": { "en": "mit-tsu", "ko": "밋츠", "zh": "mit-tsu", "fr": "mit-tsu", "es": "mit-tsu", "de": "mit-tsu", "ru": "мит-цу", "ja": "みっつ" },
-    "translations": { "en": "3", "ko": "3", "ja": "3", "zh": "3", "fr": "3", "es": "3", "de": "3", "ru": "3" }
+    "pronunciations": {
+      "en": "mit-tsu",
+      "ko": "밋츠",
+      "zh": "mit-tsu",
+      "fr": "mit-tsu",
+      "es": "mit-tsu",
+      "de": "mit-tsu",
+      "ru": "мит-цу",
+      "ja": "みっつ",
+      "it": "mit-tsu"
+    },
+    "translations": {
+      "en": "3",
+      "ko": "3",
+      "ja": "3",
+      "zh": "3",
+      "fr": "3",
+      "es": "3",
+      "de": "3",
+      "ru": "3",
+      "it": "3"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_4",
     "question_word": "四つ",
-    "pronunciations": { "en": "yot-tsu", "ko": "욧츠", "zh": "yot-tsu", "fr": "yot-tsu", "es": "yot-tsu", "de": "yot-tsu", "ru": "ёт-цу", "ja": "よっつ" },
-    "translations": { "en": "4", "ko": "4", "ja": "4", "zh": "4", "fr": "4", "es": "4", "de": "4", "ru": "4" }
+    "pronunciations": {
+      "en": "yot-tsu",
+      "ko": "욧츠",
+      "zh": "yot-tsu",
+      "fr": "yot-tsu",
+      "es": "yot-tsu",
+      "de": "yot-tsu",
+      "ru": "ёт-цу",
+      "ja": "よっつ",
+      "it": "yot-tsu"
+    },
+    "translations": {
+      "en": "4",
+      "ko": "4",
+      "ja": "4",
+      "zh": "4",
+      "fr": "4",
+      "es": "4",
+      "de": "4",
+      "ru": "4",
+      "it": "4"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_5",
     "question_word": "五つ",
-    "pronunciations": { "en": "itsu-tsu", "ko": "이츠츠", "zh": "itsu-tsu", "fr": "itsu-tsu", "es": "itsu-tsu", "de": "itsu-tsu", "ru": "ицу-цу", "ja": "いつつ" },
-    "translations": { "en": "5", "ko": "5", "ja": "5", "zh": "5", "fr": "5", "es": "5", "de": "5", "ru": "5" }
+    "pronunciations": {
+      "en": "itsu-tsu",
+      "ko": "이츠츠",
+      "zh": "itsu-tsu",
+      "fr": "itsu-tsu",
+      "es": "itsu-tsu",
+      "de": "itsu-tsu",
+      "ru": "ицу-цу",
+      "ja": "いつつ",
+      "it": "itsu-tsu"
+    },
+    "translations": {
+      "en": "5",
+      "ko": "5",
+      "ja": "5",
+      "zh": "5",
+      "fr": "5",
+      "es": "5",
+      "de": "5",
+      "ru": "5",
+      "it": "5"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_6",
     "question_word": "六つ",
-    "pronunciations": { "en": "mut-tsu", "ko": "뭇츠", "zh": "mut-tsu", "fr": "mut-tsu", "es": "mut-tsu", "de": "mut-tsu", "ru": "мут-цу", "ja": "むっつ" },
-    "translations": { "en": "6", "ko": "6", "ja": "6", "zh": "6", "fr": "6", "es": "6", "de": "6", "ru": "6" }
+    "pronunciations": {
+      "en": "mut-tsu",
+      "ko": "뭇츠",
+      "zh": "mut-tsu",
+      "fr": "mut-tsu",
+      "es": "mut-tsu",
+      "de": "mut-tsu",
+      "ru": "мут-цу",
+      "ja": "むっつ",
+      "it": "mut-tsu"
+    },
+    "translations": {
+      "en": "6",
+      "ko": "6",
+      "ja": "6",
+      "zh": "6",
+      "fr": "6",
+      "es": "6",
+      "de": "6",
+      "ru": "6",
+      "it": "6"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_7",
     "question_word": "七つ",
-    "pronunciations": { "en": "nana-tsu", "ko": "나나츠", "zh": "nana-tsu", "fr": "nana-tsu", "es": "nana-tsu", "de": "nana-tsu", "ru": "нана-цу", "ja": "ななつ" },
-    "translations": { "en": "7", "ko": "7", "ja": "7", "zh": "7", "fr": "7", "es": "7", "de": "7", "ru": "7" }
+    "pronunciations": {
+      "en": "nana-tsu",
+      "ko": "나나츠",
+      "zh": "nana-tsu",
+      "fr": "nana-tsu",
+      "es": "nana-tsu",
+      "de": "nana-tsu",
+      "ru": "нана-цу",
+      "ja": "ななつ",
+      "it": "nana-tsu"
+    },
+    "translations": {
+      "en": "7",
+      "ko": "7",
+      "ja": "7",
+      "zh": "7",
+      "fr": "7",
+      "es": "7",
+      "de": "7",
+      "ru": "7",
+      "it": "7"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_8",
     "question_word": "八つ",
-    "pronunciations": { "en": "yat-tsu", "ko": "얏츠", "zh": "yat-tsu", "fr": "yat-tsu", "es": "yat-tsu", "de": "yat-tsu", "ru": "ят-цу", "ja": "やっつ" },
-    "translations": { "en": "8", "ko": "8", "ja": "8", "zh": "8", "fr": "8", "es": "8", "de": "8", "ru": "8" }
+    "pronunciations": {
+      "en": "yat-tsu",
+      "ko": "얏츠",
+      "zh": "yat-tsu",
+      "fr": "yat-tsu",
+      "es": "yat-tsu",
+      "de": "yat-tsu",
+      "ru": "ят-цу",
+      "ja": "やっつ",
+      "it": "yat-tsu"
+    },
+    "translations": {
+      "en": "8",
+      "ko": "8",
+      "ja": "8",
+      "zh": "8",
+      "fr": "8",
+      "es": "8",
+      "de": "8",
+      "ru": "8",
+      "it": "8"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_9",
     "question_word": "九つ",
-    "pronunciations": { "en": "kokono-tsu", "ko": "코코노츠", "zh": "kokono-tsu", "fr": "kokono-tsu", "es": "kokono-tsu", "de": "kokono-tsu", "ru": "коконо-цу", "ja": "ここのつ" },
-    "translations": { "en": "9", "ko": "9", "ja": "9", "zh": "9", "fr": "9", "es": "9", "de": "9", "ru": "9" }
+    "pronunciations": {
+      "en": "kokono-tsu",
+      "ko": "코코노츠",
+      "zh": "kokono-tsu",
+      "fr": "kokono-tsu",
+      "es": "kokono-tsu",
+      "de": "kokono-tsu",
+      "ru": "коконо-цу",
+      "ja": "ここのつ",
+      "it": "kokono-tsu"
+    },
+    "translations": {
+      "en": "9",
+      "ko": "9",
+      "ja": "9",
+      "zh": "9",
+      "fr": "9",
+      "es": "9",
+      "de": "9",
+      "ru": "9",
+      "it": "9"
+    }
   },
   {
     "quiz_id": "ja_numbers_native_10",
     "question_word": "とお",
-    "pronunciations": { "en": "too", "ko": "토오", "zh": "too", "fr": "too", "es": "too", "de": "too", "ru": "то:", "ja": "とお" },
-    "translations": { "en": "10", "ko": "10", "ja": "10", "zh": "10", "fr": "10", "es": "10", "de": "10", "ru": "10" }
+    "pronunciations": {
+      "en": "too",
+      "ko": "토오",
+      "zh": "too",
+      "fr": "too",
+      "es": "too",
+      "de": "too",
+      "ru": "то:",
+      "ja": "とお",
+      "it": "too"
+    },
+    "translations": {
+      "en": "10",
+      "ko": "10",
+      "ja": "10",
+      "zh": "10",
+      "fr": "10",
+      "es": "10",
+      "de": "10",
+      "ru": "10",
+      "it": "10"
+    }
   }
 ]

@@ -9,7 +9,8 @@
       "fr": "il-wol",
       "es": "il-wol",
       "de": "il-wol",
-      "ru": "иль-воль"
+      "ru": "иль-воль",
+      "it": "il-wol"
     },
     "translations": {
       "en": "January",
@@ -19,7 +20,8 @@
       "de": "Januar",
       "ru": "январь",
       "ko": "일월",
-      "ja": "一月"
+      "ja": "一月",
+      "it": "January"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "i-wol",
       "es": "i-wol",
       "de": "i-wol",
-      "ru": "и-воль"
+      "ru": "и-воль",
+      "it": "i-wol"
     },
     "translations": {
       "en": "February",
@@ -42,7 +45,8 @@
       "de": "Februar",
       "ru": "февраль",
       "ko": "이월",
-      "ja": "二月"
+      "ja": "二月",
+      "it": "February"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "sam-wol",
       "es": "sam-wol",
       "de": "sam-wol",
-      "ru": "сам-воль"
+      "ru": "сам-воль",
+      "it": "sam-wol"
     },
     "translations": {
       "en": "March",
@@ -65,7 +70,8 @@
       "de": "März",
       "ru": "март",
       "ko": "삼월",
-      "ja": "三月"
+      "ja": "三月",
+      "it": "March"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "sa-wol",
       "es": "sa-wol",
       "de": "sa-wol",
-      "ru": "са-воль"
+      "ru": "са-воль",
+      "it": "sa-wol"
     },
     "translations": {
       "en": "April",
@@ -88,7 +95,8 @@
       "de": "April",
       "ru": "апрель",
       "ko": "사월",
-      "ja": "四月"
+      "ja": "四月",
+      "it": "April"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "o-wol",
       "es": "o-wol",
       "de": "o-wol",
-      "ru": "о-воль"
+      "ru": "о-воль",
+      "it": "o-wol"
     },
     "translations": {
       "en": "May",
@@ -111,7 +120,8 @@
       "de": "Mai",
       "ru": "май",
       "ko": "오월",
-      "ja": "五月"
+      "ja": "五月",
+      "it": "May"
     }
   },
   {
@@ -124,7 +134,8 @@
       "fr": "yu-wol",
       "es": "yu-wol",
       "de": "yu-wol",
-      "ru": "ю-воль"
+      "ru": "ю-воль",
+      "it": "yu-wol"
     },
     "translations": {
       "en": "June",
@@ -134,7 +145,8 @@
       "de": "Juni",
       "ru": "июнь",
       "ko": "유월",
-      "ja": "六月"
+      "ja": "六月",
+      "it": "June"
     }
   },
   {
@@ -147,7 +159,8 @@
       "fr": "chil-wol",
       "es": "chil-wol",
       "de": "chil-wol",
-      "ru": "чиль-воль"
+      "ru": "чиль-воль",
+      "it": "chil-wol"
     },
     "translations": {
       "en": "July",
@@ -157,7 +170,8 @@
       "de": "Juli",
       "ru": "июль",
       "ko": "칠월",
-      "ja": "七月"
+      "ja": "七月",
+      "it": "July"
     }
   },
   {
@@ -170,7 +184,8 @@
       "fr": "pal-wol",
       "es": "pal-wol",
       "de": "pal-wol",
-      "ru": "паль-воль"
+      "ru": "паль-воль",
+      "it": "pal-wol"
     },
     "translations": {
       "en": "August",
@@ -180,7 +195,8 @@
       "de": "August",
       "ru": "август",
       "ko": "팔월",
-      "ja": "八月"
+      "ja": "八月",
+      "it": "August"
     }
   },
   {
@@ -193,7 +209,8 @@
       "fr": "gu-wol",
       "es": "gu-wol",
       "de": "gu-wol",
-      "ru": "ку-воль"
+      "ru": "ку-воль",
+      "it": "gu-wol"
     },
     "translations": {
       "en": "September",
@@ -203,7 +220,8 @@
       "de": "September",
       "ru": "сентябрь",
       "ko": "구월",
-      "ja": "九月"
+      "ja": "九月",
+      "it": "September"
     }
   },
   {
@@ -216,7 +234,8 @@
       "fr": "si-wol",
       "es": "si-wol",
       "de": "si-wol",
-      "ru": "си-воль"
+      "ru": "си-воль",
+      "it": "si-wol"
     },
     "translations": {
       "en": "October",
@@ -226,7 +245,8 @@
       "de": "Oktober",
       "ru": "октябрь",
       "ko": "시월",
-      "ja": "十月"
+      "ja": "十月",
+      "it": "October"
     }
   },
   {
@@ -239,7 +259,8 @@
       "fr": "si-bil-wol",
       "es": "si-bil-wol",
       "de": "si-bil-wol",
-      "ru": "си-биль-воль"
+      "ru": "си-биль-воль",
+      "it": "si-bil-wol"
     },
     "translations": {
       "en": "November",
@@ -249,7 +270,8 @@
       "de": "November",
       "ru": "ноябрь",
       "ko": "십일월",
-      "ja": "十一月"
+      "ja": "十一月",
+      "it": "November"
     }
   },
   {
@@ -262,7 +284,8 @@
       "fr": "si-bi-wol",
       "es": "si-bi-wol",
       "de": "si-bi-wol",
-      "ru": "си-би-воль"
+      "ru": "си-би-воль",
+      "it": "si-bi-wol"
     },
     "translations": {
       "en": "December",
@@ -272,7 +295,8 @@
       "de": "Dezember",
       "ru": "декабрь",
       "ko": "십이월",
-      "ja": "十二月"
+      "ja": "十二月",
+      "it": "December"
     }
   }
 ]

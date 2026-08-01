@@ -11,7 +11,8 @@
       "fr": "ichi-gatsu",
       "es": "ichi-gatsu",
       "de": "ichi-gatsu",
-      "ru": "ити-гацу"
+      "ru": "ити-гацу",
+      "it": "ichi-gatsu"
     }
   },
   {
@@ -26,7 +27,8 @@
       "fr": "ni-gatsu",
       "es": "ni-gatsu",
       "de": "ni-gatsu",
-      "ru": "ни-гацу"
+      "ru": "ни-гацу",
+      "it": "ni-gatsu"
     }
   },
   {
@@ -41,7 +43,8 @@
       "fr": "san-gatsu",
       "es": "san-gatsu",
       "de": "san-gatsu",
-      "ru": "сан-гацу"
+      "ru": "сан-гацу",
+      "it": "san-gatsu"
     }
   },
   {
@@ -56,7 +59,8 @@
       "fr": "shi-gatsu",
       "es": "shi-gatsu",
       "de": "shi-gatsu",
-      "ru": "си-гацу"
+      "ru": "си-гацу",
+      "it": "shi-gatsu"
     }
   },
   {
@@ -71,7 +75,8 @@
       "fr": "go-gatsu",
       "es": "go-gatsu",
       "de": "go-gatsu",
-      "ru": "го-гацу"
+      "ru": "го-гацу",
+      "it": "go-gatsu"
     }
   },
   {
@@ -86,7 +91,8 @@
       "fr": "roku-gatsu",
       "es": "roku-gatsu",
       "de": "roku-gatsu",
-      "ru": "року-гацу"
+      "ru": "року-гацу",
+      "it": "roku-gatsu"
     }
   },
   {
@@ -101,7 +107,8 @@
       "fr": "shichi-gatsu",
       "es": "shichi-gatsu",
       "de": "shichi-gatsu",
-      "ru": "сити-гацу"
+      "ru": "сити-гацу",
+      "it": "shichi-gatsu"
     }
   },
   {
@@ -116,7 +123,8 @@
       "fr": "hachi-gatsu",
       "es": "hachi-gatsu",
       "de": "hachi-gatsu",
-      "ru": "хати-гацу"
+      "ru": "хати-гацу",
+      "it": "hachi-gatsu"
     }
   },
   {
@@ -131,7 +139,8 @@
       "fr": "ku-gatsu",
       "es": "ku-gatsu",
       "de": "ku-gatsu",
-      "ru": "ку-гацу"
+      "ru": "ку-гацу",
+      "it": "ku-gatsu"
     }
   },
   {
@@ -146,7 +155,8 @@
       "fr": "juu-gatsu",
       "es": "juu-gatsu",
       "de": "juu-gatsu",
-      "ru": "дзю:-гацу"
+      "ru": "дзю:-гацу",
+      "it": "juu-gatsu"
     }
   },
   {
@@ -161,7 +171,8 @@
       "fr": "juuichi-gatsu",
       "es": "juuichi-gatsu",
       "de": "juuichi-gatsu",
-      "ru": "дзю:ити-гацу"
+      "ru": "дзю:ити-гацу",
+      "it": "juuichi-gatsu"
     }
   },
   {
@@ -176,7 +187,8 @@
       "fr": "juuni-gatsu",
       "es": "juuni-gatsu",
       "de": "juuni-gatsu",
-      "ru": "дзю:ни-гацу"
+      "ru": "дзю:ни-гацу",
+      "it": "juuni-gatsu"
     }
   },
   {
@@ -191,7 +203,8 @@
       "fr": "tsuitachi",
       "es": "tsuitachi",
       "de": "tsuitachi",
-      "ru": "цуитати"
+      "ru": "цуитати",
+      "it": "tsuitachi"
     }
   },
   {
@@ -206,7 +219,8 @@
       "fr": "futsuka",
       "es": "futsuka",
       "de": "futsuka",
-      "ru": "фуцука"
+      "ru": "фуцука",
+      "it": "futsuka"
     }
   },
   {
@@ -221,7 +235,8 @@
       "fr": "mikka",
       "es": "mikka",
       "de": "mikka",
-      "ru": "микка"
+      "ru": "микка",
+      "it": "mikka"
     }
   },
   {
@@ -236,7 +251,8 @@
       "fr": "yokka",
       "es": "yokka",
       "de": "yokka",
-      "ru": "ёкка"
+      "ru": "ёкка",
+      "it": "yokka"
     }
   },
   {
@@ -251,7 +267,8 @@
       "fr": "itsuka",
       "es": "itsuka",
       "de": "itsuka",
-      "ru": "ицука"
+      "ru": "ицука",
+      "it": "itsuka"
     }
   },
   {
@@ -266,7 +283,8 @@
       "fr": "muika",
       "es": "muika",
       "de": "muika",
-      "ru": "муика"
+      "ru": "муика",
+      "it": "muika"
     }
   },
   {
@@ -281,7 +299,8 @@
       "fr": "nanoka",
       "es": "nanoka",
       "de": "nanoka",
-      "ru": "нанока"
+      "ru": "нанока",
+      "it": "nanoka"
     }
   },
   {
@@ -296,7 +315,8 @@
       "fr": "youka",
       "es": "youka",
       "de": "youka",
-      "ru": "ё:ка"
+      "ru": "ё:ка",
+      "it": "youka"
     }
   },
   {
@@ -311,7 +331,8 @@
       "fr": "kokonoka",
       "es": "kokonoka",
       "de": "kokonoka",
-      "ru": "коконока"
+      "ru": "коконока",
+      "it": "kokonoka"
     }
   },
   {
@@ -326,7 +347,8 @@
       "fr": "tooka",
       "es": "tooka",
       "de": "tooka",
-      "ru": "то:ка"
+      "ru": "то:ка",
+      "it": "tooka"
     }
   },
   {
@@ -341,7 +363,8 @@
       "fr": "juu-yokka",
       "es": "juu-yokka",
       "de": "juu-yokka",
-      "ru": "дзю:-ёкка"
+      "ru": "дзю:-ёкка",
+      "it": "juu-yokka"
     }
   },
   {
@@ -356,7 +379,8 @@
       "fr": "hatsuka",
       "es": "hatsuka",
       "de": "hatsuka",
-      "ru": "хацука"
+      "ru": "хацука",
+      "it": "hatsuka"
     }
   },
   {
@@ -371,7 +395,8 @@
       "fr": "nijuuyokka",
       "es": "nijuuyokka",
       "de": "nijuuyokka",
-      "ru": "нидзю:-ёкка"
+      "ru": "нидзю:-ёкка",
+      "it": "nijuuyokka"
     }
   },
   {
@@ -386,7 +411,8 @@
       "fr": "juugo-nichi",
       "es": "juugo-nichi",
       "de": "juugo-nichi",
-      "ru": "дзю:го-нити"
+      "ru": "дзю:го-нити",
+      "it": "juugo-nichi"
     }
   },
   {
@@ -400,7 +426,8 @@
       "fr": "nannichi",
       "es": "nannichi",
       "de": "nannichi",
-      "ru": "наннити"
+      "ru": "наннити",
+      "it": "nannichi"
     },
     "translations": {
       "en": "what day (of the month) / how many days",
@@ -410,7 +437,8 @@
       "de": "welcher Tag / wie viele Tage",
       "ru": "какое число / сколько дней",
       "ko": "며칠 / 며칠(기간)",
-      "ja": "何日"
+      "ja": "何日",
+      "it": "what day (of the month) / how many days"
     }
   }
 ]

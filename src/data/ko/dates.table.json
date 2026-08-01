@@ -2,11 +2,13 @@
   "table_id": "ko_dates_ref",
   "title": {
     "en": "Dates",
-    "ko": "날짜 표현"
+    "ko": "날짜 표현",
+    "it": "Dates"
   },
   "note": {
     "en": "Moved into Time & calendar basics.",
-    "ko": "「시간과 달력 기초」로 옮겼습니다."
+    "ko": "「시간과 달력 기초」로 옮겼습니다.",
+    "it": "Moved into Time & calendar basics."
   },
   "columns": [
     {
@@ -19,7 +21,8 @@
         "fr": "Coréen",
         "es": "Coreano",
         "de": "Koreanisch",
-        "ru": "Корейский"
+        "ru": "Корейский",
+        "it": "Korean"
       }
     },
     {
@@ -32,7 +35,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     }
   ],

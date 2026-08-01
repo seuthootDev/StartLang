@@ -8,6 +8,7 @@ export const TARGET_PROMPT_FONTS: Record<TargetLangCode, string> = {
   fr: "'Cormorant Garamond', Georgia, serif",
   es: "'Nunito', 'Segoe UI', sans-serif",
   de: "'Space Grotesk', 'Helvetica Neue', sans-serif",
+  it: "'Libre Baskerville', Georgia, serif",
   ru: "'PT Serif', Georgia, serif",
 }
 

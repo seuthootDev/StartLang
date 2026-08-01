@@ -10,7 +10,8 @@
       "es": "nu-gu",
       "de": "nu-gu",
       "ru": "ну-гу",
-      "ko": "누구"
+      "ko": "누구",
+      "it": "nu-gu"
     },
     "translations": {
       "en": "who",
@@ -20,7 +21,8 @@
       "de": "wer",
       "ru": "кто",
       "ko": "누구",
-      "ja": "誰"
+      "ja": "誰",
+      "it": "who"
     }
   },
   {
@@ -34,7 +36,8 @@
       "es": "mu-eot",
       "de": "mu-eot",
       "ru": "му-от",
-      "ko": "무엇"
+      "ko": "무엇",
+      "it": "mu-eot"
     },
     "translations": {
       "en": "what (full form)",
@@ -44,7 +47,8 @@
       "de": "was (Vollform)",
       "ru": "что (полная форма)",
       "ko": "무엇",
-      "ja": "何（丁寧・書き言葉寄り）"
+      "ja": "何（丁寧・書き言葉寄り）",
+      "it": "what (full form)"
     }
   },
   {
@@ -58,7 +62,8 @@
       "es": "mwo",
       "de": "mwo",
       "ru": "мво",
-      "ko": "뭐"
+      "ko": "뭐",
+      "it": "mwo"
     },
     "translations": {
       "en": "what (casual)",
@@ -68,7 +73,8 @@
       "de": "was (umgangssprachlich)",
       "ru": "что (разг.)",
       "ko": "뭐",
-      "ja": "何（話し言葉）"
+      "ja": "何（話し言葉）",
+      "it": "what (casual)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "es": "eo-di",
       "de": "eo-di",
       "ru": "о-ди",
-      "ko": "어디"
+      "ko": "어디",
+      "it": "eo-di"
     },
     "translations": {
       "en": "where",
@@ -92,7 +99,8 @@
       "de": "wo",
       "ru": "где",
       "ko": "어디",
-      "ja": "どこ"
+      "ja": "どこ",
+      "it": "where"
     }
   },
   {
@@ -106,7 +114,8 @@
       "es": "eon-je",
       "de": "eon-je",
       "ru": "он-дже",
-      "ko": "언제"
+      "ko": "언제",
+      "it": "eon-je"
     },
     "translations": {
       "en": "when",
@@ -116,7 +125,8 @@
       "de": "wann",
       "ru": "когда",
       "ko": "언제",
-      "ja": "いつ"
+      "ja": "いつ",
+      "it": "when"
     }
   },
   {
@@ -130,7 +140,8 @@
       "es": "wae",
       "de": "wae",
       "ru": "вэ",
-      "ko": "왜"
+      "ko": "왜",
+      "it": "wae"
     },
     "translations": {
       "en": "why",
@@ -140,7 +151,8 @@
       "de": "warum",
       "ru": "почему",
       "ko": "왜",
-      "ja": "なぜ / どうして"
+      "ja": "なぜ / どうして",
+      "it": "why"
     }
   },
   {
@@ -154,7 +166,8 @@
       "es": "eo-tteo-ke",
       "de": "eo-tteo-ke",
       "ru": "о-тто-ке",
-      "ko": "어떻게"
+      "ko": "어떻게",
+      "it": "eo-tteo-ke"
     },
     "translations": {
       "en": "how",
@@ -164,7 +177,8 @@
       "de": "wie",
       "ru": "как",
       "ko": "어떻게",
-      "ja": "どう / どのように"
+      "ja": "どう / どのように",
+      "it": "how"
     }
   },
   {
@@ -178,7 +192,8 @@
       "es": "eol-ma",
       "de": "eol-ma",
       "ru": "оль-ма",
-      "ko": "얼마"
+      "ko": "얼마",
+      "it": "eol-ma"
     },
     "translations": {
       "en": "how much (price)",
@@ -188,7 +203,8 @@
       "de": "wie viel (Preis)",
       "ru": "сколько (цена)",
       "ko": "얼마",
-      "ja": "いくら（値段）"
+      "ja": "いくら（値段）",
+      "it": "how much (price)"
     }
   },
   {
@@ -202,7 +218,8 @@
       "es": "myeot",
       "de": "myeot",
       "ru": "мёт",
-      "ko": "몇"
+      "ko": "몇",
+      "it": "myeot"
     },
     "translations": {
       "en": "how many / what (number)",
@@ -212,7 +229,8 @@
       "de": "wie viele / welche (Zahl)",
       "ru": "сколько (число)",
       "ko": "몇",
-      "ja": "何〜 / いくつ（数）"
+      "ja": "何〜 / いくつ（数）",
+      "it": "how many / what (number)"
     }
   },
   {
@@ -226,7 +244,8 @@
       "es": "eo-neu",
       "de": "eo-neu",
       "ru": "о-ны",
-      "ko": "어느"
+      "ko": "어느",
+      "it": "eo-neu"
     },
     "translations": {
       "en": "which",
@@ -236,7 +255,8 @@
       "de": "welch-",
       "ru": "какой / который",
       "ko": "어느",
-      "ja": "どの / どちら"
+      "ja": "どの / どちら",
+      "it": "which"
     }
   },
   {
@@ -250,7 +270,8 @@
       "es": "mu-seun",
       "de": "mu-seun",
       "ru": "му-сын",
-      "ko": "무슨"
+      "ko": "무슨",
+      "it": "mu-seun"
     },
     "translations": {
       "en": "what (kind of) + noun",
@@ -260,7 +281,8 @@
       "de": "was für ein (+ Nomen)",
       "ru": "какой (+ сущ.)",
       "ko": "무슨",
-      "ja": "どんな / 何の（＋名詞）"
+      "ja": "どんな / 何の（＋名詞）",
+      "it": "what (kind of) + noun"
     }
   },
   {
@@ -274,7 +296,8 @@
       "es": "eo-tteon",
       "de": "eo-tteon",
       "ru": "о-ттон",
-      "ko": "어떤"
+      "ko": "어떤",
+      "it": "eo-tteon"
     },
     "translations": {
       "en": "what kind of / which (type)",
@@ -284,7 +307,8 @@
       "de": "was für / welch- (Art)",
       "ru": "какой / какого рода",
       "ko": "어떤",
-      "ja": "どんな / どのような"
+      "ja": "どんな / どのような",
+      "it": "what kind of / which (type)"
     }
   }
 ]

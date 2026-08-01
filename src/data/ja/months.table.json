@@ -8,7 +8,8 @@
     "fr": "Mois",
     "es": "Meses",
     "de": "Monate",
-    "ru": "Месяцы"
+    "ru": "Месяцы",
+    "it": "Months"
   },
   "note": {
     "en": "Shown with kanji numerals: ichigatsu, nigatsu...",
@@ -18,7 +19,8 @@
     "fr": "Affiché en kanji: 一月, 二月...",
     "es": "Se muestra en kanji: 一月, 二月...",
     "de": "Mit Kanji-Zahlen angezeigt: 一月, 二月 ...",
-    "ru": "Показано с иероглифическими числами: 一月, 二月 ..."
+    "ru": "Показано с иероглифическими числами: 一月, 二月 ...",
+    "it": "Shown with kanji numerals: ichigatsu, nigatsu..."
   },
   "columns": [
     {
@@ -31,7 +33,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -44,7 +47,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -57,7 +61,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -72,7 +77,8 @@
         "de": "Januar",
         "ru": "январь",
         "ko": "일월",
-        "ja": "一月"
+        "ja": "一月",
+        "it": "January"
       },
       "sound": {
         "en": "ichi-gatsu",
@@ -82,7 +88,8 @@
         "fr": "ichi-gatsu",
         "es": "ichi-gatsu",
         "de": "ichi-gatsu",
-        "ru": "ити-гацу"
+        "ru": "ити-гацу",
+        "it": "ichi-gatsu"
       }
     },
     {
@@ -95,7 +102,8 @@
         "de": "Februar",
         "ru": "февраль",
         "ko": "이월",
-        "ja": "二月"
+        "ja": "二月",
+        "it": "February"
       },
       "sound": {
         "en": "ni-gatsu",
@@ -105,7 +113,8 @@
         "fr": "ni-gatsu",
         "es": "ni-gatsu",
         "de": "ni-gatsu",
-        "ru": "ни-гацу"
+        "ru": "ни-гацу",
+        "it": "ni-gatsu"
       }
     },
     {
@@ -118,7 +127,8 @@
         "de": "März",
         "ru": "март",
         "ko": "삼월",
-        "ja": "三月"
+        "ja": "三月",
+        "it": "March"
       },
       "sound": {
         "en": "san-gatsu",
@@ -128,7 +138,8 @@
         "fr": "san-gatsu",
         "es": "san-gatsu",
         "de": "san-gatsu",
-        "ru": "сан-гацу"
+        "ru": "сан-гацу",
+        "it": "san-gatsu"
       }
     },
     {
@@ -141,7 +152,8 @@
         "de": "April",
         "ru": "апрель",
         "ko": "사월",
-        "ja": "四月"
+        "ja": "四月",
+        "it": "April"
       },
       "sound": {
         "en": "shi-gatsu",
@@ -151,7 +163,8 @@
         "fr": "shi-gatsu",
         "es": "shi-gatsu",
         "de": "shi-gatsu",
-        "ru": "си-гацу"
+        "ru": "си-гацу",
+        "it": "shi-gatsu"
       }
     },
     {
@@ -164,7 +177,8 @@
         "de": "Mai",
         "ru": "май",
         "ko": "오월",
-        "ja": "五月"
+        "ja": "五月",
+        "it": "May"
       },
       "sound": {
         "en": "go-gatsu",
@@ -174,7 +188,8 @@
         "fr": "go-gatsu",
         "es": "go-gatsu",
         "de": "go-gatsu",
-        "ru": "го-гацу"
+        "ru": "го-гацу",
+        "it": "go-gatsu"
       }
     },
     {
@@ -187,7 +202,8 @@
         "de": "Juni",
         "ru": "июнь",
         "ko": "유월",
-        "ja": "六月"
+        "ja": "六月",
+        "it": "June"
       },
       "sound": {
         "en": "roku-gatsu",
@@ -197,7 +213,8 @@
         "fr": "roku-gatsu",
         "es": "roku-gatsu",
         "de": "roku-gatsu",
-        "ru": "року-гацу"
+        "ru": "року-гацу",
+        "it": "roku-gatsu"
       }
     },
     {
@@ -210,7 +227,8 @@
         "de": "Juli",
         "ru": "июль",
         "ko": "칠월",
-        "ja": "七月"
+        "ja": "七月",
+        "it": "July"
       },
       "sound": {
         "en": "shichi-gatsu",
@@ -220,7 +238,8 @@
         "fr": "shichi-gatsu",
         "es": "shichi-gatsu",
         "de": "shichi-gatsu",
-        "ru": "сити-гацу"
+        "ru": "сити-гацу",
+        "it": "shichi-gatsu"
       }
     },
     {
@@ -233,7 +252,8 @@
         "de": "August",
         "ru": "август",
         "ko": "팔월",
-        "ja": "八月"
+        "ja": "八月",
+        "it": "August"
       },
       "sound": {
         "en": "hachi-gatsu",
@@ -243,7 +263,8 @@
         "fr": "hachi-gatsu",
         "es": "hachi-gatsu",
         "de": "hachi-gatsu",
-        "ru": "хати-гацу"
+        "ru": "хати-гацу",
+        "it": "hachi-gatsu"
       }
     },
     {
@@ -256,7 +277,8 @@
         "de": "September",
         "ru": "сентябрь",
         "ko": "구월",
-        "ja": "九月"
+        "ja": "九月",
+        "it": "September"
       },
       "sound": {
         "en": "ku-gatsu",
@@ -266,7 +288,8 @@
         "fr": "ku-gatsu",
         "es": "ku-gatsu",
         "de": "ku-gatsu",
-        "ru": "ку-гацу"
+        "ru": "ку-гацу",
+        "it": "ku-gatsu"
       }
     },
     {
@@ -279,7 +302,8 @@
         "de": "Oktober",
         "ru": "октябрь",
         "ko": "시월",
-        "ja": "十月"
+        "ja": "十月",
+        "it": "October"
       },
       "sound": {
         "en": "juu-gatsu",
@@ -289,7 +313,8 @@
         "fr": "juu-gatsu",
         "es": "juu-gatsu",
         "de": "juu-gatsu",
-        "ru": "дзю:-гацу"
+        "ru": "дзю:-гацу",
+        "it": "juu-gatsu"
       }
     },
     {
@@ -302,7 +327,8 @@
         "de": "November",
         "ru": "ноябрь",
         "ko": "십일월",
-        "ja": "十一月"
+        "ja": "十一月",
+        "it": "November"
       },
       "sound": {
         "en": "juu-ichi-gatsu",
@@ -312,7 +338,8 @@
         "fr": "juu-ichi-gatsu",
         "es": "juu-ichi-gatsu",
         "de": "juu-ichi-gatsu",
-        "ru": "дзю:-ити-гацу"
+        "ru": "дзю:-ити-гацу",
+        "it": "juu-ichi-gatsu"
       }
     },
     {
@@ -325,7 +352,8 @@
         "de": "Dezember",
         "ru": "декабрь",
         "ko": "십이월",
-        "ja": "十二月"
+        "ja": "十二月",
+        "it": "December"
       },
       "sound": {
         "en": "juu-ni-gatsu",
@@ -335,7 +363,8 @@
         "fr": "juu-ni-gatsu",
         "es": "juu-ni-gatsu",
         "de": "juu-ni-gatsu",
-        "ru": "дзю:-ни-гацу"
+        "ru": "дзю:-ни-гацу",
+        "it": "juu-ni-gatsu"
       }
     }
   ]

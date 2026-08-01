@@ -8,7 +8,8 @@
     "fr": "Démonstratifs & directions",
     "es": "Demostrativos y direcciones",
     "de": "Demonstrativa & Richtungen",
-    "ru": "Указательные и направления"
+    "ru": "Указательные и направления",
+    "it": "Demonstratives & directions"
   },
   "note": {
     "en": "이/그/저 distance system plus basic place words. Chart first, then forms.",
@@ -18,7 +19,8 @@
     "fr": "Système i/geu/jeo et directions. Tableau puis formes.",
     "es": "Sistema i/geu/jeo y direcciones. Cuadro y luego formas.",
     "de": "i/geu/jeo-System und Richtungen. Tabelle, dann Formen.",
-    "ru": "Система и/гы/чо и направления. Сначала таблица, затем формы."
+    "ru": "Система и/гы/чо и направления. Сначала таблица, затем формы.",
+    "it": "이/그/저 distance system plus basic place words. Chart first, then forms."
   },
   "rules": {
     "en": [
@@ -60,6 +62,11 @@
       "이 = рядом со мной, 그 = у тебя / известное, 저 = далеко.",
       "이것/그것/저것 — предметы; в речи часто 이거/그거/저거.",
       "여기/거기/저기 и 이쪽/그쪽/저쪽 — та же схема расстояния."
+    ],
+    "it": [
+      "이 = near me, 그 = near you / already known, 저 = far from both.",
+      "이것/그것/저것 are the thing forms; spoken often shorten to 이거/그거/저거.",
+      "여기/거기/저기 and 이쪽/그쪽/저쪽 follow the same distance pattern."
     ]
   },
   "sections": [
@@ -72,7 +79,8 @@
         "fr": "Tableau de distance",
         "es": "Cuadro de distancia",
         "de": "Abstandstabelle",
-        "ru": "Таблица расстояния"
+        "ru": "Таблица расстояния",
+        "it": "Distance chart"
       },
       "note": {
         "en": "· separates variants in the form list below.",
@@ -82,7 +90,8 @@
         "fr": "Les variantes sont séparées par · ci-dessous.",
         "es": "Las variantes se separan con · abajo.",
         "de": "Varianten unten mit · getrennt.",
-        "ru": "Варианты ниже через ·."
+        "ru": "Варианты ниже через ·.",
+        "it": "· separates variants in the form list below."
       },
       "columns": [
         {
@@ -95,7 +104,8 @@
             "fr": "Rôle",
             "es": "Rol",
             "de": "Rolle",
-            "ru": "Роль"
+            "ru": "Роль",
+            "it": "Role"
           }
         },
         {
@@ -108,7 +118,8 @@
             "fr": "Près / ceci",
             "es": "Cerca / esto",
             "de": "Nah / dies",
-            "ru": "Близко / это"
+            "ru": "Близко / это",
+            "it": "Near me / this"
           }
         },
         {
@@ -121,7 +132,8 @@
             "fr": "Chez toi / connu",
             "es": "Cerca de ti / conocido",
             "de": "Bei dir / bekannt",
-            "ru": "У тебя / известное"
+            "ru": "У тебя / известное",
+            "it": "Near you / known"
           }
         },
         {
@@ -134,7 +146,8 @@
             "fr": "Loin",
             "es": "Lejos",
             "de": "Fern",
-            "ru": "Далеко"
+            "ru": "Далеко",
+            "it": "Far / over there"
           }
         }
       ],
@@ -148,7 +161,8 @@
             "fr": "Devant nom",
             "es": "Ante sustantivo",
             "de": "Vor Nomen",
-            "ru": "Перед сущ."
+            "ru": "Перед сущ.",
+            "it": "Before noun"
           },
           "near": "이",
           "mid": "그",
@@ -163,7 +177,8 @@
             "fr": "Chose",
             "es": "Cosa",
             "de": "Ding",
-            "ru": "Предмет"
+            "ru": "Предмет",
+            "it": "Thing"
           },
           "near": "이것",
           "mid": "그것",
@@ -180,7 +195,8 @@
         "fr": "Lieu & direction",
         "es": "Lugar y dirección",
         "de": "Ort & Richtung",
-        "ru": "Место и направление"
+        "ru": "Место и направление",
+        "it": "Place & way"
       },
       "columns": [
         {
@@ -193,7 +209,8 @@
             "fr": "Rôle",
             "es": "Rol",
             "de": "Rolle",
-            "ru": "Роль"
+            "ru": "Роль",
+            "it": "Role"
           }
         },
         {
@@ -206,7 +223,8 @@
             "fr": "Près / ceci",
             "es": "Cerca / esto",
             "de": "Nah / dies",
-            "ru": "Близко / это"
+            "ru": "Близко / это",
+            "it": "Near me / this"
           }
         },
         {
@@ -219,7 +237,8 @@
             "fr": "Chez toi / connu",
             "es": "Cerca de ti / conocido",
             "de": "Bei dir / bekannt",
-            "ru": "У тебя / известное"
+            "ru": "У тебя / известное",
+            "it": "Near you / known"
           }
         },
         {
@@ -232,7 +251,8 @@
             "fr": "Loin",
             "es": "Lejos",
             "de": "Fern",
-            "ru": "Далеко"
+            "ru": "Далеко",
+            "it": "Far / over there"
           }
         }
       ],
@@ -246,7 +266,8 @@
             "fr": "Lieu",
             "es": "Lugar",
             "de": "Ort",
-            "ru": "Место"
+            "ru": "Место",
+            "it": "Place"
           },
           "near": "여기",
           "mid": "거기",
@@ -261,7 +282,8 @@
             "fr": "Côté",
             "es": "Lado",
             "de": "Seite",
-            "ru": "Сторона"
+            "ru": "Сторона",
+            "it": "Side / way"
           },
           "near": "이쪽",
           "mid": "그쪽",
@@ -278,7 +300,8 @@
         "fr": "Mots spatiaux",
         "es": "Palabras espaciales",
         "de": "Raumwörter",
-        "ru": "Пространственные слова"
+        "ru": "Пространственные слова",
+        "it": "Spatial words"
       },
       "columns": [
         {
@@ -291,7 +314,8 @@
             "fr": "Paire",
             "es": "Par",
             "de": "Paar",
-            "ru": "Пара"
+            "ru": "Пара",
+            "it": "Pair"
           }
         },
         {
@@ -304,7 +328,8 @@
             "fr": "Formes",
             "es": "Formas",
             "de": "Formen",
-            "ru": "Формы"
+            "ru": "Формы",
+            "it": "Forms"
           }
         }
       ],
@@ -318,7 +343,8 @@
             "fr": "Devant / derrière",
             "es": "Delante / detrás",
             "de": "Vorne / hinten",
-            "ru": "Перед / сзади"
+            "ru": "Перед / сзади",
+            "it": "Front / back"
           },
           "forms": "앞 · 뒤"
         },
@@ -331,7 +357,8 @@
             "fr": "Haut / bas",
             "es": "Arriba / abajo",
             "de": "Oben / unten",
-            "ru": "Верх / низ"
+            "ru": "Верх / низ",
+            "it": "Above / below"
           },
           "forms": "위 · 아래"
         },
@@ -344,7 +371,8 @@
             "fr": "Gauche / droite",
             "es": "Izquierda / derecha",
             "de": "Links / rechts",
-            "ru": "Лево / право"
+            "ru": "Лево / право",
+            "it": "Left / right"
           },
           "forms": "왼쪽 · 오른쪽"
         },
@@ -357,7 +385,8 @@
             "fr": "Dedans / dehors",
             "es": "Dentro / fuera",
             "de": "Innen / außen",
-            "ru": "Внутри / снаружи"
+            "ru": "Внутри / снаружи",
+            "it": "Inside / outside"
           },
           "forms": "안 · 밖"
         }
@@ -372,7 +401,8 @@
         "fr": "Formes et sons",
         "es": "Formas y sonidos",
         "de": "Formen & Laute",
-        "ru": "Формы и звучание"
+        "ru": "Формы и звучание",
+        "it": "Forms & sounds"
       },
       "columns": [
         {
@@ -385,7 +415,8 @@
             "fr": "Coréen",
             "es": "Coreano",
             "de": "Koreanisch",
-            "ru": "Корейский"
+            "ru": "Корейский",
+            "it": "Korean"
           }
         },
         {
@@ -398,7 +429,8 @@
             "fr": "Sens",
             "es": "Significado",
             "de": "Bedeutung",
-            "ru": "Значение"
+            "ru": "Значение",
+            "it": "Meaning"
           }
         },
         {
@@ -411,7 +443,8 @@
             "fr": "Prononciation",
             "es": "Pronunciación",
             "de": "Aussprache",
-            "ru": "Произношение"
+            "ru": "Произношение",
+            "it": "Sound"
           }
         }
       ],
@@ -426,7 +459,8 @@
             "de": "dies- (+ Nomen, bei mir)",
             "ru": "этот (+ сущ., рядом со мной)",
             "ko": "이",
-            "ja": "この（話し手に近い）"
+            "ja": "この（話し手に近い）",
+            "it": "this (+ noun, near me)"
           },
           "sound": {
             "en": "i",
@@ -436,7 +470,8 @@
             "es": "i",
             "de": "i",
             "ru": "и",
-            "ko": "이"
+            "ko": "이",
+            "it": "i"
           }
         },
         {
@@ -449,7 +484,8 @@
             "de": "jen- (+ Nomen, bei dir / bekannt)",
             "ru": "тот (+ сущ., у тебя / известный)",
             "ko": "그",
-            "ja": "その（相手寄り・既出）"
+            "ja": "その（相手寄り・既出）",
+            "it": "that (+ noun, near you / known)"
           },
           "sound": {
             "en": "geu",
@@ -459,7 +495,8 @@
             "es": "geu",
             "de": "geu",
             "ru": "кы",
-            "ko": "그"
+            "ko": "그",
+            "it": "geu"
           }
         },
         {
@@ -472,7 +509,8 @@
             "de": "jen- (+ Nomen, dort drüben)",
             "ru": "тот (+ сущ., вон там)",
             "ko": "저",
-            "ja": "あの（遠く）"
+            "ja": "あの（遠く）",
+            "it": "that (+ noun, over there)"
           },
           "sound": {
             "en": "jeo",
@@ -482,7 +520,8 @@
             "es": "jeo",
             "de": "jeo",
             "ru": "чо",
-            "ko": "저"
+            "ko": "저",
+            "it": "jeo"
           }
         },
         {
@@ -495,7 +534,8 @@
             "de": "dies (Ding)",
             "ru": "это",
             "ko": "이것",
-            "ja": "これ"
+            "ja": "これ",
+            "it": "this (thing)"
           },
           "sound": {
             "en": "i-geot",
@@ -505,7 +545,8 @@
             "es": "i-geot",
             "de": "i-geot",
             "ru": "и-гот",
-            "ko": "이것"
+            "ko": "이것",
+            "it": "i-geot"
           }
         },
         {
@@ -518,7 +559,8 @@
             "de": "das (bei dir / bekannt)",
             "ru": "то (у тебя / известное)",
             "ko": "그것",
-            "ja": "それ"
+            "ja": "それ",
+            "it": "that (thing, near you / known)"
           },
           "sound": {
             "en": "geu-geot",
@@ -528,7 +570,8 @@
             "es": "geu-geot",
             "de": "geu-geot",
             "ru": "кы-гот",
-            "ko": "그것"
+            "ko": "그것",
+            "it": "geu-geot"
           }
         },
         {
@@ -541,7 +584,8 @@
             "de": "jenes (dort drüben)",
             "ru": "то (вон там)",
             "ko": "저것",
-            "ja": "あれ"
+            "ja": "あれ",
+            "it": "that (thing over there)"
           },
           "sound": {
             "en": "jeo-geot",
@@ -551,7 +595,8 @@
             "es": "jeo-geot",
             "de": "jeo-geot",
             "ru": "чо-гот",
-            "ko": "저것"
+            "ko": "저것",
+            "it": "jeo-geot"
           }
         },
         {
@@ -564,7 +609,8 @@
             "de": "hier",
             "ru": "здесь",
             "ko": "여기",
-            "ja": "ここ"
+            "ja": "ここ",
+            "it": "here"
           },
           "sound": {
             "en": "yeo-gi",
@@ -574,7 +620,8 @@
             "es": "yeo-gi",
             "de": "yeo-gi",
             "ru": "йо-ги",
-            "ko": "여기"
+            "ko": "여기",
+            "it": "yeo-gi"
           }
         },
         {
@@ -587,7 +634,8 @@
             "de": "da (bei dir / bekannter Ort)",
             "ru": "там (у тебя / известное место)",
             "ko": "거기",
-            "ja": "そこ"
+            "ja": "そこ",
+            "it": "there (near you / known place)"
           },
           "sound": {
             "en": "geo-gi",
@@ -597,7 +645,8 @@
             "es": "geo-gi",
             "de": "geo-gi",
             "ru": "ко-ги",
-            "ko": "거기"
+            "ko": "거기",
+            "it": "geo-gi"
           }
         },
         {
@@ -610,7 +659,8 @@
             "de": "dort drüben",
             "ru": "вон там",
             "ko": "저기",
-            "ja": "あそこ"
+            "ja": "あそこ",
+            "it": "over there"
           },
           "sound": {
             "en": "jeo-gi",
@@ -620,7 +670,8 @@
             "es": "jeo-gi",
             "de": "jeo-gi",
             "ru": "чо-ги",
-            "ko": "저기"
+            "ko": "저기",
+            "it": "jeo-gi"
           }
         },
         {
@@ -633,7 +684,8 @@
             "de": "hierher / diese Seite",
             "ru": "сюда / эта сторона",
             "ko": "이쪽",
-            "ja": "こちら / こっち"
+            "ja": "こちら / こっち",
+            "it": "this way / this side"
           },
           "sound": {
             "en": "i-jjok",
@@ -643,7 +695,8 @@
             "es": "i-jjok",
             "de": "i-jjok",
             "ru": "и-ччок",
-            "ko": "이쪽"
+            "ko": "이쪽",
+            "it": "i-jjok"
           }
         },
         {
@@ -656,7 +709,8 @@
             "de": "dorthin / deine Seite",
             "ru": "туда / та сторона (у тебя)",
             "ko": "그쪽",
-            "ja": "そちら / そっち"
+            "ja": "そちら / そっち",
+            "it": "that way / that side (near you)"
           },
           "sound": {
             "en": "geu-jjok",
@@ -666,7 +720,8 @@
             "es": "geu-jjok",
             "de": "geu-jjok",
             "ru": "кы-ччок",
-            "ko": "그쪽"
+            "ko": "그쪽",
+            "it": "geu-jjok"
           }
         },
         {
@@ -679,7 +734,8 @@
             "de": "dort hinüber",
             "ru": "в ту сторону (вон там)",
             "ko": "저쪽",
-            "ja": "あちら / あっち"
+            "ja": "あちら / あっち",
+            "it": "that way over there"
           },
           "sound": {
             "en": "jeo-jjok",
@@ -689,7 +745,8 @@
             "es": "jeo-jjok",
             "de": "jeo-jjok",
             "ru": "чо-ччок",
-            "ko": "저쪽"
+            "ko": "저쪽",
+            "it": "jeo-jjok"
           }
         },
         {
@@ -702,7 +759,8 @@
             "de": "vorne / Vorderseite",
             "ru": "перед / впереди",
             "ko": "앞",
-            "ja": "前"
+            "ja": "前",
+            "it": "front / ahead"
           },
           "sound": {
             "en": "ap",
@@ -712,7 +770,8 @@
             "es": "ap",
             "de": "ap",
             "ru": "ап",
-            "ko": "앞"
+            "ko": "앞",
+            "it": "ap"
           }
         },
         {
@@ -725,7 +784,8 @@
             "de": "hinten / Rückseite",
             "ru": "зад / сзади",
             "ko": "뒤",
-            "ja": "後ろ"
+            "ja": "後ろ",
+            "it": "back / behind"
           },
           "sound": {
             "en": "dwi",
@@ -735,7 +795,8 @@
             "es": "dwi",
             "de": "dwi",
             "ru": "тви",
-            "ko": "뒤"
+            "ko": "뒤",
+            "it": "dwi"
           }
         },
         {
@@ -748,7 +809,8 @@
             "de": "oben / auf",
             "ru": "верх / на",
             "ko": "위",
-            "ja": "上"
+            "ja": "上",
+            "it": "above / on top"
           },
           "sound": {
             "en": "wi",
@@ -758,7 +820,8 @@
             "es": "wi",
             "de": "wi",
             "ru": "ви",
-            "ko": "위"
+            "ko": "위",
+            "it": "wi"
           }
         },
         {
@@ -771,7 +834,8 @@
             "de": "unten / unter",
             "ru": "низ / под",
             "ko": "아래",
-            "ja": "下"
+            "ja": "下",
+            "it": "below / under"
           },
           "sound": {
             "en": "a-rae",
@@ -781,7 +845,8 @@
             "es": "a-rae",
             "de": "a-rae",
             "ru": "а-рэ",
-            "ko": "아래"
+            "ko": "아래",
+            "it": "a-rae"
           }
         },
         {
@@ -794,7 +859,8 @@
             "de": "links",
             "ru": "слева / левая сторона",
             "ko": "왼쪽",
-            "ja": "左"
+            "ja": "左",
+            "it": "left (side)"
           },
           "sound": {
             "en": "oen-jjok",
@@ -804,7 +870,8 @@
             "es": "oen-jjok",
             "de": "oen-jjok",
             "ru": "вен-ччок",
-            "ko": "왼쪽"
+            "ko": "왼쪽",
+            "it": "oen-jjok"
           }
         },
         {
@@ -817,7 +884,8 @@
             "de": "rechts",
             "ru": "справа / правая сторона",
             "ko": "오른쪽",
-            "ja": "右"
+            "ja": "右",
+            "it": "right (side)"
           },
           "sound": {
             "en": "o-reun-jjok",
@@ -827,7 +895,8 @@
             "es": "o-reun-jjok",
             "de": "o-reun-jjok",
             "ru": "о-рын-ччок",
-            "ko": "오른쪽"
+            "ko": "오른쪽",
+            "it": "o-reun-jjok"
           }
         },
         {
@@ -840,7 +909,8 @@
             "de": "innen / drinnen",
             "ru": "внутри",
             "ko": "안",
-            "ja": "中 / 内側"
+            "ja": "中 / 内側",
+            "it": "inside"
           },
           "sound": {
             "en": "an",
@@ -850,7 +920,8 @@
             "es": "an",
             "de": "an",
             "ru": "ан",
-            "ko": "안"
+            "ko": "안",
+            "it": "an"
           }
         },
         {
@@ -863,7 +934,8 @@
             "de": "außen / draußen",
             "ru": "снаружи",
             "ko": "밖",
-            "ja": "外"
+            "ja": "外",
+            "it": "outside"
           },
           "sound": {
             "en": "bak",
@@ -873,7 +945,8 @@
             "es": "bak",
             "de": "bak",
             "ru": "пак",
-            "ko": "밖"
+            "ko": "밖",
+            "it": "bak"
           }
         }
       ]

@@ -10,7 +10,8 @@
       "fr": "ya",
       "es": "ya",
       "de": "ja",
-      "ru": "я"
+      "ru": "я",
+      "it": "ya"
     },
     "translations": {
       "en": "I / me",
@@ -20,7 +21,8 @@
       "fr": "je / moi",
       "es": "yo / mí",
       "de": "ich / mich",
-      "ru": "я"
+      "ru": "я",
+      "it": "I / me"
     }
   },
   {
@@ -34,7 +36,8 @@
       "fr": "ty",
       "es": "ty",
       "de": "ty",
-      "ru": "ты"
+      "ru": "ты",
+      "it": "ty"
     },
     "translations": {
       "en": "you (singular, informal)",
@@ -44,7 +47,8 @@
       "fr": "tu (familier)",
       "es": "tú (informal)",
       "de": "du (locker)",
-      "ru": "ты"
+      "ru": "ты",
+      "it": "you (singular, informal)"
     }
   },
   {
@@ -58,7 +62,8 @@
       "fr": "on",
       "es": "on",
       "de": "on",
-      "ru": "он"
+      "ru": "он",
+      "it": "on"
     },
     "translations": {
       "en": "he / it (masculine)",
@@ -68,7 +73,8 @@
       "fr": "il (masculin)",
       "es": "él (masculino)",
       "de": "er (maskulin)",
-      "ru": "он"
+      "ru": "он",
+      "it": "he / it (masculine)"
     }
   },
   {
@@ -82,7 +88,8 @@
       "fr": "ona",
       "es": "ona",
       "de": "ona",
-      "ru": "она"
+      "ru": "она",
+      "it": "o-na"
     },
     "translations": {
       "en": "she / it (feminine)",
@@ -92,7 +99,8 @@
       "fr": "elle (féminin)",
       "es": "ella (femenino)",
       "de": "sie (feminin)",
-      "ru": "она"
+      "ru": "она",
+      "it": "she / it (feminine)"
     }
   },
   {
@@ -106,7 +114,8 @@
       "fr": "ono",
       "es": "ono",
       "de": "ono",
-      "ru": "оно"
+      "ru": "оно",
+      "it": "o-no"
     },
     "translations": {
       "en": "it (neuter)",
@@ -116,7 +125,8 @@
       "fr": "il / ce (neutre)",
       "es": "ello (neutro)",
       "de": "es (neutrum)",
-      "ru": "оно"
+      "ru": "оно",
+      "it": "it (neuter)"
     }
   },
   {
@@ -130,7 +140,8 @@
       "fr": "my",
       "es": "my",
       "de": "my",
-      "ru": "мы"
+      "ru": "мы",
+      "it": "my"
     },
     "translations": {
       "en": "we / us",
@@ -140,7 +151,8 @@
       "fr": "nous",
       "es": "nosotros",
       "de": "wir / uns",
-      "ru": "мы"
+      "ru": "мы",
+      "it": "we / us"
     }
   },
   {
@@ -154,7 +166,8 @@
       "fr": "vy",
       "es": "vy",
       "de": "wy",
-      "ru": "вы"
+      "ru": "вы",
+      "it": "vy"
     },
     "translations": {
       "en": "you (plural / polite singular)",
@@ -164,7 +177,8 @@
       "fr": "vous (pluriel / poli)",
       "es": "ustedes / usted",
       "de": "ihr / Sie",
-      "ru": "вы"
+      "ru": "вы",
+      "it": "you (plural / polite singular)"
     }
   },
   {
@@ -178,7 +192,8 @@
       "fr": "oni",
       "es": "oni",
       "de": "oni",
-      "ru": "они"
+      "ru": "они",
+      "it": "o-ni"
     },
     "translations": {
       "en": "they / them",
@@ -188,7 +203,8 @@
       "fr": "ils / elles",
       "es": "ellos / ellas",
       "de": "sie (Plural)",
-      "ru": "они"
+      "ru": "они",
+      "it": "they / them"
     }
   }
 ]

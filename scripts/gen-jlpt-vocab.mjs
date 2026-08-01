@@ -15,7 +15,7 @@ const OUT_DIR = join(ROOT, 'src/data/ja')
 
 const LEVELS = ['n5', 'n4', 'n3', 'n2', 'n1']
 const WORDS_PER_DAY = 20
-const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'ru']
+const LANGS = ['en', 'ko', 'ja', 'zh', 'fr', 'es', 'de', 'it', 'ru']
 
 function toHiragana(text) {
   return text.replace(/[\u30A1-\u30F6]/g, (ch) =>

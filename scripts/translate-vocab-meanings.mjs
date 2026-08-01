@@ -23,6 +23,7 @@ const TARGETS = [
   { code: 'fr', tl: 'fr' },
   { code: 'es', tl: 'es' },
   { code: 'de', tl: 'de' },
+  { code: 'it', tl: 'it' },
   { code: 'ru', tl: 'ru' },
 ]
 

@@ -8,7 +8,8 @@
     "fr": "Moments de la journée",
     "es": "Momentos del día",
     "de": "Tageszeiten",
-    "ru": "Время суток"
+    "ru": "Время суток",
+    "it": "Time of day"
   },
   "columns": [
     {
@@ -21,7 +22,8 @@
         "fr": "Japonais",
         "es": "Japonés",
         "de": "Japanisch",
-        "ru": "Японский"
+        "ru": "Японский",
+        "it": "Japanese"
       }
     },
     {
@@ -34,7 +36,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -47,7 +50,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -62,7 +66,8 @@
         "de": "Morgendämmerung",
         "ru": "рассвет",
         "ko": "새벽",
-        "ja": "明け方"
+        "ja": "明け方",
+        "it": "dawn / early morning"
       },
       "sound": {
         "en": "ake-gata",
@@ -72,7 +77,8 @@
         "es": "ake-gata",
         "de": "ake-gata",
         "ru": "акэ-гата",
-        "ja": "明け方"
+        "ja": "明け方",
+        "it": "ake-gata"
       }
     },
     {
@@ -85,7 +91,8 @@
         "de": "Morgen",
         "ru": "утро",
         "ko": "아침",
-        "ja": "朝"
+        "ja": "朝",
+        "it": "morning"
       },
       "sound": {
         "en": "asa",
@@ -95,7 +102,8 @@
         "es": "asa",
         "de": "asa",
         "ru": "аса",
-        "ja": "朝"
+        "ja": "朝",
+        "it": "asa"
       }
     },
     {
@@ -108,7 +116,8 @@
         "de": "Vormittag",
         "ru": "до полудня",
         "ko": "오전",
-        "ja": "午前"
+        "ja": "午前",
+        "it": "a.m. / morning (before noon)"
       },
       "sound": {
         "en": "go-zen",
@@ -118,7 +127,8 @@
         "es": "go-zen",
         "de": "go-zen",
         "ru": "го-дзэн",
-        "ja": "午前"
+        "ja": "午前",
+        "it": "go-zen"
       }
     },
     {
@@ -131,7 +141,8 @@
         "de": "Mittag / tagsüber",
         "ru": "день / полдень",
         "ko": "낮",
-        "ja": "昼"
+        "ja": "昼",
+        "it": "daytime / noon"
       },
       "sound": {
         "en": "hiru",
@@ -141,7 +152,8 @@
         "es": "hiru",
         "de": "hiru",
         "ru": "хиру",
-        "ja": "昼"
+        "ja": "昼",
+        "it": "hiru"
       }
     },
     {
@@ -154,7 +166,8 @@
         "de": "Nachmittag",
         "ru": "после полудня",
         "ko": "오후",
-        "ja": "午後"
+        "ja": "午後",
+        "it": "p.m. / afternoon"
       },
       "sound": {
         "en": "go-go",
@@ -164,7 +177,8 @@
         "es": "go-go",
         "de": "go-go",
         "ru": "го-го",
-        "ja": "午後"
+        "ja": "午後",
+        "it": "go-go"
       }
     },
     {
@@ -177,7 +191,8 @@
         "de": "Abend",
         "ru": "вечер",
         "ko": "저녁",
-        "ja": "夕方"
+        "ja": "夕方",
+        "it": "evening"
       },
       "sound": {
         "en": "yuu-gata",
@@ -187,7 +202,8 @@
         "es": "yuu-gata",
         "de": "yuu-gata",
         "ru": "ю:-гата",
-        "ja": "夕方"
+        "ja": "夕方",
+        "it": "yuu-gata"
       }
     },
     {
@@ -200,7 +216,8 @@
         "de": "Nacht",
         "ru": "ночь",
         "ko": "밤",
-        "ja": "夜"
+        "ja": "夜",
+        "it": "night"
       },
       "sound": {
         "en": "yoru",
@@ -210,7 +227,8 @@
         "es": "yoru",
         "de": "yoru",
         "ru": "ёру",
-        "ja": "夜"
+        "ja": "夜",
+        "it": "yoru"
       }
     },
     {
@@ -223,7 +241,8 @@
         "de": "jetzt",
         "ru": "сейчас",
         "ko": "지금",
-        "ja": "今"
+        "ja": "今",
+        "it": "now"
       },
       "sound": {
         "en": "ima",
@@ -233,7 +252,8 @@
         "es": "ima",
         "de": "ima",
         "ru": "има",
-        "ja": "今"
+        "ja": "今",
+        "it": "ima"
       }
     }
   ]

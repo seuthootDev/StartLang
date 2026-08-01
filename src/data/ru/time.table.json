@@ -8,7 +8,8 @@
     "fr": "Moments de la journée",
     "es": "Momentos del día",
     "de": "Tageszeiten",
-    "ru": "Время суток"
+    "ru": "Время суток",
+    "it": "Time of day"
   },
   "columns": [
     {
@@ -21,7 +22,8 @@
         "fr": "Russe",
         "es": "Ruso",
         "de": "Russisch",
-        "ru": "Русский"
+        "ru": "Русский",
+        "it": "Russian"
       }
     },
     {
@@ -34,7 +36,8 @@
         "fr": "Sens",
         "es": "Significado",
         "de": "Bedeutung",
-        "ru": "Значение"
+        "ru": "Значение",
+        "it": "Meaning"
       }
     },
     {
@@ -47,7 +50,8 @@
         "fr": "Prononciation",
         "es": "Pronunciación",
         "de": "Aussprache",
-        "ru": "Произношение"
+        "ru": "Произношение",
+        "it": "Sound"
       }
     }
   ],
@@ -62,7 +66,8 @@
         "fr": "aube",
         "es": "madrugada",
         "de": "Morgendämmerung",
-        "ru": "рассвет"
+        "ru": "рассвет",
+        "it": "dawn / early morning"
       },
       "sound": {
         "en": "ras-svet",
@@ -72,7 +77,8 @@
         "fr": "ras-svet",
         "es": "ras-svet",
         "de": "ras-svet",
-        "ru": "рассвет"
+        "ru": "рассвет",
+        "it": "ras-svet"
       }
     },
     {
@@ -85,7 +91,8 @@
         "fr": "matin",
         "es": "mañana",
         "de": "Morgen",
-        "ru": "утро"
+        "ru": "утро",
+        "it": "morning"
       },
       "sound": {
         "en": "u-tro",
@@ -95,7 +102,8 @@
         "fr": "u-tro",
         "es": "u-tro",
         "de": "u-tro",
-        "ru": "утро"
+        "ru": "утро",
+        "it": "u-tro"
       }
     },
     {
@@ -108,7 +116,8 @@
         "fr": "matin (avant midi)",
         "es": "a. m.",
         "de": "Vormittag",
-        "ru": "до полудня"
+        "ru": "до полудня",
+        "it": "a.m. / morning (before noon)"
       },
       "sound": {
         "en": "do po-lu-dnya",
@@ -118,7 +127,8 @@
         "fr": "do po-lu-dnya",
         "es": "do po-lu-dnya",
         "de": "do po-lu-dnya",
-        "ru": "до полудня"
+        "ru": "до полудня",
+        "it": "do po-lu-dnya"
       }
     },
     {
@@ -131,7 +141,8 @@
         "fr": "journée / jour",
         "es": "día",
         "de": "Tag / Tageszeit",
-        "ru": "день"
+        "ru": "день",
+        "it": "daytime / day"
       },
       "sound": {
         "en": "denʹ",
@@ -141,7 +152,8 @@
         "fr": "denʹ",
         "es": "denʹ",
         "de": "denʹ",
-        "ru": "день"
+        "ru": "день",
+        "it": "denʹ"
       }
     },
     {
@@ -154,7 +166,8 @@
         "fr": "après-midi",
         "es": "tarde",
         "de": "Nachmittag",
-        "ru": "после полудня"
+        "ru": "после полудня",
+        "it": "p.m. / afternoon"
       },
       "sound": {
         "en": "pos-le po-lu-dnya",
@@ -164,7 +177,8 @@
         "fr": "pos-le po-lu-dnya",
         "es": "pos-le po-lu-dnya",
         "de": "pos-le po-lu-dnya",
-        "ru": "после полудня"
+        "ru": "после полудня",
+        "it": "pos-le po-lu-dnya"
       }
     },
     {
@@ -177,7 +191,8 @@
         "fr": "soir",
         "es": "tarde / noche",
         "de": "Abend",
-        "ru": "вечер"
+        "ru": "вечер",
+        "it": "evening"
       },
       "sound": {
         "en": "ve-cher",
@@ -187,7 +202,8 @@
         "fr": "ve-cher",
         "es": "ve-cher",
         "de": "ve-cher",
-        "ru": "вечер"
+        "ru": "вечер",
+        "it": "ve-cher"
       }
     },
     {
@@ -200,7 +216,8 @@
         "fr": "nuit",
         "es": "noche",
         "de": "Nacht",
-        "ru": "ночь"
+        "ru": "ночь",
+        "it": "night"
       },
       "sound": {
         "en": "nochʹ",
@@ -210,7 +227,8 @@
         "fr": "nochʹ",
         "es": "nochʹ",
         "de": "nochʹ",
-        "ru": "ночь"
+        "ru": "ночь",
+        "it": "nochʹ"
       }
     },
     {
@@ -223,7 +241,8 @@
         "fr": "maintenant",
         "es": "ahora",
         "de": "jetzt",
-        "ru": "сейчас"
+        "ru": "сейчас",
+        "it": "now"
       },
       "sound": {
         "en": "sey-chas",
@@ -233,7 +252,8 @@
         "fr": "sey-chas",
         "es": "sey-chas",
         "de": "sey-chas",
-        "ru": "сейчас"
+        "ru": "сейчас",
+        "it": "sey-chas"
       }
     }
   ]

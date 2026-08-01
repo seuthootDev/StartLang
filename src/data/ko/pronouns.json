@@ -9,7 +9,8 @@
       "fr": "na",
       "es": "na",
       "de": "na",
-      "ru": "на"
+      "ru": "на",
+      "it": "na"
     },
     "translations": {
       "en": "I / me (casual)",
@@ -19,7 +20,8 @@
       "de": "ich (locker)",
       "ru": "я (неформ.)",
       "ko": "나",
-      "ja": "私（くだけた言い方）"
+      "ja": "私（くだけた言い方）",
+      "it": "I / me (casual)"
     }
   },
   {
@@ -32,7 +34,8 @@
       "fr": "jeo",
       "es": "jeo",
       "de": "jeo",
-      "ru": "чо"
+      "ru": "чо",
+      "it": "jeo"
     },
     "translations": {
       "en": "I / me (humble)",
@@ -42,7 +45,8 @@
       "de": "ich (demütig)",
       "ru": "я (скромно)",
       "ko": "저",
-      "ja": "私（謙譲）"
+      "ja": "私（謙譲）",
+      "it": "I / me (humble)"
     }
   },
   {
@@ -55,7 +59,8 @@
       "fr": "neo",
       "es": "neo",
       "de": "neo",
-      "ru": "но"
+      "ru": "но",
+      "it": "neo"
     },
     "translations": {
       "en": "you (casual)",
@@ -65,7 +70,8 @@
       "de": "du (locker)",
       "ru": "ты (неформ.)",
       "ko": "너",
-      "ja": "お前・君（くだけた「あなた」）"
+      "ja": "お前・君（くだけた「あなた」）",
+      "it": "you (casual)"
     }
   },
   {
@@ -78,7 +84,8 @@
       "fr": "dang-sin",
       "es": "dang-sin",
       "de": "dang-sin",
-      "ru": "тан-син"
+      "ru": "тан-син",
+      "it": "dang-sin"
     },
     "translations": {
       "en": "you (formal / written)",
@@ -88,7 +95,8 @@
       "de": "Sie (förmlich / Schrift)",
       "ru": "вы (форм. / письм.)",
       "ko": "당신",
-      "ja": "あなた（改まった／書き言葉寄り）"
+      "ja": "あなた（改まった／書き言葉寄り）",
+      "it": "you (formal / written)"
     }
   },
   {
@@ -101,7 +109,8 @@
       "fr": "geu",
       "es": "geu",
       "de": "geu",
-      "ru": "кы"
+      "ru": "кы",
+      "it": "geu"
     },
     "translations": {
       "en": "he / that person",
@@ -111,7 +120,8 @@
       "de": "er / jene Person",
       "ru": "он / тот человек",
       "ko": "그",
-      "ja": "彼 / その人"
+      "ja": "彼 / その人",
+      "it": "he / that person"
     }
   },
   {
@@ -124,7 +134,8 @@
       "fr": "geu-nyeo",
       "es": "geu-nyeo",
       "de": "geu-nyeo",
-      "ru": "кы-нё"
+      "ru": "кы-нё",
+      "it": "geu-nyeo"
     },
     "translations": {
       "en": "she",
@@ -134,7 +145,8 @@
       "de": "sie (Singular)",
       "ru": "она",
       "ko": "그녀",
-      "ja": "彼女"
+      "ja": "彼女",
+      "it": "she"
     }
   },
   {
@@ -147,7 +159,8 @@
       "fr": "u-ri",
       "es": "u-ri",
       "de": "u-ri",
-      "ru": "у-ри"
+      "ru": "у-ри",
+      "it": "u-ri"
     },
     "translations": {
       "en": "we / us",
@@ -157,7 +170,8 @@
       "de": "wir / uns",
       "ru": "мы / нас",
       "ko": "우리",
-      "ja": "私たち"
+      "ja": "私たち",
+      "it": "we / us"
     }
   },
   {
@@ -170,7 +184,8 @@
       "fr": "jeo-hui",
       "es": "jeo-hui",
       "de": "jeo-hui",
-      "ru": "чо-хи"
+      "ru": "чо-хи",
+      "it": "jeo-hui"
     },
     "translations": {
       "en": "we / us (humble)",
@@ -180,7 +195,8 @@
       "de": "wir (demütig)",
       "ru": "мы (скромно)",
       "ko": "저희",
-      "ja": "私ども（謙譲）"
+      "ja": "私ども（謙譲）",
+      "it": "we / us (humble)"
     }
   },
   {
@@ -193,7 +209,8 @@
       "fr": "yeo-reo-bun",
       "es": "yeo-reo-bun",
       "de": "yeo-reo-bun",
-      "ru": "ё-ро-бун"
+      "ru": "ё-ро-бун",
+      "it": "yeo-reo-bun"
     },
     "translations": {
       "en": "you all (polite)",
@@ -203,7 +220,8 @@
       "de": "Sie alle (höflich)",
       "ru": "вы (мн., вежл.)",
       "ko": "여러분",
-      "ja": "皆さん"
+      "ja": "皆さん",
+      "it": "you all (polite)"
     }
   },
   {
@@ -216,7 +234,8 @@
       "fr": "geu-deul",
       "es": "geu-deul",
       "de": "geu-deul",
-      "ru": "кы-дыль"
+      "ru": "кы-дыль",
+      "it": "geu-deul"
     },
     "translations": {
       "en": "they / them",
@@ -226,7 +245,8 @@
       "de": "sie (Plural)",
       "ru": "они / их",
       "ko": "그들",
-      "ja": "彼ら"
+      "ja": "彼ら",
+      "it": "they / them"
     }
   }
 ]
