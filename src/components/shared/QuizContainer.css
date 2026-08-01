@@ -101,6 +101,8 @@
 .quiz__choices {
   display: grid;
   gap: 0.75rem;
+  /* Keep room for four ~2-line choices so wrapping rarely grows the page */
+  min-height: calc(4 * 3.65rem + 3 * 0.75rem);
 }
 
 .quiz__type {
@@ -176,9 +178,14 @@
 
 .quiz__type-answer {
   margin: 0;
+  min-height: 1.55rem;
   text-align: center;
   color: var(--ink-soft);
   font-size: 0.85rem;
+}
+
+.quiz__type-answer.is-empty {
+  visibility: hidden;
 }
 
 .quiz__type-answer-char {
@@ -195,20 +202,24 @@
 
 .quiz__choice {
   appearance: none;
+  display: flex;
+  align-items: center;
+  min-height: 3.65rem;
   border: 1.5px solid var(--line);
   background: rgba(255, 255, 255, 0.55);
   color: var(--ink);
   border-radius: 0.9rem;
-  padding: 1rem 1.1rem;
+  padding: 0.85rem 1.1rem;
   font: inherit;
   font-size: 1.05rem;
+  line-height: 1.35;
   text-align: left;
+  overflow-wrap: anywhere;
   cursor: pointer;
-  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .quiz__choice:hover:not(:disabled) {
-  transform: translateY(-1px);
   border-color: var(--ink);
 }
 
@@ -234,20 +245,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.35rem;
-  min-height: 2.85rem;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 4.5rem;
+  padding: 0.35rem 0.5rem 0.15rem;
   text-align: center;
   visibility: hidden;
 }
 
 .quiz__feedback.is-visible {
   visibility: visible;
-  animation: rise 0.3s ease both;
+  animation: feedback-in 0.25s ease both;
 }
 
 .quiz__feedback p {
   margin: 0;
-  min-height: 1.25em;
+  min-height: 1.35em;
+  line-height: 1.35;
 }
 
 .quiz__feedback .is-ok {
@@ -276,8 +290,18 @@
   }
 }
 
+@keyframes feedback-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (min-width: 640px) {
   .quiz__choices {
     grid-template-columns: 1fr 1fr;
+    min-height: calc(2 * 3.65rem + 0.75rem);
   }
 }

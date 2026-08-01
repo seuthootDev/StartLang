@@ -195,14 +195,22 @@ export function QuizContainer({
                 {t(learnerLang, isAnswered ? 'next' : 'checkAnswer')}
               </button>
             </div>
-            {isAnswered && !isCorrect && (
-              <p className="quiz__type-answer">
-                {t(learnerLang, 'correctAnswer')}:{' '}
-                <span className="quiz__type-answer-char">
-                  {question.correctAnswer}
-                </span>
-              </p>
-            )}
+            <p
+              className={`quiz__type-answer${
+                isAnswered && !isCorrect ? '' : ' is-empty'
+              }`}
+            >
+              {isAnswered && !isCorrect ? (
+                <>
+                  {t(learnerLang, 'correctAnswer')}:{' '}
+                  <span className="quiz__type-answer-char">
+                    {question.correctAnswer}
+                  </span>
+                </>
+              ) : (
+                '\u00a0'
+              )}
+            </p>
           </form>
         ) : (
           <div className="quiz__choices" role="group">
