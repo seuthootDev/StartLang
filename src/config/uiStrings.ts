@@ -37,6 +37,11 @@ type UiKey =
   | 'vocabModeReading'
   | 'vocabModeMeaning'
   | 'vocabCount'
+  | 'jlptHubLead'
+  | 'jlptHubMeta'
+  | 'jlptBackToHub'
+  | 'jlptPrevDay'
+  | 'jlptNextDay'
   | 'contributeTitle'
   | 'contributeLead'
   | 'contributeCta'
@@ -79,6 +84,12 @@ const EN: Record<UiKey, string> = {
   vocabModeReading: 'Reading',
   vocabModeMeaning: 'Meaning',
   vocabCount: 'Questions',
+  jlptHubLead:
+    'A larger vocabulary track — separate from the short must-memorize basics. Pick a level, then a day (~20 words).',
+  jlptHubMeta: '{days} days · {words} words',
+  jlptBackToHub: 'All JLPT levels',
+  jlptPrevDay: 'Previous day',
+  jlptNextDay: 'Next day',
   contributeTitle: 'Help build LangStart',
   contributeLead:
     'Open source — fix sounds, translations, or tables, or help add a language. Contributors welcome.',
@@ -125,6 +136,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '읽기',
     vocabModeMeaning: '의미',
     vocabCount: '문제 수',
+    jlptHubLead:
+      '기초 팩과 별개인 큰 어휘 드릴입니다. 급수를 고른 뒤 Day(~20단어)를 선택하세요.',
+    jlptHubMeta: '{days}일 · {words}단어',
+    jlptBackToHub: 'JLPT 급수 목록',
+    jlptPrevDay: '이전 Day',
+    jlptNextDay: '다음 Day',
     contributeTitle: 'LangStart를 함께 만들어요',
     contributeLead:
       '오픈소스입니다. 발음·번역·표 수정이나 새 언어 추가에 기여해 주세요.',
@@ -168,6 +185,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '読み',
     vocabModeMeaning: '意味',
     vocabCount: '問題数',
+    jlptHubLead:
+      '短い基礎パックとは別の、大きめの語彙ドリルです。級を選んでから Day（約20語）を選んでください。',
+    jlptHubMeta: '{days}日 · {words}語',
+    jlptBackToHub: 'JLPT級一覧',
+    jlptPrevDay: '前のDay',
+    jlptNextDay: '次のDay',
     contributeTitle: 'LangStartを一緒に作りませんか',
     contributeLead:
       'オープンソースです。読み・訳・表の修正や、新しい言語の追加を歓迎します。',
@@ -210,6 +233,11 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '读音',
     vocabModeMeaning: '意思',
     vocabCount: '题数',
+    jlptHubLead: '与短小必背基础包分开的大型词汇练习。先选级别，再选 Day（约20词）。',
+    jlptHubMeta: '{days}天 · {words}词',
+    jlptBackToHub: 'JLPT 级别列表',
+    jlptPrevDay: '上一 Day',
+    jlptNextDay: '下一 Day',
     contributeTitle: '一起完善 LangStart',
     contributeLead: '开源项目。欢迎修正读音、译文、对照表，或帮助添加新语言。',
     contributeCta: '在 GitHub 查看',
@@ -252,6 +280,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lecture',
     vocabModeMeaning: 'Sens',
     vocabCount: 'Questions',
+    jlptHubLead:
+      'Un grand parcours de vocabulaire — à part des bases courtes à mémoriser. Choisissez un niveau, puis un jour (~20 mots).',
+    jlptHubMeta: '{days} jours · {words} mots',
+    jlptBackToHub: 'Tous les niveaux JLPT',
+    jlptPrevDay: 'Jour précédent',
+    jlptNextDay: 'Jour suivant',
     contributeTitle: 'Aidez à construire LangStart',
     contributeLead:
       'Projet open source — corrigez sons, traductions ou tableaux, ou aidez à ajouter une langue.',
@@ -295,6 +329,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lectura',
     vocabModeMeaning: 'Significado',
     vocabCount: 'Preguntas',
+    jlptHubLead:
+      'Una pista de vocabulario más grande — aparte de lo básico corto. Elige un nivel y luego un día (~20 palabras).',
+    jlptHubMeta: '{days} días · {words} palabras',
+    jlptBackToHub: 'Todos los niveles JLPT',
+    jlptPrevDay: 'Día anterior',
+    jlptNextDay: 'Día siguiente',
     contributeTitle: 'Ayuda a construir LangStart',
     contributeLead:
       'Código abierto: corrige sonidos, traducciones o tablas, o ayuda a añadir un idioma.',
@@ -338,6 +378,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lesung',
     vocabModeMeaning: 'Bedeutung',
     vocabCount: 'Fragen',
+    jlptHubLead:
+      'Ein größerer Vokabel-Track — getrennt von den kurzen Basics. Level wählen, dann einen Tag (~20 Wörter).',
+    jlptHubMeta: '{days} Tage · {words} Wörter',
+    jlptBackToHub: 'Alle JLPT-Stufen',
+    jlptPrevDay: 'Vorheriger Tag',
+    jlptNextDay: 'Nächster Tag',
     contributeTitle: 'Hilf mit an LangStart',
     contributeLead:
       'Open Source — korrigiere Laute, Übersetzungen oder Tabellen, oder hilf eine Sprache hinzuzufügen.',
@@ -381,6 +427,12 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Чтение',
     vocabModeMeaning: 'Значение',
     vocabCount: 'Вопросы',
+    jlptHubLead:
+      'Большой словарный трек — отдельно от короткого базового набора. Выберите уровень, затем день (~20 слов).',
+    jlptHubMeta: '{days} дн. · {words} слов',
+    jlptBackToHub: 'Все уровни JLPT',
+    jlptPrevDay: 'Предыдущий день',
+    jlptNextDay: 'Следующий день',
     contributeTitle: 'Помогите развивать LangStart',
     contributeLead:
       'Открытый проект — правьте звучание, переводы и таблицы или помогите добавить язык.',

@@ -235,16 +235,24 @@ export function QuizContainer({
           </div>
         )}
 
-        {isAnswered && (
-          <div className="quiz__feedback">
-            <p className={isCorrect ? 'is-ok' : 'is-bad'}>
-              {isCorrect ? t(learnerLang, 'correct') : t(learnerLang, 'wrong')}
-            </p>
-            <p className="quiz__continue-hint">
-              {t(learnerLang, isTypeMode ? 'enterToContinue' : 'tapToContinue')}
-            </p>
-          </div>
-        )}
+        <div
+          className={`quiz__feedback${isAnswered ? ' is-visible' : ''}`}
+          aria-live="polite"
+          aria-hidden={!isAnswered}
+        >
+          <p className={isAnswered ? (isCorrect ? 'is-ok' : 'is-bad') : undefined}>
+            {isAnswered
+              ? isCorrect
+                ? t(learnerLang, 'correct')
+                : t(learnerLang, 'wrong')
+              : '\u00a0'}
+          </p>
+          <p className="quiz__continue-hint">
+            {isAnswered
+              ? t(learnerLang, isTypeMode ? 'enterToContinue' : 'tapToContinue')
+              : '\u00a0'}
+          </p>
+        </div>
       </section>
 
       {tableOpen && refTable && (

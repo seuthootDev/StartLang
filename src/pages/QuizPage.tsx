@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Navigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import {
   categoryLabel,
   getCategory,
@@ -53,7 +53,7 @@ export function QuizPage() {
   const [japaneseAlphabetSet, setJapaneseAlphabetSet] =
     useState<JapaneseAlphabetSet>('hiragana')
   const [numberSystem, setNumberSystem] = useState<NumberSystemId>('sino')
-  const [vocabMode, setVocabMode] = useState<VocabQuizMode>('reading')
+  const [vocabMode, setVocabMode] = useState<VocabQuizMode>('meaning')
   const [vocabRaw, setVocabRaw] = useState<VocabQuizEntry[]>([])
   const [vocabTable, setVocabTable] = useState<RefTable | null>(null)
   const [vocabReady, setVocabReady] = useState(false)
@@ -318,11 +318,23 @@ function QuizPageInner({
       />
     ) : null
 
+  const vocabSessionNav =
+    categoryId === 'vocab' ? (
+      <VocabSessionNav
+        learnerLang={learnerLang}
+        targetLang={targetLang}
+        jlptLevel={jlptLevel}
+        vocabDay={vocabDay}
+        maxDay={getVocabManifest().levels[jlptLevel]?.days ?? 1}
+      />
+    ) : null
+
   const toolbarExtra = vocabToggle ?? numbersToggle ?? scriptToggle
 
   if (quiz.total === 0) {
     return (
       <main className="learn-main learn-main--center">
+        {vocabSessionNav}
         {toolbarExtra}
         <h1 className="section-head__title">{t(learnerLang, 'emptyCategory')}</h1>
       </main>
@@ -334,6 +346,7 @@ function QuizPageInner({
 
     return (
       <main className="learn-main learn-main--center">
+        {vocabSessionNav}
         {toolbarExtra}
         <h1 className="section-head__title">
           {hasMissed
@@ -351,7 +364,7 @@ function QuizPageInner({
         </p>
 
         {hasMissed && (
-          <ul className="missed-list">
+          <ul className="missed-list panel-scroll">
             {quiz.missed.map((item) => (
               <li key={`${item.entry.quiz_id}-${item.userAnswer}`}>
                 <span className="missed-list__prompt">{item.prompt}</span>
@@ -382,6 +395,7 @@ function QuizPageInner({
 
   return (
     <main className="learn-main">
+      {vocabSessionNav}
       {category && (
         <p className="quiz-eyebrow">
           {categoryLabel(category, learnerLang)}
@@ -477,6 +491,62 @@ function NumberSystemToggle({
         {labels.native}
       </button>
     </div>
+  )
+}
+
+function VocabSessionNav({
+  learnerLang,
+  targetLang,
+  jlptLevel,
+  vocabDay,
+  maxDay,
+}: {
+  learnerLang: LangCode
+  targetLang: TargetLangCode
+  jlptLevel: JlptLevel
+  vocabDay: number
+  maxDay: number
+}) {
+  const prevDay = vocabDay > 1 ? vocabDay - 1 : null
+  const nextDay = vocabDay < maxDay ? vocabDay + 1 : null
+
+  return (
+    <nav className="vocab-nav" aria-label="JLPT day">
+      <Link className="vocab-nav__hub" to={`/${targetLang}/vocab`}>
+        {t(learnerLang, 'jlptBackToHub')}
+      </Link>
+      <div className="vocab-nav__day-row">
+        {prevDay ? (
+          <Link
+            className="vocab-nav__day-btn"
+            to={`/${targetLang}/vocab/${jlptLevel}/${prevDay}`}
+            aria-label={t(learnerLang, 'jlptPrevDay')}
+          >
+            ←
+          </Link>
+        ) : (
+          <span className="vocab-nav__day-btn is-disabled" aria-hidden>
+            ←
+          </span>
+        )}
+        <span className="vocab-nav__day-label">
+          {jlptLevelLabel(jlptLevel)} · {dayLabel(vocabDay, learnerLang)}
+        </span>
+        {nextDay ? (
+          <Link
+            className="vocab-nav__day-btn"
+            to={`/${targetLang}/vocab/${jlptLevel}/${nextDay}`}
+            aria-label={t(learnerLang, 'jlptNextDay')}
+          >
+            →
+          </Link>
+        ) : (
+          <span className="vocab-nav__day-btn is-disabled" aria-hidden>
+            →
+          </span>
+        )}
+      </div>
+    </nav>
   )
 }
 

@@ -77,7 +77,7 @@ _Placeholder — add `docs/demo.gif` (or replace the path) when a demo clip is r
 | 5 | Question words | Who / what / where … |
 | 6 | Demonstratives & directions | This / that / here / left–right … |
 
-Japanese also has **JLPT vocabulary** (intermediate group) as a larger drill set.
+Japanese also has a separate **JLPT vocabulary** hub (N5–N1, ~20 words per day) — a larger drill track, not part of the short basics pack.
 
 Content lives in plain JSON under [`src/data/`](src/data/).
 
@@ -93,7 +93,7 @@ Today that means **full-bleed illustrations** behind frosted header / sidebar / 
 
 ### Content depth
 
-**Intermediate** and **advanced** tracks exist as groups in the sidebar, but **what belongs there is not settled yet**. Language-specific grammar (gender, full case systems, …) will likely grow as separate packs when we know how to scope them.
+**Intermediate** and **advanced** tracks exist as groups in the sidebar, but **what belongs there is not settled yet**. Language-specific “annoying but must-memorize” packs (gender, full case systems, …) will likely grow there when we know how to scope them. Large exam-style vocab sets stay on **separate hubs** (like Japanese JLPT) so the basics sidebar stays short.
 
 ### More languages
 
@@ -150,6 +150,11 @@ Thank you for helping learners start stronger.
 ## Updates
 
 Newest first. Add a dated entry whenever something meaningful ships.
+
+### 2026-08-02 (JLPT hub)
+
+- Japanese JLPT vocabulary moved out of the sidebar tree onto `/ja/vocab` (level + day hub).
+- Quiz day navigation lives on the quiz page; basics sidebar stays short.
 
 ### 2026-08-02 (SEO scaffold)
 

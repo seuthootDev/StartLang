@@ -5,6 +5,7 @@ import { LearnShell } from './components/shared/LearnShell'
 import { SiteFooter } from './components/shared/SiteFooter'
 import { HomePage } from './pages/HomePage'
 import { LanguageHubPage } from './pages/LanguageHubPage'
+import { JlptVocabHubPage } from './pages/JlptVocabHubPage'
 import { QuizPage } from './pages/QuizPage'
 
 function HomeLayout() {
@@ -15,11 +16,6 @@ function HomeLayout() {
       <SiteFooter />
     </div>
   )
-}
-
-function VocabRedirect() {
-  const { targetLang } = useParams()
-  return <Navigate to={`/${targetLang}/vocab/n5/1`} replace />
 }
 
 function VocabLevelRedirect() {
@@ -37,7 +33,7 @@ export default function App() {
             <Route index element={<LanguageHubPage />} />
             <Route path="vocab/:jlptLevel/:day" element={<QuizPage />} />
             <Route path="vocab/:jlptLevel" element={<VocabLevelRedirect />} />
-            <Route path="vocab" element={<VocabRedirect />} />
+            <Route path="vocab" element={<JlptVocabHubPage />} />
             <Route path=":categoryId" element={<QuizPage />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
