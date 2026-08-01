@@ -7,6 +7,7 @@ import { useSession } from '../../context/SessionContext'
 import type { LangCode, TargetLangCode } from '../../types/language'
 import { Navbar } from './Navbar'
 import { LearnSidebar } from './LearnSidebar'
+import { SiteFooter } from './SiteFooter'
 import './LearnSidebar.css'
 
 export function LearnShell() {
@@ -115,6 +116,8 @@ function LearnShellFrame({
           <Outlet />
         </div>
       </div>
+
+      <SiteFooter compact />
     </div>
   )
 }

@@ -51,4 +51,7 @@ a {
   width: min(880px, 100%);
   margin: 0 auto;
   padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

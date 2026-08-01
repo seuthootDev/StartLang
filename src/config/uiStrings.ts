@@ -36,6 +36,9 @@ type UiKey =
   | 'vocabModeReading'
   | 'vocabModeMeaning'
   | 'vocabCount'
+  | 'contributeTitle'
+  | 'contributeLead'
+  | 'contributeCta'
 
 const EN: Record<UiKey, string> = {
   appName: 'LangStart',
@@ -73,6 +76,10 @@ const EN: Record<UiKey, string> = {
   vocabModeReading: 'Reading',
   vocabModeMeaning: 'Meaning',
   vocabCount: 'Questions',
+  contributeTitle: 'Help build LangStart',
+  contributeLead:
+    'Open source — fix sounds, translations, or tables, or help add a language. Contributors welcome.',
+  contributeCta: 'View on GitHub',
 }
 
 export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
@@ -113,6 +120,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '읽기',
     vocabModeMeaning: '의미',
     vocabCount: '문제 수',
+    contributeTitle: 'LangStart를 함께 만들어요',
+    contributeLead:
+      '오픈소스입니다. 발음·번역·표 수정이나 새 언어 추가에 기여해 주세요.',
+    contributeCta: 'GitHub에서 보기',
   },
   ja: {
     appName: 'LangStart',
@@ -150,6 +161,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '読み',
     vocabModeMeaning: '意味',
     vocabCount: '問題数',
+    contributeTitle: 'LangStartを一緒に作りませんか',
+    contributeLead:
+      'オープンソースです。読み・訳・表の修正や、新しい言語の追加を歓迎します。',
+    contributeCta: 'GitHubで見る',
   },
   zh: {
     appName: 'LangStart',
@@ -187,6 +202,9 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: '读音',
     vocabModeMeaning: '意思',
     vocabCount: '题数',
+    contributeTitle: '一起完善 LangStart',
+    contributeLead: '开源项目。欢迎修正读音、译文、对照表，或帮助添加新语言。',
+    contributeCta: '在 GitHub 查看',
   },
   fr: {
     appName: 'LangStart',
@@ -224,6 +242,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lecture',
     vocabModeMeaning: 'Sens',
     vocabCount: 'Questions',
+    contributeTitle: 'Aidez à construire LangStart',
+    contributeLead:
+      'Projet open source — corrigez sons, traductions ou tableaux, ou aidez à ajouter une langue.',
+    contributeCta: 'Voir sur GitHub',
   },
   es: {
     appName: 'LangStart',
@@ -261,6 +283,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lectura',
     vocabModeMeaning: 'Significado',
     vocabCount: 'Preguntas',
+    contributeTitle: 'Ayuda a construir LangStart',
+    contributeLead:
+      'Código abierto: corrige sonidos, traducciones o tablas, o ayuda a añadir un idioma.',
+    contributeCta: 'Ver en GitHub',
   },
   de: {
     appName: 'LangStart',
@@ -298,6 +324,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Lesung',
     vocabModeMeaning: 'Bedeutung',
     vocabCount: 'Fragen',
+    contributeTitle: 'Hilf mit an LangStart',
+    contributeLead:
+      'Open Source — korrigiere Laute, Übersetzungen oder Tabellen, oder hilf eine Sprache hinzuzufügen.',
+    contributeCta: 'Auf GitHub ansehen',
   },
   ru: {
     appName: 'LangStart',
@@ -335,6 +365,10 @@ export const UI_STRINGS: Record<LangCode, Partial<Record<UiKey, string>>> = {
     vocabModeReading: 'Чтение',
     vocabModeMeaning: 'Значение',
     vocabCount: 'Вопросы',
+    contributeTitle: 'Помогите развивать LangStart',
+    contributeLead:
+      'Открытый проект — правьте звучание, переводы и таблицы или помогите добавить язык.',
+    contributeCta: 'Открыть на GitHub',
   },
 }
 

@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes, useParams } from 'react-router-
 import { SessionProvider } from './context/SessionContext'
 import { Navbar } from './components/shared/Navbar'
 import { LearnShell } from './components/shared/LearnShell'
+import { SiteFooter } from './components/shared/SiteFooter'
 import { HomePage } from './pages/HomePage'
 import { LanguageHubPage } from './pages/LanguageHubPage'
 import { QuizPage } from './pages/QuizPage'
@@ -11,6 +12,7 @@ function HomeLayout() {
     <div className="app-shell">
       <Navbar />
       <HomePage />
+      <SiteFooter />
     </div>
   )
 }

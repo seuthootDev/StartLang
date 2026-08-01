@@ -1,0 +1,111 @@
+.site-footer {
+  margin-top: auto;
+  padding: 2.5rem 1.25rem 2rem;
+  border-top: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+}
+
+.site-footer__inner {
+  width: min(640px, 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-footer__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.site-footer__lead {
+  margin: 0.55rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.site-footer__link {
+  display: inline-block;
+  margin-top: 1.1rem;
+  padding: 0.55rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: color-mix(in srgb, var(--paper) 70%, white);
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.site-footer__link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, white);
+}
+
+/* Learn pages: single header-height bar */
+.site-footer--compact {
+  padding: 0.75rem 1.25rem;
+}
+
+.site-footer--compact .site-footer__inner {
+  width: min(1120px, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+  text-align: left;
+}
+
+.site-footer--compact .site-footer__title {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.site-footer--compact .site-footer__link {
+  margin-top: 0;
+  flex-shrink: 0;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  border-radius: 0.45rem;
+}
+
+.learn-shell > .site-footer {
+  background: transparent;
+  backdrop-filter: none;
+  border-top-color: color-mix(in srgb, var(--line) 35%, transparent);
+}
+
+.learn-shell > .site-footer--compact .site-footer__title {
+  color: #fff;
+  -webkit-text-stroke: 1.5px #111;
+  paint-order: stroke fill;
+  text-shadow:
+    -1.5px -1.5px 0 #111,
+    1.5px -1.5px 0 #111,
+    -1.5px 1.5px 0 #111,
+    1.5px 1.5px 0 #111,
+    -2px 0 0 #111,
+    2px 0 0 #111,
+    0 -2px 0 #111,
+    0 2px 0 #111;
+}
+
+.site-footer__title--link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.site-footer__title--link:hover {
+  opacity: 0.88;
+}
+
+.learn-shell > .site-footer--compact .site-footer__link {
+  background: color-mix(in srgb, var(--paper) 55%, transparent);
+  backdrop-filter: blur(4px);
+}
