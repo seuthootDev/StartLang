@@ -20,7 +20,8 @@ English month names for many Asian learners. Irregular day readings in Japanese.
 6. [Run locally](#run-locally)
 7. [Search / indexing](#search--indexing)
 8. [Contributing](#contributing)
-9. [Updates](#updates)
+9. [License](#license)
+10. [Updates](#updates)
 
 ---
 
@@ -144,6 +145,16 @@ If you spot a wrong sound, translation, or table cell — a typo, a bad approxim
 Theme art lives under `public/assets/{lang}/`.
 
 Thank you for helping learners start stronger.
+
+---
+
+## License
+
+LangStart is open source under the [MIT License](LICENSE).
+
+The project is meant to stay free to use — no ads planned. Support, if you want to give it, is welcome through donations later (for example GitHub Sponsors). Code, quizzes, and corrections from learners and developers are the main way the project grows.
+
+Some vocabulary datasets credit upstream sources (for example OpenJLPT / EDRDG materials) in their generators or notes; those upstream terms still apply to the original data where required.
 
 ---
 
