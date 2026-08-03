@@ -1,0 +1,509 @@
+{
+  "table_id": "de_months_ref",
+  "title": {
+    "en": "Months & seasons",
+    "ko": "월과 계절",
+    "ja": "月と季節",
+    "zh": "月份与季节",
+    "fr": "Mois & saisons",
+    "es": "Meses y estaciones",
+    "de": "Monate & Jahreszeiten",
+    "ru": "Месяцы и сезоны",
+    "it": "Mesi e stagioni"
+  },
+  "note": {
+    "en": "Month names are capitalized. Day-of-month uses ordinals — see the Dates category (not here).",
+    "ko": "월 이름은 대문자. 일자는 서수 — Dates(날짜 표현) 카테고리를 보세요.",
+    "ja": "月名は大文字。日付の日は序数 — Dates カテゴリへ。",
+    "zh": "月份大写。日子用序数 — 见 Dates 分类。",
+    "fr": "Mois en majuscule. Jour du mois = ordinaux → catégorie Dates.",
+    "es": "Meses con mayúscula. Día = ordinales → categoría Dates.",
+    "de": "Monate groß. Tag im Monat = Ordinalia → Kategorie Daten.",
+    "ru": "Месяцы с заглавной. Число = порядковые → категория Даты.",
+    "it": "Mesi con maiuscola. Giorno = ordinali → categoria Date."
+  },
+  "rules": {
+    "en": [
+      "Unlike French/Spanish/Italian, German dates need ordinals (am fünften März) — practice in Dates.",
+      "Writing: 5. März or 5.3.2024 (day.month.year)."
+    ],
+    "ko": [
+      "프랑스·스페인·이탈리아와 달리 독일어 날짜는 서수(am fünften März) — Dates에서 연습.",
+      "표기: 5. März 또는 5.3.2024 (일.월.년)."
+    ],
+    "ja": [
+      "仏西伊と違い、ドイツ語の日付は序数（am fünften März）— Dates で練習。",
+      "表記: 5. März または 5.3.2024。"
+    ],
+    "zh": [
+      "与法西意不同，德语日期用序数（am fünften März）— 在 Dates 练习。",
+      "写法: 5. März 或 5.3.2024。"
+    ],
+    "fr": [
+      "Contrairement au FR/ES/IT : ordinaux → Dates.",
+      "Écriture : 5. März / 5.3.2024."
+    ],
+    "es": [
+      "A diferencia de FR/ES/IT: ordinales → Dates.",
+      "Escritura: 5. März / 5.3.2024."
+    ],
+    "de": [
+      "Anders als Romance: Ordinalia → Kategorie Daten.",
+      "Schreibweise: 5. März / 5.3.2024."
+    ],
+    "ru": [
+      "В отличие от романских: порядковые → Даты.",
+      "На письме: 5. März / 5.3.2024."
+    ],
+    "it": [
+      "A differenza di FR/ES/IT: ordinali → Date.",
+      "Scrittura: 5. März / 5.3.2024."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "German",
+        "ko": "독일어",
+        "ja": "ドイツ語",
+        "zh": "德语",
+        "fr": "Allemand",
+        "es": "Alemán",
+        "de": "Deutsch",
+        "ru": "Немецкий",
+        "it": "Tedesco"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение",
+        "it": "Significato"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение",
+        "it": "Pronuncia"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "Januar",
+      "meaning": {
+        "en": "January",
+        "ko": "1월",
+        "ja": "一月",
+        "zh": "一月",
+        "fr": "janvier",
+        "es": "enero",
+        "de": "Januar",
+        "ru": "январь",
+        "it": "gennaio"
+      },
+      "sound": {
+        "en": "yan-oo-ar",
+        "ko": "야누아르",
+        "ja": "ヤヌアール",
+        "zh": "yan-oo-ar",
+        "fr": "yan-oo-ar",
+        "es": "yan-oo-ar",
+        "de": "Januar",
+        "ru": "yan-oo-ar",
+        "it": "yan-oo-ar"
+      }
+    },
+    {
+      "form": "Februar",
+      "meaning": {
+        "en": "February",
+        "ko": "2월",
+        "ja": "二月",
+        "zh": "二月",
+        "fr": "février",
+        "es": "febrero",
+        "de": "Februar",
+        "ru": "февраль",
+        "it": "febbraio"
+      },
+      "sound": {
+        "en": "fay-broo-ar",
+        "ko": "페브루아르",
+        "ja": "フェブルアール",
+        "zh": "fay-broo-ar",
+        "fr": "fay-broo-ar",
+        "es": "fay-broo-ar",
+        "de": "Februar",
+        "ru": "fay-broo-ar",
+        "it": "fay-broo-ar"
+      }
+    },
+    {
+      "form": "März",
+      "meaning": {
+        "en": "March",
+        "ko": "3월",
+        "ja": "三月",
+        "zh": "三月",
+        "fr": "mars",
+        "es": "marzo",
+        "de": "März",
+        "ru": "март",
+        "it": "marzo"
+      },
+      "sound": {
+        "en": "merts",
+        "ko": "메르츠",
+        "ja": "メルツ",
+        "zh": "merts",
+        "fr": "merts",
+        "es": "merts",
+        "de": "März",
+        "ru": "merts",
+        "it": "merts"
+      }
+    },
+    {
+      "form": "April",
+      "meaning": {
+        "en": "April",
+        "ko": "4월",
+        "ja": "四月",
+        "zh": "四月",
+        "fr": "avril",
+        "es": "abril",
+        "de": "April",
+        "ru": "апрель",
+        "it": "aprile"
+      },
+      "sound": {
+        "en": "a-pril",
+        "ko": "아프릴",
+        "ja": "アプリル",
+        "zh": "a-pril",
+        "fr": "a-pril",
+        "es": "a-pril",
+        "de": "April",
+        "ru": "a-pril",
+        "it": "a-pril"
+      }
+    },
+    {
+      "form": "Mai",
+      "meaning": {
+        "en": "May",
+        "ko": "5월",
+        "ja": "五月",
+        "zh": "五月",
+        "fr": "mai",
+        "es": "mayo",
+        "de": "Mai",
+        "ru": "май",
+        "it": "maggio"
+      },
+      "sound": {
+        "en": "my/mai",
+        "ko": "마이",
+        "ja": "マイ",
+        "zh": "my/mai",
+        "fr": "my/mai",
+        "es": "my/mai",
+        "de": "Mai",
+        "ru": "my/mai",
+        "it": "my/mai"
+      }
+    },
+    {
+      "form": "Juni",
+      "meaning": {
+        "en": "June",
+        "ko": "6월",
+        "ja": "六月",
+        "zh": "六月",
+        "fr": "juin",
+        "es": "junio",
+        "de": "Juni",
+        "ru": "июнь",
+        "it": "giugno"
+      },
+      "sound": {
+        "en": "yoo-nee",
+        "ko": "유니",
+        "ja": "ユーニ",
+        "zh": "yoo-nee",
+        "fr": "yoo-nee",
+        "es": "yoo-nee",
+        "de": "Juni",
+        "ru": "yoo-nee",
+        "it": "yoo-nee"
+      }
+    },
+    {
+      "form": "Juli",
+      "meaning": {
+        "en": "July",
+        "ko": "7월",
+        "ja": "七月",
+        "zh": "七月",
+        "fr": "juillet",
+        "es": "julio",
+        "de": "Juli",
+        "ru": "июль",
+        "it": "luglio"
+      },
+      "sound": {
+        "en": "yoo-lee",
+        "ko": "율리",
+        "ja": "ユーリ",
+        "zh": "yoo-lee",
+        "fr": "yoo-lee",
+        "es": "yoo-lee",
+        "de": "Juli",
+        "ru": "yoo-lee",
+        "it": "yoo-lee"
+      }
+    },
+    {
+      "form": "August",
+      "meaning": {
+        "en": "August",
+        "ko": "8월",
+        "ja": "八月",
+        "zh": "八月",
+        "fr": "août",
+        "es": "agosto",
+        "de": "August",
+        "ru": "август",
+        "it": "agosto"
+      },
+      "sound": {
+        "en": "ow-goost",
+        "ko": "아우구스트",
+        "ja": "アウグスト",
+        "zh": "ow-goost",
+        "fr": "ow-goost",
+        "es": "ow-goost",
+        "de": "August",
+        "ru": "ow-goost",
+        "it": "ow-goost"
+      }
+    },
+    {
+      "form": "September",
+      "meaning": {
+        "en": "September",
+        "ko": "9월",
+        "ja": "九月",
+        "zh": "九月",
+        "fr": "septembre",
+        "es": "septiembre",
+        "de": "September",
+        "ru": "сентябрь",
+        "it": "settembre"
+      },
+      "sound": {
+        "en": "zep-tem-ber",
+        "ko": "젭템버",
+        "ja": "セプテンバー",
+        "zh": "zep-tem-ber",
+        "fr": "zep-tem-ber",
+        "es": "zep-tem-ber",
+        "de": "September",
+        "ru": "zep-tem-ber",
+        "it": "zep-tem-ber"
+      }
+    },
+    {
+      "form": "Oktober",
+      "meaning": {
+        "en": "October",
+        "ko": "10월",
+        "ja": "十月",
+        "zh": "十月",
+        "fr": "octobre",
+        "es": "octubre",
+        "de": "Oktober",
+        "ru": "октябрь",
+        "it": "ottobre"
+      },
+      "sound": {
+        "en": "ok-toh-ber",
+        "ko": "옥토버",
+        "ja": "オクトーバー",
+        "zh": "ok-toh-ber",
+        "fr": "ok-toh-ber",
+        "es": "ok-toh-ber",
+        "de": "Oktober",
+        "ru": "ok-toh-ber",
+        "it": "ok-toh-ber"
+      }
+    },
+    {
+      "form": "November",
+      "meaning": {
+        "en": "November",
+        "ko": "11월",
+        "ja": "十一月",
+        "zh": "十一月",
+        "fr": "novembre",
+        "es": "noviembre",
+        "de": "November",
+        "ru": "ноябрь",
+        "it": "novembre"
+      },
+      "sound": {
+        "en": "no-vem-ber",
+        "ko": "노벰버",
+        "ja": "ノヴェンバー",
+        "zh": "no-vem-ber",
+        "fr": "no-vem-ber",
+        "es": "no-vem-ber",
+        "de": "November",
+        "ru": "no-vem-ber",
+        "it": "no-vem-ber"
+      }
+    },
+    {
+      "form": "Dezember",
+      "meaning": {
+        "en": "December",
+        "ko": "12월",
+        "ja": "十二月",
+        "zh": "十二月",
+        "fr": "décembre",
+        "es": "diciembre",
+        "de": "Dezember",
+        "ru": "декабрь",
+        "it": "dicembre"
+      },
+      "sound": {
+        "en": "de-tsem-ber",
+        "ko": "데쳄버",
+        "ja": "デツェンバー",
+        "zh": "de-tsem-ber",
+        "fr": "de-tsem-ber",
+        "es": "de-tsem-ber",
+        "de": "Dezember",
+        "ru": "de-tsem-ber",
+        "it": "de-tsem-ber"
+      }
+    },
+    {
+      "form": "Frühling",
+      "meaning": {
+        "en": "spring",
+        "ko": "봄",
+        "ja": "春",
+        "zh": "春天",
+        "fr": "printemps",
+        "es": "primavera",
+        "de": "Frühling",
+        "ru": "весна",
+        "it": "primavera"
+      },
+      "sound": {
+        "en": "frue-ling",
+        "ko": "프뤼링",
+        "ja": "フリューリング",
+        "zh": "frue-ling",
+        "fr": "frue-ling",
+        "es": "frue-ling",
+        "de": "Frühling",
+        "ru": "frue-ling",
+        "it": "frue-ling"
+      }
+    },
+    {
+      "form": "Sommer",
+      "meaning": {
+        "en": "summer",
+        "ko": "여름",
+        "ja": "夏",
+        "zh": "夏天",
+        "fr": "été",
+        "es": "verano",
+        "de": "Sommer",
+        "ru": "лето",
+        "it": "estate"
+      },
+      "sound": {
+        "en": "zom-mer",
+        "ko": "조머",
+        "ja": "ゾマー",
+        "zh": "zom-mer",
+        "fr": "zom-mer",
+        "es": "zom-mer",
+        "de": "Sommer",
+        "ru": "zom-mer",
+        "it": "zom-mer"
+      }
+    },
+    {
+      "form": "Herbst",
+      "meaning": {
+        "en": "autumn / fall",
+        "ko": "가을",
+        "ja": "秋",
+        "zh": "秋天",
+        "fr": "automne",
+        "es": "otoño",
+        "de": "Herbst",
+        "ru": "осень",
+        "it": "autunno"
+      },
+      "sound": {
+        "en": "herpst",
+        "ko": "헤르프스트",
+        "ja": "ヘルブスト",
+        "zh": "herpst",
+        "fr": "herpst",
+        "es": "herpst",
+        "de": "Herbst",
+        "ru": "herpst",
+        "it": "herpst"
+      }
+    },
+    {
+      "form": "Winter",
+      "meaning": {
+        "en": "winter",
+        "ko": "겨울",
+        "ja": "冬",
+        "zh": "冬天",
+        "fr": "hiver",
+        "es": "invierno",
+        "de": "Winter",
+        "ru": "зима",
+        "it": "inverno"
+      },
+      "sound": {
+        "en": "vin-ter",
+        "ko": "빈터",
+        "ja": "ヴィンター",
+        "zh": "vin-ter",
+        "fr": "vin-ter",
+        "es": "vin-ter",
+        "de": "Winter",
+        "ru": "vin-ter",
+        "it": "vin-ter"
+      }
+    }
+  ]
+}

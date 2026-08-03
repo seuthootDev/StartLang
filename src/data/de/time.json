@@ -1,0 +1,236 @@
+[
+  {
+    "quiz_id": "de_time_dawn",
+    "question_word": "Morgendämmerung",
+    "pronunciations": {
+      "en": "mor-gen-dem-me-roong",
+      "ko": "모르겐데머룽",
+      "ja": "モルゲンデメルング",
+      "zh": "mor-gen-dem-me-roong",
+      "fr": "mor-gen-dem-me-roong",
+      "es": "mor-gen-dem-me-roong",
+      "de": "Morgendämmerung",
+      "ru": "mor-gen-dem-me-roong",
+      "it": "mor-gen-dem-me-roong"
+    },
+    "translations": {
+      "en": "dawn / daybreak",
+      "ko": "새벽 / 동틀 녘",
+      "ja": "明け方",
+      "zh": "黎明",
+      "fr": "aube",
+      "es": "amanecer",
+      "de": "Morgendämmerung",
+      "ru": "рассвет",
+      "it": "alba"
+    }
+  },
+  {
+    "quiz_id": "de_time_morning",
+    "question_word": "Morgen",
+    "pronunciations": {
+      "en": "mor-gen",
+      "ko": "모르겐",
+      "ja": "モルゲン",
+      "zh": "mor-gen",
+      "fr": "mor-gen",
+      "es": "mor-gen",
+      "de": "Morgen",
+      "ru": "mor-gen",
+      "it": "mor-gen"
+    },
+    "translations": {
+      "en": "morning (also “tomorrow”)",
+      "ko": "아침 (「내일」 뜻도)",
+      "ja": "朝（「明日」の意味も）",
+      "zh": "早上（也有“明天”）",
+      "fr": "matin (aussi « demain »)",
+      "es": "mañana",
+      "de": "Morgen",
+      "ru": "утро (также «завтра»)",
+      "it": "mattina"
+    }
+  },
+  {
+    "quiz_id": "de_time_am",
+    "question_word": "morgens",
+    "pronunciations": {
+      "en": "mor-gens",
+      "ko": "모르겐스",
+      "ja": "モルゲンス",
+      "zh": "mor-gens",
+      "fr": "mor-gens",
+      "es": "mor-gens",
+      "de": "morgens",
+      "ru": "mor-gens",
+      "it": "mor-gens"
+    },
+    "translations": {
+      "en": "a.m. / in the morning",
+      "ko": "오전 / 아침에",
+      "ja": "午前 / 朝に",
+      "zh": "上午",
+      "fr": "le matin",
+      "es": "por la mañana",
+      "de": "morgens",
+      "ru": "утром",
+      "it": "di mattina"
+    }
+  },
+  {
+    "quiz_id": "de_time_noon",
+    "question_word": "Mittag",
+    "pronunciations": {
+      "en": "mit-tahk",
+      "ko": "미탁",
+      "ja": "ミッターク",
+      "zh": "mit-tahk",
+      "fr": "mit-tahk",
+      "es": "mit-tahk",
+      "de": "Mittag",
+      "ru": "mit-tahk",
+      "it": "mit-tahk"
+    },
+    "translations": {
+      "en": "noon / midday",
+      "ko": "정오 / 낮",
+      "ja": "正午 / 昼",
+      "zh": "中午",
+      "fr": "midi",
+      "es": "mediodía",
+      "de": "Mittag",
+      "ru": "полдень",
+      "it": "mezzogiorno"
+    }
+  },
+  {
+    "quiz_id": "de_time_afternoon",
+    "question_word": "Nachmittag",
+    "pronunciations": {
+      "en": "nahkh-mit-tahk",
+      "ko": "나흐미탁",
+      "ja": "ナーハミッターク",
+      "zh": "nahkh-mit-tahk",
+      "fr": "nahkh-mit-tahk",
+      "es": "nahkh-mit-tahk",
+      "de": "Nachmittag",
+      "ru": "nahkh-mit-tahk",
+      "it": "nahkh-mit-tahk"
+    },
+    "translations": {
+      "en": "afternoon",
+      "ko": "오후",
+      "ja": "午後",
+      "zh": "下午",
+      "fr": "après-midi",
+      "es": "tarde",
+      "de": "Nachmittag",
+      "ru": "после полудня",
+      "it": "pomeriggio"
+    }
+  },
+  {
+    "quiz_id": "de_time_evening",
+    "question_word": "Abend",
+    "pronunciations": {
+      "en": "ah-bent",
+      "ko": "아벤트",
+      "ja": "アーベント",
+      "zh": "ah-bent",
+      "fr": "ah-bent",
+      "es": "ah-bent",
+      "de": "Abend",
+      "ru": "ah-bent",
+      "it": "ah-bent"
+    },
+    "translations": {
+      "en": "evening",
+      "ko": "저녁",
+      "ja": "夕方 / 晩",
+      "zh": "傍晚 / 晚上",
+      "fr": "soir",
+      "es": "tarde / noche",
+      "de": "Abend",
+      "ru": "вечер",
+      "it": "sera"
+    }
+  },
+  {
+    "quiz_id": "de_time_night",
+    "question_word": "Nacht",
+    "pronunciations": {
+      "en": "nakht",
+      "ko": "나흐트",
+      "ja": "ナハト",
+      "zh": "nakht",
+      "fr": "nakht",
+      "es": "nakht",
+      "de": "Nacht",
+      "ru": "nakht",
+      "it": "nakht"
+    },
+    "translations": {
+      "en": "night",
+      "ko": "밤",
+      "ja": "夜",
+      "zh": "夜晚",
+      "fr": "nuit",
+      "es": "noche",
+      "de": "Nacht",
+      "ru": "ночь",
+      "it": "notte"
+    }
+  },
+  {
+    "quiz_id": "de_time_at_night",
+    "question_word": "nachts",
+    "pronunciations": {
+      "en": "nakhts",
+      "ko": "나흐츠",
+      "ja": "ナハツ",
+      "zh": "nakhts",
+      "fr": "nakhts",
+      "es": "nakhts",
+      "de": "nachts",
+      "ru": "nakhts",
+      "it": "nakhts"
+    },
+    "translations": {
+      "en": "at night",
+      "ko": "밤에",
+      "ja": "夜に",
+      "zh": "在夜里",
+      "fr": "la nuit",
+      "es": "por la noche",
+      "de": "nachts",
+      "ru": "ночью",
+      "it": "di notte"
+    }
+  },
+  {
+    "quiz_id": "de_time_now",
+    "question_word": "jetzt",
+    "pronunciations": {
+      "en": "yetst",
+      "ko": "예츠트",
+      "ja": "イェッツト",
+      "zh": "yetst",
+      "fr": "yetst",
+      "es": "yetst",
+      "de": "jetzt",
+      "ru": "yetst",
+      "it": "yetst"
+    },
+    "translations": {
+      "en": "now",
+      "ko": "지금",
+      "ja": "今",
+      "zh": "现在",
+      "fr": "maintenant",
+      "es": "ahora",
+      "de": "jetzt",
+      "ru": "сейчас",
+      "it": "adesso"
+    }
+  }
+]

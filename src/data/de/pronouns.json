@@ -1,0 +1,236 @@
+[
+  {
+    "quiz_id": "de_pronouns_ich",
+    "question_word": "ich",
+    "pronunciations": {
+      "en": "ikh/ich",
+      "ko": "이히",
+      "ja": "イッヒ",
+      "zh": "ich",
+      "fr": "ich",
+      "es": "ich",
+      "de": "ich",
+      "ru": "их",
+      "it": "ich"
+    },
+    "translations": {
+      "en": "I (Nominativ)",
+      "ko": "나 (주격)",
+      "ja": "私（主格）",
+      "zh": "我（主格）",
+      "fr": "je (nominatif)",
+      "es": "yo (nominativo)",
+      "de": "ich (Nominativ)",
+      "ru": "я (именительный)",
+      "it": "io (nominativo)"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_du",
+    "question_word": "du",
+    "pronunciations": {
+      "en": "doo/du",
+      "ko": "두",
+      "ja": "ドゥ",
+      "zh": "du",
+      "fr": "du",
+      "es": "du",
+      "de": "du",
+      "ru": "ду",
+      "it": "du"
+    },
+    "translations": {
+      "en": "you (singular, informal — Nominativ)",
+      "ko": "너 (단수·반말, 주격)",
+      "ja": "君（単数・くだけた・主格）",
+      "zh": "你（单数随便、主格）",
+      "fr": "tu (familier, nominatif)",
+      "es": "tú (informal, nominativo)",
+      "de": "du (informell, Nominativ)",
+      "ru": "ты (неформ., имен.)",
+      "it": "tu (informale, nominativo)"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_er",
+    "question_word": "er",
+    "pronunciations": {
+      "en": "air/er",
+      "ko": "에어",
+      "ja": "エア",
+      "zh": "er",
+      "fr": "er",
+      "es": "er",
+      "de": "er",
+      "ru": "эр",
+      "it": "er"
+    },
+    "translations": {
+      "en": "he (Nominativ)",
+      "ko": "그 (남성, 주격)",
+      "ja": "彼（主格）",
+      "zh": "他（主格）",
+      "fr": "il (nominatif)",
+      "es": "él (nominativo)",
+      "de": "er (Nominativ)",
+      "ru": "он (имен.)",
+      "it": "lui (nominativo)"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_sie_she",
+    "question_word": "sie (f.)",
+    "pronunciations": {
+      "en": "zee/sie",
+      "ko": "지",
+      "ja": "ジー",
+      "zh": "sie",
+      "fr": "sie",
+      "es": "sie",
+      "de": "sie",
+      "ru": "зи",
+      "it": "sie"
+    },
+    "translations": {
+      "en": "she (Nominativ) — same spelling as “they” / formal “you”",
+      "ko": "그녀 (주격) — 「그들」·존댓말「당신」과 철자 동일",
+      "ja": "彼女（主格）— 「彼ら」・丁寧「あなた」と同じつづり",
+      "zh": "她（主格）— 与“他们”／敬称“您”同形",
+      "fr": "elle (nominatif) — même orthographe que « ils/elles » / « vous » poli",
+      "es": "ella (nominativo) — misma ortografía que “ellos” / “usted”",
+      "de": "sie (f., Nominativ) — gleich wie Plural / Sie",
+      "ru": "она (имен.) — как «они» / вежл. «вы»",
+      "it": "lei (nominativo) — stessa forma di «loro» / «Lei»"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_es",
+    "question_word": "es",
+    "pronunciations": {
+      "en": "ess/es",
+      "ko": "에스",
+      "ja": "エス",
+      "zh": "es",
+      "fr": "es",
+      "es": "es",
+      "de": "es",
+      "ru": "эс",
+      "it": "es"
+    },
+    "translations": {
+      "en": "it (neuter — Nominativ); also dummy subject (es regnet)",
+      "ko": "그것 (중성, 주격); 가주어(es regnet)도",
+      "ja": "それ（中性・主格）。形式主語（es regnet）にも",
+      "zh": "它（中性主格）；也作虚主语（es regnet）",
+      "fr": "il neutre / ça (nominatif) ; sujet impersonnel",
+      "es": "ello / neutro (nominativo); sujeto impersonal",
+      "de": "es (Neutrum, Nominativ); auch Platzhalter",
+      "ru": "оно (ср. р., имен.); также безличное",
+      "it": "esso / neutro (nominativo); anche soggetto formale"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_wir",
+    "question_word": "wir",
+    "pronunciations": {
+      "en": "veer/wir",
+      "ko": "비어",
+      "ja": "ヴィア",
+      "zh": "wir",
+      "fr": "wir",
+      "es": "wir",
+      "de": "wir",
+      "ru": "вир",
+      "it": "wir"
+    },
+    "translations": {
+      "en": "we (Nominativ)",
+      "ko": "우리 (주격)",
+      "ja": "私たち（主格）",
+      "zh": "我们（主格）",
+      "fr": "nous (nominatif)",
+      "es": "nosotros (nominativo)",
+      "de": "wir (Nominativ)",
+      "ru": "мы (имен.)",
+      "it": "noi (nominativo)"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_ihr",
+    "question_word": "ihr",
+    "pronunciations": {
+      "en": "eer/ihr",
+      "ko": "이아",
+      "ja": "イーア",
+      "zh": "ihr",
+      "fr": "ihr",
+      "es": "ihr",
+      "de": "ihr",
+      "ru": "ир",
+      "it": "ihr"
+    },
+    "translations": {
+      "en": "you (plural, informal — Nominativ); also “her” (Dativ) / “their”",
+      "ko": "너희 (복수·반말, 주격); 여격 「그녀에게」·소유 「그들의」와도 동형",
+      "ja": "君たち（複数・くだけた・主格）。与格「彼女に」・所有「彼らの」と同形もあり",
+      "zh": "你们（复数随便、主格）；也与与格“她”／所有格“他们的”同形",
+      "fr": "vous (pluriel familier, nominatif) ; aussi datif « lui(f.) » / possessif",
+      "es": "vosotros (nominativo); también dativo “le(f.)” / posesivo",
+      "de": "ihr (Nom. Pl. informell); auch Dativ sg. f. / Possessiv",
+      "ru": "вы (мн. неформ., имен.); также дат. «ей» / притяж.",
+      "it": "voi (nominativo); anche dativo f. / possessivo"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_sie_they",
+    "question_word": "sie (Pl.)",
+    "pronunciations": {
+      "en": "zee/sie",
+      "ko": "지",
+      "ja": "ジー",
+      "zh": "sie",
+      "fr": "sie",
+      "es": "sie",
+      "de": "sie",
+      "ru": "зи",
+      "it": "sie"
+    },
+    "translations": {
+      "en": "they (Nominativ) — same spelling as “she”",
+      "ko": "그들 (주격) — 「그녀」와 철자 동일",
+      "ja": "彼ら（主格）— 「彼女」と同じつづり",
+      "zh": "他们（主格）— 与“她”同形",
+      "fr": "ils / elles (nominatif) — même orthographe que « elle »",
+      "es": "ellos / ellas (nominativo) — igual que “ella”",
+      "de": "sie (Plural, Nominativ) — gleich wie f. sg.",
+      "ru": "они (имен.) — как «она»",
+      "it": "loro (nominativo) — stessa forma di «lei»"
+    }
+  },
+  {
+    "quiz_id": "de_pronouns_Sie",
+    "question_word": "Sie",
+    "pronunciations": {
+      "en": "zee/Sie",
+      "ko": "지",
+      "ja": "ジー",
+      "zh": "Sie",
+      "fr": "Sie",
+      "es": "usted/Sie",
+      "de": "Sie",
+      "ru": "Зи",
+      "it": "Sie"
+    },
+    "translations": {
+      "en": "you (formal, sg/pl — Nominativ); capitalized; 3rd-person plural verbs",
+      "ko": "당신 (존댓말 단·복, 주격); 대문자; 3인칭 복수 동사",
+      "ja": "あなた（丁寧・単複・主格）。大文字。三人称複数の動詞",
+      "zh": "您（正式单复数、主格）；大写；用第三人称复数动词",
+      "fr": "vous (formel, nominatif) — majuscule ; verbe à la 3e pluriel",
+      "es": "usted / ustedes (formal) — mayúscula ; verbo en 3.ª plural",
+      "de": "Sie (höflich, Nom.) — groß ; Verb in 3. Person Plural",
+      "ru": "вы (вежл., имен.) — с заглавной ; глагол во мн. 3-го лица",
+      "it": "Lei / Loro formale — maiuscola ; verbo alla 3ª plurale"
+    }
+  }
+]

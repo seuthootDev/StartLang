@@ -1,0 +1,574 @@
+[
+  {
+    "quiz_id": "fr_demonstratives_ce",
+    "question_word": "ce",
+    "pronunciations": {
+      "en": "suh/ce",
+      "ko": "스",
+      "ja": "ス",
+      "zh": "suh/ce",
+      "fr": "ce",
+      "es": "suh/ce",
+      "de": "suh/ce",
+      "ru": "suh/ce",
+      "it": "suh/ce"
+    },
+    "translations": {
+      "en": "this / that (masculine singular + noun, before consonant)",
+      "ko": "이·그 (남성 단수 + 명사, 자음 앞)",
+      "ja": "この／その（男性単数＋名詞・子音の前）",
+      "zh": "这／那（阳性单数＋名词，辅音前）",
+      "fr": "ce (+ nom masculin, devant consonne)",
+      "es": "este / ese (masculino singular + sustantivo, ante consonante)",
+      "de": "dieser / jener (mask. Singular + Nomen, vor Konsonant)",
+      "ru": "этот / тот (+ сущ. м. р., перед согласной)",
+      "it": "this / that (masculine singular + noun, before consonant)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_cet",
+    "question_word": "cet",
+    "pronunciations": {
+      "en": "set/cet",
+      "ko": "세트",
+      "ja": "セ",
+      "zh": "set/cet",
+      "fr": "cet",
+      "es": "set/cet",
+      "de": "set/cet",
+      "ru": "set/cet",
+      "it": "set/cet"
+    },
+    "translations": {
+      "en": "this / that (masculine singular + noun, before vowel or silent h)",
+      "ko": "이·그 (남성 단수 + 명사, 모음·묵음 h 앞)",
+      "ja": "この／その（男性単数＋名詞・母音／無音の h の前）",
+      "zh": "这／那（阳性单数＋名词，元音或哑音 h 前）",
+      "fr": "cet (+ nom masculin, devant voyelle / h muet)",
+      "es": "este / ese (masculino singular, ante vocal / h muda)",
+      "de": "dieser / jener (mask. Singular, vor Vokal / stummem h)",
+      "ru": "этот / тот (+ сущ. м. р., перед гласной / немым h)",
+      "it": "this / that (masculine singular + noun, before vowel or silent h)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_cette",
+    "question_word": "cette",
+    "pronunciations": {
+      "en": "set/cette",
+      "ko": "세트",
+      "ja": "セト",
+      "zh": "set/cette",
+      "fr": "cette",
+      "es": "set/cette",
+      "de": "set/cette",
+      "ru": "set/cette",
+      "it": "set/cette"
+    },
+    "translations": {
+      "en": "this / that (feminine singular + noun)",
+      "ko": "이·그 (여성 단수 + 명사)",
+      "ja": "この／その（女性単数＋名詞）",
+      "zh": "这／那（阴性单数＋名词）",
+      "fr": "cette (+ nom féminin)",
+      "es": "esta / esa (femenino singular + sustantivo)",
+      "de": "diese / jene (fem. Singular + Nomen)",
+      "ru": "эта / та (+ сущ. ж. р.)",
+      "it": "this / that (feminine singular + noun)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_ces",
+    "question_word": "ces",
+    "pronunciations": {
+      "en": "seh/ces",
+      "ko": "세",
+      "ja": "セ",
+      "zh": "seh/ces",
+      "fr": "ces",
+      "es": "seh/ces",
+      "de": "seh/ces",
+      "ru": "seh/ces",
+      "it": "seh/ces"
+    },
+    "translations": {
+      "en": "these / those (+ plural noun)",
+      "ko": "이들·그것들 (+ 복수 명사)",
+      "ja": "これらの／それらの（＋複数名詞）",
+      "zh": "这些／那些（＋复数名词）",
+      "fr": "ces (+ nom pluriel)",
+      "es": "estos / esos (+ sustantivo plural)",
+      "de": "diese / jene (+ Pluralnomen)",
+      "ru": "эти / те (+ сущ. во мн. ч.)",
+      "it": "these / those (+ plural noun)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_ca",
+    "question_word": "ça",
+    "pronunciations": {
+      "en": "sa/ça",
+      "ko": "사",
+      "ja": "サ",
+      "zh": "sa/ça",
+      "fr": "ça",
+      "es": "sa/ça",
+      "de": "sa/ça",
+      "ru": "sa/ça",
+      "it": "sa/ça"
+    },
+    "translations": {
+      "en": "this / that / it (everyday spoken)",
+      "ko": "이것·그것 (일상 구어)",
+      "ja": "これ／それ（日常の口語）",
+      "zh": "这／那／它（口语）",
+      "fr": "ça (familier)",
+      "es": "esto / eso (hablado)",
+      "de": "das (umgangssprachlich)",
+      "ru": "это (разг.)",
+      "it": "this / that / it (everyday spoken)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_ceci",
+    "question_word": "ceci",
+    "pronunciations": {
+      "en": "suh-see",
+      "ko": "스시",
+      "ja": "スシ",
+      "zh": "suh-see",
+      "fr": "ceci",
+      "es": "suh-see",
+      "de": "suh-see",
+      "ru": "suh-see",
+      "it": "suh-see"
+    },
+    "translations": {
+      "en": "this (thing, more formal / written)",
+      "ko": "이것 (격식·문어 쪽)",
+      "ja": "これ（やや書き言葉）",
+      "zh": "这个（较正式／书面）",
+      "fr": "ceci (plus soutenu)",
+      "es": "esto (más formal)",
+      "de": "dieses (förmlicher)",
+      "ru": "это (более книжн.)",
+      "it": "this (thing, more formal / written)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_cela",
+    "question_word": "cela",
+    "pronunciations": {
+      "en": "suh-la",
+      "ko": "슬라",
+      "ja": "スラ",
+      "zh": "suh-la",
+      "fr": "cela",
+      "es": "suh-la",
+      "de": "suh-la",
+      "ru": "suh-la",
+      "it": "suh-la"
+    },
+    "translations": {
+      "en": "that (thing; often replaced by ça in speech)",
+      "ko": "그것 (구어에서는 흔히 ça)",
+      "ja": "それ（口語ではよく ça）",
+      "zh": "那个（口语常说 ça）",
+      "fr": "cela (souvent ça à l’oral)",
+      "es": "eso (a menudo ça en habla)",
+      "de": "jenes / das (mündlich oft ça)",
+      "ru": "то / это (в речи часто ça)",
+      "it": "that (thing; often replaced by ça in speech)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_celui",
+    "question_word": "celui",
+    "pronunciations": {
+      "en": "suh-lwee",
+      "ko": "슬뤼",
+      "ja": "スリュイ",
+      "zh": "suh-lwee",
+      "fr": "celui",
+      "es": "suh-lwee",
+      "de": "suh-lwee",
+      "ru": "suh-lwee",
+      "it": "suh-lwee"
+    },
+    "translations": {
+      "en": "this / that one (masculine); often + -ci / -là",
+      "ko": "그것·이쪽 (남성); 흔히 -ci / -là",
+      "ja": "それ／あれ（男性・よく -ci／-là）",
+      "zh": "这个／那个（阳性；常加 -ci／-là）",
+      "fr": "celui (souvent + -ci / -là)",
+      "es": "éste / ése (masculino; a menudo + -ci / -là)",
+      "de": "dieser / jener (mask.; oft + -ci / -là)",
+      "ru": "этот / тот (м. р.; часто + -ci / -là)",
+      "it": "this / that one (masculine); often + -ci / -là"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_celle",
+    "question_word": "celle",
+    "pronunciations": {
+      "en": "sel/celle",
+      "ko": "셀",
+      "ja": "セル",
+      "zh": "sel/celle",
+      "fr": "celle",
+      "es": "sel/celle",
+      "de": "sel/celle",
+      "ru": "sel/celle",
+      "it": "sel/celle"
+    },
+    "translations": {
+      "en": "this / that one (feminine); often + -ci / -là",
+      "ko": "그것·이쪽 (여성); 흔히 -ci / -là",
+      "ja": "それ／あれ（女性・よく -ci／-là）",
+      "zh": "这个／那个（阴性；常加 -ci／-là）",
+      "fr": "celle (souvent + -ci / -là)",
+      "es": "ésta / ésa (femenino; a menudo + -ci / -là)",
+      "de": "diese / jene (fem.; oft + -ci / -là)",
+      "ru": "эта / та (ж. р.; часто + -ci / -là)",
+      "it": "this / that one (feminine); often + -ci / -là"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_ceux",
+    "question_word": "ceux",
+    "pronunciations": {
+      "en": "suh/ceux",
+      "ko": "스",
+      "ja": "ス",
+      "zh": "suh/ceux",
+      "fr": "ceux",
+      "es": "suh/ceux",
+      "de": "suh/ceux",
+      "ru": "suh/ceux",
+      "it": "suh/ceux"
+    },
+    "translations": {
+      "en": "these / those ones (masculine plural)",
+      "ko": "이것들·그것들 (남성 복수)",
+      "ja": "これら／それら（男性複数）",
+      "zh": "这些／那些（阳性复数）",
+      "fr": "ceux (masculin pluriel)",
+      "es": "éstos / ésos (masculino plural)",
+      "de": "diese / jene (mask. Plural)",
+      "ru": "эти / те (м. р. мн.)",
+      "it": "these / those ones (masculine plural)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_celles",
+    "question_word": "celles",
+    "pronunciations": {
+      "en": "sel/celles",
+      "ko": "셀",
+      "ja": "セル",
+      "zh": "sel/celles",
+      "fr": "celles",
+      "es": "sel/celles",
+      "de": "sel/celles",
+      "ru": "sel/celles",
+      "it": "sel/celles"
+    },
+    "translations": {
+      "en": "these / those ones (feminine plural)",
+      "ko": "이것들·그것들 (여성 복수)",
+      "ja": "これら／それら（女性複数）",
+      "zh": "这些／那些（阴性复数）",
+      "fr": "celles (féminin pluriel)",
+      "es": "éstas / ésas (femenino plural)",
+      "de": "diese / jene (fem. Plural)",
+      "ru": "эти / те (ж. р. мн.)",
+      "it": "these / those ones (feminine plural)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_ici",
+    "question_word": "ici",
+    "pronunciations": {
+      "en": "ee-see/ici",
+      "ko": "이시",
+      "ja": "イシ",
+      "zh": "ee-see/ici",
+      "fr": "ici",
+      "es": "ee-see/ici",
+      "de": "ee-see/ici",
+      "ru": "ee-see/ici",
+      "it": "ee-see/ici"
+    },
+    "translations": {
+      "en": "here",
+      "ko": "여기",
+      "ja": "ここ",
+      "zh": "这里",
+      "fr": "ici",
+      "es": "aquí",
+      "de": "hier",
+      "ru": "здесь",
+      "it": "here"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_la",
+    "question_word": "là",
+    "pronunciations": {
+      "en": "la/là",
+      "ko": "라",
+      "ja": "ラ",
+      "zh": "la/là",
+      "fr": "là",
+      "es": "la/là",
+      "de": "la/là",
+      "ru": "la/là",
+      "it": "la/là"
+    },
+    "translations": {
+      "en": "there / here (pointing; also “then”)",
+      "ko": "거기·저기 (가리키며; “그때” 뜻도)",
+      "ja": "そこ／あそこ（指し示し。「そのとき」の意味も）",
+      "zh": "那里／这儿（指着说；也有“那时”）",
+      "fr": "là (lieu / emphase)",
+      "es": "ahí / allí",
+      "de": "da / dort",
+      "ru": "там / вот",
+      "it": "there / here (pointing; also “then”)"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_labas",
+    "question_word": "là-bas",
+    "pronunciations": {
+      "en": "la-ba",
+      "ko": "라바",
+      "ja": "ラバ",
+      "zh": "la-ba",
+      "fr": "là-bas",
+      "es": "la-ba",
+      "de": "la-ba",
+      "ru": "la-ba",
+      "it": "la-ba"
+    },
+    "translations": {
+      "en": "over there",
+      "ko": "저기 (멀리)",
+      "ja": "あそこ",
+      "zh": "那边",
+      "fr": "là-bas",
+      "es": "allá",
+      "de": "dort drüben",
+      "ru": "там (вдали)",
+      "it": "over there"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_devant",
+    "question_word": "devant",
+    "pronunciations": {
+      "en": "duh-von",
+      "ko": "드방",
+      "ja": "ドゥヴァン",
+      "zh": "duh-von",
+      "fr": "devant",
+      "es": "duh-von",
+      "de": "duh-von",
+      "ru": "duh-von",
+      "it": "duh-von"
+    },
+    "translations": {
+      "en": "in front / ahead",
+      "ko": "앞",
+      "ja": "前",
+      "zh": "前面",
+      "fr": "devant",
+      "es": "delante",
+      "de": "vorne / vor",
+      "ru": "впереди / перед",
+      "it": "in front / ahead"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_derriere",
+    "question_word": "derrière",
+    "pronunciations": {
+      "en": "de-ryer",
+      "ko": "데리에르",
+      "ja": "デリエール",
+      "zh": "de-ryer",
+      "fr": "derrière",
+      "es": "de-ryer",
+      "de": "de-ryer",
+      "ru": "de-ryer",
+      "it": "de-ryer"
+    },
+    "translations": {
+      "en": "behind / at the back",
+      "ko": "뒤",
+      "ja": "後ろ",
+      "zh": "后面",
+      "fr": "derrière",
+      "es": "detrás",
+      "de": "hinten / hinter",
+      "ru": "сзади / за",
+      "it": "behind / at the back"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_enhaut",
+    "question_word": "en haut",
+    "pronunciations": {
+      "en": "on o",
+      "ko": "앙 오",
+      "ja": "アン・オ",
+      "zh": "on o",
+      "fr": "en haut",
+      "es": "on o",
+      "de": "on o",
+      "ru": "on o",
+      "it": "on o"
+    },
+    "translations": {
+      "en": "up / upstairs / above",
+      "ko": "위 / 위로",
+      "ja": "上／上へ",
+      "zh": "上面／向上",
+      "fr": "en haut",
+      "es": "arriba",
+      "de": "oben / nach oben",
+      "ru": "наверху / вверх",
+      "it": "up / upstairs / above"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_enbas",
+    "question_word": "en bas",
+    "pronunciations": {
+      "en": "on ba",
+      "ko": "앙 바",
+      "ja": "アン・バ",
+      "zh": "on ba",
+      "fr": "en bas",
+      "es": "on ba",
+      "de": "on ba",
+      "ru": "on ba",
+      "it": "on ba"
+    },
+    "translations": {
+      "en": "down / downstairs / below",
+      "ko": "아래 / 아래로",
+      "ja": "下／下へ",
+      "zh": "下面／向下",
+      "fr": "en bas",
+      "es": "abajo",
+      "de": "unten / nach unten",
+      "ru": "внизу / вниз",
+      "it": "down / downstairs / below"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_agauche",
+    "question_word": "à gauche",
+    "pronunciations": {
+      "en": "a gosh",
+      "ko": "아 고슈",
+      "ja": "ア・ゴーシュ",
+      "zh": "a gosh",
+      "fr": "à gauche",
+      "es": "a gosh",
+      "de": "a gosh",
+      "ru": "a gosh",
+      "it": "a gosh"
+    },
+    "translations": {
+      "en": "on the left / to the left",
+      "ko": "왼쪽 / 왼쪽으로",
+      "ja": "左／左へ",
+      "zh": "左边／向左",
+      "fr": "à gauche",
+      "es": "a la izquierda",
+      "de": "links / nach links",
+      "ru": "слева / налево",
+      "it": "on the left / to the left"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_adroite",
+    "question_word": "à droite",
+    "pronunciations": {
+      "en": "a drwat",
+      "ko": "아 드루아트",
+      "ja": "ア・ドロワット",
+      "zh": "a drwat",
+      "fr": "à droite",
+      "es": "a drwat",
+      "de": "a drwat",
+      "ru": "a drwat",
+      "it": "a drwat"
+    },
+    "translations": {
+      "en": "on the right / to the right",
+      "ko": "오른쪽 / 오른쪽으로",
+      "ja": "右／右へ",
+      "zh": "右边／向右",
+      "fr": "à droite",
+      "es": "a la derecha",
+      "de": "rechts / nach rechts",
+      "ru": "справа / направо",
+      "it": "on the right / to the right"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_dedans",
+    "question_word": "dedans",
+    "pronunciations": {
+      "en": "duh-don",
+      "ko": "드당",
+      "ja": "ドゥダン",
+      "zh": "duh-don",
+      "fr": "dedans",
+      "es": "duh-don",
+      "de": "duh-don",
+      "ru": "duh-don",
+      "it": "duh-don"
+    },
+    "translations": {
+      "en": "inside",
+      "ko": "안 / 안에",
+      "ja": "中／中に",
+      "zh": "里面",
+      "fr": "dedans",
+      "es": "dentro",
+      "de": "drinnen / innen",
+      "ru": "внутри",
+      "it": "inside"
+    }
+  },
+  {
+    "quiz_id": "fr_demonstratives_dehors",
+    "question_word": "dehors",
+    "pronunciations": {
+      "en": "duh-or",
+      "ko": "드오르",
+      "ja": "ドゥオール",
+      "zh": "duh-or",
+      "fr": "dehors",
+      "es": "duh-or",
+      "de": "duh-or",
+      "ru": "duh-or",
+      "it": "duh-or"
+    },
+    "translations": {
+      "en": "outside",
+      "ko": "밖 / 밖에",
+      "ja": "外／外に",
+      "zh": "外面",
+      "fr": "dehors",
+      "es": "fuera",
+      "de": "draußen / außen",
+      "ru": "снаружи",
+      "it": "outside"
+    }
+  }
+]

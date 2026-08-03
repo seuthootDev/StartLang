@@ -1,0 +1,210 @@
+[
+  {
+    "quiz_id": "es_time_dawn",
+    "question_word": "amanecer",
+    "pronunciations": {
+      "en": "a-ma-ne-ser",
+      "ko": "아마네세르",
+      "ja": "アマネセル",
+      "zh": "a-ma-ne-ser",
+      "fr": "a-ma-ne-ser",
+      "es": "amanecer",
+      "de": "a-ma-ne-ser",
+      "ru": "a-ma-ne-ser",
+      "it": "a-ma-ne-ser"
+    },
+    "translations": {
+      "en": "dawn / daybreak",
+      "ko": "새벽 / 동틀 녘",
+      "ja": "明け方",
+      "zh": "黎明",
+      "fr": "aube",
+      "es": "amanecer",
+      "de": "Morgendämmerung",
+      "ru": "рассвет",
+      "it": "dawn / daybreak"
+    }
+  },
+  {
+    "quiz_id": "es_time_morning",
+    "question_word": "mañana",
+    "pronunciations": {
+      "en": "ma-nya-na",
+      "ko": "마냐나",
+      "ja": "マニャーナ",
+      "zh": "ma-nya-na",
+      "fr": "ma-nya-na",
+      "es": "mañana",
+      "de": "ma-nya-na",
+      "ru": "ma-nya-na",
+      "it": "ma-nya-na"
+    },
+    "translations": {
+      "en": "morning (also “tomorrow”)",
+      "ko": "아침 (「내일」 뜻도)",
+      "ja": "朝（「明日」の意味も）",
+      "zh": "早上（也有“明天”）",
+      "fr": "matin (aussi « demain »)",
+      "es": "mañana",
+      "de": "Morgen (auch „morgen“)",
+      "ru": "утро (также «завтра»)",
+      "it": "morning (also “tomorrow”)"
+    }
+  },
+  {
+    "quiz_id": "es_time_am",
+    "question_word": "por la mañana",
+    "pronunciations": {
+      "en": "por la ma-nya-na",
+      "ko": "포르 라 마냐나",
+      "ja": "ポル・ラ・マニャーナ",
+      "zh": "por la ma-nya-na",
+      "fr": "por la ma-nya-na",
+      "es": "por la mañana",
+      "de": "por la ma-nya-na",
+      "ru": "por la ma-nya-na",
+      "it": "por la ma-nya-na"
+    },
+    "translations": {
+      "en": "a.m. / in the morning",
+      "ko": "오전 / 아침에",
+      "ja": "午前 / 朝に",
+      "zh": "上午",
+      "fr": "le matin",
+      "es": "por la mañana",
+      "de": "morgens",
+      "ru": "утром",
+      "it": "a.m. / in the morning"
+    }
+  },
+  {
+    "quiz_id": "es_time_noon",
+    "question_word": "mediodía",
+    "pronunciations": {
+      "en": "me-dyo-dee-a",
+      "ko": "메디오디아",
+      "ja": "メディオディーア",
+      "zh": "me-dyo-dee-a",
+      "fr": "me-dyo-dee-a",
+      "es": "mediodía",
+      "de": "me-dyo-dee-a",
+      "ru": "me-dyo-dee-a",
+      "it": "me-dyo-dee-a"
+    },
+    "translations": {
+      "en": "noon / midday",
+      "ko": "정오 / 낮",
+      "ja": "正午 / 昼",
+      "zh": "中午",
+      "fr": "midi",
+      "es": "mediodía",
+      "de": "Mittag",
+      "ru": "полдень",
+      "it": "noon / midday"
+    }
+  },
+  {
+    "quiz_id": "es_time_pm",
+    "question_word": "tarde",
+    "pronunciations": {
+      "en": "tar-de",
+      "ko": "타르데",
+      "ja": "タルデ",
+      "zh": "tar-de",
+      "fr": "tar-de",
+      "es": "tarde",
+      "de": "tar-de",
+      "ru": "tar-de",
+      "it": "tar-de"
+    },
+    "translations": {
+      "en": "afternoon / evening (early)",
+      "ko": "오후 / 저녁(이른)",
+      "ja": "午後 / 夕方",
+      "zh": "下午 / 傍晚",
+      "fr": "après-midi / début de soirée",
+      "es": "tarde",
+      "de": "Nachmittag / früher Abend",
+      "ru": "после полудня / вечер",
+      "it": "afternoon / evening (early)"
+    }
+  },
+  {
+    "quiz_id": "es_time_evening",
+    "question_word": "noche",
+    "pronunciations": {
+      "en": "no-che",
+      "ko": "노체",
+      "ja": "ノチェ",
+      "zh": "no-che",
+      "fr": "no-che",
+      "es": "noche",
+      "de": "no-che",
+      "ru": "no-che",
+      "it": "no-che"
+    },
+    "translations": {
+      "en": "night / evening",
+      "ko": "밤 / 저녁",
+      "ja": "夜 / 晩",
+      "zh": "晚上 / 夜晚",
+      "fr": "soir / nuit",
+      "es": "noche",
+      "de": "Abend / Nacht",
+      "ru": "вечер / ночь",
+      "it": "night / evening"
+    }
+  },
+  {
+    "quiz_id": "es_time_night",
+    "question_word": "por la noche",
+    "pronunciations": {
+      "en": "por la no-che",
+      "ko": "포르 라 노체",
+      "ja": "ポル・ラ・ノチェ",
+      "zh": "por la no-che",
+      "fr": "por la no-che",
+      "es": "por la noche",
+      "de": "por la no-che",
+      "ru": "por la no-che",
+      "it": "por la no-che"
+    },
+    "translations": {
+      "en": "at night / in the evening",
+      "ko": "밤에",
+      "ja": "夜に",
+      "zh": "在晚上",
+      "fr": "le soir / la nuit",
+      "es": "por la noche",
+      "de": "nachts / abends",
+      "ru": "вечером / ночью",
+      "it": "at night / in the evening"
+    }
+  },
+  {
+    "quiz_id": "es_time_now",
+    "question_word": "ahora",
+    "pronunciations": {
+      "en": "a-o-ra",
+      "ko": "아오라",
+      "ja": "アオラ",
+      "zh": "a-o-ra",
+      "fr": "a-o-ra",
+      "es": "ahora",
+      "de": "a-o-ra",
+      "ru": "a-o-ra",
+      "it": "a-o-ra"
+    },
+    "translations": {
+      "en": "now",
+      "ko": "지금",
+      "ja": "今",
+      "zh": "现在",
+      "fr": "maintenant",
+      "es": "ahora",
+      "de": "jetzt",
+      "ru": "сейчас",
+      "it": "now"
+    }
+  }
+]

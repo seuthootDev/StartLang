@@ -408,7 +408,11 @@
 /* —— Learn themes: per-language palette + frosted UI over full-bleed art —— */
 .learn-shell[data-target-lang='ja'],
 .learn-shell[data-target-lang='ko'],
-.learn-shell[data-target-lang='ru'] {
+.learn-shell[data-target-lang='ru'],
+.learn-shell[data-target-lang='fr'],
+.learn-shell[data-target-lang='es'],
+.learn-shell[data-target-lang='de'],
+.learn-shell[data-target-lang='it'] {
   background-color: var(--paper);
   background-size: cover;
   background-position: center top;
@@ -425,7 +429,7 @@
   --accent: #c43c2c;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/ja/bg_j.png');
+  background-image: url('/assets/ja/bg_ja.png');
 }
 
 .learn-shell[data-target-lang='ko'] {
@@ -436,7 +440,7 @@
   --accent: #2f4f7a;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/ko/bg_k.png');
+  background-image: url('/assets/ko/bg_ko.png');
 }
 
 .learn-shell[data-target-lang='ru'] {
@@ -450,10 +454,58 @@
   background-image: url('/assets/ru/bg_ru.png');
 }
 
+.learn-shell[data-target-lang='fr'] {
+  --ink: #1b2433;
+  --ink-soft: #516074;
+  --paper: #f5f2eb;
+  --line: #c9c2b4;
+  --accent: #2f4f7a;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/fr/bg_fr.png');
+}
+
+.learn-shell[data-target-lang='es'] {
+  --ink: #1f2620;
+  --ink-soft: #546056;
+  --paper: #f6f1e8;
+  --line: #d0c6b4;
+  --accent: #b03a2e;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/es/bg_es.png');
+}
+
+.learn-shell[data-target-lang='de'] {
+  --ink: #1a1f24;
+  --ink-soft: #505860;
+  --paper: #f2efe8;
+  --line: #c8c3b8;
+  --accent: #8f2f2f;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/de/bg_de.png');
+}
+
+.learn-shell[data-target-lang='it'] {
+  --ink: #1c2620;
+  --ink-soft: #516057;
+  --paper: #f4f1e9;
+  --line: #c9c4b6;
+  --accent: #2f6b4f;
+  --ok: #2f6b4f;
+  --bad: #a33b3b;
+  background-image: url('/assets/it/bg_it.png');
+}
+
 /* Soft wash so illustration detail doesn’t fight text contrast */
 .learn-shell[data-target-lang='ja']::before,
 .learn-shell[data-target-lang='ko']::before,
-.learn-shell[data-target-lang='ru']::before {
+.learn-shell[data-target-lang='ru']::before,
+.learn-shell[data-target-lang='fr']::before,
+.learn-shell[data-target-lang='es']::before,
+.learn-shell[data-target-lang='de']::before,
+.learn-shell[data-target-lang='it']::before {
   content: '';
   position: fixed;
   inset: 0;
@@ -464,14 +516,22 @@
 
 .learn-shell[data-target-lang='ja'] > *,
 .learn-shell[data-target-lang='ko'] > *,
-.learn-shell[data-target-lang='ru'] > * {
+.learn-shell[data-target-lang='ru'] > *,
+.learn-shell[data-target-lang='fr'] > *,
+.learn-shell[data-target-lang='es'] > *,
+.learn-shell[data-target-lang='de'] > *,
+.learn-shell[data-target-lang='it'] > * {
   position: relative;
   z-index: 1;
 }
 
 .learn-shell[data-target-lang='ja'] .learn-shell__chrome,
 .learn-shell[data-target-lang='ko'] .learn-shell__chrome,
-.learn-shell[data-target-lang='ru'] .learn-shell__chrome {
+.learn-shell[data-target-lang='ru'] .learn-shell__chrome,
+.learn-shell[data-target-lang='fr'] .learn-shell__chrome,
+.learn-shell[data-target-lang='es'] .learn-shell__chrome,
+.learn-shell[data-target-lang='de'] .learn-shell__chrome,
+.learn-shell[data-target-lang='it'] .learn-shell__chrome {
   z-index: 30;
   background: color-mix(in srgb, var(--paper) 82%, white);
   border-bottom-color: color-mix(in srgb, var(--line) 70%, transparent);
@@ -480,7 +540,11 @@
 
 .learn-shell[data-target-lang='ja'] .learn-sidebar,
 .learn-shell[data-target-lang='ko'] .learn-sidebar,
-.learn-shell[data-target-lang='ru'] .learn-sidebar {
+.learn-shell[data-target-lang='ru'] .learn-sidebar,
+.learn-shell[data-target-lang='fr'] .learn-sidebar,
+.learn-shell[data-target-lang='es'] .learn-sidebar,
+.learn-shell[data-target-lang='de'] .learn-sidebar,
+.learn-shell[data-target-lang='it'] .learn-sidebar {
   background: color-mix(in srgb, var(--paper) 88%, white);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 0 1px color-mix(in srgb, var(--line) 40%, transparent);
@@ -489,7 +553,11 @@
 @media (min-width: 860px) {
   .learn-shell[data-target-lang='ja'] .learn-sidebar--desktop,
   .learn-shell[data-target-lang='ko'] .learn-sidebar--desktop,
-  .learn-shell[data-target-lang='ru'] .learn-sidebar--desktop {
+  .learn-shell[data-target-lang='ru'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='fr'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='es'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='de'] .learn-sidebar--desktop,
+  .learn-shell[data-target-lang='it'] .learn-sidebar--desktop {
     background: color-mix(in srgb, var(--paper) 78%, white);
     border-right-color: color-mix(in srgb, var(--line) 65%, transparent);
     backdrop-filter: blur(10px);
@@ -504,7 +572,11 @@
 
   .learn-shell[data-target-lang='ja'] .learn-shell__body,
   .learn-shell[data-target-lang='ko'] .learn-shell__body,
-  .learn-shell[data-target-lang='ru'] .learn-shell__body {
+  .learn-shell[data-target-lang='ru'] .learn-shell__body,
+  .learn-shell[data-target-lang='fr'] .learn-shell__body,
+  .learn-shell[data-target-lang='es'] .learn-shell__body,
+  .learn-shell[data-target-lang='de'] .learn-shell__body,
+  .learn-shell[data-target-lang='it'] .learn-shell__body {
     width: min(1120px, 100%);
   }
 }

@@ -1,0 +1,928 @@
+{
+  "table_id": "de_dates_ref",
+  "title": {
+    "en": "Dates",
+    "ko": "날짜 표현",
+    "ja": "日付の表現",
+    "zh": "日期表达",
+    "fr": "Dates",
+    "es": "Fechas",
+    "de": "Daten",
+    "ru": "Даты",
+    "it": "Date"
+  },
+  "note": {
+    "en": "German days of the month use ordinals — not cardinals like FR/ES/IT. Spoken: am + Dativ (am fünften März).",
+    "ko": "독일어 일자는 서수 — FR/ES/IT처럼 기수가 아닙니다. 구어: am + 여격 (am fünften März).",
+    "ja": "ドイツ語の日付の日は序数。口語: am ＋ 与格（am fünften März）。",
+    "zh": "德语日子用序数——不是法西意的基数。口语: am + 与格。",
+    "fr": "Jours = ordinaux (pas cardinaux). Oral : am + datif.",
+    "es": "Días = ordinales (no cardinales). Oral: am + dativo.",
+    "de": "Tage = Ordinalia. Mündlich: am + Dativ.",
+    "ru": "Числа = порядковые. Устно: am + дательный.",
+    "it": "Giorni = ordinali (non cardinali). Orale: am + dativo."
+  },
+  "rules": {
+    "en": [
+      "Pattern: am + ordinal (Dativ) + month — am dritten April.",
+      "Writing often uses digits: 3. April / 3.4.2024 (day.month.year).",
+      "Irregular stems: erste, dritte, siebte (also siebente); 20+ use -ste (zwanzigste).",
+      "Quiz prompts use the spoken am … forms; month names stay nominative."
+    ],
+    "ko": [
+      "패턴: am + 서수(여격) + 월 — am dritten April.",
+      "글에서는 숫자: 3. April / 3.4.2024 (일.월.년).",
+      "불규칙 어간: erste, dritte, siebte(또는 siebente); 20+는 -ste.",
+      "퀴즈는 구어 am … 형태; 월 이름은 주격 유지."
+    ],
+    "ja": [
+      "型: am ＋ 序数（与格）＋ 月。",
+      "書き: 3. April / 3.4.2024。",
+      "不規則: erste, dritte, siebte。20以降は -ste。",
+      "クイズは am … 形。月は主格。"
+    ],
+    "zh": [
+      "格式: am + 序数（与格）+ 月。",
+      "书写: 3. April / 3.4.2024。",
+      "不规则: erste、dritte、siebte；20+ 用 -ste。",
+      "测验用 am …；月份保持主格。"
+    ],
+    "fr": [
+      "Schéma : am + ordinal (datif) + mois.",
+      "Écrit : 3. April / 3.4.2024.",
+      "Irréguliers : erste, dritte, siebte ; dès 20 : -ste.",
+      "Quiz = formes am … ; mois au nominatif."
+    ],
+    "es": [
+      "Patrón: am + ordinal (dativo) + mes.",
+      "Escrito: 3. April / 3.4.2024.",
+      "Irregulares: erste, dritte, siebte; desde 20: -ste.",
+      "Quiz = formas am … ; mes en nominativo."
+    ],
+    "de": [
+      "Muster: am + Ordinal (Dativ) + Monat.",
+      "Schrift: 3. April / 3.4.2024.",
+      "Unregelmäßig: erste, dritte, siebte; ab 20: -ste.",
+      "Quiz = am … ; Monat im Nominativ."
+    ],
+    "ru": [
+      "Схема: am + порядковое (дат.) + месяц.",
+      "Письмо: 3. April / 3.4.2024.",
+      "Нерегулярные: erste, dritte, siebte; с 20: -ste.",
+      "Квиз = am … ; месяц в именительном."
+    ],
+    "it": [
+      "Schema: am + ordinale (dativo) + mese.",
+      "Scritto: 3. April / 3.4.2024.",
+      "Irregolari: erste, dritte, siebte; da 20: -ste.",
+      "Quiz = forme am … ; mese al nominativo."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Day of month (am + ordinal)",
+        "ko": "일자 (am + 서수)",
+        "ja": "日付の日（am ＋ 序数）",
+        "zh": "日子（am + 序数）",
+        "fr": "Jour du mois (am + ordinal)",
+        "es": "Día del mes (am + ordinal)",
+        "de": "Tag im Monat (am + Ordinal)",
+        "ru": "Число месяца (am + порядковое)",
+        "it": "Giorno del mese (am + ordinale)"
+      },
+      "note": {
+        "en": "These are the quiz cards. Combine with a month in speech: am ersten Januar.",
+        "ko": "퀴즈 카드입니다. 말할 때 월과 결합: am ersten Januar.",
+        "ja": "クイズ用。話すときは月と結合: am ersten Januar。",
+        "zh": "测验卡片。口语加月份: am ersten Januar。",
+        "fr": "Cartes du quiz. À l’oral + mois.",
+        "es": "Tarjetas del quiz. Oral + mes.",
+        "de": "Quizkarten. Mündlich + Monat.",
+        "ru": "Карточки квиза. Устно + месяц.",
+        "it": "Carte del quiz. All’orale + mese."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "German",
+            "ko": "독일어",
+            "ja": "ドイツ語",
+            "zh": "德语",
+            "fr": "Allemand",
+            "es": "Alemán",
+            "de": "Deutsch",
+            "ru": "Немецкий",
+            "it": "Tedesco"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "am ersten",
+          "meaning": {
+            "en": "1st (of the month)",
+            "ko": "1일",
+            "ja": "1日",
+            "zh": "1号",
+            "fr": "le 1",
+            "es": "día 1",
+            "de": "1.",
+            "ru": "1",
+            "it": "1"
+          },
+          "sound": {
+            "en": "am ers-ten",
+            "ko": "암 에르스텐",
+            "ja": "アム・エアステン",
+            "zh": "am ers-ten",
+            "fr": "am ers-ten",
+            "es": "am ers-ten",
+            "de": "am ersten",
+            "ru": "am ers-ten",
+            "it": "am ers-ten"
+          }
+        },
+        {
+          "form": "am zweiten",
+          "meaning": {
+            "en": "2nd (of the month)",
+            "ko": "2일",
+            "ja": "2日",
+            "zh": "2号",
+            "fr": "le 2",
+            "es": "día 2",
+            "de": "2.",
+            "ru": "2",
+            "it": "2"
+          },
+          "sound": {
+            "en": "am tsvai-ten",
+            "ko": "암 츠바이텐",
+            "ja": "アム・ツヴァイテン",
+            "zh": "am tsvai-ten",
+            "fr": "am tsvai-ten",
+            "es": "am tsvai-ten",
+            "de": "am zweiten",
+            "ru": "am tsvai-ten",
+            "it": "am tsvai-ten"
+          }
+        },
+        {
+          "form": "am dritten",
+          "meaning": {
+            "en": "3rd (of the month)",
+            "ko": "3일",
+            "ja": "3日",
+            "zh": "3号",
+            "fr": "le 3",
+            "es": "día 3",
+            "de": "3.",
+            "ru": "3",
+            "it": "3"
+          },
+          "sound": {
+            "en": "am drit-ten",
+            "ko": "암 드리텐",
+            "ja": "アム・ドリッテン",
+            "zh": "am drit-ten",
+            "fr": "am drit-ten",
+            "es": "am drit-ten",
+            "de": "am dritten",
+            "ru": "am drit-ten",
+            "it": "am drit-ten"
+          }
+        },
+        {
+          "form": "am vierten",
+          "meaning": {
+            "en": "4th (of the month)",
+            "ko": "4일",
+            "ja": "4日",
+            "zh": "4号",
+            "fr": "le 4",
+            "es": "día 4",
+            "de": "4.",
+            "ru": "4",
+            "it": "4"
+          },
+          "sound": {
+            "en": "am feer-ten",
+            "ko": "암 피어텐",
+            "ja": "アム・フィーアテン",
+            "zh": "am feer-ten",
+            "fr": "am feer-ten",
+            "es": "am feer-ten",
+            "de": "am vierten",
+            "ru": "am feer-ten",
+            "it": "am feer-ten"
+          }
+        },
+        {
+          "form": "am fünften",
+          "meaning": {
+            "en": "5th (of the month)",
+            "ko": "5일",
+            "ja": "5日",
+            "zh": "5号",
+            "fr": "le 5",
+            "es": "día 5",
+            "de": "5.",
+            "ru": "5",
+            "it": "5"
+          },
+          "sound": {
+            "en": "am fuenf-ten",
+            "ko": "암 픈프텐",
+            "ja": "アム・フンフテン",
+            "zh": "am fuenf-ten",
+            "fr": "am fuenf-ten",
+            "es": "am fuenf-ten",
+            "de": "am fünften",
+            "ru": "am fuenf-ten",
+            "it": "am fuenf-ten"
+          }
+        },
+        {
+          "form": "am sechsten",
+          "meaning": {
+            "en": "6th (of the month)",
+            "ko": "6일",
+            "ja": "6日",
+            "zh": "6号",
+            "fr": "le 6",
+            "es": "día 6",
+            "de": "6.",
+            "ru": "6",
+            "it": "6"
+          },
+          "sound": {
+            "en": "am zex-ten",
+            "ko": "암 젝스텐",
+            "ja": "アム・ゼクステン",
+            "zh": "am zex-ten",
+            "fr": "am zex-ten",
+            "es": "am zex-ten",
+            "de": "am sechsten",
+            "ru": "am zex-ten",
+            "it": "am zex-ten"
+          }
+        },
+        {
+          "form": "am siebten",
+          "meaning": {
+            "en": "7th (of the month)",
+            "ko": "7일",
+            "ja": "7日",
+            "zh": "7号",
+            "fr": "le 7",
+            "es": "día 7",
+            "de": "7.",
+            "ru": "7",
+            "it": "7"
+          },
+          "sound": {
+            "en": "am zeep-ten",
+            "ko": "암 집텐",
+            "ja": "アム・ジープテン",
+            "zh": "am zeep-ten",
+            "fr": "am zeep-ten",
+            "es": "am zeep-ten",
+            "de": "am siebten",
+            "ru": "am zeep-ten",
+            "it": "am zeep-ten"
+          }
+        },
+        {
+          "form": "am achten",
+          "meaning": {
+            "en": "8th (of the month)",
+            "ko": "8일",
+            "ja": "8日",
+            "zh": "8号",
+            "fr": "le 8",
+            "es": "día 8",
+            "de": "8.",
+            "ru": "8",
+            "it": "8"
+          },
+          "sound": {
+            "en": "am akh-ten",
+            "ko": "암 아흐텐",
+            "ja": "アム・アハテン",
+            "zh": "am akh-ten",
+            "fr": "am akh-ten",
+            "es": "am akh-ten",
+            "de": "am achten",
+            "ru": "am akh-ten",
+            "it": "am akh-ten"
+          }
+        },
+        {
+          "form": "am neunten",
+          "meaning": {
+            "en": "9th (of the month)",
+            "ko": "9일",
+            "ja": "9日",
+            "zh": "9号",
+            "fr": "le 9",
+            "es": "día 9",
+            "de": "9.",
+            "ru": "9",
+            "it": "9"
+          },
+          "sound": {
+            "en": "am noyn-ten",
+            "ko": "암 노인텐",
+            "ja": "アム・ノインテン",
+            "zh": "am noyn-ten",
+            "fr": "am noyn-ten",
+            "es": "am noyn-ten",
+            "de": "am neunten",
+            "ru": "am noyn-ten",
+            "it": "am noyn-ten"
+          }
+        },
+        {
+          "form": "am zehnten",
+          "meaning": {
+            "en": "10th (of the month)",
+            "ko": "10일",
+            "ja": "10日",
+            "zh": "10号",
+            "fr": "le 10",
+            "es": "día 10",
+            "de": "10.",
+            "ru": "10",
+            "it": "10"
+          },
+          "sound": {
+            "en": "am tsayn-ten",
+            "ko": "암 체인텐",
+            "ja": "アム・ツェーンテン",
+            "zh": "am tsayn-ten",
+            "fr": "am tsayn-ten",
+            "es": "am tsayn-ten",
+            "de": "am zehnten",
+            "ru": "am tsayn-ten",
+            "it": "am tsayn-ten"
+          }
+        },
+        {
+          "form": "am elften",
+          "meaning": {
+            "en": "11th (of the month)",
+            "ko": "11일",
+            "ja": "11日",
+            "zh": "11号",
+            "fr": "le 11",
+            "es": "día 11",
+            "de": "11.",
+            "ru": "11",
+            "it": "11"
+          },
+          "sound": {
+            "en": "am elf-ten",
+            "ko": "암 엘프텐",
+            "ja": "アム・エルフテン",
+            "zh": "am elf-ten",
+            "fr": "am elf-ten",
+            "es": "am elf-ten",
+            "de": "am elften",
+            "ru": "am elf-ten",
+            "it": "am elf-ten"
+          }
+        },
+        {
+          "form": "am zwölften",
+          "meaning": {
+            "en": "12th (of the month)",
+            "ko": "12일",
+            "ja": "12日",
+            "zh": "12号",
+            "fr": "le 12",
+            "es": "día 12",
+            "de": "12.",
+            "ru": "12",
+            "it": "12"
+          },
+          "sound": {
+            "en": "am tsvuhlf-ten",
+            "ko": "암 츠뵐프텐",
+            "ja": "アム・ツヴェルフテン",
+            "zh": "am tsvuhlf-ten",
+            "fr": "am tsvuhlf-ten",
+            "es": "am tsvuhlf-ten",
+            "de": "am zwölften",
+            "ru": "am tsvuhlf-ten",
+            "it": "am tsvuhlf-ten"
+          }
+        },
+        {
+          "form": "am dreizehnten",
+          "meaning": {
+            "en": "13th (of the month)",
+            "ko": "13일",
+            "ja": "13日",
+            "zh": "13号",
+            "fr": "le 13",
+            "es": "día 13",
+            "de": "13.",
+            "ru": "13",
+            "it": "13"
+          },
+          "sound": {
+            "en": "am dry-tsayn-ten",
+            "ko": "암 드라이체인텐",
+            "ja": "アム・ドライツェーンテン",
+            "zh": "am dry-tsayn-ten",
+            "fr": "am dry-tsayn-ten",
+            "es": "am dry-tsayn-ten",
+            "de": "am dreizehnten",
+            "ru": "am dry-tsayn-ten",
+            "it": "am dry-tsayn-ten"
+          }
+        },
+        {
+          "form": "am vierzehnten",
+          "meaning": {
+            "en": "14th (of the month)",
+            "ko": "14일",
+            "ja": "14日",
+            "zh": "14号",
+            "fr": "le 14",
+            "es": "día 14",
+            "de": "14.",
+            "ru": "14",
+            "it": "14"
+          },
+          "sound": {
+            "en": "am feer-tsayn-ten",
+            "ko": "암 피어체인텐",
+            "ja": "アム・フィーアツェーンテン",
+            "zh": "am feer-tsayn-ten",
+            "fr": "am feer-tsayn-ten",
+            "es": "am feer-tsayn-ten",
+            "de": "am vierzehnten",
+            "ru": "am feer-tsayn-ten",
+            "it": "am feer-tsayn-ten"
+          }
+        },
+        {
+          "form": "am fünfzehnten",
+          "meaning": {
+            "en": "15th (of the month)",
+            "ko": "15일",
+            "ja": "15日",
+            "zh": "15号",
+            "fr": "le 15",
+            "es": "día 15",
+            "de": "15.",
+            "ru": "15",
+            "it": "15"
+          },
+          "sound": {
+            "en": "am fuenf-tsayn-ten",
+            "ko": "암 픈프체인텐",
+            "ja": "アム・フンフツェーンテン",
+            "zh": "am fuenf-tsayn-ten",
+            "fr": "am fuenf-tsayn-ten",
+            "es": "am fuenf-tsayn-ten",
+            "de": "am fünfzehnten",
+            "ru": "am fuenf-tsayn-ten",
+            "it": "am fuenf-tsayn-ten"
+          }
+        },
+        {
+          "form": "am sechzehnten",
+          "meaning": {
+            "en": "16th (of the month)",
+            "ko": "16일",
+            "ja": "16日",
+            "zh": "16号",
+            "fr": "le 16",
+            "es": "día 16",
+            "de": "16.",
+            "ru": "16",
+            "it": "16"
+          },
+          "sound": {
+            "en": "am zekh-tsayn-ten",
+            "ko": "암 제흐체인텐",
+            "ja": "アム・ゼヒツェーンテン",
+            "zh": "am zekh-tsayn-ten",
+            "fr": "am zekh-tsayn-ten",
+            "es": "am zekh-tsayn-ten",
+            "de": "am sechzehnten",
+            "ru": "am zekh-tsayn-ten",
+            "it": "am zekh-tsayn-ten"
+          }
+        },
+        {
+          "form": "am siebzehnten",
+          "meaning": {
+            "en": "17th (of the month)",
+            "ko": "17일",
+            "ja": "17日",
+            "zh": "17号",
+            "fr": "le 17",
+            "es": "día 17",
+            "de": "17.",
+            "ru": "17",
+            "it": "17"
+          },
+          "sound": {
+            "en": "am zeep-tsayn-ten",
+            "ko": "암 집체인텐",
+            "ja": "アム・ジープツェーンテン",
+            "zh": "am zeep-tsayn-ten",
+            "fr": "am zeep-tsayn-ten",
+            "es": "am zeep-tsayn-ten",
+            "de": "am siebzehnten",
+            "ru": "am zeep-tsayn-ten",
+            "it": "am zeep-tsayn-ten"
+          }
+        },
+        {
+          "form": "am achtzehnten",
+          "meaning": {
+            "en": "18th (of the month)",
+            "ko": "18일",
+            "ja": "18日",
+            "zh": "18号",
+            "fr": "le 18",
+            "es": "día 18",
+            "de": "18.",
+            "ru": "18",
+            "it": "18"
+          },
+          "sound": {
+            "en": "am akht-tsayn-ten",
+            "ko": "암 아흐트체인텐",
+            "ja": "アム・アハツェーンテン",
+            "zh": "am akht-tsayn-ten",
+            "fr": "am akht-tsayn-ten",
+            "es": "am akht-tsayn-ten",
+            "de": "am achtzehnten",
+            "ru": "am akht-tsayn-ten",
+            "it": "am akht-tsayn-ten"
+          }
+        },
+        {
+          "form": "am neunzehnten",
+          "meaning": {
+            "en": "19th (of the month)",
+            "ko": "19일",
+            "ja": "19日",
+            "zh": "19号",
+            "fr": "le 19",
+            "es": "día 19",
+            "de": "19.",
+            "ru": "19",
+            "it": "19"
+          },
+          "sound": {
+            "en": "am noyn-tsayn-ten",
+            "ko": "암 노인체인텐",
+            "ja": "アム・ノインツェーンテン",
+            "zh": "am noyn-tsayn-ten",
+            "fr": "am noyn-tsayn-ten",
+            "es": "am noyn-tsayn-ten",
+            "de": "am neunzehnten",
+            "ru": "am noyn-tsayn-ten",
+            "it": "am noyn-tsayn-ten"
+          }
+        },
+        {
+          "form": "am zwanzigsten",
+          "meaning": {
+            "en": "20th (of the month)",
+            "ko": "20일",
+            "ja": "20日",
+            "zh": "20号",
+            "fr": "le 20",
+            "es": "día 20",
+            "de": "20.",
+            "ru": "20",
+            "it": "20"
+          },
+          "sound": {
+            "en": "am tsvun-tsikh-sten",
+            "ko": "암 츠반치히스텐",
+            "ja": "アム・ツヴァンツィヒステン",
+            "zh": "am tsvun-tsikh-sten",
+            "fr": "am tsvun-tsikh-sten",
+            "es": "am tsvun-tsikh-sten",
+            "de": "am zwanzigsten",
+            "ru": "am tsvun-tsikh-sten",
+            "it": "am tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am einundzwanzigsten",
+          "meaning": {
+            "en": "21th (of the month)",
+            "ko": "21일",
+            "ja": "21日",
+            "zh": "21号",
+            "fr": "le 21",
+            "es": "día 21",
+            "de": "21.",
+            "ru": "21",
+            "it": "21"
+          },
+          "sound": {
+            "en": "am ain-oont-tsvun-tsikh-sten",
+            "ko": "암 아인운트츠반치히스텐",
+            "ja": "アム・アインウントツヴァンツィヒステン",
+            "zh": "am ain-oont-tsvun-tsikh-sten",
+            "fr": "am ain-oont-tsvun-tsikh-sten",
+            "es": "am ain-oont-tsvun-tsikh-sten",
+            "de": "am einundzwanzigsten",
+            "ru": "am ain-oont-tsvun-tsikh-sten",
+            "it": "am ain-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am zweiundzwanzigsten",
+          "meaning": {
+            "en": "22th (of the month)",
+            "ko": "22일",
+            "ja": "22日",
+            "zh": "22号",
+            "fr": "le 22",
+            "es": "día 22",
+            "de": "22.",
+            "ru": "22",
+            "it": "22"
+          },
+          "sound": {
+            "en": "am tsvai-oont-tsvun-tsikh-sten",
+            "ko": "암 츠바이운트츠반치히스텐",
+            "ja": "アム・ツヴァイウントツヴァンツィヒステン",
+            "zh": "am tsvai-oont-tsvun-tsikh-sten",
+            "fr": "am tsvai-oont-tsvun-tsikh-sten",
+            "es": "am tsvai-oont-tsvun-tsikh-sten",
+            "de": "am zweiundzwanzigsten",
+            "ru": "am tsvai-oont-tsvun-tsikh-sten",
+            "it": "am tsvai-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am dreiundzwanzigsten",
+          "meaning": {
+            "en": "23th (of the month)",
+            "ko": "23일",
+            "ja": "23日",
+            "zh": "23号",
+            "fr": "le 23",
+            "es": "día 23",
+            "de": "23.",
+            "ru": "23",
+            "it": "23"
+          },
+          "sound": {
+            "en": "am dry-oont-tsvun-tsikh-sten",
+            "ko": "암 드라이운트츠반치히스텐",
+            "ja": "アム・ドライウントツヴァンツィヒステン",
+            "zh": "am dry-oont-tsvun-tsikh-sten",
+            "fr": "am dry-oont-tsvun-tsikh-sten",
+            "es": "am dry-oont-tsvun-tsikh-sten",
+            "de": "am dreiundzwanzigsten",
+            "ru": "am dry-oont-tsvun-tsikh-sten",
+            "it": "am dry-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am vierundzwanzigsten",
+          "meaning": {
+            "en": "24th (of the month)",
+            "ko": "24일",
+            "ja": "24日",
+            "zh": "24号",
+            "fr": "le 24",
+            "es": "día 24",
+            "de": "24.",
+            "ru": "24",
+            "it": "24"
+          },
+          "sound": {
+            "en": "am feer-oont-tsvun-tsikh-sten",
+            "ko": "암 피어운트츠반치히스텐",
+            "ja": "アム・フィーアウントツヴァンツィヒステン",
+            "zh": "am feer-oont-tsvun-tsikh-sten",
+            "fr": "am feer-oont-tsvun-tsikh-sten",
+            "es": "am feer-oont-tsvun-tsikh-sten",
+            "de": "am vierundzwanzigsten",
+            "ru": "am feer-oont-tsvun-tsikh-sten",
+            "it": "am feer-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am fünfundzwanzigsten",
+          "meaning": {
+            "en": "25th (of the month)",
+            "ko": "25일",
+            "ja": "25日",
+            "zh": "25号",
+            "fr": "le 25",
+            "es": "día 25",
+            "de": "25.",
+            "ru": "25",
+            "it": "25"
+          },
+          "sound": {
+            "en": "am fuenf-oont-tsvun-tsikh-sten",
+            "ko": "암 픈프운트츠반치히스텐",
+            "ja": "アム・フンフウントツヴァンツィヒステン",
+            "zh": "am fuenf-oont-tsvun-tsikh-sten",
+            "fr": "am fuenf-oont-tsvun-tsikh-sten",
+            "es": "am fuenf-oont-tsvun-tsikh-sten",
+            "de": "am fünfundzwanzigsten",
+            "ru": "am fuenf-oont-tsvun-tsikh-sten",
+            "it": "am fuenf-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am sechsundzwanzigsten",
+          "meaning": {
+            "en": "26th (of the month)",
+            "ko": "26일",
+            "ja": "26日",
+            "zh": "26号",
+            "fr": "le 26",
+            "es": "día 26",
+            "de": "26.",
+            "ru": "26",
+            "it": "26"
+          },
+          "sound": {
+            "en": "am zex-oont-tsvun-tsikh-sten",
+            "ko": "암 젝스운트츠반치히스텐",
+            "ja": "アム・ゼクスウントツヴァンツィヒステン",
+            "zh": "am zex-oont-tsvun-tsikh-sten",
+            "fr": "am zex-oont-tsvun-tsikh-sten",
+            "es": "am zex-oont-tsvun-tsikh-sten",
+            "de": "am sechsundzwanzigsten",
+            "ru": "am zex-oont-tsvun-tsikh-sten",
+            "it": "am zex-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am siebenundzwanzigsten",
+          "meaning": {
+            "en": "27th (of the month)",
+            "ko": "27일",
+            "ja": "27日",
+            "zh": "27号",
+            "fr": "le 27",
+            "es": "día 27",
+            "de": "27.",
+            "ru": "27",
+            "it": "27"
+          },
+          "sound": {
+            "en": "am zee-ben-oont-tsvun-tsikh-sten",
+            "ko": "암 지벤운트츠반치히스텐",
+            "ja": "アム・ジーベンウントツヴァンツィヒステン",
+            "zh": "am zee-ben-oont-tsvun-tsikh-sten",
+            "fr": "am zee-ben-oont-tsvun-tsikh-sten",
+            "es": "am zee-ben-oont-tsvun-tsikh-sten",
+            "de": "am siebenundzwanzigsten",
+            "ru": "am zee-ben-oont-tsvun-tsikh-sten",
+            "it": "am zee-ben-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am achtundzwanzigsten",
+          "meaning": {
+            "en": "28th (of the month)",
+            "ko": "28일",
+            "ja": "28日",
+            "zh": "28号",
+            "fr": "le 28",
+            "es": "día 28",
+            "de": "28.",
+            "ru": "28",
+            "it": "28"
+          },
+          "sound": {
+            "en": "am akht-oont-tsvun-tsikh-sten",
+            "ko": "암 아흐트운트츠반치히스텐",
+            "ja": "アム・アハトウントツヴァンツィヒステン",
+            "zh": "am akht-oont-tsvun-tsikh-sten",
+            "fr": "am akht-oont-tsvun-tsikh-sten",
+            "es": "am akht-oont-tsvun-tsikh-sten",
+            "de": "am achtundzwanzigsten",
+            "ru": "am akht-oont-tsvun-tsikh-sten",
+            "it": "am akht-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am neunundzwanzigsten",
+          "meaning": {
+            "en": "29th (of the month)",
+            "ko": "29일",
+            "ja": "29日",
+            "zh": "29号",
+            "fr": "le 29",
+            "es": "día 29",
+            "de": "29.",
+            "ru": "29",
+            "it": "29"
+          },
+          "sound": {
+            "en": "am noyn-oont-tsvun-tsikh-sten",
+            "ko": "암 노인운트츠반치히스텐",
+            "ja": "アム・ノインウントツヴァンツィヒステン",
+            "zh": "am noyn-oont-tsvun-tsikh-sten",
+            "fr": "am noyn-oont-tsvun-tsikh-sten",
+            "es": "am noyn-oont-tsvun-tsikh-sten",
+            "de": "am neunundzwanzigsten",
+            "ru": "am noyn-oont-tsvun-tsikh-sten",
+            "it": "am noyn-oont-tsvun-tsikh-sten"
+          }
+        },
+        {
+          "form": "am dreißigsten",
+          "meaning": {
+            "en": "30th (of the month)",
+            "ko": "30일",
+            "ja": "30日",
+            "zh": "30号",
+            "fr": "le 30",
+            "es": "día 30",
+            "de": "30.",
+            "ru": "30",
+            "it": "30"
+          },
+          "sound": {
+            "en": "am dry-sikh-sten",
+            "ko": "암 드라이시히스텐",
+            "ja": "アム・ドライシヒステン",
+            "zh": "am dry-sikh-sten",
+            "fr": "am dry-sikh-sten",
+            "es": "am dry-sikh-sten",
+            "de": "am dreißigsten",
+            "ru": "am dry-sikh-sten",
+            "it": "am dry-sikh-sten"
+          }
+        },
+        {
+          "form": "am einunddreißigsten",
+          "meaning": {
+            "en": "31th (of the month)",
+            "ko": "31일",
+            "ja": "31日",
+            "zh": "31号",
+            "fr": "le 31",
+            "es": "día 31",
+            "de": "31.",
+            "ru": "31",
+            "it": "31"
+          },
+          "sound": {
+            "en": "am ain-oont-dry-sikh-sten",
+            "ko": "암 아인운트드라이시히스텐",
+            "ja": "アム・アインウントドライシヒステン",
+            "zh": "am ain-oont-dry-sikh-sten",
+            "fr": "am ain-oont-dry-sikh-sten",
+            "es": "am ain-oont-dry-sikh-sten",
+            "de": "am einunddreißigsten",
+            "ru": "am ain-oont-dry-sikh-sten",
+            "it": "am ain-oont-dry-sikh-sten"
+          }
+        }
+      ]
+    }
+  ]
+}

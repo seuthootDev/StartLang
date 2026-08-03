@@ -1,0 +1,236 @@
+[
+  {
+    "quiz_id": "fr_pronouns_je",
+    "question_word": "je",
+    "pronunciations": {
+      "en": "zhuh/je",
+      "ko": "주/즈",
+      "ja": "ジュ",
+      "zh": "zhuh/je",
+      "fr": "je",
+      "es": "zhuh/je",
+      "de": "schö/je",
+      "ru": "жё",
+      "it": "zhuh/je"
+    },
+    "translations": {
+      "en": "I / me",
+      "ko": "나 / 저",
+      "ja": "私",
+      "zh": "我",
+      "fr": "je / moi",
+      "es": "yo / mí",
+      "de": "ich / mich",
+      "ru": "я",
+      "it": "io / me"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_tu",
+    "question_word": "tu",
+    "pronunciations": {
+      "en": "tü/tu",
+      "ko": "튀/튀",
+      "ja": "テュ",
+      "zh": "tü/tu",
+      "fr": "tu",
+      "es": "tü/tu",
+      "de": "tü/tu",
+      "ru": "тю",
+      "it": "tü/tu"
+    },
+    "translations": {
+      "en": "you (singular, informal)",
+      "ko": "너 (단수·반말)",
+      "ja": "君・お前（単数・くだけた）",
+      "zh": "你（单数、随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты",
+      "it": "tu (informale)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_il",
+    "question_word": "il",
+    "pronunciations": {
+      "en": "eel/il",
+      "ko": "일",
+      "ja": "イル",
+      "zh": "il",
+      "fr": "il",
+      "es": "il",
+      "de": "il",
+      "ru": "иль",
+      "it": "eel/il"
+    },
+    "translations": {
+      "en": "he / it (masculine)",
+      "ko": "그 (남성) / 그것(남)",
+      "ja": "彼 / それ（男性）",
+      "zh": "他 / 它（阳性）",
+      "fr": "il (masculin)",
+      "es": "él (masculino)",
+      "de": "er (maskulin)",
+      "ru": "он",
+      "it": "lui / esso (maschile)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_elle",
+    "question_word": "elle",
+    "pronunciations": {
+      "en": "el/elle",
+      "ko": "엘",
+      "ja": "エル",
+      "zh": "elle",
+      "fr": "elle",
+      "es": "elle",
+      "de": "ell/elle",
+      "ru": "эль",
+      "it": "el/elle"
+    },
+    "translations": {
+      "en": "she / it (feminine)",
+      "ko": "그녀 / 그것(여)",
+      "ja": "彼女 / それ（女性）",
+      "zh": "她 / 它（阴性）",
+      "fr": "elle (féminin)",
+      "es": "ella (femenino)",
+      "de": "sie (feminin)",
+      "ru": "она",
+      "it": "lei / essa (femminile)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_on",
+    "question_word": "on",
+    "pronunciations": {
+      "en": "on/õ",
+      "ko": "옹",
+      "ja": "オン",
+      "zh": "on",
+      "fr": "on",
+      "es": "on",
+      "de": "on",
+      "ru": "он",
+      "it": "on/õ"
+    },
+    "translations": {
+      "en": "one / we (informal) / people",
+      "ko": "사람들 / 우리(구어) / 일반인",
+      "ja": "人々・私たち（口語）・一般の人",
+      "zh": "人们 / 我们（口语） / 一般人",
+      "fr": "on (indéfini / nous familier)",
+      "es": "uno / nosotros (informal)",
+      "de": "man / wir (umgangssprachlich)",
+      "ru": "люди / мы (разг.)",
+      "it": "si / noi (informale)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_nous",
+    "question_word": "nous",
+    "pronunciations": {
+      "en": "noo/nous",
+      "ko": "누",
+      "ja": "ヌ",
+      "zh": "nous",
+      "fr": "nous",
+      "es": "nous",
+      "de": "nu/nous",
+      "ru": "ну",
+      "it": "noo/nous"
+    },
+    "translations": {
+      "en": "we / us",
+      "ko": "우리",
+      "ja": "私たち",
+      "zh": "我们",
+      "fr": "nous",
+      "es": "nosotros",
+      "de": "wir / uns",
+      "ru": "мы",
+      "it": "noi / ci"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_vous",
+    "question_word": "vous",
+    "pronunciations": {
+      "en": "voo/vous",
+      "ko": "부",
+      "ja": "ヴ",
+      "zh": "vous",
+      "fr": "vous",
+      "es": "vous",
+      "de": "wu/vous",
+      "ru": "ву",
+      "it": "voo/vous"
+    },
+    "translations": {
+      "en": "you (plural / polite singular)",
+      "ko": "당신·여러분 (복수 / 존댓말 단수)",
+      "ja": "あなたたち / あなた（丁寧の単数）",
+      "zh": "你们 / 您（礼貌单数）",
+      "fr": "vous (pluriel / poli)",
+      "es": "ustedes / usted",
+      "de": "ihr / Sie",
+      "ru": "вы",
+      "it": "voi / Lei (cortesia)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_ils",
+    "question_word": "ils",
+    "pronunciations": {
+      "en": "eel/ils",
+      "ko": "일",
+      "ja": "イル",
+      "zh": "ils",
+      "fr": "ils",
+      "es": "ils",
+      "de": "il/ils",
+      "ru": "иль",
+      "it": "eel/ils"
+    },
+    "translations": {
+      "en": "they (masculine or mixed)",
+      "ko": "그들 (남성·혼성)",
+      "ja": "彼ら（男性・混成）",
+      "zh": "他们（阳性或混合）",
+      "fr": "ils (masculin / mixte)",
+      "es": "ellos (masculino / mixto)",
+      "de": "sie (maskulin / gemischt)",
+      "ru": "они (муж. / смешанные)",
+      "it": "loro (maschile / misto)"
+    }
+  },
+  {
+    "quiz_id": "fr_pronouns_elles",
+    "question_word": "elles",
+    "pronunciations": {
+      "en": "el/elles",
+      "ko": "엘",
+      "ja": "エル",
+      "zh": "elles",
+      "fr": "elles",
+      "es": "elles",
+      "de": "ell/elles",
+      "ru": "эль",
+      "it": "el/elles"
+    },
+    "translations": {
+      "en": "they (feminine)",
+      "ko": "그들 (여성)",
+      "ja": "彼女たち（女性）",
+      "zh": "她们（阴性）",
+      "fr": "elles (féminin)",
+      "es": "ellas (femenino)",
+      "de": "sie (feminin)",
+      "ru": "они (жен.)",
+      "it": "loro (femminile)"
+    }
+  }
+]

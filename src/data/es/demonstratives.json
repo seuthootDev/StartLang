@@ -1,0 +1,626 @@
+[
+  {
+    "quiz_id": "es_demonstratives_este",
+    "question_word": "este",
+    "pronunciations": {
+      "en": "es-te",
+      "ko": "에스테",
+      "ja": "エステ",
+      "zh": "es-te",
+      "fr": "es-te",
+      "es": "este",
+      "de": "es-te",
+      "ru": "es-te",
+      "it": "es-te"
+    },
+    "translations": {
+      "en": "this (masculine singular + noun, near me)",
+      "ko": "이 (남성 단수 + 명사, 화자 쪽)",
+      "ja": "この（男性単数＋名詞・話し手寄り）",
+      "zh": "这（阳性单数＋名词，靠近说话人）",
+      "fr": "ce / cet (près de moi)",
+      "es": "este",
+      "de": "dieser (bei mir)",
+      "ru": "этот (рядом со мной)",
+      "it": "this (masculine singular + noun, near me)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_esta",
+    "question_word": "esta",
+    "pronunciations": {
+      "en": "es-ta",
+      "ko": "에스타",
+      "ja": "エスタ",
+      "zh": "es-ta",
+      "fr": "es-ta",
+      "es": "esta",
+      "de": "es-ta",
+      "ru": "es-ta",
+      "it": "es-ta"
+    },
+    "translations": {
+      "en": "this (feminine singular + noun, near me)",
+      "ko": "이 (여성 단수 + 명사, 화자 쪽)",
+      "ja": "この（女性単数＋名詞・話し手寄り）",
+      "zh": "这（阴性单数＋名词，靠近说话人）",
+      "fr": "cette (près de moi)",
+      "es": "esta",
+      "de": "diese (bei mir)",
+      "ru": "эта (рядом со мной)",
+      "it": "this (feminine singular + noun, near me)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_estos",
+    "question_word": "estos",
+    "pronunciations": {
+      "en": "es-tos",
+      "ko": "에스토스",
+      "ja": "エストス",
+      "zh": "es-tos",
+      "fr": "es-tos",
+      "es": "estos",
+      "de": "es-tos",
+      "ru": "es-tos",
+      "it": "es-tos"
+    },
+    "translations": {
+      "en": "these (masculine plural, near me)",
+      "ko": "이들 (남성 복수, 화자 쪽)",
+      "ja": "これらの（男性複数・話し手寄り）",
+      "zh": "这些（阳性复数，靠近说话人）",
+      "fr": "ces (près de moi)",
+      "es": "estos",
+      "de": "diese (bei mir, mask.)",
+      "ru": "эти (рядом со мной)",
+      "it": "these (masculine plural, near me)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_esto",
+    "question_word": "esto",
+    "pronunciations": {
+      "en": "es-to",
+      "ko": "에스토",
+      "ja": "エスト",
+      "zh": "es-to",
+      "fr": "es-to",
+      "es": "esto",
+      "de": "es-to",
+      "ru": "es-to",
+      "it": "es-to"
+    },
+    "translations": {
+      "en": "this (neuter thing / situation, near me)",
+      "ko": "이것 (중성·상황, 화자 쪽)",
+      "ja": "これ（中性・状況・話し手寄り）",
+      "zh": "这个（中性／情况，靠近说话人）",
+      "fr": "ceci / ça (près de moi)",
+      "es": "esto",
+      "de": "dies (Neutrum, bei mir)",
+      "ru": "это (рядом со мной)",
+      "it": "this (neuter thing / situation, near me)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_ese",
+    "question_word": "ese",
+    "pronunciations": {
+      "en": "e-se",
+      "ko": "에세",
+      "ja": "エセ",
+      "zh": "e-se",
+      "fr": "e-se",
+      "es": "ese",
+      "de": "e-se",
+      "ru": "e-se",
+      "it": "e-se"
+    },
+    "translations": {
+      "en": "that (masculine singular + noun, near you / known)",
+      "ko": "그 (남성 단수 + 명사, 청자·이미 알려진)",
+      "ja": "その（男性単数＋名詞・相手寄り／既出）",
+      "zh": "那（阳性单数＋名词，靠近听者／已知）",
+      "fr": "ce / cet (près de toi / connu)",
+      "es": "ese",
+      "de": "jener / der (bei dir / bekannt)",
+      "ru": "тот (у тебя / известное)",
+      "it": "that (masculine singular + noun, near you / known)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_esa",
+    "question_word": "esa",
+    "pronunciations": {
+      "en": "e-sa",
+      "ko": "에사",
+      "ja": "エサ",
+      "zh": "e-sa",
+      "fr": "e-sa",
+      "es": "esa",
+      "de": "e-sa",
+      "ru": "e-sa",
+      "it": "e-sa"
+    },
+    "translations": {
+      "en": "that (feminine singular + noun, near you / known)",
+      "ko": "그 (여성 단수 + 명사, 청자·이미 알려진)",
+      "ja": "その（女性単数＋名詞・相手寄り／既出）",
+      "zh": "那（阴性单数＋名词，靠近听者／已知）",
+      "fr": "cette (près de toi / connu)",
+      "es": "esa",
+      "de": "jene / die (bei dir / bekannt)",
+      "ru": "та (у тебя / известное)",
+      "it": "that (feminine singular + noun, near you / known)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_esos",
+    "question_word": "esos",
+    "pronunciations": {
+      "en": "e-sos",
+      "ko": "에소스",
+      "ja": "エソス",
+      "zh": "e-sos",
+      "fr": "e-sos",
+      "es": "esos",
+      "de": "e-sos",
+      "ru": "e-sos",
+      "it": "e-sos"
+    },
+    "translations": {
+      "en": "those (masculine plural, near you / known)",
+      "ko": "그들 (남성 복수, 청자·알려진)",
+      "ja": "それらの（男性複数・相手寄り／既出）",
+      "zh": "那些（阳性复数，靠近听者／已知）",
+      "fr": "ces (près de toi / connu)",
+      "es": "esos",
+      "de": "jene (bei dir, mask.)",
+      "ru": "те (у тебя / известное)",
+      "it": "those (masculine plural, near you / known)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_eso",
+    "question_word": "eso",
+    "pronunciations": {
+      "en": "e-so",
+      "ko": "에소",
+      "ja": "エソ",
+      "zh": "e-so",
+      "fr": "e-so",
+      "es": "eso",
+      "de": "e-so",
+      "ru": "e-so",
+      "it": "e-so"
+    },
+    "translations": {
+      "en": "that (neuter thing / situation, near you / known)",
+      "ko": "그것 (중성·상황, 청자·알려진)",
+      "ja": "それ（中性・状況・相手寄り／既出）",
+      "zh": "那个（中性／情况，靠近听者／已知）",
+      "fr": "cela / ça",
+      "es": "eso",
+      "de": "das (Neutrum)",
+      "ru": "то / это",
+      "it": "that (neuter thing / situation, near you / known)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_aquel",
+    "question_word": "aquel",
+    "pronunciations": {
+      "en": "a-kel",
+      "ko": "아켈",
+      "ja": "アケル",
+      "zh": "a-kel",
+      "fr": "a-kel",
+      "es": "aquel",
+      "de": "a-kel",
+      "ru": "a-kel",
+      "it": "a-kel"
+    },
+    "translations": {
+      "en": "that (masculine singular + noun, over there / far)",
+      "ko": "저 (남성 단수 + 명사, 멀리)",
+      "ja": "あの（男性単数＋名詞・遠い）",
+      "zh": "那（阳性单数＋名词，远处）",
+      "fr": "ce / cet (loin)",
+      "es": "aquel",
+      "de": "jener (dort drüben)",
+      "ru": "тот (там вдали)",
+      "it": "that (masculine singular + noun, over there / far)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_aquella",
+    "question_word": "aquella",
+    "pronunciations": {
+      "en": "a-ke-ya",
+      "ko": "아케야",
+      "ja": "アケジャ",
+      "zh": "a-ke-ya",
+      "fr": "a-ke-ya",
+      "es": "aquella",
+      "de": "a-ke-ya",
+      "ru": "a-ke-ya",
+      "it": "a-ke-ya"
+    },
+    "translations": {
+      "en": "that (feminine singular + noun, over there / far)",
+      "ko": "저 (여성 단수 + 명사, 멀리)",
+      "ja": "あの（女性単数＋名詞・遠い）",
+      "zh": "那（阴性单数＋名词，远处）",
+      "fr": "cette (loin)",
+      "es": "aquella",
+      "de": "jene (dort drüben)",
+      "ru": "та (там вдали)",
+      "it": "that (feminine singular + noun, over there / far)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_aquellos",
+    "question_word": "aquellos",
+    "pronunciations": {
+      "en": "a-ke-yos",
+      "ko": "아케요스",
+      "ja": "アケジョス",
+      "zh": "a-ke-yos",
+      "fr": "a-ke-yos",
+      "es": "aquellos",
+      "de": "a-ke-yos",
+      "ru": "a-ke-yos",
+      "it": "a-ke-yos"
+    },
+    "translations": {
+      "en": "those (masculine plural, over there / far)",
+      "ko": "저것들 (남성 복수, 멀리)",
+      "ja": "あれら（男性複数・遠い）",
+      "zh": "那些（阳性复数，远处）",
+      "fr": "ces (loin)",
+      "es": "aquellos",
+      "de": "jene (dort, mask.)",
+      "ru": "те (там вдали)",
+      "it": "those (masculine plural, over there / far)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_aquello",
+    "question_word": "aquello",
+    "pronunciations": {
+      "en": "a-ke-yo",
+      "ko": "아케요",
+      "ja": "アケジョ",
+      "zh": "a-ke-yo",
+      "fr": "a-ke-yo",
+      "es": "aquello",
+      "de": "a-ke-yo",
+      "ru": "a-ke-yo",
+      "it": "a-ke-yo"
+    },
+    "translations": {
+      "en": "that (neuter thing / situation, far / abstract)",
+      "ko": "저것 (중성·상황, 멀리·추상)",
+      "ja": "あれ（中性・状況・遠い／抽象）",
+      "zh": "那个（中性／情况，远处／抽象）",
+      "fr": "cela (loin / abstrait)",
+      "es": "aquello",
+      "de": "jenes (Neutrum, fern)",
+      "ru": "то (там / абстрактно)",
+      "it": "that (neuter thing / situation, far / abstract)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_aqui",
+    "question_word": "aquí",
+    "pronunciations": {
+      "en": "a-kee",
+      "ko": "아키",
+      "ja": "アキ",
+      "zh": "a-kee",
+      "fr": "a-kee",
+      "es": "aquí",
+      "de": "a-kee",
+      "ru": "a-kee",
+      "it": "a-kee"
+    },
+    "translations": {
+      "en": "here (near me)",
+      "ko": "여기",
+      "ja": "ここ",
+      "zh": "这里",
+      "fr": "ici",
+      "es": "aquí",
+      "de": "hier",
+      "ru": "здесь",
+      "it": "here (near me)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_ahi",
+    "question_word": "ahí",
+    "pronunciations": {
+      "en": "a-ee/ahí",
+      "ko": "아이",
+      "ja": "アイ",
+      "zh": "a-ee/ahí",
+      "fr": "a-ee/ahí",
+      "es": "ahí",
+      "de": "a-ee/ahí",
+      "ru": "a-ee/ahí",
+      "it": "a-ee/ahí"
+    },
+    "translations": {
+      "en": "there (near you / known place)",
+      "ko": "거기 (청자·알려진 곳)",
+      "ja": "そこ（相手寄り／既知の場所）",
+      "zh": "那里（靠近听者／已知处）",
+      "fr": "là (près de toi)",
+      "es": "ahí",
+      "de": "da (bei dir)",
+      "ru": "там (у тебя / известное)",
+      "it": "there (near you / known place)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_alli",
+    "question_word": "allí",
+    "pronunciations": {
+      "en": "a-yee/allí",
+      "ko": "아지",
+      "ja": "アジ",
+      "zh": "a-yee/allí",
+      "fr": "a-yee/allí",
+      "es": "allí",
+      "de": "a-yee/allí",
+      "ru": "a-yee/allí",
+      "it": "a-yee/allí"
+    },
+    "translations": {
+      "en": "over there (farther)",
+      "ko": "저기 (더 멀리)",
+      "ja": "あそこ（より遠い）",
+      "zh": "那边（更远）",
+      "fr": "là-bas",
+      "es": "allí",
+      "de": "dort",
+      "ru": "там (дальше)",
+      "it": "over there (farther)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_alla",
+    "question_word": "allá",
+    "pronunciations": {
+      "en": "a-ya/allá",
+      "ko": "아야",
+      "ja": "アジャ",
+      "zh": "a-ya/allá",
+      "fr": "a-ya/allá",
+      "es": "allá",
+      "de": "a-ya/allá",
+      "ru": "a-ya/allá",
+      "it": "a-ya/allá"
+    },
+    "translations": {
+      "en": "over there / that way (often more vague / distant)",
+      "ko": "저기·저쪽 (더 막연·멀리)",
+      "ja": "あそこ／あちら（やや漠然・遠い）",
+      "zh": "那边／那边儿（较含糊／远）",
+      "fr": "là-bas / par là",
+      "es": "allá",
+      "de": "dort hin / da drüben",
+      "ru": "туда / там",
+      "it": "over there / that way (often more vague / distant)"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_delante",
+    "question_word": "delante",
+    "pronunciations": {
+      "en": "de-lan-te",
+      "ko": "델란테",
+      "ja": "デランテ",
+      "zh": "de-lan-te",
+      "fr": "de-lan-te",
+      "es": "delante",
+      "de": "de-lan-te",
+      "ru": "de-lan-te",
+      "it": "de-lan-te"
+    },
+    "translations": {
+      "en": "in front / ahead",
+      "ko": "앞",
+      "ja": "前",
+      "zh": "前面",
+      "fr": "devant",
+      "es": "delante",
+      "de": "vorne / vor",
+      "ru": "впереди / перед",
+      "it": "in front / ahead"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_detras",
+    "question_word": "detrás",
+    "pronunciations": {
+      "en": "de-tras",
+      "ko": "데트라스",
+      "ja": "デトラス",
+      "zh": "de-tras",
+      "fr": "de-tras",
+      "es": "detrás",
+      "de": "de-tras",
+      "ru": "de-tras",
+      "it": "de-tras"
+    },
+    "translations": {
+      "en": "behind / at the back",
+      "ko": "뒤",
+      "ja": "後ろ",
+      "zh": "后面",
+      "fr": "derrière",
+      "es": "detrás",
+      "de": "hinten / hinter",
+      "ru": "сзади / за",
+      "it": "behind / at the back"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_arriba",
+    "question_word": "arriba",
+    "pronunciations": {
+      "en": "a-ree-ba",
+      "ko": "아리바",
+      "ja": "アリバ",
+      "zh": "a-ree-ba",
+      "fr": "a-ree-ba",
+      "es": "arriba",
+      "de": "a-ree-ba",
+      "ru": "a-ree-ba",
+      "it": "a-ree-ba"
+    },
+    "translations": {
+      "en": "up / above / upstairs",
+      "ko": "위 / 위로",
+      "ja": "上／上へ",
+      "zh": "上面／向上",
+      "fr": "en haut",
+      "es": "arriba",
+      "de": "oben / nach oben",
+      "ru": "наверху / вверх",
+      "it": "up / above / upstairs"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_abajo",
+    "question_word": "abajo",
+    "pronunciations": {
+      "en": "a-ba-ho",
+      "ko": "아바호",
+      "ja": "アバホ",
+      "zh": "a-ba-ho",
+      "fr": "a-ba-ho",
+      "es": "abajo",
+      "de": "a-ba-ho",
+      "ru": "a-ba-ho",
+      "it": "a-ba-ho"
+    },
+    "translations": {
+      "en": "down / below / downstairs",
+      "ko": "아래 / 아래로",
+      "ja": "下／下へ",
+      "zh": "下面／向下",
+      "fr": "en bas",
+      "es": "abajo",
+      "de": "unten / nach unten",
+      "ru": "внизу / вниз",
+      "it": "down / below / downstairs"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_izquierda",
+    "question_word": "a la izquierda",
+    "pronunciations": {
+      "en": "a la eeth-kyer-da",
+      "ko": "아 라 이스키에르다",
+      "ja": "ア・ラ・イスキエルダ",
+      "zh": "a la eeth-kyer-da",
+      "fr": "a la eeth-kyer-da",
+      "es": "a la izquierda",
+      "de": "a la eeth-kyer-da",
+      "ru": "a la eeth-kyer-da",
+      "it": "a la eeth-kyer-da"
+    },
+    "translations": {
+      "en": "on the left / to the left",
+      "ko": "왼쪽 / 왼쪽으로",
+      "ja": "左／左へ",
+      "zh": "左边／向左",
+      "fr": "à gauche",
+      "es": "a la izquierda",
+      "de": "links / nach links",
+      "ru": "слева / налево",
+      "it": "on the left / to the left"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_derecha",
+    "question_word": "a la derecha",
+    "pronunciations": {
+      "en": "a la de-re-cha",
+      "ko": "아 라 데레차",
+      "ja": "ア・ラ・デレチャ",
+      "zh": "a la de-re-cha",
+      "fr": "a la de-re-cha",
+      "es": "a la derecha",
+      "de": "a la de-re-cha",
+      "ru": "a la de-re-cha",
+      "it": "a la de-re-cha"
+    },
+    "translations": {
+      "en": "on the right / to the right",
+      "ko": "오른쪽 / 오른쪽으로",
+      "ja": "右／右へ",
+      "zh": "右边／向右",
+      "fr": "à droite",
+      "es": "a la derecha",
+      "de": "rechts / nach rechts",
+      "ru": "справа / направо",
+      "it": "on the right / to the right"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_dentro",
+    "question_word": "dentro",
+    "pronunciations": {
+      "en": "den-tro",
+      "ko": "덴트로",
+      "ja": "デントロ",
+      "zh": "den-tro",
+      "fr": "den-tro",
+      "es": "dentro",
+      "de": "den-tro",
+      "ru": "den-tro",
+      "it": "den-tro"
+    },
+    "translations": {
+      "en": "inside",
+      "ko": "안 / 안에",
+      "ja": "中／中に",
+      "zh": "里面",
+      "fr": "dedans",
+      "es": "dentro",
+      "de": "drinnen / innen",
+      "ru": "внутри",
+      "it": "inside"
+    }
+  },
+  {
+    "quiz_id": "es_demonstratives_fuera",
+    "question_word": "fuera",
+    "pronunciations": {
+      "en": "fwe-ra",
+      "ko": "후에라",
+      "ja": "フエラ",
+      "zh": "fwe-ra",
+      "fr": "fwe-ra",
+      "es": "fuera",
+      "de": "fwe-ra",
+      "ru": "fwe-ra",
+      "it": "fwe-ra"
+    },
+    "translations": {
+      "en": "outside",
+      "ko": "밖 / 밖에",
+      "ja": "外／外に",
+      "zh": "外面",
+      "fr": "dehors",
+      "es": "fuera",
+      "de": "draußen / außen",
+      "ru": "снаружи",
+      "it": "outside"
+    }
+  }
+]

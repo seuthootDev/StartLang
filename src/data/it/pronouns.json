@@ -1,0 +1,210 @@
+[
+  {
+    "quiz_id": "it_pronouns_io",
+    "question_word": "io",
+    "pronunciations": {
+      "en": "ee-o/io",
+      "ko": "이오",
+      "ja": "イオ",
+      "zh": "io",
+      "fr": "io",
+      "es": "io",
+      "de": "io",
+      "ru": "ио",
+      "it": "io"
+    },
+    "translations": {
+      "en": "I / me",
+      "ko": "나 / 저",
+      "ja": "私",
+      "zh": "我",
+      "fr": "je / moi",
+      "es": "yo / mí",
+      "de": "ich / mich",
+      "ru": "я",
+      "it": "io"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_tu",
+    "question_word": "tu",
+    "pronunciations": {
+      "en": "too/tu",
+      "ko": "투",
+      "ja": "トゥ",
+      "zh": "tu",
+      "fr": "tu",
+      "es": "tú",
+      "de": "tu",
+      "ru": "ту",
+      "it": "tu"
+    },
+    "translations": {
+      "en": "you (singular, informal)",
+      "ko": "너 (단수·반말)",
+      "ja": "君・お前（単数・くだけた）",
+      "zh": "你（单数、随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты",
+      "it": "tu (informale)"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_lui",
+    "question_word": "lui",
+    "pronunciations": {
+      "en": "loo-ee/lui",
+      "ko": "루이",
+      "ja": "ルイ",
+      "zh": "lui",
+      "fr": "lui",
+      "es": "lui/él",
+      "de": "lui",
+      "ru": "луи",
+      "it": "lui"
+    },
+    "translations": {
+      "en": "he / him",
+      "ko": "그 (남성)",
+      "ja": "彼",
+      "zh": "他",
+      "fr": "il / lui",
+      "es": "él",
+      "de": "er / ihn",
+      "ru": "он",
+      "it": "lui"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_lei",
+    "question_word": "lei",
+    "pronunciations": {
+      "en": "lay/lei",
+      "ko": "레이",
+      "ja": "レイ",
+      "zh": "lei",
+      "fr": "lei",
+      "es": "lei/ella",
+      "de": "lei",
+      "ru": "лей",
+      "it": "lei"
+    },
+    "translations": {
+      "en": "she / her",
+      "ko": "그녀",
+      "ja": "彼女",
+      "zh": "她",
+      "fr": "elle",
+      "es": "ella",
+      "de": "sie / ihr",
+      "ru": "она",
+      "it": "lei"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_Lei",
+    "question_word": "Lei",
+    "pronunciations": {
+      "en": "lay/Lei",
+      "ko": "레이",
+      "ja": "レイ",
+      "zh": "Lei",
+      "fr": "Lei",
+      "es": "usted/Lei",
+      "de": "Sie/Lei",
+      "ru": "Лей",
+      "it": "Lei"
+    },
+    "translations": {
+      "en": "you (singular, formal) — often capitalized; 3rd-person verbs",
+      "ko": "당신 (단수·존댓말) — 대문자로 쓰는 경우 많음; 3인칭 동사",
+      "ja": "あなた（単数・丁寧）— 大文字が多い；三人称の動詞",
+      "zh": "您（单数正式）— 常大写；用第三人称动词",
+      "fr": "vous (singulier formel) — souvent majuscule ; verbe à la 3e",
+      "es": "usted (formal) — a menudo mayúscula ; verbo en 3.ª",
+      "de": "Sie (Singular) — oft groß ; Verb in 3. Person",
+      "ru": "вы (ед., вежл.) — часто с заглавной ; глагол в 3-м лице",
+      "it": "Lei (formale) — spesso maiuscola ; verbo alla 3ª"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_noi",
+    "question_word": "noi",
+    "pronunciations": {
+      "en": "noy/noi",
+      "ko": "노이",
+      "ja": "ノイ",
+      "zh": "noi",
+      "fr": "noi",
+      "es": "noi/nosotros",
+      "de": "noi",
+      "ru": "нои",
+      "it": "noi"
+    },
+    "translations": {
+      "en": "we / us",
+      "ko": "우리",
+      "ja": "私たち",
+      "zh": "我们",
+      "fr": "nous",
+      "es": "nosotros",
+      "de": "wir / uns",
+      "ru": "мы",
+      "it": "noi"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_voi",
+    "question_word": "voi",
+    "pronunciations": {
+      "en": "voy/voi",
+      "ko": "보이",
+      "ja": "ヴォイ",
+      "zh": "voi",
+      "fr": "voi",
+      "es": "vosotros/ustedes",
+      "de": "voi/ihr",
+      "ru": "вои",
+      "it": "voi"
+    },
+    "translations": {
+      "en": "you (plural; also polite plural in some regions)",
+      "ko": "너희·여러분 (복수; 지역에 따라 존댓말 복수도)",
+      "ja": "君たち／あなたたち（複数・地域で丁寧複数も）",
+      "zh": "你们（复数；部分地区也作礼貌复数）",
+      "fr": "vous (pluriel)",
+      "es": "vosotros / ustedes",
+      "de": "ihr / Sie (Plural)",
+      "ru": "вы (мн.)",
+      "it": "voi"
+    }
+  },
+  {
+    "quiz_id": "it_pronouns_loro",
+    "question_word": "loro",
+    "pronunciations": {
+      "en": "lo-ro",
+      "ko": "로로",
+      "ja": "ロロ",
+      "zh": "loro",
+      "fr": "loro",
+      "es": "ellos/ellas",
+      "de": "loro/sie",
+      "ru": "лоро",
+      "it": "loro"
+    },
+    "translations": {
+      "en": "they / them (also polite plural “you” in formal writing)",
+      "ko": "그들 (문어·격식에서 존댓말 복수 ‘당신들’도)",
+      "ja": "彼ら（書き言葉の丁寧複数「あなたたち」にも）",
+      "zh": "他们（正式书面也作礼貌复数“你们”）",
+      "fr": "ils / elles (aussi vous poli pluriel à l’écrit)",
+      "es": "ellos / ellas (también ustedes formal escrito)",
+      "de": "sie (auch formelles Sie Plural schriftlich)",
+      "ru": "они (также вежл. мн. «вы» в письме)",
+      "it": "loro"
+    }
+  }
+]

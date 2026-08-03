@@ -5,10 +5,10 @@ export const LANGUAGES: LanguageMeta[] = [
   { code: 'ko', nativeName: '한국어', englishName: 'Korean', enabledAsTarget: true, enabledAsLearner: true },
   { code: 'ja', nativeName: '日本語', englishName: 'Japanese', enabledAsTarget: true, enabledAsLearner: true },
   { code: 'zh', nativeName: '中文', englishName: 'Chinese', enabledAsTarget: false, enabledAsLearner: true },
-  { code: 'fr', nativeName: 'Français', englishName: 'French', enabledAsTarget: false, enabledAsLearner: true },
-  { code: 'es', nativeName: 'Español', englishName: 'Spanish', enabledAsTarget: false, enabledAsLearner: true },
-  { code: 'de', nativeName: 'Deutsch', englishName: 'German', enabledAsTarget: false, enabledAsLearner: true },
-  { code: 'it', nativeName: 'Italiano', englishName: 'Italian', enabledAsTarget: false, enabledAsLearner: true },
+  { code: 'fr', nativeName: 'Français', englishName: 'French', enabledAsTarget: true, enabledAsLearner: true },
+  { code: 'es', nativeName: 'Español', englishName: 'Spanish', enabledAsTarget: true, enabledAsLearner: true },
+  { code: 'de', nativeName: 'Deutsch', englishName: 'German', enabledAsTarget: true, enabledAsLearner: true },
+  { code: 'it', nativeName: 'Italiano', englishName: 'Italian', enabledAsTarget: true, enabledAsLearner: true },
   { code: 'ru', nativeName: 'Русский', englishName: 'Russian', enabledAsTarget: true, enabledAsLearner: true },
 ]
 

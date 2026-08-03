@@ -1,0 +1,446 @@
+{
+  "table_id": "it_weekdays_ref",
+  "title": {
+    "en": "Days & relative time",
+    "ko": "요일과 상대적 때",
+    "ja": "曜日と相対的な時",
+    "zh": "星期与相对时间",
+    "fr": "Jours & temps relatif",
+    "es": "Días y tiempo relativo",
+    "de": "Wochentage & relative Zeit",
+    "ru": "Дни и относительное время",
+    "it": "Giorni e tempo relativo"
+  },
+  "note": {
+    "en": "Weekdays are lowercase. Many calendars start the week on lunedì.",
+    "ko": "요일은 소문자. 달력은 종종 lunedì부터 시작합니다.",
+    "ja": "曜日は小文字。多くの暦は lunedì 始まり。",
+    "zh": "星期小写。多数日历从 lunedì 开始。",
+    "fr": "Jours en minuscules. Souvent semaine à partir de lunedì.",
+    "es": "Días en minúscula. A menudo la semana empieza en lunedì.",
+    "de": "Wochentage klein. Oft Wochenbeginn lunedì.",
+    "ru": "Дни с маленькой буквы. Часто неделя с lunedì.",
+    "it": "I giorni sono in minuscolo. Spesso la settimana inizia da lunedì."
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Italian",
+        "ko": "이탈리아어",
+        "ja": "イタリア語",
+        "zh": "意大利语",
+        "fr": "Italien",
+        "es": "Italiano",
+        "de": "Italienisch",
+        "ru": "Итальянский",
+        "it": "Italiano"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение",
+        "it": "Significato"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение",
+        "it": "Pronuncia"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "l'altro ieri",
+      "meaning": {
+        "en": "the day before yesterday",
+        "ko": "그저께",
+        "ja": "一昨日",
+        "zh": "前天",
+        "fr": "avant-hier",
+        "es": "anteayer",
+        "de": "vorgestern",
+        "ru": "позавчера",
+        "it": "l'altro ieri"
+      },
+      "sound": {
+        "en": "lal-tro ye-ree",
+        "ko": "랄트로 이에리",
+        "ja": "ラルトロ・イエーリ",
+        "zh": "lal-tro ye-ree",
+        "fr": "lal-tro ye-ree",
+        "es": "lal-tro ye-ree",
+        "de": "lal-tro ye-ree",
+        "ru": "lal-tro ye-ree",
+        "it": "l'altro ieri"
+      }
+    },
+    {
+      "form": "ieri",
+      "meaning": {
+        "en": "yesterday",
+        "ko": "어제",
+        "ja": "昨日",
+        "zh": "昨天",
+        "fr": "hier",
+        "es": "ayer",
+        "de": "gestern",
+        "ru": "вчера",
+        "it": "ieri"
+      },
+      "sound": {
+        "en": "ye-ree",
+        "ko": "이에리",
+        "ja": "イエーリ",
+        "zh": "ye-ree",
+        "fr": "ye-ree",
+        "es": "ye-ree",
+        "de": "ye-ree",
+        "ru": "ye-ree",
+        "it": "ieri"
+      }
+    },
+    {
+      "form": "oggi",
+      "meaning": {
+        "en": "today",
+        "ko": "오늘",
+        "ja": "今日",
+        "zh": "今天",
+        "fr": "aujourd’hui",
+        "es": "hoy",
+        "de": "heute",
+        "ru": "сегодня",
+        "it": "oggi"
+      },
+      "sound": {
+        "en": "oj-jee",
+        "ko": "오지",
+        "ja": "オッジ",
+        "zh": "oj-jee",
+        "fr": "oj-jee",
+        "es": "oj-jee",
+        "de": "oj-jee",
+        "ru": "oj-jee",
+        "it": "oggi"
+      }
+    },
+    {
+      "form": "domani",
+      "meaning": {
+        "en": "tomorrow",
+        "ko": "내일",
+        "ja": "明日",
+        "zh": "明天",
+        "fr": "demain",
+        "es": "mañana",
+        "de": "morgen",
+        "ru": "завтра",
+        "it": "domani"
+      },
+      "sound": {
+        "en": "do-ma-nee",
+        "ko": "도마니",
+        "ja": "ドマーニ",
+        "zh": "do-ma-nee",
+        "fr": "do-ma-nee",
+        "es": "do-ma-nee",
+        "de": "do-ma-nee",
+        "ru": "do-ma-nee",
+        "it": "domani"
+      }
+    },
+    {
+      "form": "dopodomani",
+      "meaning": {
+        "en": "the day after tomorrow",
+        "ko": "모레",
+        "ja": "明後日",
+        "zh": "后天",
+        "fr": "après-demain",
+        "es": "pasado mañana",
+        "de": "übermorgen",
+        "ru": "послезавтра",
+        "it": "dopodomani"
+      },
+      "sound": {
+        "en": "do-po-do-ma-nee",
+        "ko": "도포도마니",
+        "ja": "ドポドマーニ",
+        "zh": "do-po-do-ma-nee",
+        "fr": "do-po-do-ma-nee",
+        "es": "do-po-do-ma-nee",
+        "de": "do-po-do-ma-nee",
+        "ru": "do-po-do-ma-nee",
+        "it": "dopodomani"
+      }
+    },
+    {
+      "form": "lunedì",
+      "meaning": {
+        "en": "Monday",
+        "ko": "월요일",
+        "ja": "月曜日",
+        "zh": "星期一",
+        "fr": "lundi",
+        "es": "lunes",
+        "de": "Montag",
+        "ru": "понедельник",
+        "it": "lunedì"
+      },
+      "sound": {
+        "en": "loo-ne-dee",
+        "ko": "루네디",
+        "ja": "ルネディー",
+        "zh": "loo-ne-dee",
+        "fr": "loo-ne-dee",
+        "es": "loo-ne-dee",
+        "de": "loo-ne-dee",
+        "ru": "loo-ne-dee",
+        "it": "lunedì"
+      }
+    },
+    {
+      "form": "martedì",
+      "meaning": {
+        "en": "Tuesday",
+        "ko": "화요일",
+        "ja": "火曜日",
+        "zh": "星期二",
+        "fr": "mardi",
+        "es": "martes",
+        "de": "Dienstag",
+        "ru": "вторник",
+        "it": "martedì"
+      },
+      "sound": {
+        "en": "mar-te-dee",
+        "ko": "마르테디",
+        "ja": "マルテディー",
+        "zh": "mar-te-dee",
+        "fr": "mar-te-dee",
+        "es": "mar-te-dee",
+        "de": "mar-te-dee",
+        "ru": "mar-te-dee",
+        "it": "martedì"
+      }
+    },
+    {
+      "form": "mercoledì",
+      "meaning": {
+        "en": "Wednesday",
+        "ko": "수요일",
+        "ja": "水曜日",
+        "zh": "星期三",
+        "fr": "mercredi",
+        "es": "miércoles",
+        "de": "Mittwoch",
+        "ru": "среда",
+        "it": "mercoledì"
+      },
+      "sound": {
+        "en": "mer-ko-le-dee",
+        "ko": "메르콜레디",
+        "ja": "メルコレディー",
+        "zh": "mer-ko-le-dee",
+        "fr": "mer-ko-le-dee",
+        "es": "mer-ko-le-dee",
+        "de": "mer-ko-le-dee",
+        "ru": "mer-ko-le-dee",
+        "it": "mercoledì"
+      }
+    },
+    {
+      "form": "giovedì",
+      "meaning": {
+        "en": "Thursday",
+        "ko": "목요일",
+        "ja": "木曜日",
+        "zh": "星期四",
+        "fr": "jeudi",
+        "es": "jueves",
+        "de": "Donnerstag",
+        "ru": "четверг",
+        "it": "giovedì"
+      },
+      "sound": {
+        "en": "jo-ve-dee",
+        "ko": "조베디",
+        "ja": "ジョヴェディー",
+        "zh": "jo-ve-dee",
+        "fr": "jo-ve-dee",
+        "es": "jo-ve-dee",
+        "de": "jo-ve-dee",
+        "ru": "jo-ve-dee",
+        "it": "giovedì"
+      }
+    },
+    {
+      "form": "venerdì",
+      "meaning": {
+        "en": "Friday",
+        "ko": "금요일",
+        "ja": "金曜日",
+        "zh": "星期五",
+        "fr": "vendredi",
+        "es": "viernes",
+        "de": "Freitag",
+        "ru": "пятница",
+        "it": "venerdì"
+      },
+      "sound": {
+        "en": "ve-ner-dee",
+        "ko": "베네르디",
+        "ja": "ヴェネルディー",
+        "zh": "ve-ner-dee",
+        "fr": "ve-ner-dee",
+        "es": "ve-ner-dee",
+        "de": "ve-ner-dee",
+        "ru": "ve-ner-dee",
+        "it": "venerdì"
+      }
+    },
+    {
+      "form": "sabato",
+      "meaning": {
+        "en": "Saturday",
+        "ko": "토요일",
+        "ja": "土曜日",
+        "zh": "星期六",
+        "fr": "samedi",
+        "es": "sábado",
+        "de": "Samstag",
+        "ru": "суббота",
+        "it": "sabato"
+      },
+      "sound": {
+        "en": "sa-ba-to",
+        "ko": "사바토",
+        "ja": "サバト",
+        "zh": "sa-ba-to",
+        "fr": "sa-ba-to",
+        "es": "sa-ba-to",
+        "de": "sa-ba-to",
+        "ru": "sa-ba-to",
+        "it": "sabato"
+      }
+    },
+    {
+      "form": "domenica",
+      "meaning": {
+        "en": "Sunday",
+        "ko": "일요일",
+        "ja": "日曜日",
+        "zh": "星期日",
+        "fr": "dimanche",
+        "es": "domingo",
+        "de": "Sonntag",
+        "ru": "воскресенье",
+        "it": "domenica"
+      },
+      "sound": {
+        "en": "do-me-nee-ka",
+        "ko": "도메니카",
+        "ja": "ドメニカ",
+        "zh": "do-me-nee-ka",
+        "fr": "do-me-nee-ka",
+        "es": "do-me-nee-ka",
+        "de": "do-me-nee-ka",
+        "ru": "do-me-nee-ka",
+        "it": "domenica"
+      }
+    },
+    {
+      "form": "questa settimana",
+      "meaning": {
+        "en": "this week",
+        "ko": "이번 주",
+        "ja": "今週",
+        "zh": "本周",
+        "fr": "cette semaine",
+        "es": "esta semana",
+        "de": "diese Woche",
+        "ru": "эта неделя",
+        "it": "questa settimana"
+      },
+      "sound": {
+        "en": "kwes-ta set-tee-ma-na",
+        "ko": "퀘스타 세티마나",
+        "ja": "クエスタ・セッティマナ",
+        "zh": "kwes-ta set-tee-ma-na",
+        "fr": "kwes-ta set-tee-ma-na",
+        "es": "kwes-ta set-tee-ma-na",
+        "de": "kwes-ta set-tee-ma-na",
+        "ru": "kwes-ta set-tee-ma-na",
+        "it": "questa settimana"
+      }
+    },
+    {
+      "form": "la settimana scorsa",
+      "meaning": {
+        "en": "last week",
+        "ko": "지난주",
+        "ja": "先週",
+        "zh": "上周",
+        "fr": "la semaine dernière",
+        "es": "la semana pasada",
+        "de": "letzte Woche",
+        "ru": "прошлая неделя",
+        "it": "la settimana scorsa"
+      },
+      "sound": {
+        "en": "la set-tee-ma-na skor-sa",
+        "ko": "라 세티마나 스코르사",
+        "ja": "ラ・セッティマナ・スコルサ",
+        "zh": "la set-tee-ma-na skor-sa",
+        "fr": "la set-tee-ma-na skor-sa",
+        "es": "la set-tee-ma-na skor-sa",
+        "de": "la set-tee-ma-na skor-sa",
+        "ru": "la set-tee-ma-na skor-sa",
+        "it": "la settimana scorsa"
+      }
+    },
+    {
+      "form": "la settimana prossima",
+      "meaning": {
+        "en": "next week",
+        "ko": "다음 주",
+        "ja": "来週",
+        "zh": "下周",
+        "fr": "la semaine prochaine",
+        "es": "la semana que viene",
+        "de": "nächste Woche",
+        "ru": "следующая неделя",
+        "it": "la settimana prossima"
+      },
+      "sound": {
+        "en": "la set-tee-ma-na pros-see-ma",
+        "ko": "라 세티마나 프로시마",
+        "ja": "ラ・セッティマナ・プロッシマ",
+        "zh": "la set-tee-ma-na pros-see-ma",
+        "fr": "la set-tee-ma-na pros-see-ma",
+        "es": "la set-tee-ma-na pros-see-ma",
+        "de": "la set-tee-ma-na pros-see-ma",
+        "ru": "la set-tee-ma-na pros-see-ma",
+        "it": "la settimana prossima"
+      }
+    }
+  ]
+}

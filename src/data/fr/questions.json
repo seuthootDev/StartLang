@@ -1,0 +1,366 @@
+[
+  {
+    "quiz_id": "fr_questions_qui",
+    "question_word": "qui",
+    "pronunciations": {
+      "en": "kee/qui",
+      "ko": "키",
+      "ja": "キ",
+      "zh": "kee/qui",
+      "fr": "qui",
+      "es": "kee/qui",
+      "de": "kee/qui",
+      "ru": "kee/qui",
+      "it": "kee/qui"
+    },
+    "translations": {
+      "en": "who",
+      "ko": "누구",
+      "ja": "誰",
+      "zh": "谁",
+      "fr": "qui",
+      "es": "quién",
+      "de": "wer",
+      "ru": "кто",
+      "it": "who"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_que",
+    "question_word": "que",
+    "pronunciations": {
+      "en": "kuh/que",
+      "ko": "크",
+      "ja": "ク",
+      "zh": "kuh/que",
+      "fr": "que",
+      "es": "kuh/que",
+      "de": "kuh/que",
+      "ru": "kuh/que",
+      "it": "kuh/que"
+    },
+    "translations": {
+      "en": "what (object; becomes qu’ before a vowel)",
+      "ko": "무엇 (목적어; 모음 앞 qu’)",
+      "ja": "何（目的語・母音の前は qu’）",
+      "zh": "什么（作宾语；元音前写 qu’）",
+      "fr": "que / qu’ (objet)",
+      "es": "qué (objeto; qu’ delante de vocal)",
+      "de": "was (Objekt; qu’ vor Vokal)",
+      "ru": "что (дополнение; qu’ перед гласной)",
+      "it": "what (object; becomes qu’ before a vowel)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_quoi",
+    "question_word": "quoi",
+    "pronunciations": {
+      "en": "kwah/quoi",
+      "ko": "쿠아",
+      "ja": "クワ",
+      "zh": "kwah/quoi",
+      "fr": "quoi",
+      "es": "kwah/quoi",
+      "de": "kwah/quoi",
+      "ru": "kwah/quoi",
+      "it": "kwah/quoi"
+    },
+    "translations": {
+      "en": "what (after a preposition / alone)",
+      "ko": "무엇 (전치사 뒤·단독)",
+      "ja": "何（前置詞のあと・単独）",
+      "zh": "什么（介词后/单独）",
+      "fr": "quoi (après préposition / seul)",
+      "es": "qué (tras preposición / solo)",
+      "de": "was (nach Präposition / allein)",
+      "ru": "что (после предлога / отдельно)",
+      "it": "what (after a preposition / alone)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_ou",
+    "question_word": "où",
+    "pronunciations": {
+      "en": "oo/où",
+      "ko": "우",
+      "ja": "ウ",
+      "zh": "oo/où",
+      "fr": "où",
+      "es": "oo/où",
+      "de": "oo/où",
+      "ru": "oo/où",
+      "it": "oo/où"
+    },
+    "translations": {
+      "en": "where",
+      "ko": "어디",
+      "ja": "どこ",
+      "zh": "哪里",
+      "fr": "où",
+      "es": "dónde",
+      "de": "wo / wohin",
+      "ru": "где / куда",
+      "it": "where"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_dou",
+    "question_word": "d'où",
+    "pronunciations": {
+      "en": "doo/d’où",
+      "ko": "두",
+      "ja": "ドゥ",
+      "zh": "doo/d’où",
+      "fr": "d'où",
+      "es": "doo/d’où",
+      "de": "doo/d’où",
+      "ru": "doo/d’où",
+      "it": "doo/d’où"
+    },
+    "translations": {
+      "en": "where from",
+      "ko": "어디서 (출발)",
+      "ja": "どこから",
+      "zh": "从哪里",
+      "fr": "d’où",
+      "es": "de dónde",
+      "de": "woher",
+      "ru": "откуда",
+      "it": "where from"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_quand",
+    "question_word": "quand",
+    "pronunciations": {
+      "en": "kon/quand",
+      "ko": "캉",
+      "ja": "カン",
+      "zh": "kon/quand",
+      "fr": "quand",
+      "es": "kon/quand",
+      "de": "kon/quand",
+      "ru": "kon/quand",
+      "it": "kon/quand"
+    },
+    "translations": {
+      "en": "when",
+      "ko": "언제",
+      "ja": "いつ",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда",
+      "it": "when"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_pourquoi",
+    "question_word": "pourquoi",
+    "pronunciations": {
+      "en": "poor-kwah",
+      "ko": "푸르쿠아",
+      "ja": "プルクワ",
+      "zh": "poor-kwah",
+      "fr": "pourquoi",
+      "es": "poor-kwah",
+      "de": "poor-kwah",
+      "ru": "poor-kwah",
+      "it": "poor-kwah"
+    },
+    "translations": {
+      "en": "why",
+      "ko": "왜",
+      "ja": "なぜ",
+      "zh": "为什么",
+      "fr": "pourquoi",
+      "es": "por qué",
+      "de": "warum",
+      "ru": "почему / зачем",
+      "it": "why"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_comment",
+    "question_word": "comment",
+    "pronunciations": {
+      "en": "ko-mon/comment",
+      "ko": "코멍",
+      "ja": "コモン",
+      "zh": "ko-mon/comment",
+      "fr": "comment",
+      "es": "ko-mon/comment",
+      "de": "ko-mon/comment",
+      "ru": "ko-mon/comment",
+      "it": "ko-mon/comment"
+    },
+    "translations": {
+      "en": "how",
+      "ko": "어떻게",
+      "ja": "どう / どのように",
+      "zh": "怎么 / 如何",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как",
+      "it": "how"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_combien",
+    "question_word": "combien",
+    "pronunciations": {
+      "en": "kom-byan",
+      "ko": "콩비앙",
+      "ja": "コンビアン",
+      "zh": "kom-byan",
+      "fr": "combien",
+      "es": "kom-byan",
+      "de": "kom-byan",
+      "ru": "kom-byan",
+      "it": "kom-byan"
+    },
+    "translations": {
+      "en": "how much / how many",
+      "ko": "얼마 / 몇",
+      "ja": "いくら / いくつ",
+      "zh": "多少",
+      "fr": "combien",
+      "es": "cuánto / cuántos",
+      "de": "wie viel / wie viele",
+      "ru": "сколько",
+      "it": "how much / how many"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_quel",
+    "question_word": "quel",
+    "pronunciations": {
+      "en": "kel/quel",
+      "ko": "켈",
+      "ja": "ケル",
+      "zh": "kel/quel",
+      "fr": "quel",
+      "es": "kel/quel",
+      "de": "kel/quel",
+      "ru": "kel/quel",
+      "it": "kel/quel"
+    },
+    "translations": {
+      "en": "which / what (masculine singular + noun)",
+      "ko": "어떤·어느 (남성 단수 + 명사)",
+      "ja": "どの／どんな（男性単数＋名詞）",
+      "zh": "哪个／什么（阳性单数＋名词）",
+      "fr": "quel (+ nom masculin)",
+      "es": "qué / cuál (masculino singular + sustantivo)",
+      "de": "welch- (mask. Singular + Nomen)",
+      "ru": "какой (+ сущ. м. р.)",
+      "it": "which / what (masculine singular + noun)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_quelle",
+    "question_word": "quelle",
+    "pronunciations": {
+      "en": "kel/quelle",
+      "ko": "켈",
+      "ja": "ケル",
+      "zh": "kel/quelle",
+      "fr": "quelle",
+      "es": "kel/quelle",
+      "de": "kel/quelle",
+      "ru": "kel/quelle",
+      "it": "kel/quelle"
+    },
+    "translations": {
+      "en": "which / what (feminine singular + noun)",
+      "ko": "어떤·어느 (여성 단수 + 명사)",
+      "ja": "どの／どんな（女性単数＋名詞）",
+      "zh": "哪个／什么（阴性单数＋名词）",
+      "fr": "quelle (+ nom féminin)",
+      "es": "qué / cuál (femenino singular + sustantivo)",
+      "de": "welch- (fem. Singular + Nomen)",
+      "ru": "какая (+ сущ. ж. р.)",
+      "it": "which / what (feminine singular + noun)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_questceque",
+    "question_word": "qu'est-ce que",
+    "pronunciations": {
+      "en": "kes-kuh",
+      "ko": "케스커",
+      "ja": "ケスク",
+      "zh": "kes-kuh",
+      "fr": "qu'est-ce que",
+      "es": "kes-kuh",
+      "de": "kes-kuh",
+      "ru": "kes-kuh",
+      "it": "kes-kuh"
+    },
+    "translations": {
+      "en": "what (common spoken; + subject + verb)",
+      "ko": "무엇 (구어 기본; + 주어 + 동사)",
+      "ja": "何（口語の基本・主語＋動詞）",
+      "zh": "什么（口语常用；+主语+动词）",
+      "fr": "qu’est-ce que (+ sujet + verbe)",
+      "es": "qué (hablado; + sujeto + verbo)",
+      "de": "was (gesprochen; + Subjekt + Verb)",
+      "ru": "что (разг.; + подлежащее + глагол)",
+      "it": "what (common spoken; + subject + verb)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_questcequi",
+    "question_word": "qu'est-ce qui",
+    "pronunciations": {
+      "en": "kes-kee",
+      "ko": "케스키",
+      "ja": "ケスキ",
+      "zh": "kes-kee",
+      "fr": "qu'est-ce qui",
+      "es": "kes-kee",
+      "de": "kes-kee",
+      "ru": "kes-kee",
+      "it": "kes-kee"
+    },
+    "translations": {
+      "en": "what (as subject of the verb)",
+      "ko": "무엇이 (주어 역할)",
+      "ja": "何が（主語）",
+      "zh": "什么（作主语）",
+      "fr": "qu’est-ce qui (sujet)",
+      "es": "qué (como sujeto)",
+      "de": "was (als Subjekt)",
+      "ru": "что (как подлежащее)",
+      "it": "what (as subject of the verb)"
+    }
+  },
+  {
+    "quiz_id": "fr_questions_quiestceque",
+    "question_word": "qui est-ce que",
+    "pronunciations": {
+      "en": "kee es-kuh",
+      "ko": "키 에스커",
+      "ja": "キ・エスク",
+      "zh": "kee es-kuh",
+      "fr": "qui est-ce que",
+      "es": "kee es-kuh",
+      "de": "kee es-kuh",
+      "ru": "kee es-kuh",
+      "it": "kee es-kuh"
+    },
+    "translations": {
+      "en": "who (object / “who is it that…”)",
+      "ko": "누구를·누구를요 (목적어 / “누가 …하는가”)",
+      "ja": "誰を／誰が…か（目的語寄り）",
+      "zh": "谁（作宾语／“是谁…”）",
+      "fr": "qui est-ce que (objet)",
+      "es": "quién (objeto / “quién es el que…”)",
+      "de": "wen / wer (Objekt)",
+      "ru": "кого / кто (дополнение)",
+      "it": "who (object / “who is it that…”)"
+    }
+  }
+]

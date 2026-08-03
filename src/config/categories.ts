@@ -221,8 +221,8 @@ export const CATEGORIES: CategoryMeta[] = [
     id: 'dates',
     group: 'basic',
     step: 7,
-    /** Korean date units live under Time & calendar; JA/RU keep irregular date drills here. */
-    visibleFor: ['ja', 'ru'],
+    /** KO under Time; FR/ES/IT reuse cardinals; JA/RU/DE need separate ordinal/irregular drills. */
+    visibleFor: ['ja', 'ru', 'de'],
     labels: {
       en: 'Dates', ko: '날짜 표현', ja: '日付の表現', zh: '日期表达',
       fr: 'Dates', es: 'Fechas', de: 'Daten', it: 'Date', ru: 'Даты',

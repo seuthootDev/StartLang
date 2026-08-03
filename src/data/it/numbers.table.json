@@ -1,0 +1,1291 @@
+{
+  "table_id": "it_numbers_ref",
+  "title": {
+    "en": "Cardinal numbers",
+    "ko": "기수사",
+    "ja": "基数",
+    "zh": "基数词",
+    "fr": "Nombres cardinaux",
+    "es": "Números cardinales",
+    "de": "Kardinalzahlen",
+    "ru": "Количественные числительные",
+    "it": "Numeri cardinali"
+  },
+  "note": {
+    "en": "0–16 mostly unique; 17–19 = dieci + ones. From 21: one word (ventuno, trentadue). Drop tens vowel before 1 and 8.",
+    "ko": "0–16 대체로 고유, 17–19 = dieci + 일. 21부터 한 단어(ventuno…). 1·8 앞에서 십 단위 모음 탈락.",
+    "ja": "0–16はほぼ固有。17–19は dieci＋一。21以降は一語。1・8の前で十の母音が落ちる。",
+    "zh": "0–16 多专名；17–19 = dieci + 个位。从21起一词连写；1、8前十位元音脱落。",
+    "fr": "0–16 surtout uniques ; 17–19 = dieci + unités. Dès 21 : un mot. Voyelle des dizaines tombe devant 1 et 8.",
+    "es": "0–16 casi propios; 17–19 = dieci + unidades. Desde 21: una palabra. Vocal de decena cae ante 1 y 8.",
+    "de": "0–16 meist eigen; 17–19 = dieci + Einer. Ab 21 ein Wort. Zehnervokal fällt vor 1 und 8.",
+    "ru": "0–16 в основном особые; 17–19 = dieci + единицы. С 21 — одно слово. Гласная десятков падает перед 1 и 8.",
+    "it": "0–16 per lo più unici; 17–19 = dieci + unità. Dal 21: una parola. Vocale della decina cade davanti a 1 e 8."
+  },
+  "rules": {
+    "en": [
+      "uno → un before a masculine noun (un libro); una for feminine.",
+      "cento alone for 100; duecento… for round hundreds. mille does not pluralize for round thousands (duemila).",
+      "21–99: one word — ventuno, ventotto (drop -i/-a before 1, 8); ventitré with accent on -tré.",
+      "Quiz adds random compounds (21–99)."
+    ],
+    "ko": [
+      "남성 명사 앞 uno → un (un libro); 여성은 una.",
+      "100은 cento; 백 단위 duecento…. mille는 천 단위에서 복수 안 씀(duemila).",
+      "21–99: 한 단어 — ventuno, ventotto(1·8 앞 모음 탈락); ventitré는 -tré 악센트.",
+      "퀴즈에 랜덤 합성(21–99) 추가."
+    ],
+    "ja": [
+      "男性名詞の前は uno → un。女性は una。",
+      "100は cento。百は duecento…。mille は千で複数にしない（duemila）。",
+      "21–99は一語。1・8の前で母音脱落。-tré にアクセント。",
+      "クイズに合成あり。"
+    ],
+    "zh": [
+      "阳性名词前 uno → un；阴性 una。",
+      "100 用 cento；整百 duecento…。mille 整千不加复数（duemila）。",
+      "21–99 连写；1、8 前十位元音脱落；-tré 加重音。",
+      "测验含随机合成。"
+    ],
+    "fr": [
+      "uno → un devant un nom masculin ; una au féminin.",
+      "cento pour 100 ; duecento… mille sans pluriel (duemila).",
+      "21–99 en un mot ; chute de voyelle devant 1 et 8 ; accent sur -tré.",
+      "Le quiz ajoute des composés aléatoires."
+    ],
+    "es": [
+      "uno → un ante nombre masculino; una en femenino.",
+      "cento = 100; duecento…. mille sin plural (duemila).",
+      "21–99 en una palabra; vocal cae ante 1 y 8; acento en -tré.",
+      "El quiz añade compuestos aleatorios."
+    ],
+    "de": [
+      "uno → un vor mask. Nomen; una feminin.",
+      "cento = 100; duecento…. mille ohne Plural (duemila).",
+      "21–99 ein Wort; Vokal fällt vor 1 und 8; Akzent auf -tré.",
+      "Quiz ergänzt Zufallsverbindungen."
+    ],
+    "ru": [
+      "uno → un перед сущ. м. р.; una — ж. р.",
+      "cento = 100; duecento…. mille без мн. (duemila).",
+      "21–99 одно слово; гласная падает перед 1 и 8; ударение на -tré.",
+      "В квизе — случайные составные."
+    ],
+    "it": [
+      "uno → un davanti a nome maschile; una al femminile.",
+      "cento = 100; duecento…. mille senza plurale (duemila).",
+      "21–99 in una parola; vocale cade davanti a 1 e 8; accento su -tré.",
+      "Il quiz aggiunge composti casuali."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "0–10",
+        "ko": "0–10",
+        "ja": "0–10",
+        "zh": "0–10",
+        "fr": "0–10",
+        "es": "0–10",
+        "de": "0–10",
+        "ru": "0–10",
+        "it": "0–10"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Italian",
+            "ko": "이탈리아어",
+            "ja": "イタリア語",
+            "zh": "意大利语",
+            "fr": "Italien",
+            "es": "Italiano",
+            "de": "Italienisch",
+            "ru": "Итальянский",
+            "it": "Italiano"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "zero",
+          "meaning": {
+            "en": "0",
+            "ko": "0",
+            "ja": "0",
+            "zh": "0",
+            "fr": "0",
+            "es": "0",
+            "de": "0",
+            "ru": "0",
+            "it": "0"
+          },
+          "sound": {
+            "en": "dze-ro/zero",
+            "ko": "제로",
+            "ja": "ゼロ",
+            "zh": "dze-ro/zero",
+            "fr": "dze-ro/zero",
+            "es": "dze-ro/zero",
+            "de": "dze-ro/zero",
+            "ru": "dze-ro/zero",
+            "it": "zero"
+          }
+        },
+        {
+          "form": "uno",
+          "meaning": {
+            "en": "1",
+            "ko": "1",
+            "ja": "1",
+            "zh": "1",
+            "fr": "1",
+            "es": "1",
+            "de": "1",
+            "ru": "1",
+            "it": "1"
+          },
+          "sound": {
+            "en": "oo-no/uno",
+            "ko": "우노",
+            "ja": "ウノ",
+            "zh": "oo-no/uno",
+            "fr": "oo-no/uno",
+            "es": "oo-no/uno",
+            "de": "oo-no/uno",
+            "ru": "oo-no/uno",
+            "it": "uno"
+          }
+        },
+        {
+          "form": "due",
+          "meaning": {
+            "en": "2",
+            "ko": "2",
+            "ja": "2",
+            "zh": "2",
+            "fr": "2",
+            "es": "2",
+            "de": "2",
+            "ru": "2",
+            "it": "2"
+          },
+          "sound": {
+            "en": "doo-e/due",
+            "ko": "두에",
+            "ja": "ドゥエ",
+            "zh": "doo-e/due",
+            "fr": "doo-e/due",
+            "es": "doo-e/due",
+            "de": "doo-e/due",
+            "ru": "doo-e/due",
+            "it": "due"
+          }
+        },
+        {
+          "form": "tre",
+          "meaning": {
+            "en": "3",
+            "ko": "3",
+            "ja": "3",
+            "zh": "3",
+            "fr": "3",
+            "es": "3",
+            "de": "3",
+            "ru": "3",
+            "it": "3"
+          },
+          "sound": {
+            "en": "tre",
+            "ko": "트레",
+            "ja": "トレ",
+            "zh": "tre",
+            "fr": "tre",
+            "es": "tre",
+            "de": "tre",
+            "ru": "tre",
+            "it": "tre"
+          }
+        },
+        {
+          "form": "quattro",
+          "meaning": {
+            "en": "4",
+            "ko": "4",
+            "ja": "4",
+            "zh": "4",
+            "fr": "4",
+            "es": "4",
+            "de": "4",
+            "ru": "4",
+            "it": "4"
+          },
+          "sound": {
+            "en": "kwa-tro",
+            "ko": "쿠아트로",
+            "ja": "クアトロ",
+            "zh": "kwa-tro",
+            "fr": "kwa-tro",
+            "es": "kwa-tro",
+            "de": "kwa-tro",
+            "ru": "kwa-tro",
+            "it": "quattro"
+          }
+        },
+        {
+          "form": "cinque",
+          "meaning": {
+            "en": "5",
+            "ko": "5",
+            "ja": "5",
+            "zh": "5",
+            "fr": "5",
+            "es": "5",
+            "de": "5",
+            "ru": "5",
+            "it": "5"
+          },
+          "sound": {
+            "en": "chin-kwe",
+            "ko": "칭퀘",
+            "ja": "チンクェ",
+            "zh": "chin-kwe",
+            "fr": "chin-kwe",
+            "es": "chin-kwe",
+            "de": "chin-kwe",
+            "ru": "chin-kwe",
+            "it": "cinque"
+          }
+        },
+        {
+          "form": "sei",
+          "meaning": {
+            "en": "6",
+            "ko": "6",
+            "ja": "6",
+            "zh": "6",
+            "fr": "6",
+            "es": "6",
+            "de": "6",
+            "ru": "6",
+            "it": "6"
+          },
+          "sound": {
+            "en": "say/sei",
+            "ko": "세이",
+            "ja": "セイ",
+            "zh": "say/sei",
+            "fr": "say/sei",
+            "es": "say/sei",
+            "de": "say/sei",
+            "ru": "say/sei",
+            "it": "sei"
+          }
+        },
+        {
+          "form": "sette",
+          "meaning": {
+            "en": "7",
+            "ko": "7",
+            "ja": "7",
+            "zh": "7",
+            "fr": "7",
+            "es": "7",
+            "de": "7",
+            "ru": "7",
+            "it": "7"
+          },
+          "sound": {
+            "en": "set-te",
+            "ko": "세테",
+            "ja": "セッテ",
+            "zh": "set-te",
+            "fr": "set-te",
+            "es": "set-te",
+            "de": "set-te",
+            "ru": "set-te",
+            "it": "sette"
+          }
+        },
+        {
+          "form": "otto",
+          "meaning": {
+            "en": "8",
+            "ko": "8",
+            "ja": "8",
+            "zh": "8",
+            "fr": "8",
+            "es": "8",
+            "de": "8",
+            "ru": "8",
+            "it": "8"
+          },
+          "sound": {
+            "en": "ot-to",
+            "ko": "오토",
+            "ja": "オット",
+            "zh": "ot-to",
+            "fr": "ot-to",
+            "es": "ot-to",
+            "de": "ot-to",
+            "ru": "ot-to",
+            "it": "otto"
+          }
+        },
+        {
+          "form": "nove",
+          "meaning": {
+            "en": "9",
+            "ko": "9",
+            "ja": "9",
+            "zh": "9",
+            "fr": "9",
+            "es": "9",
+            "de": "9",
+            "ru": "9",
+            "it": "9"
+          },
+          "sound": {
+            "en": "no-ve",
+            "ko": "노베",
+            "ja": "ノヴェ",
+            "zh": "no-ve",
+            "fr": "no-ve",
+            "es": "no-ve",
+            "de": "no-ve",
+            "ru": "no-ve",
+            "it": "nove"
+          }
+        },
+        {
+          "form": "dieci",
+          "meaning": {
+            "en": "10",
+            "ko": "10",
+            "ja": "10",
+            "zh": "10",
+            "fr": "10",
+            "es": "10",
+            "de": "10",
+            "ru": "10",
+            "it": "10"
+          },
+          "sound": {
+            "en": "dye-chee",
+            "ko": "디에치",
+            "ja": "ディエチ",
+            "zh": "dye-chee",
+            "fr": "dye-chee",
+            "es": "dye-chee",
+            "de": "dye-chee",
+            "ru": "dye-chee",
+            "it": "dieci"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "11–19",
+        "ko": "11–19",
+        "ja": "11–19",
+        "zh": "11–19",
+        "fr": "11–19",
+        "es": "11–19",
+        "de": "11–19",
+        "ru": "11–19",
+        "it": "11–19"
+      },
+      "note": {
+        "en": "11–16 unique-ish; 17–19 built on dieci (diciassette, diciotto, diciannove).",
+        "ko": "11–16 고유에 가깝고, 17–19는 dieci 계열.",
+        "ja": "11–16は固有寄り、17–19は dieci 系。",
+        "zh": "11–16 近专名；17–19 基于 dieci。",
+        "fr": "11–16 plutôt uniques ; 17–19 sur dieci.",
+        "es": "11–16 casi propios; 17–19 sobre dieci.",
+        "de": "11–16 eher eigen; 17–19 auf dieci.",
+        "ru": "11–16 почти особые; 17–19 на dieci.",
+        "it": "11–16 quasi unici; 17–19 su dieci."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Italian",
+            "ko": "이탈리아어",
+            "ja": "イタリア語",
+            "zh": "意大利语",
+            "fr": "Italien",
+            "es": "Italiano",
+            "de": "Italienisch",
+            "ru": "Итальянский",
+            "it": "Italiano"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "undici",
+          "meaning": {
+            "en": "11",
+            "ko": "11",
+            "ja": "11",
+            "zh": "11",
+            "fr": "11",
+            "es": "11",
+            "de": "11",
+            "ru": "11",
+            "it": "11"
+          },
+          "sound": {
+            "en": "oon-dee-chee",
+            "ko": "운디치",
+            "ja": "ウンディチ",
+            "zh": "oon-dee-chee",
+            "fr": "oon-dee-chee",
+            "es": "oon-dee-chee",
+            "de": "oon-dee-chee",
+            "ru": "oon-dee-chee",
+            "it": "undici"
+          }
+        },
+        {
+          "form": "dodici",
+          "meaning": {
+            "en": "12",
+            "ko": "12",
+            "ja": "12",
+            "zh": "12",
+            "fr": "12",
+            "es": "12",
+            "de": "12",
+            "ru": "12",
+            "it": "12"
+          },
+          "sound": {
+            "en": "do-dee-chee",
+            "ko": "도디치",
+            "ja": "ドディチ",
+            "zh": "do-dee-chee",
+            "fr": "do-dee-chee",
+            "es": "do-dee-chee",
+            "de": "do-dee-chee",
+            "ru": "do-dee-chee",
+            "it": "dodici"
+          }
+        },
+        {
+          "form": "tredici",
+          "meaning": {
+            "en": "13",
+            "ko": "13",
+            "ja": "13",
+            "zh": "13",
+            "fr": "13",
+            "es": "13",
+            "de": "13",
+            "ru": "13",
+            "it": "13"
+          },
+          "sound": {
+            "en": "tre-dee-chee",
+            "ko": "트레디치",
+            "ja": "トレディチ",
+            "zh": "tre-dee-chee",
+            "fr": "tre-dee-chee",
+            "es": "tre-dee-chee",
+            "de": "tre-dee-chee",
+            "ru": "tre-dee-chee",
+            "it": "tredici"
+          }
+        },
+        {
+          "form": "quattordici",
+          "meaning": {
+            "en": "14",
+            "ko": "14",
+            "ja": "14",
+            "zh": "14",
+            "fr": "14",
+            "es": "14",
+            "de": "14",
+            "ru": "14",
+            "it": "14"
+          },
+          "sound": {
+            "en": "kwa-tor-dee-chee",
+            "ko": "쿠아토르디치",
+            "ja": "クアトルディチ",
+            "zh": "kwa-tor-dee-chee",
+            "fr": "kwa-tor-dee-chee",
+            "es": "kwa-tor-dee-chee",
+            "de": "kwa-tor-dee-chee",
+            "ru": "kwa-tor-dee-chee",
+            "it": "quattordici"
+          }
+        },
+        {
+          "form": "quindici",
+          "meaning": {
+            "en": "15",
+            "ko": "15",
+            "ja": "15",
+            "zh": "15",
+            "fr": "15",
+            "es": "15",
+            "de": "15",
+            "ru": "15",
+            "it": "15"
+          },
+          "sound": {
+            "en": "kween-dee-chee",
+            "ko": "퀸디치",
+            "ja": "クインディチ",
+            "zh": "kween-dee-chee",
+            "fr": "kween-dee-chee",
+            "es": "kween-dee-chee",
+            "de": "kween-dee-chee",
+            "ru": "kween-dee-chee",
+            "it": "quindici"
+          }
+        },
+        {
+          "form": "sedici",
+          "meaning": {
+            "en": "16",
+            "ko": "16",
+            "ja": "16",
+            "zh": "16",
+            "fr": "16",
+            "es": "16",
+            "de": "16",
+            "ru": "16",
+            "it": "16"
+          },
+          "sound": {
+            "en": "se-dee-chee",
+            "ko": "세디치",
+            "ja": "セディチ",
+            "zh": "se-dee-chee",
+            "fr": "se-dee-chee",
+            "es": "se-dee-chee",
+            "de": "se-dee-chee",
+            "ru": "se-dee-chee",
+            "it": "sedici"
+          }
+        },
+        {
+          "form": "diciassette",
+          "meaning": {
+            "en": "17",
+            "ko": "17",
+            "ja": "17",
+            "zh": "17",
+            "fr": "17",
+            "es": "17",
+            "de": "17",
+            "ru": "17",
+            "it": "17"
+          },
+          "sound": {
+            "en": "dee-cha-set-te",
+            "ko": "디차세테",
+            "ja": "ディチャセッテ",
+            "zh": "dee-cha-set-te",
+            "fr": "dee-cha-set-te",
+            "es": "dee-cha-set-te",
+            "de": "dee-cha-set-te",
+            "ru": "dee-cha-set-te",
+            "it": "diciassette"
+          }
+        },
+        {
+          "form": "diciotto",
+          "meaning": {
+            "en": "18",
+            "ko": "18",
+            "ja": "18",
+            "zh": "18",
+            "fr": "18",
+            "es": "18",
+            "de": "18",
+            "ru": "18",
+            "it": "18"
+          },
+          "sound": {
+            "en": "dee-chot-to",
+            "ko": "디초토",
+            "ja": "ディチョット",
+            "zh": "dee-chot-to",
+            "fr": "dee-chot-to",
+            "es": "dee-chot-to",
+            "de": "dee-chot-to",
+            "ru": "dee-chot-to",
+            "it": "diciotto"
+          }
+        },
+        {
+          "form": "diciannove",
+          "meaning": {
+            "en": "19",
+            "ko": "19",
+            "ja": "19",
+            "zh": "19",
+            "fr": "19",
+            "es": "19",
+            "de": "19",
+            "ru": "19",
+            "it": "19"
+          },
+          "sound": {
+            "en": "dee-cha-no-ve",
+            "ko": "디차노베",
+            "ja": "ディチャノヴェ",
+            "zh": "dee-cha-no-ve",
+            "fr": "dee-cha-no-ve",
+            "es": "dee-cha-no-ve",
+            "de": "dee-cha-no-ve",
+            "ru": "dee-cha-no-ve",
+            "it": "diciannove"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Tens",
+        "ko": "십 단위",
+        "ja": "十の位",
+        "zh": "整十",
+        "fr": "Dizaines",
+        "es": "Decenas",
+        "de": "Zehner",
+        "ru": "Десятки",
+        "it": "Decine"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Italian",
+            "ko": "이탈리아어",
+            "ja": "イタリア語",
+            "zh": "意大利语",
+            "fr": "Italien",
+            "es": "Italiano",
+            "de": "Italienisch",
+            "ru": "Итальянский",
+            "it": "Italiano"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "venti",
+          "meaning": {
+            "en": "20",
+            "ko": "20",
+            "ja": "20",
+            "zh": "20",
+            "fr": "20",
+            "es": "20",
+            "de": "20",
+            "ru": "20",
+            "it": "20"
+          },
+          "sound": {
+            "en": "ven-tee",
+            "ko": "벤티",
+            "ja": "ヴェンティ",
+            "zh": "ven-tee",
+            "fr": "ven-tee",
+            "es": "ven-tee",
+            "de": "ven-tee",
+            "ru": "ven-tee",
+            "it": "venti"
+          }
+        },
+        {
+          "form": "trenta",
+          "meaning": {
+            "en": "30",
+            "ko": "30",
+            "ja": "30",
+            "zh": "30",
+            "fr": "30",
+            "es": "30",
+            "de": "30",
+            "ru": "30",
+            "it": "30"
+          },
+          "sound": {
+            "en": "tren-ta",
+            "ko": "트렌타",
+            "ja": "トレンタ",
+            "zh": "tren-ta",
+            "fr": "tren-ta",
+            "es": "tren-ta",
+            "de": "tren-ta",
+            "ru": "tren-ta",
+            "it": "trenta"
+          }
+        },
+        {
+          "form": "quaranta",
+          "meaning": {
+            "en": "40",
+            "ko": "40",
+            "ja": "40",
+            "zh": "40",
+            "fr": "40",
+            "es": "40",
+            "de": "40",
+            "ru": "40",
+            "it": "40"
+          },
+          "sound": {
+            "en": "kwa-ran-ta",
+            "ko": "쿠아란타",
+            "ja": "クアランタ",
+            "zh": "kwa-ran-ta",
+            "fr": "kwa-ran-ta",
+            "es": "kwa-ran-ta",
+            "de": "kwa-ran-ta",
+            "ru": "kwa-ran-ta",
+            "it": "quaranta"
+          }
+        },
+        {
+          "form": "cinquanta",
+          "meaning": {
+            "en": "50",
+            "ko": "50",
+            "ja": "50",
+            "zh": "50",
+            "fr": "50",
+            "es": "50",
+            "de": "50",
+            "ru": "50",
+            "it": "50"
+          },
+          "sound": {
+            "en": "chin-kwan-ta",
+            "ko": "칭콴타",
+            "ja": "チンクワンタ",
+            "zh": "chin-kwan-ta",
+            "fr": "chin-kwan-ta",
+            "es": "chin-kwan-ta",
+            "de": "chin-kwan-ta",
+            "ru": "chin-kwan-ta",
+            "it": "cinquanta"
+          }
+        },
+        {
+          "form": "sessanta",
+          "meaning": {
+            "en": "60",
+            "ko": "60",
+            "ja": "60",
+            "zh": "60",
+            "fr": "60",
+            "es": "60",
+            "de": "60",
+            "ru": "60",
+            "it": "60"
+          },
+          "sound": {
+            "en": "ses-san-ta",
+            "ko": "세산타",
+            "ja": "セッサンタ",
+            "zh": "ses-san-ta",
+            "fr": "ses-san-ta",
+            "es": "ses-san-ta",
+            "de": "ses-san-ta",
+            "ru": "ses-san-ta",
+            "it": "sessanta"
+          }
+        },
+        {
+          "form": "settanta",
+          "meaning": {
+            "en": "70",
+            "ko": "70",
+            "ja": "70",
+            "zh": "70",
+            "fr": "70",
+            "es": "70",
+            "de": "70",
+            "ru": "70",
+            "it": "70"
+          },
+          "sound": {
+            "en": "set-tan-ta",
+            "ko": "세탄타",
+            "ja": "セッタンタ",
+            "zh": "set-tan-ta",
+            "fr": "set-tan-ta",
+            "es": "set-tan-ta",
+            "de": "set-tan-ta",
+            "ru": "set-tan-ta",
+            "it": "settanta"
+          }
+        },
+        {
+          "form": "ottanta",
+          "meaning": {
+            "en": "80",
+            "ko": "80",
+            "ja": "80",
+            "zh": "80",
+            "fr": "80",
+            "es": "80",
+            "de": "80",
+            "ru": "80",
+            "it": "80"
+          },
+          "sound": {
+            "en": "ot-tan-ta",
+            "ko": "오탄타",
+            "ja": "オッタンタ",
+            "zh": "ot-tan-ta",
+            "fr": "ot-tan-ta",
+            "es": "ot-tan-ta",
+            "de": "ot-tan-ta",
+            "ru": "ot-tan-ta",
+            "it": "ottanta"
+          }
+        },
+        {
+          "form": "novanta",
+          "meaning": {
+            "en": "90",
+            "ko": "90",
+            "ja": "90",
+            "zh": "90",
+            "fr": "90",
+            "es": "90",
+            "de": "90",
+            "ru": "90",
+            "it": "90"
+          },
+          "sound": {
+            "en": "no-van-ta",
+            "ko": "노반타",
+            "ja": "ノヴァンタ",
+            "zh": "no-van-ta",
+            "fr": "no-van-ta",
+            "es": "no-van-ta",
+            "de": "no-van-ta",
+            "ru": "no-van-ta",
+            "it": "novanta"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Hundreds & 1000",
+        "ko": "백·천",
+        "ja": "百・千",
+        "zh": "百与千",
+        "fr": "Centaines & 1000",
+        "es": "Centenas y 1000",
+        "de": "Hunderter & 1000",
+        "ru": "Сотни и 1000",
+        "it": "Centinaia e 1000"
+      },
+      "note": {
+        "en": "cento = 100 (no “un”). Round hundreds fuse: duecento. mille → mila in compounds (duemila).",
+        "ko": "100은 cento(“un” 없음). 백 단위는 붙여 씀(duecento). 합성에서 mille → mila(duemila).",
+        "ja": "100は cento（un なし）。百は duecento。合成では mille → mila。",
+        "zh": "100 用 cento（不加 un）。整百连写；合成中 mille → mila。",
+        "fr": "cento = 100 (pas « un »). Centaines soudées. mille → mila.",
+        "es": "cento = 100 (sin « un »). Centenas unidas. mille → mila.",
+        "de": "cento = 100 (kein „un“). Hunderter verschmolzen. mille → mila.",
+        "ru": "cento = 100 (без «un»). Сотни слитно. mille → mila.",
+        "it": "cento = 100 (senza «un»). Centinaia fuse. mille → mila."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Italian",
+            "ko": "이탈리아어",
+            "ja": "イタリア語",
+            "zh": "意大利语",
+            "fr": "Italien",
+            "es": "Italiano",
+            "de": "Italienisch",
+            "ru": "Итальянский",
+            "it": "Italiano"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "cento",
+          "meaning": {
+            "en": "100",
+            "ko": "100",
+            "ja": "100",
+            "zh": "100",
+            "fr": "100",
+            "es": "100",
+            "de": "100",
+            "ru": "100",
+            "it": "100"
+          },
+          "sound": {
+            "en": "chen-to",
+            "ko": "첸토",
+            "ja": "チェント",
+            "zh": "chen-to",
+            "fr": "chen-to",
+            "es": "chen-to",
+            "de": "chen-to",
+            "ru": "chen-to",
+            "it": "cento"
+          }
+        },
+        {
+          "form": "duecento",
+          "meaning": {
+            "en": "200",
+            "ko": "200",
+            "ja": "200",
+            "zh": "200",
+            "fr": "200",
+            "es": "200",
+            "de": "200",
+            "ru": "200",
+            "it": "200"
+          },
+          "sound": {
+            "en": "doo-e-chen-to",
+            "ko": "두에첸토",
+            "ja": "ドゥエチェント",
+            "zh": "doo-e-chen-to",
+            "fr": "doo-e-chen-to",
+            "es": "doo-e-chen-to",
+            "de": "doo-e-chen-to",
+            "ru": "doo-e-chen-to",
+            "it": "duecento"
+          }
+        },
+        {
+          "form": "trecento",
+          "meaning": {
+            "en": "300",
+            "ko": "300",
+            "ja": "300",
+            "zh": "300",
+            "fr": "300",
+            "es": "300",
+            "de": "300",
+            "ru": "300",
+            "it": "300"
+          },
+          "sound": {
+            "en": "tre-chen-to",
+            "ko": "트레첸토",
+            "ja": "トレチェント",
+            "zh": "tre-chen-to",
+            "fr": "tre-chen-to",
+            "es": "tre-chen-to",
+            "de": "tre-chen-to",
+            "ru": "tre-chen-to",
+            "it": "trecento"
+          }
+        },
+        {
+          "form": "quattrocento",
+          "meaning": {
+            "en": "400",
+            "ko": "400",
+            "ja": "400",
+            "zh": "400",
+            "fr": "400",
+            "es": "400",
+            "de": "400",
+            "ru": "400",
+            "it": "400"
+          },
+          "sound": {
+            "en": "kwa-tro-chen-to",
+            "ko": "쿠아트로첸토",
+            "ja": "クアトロチェント",
+            "zh": "kwa-tro-chen-to",
+            "fr": "kwa-tro-chen-to",
+            "es": "kwa-tro-chen-to",
+            "de": "kwa-tro-chen-to",
+            "ru": "kwa-tro-chen-to",
+            "it": "quattrocento"
+          }
+        },
+        {
+          "form": "cinquecento",
+          "meaning": {
+            "en": "500",
+            "ko": "500",
+            "ja": "500",
+            "zh": "500",
+            "fr": "500",
+            "es": "500",
+            "de": "500",
+            "ru": "500",
+            "it": "500"
+          },
+          "sound": {
+            "en": "chin-kwe-chen-to",
+            "ko": "칭퀘첸토",
+            "ja": "チンクェチェント",
+            "zh": "chin-kwe-chen-to",
+            "fr": "chin-kwe-chen-to",
+            "es": "chin-kwe-chen-to",
+            "de": "chin-kwe-chen-to",
+            "ru": "chin-kwe-chen-to",
+            "it": "cinquecento"
+          }
+        },
+        {
+          "form": "seicento",
+          "meaning": {
+            "en": "600",
+            "ko": "600",
+            "ja": "600",
+            "zh": "600",
+            "fr": "600",
+            "es": "600",
+            "de": "600",
+            "ru": "600",
+            "it": "600"
+          },
+          "sound": {
+            "en": "say-chen-to",
+            "ko": "세이첸토",
+            "ja": "セイチェント",
+            "zh": "say-chen-to",
+            "fr": "say-chen-to",
+            "es": "say-chen-to",
+            "de": "say-chen-to",
+            "ru": "say-chen-to",
+            "it": "seicento"
+          }
+        },
+        {
+          "form": "settecento",
+          "meaning": {
+            "en": "700",
+            "ko": "700",
+            "ja": "700",
+            "zh": "700",
+            "fr": "700",
+            "es": "700",
+            "de": "700",
+            "ru": "700",
+            "it": "700"
+          },
+          "sound": {
+            "en": "set-te-chen-to",
+            "ko": "세테첸토",
+            "ja": "セッテチェント",
+            "zh": "set-te-chen-to",
+            "fr": "set-te-chen-to",
+            "es": "set-te-chen-to",
+            "de": "set-te-chen-to",
+            "ru": "set-te-chen-to",
+            "it": "settecento"
+          }
+        },
+        {
+          "form": "ottocento",
+          "meaning": {
+            "en": "800",
+            "ko": "800",
+            "ja": "800",
+            "zh": "800",
+            "fr": "800",
+            "es": "800",
+            "de": "800",
+            "ru": "800",
+            "it": "800"
+          },
+          "sound": {
+            "en": "ot-to-chen-to",
+            "ko": "오토첸토",
+            "ja": "オットチェント",
+            "zh": "ot-to-chen-to",
+            "fr": "ot-to-chen-to",
+            "es": "ot-to-chen-to",
+            "de": "ot-to-chen-to",
+            "ru": "ot-to-chen-to",
+            "it": "ottocento"
+          }
+        },
+        {
+          "form": "novecento",
+          "meaning": {
+            "en": "900",
+            "ko": "900",
+            "ja": "900",
+            "zh": "900",
+            "fr": "900",
+            "es": "900",
+            "de": "900",
+            "ru": "900",
+            "it": "900"
+          },
+          "sound": {
+            "en": "no-ve-chen-to",
+            "ko": "노베첸토",
+            "ja": "ノヴェチェント",
+            "zh": "no-ve-chen-to",
+            "fr": "no-ve-chen-to",
+            "es": "no-ve-chen-to",
+            "de": "no-ve-chen-to",
+            "ru": "no-ve-chen-to",
+            "it": "novecento"
+          }
+        },
+        {
+          "form": "mille",
+          "meaning": {
+            "en": "1000",
+            "ko": "1000",
+            "ja": "1000",
+            "zh": "1000",
+            "fr": "1000",
+            "es": "1000",
+            "de": "1000",
+            "ru": "1000",
+            "it": "1000"
+          },
+          "sound": {
+            "en": "mee-le/mille",
+            "ko": "밀레",
+            "ja": "ミッレ",
+            "zh": "mee-le/mille",
+            "fr": "mee-le/mille",
+            "es": "mee-le/mille",
+            "de": "mee-le/mille",
+            "ru": "mee-le/mille",
+            "it": "mille"
+          }
+        }
+      ]
+    }
+  ]
+}

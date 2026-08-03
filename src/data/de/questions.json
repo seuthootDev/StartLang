@@ -1,0 +1,392 @@
+[
+  {
+    "quiz_id": "de_questions_wer",
+    "question_word": "wer",
+    "pronunciations": {
+      "en": "vair/wer",
+      "ko": "베어",
+      "ja": "ヴェーア",
+      "zh": "vair/wer",
+      "fr": "vair/wer",
+      "es": "vair/wer",
+      "de": "wer",
+      "ru": "vair/wer",
+      "it": "vair/wer"
+    },
+    "translations": {
+      "en": "who (Nominativ)",
+      "ko": "누구 (주격)",
+      "ja": "誰（主格）",
+      "zh": "谁（主格）",
+      "fr": "qui (nominatif)",
+      "es": "quién (nominativo)",
+      "de": "wer (Nominativ)",
+      "ru": "кто (имен.)",
+      "it": "chi (nominativo)"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wen",
+    "question_word": "wen",
+    "pronunciations": {
+      "en": "vain/wen",
+      "ko": "벤",
+      "ja": "ヴェーン",
+      "zh": "vain/wen",
+      "fr": "vain/wen",
+      "es": "vain/wen",
+      "de": "wen",
+      "ru": "vain/wen",
+      "it": "vain/wen"
+    },
+    "translations": {
+      "en": "whom (Akkusativ)",
+      "ko": "누구를 (목적격)",
+      "ja": "誰を（対格）",
+      "zh": "谁（宾格）",
+      "fr": "qui (accusatif)",
+      "es": "a quién (acusativo)",
+      "de": "wen (Akkusativ)",
+      "ru": "кого (вин.)",
+      "it": "chi (accusativo)"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wem",
+    "question_word": "wem",
+    "pronunciations": {
+      "en": "vaim/wem",
+      "ko": "벰",
+      "ja": "ヴェーム",
+      "zh": "vaim/wem",
+      "fr": "vaim/wem",
+      "es": "vaim/wem",
+      "de": "wem",
+      "ru": "vaim/wem",
+      "it": "vaim/wem"
+    },
+    "translations": {
+      "en": "to whom (Dativ)",
+      "ko": "누구에게 (여격)",
+      "ja": "誰に（与格）",
+      "zh": "谁（与格）",
+      "fr": "à qui (datif)",
+      "es": "a quién (dativo)",
+      "de": "wem (Dativ)",
+      "ru": "кому (дат.)",
+      "it": "a chi (dativo)"
+    }
+  },
+  {
+    "quiz_id": "de_questions_was",
+    "question_word": "was",
+    "pronunciations": {
+      "en": "vas/was",
+      "ko": "바스",
+      "ja": "ヴァス",
+      "zh": "vas/was",
+      "fr": "vas/was",
+      "es": "vas/was",
+      "de": "was",
+      "ru": "vas/was",
+      "it": "vas/was"
+    },
+    "translations": {
+      "en": "what",
+      "ko": "무엇",
+      "ja": "何",
+      "zh": "什么",
+      "fr": "quoi / que",
+      "es": "qué",
+      "de": "was",
+      "ru": "что",
+      "it": "che cosa"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wo",
+    "question_word": "wo",
+    "pronunciations": {
+      "en": "vo/wo",
+      "ko": "보",
+      "ja": "ヴォー",
+      "zh": "vo/wo",
+      "fr": "vo/wo",
+      "es": "vo/wo",
+      "de": "wo",
+      "ru": "vo/wo",
+      "it": "vo/wo"
+    },
+    "translations": {
+      "en": "where (location)",
+      "ko": "어디 (장소)",
+      "ja": "どこ（場所）",
+      "zh": "哪里（地点）",
+      "fr": "où (lieu)",
+      "es": "dónde",
+      "de": "wo",
+      "ru": "где",
+      "it": "dove"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wohin",
+    "question_word": "wohin",
+    "pronunciations": {
+      "en": "vo-hin",
+      "ko": "보힌",
+      "ja": "ヴォーヒン",
+      "zh": "vo-hin",
+      "fr": "vo-hin",
+      "es": "vo-hin",
+      "de": "wohin",
+      "ru": "vo-hin",
+      "it": "vo-hin"
+    },
+    "translations": {
+      "en": "where to / whither",
+      "ko": "어디로 (방향)",
+      "ja": "どこへ（方向）",
+      "zh": "去哪里（方向）",
+      "fr": "où (direction)",
+      "es": "adónde",
+      "de": "wohin",
+      "ru": "куда",
+      "it": "dove (direzione)"
+    }
+  },
+  {
+    "quiz_id": "de_questions_woher",
+    "question_word": "woher",
+    "pronunciations": {
+      "en": "vo-hair",
+      "ko": "보헤어",
+      "ja": "ヴォーヘア",
+      "zh": "vo-hair",
+      "fr": "vo-hair",
+      "es": "vo-hair",
+      "de": "woher",
+      "ru": "vo-hair",
+      "it": "vo-hair"
+    },
+    "translations": {
+      "en": "where from",
+      "ko": "어디서 (출발)",
+      "ja": "どこから",
+      "zh": "从哪里",
+      "fr": "d’où",
+      "es": "de dónde",
+      "de": "woher",
+      "ru": "откуда",
+      "it": "da dove"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wann",
+    "question_word": "wann",
+    "pronunciations": {
+      "en": "van/wann",
+      "ko": "반",
+      "ja": "ヴァン",
+      "zh": "van/wann",
+      "fr": "van/wann",
+      "es": "van/wann",
+      "de": "wann",
+      "ru": "van/wann",
+      "it": "van/wann"
+    },
+    "translations": {
+      "en": "when",
+      "ko": "언제",
+      "ja": "いつ",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда",
+      "it": "quando"
+    }
+  },
+  {
+    "quiz_id": "de_questions_warum",
+    "question_word": "warum",
+    "pronunciations": {
+      "en": "va-room",
+      "ko": "바룸",
+      "ja": "ヴァルム",
+      "zh": "va-room",
+      "fr": "va-room",
+      "es": "va-room",
+      "de": "warum",
+      "ru": "va-room",
+      "it": "va-room"
+    },
+    "translations": {
+      "en": "why",
+      "ko": "왜",
+      "ja": "なぜ",
+      "zh": "为什么",
+      "fr": "pourquoi",
+      "es": "por qué",
+      "de": "warum",
+      "ru": "почему",
+      "it": "perché"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wie",
+    "question_word": "wie",
+    "pronunciations": {
+      "en": "vee/wie",
+      "ko": "비",
+      "ja": "ヴィー",
+      "zh": "vee/wie",
+      "fr": "vee/wie",
+      "es": "vee/wie",
+      "de": "wie",
+      "ru": "vee/wie",
+      "it": "vee/wie"
+    },
+    "translations": {
+      "en": "how",
+      "ko": "어떻게",
+      "ja": "どう / どのように",
+      "zh": "怎么 / 如何",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как",
+      "it": "come"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wieviel",
+    "question_word": "wie viel",
+    "pronunciations": {
+      "en": "vee feel",
+      "ko": "비 필",
+      "ja": "ヴィー・フィール",
+      "zh": "vee feel",
+      "fr": "vee feel",
+      "es": "vee feel",
+      "de": "wie viel",
+      "ru": "vee feel",
+      "it": "vee feel"
+    },
+    "translations": {
+      "en": "how much (uncountable / amount)",
+      "ko": "얼마 (셀 수 없는·양)",
+      "ja": "いくら（量）",
+      "zh": "多少（不可数／量）",
+      "fr": "combien (quantité)",
+      "es": "cuánto",
+      "de": "wie viel",
+      "ru": "сколько (кол-во)",
+      "it": "quanto"
+    }
+  },
+  {
+    "quiz_id": "de_questions_wieviele",
+    "question_word": "wie viele",
+    "pronunciations": {
+      "en": "vee fee-le",
+      "ko": "비 필레",
+      "ja": "ヴィー・フィーレ",
+      "zh": "vee fee-le",
+      "fr": "vee fee-le",
+      "es": "vee fee-le",
+      "de": "wie viele",
+      "ru": "vee fee-le",
+      "it": "vee fee-le"
+    },
+    "translations": {
+      "en": "how many (countable plural)",
+      "ko": "몇 (셀 수 있는 복수)",
+      "ja": "いくつ（数えられる複数）",
+      "zh": "多少（可数复数）",
+      "fr": "combien (pluriel)",
+      "es": "cuántos",
+      "de": "wie viele",
+      "ru": "сколько (мн.)",
+      "it": "quanti"
+    }
+  },
+  {
+    "quiz_id": "de_questions_welcher",
+    "question_word": "welcher",
+    "pronunciations": {
+      "en": "vel-kher",
+      "ko": "벨허",
+      "ja": "ヴェルヒャー",
+      "zh": "vel-kher",
+      "fr": "vel-kher",
+      "es": "vel-kher",
+      "de": "welcher",
+      "ru": "vel-kher",
+      "it": "vel-kher"
+    },
+    "translations": {
+      "en": "which (masculine Nominativ)",
+      "ko": "어느 (남성 주격)",
+      "ja": "どの（男性主格）",
+      "zh": "哪个（阳性主格）",
+      "fr": "quel (masculin)",
+      "es": "cuál / qué (masculino)",
+      "de": "welcher (m., Nom.)",
+      "ru": "какой (м. р., имен.)",
+      "it": "quale (maschile)"
+    }
+  },
+  {
+    "quiz_id": "de_questions_welche",
+    "question_word": "welche",
+    "pronunciations": {
+      "en": "vel-khe",
+      "ko": "벨헤",
+      "ja": "ヴェルヒェ",
+      "zh": "vel-khe",
+      "fr": "vel-khe",
+      "es": "vel-khe",
+      "de": "welche",
+      "ru": "vel-khe",
+      "it": "vel-khe"
+    },
+    "translations": {
+      "en": "which (feminine / plural)",
+      "ko": "어느 (여성·복수)",
+      "ja": "どの（女性・複数）",
+      "zh": "哪个／哪些（阴性／复数）",
+      "fr": "quelle / quels",
+      "es": "cuál / cuáles",
+      "de": "welche (f. / Pl.)",
+      "ru": "какая / какие",
+      "it": "quale / quali"
+    }
+  },
+  {
+    "quiz_id": "de_questions_welches",
+    "question_word": "welches",
+    "pronunciations": {
+      "en": "vel-khes",
+      "ko": "벨헤스",
+      "ja": "ヴェルヒェス",
+      "zh": "vel-khes",
+      "fr": "vel-khes",
+      "es": "vel-khes",
+      "de": "welches",
+      "ru": "vel-khes",
+      "it": "vel-khes"
+    },
+    "translations": {
+      "en": "which (neuter Nominativ/Akkusativ)",
+      "ko": "어느 (중성 주·목적격)",
+      "ja": "どの（中性主・対格）",
+      "zh": "哪个（中性主／宾格）",
+      "fr": "quel (neutre)",
+      "es": "cuál (neutro)",
+      "de": "welches (n., Nom./Akk.)",
+      "ru": "какое (ср. р.)",
+      "it": "quale (neutro)"
+    }
+  }
+]

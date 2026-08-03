@@ -1,0 +1,834 @@
+[
+  {
+    "quiz_id": "it_alphabet_a",
+    "question_word": "A",
+    "pronunciations": {
+      "en": "a",
+      "ko": "아",
+      "ja": "ア",
+      "zh": "a",
+      "fr": "a",
+      "es": "a",
+      "de": "a",
+      "ru": "а",
+      "it": "a"
+    },
+    "translations": {
+      "en": "a",
+      "ko": "아",
+      "ja": "ア",
+      "zh": "a",
+      "fr": "a",
+      "es": "a",
+      "de": "a",
+      "ru": "а",
+      "it": "a"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_b",
+    "question_word": "B",
+    "pronunciations": {
+      "en": "bi/bee",
+      "ko": "비",
+      "ja": "ビ",
+      "zh": "bi",
+      "fr": "bi",
+      "es": "bi",
+      "de": "bi",
+      "ru": "би",
+      "it": "bi"
+    },
+    "translations": {
+      "en": "bi/bee",
+      "ko": "비",
+      "ja": "ビ",
+      "zh": "bi",
+      "fr": "bi",
+      "es": "bi",
+      "de": "bi",
+      "ru": "би",
+      "it": "bi"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_c",
+    "question_word": "C",
+    "pronunciations": {
+      "en": "ci/chee",
+      "ko": "치",
+      "ja": "チ",
+      "zh": "ci",
+      "fr": "ci",
+      "es": "ci",
+      "de": "tschi/ci",
+      "ru": "чи",
+      "it": "ci"
+    },
+    "translations": {
+      "en": "ci/chee",
+      "ko": "치",
+      "ja": "チ",
+      "zh": "ci",
+      "fr": "ci",
+      "es": "ci",
+      "de": "tschi/ci",
+      "ru": "чи",
+      "it": "ci"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_d",
+    "question_word": "D",
+    "pronunciations": {
+      "en": "di/dee",
+      "ko": "디",
+      "ja": "ディ",
+      "zh": "di",
+      "fr": "di",
+      "es": "di",
+      "de": "di",
+      "ru": "ди",
+      "it": "di"
+    },
+    "translations": {
+      "en": "di/dee",
+      "ko": "디",
+      "ja": "ディ",
+      "zh": "di",
+      "fr": "di",
+      "es": "di",
+      "de": "di",
+      "ru": "ди",
+      "it": "di"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_e",
+    "question_word": "E",
+    "pronunciations": {
+      "en": "e",
+      "ko": "에",
+      "ja": "エ",
+      "zh": "e",
+      "fr": "e",
+      "es": "e",
+      "de": "e",
+      "ru": "э",
+      "it": "e"
+    },
+    "translations": {
+      "en": "e",
+      "ko": "에",
+      "ja": "エ",
+      "zh": "e",
+      "fr": "e",
+      "es": "e",
+      "de": "e",
+      "ru": "э",
+      "it": "e"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_f",
+    "question_word": "F",
+    "pronunciations": {
+      "en": "effe/ef/f",
+      "ko": "에페",
+      "ja": "エッフェ",
+      "zh": "effe",
+      "fr": "effe",
+      "es": "efe/effe",
+      "de": "effe/eff",
+      "ru": "эффе",
+      "it": "effe"
+    },
+    "translations": {
+      "en": "effe/ef/f",
+      "ko": "에페",
+      "ja": "エッフェ",
+      "zh": "effe",
+      "fr": "effe",
+      "es": "efe/effe",
+      "de": "effe/eff",
+      "ru": "эффе",
+      "it": "effe"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_g",
+    "question_word": "G",
+    "pronunciations": {
+      "en": "gi/jee",
+      "ko": "지",
+      "ja": "ジ",
+      "zh": "gi",
+      "fr": "gi",
+      "es": "gi",
+      "de": "dschi/gi",
+      "ru": "джи",
+      "it": "gi"
+    },
+    "translations": {
+      "en": "gi/jee",
+      "ko": "지",
+      "ja": "ジ",
+      "zh": "gi",
+      "fr": "gi",
+      "es": "gi",
+      "de": "dschi/gi",
+      "ru": "джи",
+      "it": "gi"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_h",
+    "question_word": "H",
+    "pronunciations": {
+      "en": "acca/aka/h",
+      "ko": "아카",
+      "ja": "アッカ",
+      "zh": "acca",
+      "fr": "acca",
+      "es": "acca/hache",
+      "de": "akka/acca",
+      "ru": "акка",
+      "it": "acca"
+    },
+    "translations": {
+      "en": "acca/aka/h",
+      "ko": "아카",
+      "ja": "アッカ",
+      "zh": "acca",
+      "fr": "acca",
+      "es": "acca/hache",
+      "de": "akka/acca",
+      "ru": "акка",
+      "it": "acca"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_i",
+    "question_word": "I",
+    "pronunciations": {
+      "en": "i",
+      "ko": "이",
+      "ja": "イ",
+      "zh": "i",
+      "fr": "i",
+      "es": "i",
+      "de": "i",
+      "ru": "и",
+      "it": "i"
+    },
+    "translations": {
+      "en": "i",
+      "ko": "이",
+      "ja": "イ",
+      "zh": "i",
+      "fr": "i",
+      "es": "i",
+      "de": "i",
+      "ru": "и",
+      "it": "i"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_j",
+    "question_word": "J",
+    "pronunciations": {
+      "en": "i lunga/jay/j",
+      "ko": "이 룽가",
+      "ja": "イ・ルンガ",
+      "zh": "i lunga",
+      "fr": "i lunga",
+      "es": "i lunga/jota",
+      "de": "i lunga/jot",
+      "ru": "и лунга",
+      "it": "i lunga"
+    },
+    "translations": {
+      "en": "i lunga/jay/j",
+      "ko": "이 룽가",
+      "ja": "イ・ルンガ",
+      "zh": "i lunga",
+      "fr": "i lunga",
+      "es": "i lunga/jota",
+      "de": "i lunga/jot",
+      "ru": "и лунга",
+      "it": "i lunga"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_k",
+    "question_word": "K",
+    "pronunciations": {
+      "en": "cappa/kappa/k",
+      "ko": "카파",
+      "ja": "カッパ",
+      "zh": "cappa",
+      "fr": "cappa",
+      "es": "cappa/ka",
+      "de": "kappa/cappa",
+      "ru": "каппа",
+      "it": "cappa"
+    },
+    "translations": {
+      "en": "cappa/kappa/k",
+      "ko": "카파",
+      "ja": "カッパ",
+      "zh": "cappa",
+      "fr": "cappa",
+      "es": "cappa/ka",
+      "de": "kappa/cappa",
+      "ru": "каппа",
+      "it": "cappa"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_l",
+    "question_word": "L",
+    "pronunciations": {
+      "en": "elle/el/l",
+      "ko": "엘레",
+      "ja": "エレ",
+      "zh": "elle",
+      "fr": "elle",
+      "es": "elle/ele",
+      "de": "elle/ell",
+      "ru": "элле",
+      "it": "elle"
+    },
+    "translations": {
+      "en": "elle/el/l",
+      "ko": "엘레",
+      "ja": "エレ",
+      "zh": "elle",
+      "fr": "elle",
+      "es": "elle/ele",
+      "de": "elle/ell",
+      "ru": "элле",
+      "it": "elle"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_m",
+    "question_word": "M",
+    "pronunciations": {
+      "en": "emme/em/m",
+      "ko": "엠메",
+      "ja": "エンメ",
+      "zh": "emme",
+      "fr": "emme",
+      "es": "emme/eme",
+      "de": "emme/emm",
+      "ru": "эмме",
+      "it": "emme"
+    },
+    "translations": {
+      "en": "emme/em/m",
+      "ko": "엠메",
+      "ja": "エンメ",
+      "zh": "emme",
+      "fr": "emme",
+      "es": "emme/eme",
+      "de": "emme/emm",
+      "ru": "эмме",
+      "it": "emme"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_n",
+    "question_word": "N",
+    "pronunciations": {
+      "en": "enne/en/n",
+      "ko": "엔네",
+      "ja": "エンネ",
+      "zh": "enne",
+      "fr": "enne",
+      "es": "enne/ene",
+      "de": "enne/enn",
+      "ru": "энне",
+      "it": "enne"
+    },
+    "translations": {
+      "en": "enne/en/n",
+      "ko": "엔네",
+      "ja": "エンネ",
+      "zh": "enne",
+      "fr": "enne",
+      "es": "enne/ene",
+      "de": "enne/enn",
+      "ru": "энне",
+      "it": "enne"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_o",
+    "question_word": "O",
+    "pronunciations": {
+      "en": "o",
+      "ko": "오",
+      "ja": "オ",
+      "zh": "o",
+      "fr": "o",
+      "es": "o",
+      "de": "o",
+      "ru": "о",
+      "it": "o"
+    },
+    "translations": {
+      "en": "o",
+      "ko": "오",
+      "ja": "オ",
+      "zh": "o",
+      "fr": "o",
+      "es": "o",
+      "de": "o",
+      "ru": "о",
+      "it": "o"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_p",
+    "question_word": "P",
+    "pronunciations": {
+      "en": "pi/pee",
+      "ko": "피",
+      "ja": "ピ",
+      "zh": "pi",
+      "fr": "pi",
+      "es": "pi",
+      "de": "pi",
+      "ru": "пи",
+      "it": "pi"
+    },
+    "translations": {
+      "en": "pi/pee",
+      "ko": "피",
+      "ja": "ピ",
+      "zh": "pi",
+      "fr": "pi",
+      "es": "pi",
+      "de": "pi",
+      "ru": "пи",
+      "it": "pi"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_q",
+    "question_word": "Q",
+    "pronunciations": {
+      "en": "cu/qu/ku",
+      "ko": "쿠",
+      "ja": "ク",
+      "zh": "cu",
+      "fr": "cu",
+      "es": "cu",
+      "de": "ku/cu",
+      "ru": "ку",
+      "it": "cu"
+    },
+    "translations": {
+      "en": "cu/qu/ku",
+      "ko": "쿠",
+      "ja": "ク",
+      "zh": "cu",
+      "fr": "cu",
+      "es": "cu",
+      "de": "ku/cu",
+      "ru": "ку",
+      "it": "cu"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_r",
+    "question_word": "R",
+    "pronunciations": {
+      "en": "erre/air/r",
+      "ko": "에레",
+      "ja": "エルレ",
+      "zh": "erre",
+      "fr": "erre",
+      "es": "erre",
+      "de": "erre/ärr",
+      "ru": "эрре",
+      "it": "erre"
+    },
+    "translations": {
+      "en": "erre/air/r",
+      "ko": "에레",
+      "ja": "エルレ",
+      "zh": "erre",
+      "fr": "erre",
+      "es": "erre",
+      "de": "erre/ärr",
+      "ru": "эрре",
+      "it": "erre"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_s",
+    "question_word": "S",
+    "pronunciations": {
+      "en": "esse/es/s",
+      "ko": "에세",
+      "ja": "エッセ",
+      "zh": "esse",
+      "fr": "esse",
+      "es": "ese/esse",
+      "de": "esse/ess",
+      "ru": "эссе",
+      "it": "esse"
+    },
+    "translations": {
+      "en": "esse/es/s",
+      "ko": "에세",
+      "ja": "エッセ",
+      "zh": "esse",
+      "fr": "esse",
+      "es": "ese/esse",
+      "de": "esse/ess",
+      "ru": "эссе",
+      "it": "esse"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_t",
+    "question_word": "T",
+    "pronunciations": {
+      "en": "ti/tee",
+      "ko": "티",
+      "ja": "ティ",
+      "zh": "ti",
+      "fr": "ti",
+      "es": "ti",
+      "de": "ti",
+      "ru": "ти",
+      "it": "ti"
+    },
+    "translations": {
+      "en": "ti/tee",
+      "ko": "티",
+      "ja": "ティ",
+      "zh": "ti",
+      "fr": "ti",
+      "es": "ti",
+      "de": "ti",
+      "ru": "ти",
+      "it": "ti"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_u",
+    "question_word": "U",
+    "pronunciations": {
+      "en": "u",
+      "ko": "우",
+      "ja": "ウ",
+      "zh": "u",
+      "fr": "u",
+      "es": "u",
+      "de": "u",
+      "ru": "у",
+      "it": "u"
+    },
+    "translations": {
+      "en": "u",
+      "ko": "우",
+      "ja": "ウ",
+      "zh": "u",
+      "fr": "u",
+      "es": "u",
+      "de": "u",
+      "ru": "у",
+      "it": "u"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_v",
+    "question_word": "V",
+    "pronunciations": {
+      "en": "vi/vu/vee",
+      "ko": "비/부",
+      "ja": "ヴィ/ヴ",
+      "zh": "vi/vu",
+      "fr": "vi/vu",
+      "es": "vi/uve",
+      "de": "wi/vi",
+      "ru": "ви",
+      "it": "vi"
+    },
+    "translations": {
+      "en": "vi/vu/vee",
+      "ko": "비/부",
+      "ja": "ヴィ/ヴ",
+      "zh": "vi/vu",
+      "fr": "vi/vu",
+      "es": "vi/uve",
+      "de": "wi/vi",
+      "ru": "ви",
+      "it": "vi"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_w",
+    "question_word": "W",
+    "pronunciations": {
+      "en": "doppia vu/vu doppia/w",
+      "ko": "도피아 부",
+      "ja": "ドッピア・ヴ",
+      "zh": "doppia vu",
+      "fr": "double vé/doppia vu",
+      "es": "doble vu/doppia vu",
+      "de": "Doppel-u/w",
+      "ru": "доппиа ву",
+      "it": "doppia vu"
+    },
+    "translations": {
+      "en": "doppia vu/vu doppia/w",
+      "ko": "도피아 부",
+      "ja": "ドッピア・ヴ",
+      "zh": "doppia vu",
+      "fr": "double vé/doppia vu",
+      "es": "doble vu/doppia vu",
+      "de": "Doppel-u/w",
+      "ru": "доппиа ву",
+      "it": "doppia vu"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_x",
+    "question_word": "X",
+    "pronunciations": {
+      "en": "ics/iks/x",
+      "ko": "익스",
+      "ja": "イクス",
+      "zh": "ics",
+      "fr": "ics/iks",
+      "es": "ics/equis",
+      "de": "iks/ics",
+      "ru": "икс",
+      "it": "ics"
+    },
+    "translations": {
+      "en": "ics/iks/x",
+      "ko": "익스",
+      "ja": "イクス",
+      "zh": "ics",
+      "fr": "ics/iks",
+      "es": "ics/equis",
+      "de": "iks/ics",
+      "ru": "икс",
+      "it": "ics"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_y",
+    "question_word": "Y",
+    "pronunciations": {
+      "en": "ipsilon/i greca/y",
+      "ko": "입실론/이 그레카",
+      "ja": "イプシロン",
+      "zh": "ipsilon",
+      "fr": "ipsilon/i grec",
+      "es": "ipsilon/i griega",
+      "de": "ypsilon/ipsilon",
+      "ru": "ипсилон",
+      "it": "ipsilon"
+    },
+    "translations": {
+      "en": "ipsilon/i greca/y",
+      "ko": "입실론/이 그레카",
+      "ja": "イプシロン",
+      "zh": "ipsilon",
+      "fr": "ipsilon/i grec",
+      "es": "ipsilon/i griega",
+      "de": "ypsilon/ipsilon",
+      "ru": "ипсилон",
+      "it": "ipsilon"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_z",
+    "question_word": "Z",
+    "pronunciations": {
+      "en": "zeta/zeda/z",
+      "ko": "제타",
+      "ja": "ゼータ",
+      "zh": "zeta",
+      "fr": "zéta/zède",
+      "es": "zeta",
+      "de": "zeta/zett",
+      "ru": "дзета",
+      "it": "zeta"
+    },
+    "translations": {
+      "en": "zeta/zeda/z",
+      "ko": "제타",
+      "ja": "ゼータ",
+      "zh": "zeta",
+      "fr": "zéta/zède",
+      "es": "zeta",
+      "de": "zeta/zett",
+      "ru": "дзета",
+      "it": "zeta"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_a_grave",
+    "question_word": "À",
+    "pronunciations": {
+      "en": "à/a grave/a",
+      "ko": "아(그라브)/아",
+      "ja": "ア（グレイヴ）/ア",
+      "zh": "à/a",
+      "fr": "à/a grave",
+      "es": "à/a grave",
+      "de": "à/a grave/a",
+      "ru": "а с грависом/а",
+      "it": "à"
+    },
+    "translations": {
+      "en": "à/a grave/a",
+      "ko": "아(그라브)/아",
+      "ja": "ア（グレイヴ）/ア",
+      "zh": "à/a",
+      "fr": "à/a grave",
+      "es": "à/a grave",
+      "de": "à/a grave/a",
+      "ru": "а с грависом/а",
+      "it": "à"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_e_grave",
+    "question_word": "È",
+    "pronunciations": {
+      "en": "è/e grave/e",
+      "ko": "에(그라브)/에",
+      "ja": "エ（グレイヴ）/エ",
+      "zh": "è/e",
+      "fr": "è/e grave",
+      "es": "è/e grave",
+      "de": "è/e grave/e",
+      "ru": "э с грависом/э",
+      "it": "è"
+    },
+    "translations": {
+      "en": "è/e grave/e",
+      "ko": "에(그라브)/에",
+      "ja": "エ（グレイヴ）/エ",
+      "zh": "è/e",
+      "fr": "è/e grave",
+      "es": "è/e grave",
+      "de": "è/e grave/e",
+      "ru": "э с грависом/э",
+      "it": "è"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_e_acute",
+    "question_word": "É",
+    "pronunciations": {
+      "en": "é/e acuta/e",
+      "ko": "에(아쿠타)/에",
+      "ja": "エ（アクート）/エ",
+      "zh": "é/e",
+      "fr": "é/e aigu",
+      "es": "é/e aguda",
+      "de": "é/e akut/e",
+      "ru": "э с акутом/э",
+      "it": "é"
+    },
+    "translations": {
+      "en": "é/e acuta/e",
+      "ko": "에(아쿠타)/에",
+      "ja": "エ（アクート）/エ",
+      "zh": "é/e",
+      "fr": "é/e aigu",
+      "es": "é/e aguda",
+      "de": "é/e akut/e",
+      "ru": "э с акутом/э",
+      "it": "é"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_i_grave",
+    "question_word": "Ì",
+    "pronunciations": {
+      "en": "ì/i grave/i",
+      "ko": "이(그라브)/이",
+      "ja": "イ（グレイヴ）/イ",
+      "zh": "ì/i",
+      "fr": "ì/i grave",
+      "es": "ì/i grave",
+      "de": "ì/i grave/i",
+      "ru": "и с грависом/и",
+      "it": "ì"
+    },
+    "translations": {
+      "en": "ì/i grave/i",
+      "ko": "이(그라브)/이",
+      "ja": "イ（グレイヴ）/イ",
+      "zh": "ì/i",
+      "fr": "ì/i grave",
+      "es": "ì/i grave",
+      "de": "ì/i grave/i",
+      "ru": "и с грависом/и",
+      "it": "ì"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_o_grave",
+    "question_word": "Ò",
+    "pronunciations": {
+      "en": "ò/o grave/o",
+      "ko": "오(그라브)/오",
+      "ja": "オ（グレイヴ）/オ",
+      "zh": "ò/o",
+      "fr": "ò/o grave",
+      "es": "ò/o grave",
+      "de": "ò/o grave/o",
+      "ru": "о с грависом/о",
+      "it": "ò"
+    },
+    "translations": {
+      "en": "ò/o grave/o",
+      "ko": "오(그라브)/오",
+      "ja": "オ（グレイヴ）/オ",
+      "zh": "ò/o",
+      "fr": "ò/o grave",
+      "es": "ò/o grave",
+      "de": "ò/o grave/o",
+      "ru": "о с грависом/о",
+      "it": "ò"
+    }
+  },
+  {
+    "quiz_id": "it_alphabet_u_grave",
+    "question_word": "Ù",
+    "pronunciations": {
+      "en": "ù/u grave/u",
+      "ko": "우(그라브)/우",
+      "ja": "ウ（グレイヴ）/ウ",
+      "zh": "ù/u",
+      "fr": "ù/u grave",
+      "es": "ù/u grave",
+      "de": "ù/u grave/u",
+      "ru": "у с грависом/у",
+      "it": "ù"
+    },
+    "translations": {
+      "en": "ù/u grave/u",
+      "ko": "우(그라브)/우",
+      "ja": "ウ（グレイヴ）/ウ",
+      "zh": "ù/u",
+      "fr": "ù/u grave",
+      "es": "ù/u grave",
+      "de": "ù/u grave/u",
+      "ru": "у с грависом/у",
+      "it": "ù"
+    }
+  }
+]

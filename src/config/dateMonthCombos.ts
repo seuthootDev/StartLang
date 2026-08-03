@@ -450,7 +450,7 @@ function koFullDateMeaning(month: number, day: number): Partial<Record<LangCode,
   }
 }
 
-export type DateMonthComboMode = 'ja' | 'ko' | 'ru'
+export type DateMonthComboMode = 'ja' | 'ko' | 'ru' | 'de'
 
 /** Genitive month forms used in Russian dates (5 января). */
 export const RU_MONTHS_GEN: Array<{
@@ -573,6 +573,9 @@ export function isDateMonthComboEntry(
   if (mode === 'ru') {
     return /^ru_dates_day_\d+$/.test(id)
   }
+  if (mode === 'de') {
+    return /^de_dates_day_\d+$/.test(id)
+  }
   return /^ko_calendar_day_\d+$/.test(id)
 }
 
@@ -689,6 +692,139 @@ function withRussianMonth(
   }
 }
 
+/** Nominative month names used after German ordinals (am 5. März). */
+const DE_MONTHS: Array<{
+  n: number
+  form: string
+  reading: Partial<Record<LangCode, string>>
+  name: Partial<Record<LangCode, string>>
+}> = [
+  {
+    n: 1,
+    form: 'Januar',
+    reading: { en: 'yan-oo-ar', ko: '야누아르', ja: 'ヤヌアール', de: 'Januar' },
+    name: { en: 'January', ko: '1월', ja: '一月', zh: '一月', fr: 'janvier', es: 'enero', de: 'Januar', ru: 'январь', it: 'gennaio' },
+  },
+  {
+    n: 2,
+    form: 'Februar',
+    reading: { en: 'fay-broo-ar', ko: '페브루아르', ja: 'フェブルアール', de: 'Februar' },
+    name: { en: 'February', ko: '2월', ja: '二月', zh: '二月', fr: 'février', es: 'febrero', de: 'Februar', ru: 'февраль', it: 'febbraio' },
+  },
+  {
+    n: 3,
+    form: 'März',
+    reading: { en: 'merts', ko: '메르츠', ja: 'メルツ', de: 'März' },
+    name: { en: 'March', ko: '3월', ja: '三月', zh: '三月', fr: 'mars', es: 'marzo', de: 'März', ru: 'март', it: 'marzo' },
+  },
+  {
+    n: 4,
+    form: 'April',
+    reading: { en: 'a-pril', ko: '아프릴', ja: 'アプリル', de: 'April' },
+    name: { en: 'April', ko: '4월', ja: '四月', zh: '四月', fr: 'avril', es: 'abril', de: 'April', ru: 'апрель', it: 'aprile' },
+  },
+  {
+    n: 5,
+    form: 'Mai',
+    reading: { en: 'my', ko: '마이', ja: 'マイ', de: 'Mai' },
+    name: { en: 'May', ko: '5월', ja: '五月', zh: '五月', fr: 'mai', es: 'mayo', de: 'Mai', ru: 'май', it: 'maggio' },
+  },
+  {
+    n: 6,
+    form: 'Juni',
+    reading: { en: 'yoo-nee', ko: '유니', ja: 'ユーニ', de: 'Juni' },
+    name: { en: 'June', ko: '6월', ja: '六月', zh: '六月', fr: 'juin', es: 'junio', de: 'Juni', ru: 'июнь', it: 'giugno' },
+  },
+  {
+    n: 7,
+    form: 'Juli',
+    reading: { en: 'yoo-lee', ko: '율리', ja: 'ユーリ', de: 'Juli' },
+    name: { en: 'July', ko: '7월', ja: '七月', zh: '七月', fr: 'juillet', es: 'julio', de: 'Juli', ru: 'июль', it: 'luglio' },
+  },
+  {
+    n: 8,
+    form: 'August',
+    reading: { en: 'ow-goost', ko: '아우구스트', ja: 'アウグスト', de: 'August' },
+    name: { en: 'August', ko: '8월', ja: '八月', zh: '八月', fr: 'août', es: 'agosto', de: 'August', ru: 'август', it: 'agosto' },
+  },
+  {
+    n: 9,
+    form: 'September',
+    reading: { en: 'zep-tem-ber', ko: '젭템버', ja: 'セプテンバー', de: 'September' },
+    name: { en: 'September', ko: '9월', ja: '九月', zh: '九月', fr: 'septembre', es: 'septiembre', de: 'September', ru: 'сентябрь', it: 'settembre' },
+  },
+  {
+    n: 10,
+    form: 'Oktober',
+    reading: { en: 'ok-toh-ber', ko: '옥토버', ja: 'オクトーバー', de: 'Oktober' },
+    name: { en: 'October', ko: '10월', ja: '十月', zh: '十月', fr: 'octobre', es: 'octubre', de: 'Oktober', ru: 'октябрь', it: 'ottobre' },
+  },
+  {
+    n: 11,
+    form: 'November',
+    reading: { en: 'no-vem-ber', ko: '노벰버', ja: 'ノヴェンバー', de: 'November' },
+    name: { en: 'November', ko: '11월', ja: '十一月', zh: '十一月', fr: 'novembre', es: 'noviembre', de: 'November', ru: 'ноябрь', it: 'novembre' },
+  },
+  {
+    n: 12,
+    form: 'Dezember',
+    reading: { en: 'de-tsem-ber', ko: '데쳄버', ja: 'デツェンバー', de: 'Dezember' },
+    name: { en: 'December', ko: '12월', ja: '十二月', zh: '十二月', fr: 'décembre', es: 'diciembre', de: 'Dezember', ru: 'декабрь', it: 'dicembre' },
+  },
+]
+
+function pickDeMonth() {
+  return DE_MONTHS[Math.floor(Math.random() * DE_MONTHS.length)]!
+}
+
+function deFullDateMeaning(
+  month: (typeof DE_MONTHS)[number],
+  day: number,
+): Partial<Record<LangCode, string>> {
+  return {
+    en: `${month.name.en} ${day}`,
+    ko: `${month.name.ko} ${day}일`,
+    ja: `${month.name.ja}${day}日`,
+    zh: `${month.name.zh}${day}日`,
+    fr: `${day} ${month.name.fr}`,
+    es: `${day} de ${month.name.es}`,
+    de: `${day}. ${month.form}`,
+    it: `${day} ${month.name.it}`,
+    ru: `${day} ${month.name.ru}`,
+  }
+}
+
+function withGermanMonth(
+  entry: MeaningQuizEntry,
+  month: (typeof DE_MONTHS)[number],
+): MeaningQuizEntry {
+  const id = baseDateQuizId(entry.quiz_id)
+  const dayMatch = /^de_dates_day_(\d+)$/.exec(id)
+  if (!dayMatch) return entry
+
+  const day = Number(dayMatch[1])
+  const pronunciations: MeaningQuizEntry['pronunciations'] = {}
+  for (const lang of Object.keys(month.reading) as LangCode[]) {
+    const daySound = entry.pronunciations[lang] ?? entry.pronunciations.en ?? ''
+    const monthSound = month.reading[lang] ?? month.reading.en ?? ''
+    pronunciations[lang] = `${daySound} ${monthSound}`.trim()
+  }
+  for (const lang of ['zh', 'fr', 'es', 'it', 'ru'] as LangCode[]) {
+    if (pronunciations[lang]) continue
+    const daySound = entry.pronunciations[lang] ?? entry.pronunciations.en ?? ''
+    const monthSound = month.reading[lang] ?? month.reading.en ?? ''
+    pronunciations[lang] = `${daySound} ${monthSound}`.trim()
+  }
+
+  return {
+    ...entry,
+    quiz_id: `${id}_m${month.n}`,
+    question_word: `${entry.question_word} ${month.form}`,
+    translations: deFullDateMeaning(month, day),
+    pronunciations,
+  }
+}
+
 /**
  * One random month for the prompt; the same month is applied to every
  * distractor so month reading alone cannot reveal the answer.
@@ -723,12 +859,19 @@ export function entriesWithSharedMonth(
         ? (RU_MONTHS_GEN.find((m) => m.n === forcedMonth) ?? pickRuMonth())
         : pickRuMonth()
       : null
+  const deMonth =
+    mode === 'de'
+      ? forcedMonth
+        ? (DE_MONTHS.find((m) => m.n === forcedMonth) ?? pickDeMonth())
+        : pickDeMonth()
+      : null
 
   const apply = (entry: MeaningQuizEntry): MeaningQuizEntry => {
     const base = resolveBaseEntry(entry, originals)
     if (!isDateMonthComboEntry(base, mode)) return base
     if (mode === 'ja') return withJapaneseMonth(base, jaMonth!)
     if (mode === 'ru') return withRussianMonth(base, ruMonth!)
+    if (mode === 'de') return withGermanMonth(base, deMonth!)
     return withKoreanMonth(base, koMonth!)
   }
 

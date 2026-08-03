@@ -1,0 +1,309 @@
+{
+  "table_id": "es_time_ref",
+  "title": {
+    "en": "Time of day",
+    "ko": "하루의 때",
+    "ja": "一日の時間帯",
+    "zh": "一天中的时段",
+    "fr": "Moments de la journée",
+    "es": "Momentos del día",
+    "de": "Tageszeiten",
+    "ru": "Время суток",
+    "it": "Time of day"
+  },
+  "note": {
+    "en": "Watch mañana: “morning” and “tomorrow”. Use por la mañana / por la tarde / por la noche.",
+    "ko": "mañana는 「아침」과 「내일」. por la mañana / tarde / noche를 씁니다.",
+    "ja": "mañana は「朝」と「明日」。por la mañana／tarde／noche。",
+    "zh": "mañana 既是“早上”也是“明天”。用 por la mañana／tarde／noche。",
+    "fr": "mañana = matin et demain. por la mañana / tarde / noche.",
+    "es": "mañana = morning y tomorrow. por la mañana / tarde / noche.",
+    "de": "mañana = Morgen und morgen. por la mañana / tarde / noche.",
+    "ru": "mañana = утро и завтра. por la mañana / tarde / noche.",
+    "it": "Watch mañana: “morning” and “tomorrow”. Use por la mañana / por la tarde / por la noche."
+  },
+  "rules": {
+    "en": [
+      "mediodía = noon; tarde covers afternoon into early evening.",
+      "Clock talk often uses de la mañana / de la tarde / de la noche."
+    ],
+    "ko": [
+      "mediodía = 정오; tarde는 오후~이른 저녁.",
+      "시계 표현에 de la mañana / de la tarde / de la noche."
+    ],
+    "ja": [
+      "mediodía＝正午。tarde は午後〜早い晩。",
+      "時刻では de la mañana／tarde／noche。"
+    ],
+    "zh": [
+      "mediodía＝中午；tarde 含下午到傍晚。",
+      "报时常用 de la mañana／tarde／noche。"
+    ],
+    "fr": [
+      "mediodía = midi ; tarde = après-midi / début de soirée.",
+      "À l’heure : de la mañana / tarde / noche."
+    ],
+    "es": [
+      "mediodía = noon; tarde = afternoon / early evening.",
+      "En la hora: de la mañana / tarde / noche."
+    ],
+    "de": [
+      "mediodía = Mittag; tarde = Nachmittag / früher Abend.",
+      "Bei der Uhrzeit: de la mañana / tarde / noche."
+    ],
+    "ru": [
+      "mediodía = полдень; tarde = после полудня / ранний вечер.",
+      "Во времени: de la mañana / tarde / noche."
+    ],
+    "it": [
+      "mediodía = mezzogiorno; tarde = pomeriggio / inizio sera.",
+      "Nell’ora: de la mañana / tarde / noche."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "Spanish",
+        "ko": "스페인어",
+        "ja": "スペイン語",
+        "zh": "西班牙语",
+        "fr": "Espagnol",
+        "es": "Español",
+        "de": "Spanisch",
+        "ru": "Испанский",
+        "it": "Spanish"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение",
+        "it": "Meaning"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение",
+        "it": "Sound"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "amanecer",
+      "meaning": {
+        "en": "dawn / daybreak",
+        "ko": "새벽 / 동틀 녘",
+        "ja": "明け方",
+        "zh": "黎明",
+        "fr": "aube",
+        "es": "amanecer",
+        "de": "Morgendämmerung",
+        "ru": "рассвет",
+        "it": "dawn / daybreak"
+      },
+      "sound": {
+        "en": "a-ma-ne-ser",
+        "ko": "아마네세르",
+        "ja": "アマネセル",
+        "zh": "a-ma-ne-ser",
+        "fr": "a-ma-ne-ser",
+        "es": "amanecer",
+        "de": "a-ma-ne-ser",
+        "ru": "a-ma-ne-ser",
+        "it": "a-ma-ne-ser"
+      }
+    },
+    {
+      "form": "mañana",
+      "meaning": {
+        "en": "morning (also “tomorrow”)",
+        "ko": "아침 (「내일」 뜻도)",
+        "ja": "朝（「明日」の意味も）",
+        "zh": "早上（也有“明天”）",
+        "fr": "matin (aussi « demain »)",
+        "es": "mañana",
+        "de": "Morgen (auch „morgen“)",
+        "ru": "утро (также «завтра»)",
+        "it": "morning (also “tomorrow”)"
+      },
+      "sound": {
+        "en": "ma-nya-na",
+        "ko": "마냐나",
+        "ja": "マニャーナ",
+        "zh": "ma-nya-na",
+        "fr": "ma-nya-na",
+        "es": "mañana",
+        "de": "ma-nya-na",
+        "ru": "ma-nya-na",
+        "it": "ma-nya-na"
+      }
+    },
+    {
+      "form": "por la mañana",
+      "meaning": {
+        "en": "a.m. / in the morning",
+        "ko": "오전 / 아침에",
+        "ja": "午前 / 朝に",
+        "zh": "上午",
+        "fr": "le matin",
+        "es": "por la mañana",
+        "de": "morgens",
+        "ru": "утром",
+        "it": "a.m. / in the morning"
+      },
+      "sound": {
+        "en": "por la ma-nya-na",
+        "ko": "포르 라 마냐나",
+        "ja": "ポル・ラ・マニャーナ",
+        "zh": "por la ma-nya-na",
+        "fr": "por la ma-nya-na",
+        "es": "por la mañana",
+        "de": "por la ma-nya-na",
+        "ru": "por la ma-nya-na",
+        "it": "por la ma-nya-na"
+      }
+    },
+    {
+      "form": "mediodía",
+      "meaning": {
+        "en": "noon / midday",
+        "ko": "정오 / 낮",
+        "ja": "正午 / 昼",
+        "zh": "中午",
+        "fr": "midi",
+        "es": "mediodía",
+        "de": "Mittag",
+        "ru": "полдень",
+        "it": "noon / midday"
+      },
+      "sound": {
+        "en": "me-dyo-dee-a",
+        "ko": "메디오디아",
+        "ja": "メディオディーア",
+        "zh": "me-dyo-dee-a",
+        "fr": "me-dyo-dee-a",
+        "es": "mediodía",
+        "de": "me-dyo-dee-a",
+        "ru": "me-dyo-dee-a",
+        "it": "me-dyo-dee-a"
+      }
+    },
+    {
+      "form": "tarde",
+      "meaning": {
+        "en": "afternoon / evening (early)",
+        "ko": "오후 / 저녁(이른)",
+        "ja": "午後 / 夕方",
+        "zh": "下午 / 傍晚",
+        "fr": "après-midi / début de soirée",
+        "es": "tarde",
+        "de": "Nachmittag / früher Abend",
+        "ru": "после полудня / вечер",
+        "it": "afternoon / evening (early)"
+      },
+      "sound": {
+        "en": "tar-de",
+        "ko": "타르데",
+        "ja": "タルデ",
+        "zh": "tar-de",
+        "fr": "tar-de",
+        "es": "tarde",
+        "de": "tar-de",
+        "ru": "tar-de",
+        "it": "tar-de"
+      }
+    },
+    {
+      "form": "noche",
+      "meaning": {
+        "en": "night / evening",
+        "ko": "밤 / 저녁",
+        "ja": "夜 / 晩",
+        "zh": "晚上 / 夜晚",
+        "fr": "soir / nuit",
+        "es": "noche",
+        "de": "Abend / Nacht",
+        "ru": "вечер / ночь",
+        "it": "night / evening"
+      },
+      "sound": {
+        "en": "no-che",
+        "ko": "노체",
+        "ja": "ノチェ",
+        "zh": "no-che",
+        "fr": "no-che",
+        "es": "noche",
+        "de": "no-che",
+        "ru": "no-che",
+        "it": "no-che"
+      }
+    },
+    {
+      "form": "por la noche",
+      "meaning": {
+        "en": "at night / in the evening",
+        "ko": "밤에",
+        "ja": "夜に",
+        "zh": "在晚上",
+        "fr": "le soir / la nuit",
+        "es": "por la noche",
+        "de": "nachts / abends",
+        "ru": "вечером / ночью",
+        "it": "at night / in the evening"
+      },
+      "sound": {
+        "en": "por la no-che",
+        "ko": "포르 라 노체",
+        "ja": "ポル・ラ・ノチェ",
+        "zh": "por la no-che",
+        "fr": "por la no-che",
+        "es": "por la noche",
+        "de": "por la no-che",
+        "ru": "por la no-che",
+        "it": "por la no-che"
+      }
+    },
+    {
+      "form": "ahora",
+      "meaning": {
+        "en": "now",
+        "ko": "지금",
+        "ja": "今",
+        "zh": "现在",
+        "fr": "maintenant",
+        "es": "ahora",
+        "de": "jetzt",
+        "ru": "сейчас",
+        "it": "now"
+      },
+      "sound": {
+        "en": "a-o-ra",
+        "ko": "아오라",
+        "ja": "アオラ",
+        "zh": "a-o-ra",
+        "fr": "a-o-ra",
+        "es": "ahora",
+        "de": "a-o-ra",
+        "ru": "a-o-ra",
+        "it": "a-o-ra"
+      }
+    }
+  ]
+}

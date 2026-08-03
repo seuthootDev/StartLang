@@ -1,0 +1,1207 @@
+{
+  "table_id": "de_alphabet_ref",
+  "title": {
+    "en": "German alphabet",
+    "ko": "독일어 알파벳",
+    "ja": "ドイツ語アルファベット",
+    "zh": "德语字母",
+    "fr": "Alphabet allemand",
+    "es": "Alfabeto alemán",
+    "de": "Deutsches Alphabet",
+    "ru": "Немецкий алфавит",
+    "it": "Alfabeto tedesco"
+  },
+  "note": {
+    "en": "German letter names (ah, jot, fau, tsett…). Extras are umlauts + ß — not Romance stress accents. Digraphs below are reference only.",
+    "ko": "독일어 글자 이름(아, 요트, 파우, 체트…). 추가는 움라우트·ß — 로망스어 강세 악센트와 다름. 아래 이중문자는 참고용.",
+    "ja": "ドイツ語の文字名（アー、ヨット、ファウ…）。追加はウムラウトと ß。二重字は参考のみ。",
+    "zh": "德语字母名（ah、jot、fau…）。额外为变音字母与 ß。双字母仅供参考。",
+    "fr": "Noms allemands (ah, jot, fau…). Extras = umlauts + ß. Digraphes = référence.",
+    "es": "Nombres alemanes (ah, jot, fau…). Extras = diéresis + ß. Dígrafos = referencia.",
+    "de": "Deutsche Buchstabennamen. Extra: Umlaute + ß. Digraphen nur Nachschlagewerk.",
+    "ru": "Немецкие имена букв. Дополнительно умлауты и ß. Диграфы — справка.",
+    "it": "Nomi tedeschi (ah, jot, fau…). Extra: umlaut + ß. Digrammi solo riferimento."
+  },
+  "rules": {
+    "en": [
+      "V is named fau; W is weh — in words V≈/f/, W≈/v/.",
+      "J ≈ English “y” (jot); Z ≈ “ts” (tsett).",
+      "Ä Ö Ü change the vowel; ASCII fallbacks ae / oe / ue appear in some spellings (e.g. emails).",
+      "ß (Eszett) never starts a word; after 1996 reform often ss after short vowels. Uppercase ẞ exists but is rare."
+    ],
+    "ko": [
+      "V 이름은 파우, W는 베 — 단어에서 V≈/f/, W≈/v/.",
+      "J ≈ 영어 y(요트); Z ≈ ts(체트).",
+      "Ä Ö Ü는 모음 변형; 이메일 등에서 ae/oe/ue로 쓰기도 함.",
+      "ß는 단어 앞에 안 옴; 1996 이후 짧은 모음 뒤는 종종 ss. 대문자 ẞ는 드묾."
+    ],
+    "ja": [
+      "V はファウ、W はヴェー。語中では V≈/f/、W≈/v/。",
+      "J≈英語の y、Z≈ ts。",
+      "Ä Ö Ü は母音変化。ae/oe/ue 表記もある。",
+      "ß は語頭に来ない。大文字 ẞ は稀。"
+    ],
+    "zh": [
+      "V 叫 fau，W 叫 weh；词中 V≈/f/，W≈/v/。",
+      "J≈英语 y；Z≈ts。",
+      "Ä Ö Ü 改变元音；有时写作 ae/oe/ue。",
+      "ß 不出现在词首；大写 ẞ 少见。"
+    ],
+    "fr": [
+      "V = fau, W = weh ; dans les mots V≈/f/, W≈/v/.",
+      "J ≈ y anglais ; Z ≈ ts.",
+      "Ä Ö Ü = umlauts ; parfois ae/oe/ue.",
+      "ß jamais en début ; ẞ majuscule rare."
+    ],
+    "es": [
+      "V = fau, W = weh; en palabras V≈/f/, W≈/v/.",
+      "J ≈ y inglesa; Z ≈ ts.",
+      "Ä Ö Ü = diéresis; a veces ae/oe/ue.",
+      "ß nunca al inicio; ẞ mayúscula rara."
+    ],
+    "de": [
+      "V heißt Vau, W We; im Wort V≈/f/, W≈/v/.",
+      "J ≈ englisches y; Z ≈ ts.",
+      "Ä Ö Ü = Umlaute; Ersatzschreibung ae/oe/ue.",
+      "ß nie am Wortanfang; Großbuchstabe ẞ selten."
+    ],
+    "ru": [
+      "V = фау, W = вэ; в словах V≈/f/, W≈/v/.",
+      "J ≈ англ. y; Z ≈ ts.",
+      "Ä Ö Ü — умлауты; иногда ae/oe/ue.",
+      "ß не в начале слова; заглавная ẞ редка."
+    ],
+    "it": [
+      "V = fau, W = we; nelle parole V≈/f/, W≈/v/.",
+      "J ≈ y inglese; Z ≈ ts.",
+      "Ä Ö Ü = umlaut; a volte ae/oe/ue.",
+      "ß mai a inizio parola; ẞ maiuscola rara."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "A–Z",
+        "ko": "A–Z",
+        "ja": "A–Z",
+        "zh": "A–Z",
+        "fr": "A–Z",
+        "es": "A–Z",
+        "de": "A–Z",
+        "ru": "A–Z",
+        "it": "A–Z"
+      },
+      "columns": [
+        {
+          "key": "char",
+          "labels": {
+            "en": "Letter",
+            "ko": "글자",
+            "ja": "文字",
+            "zh": "字母",
+            "fr": "Lettre",
+            "es": "Letra",
+            "de": "Buchstabe",
+            "ru": "Буква",
+            "it": "Lettera"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Son",
+            "es": "Sonido",
+            "de": "Laut",
+            "ru": "Звук",
+            "it": "Suono"
+          }
+        },
+        {
+          "key": "name",
+          "labels": {
+            "en": "Name",
+            "ko": "이름",
+            "ja": "名称",
+            "zh": "名称",
+            "fr": "Nom",
+            "es": "Nombre",
+            "de": "Name",
+            "ru": "Название",
+            "it": "Nome"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "char": "A",
+          "sound": {
+            "en": "ah/a",
+            "ko": "아",
+            "ja": "アー",
+            "zh": "a",
+            "fr": "a",
+            "es": "a",
+            "de": "a",
+            "ru": "а",
+            "it": "a"
+          },
+          "name": {
+            "en": "ah/a",
+            "ko": "아",
+            "ja": "アー",
+            "zh": "a",
+            "fr": "a",
+            "es": "a",
+            "de": "a",
+            "ru": "а",
+            "it": "a"
+          }
+        },
+        {
+          "char": "B",
+          "sound": {
+            "en": "beh/bay",
+            "ko": "베",
+            "ja": "ベー",
+            "zh": "be",
+            "fr": "bé",
+            "es": "be",
+            "de": "be",
+            "ru": "бэ",
+            "it": "be"
+          },
+          "name": {
+            "en": "beh",
+            "ko": "베",
+            "ja": "ベー",
+            "zh": "be",
+            "fr": "bé",
+            "es": "be",
+            "de": "Be",
+            "ru": "бэ",
+            "it": "be"
+          }
+        },
+        {
+          "char": "C",
+          "sound": {
+            "en": "tseh/tsay",
+            "ko": "체",
+            "ja": "ツェー",
+            "zh": "tse",
+            "fr": "tsé",
+            "es": "tse",
+            "de": "ce",
+            "ru": "це",
+            "it": "tse"
+          },
+          "name": {
+            "en": "tseh",
+            "ko": "체",
+            "ja": "ツェー",
+            "zh": "tse",
+            "fr": "tsé",
+            "es": "tse",
+            "de": "Ce",
+            "ru": "це",
+            "it": "tse"
+          }
+        },
+        {
+          "char": "D",
+          "sound": {
+            "en": "deh/day",
+            "ko": "데",
+            "ja": "デー",
+            "zh": "de",
+            "fr": "dé",
+            "es": "de",
+            "de": "de",
+            "ru": "дэ",
+            "it": "de"
+          },
+          "name": {
+            "en": "deh",
+            "ko": "데",
+            "ja": "デー",
+            "zh": "de",
+            "fr": "dé",
+            "es": "de",
+            "de": "De",
+            "ru": "дэ",
+            "it": "de"
+          }
+        },
+        {
+          "char": "E",
+          "sound": {
+            "en": "eh/e",
+            "ko": "에",
+            "ja": "エー",
+            "zh": "e",
+            "fr": "é",
+            "es": "e",
+            "de": "e",
+            "ru": "э",
+            "it": "e"
+          },
+          "name": {
+            "en": "eh/e",
+            "ko": "에",
+            "ja": "エー",
+            "zh": "e",
+            "fr": "é",
+            "es": "e",
+            "de": "e",
+            "ru": "э",
+            "it": "e"
+          }
+        },
+        {
+          "char": "F",
+          "sound": {
+            "en": "eff",
+            "ko": "에프",
+            "ja": "エフ",
+            "zh": "ef",
+            "fr": "eff",
+            "es": "efe",
+            "de": "eff",
+            "ru": "эф",
+            "it": "effe"
+          },
+          "name": {
+            "en": "eff",
+            "ko": "에프",
+            "ja": "エフ",
+            "zh": "ef",
+            "fr": "eff",
+            "es": "efe",
+            "de": "Eff",
+            "ru": "эф",
+            "it": "effe"
+          }
+        },
+        {
+          "char": "G",
+          "sound": {
+            "en": "geh/gay",
+            "ko": "게",
+            "ja": "ゲー",
+            "zh": "ge",
+            "fr": "gué",
+            "es": "gue",
+            "de": "ge",
+            "ru": "гэ",
+            "it": "ghe"
+          },
+          "name": {
+            "en": "geh",
+            "ko": "게",
+            "ja": "ゲー",
+            "zh": "ge",
+            "fr": "gué",
+            "es": "gue",
+            "de": "Ge",
+            "ru": "гэ",
+            "it": "ghe"
+          }
+        },
+        {
+          "char": "H",
+          "sound": {
+            "en": "ha",
+            "ko": "하",
+            "ja": "ハー",
+            "zh": "ha",
+            "fr": "ha",
+            "es": "ha",
+            "de": "ha",
+            "ru": "ха",
+            "it": "ha"
+          },
+          "name": {
+            "en": "ha",
+            "ko": "하",
+            "ja": "ハー",
+            "zh": "ha",
+            "fr": "ha",
+            "es": "ha",
+            "de": "Ha",
+            "ru": "ха",
+            "it": "ha"
+          }
+        },
+        {
+          "char": "I",
+          "sound": {
+            "en": "ih/ee",
+            "ko": "이",
+            "ja": "イー",
+            "zh": "i",
+            "fr": "i",
+            "es": "i",
+            "de": "i",
+            "ru": "и",
+            "it": "i"
+          },
+          "name": {
+            "en": "ih/ee",
+            "ko": "이",
+            "ja": "イー",
+            "zh": "i",
+            "fr": "i",
+            "es": "i",
+            "de": "i",
+            "ru": "и",
+            "it": "i"
+          }
+        },
+        {
+          "char": "J",
+          "sound": {
+            "en": "yot/jot",
+            "ko": "요트",
+            "ja": "ヨット",
+            "zh": "yot",
+            "fr": "iot",
+            "es": "yot",
+            "de": "jot",
+            "ru": "йот",
+            "it": "iot"
+          },
+          "name": {
+            "en": "jot",
+            "ko": "요트",
+            "ja": "ヨット",
+            "zh": "yot",
+            "fr": "jot",
+            "es": "jot",
+            "de": "Jot",
+            "ru": "йот",
+            "it": "jot"
+          }
+        },
+        {
+          "char": "K",
+          "sound": {
+            "en": "ka",
+            "ko": "카",
+            "ja": "カー",
+            "zh": "ka",
+            "fr": "ka",
+            "es": "ka",
+            "de": "ka",
+            "ru": "ка",
+            "it": "ka"
+          },
+          "name": {
+            "en": "ka",
+            "ko": "카",
+            "ja": "カー",
+            "zh": "ka",
+            "fr": "ka",
+            "es": "ka",
+            "de": "Ka",
+            "ru": "ка",
+            "it": "ka"
+          }
+        },
+        {
+          "char": "L",
+          "sound": {
+            "en": "ell",
+            "ko": "엘",
+            "ja": "エル",
+            "zh": "el",
+            "fr": "ell",
+            "es": "ele",
+            "de": "ell",
+            "ru": "эль",
+            "it": "elle"
+          },
+          "name": {
+            "en": "ell",
+            "ko": "엘",
+            "ja": "エル",
+            "zh": "el",
+            "fr": "ell",
+            "es": "ele",
+            "de": "Ell",
+            "ru": "эль",
+            "it": "elle"
+          }
+        },
+        {
+          "char": "M",
+          "sound": {
+            "en": "emm",
+            "ko": "엠",
+            "ja": "エム",
+            "zh": "em",
+            "fr": "emm",
+            "es": "eme",
+            "de": "emm",
+            "ru": "эм",
+            "it": "emme"
+          },
+          "name": {
+            "en": "emm",
+            "ko": "엠",
+            "ja": "エム",
+            "zh": "em",
+            "fr": "emm",
+            "es": "eme",
+            "de": "Emm",
+            "ru": "эм",
+            "it": "emme"
+          }
+        },
+        {
+          "char": "N",
+          "sound": {
+            "en": "enn",
+            "ko": "엔",
+            "ja": "エン",
+            "zh": "en",
+            "fr": "enn",
+            "es": "ene",
+            "de": "enn",
+            "ru": "эн",
+            "it": "enne"
+          },
+          "name": {
+            "en": "enn",
+            "ko": "엔",
+            "ja": "エン",
+            "zh": "en",
+            "fr": "enn",
+            "es": "ene",
+            "de": "Enn",
+            "ru": "эн",
+            "it": "enne"
+          }
+        },
+        {
+          "char": "O",
+          "sound": {
+            "en": "oh/o",
+            "ko": "오",
+            "ja": "オー",
+            "zh": "o",
+            "fr": "o",
+            "es": "o",
+            "de": "o",
+            "ru": "о",
+            "it": "o"
+          },
+          "name": {
+            "en": "oh/o",
+            "ko": "오",
+            "ja": "オー",
+            "zh": "o",
+            "fr": "o",
+            "es": "o",
+            "de": "o",
+            "ru": "о",
+            "it": "o"
+          }
+        },
+        {
+          "char": "P",
+          "sound": {
+            "en": "peh/pay",
+            "ko": "페",
+            "ja": "ペー",
+            "zh": "pe",
+            "fr": "pé",
+            "es": "pe",
+            "de": "pe",
+            "ru": "пэ",
+            "it": "pe"
+          },
+          "name": {
+            "en": "peh",
+            "ko": "페",
+            "ja": "ペー",
+            "zh": "pe",
+            "fr": "pé",
+            "es": "pe",
+            "de": "Pe",
+            "ru": "пэ",
+            "it": "pe"
+          }
+        },
+        {
+          "char": "Q",
+          "sound": {
+            "en": "koo/kuh",
+            "ko": "쿠",
+            "ja": "クー",
+            "zh": "ku",
+            "fr": "kou",
+            "es": "ku",
+            "de": "ku",
+            "ru": "ку",
+            "it": "ku"
+          },
+          "name": {
+            "en": "kuh",
+            "ko": "쿠",
+            "ja": "クー",
+            "zh": "ku",
+            "fr": "kou",
+            "es": "ku",
+            "de": "Ku",
+            "ru": "ку",
+            "it": "ku"
+          }
+        },
+        {
+          "char": "R",
+          "sound": {
+            "en": "err",
+            "ko": "에르",
+            "ja": "エール",
+            "zh": "er",
+            "fr": "èrr",
+            "es": "ere",
+            "de": "er",
+            "ru": "эр",
+            "it": "erre"
+          },
+          "name": {
+            "en": "err",
+            "ko": "에르",
+            "ja": "エール",
+            "zh": "er",
+            "fr": "erre",
+            "es": "ere",
+            "de": "Er",
+            "ru": "эр",
+            "it": "erre"
+          }
+        },
+        {
+          "char": "S",
+          "sound": {
+            "en": "ess",
+            "ko": "에스",
+            "ja": "エス",
+            "zh": "es",
+            "fr": "ess",
+            "es": "ese",
+            "de": "es",
+            "ru": "эс",
+            "it": "esse"
+          },
+          "name": {
+            "en": "ess",
+            "ko": "에스",
+            "ja": "エス",
+            "zh": "es",
+            "fr": "ess",
+            "es": "ese",
+            "de": "Es",
+            "ru": "эс",
+            "it": "esse"
+          }
+        },
+        {
+          "char": "T",
+          "sound": {
+            "en": "teh/tay",
+            "ko": "테",
+            "ja": "テー",
+            "zh": "te",
+            "fr": "té",
+            "es": "te",
+            "de": "te",
+            "ru": "тэ",
+            "it": "te"
+          },
+          "name": {
+            "en": "teh",
+            "ko": "테",
+            "ja": "テー",
+            "zh": "te",
+            "fr": "té",
+            "es": "te",
+            "de": "Te",
+            "ru": "тэ",
+            "it": "te"
+          }
+        },
+        {
+          "char": "U",
+          "sound": {
+            "en": "oo/uh",
+            "ko": "우",
+            "ja": "ウー",
+            "zh": "u",
+            "fr": "ou",
+            "es": "u",
+            "de": "u",
+            "ru": "у",
+            "it": "u"
+          },
+          "name": {
+            "en": "oo/uh",
+            "ko": "우",
+            "ja": "ウー",
+            "zh": "u",
+            "fr": "ou",
+            "es": "u",
+            "de": "u",
+            "ru": "у",
+            "it": "u"
+          }
+        },
+        {
+          "char": "V",
+          "sound": {
+            "en": "fow/fau",
+            "ko": "파우",
+            "ja": "ファウ",
+            "zh": "fau",
+            "fr": "fau",
+            "es": "fau",
+            "de": "fau",
+            "ru": "фау",
+            "it": "fau"
+          },
+          "name": {
+            "en": "fau",
+            "ko": "파우",
+            "ja": "ファウ",
+            "zh": "fau",
+            "fr": "fau",
+            "es": "fau",
+            "de": "Vau",
+            "ru": "фау",
+            "it": "fau"
+          }
+        },
+        {
+          "char": "W",
+          "sound": {
+            "en": "veh/weh",
+            "ko": "베",
+            "ja": "ヴェー",
+            "zh": "ve",
+            "fr": "vé",
+            "es": "ve",
+            "de": "we",
+            "ru": "вэ",
+            "it": "ve"
+          },
+          "name": {
+            "en": "weh",
+            "ko": "베",
+            "ja": "ヴェー",
+            "zh": "ve",
+            "fr": "vé",
+            "es": "ve",
+            "de": "We",
+            "ru": "вэ",
+            "it": "ve"
+          }
+        },
+        {
+          "char": "X",
+          "sound": {
+            "en": "iks",
+            "ko": "익스",
+            "ja": "イクス",
+            "zh": "iks",
+            "fr": "iks",
+            "es": "iks",
+            "de": "ix",
+            "ru": "икс",
+            "it": "ics"
+          },
+          "name": {
+            "en": "iks",
+            "ko": "익스",
+            "ja": "イクス",
+            "zh": "iks",
+            "fr": "iks",
+            "es": "iks",
+            "de": "Ix",
+            "ru": "икс",
+            "it": "ics"
+          }
+        },
+        {
+          "char": "Y",
+          "sound": {
+            "en": "uep-si-lon/ypsilon",
+            "ko": "윕실론",
+            "ja": "イプシロン",
+            "zh": "ypsilon",
+            "fr": "upsilon",
+            "es": "ípsilon",
+            "de": "ypsilon",
+            "ru": "ипсилон",
+            "it": "ipsilon"
+          },
+          "name": {
+            "en": "Ypsilon",
+            "ko": "윕실론",
+            "ja": "イプシロン",
+            "zh": "ypsilon",
+            "fr": "upsilon",
+            "es": "ípsilon",
+            "de": "Ypsilon",
+            "ru": "ипсилон",
+            "it": "ipsilon"
+          }
+        },
+        {
+          "char": "Z",
+          "sound": {
+            "en": "tsett",
+            "ko": "체트",
+            "ja": "ツェット",
+            "zh": "tset",
+            "fr": "tzett",
+            "es": "tset",
+            "de": "zett",
+            "ru": "цет",
+            "it": "zeta"
+          },
+          "name": {
+            "en": "tsett",
+            "ko": "체트",
+            "ja": "ツェット",
+            "zh": "tset",
+            "fr": "tzett",
+            "es": "tset",
+            "de": "Zett",
+            "ru": "цет",
+            "it": "zeta"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Umlaute & ß",
+        "ko": "움라우트와 ß",
+        "ja": "ウムラウトと ß",
+        "zh": "变音字母与 ß",
+        "fr": "Umlauts & ß",
+        "es": "Diéresis y ß",
+        "de": "Umlaute & ß",
+        "ru": "Умлауты и ß",
+        "it": "Umlaut e ß"
+      },
+      "note": {
+        "en": "These are part of the German letter set (quiz cards too). Not the same as French/Italian acute/grave accents.",
+        "ko": "독일어 글자 집합의 일부(퀴즈에도 포함). 프랑스·이탈리아 강세 악센트와 다름.",
+        "ja": "ドイツ語の文字セットの一部（クイズあり）。仏伊のアクセントとは別。",
+        "zh": "属于德语字母集（也有测验）。不同于法/意重音。",
+        "fr": "Font partie de l’alphabet allemand (aussi en quiz). ≠ accents roman.",
+        "es": "Parte del alfabeto alemán (también en quiz). ≠ acentos romances.",
+        "de": "Zum deutschen Alphabet (auch im Quiz). ≠ romanische Akzente.",
+        "ru": "Часть немецкого алфавита (и в квизе). ≠ романские акценты.",
+        "it": "Parte dell’alfabeto tedesco (anche nel quiz). ≠ accenti romanzi."
+      },
+      "columns": [
+        {
+          "key": "char",
+          "labels": {
+            "en": "Letter",
+            "ko": "글자",
+            "ja": "文字",
+            "zh": "字母",
+            "fr": "Lettre",
+            "es": "Letra",
+            "de": "Buchstabe",
+            "ru": "Буква",
+            "it": "Lettera"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Son",
+            "es": "Sonido",
+            "de": "Laut",
+            "ru": "Звук",
+            "it": "Suono"
+          }
+        },
+        {
+          "key": "name",
+          "labels": {
+            "en": "Name",
+            "ko": "이름",
+            "ja": "名称",
+            "zh": "名称",
+            "fr": "Nom",
+            "es": "Nombre",
+            "de": "Name",
+            "ru": "Название",
+            "it": "Nome"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "char": "Ä",
+          "sound": {
+            "en": "ah-umlaut/ä",
+            "ko": "애(움라우트)",
+            "ja": "アウムラウト/エー",
+            "zh": "ä",
+            "fr": "ä",
+            "es": "ä",
+            "de": "ä",
+            "ru": "ä",
+            "it": "ä"
+          },
+          "name": {
+            "en": "A-Umlaut / ä",
+            "ko": "아 움라우트 / 애",
+            "ja": "ア・ウムラウト",
+            "zh": "A 变音 / ä",
+            "fr": "A-Umlaut / ä",
+            "es": "A-Umlaut / ä",
+            "de": "A-Umlaut / Ä",
+            "ru": "умлаут Ä",
+            "it": "A-Umlaut / ä"
+          }
+        },
+        {
+          "char": "Ö",
+          "sound": {
+            "en": "oh-umlaut/ö",
+            "ko": "외(움라우트)",
+            "ja": "オウムラウト/オー",
+            "zh": "ö",
+            "fr": "ö",
+            "es": "ö",
+            "de": "ö",
+            "ru": "ö",
+            "it": "ö"
+          },
+          "name": {
+            "en": "O-Umlaut / ö",
+            "ko": "오 움라우트 / 외",
+            "ja": "オ・ウムラウト",
+            "zh": "O 变音 / ö",
+            "fr": "O-Umlaut / ö",
+            "es": "O-Umlaut / ö",
+            "de": "O-Umlaut / Ö",
+            "ru": "умлаут Ö",
+            "it": "O-Umlaut / ö"
+          }
+        },
+        {
+          "char": "Ü",
+          "sound": {
+            "en": "ue-umlaut/ü",
+            "ko": "위(움라우트)",
+            "ja": "ウウムラウト/ユー",
+            "zh": "ü",
+            "fr": "ü",
+            "es": "ü",
+            "de": "ü",
+            "ru": "ü",
+            "it": "ü"
+          },
+          "name": {
+            "en": "U-Umlaut / ü",
+            "ko": "우 움라우트 / 위",
+            "ja": "ウ・ウムラウト",
+            "zh": "U 变音 / ü",
+            "fr": "U-Umlaut / ü",
+            "es": "U-Umlaut / ü",
+            "de": "U-Umlaut / Ü",
+            "ru": "умлаут Ü",
+            "it": "U-Umlaut / ü"
+          }
+        },
+        {
+          "char": "ß",
+          "sound": {
+            "en": "ess-tsett/Eszett",
+            "ko": "에스체트",
+            "ja": "エスツェット",
+            "zh": "eszett",
+            "fr": "eszett",
+            "es": "eszett",
+            "de": "Eszett",
+            "ru": "эсцет",
+            "it": "eszett"
+          },
+          "name": {
+            "en": "Eszett / scharfes S",
+            "ko": "에스체트 / 샤르페스 에스",
+            "ja": "エスツェット／シャープス・エス",
+            "zh": "Eszett / 尖 S",
+            "fr": "Eszett / s dur",
+            "es": "Eszett / s fuerte",
+            "de": "Eszett / scharfes S",
+            "ru": "эсцет / твёрдое s",
+            "it": "Eszett / s aspra"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Digraphs (reading)",
+        "ko": "이중문자 (읽기)",
+        "ja": "二重字（読み）",
+        "zh": "双字母（读法）",
+        "fr": "Digraphes (lecture)",
+        "es": "Dígrafos (lectura)",
+        "de": "Digraphen (Lesen)",
+        "ru": "Диграфы (чтение)",
+        "it": "Digrammi (lettura)"
+      },
+      "note": {
+        "en": "Reference only — not in the quiz deck. Learn early for word reading.",
+        "ko": "참고용(퀴즈 미포함). 단어 읽기에 일찍 필요합니다.",
+        "ja": "参考のみ（クイズ外）。単語読みに早めに必要。",
+        "zh": "仅供参考（不进测验）。读词宜尽早掌握。",
+        "fr": "Référence seule — pas dans le quiz.",
+        "es": "Solo referencia — no en el quiz.",
+        "de": "Nur Nachschlagewerk — nicht im Quiz.",
+        "ru": "Только справка — не в квизе.",
+        "it": "Solo riferimento — non nel quiz."
+      },
+      "columns": [
+        {
+          "key": "char",
+          "labels": {
+            "en": "Letter",
+            "ko": "글자",
+            "ja": "文字",
+            "zh": "字母",
+            "fr": "Lettre",
+            "es": "Letra",
+            "de": "Buchstabe",
+            "ru": "Буква",
+            "it": "Lettera"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Son",
+            "es": "Sonido",
+            "de": "Laut",
+            "ru": "Звук",
+            "it": "Suono"
+          }
+        },
+        {
+          "key": "name",
+          "labels": {
+            "en": "Name",
+            "ko": "이름",
+            "ja": "名称",
+            "zh": "名称",
+            "fr": "Nom",
+            "es": "Nombre",
+            "de": "Name",
+            "ru": "Название",
+            "it": "Nome"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "char": "ch",
+          "sound": {
+            "en": "kh / soft after i,e,ä,ö,ü,ei…; hard after a,o,u,au",
+            "ko": "이·에 뒤 부드러운 [ç]; 아·오·우 뒤 센 [x]",
+            "ja": "i,e などのあと柔らかく、a,o,u のあと強く",
+            "zh": "在 i/e 后偏软；在 a/o/u 后偏硬",
+            "fr": "doux après i,e… ; dur après a,o,u",
+            "es": "suave tras i,e…; fuerte tras a,o,u",
+            "de": "ich-Laut / ach-Laut",
+            "ru": "мягкий / твёрдый ch",
+            "it": "dolce dopo i,e…; forte dopo a,o,u"
+          },
+          "name": {
+            "en": "ch (ich-Laut / ach-Laut)",
+            "ko": "ch (이흐/아흐 소리)",
+            "ja": "ch（イッヒ／アッハ）",
+            "zh": "ch（软/硬）",
+            "fr": "ch (ich / ach)",
+            "es": "ch (ich / ach)",
+            "de": "ch (ich-Laut / ach-Laut)",
+            "ru": "ch (ich / ach)",
+            "it": "ch (ich / ach)"
+          }
+        },
+        {
+          "char": "sch",
+          "sound": {
+            "en": "sh",
+            "ko": "슈 (영어 sh)",
+            "ja": "シュ",
+            "zh": "sh",
+            "fr": "ch (anglais sh)",
+            "es": "sh",
+            "de": "sch",
+            "ru": "ш",
+            "it": "sc (come sh)"
+          },
+          "name": {
+            "en": "sch",
+            "ko": "슈",
+            "ja": "シュ",
+            "zh": "sch",
+            "fr": "sch",
+            "es": "sch",
+            "de": "sch",
+            "ru": "ш",
+            "it": "sch"
+          }
+        },
+        {
+          "char": "ei / ai",
+          "sound": {
+            "en": "eye / ai",
+            "ko": "아이",
+            "ja": "アイ",
+            "zh": "ai",
+            "fr": "aï",
+            "es": "ai",
+            "de": "ei",
+            "ru": "ай",
+            "it": "ai"
+          },
+          "name": {
+            "en": "ei / ai (like “eye”)",
+            "ko": "ei / ai (「아이」)",
+            "ja": "ei / ai（「アイ」）",
+            "zh": "ei / ai（如 eye）",
+            "fr": "ei / ai",
+            "es": "ei / ai",
+            "de": "ei / ai",
+            "ru": "ei / ai",
+            "it": "ei / ai"
+          }
+        },
+        {
+          "char": "ie",
+          "sound": {
+            "en": "ee (long i)",
+            "ko": "이 (긴 i)",
+            "ja": "イー（長い i）",
+            "zh": "长 i",
+            "fr": "i long",
+            "es": "i larga",
+            "de": "ie",
+            "ru": "долгое и",
+            "it": "i lunga"
+          },
+          "name": {
+            "en": "ie (long i — opposite of English “ie” guess)",
+            "ko": "ie (긴 i — 영어 감과 반대)",
+            "ja": "ie（長い i）",
+            "zh": "ie（长 i，别按英语猜）",
+            "fr": "ie (i long)",
+            "es": "ie (i larga)",
+            "de": "ie (langes i)",
+            "ru": "ie (долгое i)",
+            "it": "ie (i lunga)"
+          }
+        },
+        {
+          "char": "eu / äu",
+          "sound": {
+            "en": "oy",
+            "ko": "오이",
+            "ja": "オイ",
+            "zh": "oy",
+            "fr": "euï",
+            "es": "oy",
+            "de": "eu",
+            "ru": "ой",
+            "it": "oi"
+          },
+          "name": {
+            "en": "eu / äu (like “oy”)",
+            "ko": "eu / äu (「오이」)",
+            "ja": "eu / äu（「オイ」）",
+            "zh": "eu / äu（如 oy）",
+            "fr": "eu / äu",
+            "es": "eu / äu",
+            "de": "eu / äu",
+            "ru": "eu / äu",
+            "it": "eu / äu"
+          }
+        },
+        {
+          "char": "au",
+          "sound": {
+            "en": "ow (as in “house”)",
+            "ko": "아우",
+            "ja": "アウ",
+            "zh": "au",
+            "fr": "ao",
+            "es": "au",
+            "de": "au",
+            "ru": "ау",
+            "it": "au"
+          },
+          "name": {
+            "en": "au",
+            "ko": "au",
+            "ja": "au",
+            "zh": "au",
+            "fr": "au",
+            "es": "au",
+            "de": "au",
+            "ru": "au",
+            "it": "au"
+          }
+        },
+        {
+          "char": "sp- / st-",
+          "sound": {
+            "en": "shp- / sht- at word start",
+            "ko": "단어 앞 sp→슈프, st→슈트",
+            "ja": "語頭 sp→シュプ、st→シュト",
+            "zh": "词首 sp→shp、st→sht",
+            "fr": "en début : sp→chp, st→cht",
+            "es": "al inicio: sp→shp, st→sht",
+            "de": "Anlaut sp-/st- → schp-/scht-",
+            "ru": "в начале: sp→шп, st→шт",
+            "it": "a inizio: sp→shp, st→sht"
+          },
+          "name": {
+            "en": "initial sp / st",
+            "ko": "어두 sp / st",
+            "ja": "語頭 sp / st",
+            "zh": "词首 sp / st",
+            "fr": "sp / st initiaux",
+            "es": "sp / st iniciales",
+            "de": "Anlaut sp / st",
+            "ru": "начальные sp / st",
+            "it": "sp / st iniziali"
+          }
+        }
+      ]
+    }
+  ]
+}

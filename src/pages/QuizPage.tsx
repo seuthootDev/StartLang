@@ -266,7 +266,9 @@ function QuizPageInner({
           ? 'ja'
           : targetLang === 'ru' && categoryId === 'dates'
             ? 'ru'
-            : undefined,
+            : targetLang === 'de' && categoryId === 'dates'
+              ? 'de'
+              : undefined,
     askEntries: categoryId === 'vocab' ? dayEntries : undefined,
   })
   const target = getLanguage(targetLang)

@@ -1,0 +1,669 @@
+{
+  "table_id": "fr_questions_ref",
+  "title": {
+    "en": "Question words",
+    "ko": "필수 의문사",
+    "ja": "疑問詞",
+    "zh": "疑问词",
+    "fr": "Mots interrogatifs",
+    "es": "Palabras interrogativas",
+    "de": "Fragewörter",
+    "ru": "Вопросительные слова",
+    "it": "Question words"
+  },
+  "note": {
+    "en": "Learn the meaning chart first. que/quoi and qu’est-ce que… are the French “what” traps.",
+    "ko": "먼저 의미 표. que·quoi와 qu’est-ce que…가 프랑스어 “무엇”의 함정입니다.",
+    "ja": "先に意味表。que／quoi と qu’est-ce que… が「何」の落とし穴。",
+    "zh": "先看意义表。que/quoi 与 qu’est-ce que… 是法语“什么”的易错点。",
+    "fr": "D’abord le tableau. que/quoi et qu’est-ce que… = pièges de « what ».",
+    "es": "Primero el cuadro. que/quoi y qu’est-ce que… = trampas de «qué».",
+    "de": "Zuerst die Tabelle. que/quoi und qu’est-ce que… = „was“-Fallen.",
+    "ru": "Сначала таблица. que/quoi и qu’est-ce que… — ловушки «что».",
+    "it": "Learn the meaning chart first. que/quoi and qu’est-ce que… are the French “what” traps."
+  },
+  "rules": {
+    "en": [
+      "que (→ qu’) before a verb phrase; quoi after a preposition or alone (avec quoi ?).",
+      "qu’est-ce que + subject + verb is the everyday “what …?” pattern.",
+      "qu’est-ce qui when “what” is the subject (Qu’est-ce qui se passe ?).",
+      "quel / quelle (/ quels / quelles) agree with the following noun.",
+      "combien de + noun for “how many/much of …” (combien de livres ?)."
+    ],
+    "ko": [
+      "동사구 앞은 que(→ qu’), 전치사 뒤·단독은 quoi (avec quoi ?).",
+      "일상 “뭐 …?”는 qu’est-ce que + 주어 + 동사.",
+      "“무엇이”가 주어면 qu’est-ce qui (Qu’est-ce qui se passe ?).",
+      "quel / quelle (/ quels / quelles)는 뒤 명사에 성·수 일치.",
+      "“몇/얼마의 …”는 combien de + 명사."
+    ],
+    "ja": [
+      "動詞句の前は que（→ qu’）、前置詞のあと・単独は quoi。",
+      "日常の「何…？」は qu’est-ce que ＋主語＋動詞。",
+      "「何が」主語なら qu’est-ce qui。",
+      "quel / quelle（／quels / quelles）は後ろの名詞に一致。",
+      "「いくつの…」は combien de ＋名詞。"
+    ],
+    "zh": [
+      "动词短语前用 que（→ qu’）；介词后或单独用 quoi。",
+      "口语“什么…？”常用 qu’est-ce que + 主语 + 动词。",
+      "“什么”作主语时用 qu’est-ce qui。",
+      "quel / quelle（／quels / quelles）随后面名词性、数变化。",
+      "“多少…”用 combien de + 名词。"
+    ],
+    "fr": [
+      "que (→ qu’) devant un verbe ; quoi après préposition ou seul.",
+      "qu’est-ce que + sujet + verbe = « what … ? » courant.",
+      "qu’est-ce qui si « what » est sujet.",
+      "quel / quelle (/ quels / quelles) s’accordent avec le nom.",
+      "combien de + nom."
+    ],
+    "es": [
+      "que (→ qu’) ante verbo; quoi tras preposición o solo.",
+      "qu’est-ce que + sujeto + verbo = «qué…?» cotidiano.",
+      "qu’est-ce qui si «qué» es sujeto.",
+      "quel / quelle concuerdan con el sustantivo.",
+      "combien de + sustantivo."
+    ],
+    "de": [
+      "que (→ qu’) vor Verb; quoi nach Präposition oder allein.",
+      "qu’est-ce que + Subjekt + Verb = alltägliches „was …?“.",
+      "qu’est-ce qui, wenn „was“ Subjekt ist.",
+      "quel / quelle richten sich nach dem Nomen.",
+      "combien de + Nomen."
+    ],
+    "ru": [
+      "que (→ qu’) перед глаголом; quoi после предлога или отдельно.",
+      "qu’est-ce que + подлежащее + глагол — обычное «что…?».",
+      "qu’est-ce qui, если «что» — подлежащее.",
+      "quel / quelle согласуются с существительным.",
+      "combien de + сущ."
+    ],
+    "it": [
+      "que (→ qu’) prima del verbo; quoi dopo preposizione o da solo.",
+      "qu’est-ce que + soggetto + verbo = «che…?» quotidiano.",
+      "qu’est-ce qui se «che» è soggetto.",
+      "quel / quelle concordano col nome.",
+      "combien de + nome."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Meaning chart",
+        "ko": "의미 표",
+        "ja": "意味表",
+        "zh": "意义表",
+        "fr": "Tableau des sens",
+        "es": "Cuadro de sentidos",
+        "de": "Bedeutungstabelle",
+        "ru": "Таблица смыслов",
+        "it": "Meaning chart"
+      },
+      "note": {
+        "en": "· separates related forms (que/quoi, quel/quelle, est-ce patterns).",
+        "ko": "· 는 관련 형태(que/quoi, quel/quelle, est-ce 패턴)를 이은 것입니다.",
+        "ja": "・は関連形（que/quoi、quel/quelle、est-ce）の区切り。",
+        "zh": "· 连接相关形式（que/quoi、quel/quelle、est-ce）。",
+        "fr": "Le point médian sépare les formes liées.",
+        "es": "El punto medio separa formas relacionadas.",
+        "de": "Mittelpunkt trennt verwandte Formen.",
+        "ru": "Точка разделяет связанные формы.",
+        "it": "· separates related forms (que/quoi, quel/quelle, est-ce patterns)."
+      },
+      "columns": [
+        {
+          "key": "type",
+          "labels": {
+            "en": "Ask about",
+            "ko": "묻는 것",
+            "ja": "尋ねる内容",
+            "zh": "询问内容",
+            "fr": "Demande",
+            "es": "Pregunta",
+            "de": "Fragt nach",
+            "ru": "О чём",
+            "it": "Ask about"
+          }
+        },
+        {
+          "key": "forms",
+          "labels": {
+            "en": "French",
+            "ko": "프랑스어",
+            "ja": "フランス語",
+            "zh": "法语",
+            "fr": "Français",
+            "es": "Francés",
+            "de": "Französisch",
+            "ru": "Французский",
+            "it": "French"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": {
+            "en": "who",
+            "ko": "누구",
+            "ja": "誰",
+            "zh": "谁",
+            "fr": "qui",
+            "es": "quién",
+            "de": "wer",
+            "ru": "кто",
+            "it": "who"
+          },
+          "forms": "qui · qui est-ce que"
+        },
+        {
+          "type": {
+            "en": "what",
+            "ko": "무엇",
+            "ja": "何",
+            "zh": "什么",
+            "fr": "quoi / que",
+            "es": "qué",
+            "de": "was",
+            "ru": "что",
+            "it": "what"
+          },
+          "forms": "que · quoi · qu’est-ce que · qu’est-ce qui"
+        },
+        {
+          "type": {
+            "en": "where",
+            "ko": "어디",
+            "ja": "どこ",
+            "zh": "哪里",
+            "fr": "où",
+            "es": "dónde",
+            "de": "wo",
+            "ru": "где",
+            "it": "where"
+          },
+          "forms": "où · d’où"
+        },
+        {
+          "type": {
+            "en": "when",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "什么时候",
+            "fr": "quand",
+            "es": "cuándo",
+            "de": "wann",
+            "ru": "когда",
+            "it": "when"
+          },
+          "forms": "quand"
+        },
+        {
+          "type": {
+            "en": "why",
+            "ko": "왜",
+            "ja": "なぜ",
+            "zh": "为什么",
+            "fr": "pourquoi",
+            "es": "por qué",
+            "de": "warum",
+            "ru": "почему",
+            "it": "why"
+          },
+          "forms": "pourquoi"
+        },
+        {
+          "type": {
+            "en": "how",
+            "ko": "어떻게",
+            "ja": "どう",
+            "zh": "怎么",
+            "fr": "comment",
+            "es": "cómo",
+            "de": "wie",
+            "ru": "как",
+            "it": "how"
+          },
+          "forms": "comment"
+        },
+        {
+          "type": {
+            "en": "how much / many",
+            "ko": "얼마 / 몇",
+            "ja": "いくら / いくつ",
+            "zh": "多少",
+            "fr": "combien",
+            "es": "cuánto",
+            "de": "wie viel",
+            "ru": "сколько",
+            "it": "how much / many"
+          },
+          "forms": "combien · combien de …"
+        },
+        {
+          "type": {
+            "en": "which / what kind",
+            "ko": "어느 / 어떤",
+            "ja": "どの / どんな",
+            "zh": "哪个 / 什么样的",
+            "fr": "quel",
+            "es": "cuál / qué",
+            "de": "welch-",
+            "ru": "какой",
+            "it": "which / what kind"
+          },
+          "forms": "quel · quelle · quels · quelles"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Forms",
+        "ko": "형태 목록",
+        "ja": "語形一覧",
+        "zh": "词形列表",
+        "fr": "Liste des formes",
+        "es": "Lista de formas",
+        "de": "Formenliste",
+        "ru": "Список форм",
+        "it": "Forms"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "French",
+            "ko": "프랑스어",
+            "ja": "フランス語",
+            "zh": "法语",
+            "fr": "Français",
+            "es": "Francés",
+            "de": "Französisch",
+            "ru": "Французский",
+            "it": "French"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Meaning"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Sound"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "qui",
+          "meaning": {
+            "en": "who",
+            "ko": "누구",
+            "ja": "誰",
+            "zh": "谁",
+            "fr": "qui",
+            "es": "quién",
+            "de": "wer",
+            "ru": "кто",
+            "it": "who"
+          },
+          "sound": {
+            "en": "kee/qui",
+            "ko": "키",
+            "ja": "キ",
+            "zh": "kee/qui",
+            "fr": "qui",
+            "es": "kee/qui",
+            "de": "kee/qui",
+            "ru": "kee/qui",
+            "it": "kee/qui"
+          }
+        },
+        {
+          "form": "que",
+          "meaning": {
+            "en": "what (object; becomes qu’ before a vowel)",
+            "ko": "무엇 (목적어; 모음 앞 qu’)",
+            "ja": "何（目的語・母音の前は qu’）",
+            "zh": "什么（作宾语；元音前写 qu’）",
+            "fr": "que / qu’ (objet)",
+            "es": "qué (objeto; qu’ delante de vocal)",
+            "de": "was (Objekt; qu’ vor Vokal)",
+            "ru": "что (дополнение; qu’ перед гласной)",
+            "it": "what (object; becomes qu’ before a vowel)"
+          },
+          "sound": {
+            "en": "kuh/que",
+            "ko": "크",
+            "ja": "ク",
+            "zh": "kuh/que",
+            "fr": "que",
+            "es": "kuh/que",
+            "de": "kuh/que",
+            "ru": "kuh/que",
+            "it": "kuh/que"
+          }
+        },
+        {
+          "form": "quoi",
+          "meaning": {
+            "en": "what (after a preposition / alone)",
+            "ko": "무엇 (전치사 뒤·단독)",
+            "ja": "何（前置詞のあと・単独）",
+            "zh": "什么（介词后/单独）",
+            "fr": "quoi (après préposition / seul)",
+            "es": "qué (tras preposición / solo)",
+            "de": "was (nach Präposition / allein)",
+            "ru": "что (после предлога / отдельно)",
+            "it": "what (after a preposition / alone)"
+          },
+          "sound": {
+            "en": "kwah/quoi",
+            "ko": "쿠아",
+            "ja": "クワ",
+            "zh": "kwah/quoi",
+            "fr": "quoi",
+            "es": "kwah/quoi",
+            "de": "kwah/quoi",
+            "ru": "kwah/quoi",
+            "it": "kwah/quoi"
+          }
+        },
+        {
+          "form": "où",
+          "meaning": {
+            "en": "where",
+            "ko": "어디",
+            "ja": "どこ",
+            "zh": "哪里",
+            "fr": "où",
+            "es": "dónde",
+            "de": "wo / wohin",
+            "ru": "где / куда",
+            "it": "where"
+          },
+          "sound": {
+            "en": "oo/où",
+            "ko": "우",
+            "ja": "ウ",
+            "zh": "oo/où",
+            "fr": "où",
+            "es": "oo/où",
+            "de": "oo/où",
+            "ru": "oo/où",
+            "it": "oo/où"
+          }
+        },
+        {
+          "form": "d'où",
+          "meaning": {
+            "en": "where from",
+            "ko": "어디서 (출발)",
+            "ja": "どこから",
+            "zh": "从哪里",
+            "fr": "d’où",
+            "es": "de dónde",
+            "de": "woher",
+            "ru": "откуда",
+            "it": "where from"
+          },
+          "sound": {
+            "en": "doo/d’où",
+            "ko": "두",
+            "ja": "ドゥ",
+            "zh": "doo/d’où",
+            "fr": "d'où",
+            "es": "doo/d’où",
+            "de": "doo/d’où",
+            "ru": "doo/d’où",
+            "it": "doo/d’où"
+          }
+        },
+        {
+          "form": "quand",
+          "meaning": {
+            "en": "when",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "什么时候",
+            "fr": "quand",
+            "es": "cuándo",
+            "de": "wann",
+            "ru": "когда",
+            "it": "when"
+          },
+          "sound": {
+            "en": "kon/quand",
+            "ko": "캉",
+            "ja": "カン",
+            "zh": "kon/quand",
+            "fr": "quand",
+            "es": "kon/quand",
+            "de": "kon/quand",
+            "ru": "kon/quand",
+            "it": "kon/quand"
+          }
+        },
+        {
+          "form": "pourquoi",
+          "meaning": {
+            "en": "why",
+            "ko": "왜",
+            "ja": "なぜ",
+            "zh": "为什么",
+            "fr": "pourquoi",
+            "es": "por qué",
+            "de": "warum",
+            "ru": "почему / зачем",
+            "it": "why"
+          },
+          "sound": {
+            "en": "poor-kwah",
+            "ko": "푸르쿠아",
+            "ja": "プルクワ",
+            "zh": "poor-kwah",
+            "fr": "pourquoi",
+            "es": "poor-kwah",
+            "de": "poor-kwah",
+            "ru": "poor-kwah",
+            "it": "poor-kwah"
+          }
+        },
+        {
+          "form": "comment",
+          "meaning": {
+            "en": "how",
+            "ko": "어떻게",
+            "ja": "どう / どのように",
+            "zh": "怎么 / 如何",
+            "fr": "comment",
+            "es": "cómo",
+            "de": "wie",
+            "ru": "как",
+            "it": "how"
+          },
+          "sound": {
+            "en": "ko-mon/comment",
+            "ko": "코멍",
+            "ja": "コモン",
+            "zh": "ko-mon/comment",
+            "fr": "comment",
+            "es": "ko-mon/comment",
+            "de": "ko-mon/comment",
+            "ru": "ko-mon/comment",
+            "it": "ko-mon/comment"
+          }
+        },
+        {
+          "form": "combien",
+          "meaning": {
+            "en": "how much / how many",
+            "ko": "얼마 / 몇",
+            "ja": "いくら / いくつ",
+            "zh": "多少",
+            "fr": "combien",
+            "es": "cuánto / cuántos",
+            "de": "wie viel / wie viele",
+            "ru": "сколько",
+            "it": "how much / how many"
+          },
+          "sound": {
+            "en": "kom-byan",
+            "ko": "콩비앙",
+            "ja": "コンビアン",
+            "zh": "kom-byan",
+            "fr": "combien",
+            "es": "kom-byan",
+            "de": "kom-byan",
+            "ru": "kom-byan",
+            "it": "kom-byan"
+          }
+        },
+        {
+          "form": "quel",
+          "meaning": {
+            "en": "which / what (masculine singular + noun)",
+            "ko": "어떤·어느 (남성 단수 + 명사)",
+            "ja": "どの／どんな（男性単数＋名詞）",
+            "zh": "哪个／什么（阳性单数＋名词）",
+            "fr": "quel (+ nom masculin)",
+            "es": "qué / cuál (masculino singular + sustantivo)",
+            "de": "welch- (mask. Singular + Nomen)",
+            "ru": "какой (+ сущ. м. р.)",
+            "it": "which / what (masculine singular + noun)"
+          },
+          "sound": {
+            "en": "kel/quel",
+            "ko": "켈",
+            "ja": "ケル",
+            "zh": "kel/quel",
+            "fr": "quel",
+            "es": "kel/quel",
+            "de": "kel/quel",
+            "ru": "kel/quel",
+            "it": "kel/quel"
+          }
+        },
+        {
+          "form": "quelle",
+          "meaning": {
+            "en": "which / what (feminine singular + noun)",
+            "ko": "어떤·어느 (여성 단수 + 명사)",
+            "ja": "どの／どんな（女性単数＋名詞）",
+            "zh": "哪个／什么（阴性单数＋名词）",
+            "fr": "quelle (+ nom féminin)",
+            "es": "qué / cuál (femenino singular + sustantivo)",
+            "de": "welch- (fem. Singular + Nomen)",
+            "ru": "какая (+ сущ. ж. р.)",
+            "it": "which / what (feminine singular + noun)"
+          },
+          "sound": {
+            "en": "kel/quelle",
+            "ko": "켈",
+            "ja": "ケル",
+            "zh": "kel/quelle",
+            "fr": "quelle",
+            "es": "kel/quelle",
+            "de": "kel/quelle",
+            "ru": "kel/quelle",
+            "it": "kel/quelle"
+          }
+        },
+        {
+          "form": "qu'est-ce que",
+          "meaning": {
+            "en": "what (common spoken; + subject + verb)",
+            "ko": "무엇 (구어 기본; + 주어 + 동사)",
+            "ja": "何（口語の基本・主語＋動詞）",
+            "zh": "什么（口语常用；+主语+动词）",
+            "fr": "qu’est-ce que (+ sujet + verbe)",
+            "es": "qué (hablado; + sujeto + verbo)",
+            "de": "was (gesprochen; + Subjekt + Verb)",
+            "ru": "что (разг.; + подлежащее + глагол)",
+            "it": "what (common spoken; + subject + verb)"
+          },
+          "sound": {
+            "en": "kes-kuh",
+            "ko": "케스커",
+            "ja": "ケスク",
+            "zh": "kes-kuh",
+            "fr": "qu'est-ce que",
+            "es": "kes-kuh",
+            "de": "kes-kuh",
+            "ru": "kes-kuh",
+            "it": "kes-kuh"
+          }
+        },
+        {
+          "form": "qu'est-ce qui",
+          "meaning": {
+            "en": "what (as subject of the verb)",
+            "ko": "무엇이 (주어 역할)",
+            "ja": "何が（主語）",
+            "zh": "什么（作主语）",
+            "fr": "qu’est-ce qui (sujet)",
+            "es": "qué (como sujeto)",
+            "de": "was (als Subjekt)",
+            "ru": "что (как подлежащее)",
+            "it": "what (as subject of the verb)"
+          },
+          "sound": {
+            "en": "kes-kee",
+            "ko": "케스키",
+            "ja": "ケスキ",
+            "zh": "kes-kee",
+            "fr": "qu'est-ce qui",
+            "es": "kes-kee",
+            "de": "kes-kee",
+            "ru": "kes-kee",
+            "it": "kes-kee"
+          }
+        },
+        {
+          "form": "qui est-ce que",
+          "meaning": {
+            "en": "who (object / “who is it that…”)",
+            "ko": "누구를·누구를요 (목적어 / “누가 …하는가”)",
+            "ja": "誰を／誰が…か（目的語寄り）",
+            "zh": "谁（作宾语／“是谁…”）",
+            "fr": "qui est-ce que (objet)",
+            "es": "quién (objeto / “quién es el que…”)",
+            "de": "wen / wer (Objekt)",
+            "ru": "кого / кто (дополнение)",
+            "it": "who (object / “who is it that…”)"
+          },
+          "sound": {
+            "en": "kee es-kuh",
+            "ko": "키 에스커",
+            "ja": "キ・エスク",
+            "zh": "kee es-kuh",
+            "fr": "qui est-ce que",
+            "es": "kee es-kuh",
+            "de": "kee es-kuh",
+            "ru": "kee es-kuh",
+            "it": "kee es-kuh"
+          }
+        }
+      ]
+    }
+  ]
+}

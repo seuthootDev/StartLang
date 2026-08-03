@@ -1,0 +1,990 @@
+[
+  {
+    "quiz_id": "fr_numbers_0",
+    "question_word": "zéro",
+    "pronunciations": {
+      "en": "zay-ro",
+      "ko": "제로",
+      "ja": "ゼロ",
+      "zh": "zay-ro",
+      "fr": "zéro",
+      "es": "zay-ro",
+      "de": "zay-ro",
+      "ru": "zay-ro",
+      "it": "zay-ro"
+    },
+    "translations": {
+      "en": "0",
+      "ko": "0",
+      "ja": "0",
+      "zh": "0",
+      "fr": "0",
+      "es": "0",
+      "de": "0",
+      "ru": "0",
+      "it": "0"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_1",
+    "question_word": "un",
+    "pronunciations": {
+      "en": "uhn/un",
+      "ko": "앙/운",
+      "ja": "アン",
+      "zh": "uhn/un",
+      "fr": "un",
+      "es": "uhn/un",
+      "de": "uhn/un",
+      "ru": "uhn/un",
+      "it": "uhn/un"
+    },
+    "translations": {
+      "en": "1",
+      "ko": "1",
+      "ja": "1",
+      "zh": "1",
+      "fr": "1",
+      "es": "1",
+      "de": "1",
+      "ru": "1",
+      "it": "1"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_2",
+    "question_word": "deux",
+    "pronunciations": {
+      "en": "duh/deux",
+      "ko": "되",
+      "ja": "ドゥ",
+      "zh": "duh/deux",
+      "fr": "deux",
+      "es": "duh/deux",
+      "de": "duh/deux",
+      "ru": "duh/deux",
+      "it": "duh/deux"
+    },
+    "translations": {
+      "en": "2",
+      "ko": "2",
+      "ja": "2",
+      "zh": "2",
+      "fr": "2",
+      "es": "2",
+      "de": "2",
+      "ru": "2",
+      "it": "2"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_3",
+    "question_word": "trois",
+    "pronunciations": {
+      "en": "trwah/trois",
+      "ko": "트와",
+      "ja": "トロワ",
+      "zh": "trwah/trois",
+      "fr": "trois",
+      "es": "trwah/trois",
+      "de": "trwah/trois",
+      "ru": "trwah/trois",
+      "it": "trwah/trois"
+    },
+    "translations": {
+      "en": "3",
+      "ko": "3",
+      "ja": "3",
+      "zh": "3",
+      "fr": "3",
+      "es": "3",
+      "de": "3",
+      "ru": "3",
+      "it": "3"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_4",
+    "question_word": "quatre",
+    "pronunciations": {
+      "en": "katr/quatre",
+      "ko": "카트르",
+      "ja": "キャトル",
+      "zh": "katr/quatre",
+      "fr": "quatre",
+      "es": "katr/quatre",
+      "de": "katr/quatre",
+      "ru": "katr/quatre",
+      "it": "katr/quatre"
+    },
+    "translations": {
+      "en": "4",
+      "ko": "4",
+      "ja": "4",
+      "zh": "4",
+      "fr": "4",
+      "es": "4",
+      "de": "4",
+      "ru": "4",
+      "it": "4"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_5",
+    "question_word": "cinq",
+    "pronunciations": {
+      "en": "sank/cinq",
+      "ko": "생크",
+      "ja": "サンク",
+      "zh": "sank/cinq",
+      "fr": "cinq",
+      "es": "sank/cinq",
+      "de": "sank/cinq",
+      "ru": "sank/cinq",
+      "it": "sank/cinq"
+    },
+    "translations": {
+      "en": "5",
+      "ko": "5",
+      "ja": "5",
+      "zh": "5",
+      "fr": "5",
+      "es": "5",
+      "de": "5",
+      "ru": "5",
+      "it": "5"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_6",
+    "question_word": "six",
+    "pronunciations": {
+      "en": "sees/six",
+      "ko": "시스",
+      "ja": "シス",
+      "zh": "sees/six",
+      "fr": "six",
+      "es": "sees/six",
+      "de": "sees/six",
+      "ru": "sees/six",
+      "it": "sees/six"
+    },
+    "translations": {
+      "en": "6",
+      "ko": "6",
+      "ja": "6",
+      "zh": "6",
+      "fr": "6",
+      "es": "6",
+      "de": "6",
+      "ru": "6",
+      "it": "6"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_7",
+    "question_word": "sept",
+    "pronunciations": {
+      "en": "set/sept",
+      "ko": "세트",
+      "ja": "セット",
+      "zh": "set/sept",
+      "fr": "sept",
+      "es": "set/sept",
+      "de": "set/sept",
+      "ru": "set/sept",
+      "it": "set/sept"
+    },
+    "translations": {
+      "en": "7",
+      "ko": "7",
+      "ja": "7",
+      "zh": "7",
+      "fr": "7",
+      "es": "7",
+      "de": "7",
+      "ru": "7",
+      "it": "7"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_8",
+    "question_word": "huit",
+    "pronunciations": {
+      "en": "weet/huit",
+      "ko": "위트",
+      "ja": "ユイット",
+      "zh": "weet/huit",
+      "fr": "huit",
+      "es": "weet/huit",
+      "de": "weet/huit",
+      "ru": "weet/huit",
+      "it": "weet/huit"
+    },
+    "translations": {
+      "en": "8",
+      "ko": "8",
+      "ja": "8",
+      "zh": "8",
+      "fr": "8",
+      "es": "8",
+      "de": "8",
+      "ru": "8",
+      "it": "8"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_9",
+    "question_word": "neuf",
+    "pronunciations": {
+      "en": "nuhf/neuf",
+      "ko": "뇌프",
+      "ja": "ヌフ",
+      "zh": "nuhf/neuf",
+      "fr": "neuf",
+      "es": "nuhf/neuf",
+      "de": "nuhf/neuf",
+      "ru": "nuhf/neuf",
+      "it": "nuhf/neuf"
+    },
+    "translations": {
+      "en": "9",
+      "ko": "9",
+      "ja": "9",
+      "zh": "9",
+      "fr": "9",
+      "es": "9",
+      "de": "9",
+      "ru": "9",
+      "it": "9"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_10",
+    "question_word": "dix",
+    "pronunciations": {
+      "en": "dees/dix",
+      "ko": "디스",
+      "ja": "ディス",
+      "zh": "dees/dix",
+      "fr": "dix",
+      "es": "dees/dix",
+      "de": "dees/dix",
+      "ru": "dees/dix",
+      "it": "dees/dix"
+    },
+    "translations": {
+      "en": "10",
+      "ko": "10",
+      "ja": "10",
+      "zh": "10",
+      "fr": "10",
+      "es": "10",
+      "de": "10",
+      "ru": "10",
+      "it": "10"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_11",
+    "question_word": "onze",
+    "pronunciations": {
+      "en": "onz/onze",
+      "ko": "온즈",
+      "ja": "オンズ",
+      "zh": "onz/onze",
+      "fr": "onze",
+      "es": "onz/onze",
+      "de": "onz/onze",
+      "ru": "onz/onze",
+      "it": "onz/onze"
+    },
+    "translations": {
+      "en": "11",
+      "ko": "11",
+      "ja": "11",
+      "zh": "11",
+      "fr": "11",
+      "es": "11",
+      "de": "11",
+      "ru": "11",
+      "it": "11"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_12",
+    "question_word": "douze",
+    "pronunciations": {
+      "en": "dooz/douze",
+      "ko": "두즈",
+      "ja": "ドゥーズ",
+      "zh": "dooz/douze",
+      "fr": "douze",
+      "es": "dooz/douze",
+      "de": "dooz/douze",
+      "ru": "dooz/douze",
+      "it": "dooz/douze"
+    },
+    "translations": {
+      "en": "12",
+      "ko": "12",
+      "ja": "12",
+      "zh": "12",
+      "fr": "12",
+      "es": "12",
+      "de": "12",
+      "ru": "12",
+      "it": "12"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_13",
+    "question_word": "treize",
+    "pronunciations": {
+      "en": "trez/treize",
+      "ko": "트레즈",
+      "ja": "トレーズ",
+      "zh": "trez/treize",
+      "fr": "treize",
+      "es": "trez/treize",
+      "de": "trez/treize",
+      "ru": "trez/treize",
+      "it": "trez/treize"
+    },
+    "translations": {
+      "en": "13",
+      "ko": "13",
+      "ja": "13",
+      "zh": "13",
+      "fr": "13",
+      "es": "13",
+      "de": "13",
+      "ru": "13",
+      "it": "13"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_14",
+    "question_word": "quatorze",
+    "pronunciations": {
+      "en": "ka-torz/quatorze",
+      "ko": "카토르즈",
+      "ja": "カトルズ",
+      "zh": "ka-torz/quatorze",
+      "fr": "quatorze",
+      "es": "ka-torz/quatorze",
+      "de": "ka-torz/quatorze",
+      "ru": "ka-torz/quatorze",
+      "it": "ka-torz/quatorze"
+    },
+    "translations": {
+      "en": "14",
+      "ko": "14",
+      "ja": "14",
+      "zh": "14",
+      "fr": "14",
+      "es": "14",
+      "de": "14",
+      "ru": "14",
+      "it": "14"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_15",
+    "question_word": "quinze",
+    "pronunciations": {
+      "en": "kanz/quinze",
+      "ko": "캥즈",
+      "ja": "キャンズ",
+      "zh": "kanz/quinze",
+      "fr": "quinze",
+      "es": "kanz/quinze",
+      "de": "kanz/quinze",
+      "ru": "kanz/quinze",
+      "it": "kanz/quinze"
+    },
+    "translations": {
+      "en": "15",
+      "ko": "15",
+      "ja": "15",
+      "zh": "15",
+      "fr": "15",
+      "es": "15",
+      "de": "15",
+      "ru": "15",
+      "it": "15"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_16",
+    "question_word": "seize",
+    "pronunciations": {
+      "en": "sez/seize",
+      "ko": "세즈",
+      "ja": "セーズ",
+      "zh": "sez/seize",
+      "fr": "seize",
+      "es": "sez/seize",
+      "de": "sez/seize",
+      "ru": "sez/seize",
+      "it": "sez/seize"
+    },
+    "translations": {
+      "en": "16",
+      "ko": "16",
+      "ja": "16",
+      "zh": "16",
+      "fr": "16",
+      "es": "16",
+      "de": "16",
+      "ru": "16",
+      "it": "16"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_17",
+    "question_word": "dix-sept",
+    "pronunciations": {
+      "en": "dees-set",
+      "ko": "디스세트",
+      "ja": "ディスセット",
+      "zh": "dees-set",
+      "fr": "dix-sept",
+      "es": "dees-set",
+      "de": "dees-set",
+      "ru": "dees-set",
+      "it": "dees-set"
+    },
+    "translations": {
+      "en": "17",
+      "ko": "17",
+      "ja": "17",
+      "zh": "17",
+      "fr": "17",
+      "es": "17",
+      "de": "17",
+      "ru": "17",
+      "it": "17"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_18",
+    "question_word": "dix-huit",
+    "pronunciations": {
+      "en": "deez-weet",
+      "ko": "디즈위트",
+      "ja": "ディズユイット",
+      "zh": "deez-weet",
+      "fr": "dix-huit",
+      "es": "deez-weet",
+      "de": "deez-weet",
+      "ru": "deez-weet",
+      "it": "deez-weet"
+    },
+    "translations": {
+      "en": "18",
+      "ko": "18",
+      "ja": "18",
+      "zh": "18",
+      "fr": "18",
+      "es": "18",
+      "de": "18",
+      "ru": "18",
+      "it": "18"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_19",
+    "question_word": "dix-neuf",
+    "pronunciations": {
+      "en": "deez-nuhf",
+      "ko": "디즈뇌프",
+      "ja": "ディズヌフ",
+      "zh": "deez-nuhf",
+      "fr": "dix-neuf",
+      "es": "deez-nuhf",
+      "de": "deez-nuhf",
+      "ru": "deez-nuhf",
+      "it": "deez-nuhf"
+    },
+    "translations": {
+      "en": "19",
+      "ko": "19",
+      "ja": "19",
+      "zh": "19",
+      "fr": "19",
+      "es": "19",
+      "de": "19",
+      "ru": "19",
+      "it": "19"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_20",
+    "question_word": "vingt",
+    "pronunciations": {
+      "en": "van/vingt",
+      "ko": "뱅",
+      "ja": "ヴァン",
+      "zh": "van/vingt",
+      "fr": "vingt",
+      "es": "van/vingt",
+      "de": "van/vingt",
+      "ru": "van/vingt",
+      "it": "van/vingt"
+    },
+    "translations": {
+      "en": "20",
+      "ko": "20",
+      "ja": "20",
+      "zh": "20",
+      "fr": "20",
+      "es": "20",
+      "de": "20",
+      "ru": "20",
+      "it": "20"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_30",
+    "question_word": "trente",
+    "pronunciations": {
+      "en": "tront/trente",
+      "ko": "트랑트",
+      "ja": "トラント",
+      "zh": "tront/trente",
+      "fr": "trente",
+      "es": "tront/trente",
+      "de": "tront/trente",
+      "ru": "tront/trente",
+      "it": "tront/trente"
+    },
+    "translations": {
+      "en": "30",
+      "ko": "30",
+      "ja": "30",
+      "zh": "30",
+      "fr": "30",
+      "es": "30",
+      "de": "30",
+      "ru": "30",
+      "it": "30"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_40",
+    "question_word": "quarante",
+    "pronunciations": {
+      "en": "ka-ront/quarante",
+      "ko": "카랑트",
+      "ja": "キャラント",
+      "zh": "ka-ront/quarante",
+      "fr": "quarante",
+      "es": "ka-ront/quarante",
+      "de": "ka-ront/quarante",
+      "ru": "ka-ront/quarante",
+      "it": "ka-ront/quarante"
+    },
+    "translations": {
+      "en": "40",
+      "ko": "40",
+      "ja": "40",
+      "zh": "40",
+      "fr": "40",
+      "es": "40",
+      "de": "40",
+      "ru": "40",
+      "it": "40"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_50",
+    "question_word": "cinquante",
+    "pronunciations": {
+      "en": "san-kont/cinquante",
+      "ko": "생캉트",
+      "ja": "サンカント",
+      "zh": "san-kont/cinquante",
+      "fr": "cinquante",
+      "es": "san-kont/cinquante",
+      "de": "san-kont/cinquante",
+      "ru": "san-kont/cinquante",
+      "it": "san-kont/cinquante"
+    },
+    "translations": {
+      "en": "50",
+      "ko": "50",
+      "ja": "50",
+      "zh": "50",
+      "fr": "50",
+      "es": "50",
+      "de": "50",
+      "ru": "50",
+      "it": "50"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_60",
+    "question_word": "soixante",
+    "pronunciations": {
+      "en": "swa-sont/soixante",
+      "ko": "수아상트",
+      "ja": "ソワサント",
+      "zh": "swa-sont/soixante",
+      "fr": "soixante",
+      "es": "swa-sont/soixante",
+      "de": "swa-sont/soixante",
+      "ru": "swa-sont/soixante",
+      "it": "swa-sont/soixante"
+    },
+    "translations": {
+      "en": "60",
+      "ko": "60",
+      "ja": "60",
+      "zh": "60",
+      "fr": "60",
+      "es": "60",
+      "de": "60",
+      "ru": "60",
+      "it": "60"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_70",
+    "question_word": "soixante-dix",
+    "pronunciations": {
+      "en": "swa-sont-dees",
+      "ko": "수아상트디스",
+      "ja": "ソワサントディス",
+      "zh": "swa-sont-dees",
+      "fr": "soixante-dix",
+      "es": "swa-sont-dees",
+      "de": "swa-sont-dees",
+      "ru": "swa-sont-dees",
+      "it": "swa-sont-dees"
+    },
+    "translations": {
+      "en": "70",
+      "ko": "70",
+      "ja": "70",
+      "zh": "70",
+      "fr": "70",
+      "es": "70",
+      "de": "70",
+      "ru": "70",
+      "it": "70"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_80",
+    "question_word": "quatre-vingts",
+    "pronunciations": {
+      "en": "katr-van",
+      "ko": "카트르뱅",
+      "ja": "キャトルヴァン",
+      "zh": "katr-van",
+      "fr": "quatre-vingts",
+      "es": "katr-van",
+      "de": "katr-van",
+      "ru": "katr-van",
+      "it": "katr-van"
+    },
+    "translations": {
+      "en": "80",
+      "ko": "80",
+      "ja": "80",
+      "zh": "80",
+      "fr": "80",
+      "es": "80",
+      "de": "80",
+      "ru": "80",
+      "it": "80"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_90",
+    "question_word": "quatre-vingt-dix",
+    "pronunciations": {
+      "en": "katr-van-dees",
+      "ko": "카트르뱅디스",
+      "ja": "キャトルヴァンディス",
+      "zh": "katr-van-dees",
+      "fr": "quatre-vingt-dix",
+      "es": "katr-van-dees",
+      "de": "katr-van-dees",
+      "ru": "katr-van-dees",
+      "it": "katr-van-dees"
+    },
+    "translations": {
+      "en": "90",
+      "ko": "90",
+      "ja": "90",
+      "zh": "90",
+      "fr": "90",
+      "es": "90",
+      "de": "90",
+      "ru": "90",
+      "it": "90"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_100",
+    "question_word": "cent",
+    "pronunciations": {
+      "en": "son/cent",
+      "ko": "상",
+      "ja": "サン",
+      "zh": "son/cent",
+      "fr": "cent",
+      "es": "son/cent",
+      "de": "son/cent",
+      "ru": "son/cent",
+      "it": "son/cent"
+    },
+    "translations": {
+      "en": "100",
+      "ko": "100",
+      "ja": "100",
+      "zh": "100",
+      "fr": "100",
+      "es": "100",
+      "de": "100",
+      "ru": "100",
+      "it": "100"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_200",
+    "question_word": "deux cents",
+    "pronunciations": {
+      "en": "duh son",
+      "ko": "되 상",
+      "ja": "ドゥ・サン",
+      "zh": "duh son",
+      "fr": "deux cents",
+      "es": "duh son",
+      "de": "duh son",
+      "ru": "duh son",
+      "it": "duh son"
+    },
+    "translations": {
+      "en": "200",
+      "ko": "200",
+      "ja": "200",
+      "zh": "200",
+      "fr": "200",
+      "es": "200",
+      "de": "200",
+      "ru": "200",
+      "it": "200"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_300",
+    "question_word": "trois cents",
+    "pronunciations": {
+      "en": "trwah son",
+      "ko": "트와 상",
+      "ja": "トロワ・サン",
+      "zh": "trwah son",
+      "fr": "trois cents",
+      "es": "trwah son",
+      "de": "trwah son",
+      "ru": "trwah son",
+      "it": "trwah son"
+    },
+    "translations": {
+      "en": "300",
+      "ko": "300",
+      "ja": "300",
+      "zh": "300",
+      "fr": "300",
+      "es": "300",
+      "de": "300",
+      "ru": "300",
+      "it": "300"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_400",
+    "question_word": "quatre cents",
+    "pronunciations": {
+      "en": "katr son",
+      "ko": "카트르 상",
+      "ja": "キャトル・サン",
+      "zh": "katr son",
+      "fr": "quatre cents",
+      "es": "katr son",
+      "de": "katr son",
+      "ru": "katr son",
+      "it": "katr son"
+    },
+    "translations": {
+      "en": "400",
+      "ko": "400",
+      "ja": "400",
+      "zh": "400",
+      "fr": "400",
+      "es": "400",
+      "de": "400",
+      "ru": "400",
+      "it": "400"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_500",
+    "question_word": "cinq cents",
+    "pronunciations": {
+      "en": "sank son",
+      "ko": "생크 상",
+      "ja": "サンク・サン",
+      "zh": "sank son",
+      "fr": "cinq cents",
+      "es": "sank son",
+      "de": "sank son",
+      "ru": "sank son",
+      "it": "sank son"
+    },
+    "translations": {
+      "en": "500",
+      "ko": "500",
+      "ja": "500",
+      "zh": "500",
+      "fr": "500",
+      "es": "500",
+      "de": "500",
+      "ru": "500",
+      "it": "500"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_600",
+    "question_word": "six cents",
+    "pronunciations": {
+      "en": "see son",
+      "ko": "시 상",
+      "ja": "シ・サン",
+      "zh": "see son",
+      "fr": "six cents",
+      "es": "see son",
+      "de": "see son",
+      "ru": "see son",
+      "it": "see son"
+    },
+    "translations": {
+      "en": "600",
+      "ko": "600",
+      "ja": "600",
+      "zh": "600",
+      "fr": "600",
+      "es": "600",
+      "de": "600",
+      "ru": "600",
+      "it": "600"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_700",
+    "question_word": "sept cents",
+    "pronunciations": {
+      "en": "set son",
+      "ko": "세트 상",
+      "ja": "セット・サン",
+      "zh": "set son",
+      "fr": "sept cents",
+      "es": "set son",
+      "de": "set son",
+      "ru": "set son",
+      "it": "set son"
+    },
+    "translations": {
+      "en": "700",
+      "ko": "700",
+      "ja": "700",
+      "zh": "700",
+      "fr": "700",
+      "es": "700",
+      "de": "700",
+      "ru": "700",
+      "it": "700"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_800",
+    "question_word": "huit cents",
+    "pronunciations": {
+      "en": "weet son",
+      "ko": "위트 상",
+      "ja": "ユイット・サン",
+      "zh": "weet son",
+      "fr": "huit cents",
+      "es": "weet son",
+      "de": "weet son",
+      "ru": "weet son",
+      "it": "weet son"
+    },
+    "translations": {
+      "en": "800",
+      "ko": "800",
+      "ja": "800",
+      "zh": "800",
+      "fr": "800",
+      "es": "800",
+      "de": "800",
+      "ru": "800",
+      "it": "800"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_900",
+    "question_word": "neuf cents",
+    "pronunciations": {
+      "en": "nuhf son",
+      "ko": "뇌프 상",
+      "ja": "ヌフ・サン",
+      "zh": "nuhf son",
+      "fr": "neuf cents",
+      "es": "nuhf son",
+      "de": "nuhf son",
+      "ru": "nuhf son",
+      "it": "nuhf son"
+    },
+    "translations": {
+      "en": "900",
+      "ko": "900",
+      "ja": "900",
+      "zh": "900",
+      "fr": "900",
+      "es": "900",
+      "de": "900",
+      "ru": "900",
+      "it": "900"
+    }
+  },
+  {
+    "quiz_id": "fr_numbers_1000",
+    "question_word": "mille",
+    "pronunciations": {
+      "en": "meel/mille",
+      "ko": "밀",
+      "ja": "ミル",
+      "zh": "meel/mille",
+      "fr": "mille",
+      "es": "meel/mille",
+      "de": "meel/mille",
+      "ru": "meel/mille",
+      "it": "meel/mille"
+    },
+    "translations": {
+      "en": "1000",
+      "ko": "1000",
+      "ja": "1000",
+      "zh": "1000",
+      "fr": "1000",
+      "es": "1000",
+      "de": "1000",
+      "ru": "1000",
+      "it": "1000"
+    }
+  }
+]

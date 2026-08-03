@@ -1,0 +1,340 @@
+[
+  {
+    "quiz_id": "it_questions_chi",
+    "question_word": "chi",
+    "pronunciations": {
+      "en": "kee/chi",
+      "ko": "키",
+      "ja": "キ",
+      "zh": "kee/chi",
+      "fr": "kee/chi",
+      "es": "kee/chi",
+      "de": "kee/chi",
+      "ru": "kee/chi",
+      "it": "chi"
+    },
+    "translations": {
+      "en": "who",
+      "ko": "누구",
+      "ja": "誰",
+      "zh": "谁",
+      "fr": "qui",
+      "es": "quién",
+      "de": "wer",
+      "ru": "кто",
+      "it": "chi"
+    }
+  },
+  {
+    "quiz_id": "it_questions_che",
+    "question_word": "che",
+    "pronunciations": {
+      "en": "keh/che",
+      "ko": "케",
+      "ja": "ケ",
+      "zh": "keh/che",
+      "fr": "keh/che",
+      "es": "keh/che",
+      "de": "keh/che",
+      "ru": "keh/che",
+      "it": "che"
+    },
+    "translations": {
+      "en": "what / which (often + noun; also relative “that”)",
+      "ko": "무엇·어떤 (+ 명사; 관계절 “~하는”도)",
+      "ja": "何／どの（＋名詞。関係詞「〜する」も）",
+      "zh": "什么／哪个（+名词；也作关系词）",
+      "fr": "que / quel (souvent + nom)",
+      "es": "qué / que",
+      "de": "was / welch-",
+      "ru": "что / какой",
+      "it": "che"
+    }
+  },
+  {
+    "quiz_id": "it_questions_cosa",
+    "question_word": "cosa",
+    "pronunciations": {
+      "en": "ko-za",
+      "ko": "코자",
+      "ja": "コザ",
+      "zh": "ko-za",
+      "fr": "ko-za",
+      "es": "ko-za",
+      "de": "ko-za",
+      "ru": "ko-za",
+      "it": "cosa"
+    },
+    "translations": {
+      "en": "what (thing; often che cosa / cosa)",
+      "ko": "무엇 (사물; che cosa / cosa)",
+      "ja": "何（もの・che cosa／cosa）",
+      "zh": "什么（事物；常说 che cosa／cosa）",
+      "fr": "quoi / que",
+      "es": "qué",
+      "de": "was",
+      "ru": "что",
+      "it": "cosa"
+    }
+  },
+  {
+    "quiz_id": "it_questions_checosa",
+    "question_word": "che cosa",
+    "pronunciations": {
+      "en": "keh ko-za",
+      "ko": "케 코자",
+      "ja": "ケ・コザ",
+      "zh": "keh ko-za",
+      "fr": "keh ko-za",
+      "es": "keh ko-za",
+      "de": "keh ko-za",
+      "ru": "keh ko-za",
+      "it": "che cosa"
+    },
+    "translations": {
+      "en": "what (full form; very common)",
+      "ko": "무엇 (풀 형태·매우 흔함)",
+      "ja": "何（完全形・とても多い）",
+      "zh": "什么（完整形式，极常用）",
+      "fr": "qu’est-ce que / quoi",
+      "es": "qué",
+      "de": "was",
+      "ru": "что",
+      "it": "che cosa"
+    }
+  },
+  {
+    "quiz_id": "it_questions_dove",
+    "question_word": "dove",
+    "pronunciations": {
+      "en": "do-ve",
+      "ko": "도베",
+      "ja": "ドヴェ",
+      "zh": "do-ve",
+      "fr": "do-ve",
+      "es": "do-ve",
+      "de": "do-ve",
+      "ru": "do-ve",
+      "it": "dove"
+    },
+    "translations": {
+      "en": "where (location / often also “where to”)",
+      "ko": "어디 (장소; 방향에도 자주 씀)",
+      "ja": "どこ（場所・行く方向にも）",
+      "zh": "哪里（地点；也常表去向）",
+      "fr": "où",
+      "es": "dónde / adónde",
+      "de": "wo / wohin",
+      "ru": "где / куда",
+      "it": "dove"
+    }
+  },
+  {
+    "quiz_id": "it_questions_dadove",
+    "question_word": "da dove",
+    "pronunciations": {
+      "en": "da do-ve",
+      "ko": "다 도베",
+      "ja": "ダ・ドヴェ",
+      "zh": "da do-ve",
+      "fr": "da do-ve",
+      "es": "da do-ve",
+      "de": "da do-ve",
+      "ru": "da do-ve",
+      "it": "da dove"
+    },
+    "translations": {
+      "en": "where from",
+      "ko": "어디서 (출발)",
+      "ja": "どこから",
+      "zh": "从哪里",
+      "fr": "d’où",
+      "es": "de dónde",
+      "de": "woher",
+      "ru": "откуда",
+      "it": "da dove"
+    }
+  },
+  {
+    "quiz_id": "it_questions_quando",
+    "question_word": "quando",
+    "pronunciations": {
+      "en": "kwan-do",
+      "ko": "콴도",
+      "ja": "クアンド",
+      "zh": "kwan-do",
+      "fr": "kwan-do",
+      "es": "kwan-do",
+      "de": "kwan-do",
+      "ru": "kwan-do",
+      "it": "quando"
+    },
+    "translations": {
+      "en": "when",
+      "ko": "언제",
+      "ja": "いつ",
+      "zh": "什么时候",
+      "fr": "quand",
+      "es": "cuándo",
+      "de": "wann",
+      "ru": "когда",
+      "it": "quando"
+    }
+  },
+  {
+    "quiz_id": "it_questions_perche",
+    "question_word": "perché",
+    "pronunciations": {
+      "en": "per-keh",
+      "ko": "페르케",
+      "ja": "ペルケ",
+      "zh": "per-keh",
+      "fr": "per-keh",
+      "es": "per-keh",
+      "de": "per-keh",
+      "ru": "per-keh",
+      "it": "perché"
+    },
+    "translations": {
+      "en": "why (same spelling as “because”)",
+      "ko": "왜 (「왜냐하면」과 철자 동일)",
+      "ja": "なぜ（「なぜなら」と同じつづり）",
+      "zh": "为什么（与“因为”同形）",
+      "fr": "pourquoi (même orthographe que « parce que » en italien)",
+      "es": "por qué (= porque en italiano: perché)",
+      "de": "warum (gleiche Schreibweise wie „weil“: perché)",
+      "ru": "почему (то же написание, что «потому что»: perché)",
+      "it": "perché (anche = perché «perché»)"
+    }
+  },
+  {
+    "quiz_id": "it_questions_come",
+    "question_word": "come",
+    "pronunciations": {
+      "en": "ko-me",
+      "ko": "코메",
+      "ja": "コメ",
+      "zh": "ko-me",
+      "fr": "ko-me",
+      "es": "ko-me",
+      "de": "ko-me",
+      "ru": "ko-me",
+      "it": "come"
+    },
+    "translations": {
+      "en": "how",
+      "ko": "어떻게",
+      "ja": "どう / どのように",
+      "zh": "怎么 / 如何",
+      "fr": "comment",
+      "es": "cómo",
+      "de": "wie",
+      "ru": "как",
+      "it": "come"
+    }
+  },
+  {
+    "quiz_id": "it_questions_quanto",
+    "question_word": "quanto",
+    "pronunciations": {
+      "en": "kwan-to",
+      "ko": "콴토",
+      "ja": "クアント",
+      "zh": "kwan-to",
+      "fr": "kwan-to",
+      "es": "kwan-to",
+      "de": "kwan-to",
+      "ru": "kwan-to",
+      "it": "quanto"
+    },
+    "translations": {
+      "en": "how much (masculine singular)",
+      "ko": "얼마 (남성 단수)",
+      "ja": "いくら（男性単数）",
+      "zh": "多少（阳性单数）",
+      "fr": "combien (masculin)",
+      "es": "cuánto",
+      "de": "wie viel (mask.)",
+      "ru": "сколько (м. р.)",
+      "it": "quanto"
+    }
+  },
+  {
+    "quiz_id": "it_questions_quanti",
+    "question_word": "quanti",
+    "pronunciations": {
+      "en": "kwan-tee",
+      "ko": "콴티",
+      "ja": "クアンティ",
+      "zh": "kwan-tee",
+      "fr": "kwan-tee",
+      "es": "kwan-tee",
+      "de": "kwan-tee",
+      "ru": "kwan-tee",
+      "it": "quanti"
+    },
+    "translations": {
+      "en": "how many (masculine plural)",
+      "ko": "몇 (남성 복수)",
+      "ja": "いくつ（男性複数）",
+      "zh": "多少（阳性复数）",
+      "fr": "combien (pluriel masculin)",
+      "es": "cuántos",
+      "de": "wie viele (mask.)",
+      "ru": "сколько (м. р. мн.)",
+      "it": "quanti"
+    }
+  },
+  {
+    "quiz_id": "it_questions_quale",
+    "question_word": "quale",
+    "pronunciations": {
+      "en": "kwa-le",
+      "ko": "콸레",
+      "ja": "クアーレ",
+      "zh": "kwa-le",
+      "fr": "kwa-le",
+      "es": "kwa-le",
+      "de": "kwa-le",
+      "ru": "kwa-le",
+      "it": "quale"
+    },
+    "translations": {
+      "en": "which / which one (singular)",
+      "ko": "어느 / 어느 것 (단수)",
+      "ja": "どれ／どの（単数）",
+      "zh": "哪个（单数）",
+      "fr": "quel / lequel",
+      "es": "cuál",
+      "de": "welch- / welcher",
+      "ru": "какой / который",
+      "it": "quale"
+    }
+  },
+  {
+    "quiz_id": "it_questions_quali",
+    "question_word": "quali",
+    "pronunciations": {
+      "en": "kwa-lee",
+      "ko": "콸리",
+      "ja": "クアーリ",
+      "zh": "kwa-lee",
+      "fr": "kwa-lee",
+      "es": "kwa-lee",
+      "de": "kwa-lee",
+      "ru": "kwa-lee",
+      "it": "quali"
+    },
+    "translations": {
+      "en": "which / which ones (plural)",
+      "ko": "어느 / 어느 것들 (복수)",
+      "ja": "どれ／どの（複数）",
+      "zh": "哪些（复数）",
+      "fr": "quels / lesquels",
+      "es": "cuáles",
+      "de": "welche",
+      "ru": "какие / которые",
+      "it": "quali"
+    }
+  }
+]

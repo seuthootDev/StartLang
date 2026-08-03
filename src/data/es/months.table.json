@@ -1,0 +1,728 @@
+{
+  "table_id": "es_months_ref",
+  "title": {
+    "en": "Months & seasons",
+    "ko": "월과 계절",
+    "ja": "月と季節",
+    "zh": "月份与季节",
+    "fr": "Mois & saisons",
+    "es": "Meses y estaciones",
+    "de": "Monate & Jahreszeiten",
+    "ru": "Месяцы и сезоны",
+    "it": "Months & seasons"
+  },
+  "note": {
+    "en": "Months are lowercase. Day-of-month writing is below — mostly cardinals from Numbers.",
+    "ko": "월 이름은 소문자. 일자 쓰기는 아래 — 대부분 기수사입니다.",
+    "ja": "月名は小文字。日付の書き方は下 — 多くは基数。",
+    "zh": "月份小写。日期写法见下 — 多为基数。",
+    "fr": "Mois en minuscules. Dates ci-dessous — surtout des cardinaux.",
+    "es": "Meses en minúscula. Fechas abajo — sobre todo cardinales.",
+    "de": "Monate klein. Datumsform unten — meist Kardinalzahlen.",
+    "ru": "Месяцы с маленькой буквы. Даты ниже — в основном количественные.",
+    "it": "Months are lowercase. Day-of-month writing is below — mostly cardinals from Numbers."
+  },
+  "rules": {
+    "en": [
+      "Pattern: el + day + de + month (el 5 de enero).",
+      "Only the 1st uses an ordinal: el 1.º / el primero. From the 2nd onward, use cardinals (Numbers quiz).",
+      "No separate Dates quiz — learn months here and days in Numbers."
+    ],
+    "ko": [
+      "패턴: el + 일자 + de + 월 (el 5 de enero).",
+      "1일만 서수: el 1.º / el primero. 2일부터는 기수사.",
+      "날짜 전용 퀴즈 없음 — 월은 여기, 일자는 기수사에서."
+    ],
+    "ja": [
+      "型: el ＋ 日 ＋ de ＋ 月（el 5 de enero）。",
+      "1日だけ序数: el 1.º / el primero。2日以降は基数。",
+      "日付専用クイズなし。"
+    ],
+    "zh": [
+      "格式: el + 日 + de + 月（el 5 de enero）。",
+      "仅1日用序数；从2日起用基数。",
+      "无单独日期测验。"
+    ],
+    "fr": [
+      "Schéma : el + jour + de + mois.",
+      "Seul le 1er est ordinal ; dès le 2, cardinaux.",
+      "Pas de quiz Dates séparé."
+    ],
+    "es": [
+      "Patrón: el + día + de + mes.",
+      "Solo el 1 usa ordinal; desde el 2, cardinales.",
+      "Sin quiz Dates aparte."
+    ],
+    "de": [
+      "Muster: el + Tag + de + Monat.",
+      "Nur der 1. ist Ordinal; ab 2 Kardinal.",
+      "Kein separates Dates-Quiz."
+    ],
+    "ru": [
+      "Схема: el + день + de + месяц.",
+      "Только 1-е — порядковое; со 2-го — количественные.",
+      "Отдельного квиза Dates нет."
+    ],
+    "it": [
+      "Schema: el + giorno + de + mese.",
+      "Solo l’1 è ordinale; dal 2, cardinali.",
+      "Niente quiz Dates separato."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Months & seasons",
+        "ko": "월과 계절",
+        "ja": "月と季節",
+        "zh": "月份与季节",
+        "fr": "Mois & saisons",
+        "es": "Meses y estaciones",
+        "de": "Monate & Jahreszeiten",
+        "ru": "Месяцы и сезоны",
+        "it": "Months & seasons"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Spanish",
+            "ko": "스페인어",
+            "ja": "スペイン語",
+            "zh": "西班牙语",
+            "fr": "Espagnol",
+            "es": "Español",
+            "de": "Spanisch",
+            "ru": "Испанский",
+            "it": "Spanish"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Meaning"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Sound"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "enero",
+          "meaning": {
+            "en": "January",
+            "ko": "1월",
+            "ja": "一月",
+            "zh": "一月",
+            "fr": "janvier",
+            "es": "enero",
+            "de": "Januar",
+            "ru": "январь",
+            "it": "January"
+          },
+          "sound": {
+            "en": "e-ne-ro",
+            "ko": "에네로",
+            "ja": "エネロ",
+            "zh": "e-ne-ro",
+            "fr": "e-ne-ro",
+            "es": "enero",
+            "de": "e-ne-ro",
+            "ru": "e-ne-ro",
+            "it": "e-ne-ro"
+          }
+        },
+        {
+          "form": "febrero",
+          "meaning": {
+            "en": "February",
+            "ko": "2월",
+            "ja": "二月",
+            "zh": "二月",
+            "fr": "février",
+            "es": "febrero",
+            "de": "Februar",
+            "ru": "февраль",
+            "it": "February"
+          },
+          "sound": {
+            "en": "fe-bre-ro",
+            "ko": "페브레로",
+            "ja": "フェブレロ",
+            "zh": "fe-bre-ro",
+            "fr": "fe-bre-ro",
+            "es": "febrero",
+            "de": "fe-bre-ro",
+            "ru": "fe-bre-ro",
+            "it": "fe-bre-ro"
+          }
+        },
+        {
+          "form": "marzo",
+          "meaning": {
+            "en": "March",
+            "ko": "3월",
+            "ja": "三月",
+            "zh": "三月",
+            "fr": "mars",
+            "es": "marzo",
+            "de": "März",
+            "ru": "март",
+            "it": "March"
+          },
+          "sound": {
+            "en": "mar-so",
+            "ko": "마르소",
+            "ja": "マルソ",
+            "zh": "mar-so",
+            "fr": "mar-so",
+            "es": "marzo",
+            "de": "mar-so",
+            "ru": "mar-so",
+            "it": "mar-so"
+          }
+        },
+        {
+          "form": "abril",
+          "meaning": {
+            "en": "April",
+            "ko": "4월",
+            "ja": "四月",
+            "zh": "四月",
+            "fr": "avril",
+            "es": "abril",
+            "de": "April",
+            "ru": "апрель",
+            "it": "April"
+          },
+          "sound": {
+            "en": "a-breel",
+            "ko": "아브릴",
+            "ja": "アブリル",
+            "zh": "a-breel",
+            "fr": "a-breel",
+            "es": "abril",
+            "de": "a-breel",
+            "ru": "a-breel",
+            "it": "a-breel"
+          }
+        },
+        {
+          "form": "mayo",
+          "meaning": {
+            "en": "May",
+            "ko": "5월",
+            "ja": "五月",
+            "zh": "五月",
+            "fr": "mai",
+            "es": "mayo",
+            "de": "Mai",
+            "ru": "май",
+            "it": "May"
+          },
+          "sound": {
+            "en": "ma-yo",
+            "ko": "마요",
+            "ja": "マジョ",
+            "zh": "ma-yo",
+            "fr": "ma-yo",
+            "es": "mayo",
+            "de": "ma-yo",
+            "ru": "ma-yo",
+            "it": "ma-yo"
+          }
+        },
+        {
+          "form": "junio",
+          "meaning": {
+            "en": "June",
+            "ko": "6월",
+            "ja": "六月",
+            "zh": "六月",
+            "fr": "juin",
+            "es": "junio",
+            "de": "Juni",
+            "ru": "июнь",
+            "it": "June"
+          },
+          "sound": {
+            "en": "hoo-nyo",
+            "ko": "후니오",
+            "ja": "フニオ",
+            "zh": "hoo-nyo",
+            "fr": "hoo-nyo",
+            "es": "junio",
+            "de": "hoo-nyo",
+            "ru": "hoo-nyo",
+            "it": "hoo-nyo"
+          }
+        },
+        {
+          "form": "julio",
+          "meaning": {
+            "en": "July",
+            "ko": "7월",
+            "ja": "七月",
+            "zh": "七月",
+            "fr": "juillet",
+            "es": "julio",
+            "de": "Juli",
+            "ru": "июль",
+            "it": "July"
+          },
+          "sound": {
+            "en": "hoo-lyo",
+            "ko": "훌리오",
+            "ja": "フリオ",
+            "zh": "hoo-lyo",
+            "fr": "hoo-lyo",
+            "es": "julio",
+            "de": "hoo-lyo",
+            "ru": "hoo-lyo",
+            "it": "hoo-lyo"
+          }
+        },
+        {
+          "form": "agosto",
+          "meaning": {
+            "en": "August",
+            "ko": "8월",
+            "ja": "八月",
+            "zh": "八月",
+            "fr": "août",
+            "es": "agosto",
+            "de": "August",
+            "ru": "август",
+            "it": "August"
+          },
+          "sound": {
+            "en": "a-gos-to",
+            "ko": "아고스토",
+            "ja": "アゴスト",
+            "zh": "a-gos-to",
+            "fr": "a-gos-to",
+            "es": "agosto",
+            "de": "a-gos-to",
+            "ru": "a-gos-to",
+            "it": "a-gos-to"
+          }
+        },
+        {
+          "form": "septiembre",
+          "meaning": {
+            "en": "September",
+            "ko": "9월",
+            "ja": "九月",
+            "zh": "九月",
+            "fr": "septembre",
+            "es": "septiembre",
+            "de": "September",
+            "ru": "сентябрь",
+            "it": "September"
+          },
+          "sound": {
+            "en": "sep-tyem-bre",
+            "ko": "셉티엠브레",
+            "ja": "セプティエンブレ",
+            "zh": "sep-tyem-bre",
+            "fr": "sep-tyem-bre",
+            "es": "septiembre",
+            "de": "sep-tyem-bre",
+            "ru": "sep-tyem-bre",
+            "it": "sep-tyem-bre"
+          }
+        },
+        {
+          "form": "octubre",
+          "meaning": {
+            "en": "October",
+            "ko": "10월",
+            "ja": "十月",
+            "zh": "十月",
+            "fr": "octobre",
+            "es": "octubre",
+            "de": "Oktober",
+            "ru": "октябрь",
+            "it": "October"
+          },
+          "sound": {
+            "en": "ok-too-bre",
+            "ko": "옥투브레",
+            "ja": "オクトゥブレ",
+            "zh": "ok-too-bre",
+            "fr": "ok-too-bre",
+            "es": "octubre",
+            "de": "ok-too-bre",
+            "ru": "ok-too-bre",
+            "it": "ok-too-bre"
+          }
+        },
+        {
+          "form": "noviembre",
+          "meaning": {
+            "en": "November",
+            "ko": "11월",
+            "ja": "十一月",
+            "zh": "十一月",
+            "fr": "novembre",
+            "es": "noviembre",
+            "de": "November",
+            "ru": "ноябрь",
+            "it": "November"
+          },
+          "sound": {
+            "en": "no-vyem-bre",
+            "ko": "노비엠브레",
+            "ja": "ノビエンブレ",
+            "zh": "no-vyem-bre",
+            "fr": "no-vyem-bre",
+            "es": "noviembre",
+            "de": "no-vyem-bre",
+            "ru": "no-vyem-bre",
+            "it": "no-vyem-bre"
+          }
+        },
+        {
+          "form": "diciembre",
+          "meaning": {
+            "en": "December",
+            "ko": "12월",
+            "ja": "十二月",
+            "zh": "十二月",
+            "fr": "décembre",
+            "es": "diciembre",
+            "de": "Dezember",
+            "ru": "декабрь",
+            "it": "December"
+          },
+          "sound": {
+            "en": "dee-syem-bre",
+            "ko": "디시엠브레",
+            "ja": "ディシエンブレ",
+            "zh": "dee-syem-bre",
+            "fr": "dee-syem-bre",
+            "es": "diciembre",
+            "de": "dee-syem-bre",
+            "ru": "dee-syem-bre",
+            "it": "dee-syem-bre"
+          }
+        },
+        {
+          "form": "primavera",
+          "meaning": {
+            "en": "spring",
+            "ko": "봄",
+            "ja": "春",
+            "zh": "春天",
+            "fr": "printemps",
+            "es": "primavera",
+            "de": "Frühling",
+            "ru": "весна",
+            "it": "spring"
+          },
+          "sound": {
+            "en": "pree-ma-ve-ra",
+            "ko": "프리마베라",
+            "ja": "プリマベラ",
+            "zh": "pree-ma-ve-ra",
+            "fr": "pree-ma-ve-ra",
+            "es": "primavera",
+            "de": "pree-ma-ve-ra",
+            "ru": "pree-ma-ve-ra",
+            "it": "pree-ma-ve-ra"
+          }
+        },
+        {
+          "form": "verano",
+          "meaning": {
+            "en": "summer",
+            "ko": "여름",
+            "ja": "夏",
+            "zh": "夏天",
+            "fr": "été",
+            "es": "verano",
+            "de": "Sommer",
+            "ru": "лето",
+            "it": "summer"
+          },
+          "sound": {
+            "en": "ve-ra-no",
+            "ko": "베라노",
+            "ja": "ベラノ",
+            "zh": "ve-ra-no",
+            "fr": "ve-ra-no",
+            "es": "verano",
+            "de": "ve-ra-no",
+            "ru": "ve-ra-no",
+            "it": "ve-ra-no"
+          }
+        },
+        {
+          "form": "otoño",
+          "meaning": {
+            "en": "autumn / fall",
+            "ko": "가을",
+            "ja": "秋",
+            "zh": "秋天",
+            "fr": "automne",
+            "es": "otoño",
+            "de": "Herbst",
+            "ru": "осень",
+            "it": "autumn / fall"
+          },
+          "sound": {
+            "en": "o-to-nyo",
+            "ko": "오토뇨",
+            "ja": "オトニョ",
+            "zh": "o-to-nyo",
+            "fr": "o-to-nyo",
+            "es": "otoño",
+            "de": "o-to-nyo",
+            "ru": "o-to-nyo",
+            "it": "o-to-nyo"
+          }
+        },
+        {
+          "form": "invierno",
+          "meaning": {
+            "en": "winter",
+            "ko": "겨울",
+            "ja": "冬",
+            "zh": "冬天",
+            "fr": "hiver",
+            "es": "invierno",
+            "de": "Winter",
+            "ru": "зима",
+            "it": "winter"
+          },
+          "sound": {
+            "en": "een-vyer-no",
+            "ko": "인비에르노",
+            "ja": "インビエルノ",
+            "zh": "een-vyer-no",
+            "fr": "een-vyer-no",
+            "es": "invierno",
+            "de": "een-vyer-no",
+            "ru": "een-vyer-no",
+            "it": "een-vyer-no"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Writing dates",
+        "ko": "날짜 쓰기",
+        "ja": "日付の書き方",
+        "zh": "日期写法",
+        "fr": "Écrire une date",
+        "es": "Escribir fechas",
+        "de": "Daten schreiben",
+        "ru": "Запись дат",
+        "it": "Writing dates"
+      },
+      "note": {
+        "en": "Reference only (not a quiz deck). Day numbers reuse Cardinal Numbers — except the 1st.",
+        "ko": "참고용(퀴즈 카드 아님). 일자는 기수사 재사용 — 1일만 예외.",
+        "ja": "参考のみ（クイズ外）。日は基数を再利用 — 1日だけ例外。",
+        "zh": "仅供参考。日子复用基数 — 仅1日例外。",
+        "fr": "Référence seule. Le jour = cardinal, sauf le 1er.",
+        "es": "Solo referencia. El día = cardinal, excepto el 1.",
+        "de": "Nur Nachschlagewerk. Tag = Kardinal, außer dem 1.",
+        "ru": "Только справка. День = количественное, кроме 1-го.",
+        "it": "Reference only (not a quiz deck). Day numbers reuse Cardinal Numbers — except the 1st."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Spanish",
+            "ko": "스페인어",
+            "ja": "スペイン語",
+            "zh": "西班牙语",
+            "fr": "Espagnol",
+            "es": "Español",
+            "de": "Spanisch",
+            "ru": "Испанский",
+            "it": "Spanish"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Meaning"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Sound"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "el 1.º de enero / el primero de enero",
+          "meaning": {
+            "en": "January 1st (only day that uses an ordinal)",
+            "ko": "1월 1일 (유일하게 서수)",
+            "ja": "1月1日（序数を使う唯一の日）",
+            "zh": "1月1日（唯一用序数）",
+            "fr": "le 1er janvier (seul jour en ordinal)",
+            "es": "el 1.º de enero (único día con ordinal)",
+            "de": "1. Januar (einziger Ordinal-Tag)",
+            "ru": "1 января (единственный день с порядковым)",
+            "it": "January 1st (only day that uses an ordinal)"
+          },
+          "sound": {
+            "en": "primero = 1st (ordinal)",
+            "ko": "primero = 1일 (서수)",
+            "ja": "primero＝1日（序数）",
+            "zh": "primero＝1日（序数）",
+            "fr": "primero = 1er",
+            "es": "primero = 1.º",
+            "de": "primero = 1.",
+            "ru": "primero = 1-е",
+            "it": "primero = 1st (ordinal)"
+          }
+        },
+        {
+          "form": "el 2 de enero",
+          "meaning": {
+            "en": "January 2nd (cardinal: dos)",
+            "ko": "1월 2일 (기수: dos)",
+            "ja": "1月2日（基数 dos）",
+            "zh": "1月2日（基数 dos）",
+            "fr": "le 2 janvier (cardinal : dos)",
+            "es": "el 2 de enero (cardinal: dos)",
+            "de": "2. Januar (Kardinal: dos)",
+            "ru": "2 января (количественное: dos)",
+            "it": "January 2nd (cardinal: dos)"
+          },
+          "sound": {
+            "en": "2+ = cardinal (Numbers quiz)",
+            "ko": "2일~ = 기수사 퀴즈",
+            "ja": "2日〜＝基数クイズ",
+            "zh": "2日起＝基数测验",
+            "fr": "à partir de 2 = cardinal",
+            "es": "desde el 2 = cardinal",
+            "de": "ab 2 = Kardinal",
+            "ru": "со 2-го = количественное",
+            "it": "2+ = cardinal (Numbers quiz)"
+          }
+        },
+        {
+          "form": "el 5 de marzo",
+          "meaning": {
+            "en": "March 5th (cardinal: cinco)",
+            "ko": "3월 5일 (기수: cinco)",
+            "ja": "3月5日（基数 cinco）",
+            "zh": "3月5日（基数 cinco）",
+            "fr": "le 5 mars (cardinal : cinco)",
+            "es": "el 5 de marzo (cardinal: cinco)",
+            "de": "5. März (Kardinal: cinco)",
+            "ru": "5 марта (количественное: cinco)",
+            "it": "March 5th (cardinal: cinco)"
+          },
+          "sound": {
+            "en": "el + number + de + month",
+            "ko": "el + 숫자 + de + 월",
+            "ja": "el ＋ 数字 ＋ de ＋ 月",
+            "zh": "el + 数字 + de + 月",
+            "fr": "el + nombre + de + mois",
+            "es": "el + número + de + mes",
+            "de": "el + Zahl + de + Monat",
+            "ru": "el + число + de + месяц",
+            "it": "el + number + de + month"
+          }
+        },
+        {
+          "form": "el 21 de julio",
+          "meaning": {
+            "en": "July 21st (cardinal: veintiuno)",
+            "ko": "7월 21일 (기수: veintiuno)",
+            "ja": "7月21日（基数 veintiuno）",
+            "zh": "7月21日（基数 veintiuno）",
+            "fr": "le 21 juillet (veintiuno)",
+            "es": "el 21 de julio (veintiuno)",
+            "de": "21. Juli (veintiuno)",
+            "ru": "21 июля (veintiuno)",
+            "it": "July 21st (cardinal: veintiuno)"
+          },
+          "sound": {
+            "en": "same compounds as Numbers",
+            "ko": "기수사와 같은 합성",
+            "ja": "基数と同じ合成",
+            "zh": "与基数相同的合成",
+            "fr": "mêmes composés que les nombres",
+            "es": "mismos compuestos que los números",
+            "de": "gleiche Verbindungen wie Zahlen",
+            "ru": "те же составные, что у чисел",
+            "it": "same compounds as Numbers"
+          }
+        },
+        {
+          "form": "el 31 de diciembre",
+          "meaning": {
+            "en": "December 31st (cardinal: treinta y uno)",
+            "ko": "12월 31일 (기수: treinta y uno)",
+            "ja": "12月31日（基数 treinta y uno）",
+            "zh": "12月31日（基数 treinta y uno）",
+            "fr": "le 31 décembre (trente et un → treinta y uno)",
+            "es": "el 31 de diciembre (treinta y uno)",
+            "de": "31. Dezember (treinta y uno)",
+            "ru": "31 декабря (treinta y uno)",
+            "it": "December 31st (cardinal: treinta y uno)"
+          },
+          "sound": {
+            "en": "still a cardinal, not an ordinal",
+            "ko": "서수가 아니라 기수",
+            "ja": "序数ではなく基数",
+            "zh": "仍是基数，不是序数",
+            "fr": "cardinal, pas ordinal",
+            "es": "cardinal, no ordinal",
+            "de": "Kardinal, kein Ordinal",
+            "ru": "количественное, не порядковое",
+            "it": "still a cardinal, not an ordinal"
+          }
+        }
+      ]
+    }
+  ]
+}

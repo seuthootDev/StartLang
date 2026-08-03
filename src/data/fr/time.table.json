@@ -1,0 +1,309 @@
+{
+  "table_id": "fr_time_ref",
+  "title": {
+    "en": "Time of day",
+    "ko": "하루의 때",
+    "ja": "一日の時間帯",
+    "zh": "一天中的时段",
+    "fr": "Moments de la journée",
+    "es": "Momentos del día",
+    "de": "Tageszeiten",
+    "ru": "Время суток",
+    "it": "Time of day"
+  },
+  "note": {
+    "en": "Use le matin / l’après-midi / le soir for “in the morning/afternoon/evening”.",
+    "ko": "「아침에/오후에/저녁에」는 le matin / l’après-midi / le soir를 씁니다.",
+    "ja": "「朝に／午後に／夕方に」は le matin / l’après-midi / le soir。",
+    "zh": "“在早上/下午/晚上”用 le matin / l’après-midi / le soir。",
+    "fr": "le matin / l’après-midi / le soir = « in the morning/afternoon/evening ».",
+    "es": "le matin / l’après-midi / le soir = « por la mañana/tarde/noche ».",
+    "de": "le matin / l’après-midi / le soir = „morgens/nachmittags/abends“.",
+    "ru": "le matin / l’après-midi / le soir = «утром/днём/вечером».",
+    "it": "Use le matin / l’après-midi / le soir for “in the morning/afternoon/evening”."
+  },
+  "rules": {
+    "en": [
+      "midi = noon; après-midi = afternoon (often written with or without accent).",
+      "du matin / de l’après-midi appear in clock talk (8 h du matin)."
+    ],
+    "ko": [
+      "midi = 정오, après-midi = 오후.",
+      "시계 표현에 du matin / de l’après-midi (8 h du matin)."
+    ],
+    "ja": [
+      "midi = 正午、après-midi = 午後。",
+      "時刻では du matin / de l’après-midi（8 h du matin）。"
+    ],
+    "zh": [
+      "midi = 中午；après-midi = 下午。",
+      "报时常用 du matin / de l’après-midi（8 h du matin）。"
+    ],
+    "fr": [
+      "midi = noon ; après-midi = afternoon.",
+      "À l’heure : 8 h du matin, 3 h de l’après-midi."
+    ],
+    "es": [
+      "midi = mediodía; après-midi = tarde.",
+      "En la hora: 8 h du matin."
+    ],
+    "de": [
+      "midi = Mittag; après-midi = Nachmittag.",
+      "Bei der Uhrzeit: 8 h du matin."
+    ],
+    "ru": [
+      "midi = полдень; après-midi = после полудня.",
+      "Во времени: 8 h du matin."
+    ],
+    "it": [
+      "midi = mezzogiorno; après-midi = pomeriggio.",
+      "Nell’ora: 8 h du matin."
+    ]
+  },
+  "columns": [
+    {
+      "key": "form",
+      "labels": {
+        "en": "French",
+        "ko": "프랑스어",
+        "ja": "フランス語",
+        "zh": "法语",
+        "fr": "Français",
+        "es": "Francés",
+        "de": "Französisch",
+        "ru": "Французский",
+        "it": "French"
+      }
+    },
+    {
+      "key": "meaning",
+      "labels": {
+        "en": "Meaning",
+        "ko": "의미",
+        "ja": "意味",
+        "zh": "意思",
+        "fr": "Sens",
+        "es": "Significado",
+        "de": "Bedeutung",
+        "ru": "Значение",
+        "it": "Meaning"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Prononciation",
+        "es": "Pronunciación",
+        "de": "Aussprache",
+        "ru": "Произношение",
+        "it": "Sound"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "form": "aube",
+      "meaning": {
+        "en": "dawn / early morning",
+        "ko": "새벽",
+        "ja": "明け方",
+        "zh": "黎明",
+        "fr": "aube",
+        "es": "madrugada / alba",
+        "de": "Morgendämmerung",
+        "ru": "рассвет",
+        "it": "dawn / early morning"
+      },
+      "sound": {
+        "en": "ob/aube",
+        "ko": "오브",
+        "ja": "オブ",
+        "zh": "ob/aube",
+        "fr": "aube",
+        "es": "ob/aube",
+        "de": "ob/aube",
+        "ru": "ob/aube",
+        "it": "ob/aube"
+      }
+    },
+    {
+      "form": "matin",
+      "meaning": {
+        "en": "morning",
+        "ko": "아침",
+        "ja": "朝",
+        "zh": "早上",
+        "fr": "matin",
+        "es": "mañana",
+        "de": "Morgen",
+        "ru": "утро",
+        "it": "morning"
+      },
+      "sound": {
+        "en": "ma-tan/matin",
+        "ko": "마탱",
+        "ja": "マタン",
+        "zh": "ma-tan/matin",
+        "fr": "matin",
+        "es": "ma-tan/matin",
+        "de": "ma-tan/matin",
+        "ru": "ma-tan/matin",
+        "it": "ma-tan/matin"
+      }
+    },
+    {
+      "form": "du matin",
+      "meaning": {
+        "en": "a.m. / in the morning",
+        "ko": "오전 / 아침에",
+        "ja": "午前 / 朝に",
+        "zh": "上午",
+        "fr": "du matin",
+        "es": "a. m. / por la mañana",
+        "de": "Vormittag / morgens",
+        "ru": "утром / до полудня",
+        "it": "a.m. / in the morning"
+      },
+      "sound": {
+        "en": "dü ma-tan",
+        "ko": "뒤 마탱",
+        "ja": "デュ・マタン",
+        "zh": "dü ma-tan",
+        "fr": "du matin",
+        "es": "dü ma-tan",
+        "de": "dü ma-tan",
+        "ru": "dü ma-tan",
+        "it": "dü ma-tan"
+      }
+    },
+    {
+      "form": "midi",
+      "meaning": {
+        "en": "noon / midday",
+        "ko": "정오 / 낮",
+        "ja": "正午 / 昼",
+        "zh": "中午",
+        "fr": "midi",
+        "es": "mediodía",
+        "de": "Mittag",
+        "ru": "полдень",
+        "it": "noon / midday"
+      },
+      "sound": {
+        "en": "mee-dee/midi",
+        "ko": "미디",
+        "ja": "ミディ",
+        "zh": "mee-dee/midi",
+        "fr": "midi",
+        "es": "mee-dee/midi",
+        "de": "mee-dee/midi",
+        "ru": "mee-dee/midi",
+        "it": "mee-dee/midi"
+      }
+    },
+    {
+      "form": "après-midi",
+      "meaning": {
+        "en": "afternoon / p.m.",
+        "ko": "오후",
+        "ja": "午後",
+        "zh": "下午",
+        "fr": "après-midi",
+        "es": "tarde",
+        "de": "Nachmittag",
+        "ru": "после полудня",
+        "it": "afternoon / p.m."
+      },
+      "sound": {
+        "en": "a-pre-mee-dee",
+        "ko": "아프레미디",
+        "ja": "アプレミディ",
+        "zh": "a-pre-mee-dee",
+        "fr": "après-midi",
+        "es": "a-pre-mee-dee",
+        "de": "a-pre-mee-dee",
+        "ru": "a-pre-mee-dee",
+        "it": "a-pre-mee-dee"
+      }
+    },
+    {
+      "form": "soir",
+      "meaning": {
+        "en": "evening",
+        "ko": "저녁",
+        "ja": "夕方 / 晩",
+        "zh": "傍晚 / 晚上",
+        "fr": "soir",
+        "es": "tarde / noche",
+        "de": "Abend",
+        "ru": "вечер",
+        "it": "evening"
+      },
+      "sound": {
+        "en": "swar/soir",
+        "ko": "수아르",
+        "ja": "ソワール",
+        "zh": "swar/soir",
+        "fr": "soir",
+        "es": "swar/soir",
+        "de": "swar/soir",
+        "ru": "swar/soir",
+        "it": "swar/soir"
+      }
+    },
+    {
+      "form": "nuit",
+      "meaning": {
+        "en": "night",
+        "ko": "밤",
+        "ja": "夜",
+        "zh": "夜晚",
+        "fr": "nuit",
+        "es": "noche",
+        "de": "Nacht",
+        "ru": "ночь",
+        "it": "night"
+      },
+      "sound": {
+        "en": "nwee/nuit",
+        "ko": "뉘",
+        "ja": "ニュイ",
+        "zh": "nwee/nuit",
+        "fr": "nuit",
+        "es": "nwee/nuit",
+        "de": "nwee/nuit",
+        "ru": "nwee/nuit",
+        "it": "nwee/nuit"
+      }
+    },
+    {
+      "form": "maintenant",
+      "meaning": {
+        "en": "now",
+        "ko": "지금",
+        "ja": "今",
+        "zh": "现在",
+        "fr": "maintenant",
+        "es": "ahora",
+        "de": "jetzt",
+        "ru": "сейчас",
+        "it": "now"
+      },
+      "sound": {
+        "en": "man-tuh-non",
+        "ko": "맹트낭",
+        "ja": "マントナン",
+        "zh": "man-tuh-non",
+        "fr": "maintenant",
+        "es": "man-tuh-non",
+        "de": "man-tuh-non",
+        "ru": "man-tuh-non",
+        "it": "man-tuh-non"
+      }
+    }
+  ]
+}

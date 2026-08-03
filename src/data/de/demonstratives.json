@@ -1,0 +1,496 @@
+[
+  {
+    "quiz_id": "de_demonstratives_dieser",
+    "question_word": "dieser",
+    "pronunciations": {
+      "en": "dee-zer",
+      "ko": "디저",
+      "ja": "ディーザー",
+      "zh": "dee-zer",
+      "fr": "dee-zer",
+      "es": "dee-zer",
+      "de": "dieser",
+      "ru": "dee-zer",
+      "it": "dee-zer"
+    },
+    "translations": {
+      "en": "this / that (masculine Nominativ + noun, near/known)",
+      "ko": "이·그 (남성 주격 + 명사, 가깝거나 알려진)",
+      "ja": "この／その（男性主格＋名詞・近い／既知）",
+      "zh": "这／那（阳性主格＋名词，近／已知）",
+      "fr": "ce / cet (près / connu)",
+      "es": "este / ese",
+      "de": "dieser (m., Nom.)",
+      "ru": "этот (м. р., имен.)",
+      "it": "questo"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_diese",
+    "question_word": "diese",
+    "pronunciations": {
+      "en": "dee-ze",
+      "ko": "디제",
+      "ja": "ディーゼ",
+      "zh": "dee-ze",
+      "fr": "dee-ze",
+      "es": "dee-ze",
+      "de": "diese",
+      "ru": "dee-ze",
+      "it": "dee-ze"
+    },
+    "translations": {
+      "en": "this / that (feminine sg or plural + noun)",
+      "ko": "이·그 (여성 단수 또는 복수 + 명사)",
+      "ja": "この／その（女性単または複数＋名詞）",
+      "zh": "这／那（阴性单或复数＋名词）",
+      "fr": "cette / ces",
+      "es": "esta / estas / esos",
+      "de": "diese (f. / Pl.)",
+      "ru": "эта / эти",
+      "it": "questa / questi"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_dieses",
+    "question_word": "dieses",
+    "pronunciations": {
+      "en": "dee-zes",
+      "ko": "디제스",
+      "ja": "ディーゼス",
+      "zh": "dee-zes",
+      "fr": "dee-zes",
+      "es": "dee-zes",
+      "de": "dieses",
+      "ru": "dee-zes",
+      "it": "dee-zes"
+    },
+    "translations": {
+      "en": "this / that (neuter Nominativ/Akkusativ + noun)",
+      "ko": "이·그 (중성 주·목적격 + 명사)",
+      "ja": "この／その（中性主・対格＋名詞）",
+      "zh": "这／那（中性主／宾格＋名词）",
+      "fr": "ce / cet (neutre)",
+      "es": "esto / este (neutro)",
+      "de": "dieses (n., Nom./Akk.)",
+      "ru": "это (ср. р.)",
+      "it": "questo (neutro)"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_diese_pl",
+    "question_word": "diese (Pl.)",
+    "pronunciations": {
+      "en": "dee-ze",
+      "ko": "디제",
+      "ja": "ディーゼ",
+      "zh": "dee-ze",
+      "fr": "dee-ze",
+      "es": "dee-ze",
+      "de": "diese (Pl.)",
+      "ru": "dee-ze",
+      "it": "dee-ze"
+    },
+    "translations": {
+      "en": "these / those (plural — same spelling as feminine sg)",
+      "ko": "이들·그것들 (복수 — 여성 단수와 철자 동일)",
+      "ja": "これらの／それらの（複数・女性単と同形）",
+      "zh": "这些／那些（复数 — 与阴性单同形）",
+      "fr": "ces (pluriel)",
+      "es": "estos / esas",
+      "de": "diese (Plural)",
+      "ru": "эти (мн.)",
+      "it": "questi / queste"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_jener",
+    "question_word": "jener",
+    "pronunciations": {
+      "en": "yay-ner",
+      "ko": "예너",
+      "ja": "イェーナー",
+      "zh": "yay-ner",
+      "fr": "yay-ner",
+      "es": "yay-ner",
+      "de": "jener",
+      "ru": "yay-ner",
+      "it": "yay-ner"
+    },
+    "translations": {
+      "en": "that (masculine, farther / contrast — more formal)",
+      "ko": "저·그 (남성, 멀리·대비 — 다소 격식)",
+      "ja": "あの／その（男性・遠い／対比・やや硬い）",
+      "zh": "那（阳性，较远／对照 — 偏正式）",
+      "fr": "ce …-là / celui-là (plus loin)",
+      "es": "aquel",
+      "de": "jener (m., ferner)",
+      "ru": "тот (м. р., дальше)",
+      "it": "quello"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_jene",
+    "question_word": "jene",
+    "pronunciations": {
+      "en": "yay-ne",
+      "ko": "예네",
+      "ja": "イェーネ",
+      "zh": "yay-ne",
+      "fr": "yay-ne",
+      "es": "yay-ne",
+      "de": "jene",
+      "ru": "yay-ne",
+      "it": "yay-ne"
+    },
+    "translations": {
+      "en": "that / those (feminine or plural, farther)",
+      "ko": "저·그들 (여성 또는 복수, 멀리)",
+      "ja": "あの／あれら（女性または複数・遠い）",
+      "zh": "那／那些（阴性或复数，较远）",
+      "fr": "celle-là / ceux-là",
+      "es": "aquella / aquellos",
+      "de": "jene (f. / Pl.)",
+      "ru": "та / те",
+      "it": "quella / quelli"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_jenes",
+    "question_word": "jenes",
+    "pronunciations": {
+      "en": "yay-nes",
+      "ko": "예네스",
+      "ja": "イェーネス",
+      "zh": "yay-nes",
+      "fr": "yay-nes",
+      "es": "yay-nes",
+      "de": "jenes",
+      "ru": "yay-nes",
+      "it": "yay-nes"
+    },
+    "translations": {
+      "en": "that (neuter, farther)",
+      "ko": "저것 (중성, 멀리)",
+      "ja": "あれ（中性・遠い）",
+      "zh": "那个（中性，较远）",
+      "fr": "cela / celui-là",
+      "es": "aquello",
+      "de": "jenes (n.)",
+      "ru": "то (ср. р.)",
+      "it": "quello (neutro)"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_das",
+    "question_word": "das",
+    "pronunciations": {
+      "en": "das",
+      "ko": "다스",
+      "ja": "ダス",
+      "zh": "das",
+      "fr": "das",
+      "es": "das",
+      "de": "das",
+      "ru": "das",
+      "it": "das"
+    },
+    "translations": {
+      "en": "this / that / it (neuter demonstrative pronoun — very common)",
+      "ko": "이것·그것 (중성 지시 대명사 — 매우 흔함)",
+      "ja": "これ／それ（中性の指示代名詞・とても多い）",
+      "zh": "这／那／它（中性指示代词，极常用）",
+      "fr": "ça / cela / ce",
+      "es": "esto / eso",
+      "de": "das (Demonstrativpronomen)",
+      "ru": "это",
+      "it": "questo / ciò"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_hier",
+    "question_word": "hier",
+    "pronunciations": {
+      "en": "heer/hier",
+      "ko": "히어",
+      "ja": "ヒア",
+      "zh": "heer/hier",
+      "fr": "heer/hier",
+      "es": "heer/hier",
+      "de": "hier",
+      "ru": "heer/hier",
+      "it": "heer/hier"
+    },
+    "translations": {
+      "en": "here (near me)",
+      "ko": "여기",
+      "ja": "ここ",
+      "zh": "这里",
+      "fr": "ici",
+      "es": "aquí",
+      "de": "hier",
+      "ru": "здесь",
+      "it": "qui"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_da",
+    "question_word": "da",
+    "pronunciations": {
+      "en": "da",
+      "ko": "다",
+      "ja": "ダ",
+      "zh": "da",
+      "fr": "da",
+      "es": "da",
+      "de": "da",
+      "ru": "da",
+      "it": "da"
+    },
+    "translations": {
+      "en": "there / here (pointing; also “then”)",
+      "ko": "거기·저기 (가리키며; “그때” 뜻도)",
+      "ja": "そこ／あそこ（指し示し。「そのとき」の意味も）",
+      "zh": "那里／这儿（指着说；也有“那时”）",
+      "fr": "là",
+      "es": "ahí / allí",
+      "de": "da",
+      "ru": "там / вот",
+      "it": "lì / là"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_dort",
+    "question_word": "dort",
+    "pronunciations": {
+      "en": "dort",
+      "ko": "도르트",
+      "ja": "ドルト",
+      "zh": "dort",
+      "fr": "dort",
+      "es": "dort",
+      "de": "dort",
+      "ru": "dort",
+      "it": "dort"
+    },
+    "translations": {
+      "en": "over there (farther / more definite than da)",
+      "ko": "저기 (da보다 멀거나 또렷함)",
+      "ja": "あそこ（da より遠い／はっきり）",
+      "zh": "那边（比 da 更远／更明确）",
+      "fr": "là-bas",
+      "es": "allí / allá",
+      "de": "dort",
+      "ru": "там (дальше)",
+      "it": "là"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_vorne",
+    "question_word": "vorne",
+    "pronunciations": {
+      "en": "for-ne",
+      "ko": "포르네",
+      "ja": "フォルネ",
+      "zh": "for-ne",
+      "fr": "for-ne",
+      "es": "for-ne",
+      "de": "vorne",
+      "ru": "for-ne",
+      "it": "for-ne"
+    },
+    "translations": {
+      "en": "in front / ahead",
+      "ko": "앞",
+      "ja": "前",
+      "zh": "前面",
+      "fr": "devant",
+      "es": "delante",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_hinten",
+    "question_word": "hinten",
+    "pronunciations": {
+      "en": "hin-ten",
+      "ko": "힌텐",
+      "ja": "ヒンテン",
+      "zh": "hin-ten",
+      "fr": "hin-ten",
+      "es": "hin-ten",
+      "de": "hinten",
+      "ru": "hin-ten",
+      "it": "hin-ten"
+    },
+    "translations": {
+      "en": "behind / at the back",
+      "ko": "뒤",
+      "ja": "後ろ",
+      "zh": "后面",
+      "fr": "derrière",
+      "es": "detrás",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_oben",
+    "question_word": "oben",
+    "pronunciations": {
+      "en": "oh-ben",
+      "ko": "오벤",
+      "ja": "オーベン",
+      "zh": "oh-ben",
+      "fr": "oh-ben",
+      "es": "oh-ben",
+      "de": "oben",
+      "ru": "oh-ben",
+      "it": "oh-ben"
+    },
+    "translations": {
+      "en": "up / above / upstairs",
+      "ko": "위 / 위로",
+      "ja": "上／上へ",
+      "zh": "上面／向上",
+      "fr": "en haut",
+      "es": "arriba",
+      "de": "oben",
+      "ru": "наверху",
+      "it": "sopra"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_unten",
+    "question_word": "unten",
+    "pronunciations": {
+      "en": "oon-ten",
+      "ko": "운텐",
+      "ja": "ウンテン",
+      "zh": "oon-ten",
+      "fr": "oon-ten",
+      "es": "oon-ten",
+      "de": "unten",
+      "ru": "oon-ten",
+      "it": "oon-ten"
+    },
+    "translations": {
+      "en": "down / below / downstairs",
+      "ko": "아래 / 아래로",
+      "ja": "下／下へ",
+      "zh": "下面／向下",
+      "fr": "en bas",
+      "es": "abajo",
+      "de": "unten",
+      "ru": "внизу",
+      "it": "sotto"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_links",
+    "question_word": "links",
+    "pronunciations": {
+      "en": "links",
+      "ko": "링크스",
+      "ja": "リンクス",
+      "zh": "links",
+      "fr": "links",
+      "es": "links",
+      "de": "links",
+      "ru": "links",
+      "it": "links"
+    },
+    "translations": {
+      "en": "on the left / to the left",
+      "ko": "왼쪽 / 왼쪽으로",
+      "ja": "左／左へ",
+      "zh": "左边／向左",
+      "fr": "à gauche",
+      "es": "a la izquierda",
+      "de": "links",
+      "ru": "слева",
+      "it": "a sinistra"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_rechts",
+    "question_word": "rechts",
+    "pronunciations": {
+      "en": "rekhts",
+      "ko": "레흐츠",
+      "ja": "レヒツ",
+      "zh": "rekhts",
+      "fr": "rekhts",
+      "es": "rekhts",
+      "de": "rechts",
+      "ru": "rekhts",
+      "it": "rekhts"
+    },
+    "translations": {
+      "en": "on the right / to the right",
+      "ko": "오른쪽 / 오른쪽으로",
+      "ja": "右／右へ",
+      "zh": "右边／向右",
+      "fr": "à droite",
+      "es": "a la derecha",
+      "de": "rechts",
+      "ru": "справа",
+      "it": "a destra"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_drinnen",
+    "question_word": "drinnen",
+    "pronunciations": {
+      "en": "drin-nen",
+      "ko": "드리넨",
+      "ja": "ドリネン",
+      "zh": "drin-nen",
+      "fr": "drin-nen",
+      "es": "drin-nen",
+      "de": "drinnen",
+      "ru": "drin-nen",
+      "it": "drin-nen"
+    },
+    "translations": {
+      "en": "inside",
+      "ko": "안 / 안에",
+      "ja": "中／中に",
+      "zh": "里面",
+      "fr": "dedans",
+      "es": "dentro",
+      "de": "drinnen",
+      "ru": "внутри",
+      "it": "dentro"
+    }
+  },
+  {
+    "quiz_id": "de_demonstratives_drausen",
+    "question_word": "draußen",
+    "pronunciations": {
+      "en": "drau-sen",
+      "ko": "드라우센",
+      "ja": "ドラウセン",
+      "zh": "drau-sen",
+      "fr": "drau-sen",
+      "es": "drau-sen",
+      "de": "draußen",
+      "ru": "drau-sen",
+      "it": "drau-sen"
+    },
+    "translations": {
+      "en": "outside",
+      "ko": "밖 / 밖에",
+      "ja": "外／外に",
+      "zh": "外面",
+      "fr": "dehors",
+      "es": "fuera",
+      "de": "draußen",
+      "ru": "снаружи",
+      "it": "fuori"
+    }
+  }
+]

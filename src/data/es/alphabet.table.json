@@ -1,0 +1,896 @@
+{
+  "table_id": "es_alphabet_ref",
+  "title": {
+    "en": "Spanish alphabet",
+    "ko": "스페인어 알파벳",
+    "ja": "スペイン語アルファベット",
+    "zh": "西班牙语字母",
+    "fr": "Alphabet espagnol",
+    "es": "Alfabeto español",
+    "de": "Spanisches Alphabet",
+    "ru": "Испанский алфавит",
+    "it": "Spanish alphabet"
+  },
+  "note": {
+    "en": "A–Z plus Ñ. Type the Spanish letter name (slash answers accept either side). Accents mark stress or ü in güe/güi.",
+    "ko": "A–Z와 Ñ. 스페인어 글자 이름을 입력하세요 (/ 는 양쪽 모두 정답). 악센트는 강세·güe/güi의 ü.",
+    "ja": "A–Zと Ñ。スペイン語の文字名を入力（/ はどちらでも可）。アクセントは強勢や güe/güi の ü。",
+    "zh": "A–Z 与 Ñ。输入西班牙语字母名（斜杠两侧均可）。重音标重音或 güe/güi 中的 ü。",
+    "fr": "A–Z et Ñ. Tapez le nom espagnol (/ = les deux). Accents = stress ou ü (güe/güi).",
+    "es": "A–Z y Ñ. Escribe el nombre (/ acepta ambos). Tildes = tilde diacrítica o ü.",
+    "de": "A–Z plus Ñ. Spanischen Namen tippen (/ = beide). Akzente = Betonung oder ü.",
+    "ru": "A–Z и Ñ. Введите испанское имя (/ — любой вариант). Ударения или ü.",
+    "it": "A–Z plus Ñ. Type the Spanish letter name (slash answers accept either side). Accents mark stress or ü in güe/güi."
+  },
+  "columns": [
+    {
+      "key": "char",
+      "labels": {
+        "en": "Letter",
+        "ko": "글자",
+        "ja": "文字",
+        "zh": "字母",
+        "fr": "Lettre",
+        "es": "Letra",
+        "de": "Buchstabe",
+        "ru": "Буква",
+        "it": "Letter"
+      }
+    },
+    {
+      "key": "sound",
+      "labels": {
+        "en": "Sound",
+        "ko": "발음",
+        "ja": "読み",
+        "zh": "发音",
+        "fr": "Son",
+        "es": "Sonido",
+        "de": "Laut",
+        "ru": "Звук",
+        "it": "Sound"
+      }
+    },
+    {
+      "key": "name",
+      "labels": {
+        "en": "Name",
+        "ko": "이름",
+        "ja": "名称",
+        "zh": "名称",
+        "fr": "Nom",
+        "es": "Nombre",
+        "de": "Name",
+        "ru": "Название",
+        "it": "Name"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "char": "A",
+      "sound": {
+        "en": "a",
+        "ko": "아",
+        "ja": "ア",
+        "zh": "a",
+        "fr": "a",
+        "es": "a",
+        "de": "a",
+        "ru": "а",
+        "it": "a"
+      },
+      "name": {
+        "en": "a",
+        "ko": "아",
+        "ja": "ア",
+        "zh": "a",
+        "fr": "a",
+        "es": "a",
+        "de": "a",
+        "ru": "а",
+        "it": "a"
+      }
+    },
+    {
+      "char": "B",
+      "sound": {
+        "en": "be/bé",
+        "ko": "베",
+        "ja": "ベ",
+        "zh": "be",
+        "fr": "bé/be",
+        "es": "be",
+        "de": "be",
+        "ru": "бэ",
+        "it": "be/bé"
+      },
+      "name": {
+        "en": "be",
+        "ko": "베",
+        "ja": "ベー",
+        "zh": "be",
+        "fr": "bé",
+        "es": "be",
+        "de": "be",
+        "ru": "бэ",
+        "it": "be"
+      }
+    },
+    {
+      "char": "C",
+      "sound": {
+        "en": "ce/se/thé",
+        "ko": "세",
+        "ja": "セ",
+        "zh": "ce",
+        "fr": "cé/ce",
+        "es": "ce",
+        "de": "ce/ze",
+        "ru": "сэ",
+        "it": "ce/se/thé"
+      },
+      "name": {
+        "en": "ce",
+        "ko": "세",
+        "ja": "セー",
+        "zh": "ce",
+        "fr": "cé",
+        "es": "ce",
+        "de": "ce",
+        "ru": "сэ",
+        "it": "ce"
+      }
+    },
+    {
+      "char": "D",
+      "sound": {
+        "en": "de/dé",
+        "ko": "데",
+        "ja": "デ",
+        "zh": "de",
+        "fr": "dé/de",
+        "es": "de",
+        "de": "de",
+        "ru": "дэ",
+        "it": "de/dé"
+      },
+      "name": {
+        "en": "de",
+        "ko": "데",
+        "ja": "デー",
+        "zh": "de",
+        "fr": "dé",
+        "es": "de",
+        "de": "de",
+        "ru": "дэ",
+        "it": "de"
+      }
+    },
+    {
+      "char": "E",
+      "sound": {
+        "en": "e",
+        "ko": "에",
+        "ja": "エ",
+        "zh": "e",
+        "fr": "e",
+        "es": "e",
+        "de": "e",
+        "ru": "э",
+        "it": "e"
+      },
+      "name": {
+        "en": "e",
+        "ko": "에",
+        "ja": "エ",
+        "zh": "e",
+        "fr": "e",
+        "es": "e",
+        "de": "e",
+        "ru": "э",
+        "it": "e"
+      }
+    },
+    {
+      "char": "F",
+      "sound": {
+        "en": "efe/ef/f",
+        "ko": "에페",
+        "ja": "エフェ",
+        "zh": "efe",
+        "fr": "efe/effe",
+        "es": "efe",
+        "de": "efe/eff",
+        "ru": "эфе",
+        "it": "efe/ef/f"
+      },
+      "name": {
+        "en": "efe",
+        "ko": "에페",
+        "ja": "エフェ",
+        "zh": "efe",
+        "fr": "efe",
+        "es": "efe",
+        "de": "efe",
+        "ru": "эфе",
+        "it": "efe"
+      }
+    },
+    {
+      "char": "G",
+      "sound": {
+        "en": "ge/he/hé",
+        "ko": "헤",
+        "ja": "ヘ",
+        "zh": "ge/he",
+        "fr": "gé/jé",
+        "es": "ge",
+        "de": "che/ge",
+        "ru": "хе",
+        "it": "ge/he/hé"
+      },
+      "name": {
+        "en": "ge",
+        "ko": "헤",
+        "ja": "ヘー",
+        "zh": "ge",
+        "fr": "gé",
+        "es": "ge",
+        "de": "ge",
+        "ru": "хе",
+        "it": "ge"
+      }
+    },
+    {
+      "char": "H",
+      "sound": {
+        "en": "hache/ache/h",
+        "ko": "아체",
+        "ja": "アチェ",
+        "zh": "hache",
+        "fr": "hache",
+        "es": "hache",
+        "de": "hatrsche/hache",
+        "ru": "аче",
+        "it": "hache/ache/h"
+      },
+      "name": {
+        "en": "hache",
+        "ko": "아체",
+        "ja": "アチェ",
+        "zh": "hache",
+        "fr": "hache",
+        "es": "hache",
+        "de": "hache",
+        "ru": "аче",
+        "it": "hache"
+      }
+    },
+    {
+      "char": "I",
+      "sound": {
+        "en": "i",
+        "ko": "이",
+        "ja": "イ",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ru": "и",
+        "it": "i"
+      },
+      "name": {
+        "en": "i",
+        "ko": "이",
+        "ja": "イ",
+        "zh": "i",
+        "fr": "i",
+        "es": "i",
+        "de": "i",
+        "ru": "и",
+        "it": "i"
+      }
+    },
+    {
+      "char": "J",
+      "sound": {
+        "en": "jota/hota",
+        "ko": "호타",
+        "ja": "ホタ",
+        "zh": "jota",
+        "fr": "jota",
+        "es": "jota",
+        "de": "chota/jota",
+        "ru": "хота",
+        "it": "jota/hota"
+      },
+      "name": {
+        "en": "jota",
+        "ko": "호타",
+        "ja": "ホタ",
+        "zh": "jota",
+        "fr": "jota",
+        "es": "jota",
+        "de": "jota",
+        "ru": "хота",
+        "it": "jota"
+      }
+    },
+    {
+      "char": "K",
+      "sound": {
+        "en": "ka",
+        "ko": "카",
+        "ja": "カ",
+        "zh": "ka",
+        "fr": "ka",
+        "es": "ka",
+        "de": "ka",
+        "ru": "ка",
+        "it": "ka"
+      },
+      "name": {
+        "en": "ka",
+        "ko": "카",
+        "ja": "カ",
+        "zh": "ka",
+        "fr": "ka",
+        "es": "ka",
+        "de": "ka",
+        "ru": "ка",
+        "it": "ka"
+      }
+    },
+    {
+      "char": "L",
+      "sound": {
+        "en": "ele/el/l",
+        "ko": "엘레",
+        "ja": "エレ",
+        "zh": "ele",
+        "fr": "élé/elle",
+        "es": "ele",
+        "de": "ele/ell",
+        "ru": "эле",
+        "it": "ele/el/l"
+      },
+      "name": {
+        "en": "ele",
+        "ko": "엘레",
+        "ja": "エレ",
+        "zh": "ele",
+        "fr": "élé",
+        "es": "ele",
+        "de": "ele",
+        "ru": "эле",
+        "it": "ele"
+      }
+    },
+    {
+      "char": "M",
+      "sound": {
+        "en": "eme/em/m",
+        "ko": "에메",
+        "ja": "エメ",
+        "zh": "eme",
+        "fr": "émé/emme",
+        "es": "eme",
+        "de": "eme/emm",
+        "ru": "эме",
+        "it": "eme/em/m"
+      },
+      "name": {
+        "en": "eme",
+        "ko": "에메",
+        "ja": "エメ",
+        "zh": "eme",
+        "fr": "émé",
+        "es": "eme",
+        "de": "eme",
+        "ru": "эме",
+        "it": "eme"
+      }
+    },
+    {
+      "char": "N",
+      "sound": {
+        "en": "ene/en/n",
+        "ko": "에네",
+        "ja": "エネ",
+        "zh": "ene",
+        "fr": "éné/enne",
+        "es": "ene",
+        "de": "ene/enn",
+        "ru": "эне",
+        "it": "ene/en/n"
+      },
+      "name": {
+        "en": "ene",
+        "ko": "에네",
+        "ja": "エネ",
+        "zh": "ene",
+        "fr": "éné",
+        "es": "ene",
+        "de": "ene",
+        "ru": "эне",
+        "it": "ene"
+      }
+    },
+    {
+      "char": "Ñ",
+      "sound": {
+        "en": "eñe/enye/nye",
+        "ko": "에녜",
+        "ja": "エニェ",
+        "zh": "eñe",
+        "fr": "eñe",
+        "es": "eñe",
+        "de": "enje/eñe",
+        "ru": "энье",
+        "it": "eñe/enye/nye"
+      },
+      "name": {
+        "en": "eñe",
+        "ko": "에녜",
+        "ja": "エニェ",
+        "zh": "eñe",
+        "fr": "eñe",
+        "es": "eñe",
+        "de": "eñe",
+        "ru": "энье",
+        "it": "eñe"
+      }
+    },
+    {
+      "char": "O",
+      "sound": {
+        "en": "o",
+        "ko": "오",
+        "ja": "オ",
+        "zh": "o",
+        "fr": "o",
+        "es": "o",
+        "de": "o",
+        "ru": "о",
+        "it": "o"
+      },
+      "name": {
+        "en": "o",
+        "ko": "오",
+        "ja": "オ",
+        "zh": "o",
+        "fr": "o",
+        "es": "o",
+        "de": "o",
+        "ru": "о",
+        "it": "o"
+      }
+    },
+    {
+      "char": "P",
+      "sound": {
+        "en": "pe/pé",
+        "ko": "페",
+        "ja": "ペ",
+        "zh": "pe",
+        "fr": "pé/pe",
+        "es": "pe",
+        "de": "pe",
+        "ru": "пэ",
+        "it": "pe/pé"
+      },
+      "name": {
+        "en": "pe",
+        "ko": "페",
+        "ja": "ペー",
+        "zh": "pe",
+        "fr": "pé",
+        "es": "pe",
+        "de": "pe",
+        "ru": "пэ",
+        "it": "pe"
+      }
+    },
+    {
+      "char": "Q",
+      "sound": {
+        "en": "cu/ku/q",
+        "ko": "쿠",
+        "ja": "ク",
+        "zh": "cu",
+        "fr": "cu/ku",
+        "es": "cu",
+        "de": "ku/cu",
+        "ru": "ку",
+        "it": "cu/ku/q"
+      },
+      "name": {
+        "en": "cu",
+        "ko": "쿠",
+        "ja": "クー",
+        "zh": "cu",
+        "fr": "cu",
+        "es": "cu",
+        "de": "ku",
+        "ru": "ку",
+        "it": "cu"
+      }
+    },
+    {
+      "char": "R",
+      "sound": {
+        "en": "erre/ere/r",
+        "ko": "에레",
+        "ja": "エレ",
+        "zh": "erre",
+        "fr": "erre",
+        "es": "erre",
+        "de": "erre/ärr",
+        "ru": "эрре",
+        "it": "erre/ere/r"
+      },
+      "name": {
+        "en": "erre",
+        "ko": "에레",
+        "ja": "エレ",
+        "zh": "erre",
+        "fr": "erre",
+        "es": "erre",
+        "de": "erre",
+        "ru": "эрре",
+        "it": "erre"
+      }
+    },
+    {
+      "char": "S",
+      "sound": {
+        "en": "ese/es/s",
+        "ko": "에세",
+        "ja": "エセ",
+        "zh": "ese",
+        "fr": "ese/esse",
+        "es": "ese",
+        "de": "ese/ess",
+        "ru": "эсе",
+        "it": "ese/es/s"
+      },
+      "name": {
+        "en": "ese",
+        "ko": "에세",
+        "ja": "エセ",
+        "zh": "ese",
+        "fr": "ese",
+        "es": "ese",
+        "de": "ese",
+        "ru": "эсе",
+        "it": "ese"
+      }
+    },
+    {
+      "char": "T",
+      "sound": {
+        "en": "te/té",
+        "ko": "테",
+        "ja": "テ",
+        "zh": "te",
+        "fr": "té/te",
+        "es": "te",
+        "de": "te",
+        "ru": "тэ",
+        "it": "te/té"
+      },
+      "name": {
+        "en": "te",
+        "ko": "테",
+        "ja": "テー",
+        "zh": "te",
+        "fr": "té",
+        "es": "te",
+        "de": "te",
+        "ru": "тэ",
+        "it": "te"
+      }
+    },
+    {
+      "char": "U",
+      "sound": {
+        "en": "u",
+        "ko": "우",
+        "ja": "ウ",
+        "zh": "u",
+        "fr": "u",
+        "es": "u",
+        "de": "u",
+        "ru": "у",
+        "it": "u"
+      },
+      "name": {
+        "en": "u",
+        "ko": "우",
+        "ja": "ウ",
+        "zh": "u",
+        "fr": "u",
+        "es": "u",
+        "de": "u",
+        "ru": "у",
+        "it": "u"
+      }
+    },
+    {
+      "char": "V",
+      "sound": {
+        "en": "uve/ve/bé",
+        "ko": "우베/베",
+        "ja": "ウベ/ベ",
+        "zh": "uve/ve",
+        "fr": "uvé/vé",
+        "es": "uve",
+        "de": "uve/we",
+        "ru": "уве",
+        "it": "uve/ve/bé"
+      },
+      "name": {
+        "en": "uve",
+        "ko": "우베",
+        "ja": "ウベ",
+        "zh": "uve",
+        "fr": "uvé",
+        "es": "uve",
+        "de": "uve",
+        "ru": "уве",
+        "it": "uve"
+      }
+    },
+    {
+      "char": "W",
+      "sound": {
+        "en": "uve doble/doble uve/doble ve/w",
+        "ko": "우베 도블레",
+        "ja": "ウベ・ドブレ",
+        "zh": "uve doble/w",
+        "fr": "double vé/uvé doble",
+        "es": "uve doble",
+        "de": "Doppel-uve/w",
+        "ru": "уве добле",
+        "it": "uve doble/doble uve/doble ve/w"
+      },
+      "name": {
+        "en": "uve doble",
+        "ko": "우베 도블레",
+        "ja": "ウベ・ドブレ",
+        "zh": "uve doble",
+        "fr": "uvé doble",
+        "es": "uve doble",
+        "de": "Doppel-uve",
+        "ru": "уве добле",
+        "it": "uve doble"
+      }
+    },
+    {
+      "char": "X",
+      "sound": {
+        "en": "equis/eks/x",
+        "ko": "에키스",
+        "ja": "エキス",
+        "zh": "equis",
+        "fr": "équise/iks",
+        "es": "equis",
+        "de": "equis/iks",
+        "ru": "экис",
+        "it": "equis/eks/x"
+      },
+      "name": {
+        "en": "equis",
+        "ko": "에키스",
+        "ja": "エキス",
+        "zh": "equis",
+        "fr": "équise",
+        "es": "equis",
+        "de": "equis",
+        "ru": "экис",
+        "it": "equis"
+      }
+    },
+    {
+      "char": "Y",
+      "sound": {
+        "en": "ye/i griega/y",
+        "ko": "예/이 그리에가",
+        "ja": "イェ/イ・グリエガ",
+        "zh": "ye/i griega",
+        "fr": "ye/i grec",
+        "es": "ye",
+        "de": "ye/i griega",
+        "ru": "йе / и гриега",
+        "it": "ye/i griega/y"
+      },
+      "name": {
+        "en": "ye",
+        "ko": "예",
+        "ja": "イェ",
+        "zh": "ye",
+        "fr": "ye",
+        "es": "ye",
+        "de": "ye",
+        "ru": "йе",
+        "it": "ye"
+      }
+    },
+    {
+      "char": "Z",
+      "sound": {
+        "en": "zeta/zeda/z",
+        "ko": "세타",
+        "ja": "セタ",
+        "zh": "zeta",
+        "fr": "zéta/zède",
+        "es": "zeta",
+        "de": "zeta/zett",
+        "ru": "сета",
+        "it": "zeta/zeda/z"
+      },
+      "name": {
+        "en": "zeta",
+        "ko": "세타",
+        "ja": "セタ",
+        "zh": "zeta",
+        "fr": "zéta",
+        "es": "zeta",
+        "de": "zeta",
+        "ru": "сета",
+        "it": "zeta"
+      }
+    },
+    {
+      "char": "Á",
+      "sound": {
+        "en": "á/a aguda/a",
+        "ko": "아(악센트)/아",
+        "ja": "ア（アクセント）/ア",
+        "zh": "á/a",
+        "fr": "á/a aigu",
+        "es": "á/a con tilde",
+        "de": "á/a akut/a",
+        "ru": "а с ударением/а",
+        "it": "á/a aguda/a"
+      },
+      "name": {
+        "en": "a aguda",
+        "ko": "아 악센트",
+        "ja": "ア・アクセント",
+        "zh": "a aguda",
+        "fr": "a aigu",
+        "es": "a con tilde",
+        "de": "a akut",
+        "ru": "а с ударением",
+        "it": "a aguda"
+      }
+    },
+    {
+      "char": "É",
+      "sound": {
+        "en": "é/e aguda/e",
+        "ko": "에(악센트)/에",
+        "ja": "エ（アクセント）/エ",
+        "zh": "é/e",
+        "fr": "é/e aigu",
+        "es": "é/e con tilde",
+        "de": "é/e akut/e",
+        "ru": "э с ударением/э",
+        "it": "é/e aguda/e"
+      },
+      "name": {
+        "en": "e aguda",
+        "ko": "에 악센트",
+        "ja": "エ・アクセント",
+        "zh": "e aguda",
+        "fr": "e aigu",
+        "es": "e con tilde",
+        "de": "e akut",
+        "ru": "э с ударением",
+        "it": "e aguda"
+      }
+    },
+    {
+      "char": "Í",
+      "sound": {
+        "en": "í/i aguda/i",
+        "ko": "이(악센트)/이",
+        "ja": "イ（アクセント）/イ",
+        "zh": "í/i",
+        "fr": "í/i aigu",
+        "es": "í/i con tilde",
+        "de": "í/i akut/i",
+        "ru": "и с ударением/и",
+        "it": "í/i aguda/i"
+      },
+      "name": {
+        "en": "i aguda",
+        "ko": "이 악센트",
+        "ja": "イ・アクセント",
+        "zh": "i aguda",
+        "fr": "i aigu",
+        "es": "i con tilde",
+        "de": "i akut",
+        "ru": "и с ударением",
+        "it": "i aguda"
+      }
+    },
+    {
+      "char": "Ó",
+      "sound": {
+        "en": "ó/o aguda/o",
+        "ko": "오(악센트)/오",
+        "ja": "オ（アクセント）/オ",
+        "zh": "ó/o",
+        "fr": "ó/o aigu",
+        "es": "ó/o con tilde",
+        "de": "ó/o akut/o",
+        "ru": "о с ударением/о",
+        "it": "ó/o aguda/o"
+      },
+      "name": {
+        "en": "o aguda",
+        "ko": "오 악센트",
+        "ja": "オ・アクセント",
+        "zh": "o aguda",
+        "fr": "o aigu",
+        "es": "o con tilde",
+        "de": "o akut",
+        "ru": "о с ударением",
+        "it": "o aguda"
+      }
+    },
+    {
+      "char": "Ú",
+      "sound": {
+        "en": "ú/u aguda/u",
+        "ko": "우(악센트)/우",
+        "ja": "ウ（アクセント）/ウ",
+        "zh": "ú/u",
+        "fr": "ú/u aigu",
+        "es": "ú/u con tilde",
+        "de": "ú/u akut/u",
+        "ru": "у с ударением/у",
+        "it": "ú/u aguda/u"
+      },
+      "name": {
+        "en": "u aguda",
+        "ko": "우 악센트",
+        "ja": "ウ・アクセント",
+        "zh": "u aguda",
+        "fr": "u aigu",
+        "es": "u con tilde",
+        "de": "u akut",
+        "ru": "у с ударением",
+        "it": "u aguda"
+      }
+    },
+    {
+      "char": "Ü",
+      "sound": {
+        "en": "ü/u diéresis/u",
+        "ko": "우(디에레시스)/우",
+        "ja": "ウ（ディエレシス）/ウ",
+        "zh": "ü/u",
+        "fr": "ü/u tréma",
+        "es": "ü/u con diéresis",
+        "de": "ü/u Trema",
+        "ru": "у с диерезисом/у",
+        "it": "ü/u diéresis/u"
+      },
+      "name": {
+        "en": "u diéresis",
+        "ko": "우 디에레시스",
+        "ja": "ウ・ディエレシス",
+        "zh": "u diéresis",
+        "fr": "u tréma",
+        "es": "u con diéresis",
+        "de": "u Trema",
+        "ru": "у с диерезисом",
+        "it": "u diéresis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "quiz_id": "it_months_jan",
+    "question_word": "gennaio",
+    "pronunciations": {
+      "en": "jen-na-yo",
+      "ko": "젠나요",
+      "ja": "ジェンナーヨ",
+      "zh": "jen-na-yo",
+      "fr": "jen-na-yo",
+      "es": "jen-na-yo",
+      "de": "jen-na-yo",
+      "ru": "jen-na-yo",
+      "it": "gennaio"
+    },
+    "translations": {
+      "en": "January",
+      "ko": "1월",
+      "ja": "一月",
+      "zh": "一月",
+      "fr": "janvier",
+      "es": "enero",
+      "de": "Januar",
+      "ru": "январь",
+      "it": "gennaio"
+    }
+  },
+  {
+    "quiz_id": "it_months_feb",
+    "question_word": "febbraio",
+    "pronunciations": {
+      "en": "feb-bra-yo",
+      "ko": "페브래요",
+      "ja": "フェッブラーヨ",
+      "zh": "feb-bra-yo",
+      "fr": "feb-bra-yo",
+      "es": "feb-bra-yo",
+      "de": "feb-bra-yo",
+      "ru": "feb-bra-yo",
+      "it": "febbraio"
+    },
+    "translations": {
+      "en": "February",
+      "ko": "2월",
+      "ja": "二月",
+      "zh": "二月",
+      "fr": "février",
+      "es": "febrero",
+      "de": "Februar",
+      "ru": "февраль",
+      "it": "febbraio"
+    }
+  },
+  {
+    "quiz_id": "it_months_mar",
+    "question_word": "marzo",
+    "pronunciations": {
+      "en": "mar-tso",
+      "ko": "마르초",
+      "ja": "マルツォ",
+      "zh": "mar-tso",
+      "fr": "mar-tso",
+      "es": "mar-tso",
+      "de": "mar-tso",
+      "ru": "mar-tso",
+      "it": "marzo"
+    },
+    "translations": {
+      "en": "March",
+      "ko": "3월",
+      "ja": "三月",
+      "zh": "三月",
+      "fr": "mars",
+      "es": "marzo",
+      "de": "März",
+      "ru": "март",
+      "it": "marzo"
+    }
+  },
+  {
+    "quiz_id": "it_months_apr",
+    "question_word": "aprile",
+    "pronunciations": {
+      "en": "a-pree-le",
+      "ko": "아프릴레",
+      "ja": "アプリーレ",
+      "zh": "a-pree-le",
+      "fr": "a-pree-le",
+      "es": "a-pree-le",
+      "de": "a-pree-le",
+      "ru": "a-pree-le",
+      "it": "aprile"
+    },
+    "translations": {
+      "en": "April",
+      "ko": "4월",
+      "ja": "四月",
+      "zh": "四月",
+      "fr": "avril",
+      "es": "abril",
+      "de": "April",
+      "ru": "апрель",
+      "it": "aprile"
+    }
+  },
+  {
+    "quiz_id": "it_months_may",
+    "question_word": "maggio",
+    "pronunciations": {
+      "en": "maj-jo",
+      "ko": "마조",
+      "ja": "マッジョ",
+      "zh": "maj-jo",
+      "fr": "maj-jo",
+      "es": "maj-jo",
+      "de": "maj-jo",
+      "ru": "maj-jo",
+      "it": "maggio"
+    },
+    "translations": {
+      "en": "May",
+      "ko": "5월",
+      "ja": "五月",
+      "zh": "五月",
+      "fr": "mai",
+      "es": "mayo",
+      "de": "Mai",
+      "ru": "май",
+      "it": "maggio"
+    }
+  },
+  {
+    "quiz_id": "it_months_jun",
+    "question_word": "giugno",
+    "pronunciations": {
+      "en": "joo-nyo",
+      "ko": "주뇨",
+      "ja": "ジュニョ",
+      "zh": "joo-nyo",
+      "fr": "joo-nyo",
+      "es": "joo-nyo",
+      "de": "joo-nyo",
+      "ru": "joo-nyo",
+      "it": "giugno"
+    },
+    "translations": {
+      "en": "June",
+      "ko": "6월",
+      "ja": "六月",
+      "zh": "六月",
+      "fr": "juin",
+      "es": "junio",
+      "de": "Juni",
+      "ru": "июнь",
+      "it": "giugno"
+    }
+  },
+  {
+    "quiz_id": "it_months_jul",
+    "question_word": "luglio",
+    "pronunciations": {
+      "en": "loo-lyo",
+      "ko": "룰료",
+      "ja": "ルッリオ",
+      "zh": "loo-lyo",
+      "fr": "loo-lyo",
+      "es": "loo-lyo",
+      "de": "loo-lyo",
+      "ru": "loo-lyo",
+      "it": "luglio"
+    },
+    "translations": {
+      "en": "July",
+      "ko": "7월",
+      "ja": "七月",
+      "zh": "七月",
+      "fr": "juillet",
+      "es": "julio",
+      "de": "Juli",
+      "ru": "июль",
+      "it": "luglio"
+    }
+  },
+  {
+    "quiz_id": "it_months_aug",
+    "question_word": "agosto",
+    "pronunciations": {
+      "en": "a-gos-to",
+      "ko": "아고스토",
+      "ja": "アゴスト",
+      "zh": "a-gos-to",
+      "fr": "a-gos-to",
+      "es": "a-gos-to",
+      "de": "a-gos-to",
+      "ru": "a-gos-to",
+      "it": "agosto"
+    },
+    "translations": {
+      "en": "August",
+      "ko": "8월",
+      "ja": "八月",
+      "zh": "八月",
+      "fr": "août",
+      "es": "agosto",
+      "de": "August",
+      "ru": "август",
+      "it": "agosto"
+    }
+  },
+  {
+    "quiz_id": "it_months_sep",
+    "question_word": "settembre",
+    "pronunciations": {
+      "en": "set-tem-bre",
+      "ko": "세템브레",
+      "ja": "セッテンブレ",
+      "zh": "set-tem-bre",
+      "fr": "set-tem-bre",
+      "es": "set-tem-bre",
+      "de": "set-tem-bre",
+      "ru": "set-tem-bre",
+      "it": "settembre"
+    },
+    "translations": {
+      "en": "September",
+      "ko": "9월",
+      "ja": "九月",
+      "zh": "九月",
+      "fr": "septembre",
+      "es": "septiembre",
+      "de": "September",
+      "ru": "сентябрь",
+      "it": "settembre"
+    }
+  },
+  {
+    "quiz_id": "it_months_oct",
+    "question_word": "ottobre",
+    "pronunciations": {
+      "en": "ot-to-bre",
+      "ko": "오토브레",
+      "ja": "オットーブレ",
+      "zh": "ot-to-bre",
+      "fr": "ot-to-bre",
+      "es": "ot-to-bre",
+      "de": "ot-to-bre",
+      "ru": "ot-to-bre",
+      "it": "ottobre"
+    },
+    "translations": {
+      "en": "October",
+      "ko": "10월",
+      "ja": "十月",
+      "zh": "十月",
+      "fr": "octobre",
+      "es": "octubre",
+      "de": "Oktober",
+      "ru": "октябрь",
+      "it": "ottobre"
+    }
+  },
+  {
+    "quiz_id": "it_months_nov",
+    "question_word": "novembre",
+    "pronunciations": {
+      "en": "no-vem-bre",
+      "ko": "노벰브레",
+      "ja": "ノヴェンブレ",
+      "zh": "no-vem-bre",
+      "fr": "no-vem-bre",
+      "es": "no-vem-bre",
+      "de": "no-vem-bre",
+      "ru": "no-vem-bre",
+      "it": "novembre"
+    },
+    "translations": {
+      "en": "November",
+      "ko": "11월",
+      "ja": "十一月",
+      "zh": "十一月",
+      "fr": "novembre",
+      "es": "noviembre",
+      "de": "November",
+      "ru": "ноябрь",
+      "it": "novembre"
+    }
+  },
+  {
+    "quiz_id": "it_months_dec",
+    "question_word": "dicembre",
+    "pronunciations": {
+      "en": "dee-chem-bre",
+      "ko": "디쳄브레",
+      "ja": "ディチェンブレ",
+      "zh": "dee-chem-bre",
+      "fr": "dee-chem-bre",
+      "es": "dee-chem-bre",
+      "de": "dee-chem-bre",
+      "ru": "dee-chem-bre",
+      "it": "dicembre"
+    },
+    "translations": {
+      "en": "December",
+      "ko": "12월",
+      "ja": "十二月",
+      "zh": "十二月",
+      "fr": "décembre",
+      "es": "diciembre",
+      "de": "Dezember",
+      "ru": "декабрь",
+      "it": "dicembre"
+    }
+  },
+  {
+    "quiz_id": "it_months_spring",
+    "question_word": "primavera",
+    "pronunciations": {
+      "en": "pree-ma-ve-ra",
+      "ko": "프리마베라",
+      "ja": "プリマヴェラ",
+      "zh": "pree-ma-ve-ra",
+      "fr": "pree-ma-ve-ra",
+      "es": "pree-ma-ve-ra",
+      "de": "pree-ma-ve-ra",
+      "ru": "pree-ma-ve-ra",
+      "it": "primavera"
+    },
+    "translations": {
+      "en": "spring",
+      "ko": "봄",
+      "ja": "春",
+      "zh": "春天",
+      "fr": "printemps",
+      "es": "primavera",
+      "de": "Frühling",
+      "ru": "весна",
+      "it": "primavera"
+    }
+  },
+  {
+    "quiz_id": "it_months_summer",
+    "question_word": "estate",
+    "pronunciations": {
+      "en": "e-sta-te",
+      "ko": "에스타테",
+      "ja": "エスターテ",
+      "zh": "e-sta-te",
+      "fr": "e-sta-te",
+      "es": "e-sta-te",
+      "de": "e-sta-te",
+      "ru": "e-sta-te",
+      "it": "estate"
+    },
+    "translations": {
+      "en": "summer",
+      "ko": "여름",
+      "ja": "夏",
+      "zh": "夏天",
+      "fr": "été",
+      "es": "verano",
+      "de": "Sommer",
+      "ru": "лето",
+      "it": "estate"
+    }
+  },
+  {
+    "quiz_id": "it_months_autumn",
+    "question_word": "autunno",
+    "pronunciations": {
+      "en": "aw-toon-no",
+      "ko": "아우툰노",
+      "ja": "アウトゥンノ",
+      "zh": "aw-toon-no",
+      "fr": "aw-toon-no",
+      "es": "aw-toon-no",
+      "de": "aw-toon-no",
+      "ru": "aw-toon-no",
+      "it": "autunno"
+    },
+    "translations": {
+      "en": "autumn / fall",
+      "ko": "가을",
+      "ja": "秋",
+      "zh": "秋天",
+      "fr": "automne",
+      "es": "otoño",
+      "de": "Herbst",
+      "ru": "осень",
+      "it": "autunno"
+    }
+  },
+  {
+    "quiz_id": "it_months_winter",
+    "question_word": "inverno",
+    "pronunciations": {
+      "en": "een-ver-no",
+      "ko": "인베르노",
+      "ja": "インヴェルノ",
+      "zh": "een-ver-no",
+      "fr": "een-ver-no",
+      "es": "een-ver-no",
+      "de": "een-ver-no",
+      "ru": "een-ver-no",
+      "it": "inverno"
+    },
+    "translations": {
+      "en": "winter",
+      "ko": "겨울",
+      "ja": "冬",
+      "zh": "冬天",
+      "fr": "hiver",
+      "es": "invierno",
+      "de": "Winter",
+      "ru": "зима",
+      "it": "inverno"
+    }
+  }
+]

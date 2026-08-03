@@ -1,7 +1,7 @@
 import type { CategoryId } from '../config/categories'
 import type { TargetLangCode } from '../types/language'
 import type { MeaningQuizEntry } from '../types/vocab'
-import type { RefTable } from '../types/table'
+import type { RefTable, LocalizedText } from '../types/table'
 
 import koAlphabet from './ko/alphabet.json'
 import koPronouns from './ko/pronouns.json'
@@ -66,6 +66,76 @@ import ruDatesTable from './ru/dates.table.json'
 import ruQuestionsTable from './ru/questions.table.json'
 import ruDemonstrativesTable from './ru/demonstratives.table.json'
 
+import frAlphabet from './fr/alphabet.json'
+import frPronouns from './fr/pronouns.json'
+import frNumbers from './fr/numbers.json'
+import frTime from './fr/time.json'
+import frWeekdays from './fr/weekdays.json'
+import frMonths from './fr/months.json'
+import frQuestions from './fr/questions.json'
+import frDemonstratives from './fr/demonstratives.json'
+import frAlphabetTable from './fr/alphabet.table.json'
+import frPronounsTable from './fr/pronouns.table.json'
+import frNumbersTable from './fr/numbers.table.json'
+import frTimeTable from './fr/time.table.json'
+import frWeekdaysTable from './fr/weekdays.table.json'
+import frMonthsTable from './fr/months.table.json'
+import frQuestionsTable from './fr/questions.table.json'
+import frDemonstrativesTable from './fr/demonstratives.table.json'
+
+import esAlphabet from './es/alphabet.json'
+import esPronouns from './es/pronouns.json'
+import esNumbers from './es/numbers.json'
+import esTime from './es/time.json'
+import esWeekdays from './es/weekdays.json'
+import esMonths from './es/months.json'
+import esQuestions from './es/questions.json'
+import esDemonstratives from './es/demonstratives.json'
+import esAlphabetTable from './es/alphabet.table.json'
+import esPronounsTable from './es/pronouns.table.json'
+import esNumbersTable from './es/numbers.table.json'
+import esTimeTable from './es/time.table.json'
+import esWeekdaysTable from './es/weekdays.table.json'
+import esMonthsTable from './es/months.table.json'
+import esQuestionsTable from './es/questions.table.json'
+import esDemonstrativesTable from './es/demonstratives.table.json'
+
+import itAlphabet from './it/alphabet.json'
+import itPronouns from './it/pronouns.json'
+import itNumbers from './it/numbers.json'
+import itTime from './it/time.json'
+import itWeekdays from './it/weekdays.json'
+import itMonths from './it/months.json'
+import itQuestions from './it/questions.json'
+import itDemonstratives from './it/demonstratives.json'
+import itAlphabetTable from './it/alphabet.table.json'
+import itPronounsTable from './it/pronouns.table.json'
+import itNumbersTable from './it/numbers.table.json'
+import itTimeTable from './it/time.table.json'
+import itWeekdaysTable from './it/weekdays.table.json'
+import itMonthsTable from './it/months.table.json'
+import itQuestionsTable from './it/questions.table.json'
+import itDemonstrativesTable from './it/demonstratives.table.json'
+
+import deAlphabet from './de/alphabet.json'
+import dePronouns from './de/pronouns.json'
+import deNumbers from './de/numbers.json'
+import deTime from './de/time.json'
+import deWeekdays from './de/weekdays.json'
+import deMonths from './de/months.json'
+import deDates from './de/dates.json'
+import deQuestions from './de/questions.json'
+import deDemonstratives from './de/demonstratives.json'
+import deAlphabetTable from './de/alphabet.table.json'
+import dePronounsTable from './de/pronouns.table.json'
+import deNumbersTable from './de/numbers.table.json'
+import deTimeTable from './de/time.table.json'
+import deWeekdaysTable from './de/weekdays.table.json'
+import deMonthsTable from './de/months.table.json'
+import deDatesTable from './de/dates.table.json'
+import deQuestionsTable from './de/questions.table.json'
+import deDemonstrativesTable from './de/demonstratives.table.json'
+
 type CategoryBundles = Partial<Record<CategoryId, MeaningQuizEntry[]>>
 type TableBundles = Partial<Record<CategoryId, RefTable>>
 
@@ -73,6 +143,25 @@ const MERGED_TIME_IDS: CategoryId[] = ['time', 'weekdays', 'months']
 
 function mergeEntries(...groups: MeaningQuizEntry[][]): MeaningQuizEntry[] {
   return groups.flat()
+}
+
+function mergeTableRows(table: RefTable): Array<Record<string, LocalizedText>> {
+  if (table.sections && table.sections.length > 0) {
+    return table.sections.flatMap((section) => section.rows)
+  }
+  return table.rows ?? []
+}
+
+function sectionAsTable(table: RefTable, sectionIndex: number): RefTable | null {
+  const section = table.sections?.[sectionIndex]
+  if (!section) return null
+  return {
+    table_id: `${table.table_id}_s${sectionIndex}`,
+    title: section.title ?? table.title,
+    note: section.note,
+    columns: section.columns,
+    rows: section.rows,
+  }
 }
 
 function mergeTables(
@@ -137,11 +226,11 @@ function mergeTables(
       },
     ],
     rows: tables.flatMap(({ section, table }) =>
-      (table.rows ?? []).map((row) => ({
+      mergeTableRows(table).map((row) => ({
         section,
-        form: row.form,
-        meaning: row.meaning,
-        sound: row.sound,
+        form: row.form ?? '',
+        meaning: row.meaning ?? '',
+        sound: row.sound ?? '',
       })),
     ),
   }
@@ -185,6 +274,47 @@ const DATASET: Partial<Record<TargetLangCode, CategoryBundles>> = {
     dates: ruDates as MeaningQuizEntry[],
     questions: ruQuestions as MeaningQuizEntry[],
     demonstratives: ruDemonstratives as MeaningQuizEntry[],
+  },
+  fr: {
+    alphabet: frAlphabet as MeaningQuizEntry[],
+    pronouns: frPronouns as MeaningQuizEntry[],
+    numbers: frNumbers as MeaningQuizEntry[],
+    time: frTime as MeaningQuizEntry[],
+    weekdays: frWeekdays as MeaningQuizEntry[],
+    months: frMonths as MeaningQuizEntry[],
+    questions: frQuestions as MeaningQuizEntry[],
+    demonstratives: frDemonstratives as MeaningQuizEntry[],
+  },
+  es: {
+    alphabet: esAlphabet as MeaningQuizEntry[],
+    pronouns: esPronouns as MeaningQuizEntry[],
+    numbers: esNumbers as MeaningQuizEntry[],
+    time: esTime as MeaningQuizEntry[],
+    weekdays: esWeekdays as MeaningQuizEntry[],
+    months: esMonths as MeaningQuizEntry[],
+    questions: esQuestions as MeaningQuizEntry[],
+    demonstratives: esDemonstratives as MeaningQuizEntry[],
+  },
+  it: {
+    alphabet: itAlphabet as MeaningQuizEntry[],
+    pronouns: itPronouns as MeaningQuizEntry[],
+    numbers: itNumbers as MeaningQuizEntry[],
+    time: itTime as MeaningQuizEntry[],
+    weekdays: itWeekdays as MeaningQuizEntry[],
+    months: itMonths as MeaningQuizEntry[],
+    questions: itQuestions as MeaningQuizEntry[],
+    demonstratives: itDemonstratives as MeaningQuizEntry[],
+  },
+  de: {
+    alphabet: deAlphabet as MeaningQuizEntry[],
+    pronouns: dePronouns as MeaningQuizEntry[],
+    numbers: deNumbers as MeaningQuizEntry[],
+    time: deTime as MeaningQuizEntry[],
+    weekdays: deWeekdays as MeaningQuizEntry[],
+    months: deMonths as MeaningQuizEntry[],
+    dates: deDates as MeaningQuizEntry[],
+    questions: deQuestions as MeaningQuizEntry[],
+    demonstratives: deDemonstratives as MeaningQuizEntry[],
   },
 }
 
@@ -261,6 +391,47 @@ const TABLES: Partial<Record<TargetLangCode, TableBundles>> = {
     questions: ruQuestionsTable as RefTable,
     demonstratives: ruDemonstrativesTable as RefTable,
   },
+  fr: {
+    alphabet: frAlphabetTable as RefTable,
+    pronouns: frPronounsTable as RefTable,
+    numbers: frNumbersTable as RefTable,
+    time: frTimeTable as RefTable,
+    weekdays: frWeekdaysTable as RefTable,
+    months: frMonthsTable as RefTable,
+    questions: frQuestionsTable as RefTable,
+    demonstratives: frDemonstrativesTable as RefTable,
+  },
+  es: {
+    alphabet: esAlphabetTable as RefTable,
+    pronouns: esPronounsTable as RefTable,
+    numbers: esNumbersTable as RefTable,
+    time: esTimeTable as RefTable,
+    weekdays: esWeekdaysTable as RefTable,
+    months: esMonthsTable as RefTable,
+    questions: esQuestionsTable as RefTable,
+    demonstratives: esDemonstrativesTable as RefTable,
+  },
+  it: {
+    alphabet: itAlphabetTable as RefTable,
+    pronouns: itPronounsTable as RefTable,
+    numbers: itNumbersTable as RefTable,
+    time: itTimeTable as RefTable,
+    weekdays: itWeekdaysTable as RefTable,
+    months: itMonthsTable as RefTable,
+    questions: itQuestionsTable as RefTable,
+    demonstratives: itDemonstrativesTable as RefTable,
+  },
+  de: {
+    alphabet: deAlphabetTable as RefTable,
+    pronouns: dePronounsTable as RefTable,
+    numbers: deNumbersTable as RefTable,
+    time: deTimeTable as RefTable,
+    weekdays: deWeekdaysTable as RefTable,
+    months: deMonthsTable as RefTable,
+    dates: deDatesTable as RefTable,
+    questions: deQuestionsTable as RefTable,
+    demonstratives: deDemonstrativesTable as RefTable,
+  },
 }
 
 export function getMeaningQuizzes(
@@ -313,7 +484,14 @@ export function getRefTable(
       es: 'Bases de tiempo y calendario',
       de: 'Zeit- und Kalendergrundlagen',
       ru: 'Основы времени и календаря',
+      it: 'Basi di tempo e calendario',
     }
+
+    const monthsMain = sectionAsTable(tables.months, 0) ?? tables.months
+    const dateWriting =
+      targetLang === 'fr' || targetLang === 'es' || targetLang === 'it'
+        ? sectionAsTable(tables.months, 1)
+        : null
 
     return mergeTables(`merged_${targetLang}_time_ref`, title, formLabels, [
       {
@@ -326,6 +504,7 @@ export function getRefTable(
           es: 'Tiempo',
           de: 'Zeit',
           ru: 'Время',
+          it: 'Tempo',
         },
         table: tables.time,
       },
@@ -339,6 +518,7 @@ export function getRefTable(
           es: 'Días',
           de: 'Tage',
           ru: 'Дни',
+          it: 'Giorni',
         },
         table: tables.weekdays,
       },
@@ -352,9 +532,28 @@ export function getRefTable(
           es: 'Meses',
           de: 'Monate',
           ru: 'Месяцы',
+          it: 'Mesi',
         },
-        table: tables.months,
+        table: monthsMain,
       },
+      ...(dateWriting
+        ? [
+            {
+              section: {
+                en: 'Writing dates',
+                ko: '날짜 쓰기',
+                ja: '日付の書き方',
+                zh: '日期写法',
+                fr: 'Écrire une date',
+                es: 'Escribir fechas',
+                de: 'Daten schreiben',
+                it: 'Scrivere le date',
+                ru: 'Запись дат',
+              },
+              table: dateWriting,
+            },
+          ]
+        : []),
       ...(targetLang === 'ko'
         ? [
             {

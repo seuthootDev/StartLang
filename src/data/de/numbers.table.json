@@ -1,0 +1,1291 @@
+{
+  "table_id": "de_numbers_ref",
+  "title": {
+    "en": "Cardinal numbers",
+    "ko": "기수사",
+    "ja": "基数",
+    "zh": "基数词",
+    "fr": "Nombres cardinaux",
+    "es": "Números cardinales",
+    "de": "Kardinalzahlen",
+    "ru": "Количественные числительные",
+    "it": "Numeri cardinali"
+  },
+  "note": {
+    "en": "0–12 mostly unique. From 21: ones + und + tens (einundzwanzig) — opposite of English/Romance order.",
+    "ko": "0–12 대체로 고유. 21부터: 일 + und + 십 (einundzwanzig) — 영어·로망스어와 반대 순서.",
+    "ja": "0–12はほぼ固有。21以降は一＋und＋十（einundzwanzig）— 英・ロマンス語と逆順。",
+    "zh": "0–12 多专名。从21起：个位 + und + 十位（einundzwanzig）— 与英／罗曼语顺序相反。",
+    "fr": "0–12 surtout uniques. Dès 21 : unité + und + dizaine (ordre inversé).",
+    "es": "0–12 casi propios. Desde 21: unidad + und + decena (orden invertido).",
+    "de": "0–12 meist eigen. Ab 21: Einer + und + Zehner (einundzwanzig).",
+    "ru": "0–12 в основном особые. С 21: единицы + und + десятки (обратный порядок).",
+    "it": "0–12 quasi unici. Dal 21: unità + und + decina (ordine invertito)."
+  },
+  "rules": {
+    "en": [
+      "eins alone; in compounds use ein- (einundzwanzig). Before nouns: ein / eine (not a quiz topic yet).",
+      "21–99: ones + und + tens as one word: zweiunddreißig.",
+      "sechs → sech- in teens/tens (sechzehn, sechzig); sieben → sieb- (siebzehn, siebzig).",
+      "dreißig keeps ß. Quiz adds random compounds."
+    ],
+    "ko": [
+      "단독 eins; 합성에서는 ein- (einundzwanzig). 명사 앞 ein / eine는 나중에.",
+      "21–99: 일 + und + 십을 한 단어로: zweiunddreißig.",
+      "sechs → sech- (sechzehn, sechzig); sieben → sieb- (siebzehn, siebzig).",
+      "dreißig는 ß. 퀴즈에 랜덤 합성 추가."
+    ],
+    "ja": [
+      "単独は eins、合成は ein-。名詞の前の ein/eine は後で。",
+      "21–99は一＋und＋十で一語。",
+      "sechs→sech-、sieben→sieb-。",
+      "dreißig は ß。クイズに合成あり。"
+    ],
+    "zh": [
+      "单独 eins；合成用 ein-。名词前 ein/eine 以后再学。",
+      "21–99：个位 + und + 十位，连写。",
+      "sechs→sech-；sieben→sieb-。",
+      "dreißig 用 ß。测验含随机合成。"
+    ],
+    "fr": [
+      "eins seul ; en composé ein-. ein/eine devant nom plus tard.",
+      "21–99 : unité + und + dizaine en un mot.",
+      "sechs → sech- ; sieben → sieb-.",
+      "dreißig avec ß. Quiz = composés aléatoires."
+    ],
+    "es": [
+      "eins solo; en compuesto ein-. ein/eine ante nombre después.",
+      "21–99: unidad + und + decena en una palabra.",
+      "sechs → sech-; sieben → sieb-.",
+      "dreißig con ß. Quiz con compuestos."
+    ],
+    "de": [
+      "eins allein; in Zusammensetzungen ein-.",
+      "21–99: Einer + und + Zehner in einem Wort.",
+      "sechs → sech-; sieben → sieb-.",
+      "dreißig mit ß. Quiz ergänzt Zufallsverbindungen."
+    ],
+    "ru": [
+      "eins отдельно; в сложных — ein-.",
+      "21–99: единицы + und + десятки одним словом.",
+      "sechs → sech-; sieben → sieb-.",
+      "dreißig с ß. В квизе — случайные составные."
+    ],
+    "it": [
+      "eins da solo; nei composti ein-.",
+      "21–99: unità + und + decina in una parola.",
+      "sechs → sech-; sieben → sieb-.",
+      "dreißig con ß. Il quiz aggiunge composti."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "0–10",
+        "ko": "0–10",
+        "ja": "0–10",
+        "zh": "0–10",
+        "fr": "0–10",
+        "es": "0–10",
+        "de": "0–10",
+        "ru": "0–10",
+        "it": "0–10"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "German",
+            "ko": "독일어",
+            "ja": "ドイツ語",
+            "zh": "德语",
+            "fr": "Allemand",
+            "es": "Alemán",
+            "de": "Deutsch",
+            "ru": "Немецкий",
+            "it": "Tedesco"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "null",
+          "meaning": {
+            "en": "0",
+            "ko": "0",
+            "ja": "0",
+            "zh": "0",
+            "fr": "0",
+            "es": "0",
+            "de": "0",
+            "ru": "0",
+            "it": "0"
+          },
+          "sound": {
+            "en": "nool/null",
+            "ko": "눌",
+            "ja": "ヌル",
+            "zh": "nool/null",
+            "fr": "nool/null",
+            "es": "nool/null",
+            "de": "null",
+            "ru": "nool/null",
+            "it": "nool/null"
+          }
+        },
+        {
+          "form": "eins",
+          "meaning": {
+            "en": "1",
+            "ko": "1",
+            "ja": "1",
+            "zh": "1",
+            "fr": "1",
+            "es": "1",
+            "de": "1",
+            "ru": "1",
+            "it": "1"
+          },
+          "sound": {
+            "en": "aints/eins",
+            "ko": "아インス",
+            "ja": "アインス",
+            "zh": "aints/eins",
+            "fr": "aints/eins",
+            "es": "aints/eins",
+            "de": "eins",
+            "ru": "aints/eins",
+            "it": "aints/eins"
+          }
+        },
+        {
+          "form": "zwei",
+          "meaning": {
+            "en": "2",
+            "ko": "2",
+            "ja": "2",
+            "zh": "2",
+            "fr": "2",
+            "es": "2",
+            "de": "2",
+            "ru": "2",
+            "it": "2"
+          },
+          "sound": {
+            "en": "tsvai/zwei",
+            "ko": "츠바이",
+            "ja": "ツヴァイ",
+            "zh": "tsvai/zwei",
+            "fr": "tsvai/zwei",
+            "es": "tsvai/zwei",
+            "de": "zwei",
+            "ru": "tsvai/zwei",
+            "it": "tsvai/zwei"
+          }
+        },
+        {
+          "form": "drei",
+          "meaning": {
+            "en": "3",
+            "ko": "3",
+            "ja": "3",
+            "zh": "3",
+            "fr": "3",
+            "es": "3",
+            "de": "3",
+            "ru": "3",
+            "it": "3"
+          },
+          "sound": {
+            "en": "dry/drei",
+            "ko": "드라이",
+            "ja": "ドライ",
+            "zh": "dry/drei",
+            "fr": "dry/drei",
+            "es": "dry/drei",
+            "de": "drei",
+            "ru": "dry/drei",
+            "it": "dry/drei"
+          }
+        },
+        {
+          "form": "vier",
+          "meaning": {
+            "en": "4",
+            "ko": "4",
+            "ja": "4",
+            "zh": "4",
+            "fr": "4",
+            "es": "4",
+            "de": "4",
+            "ru": "4",
+            "it": "4"
+          },
+          "sound": {
+            "en": "feer/vier",
+            "ko": "피어",
+            "ja": "フィーア",
+            "zh": "feer/vier",
+            "fr": "feer/vier",
+            "es": "feer/vier",
+            "de": "vier",
+            "ru": "feer/vier",
+            "it": "feer/vier"
+          }
+        },
+        {
+          "form": "fünf",
+          "meaning": {
+            "en": "5",
+            "ko": "5",
+            "ja": "5",
+            "zh": "5",
+            "fr": "5",
+            "es": "5",
+            "de": "5",
+            "ru": "5",
+            "it": "5"
+          },
+          "sound": {
+            "en": "fuenf/fünf",
+            "ko": "픈프",
+            "ja": "フンフ",
+            "zh": "fuenf/fünf",
+            "fr": "fuenf/fünf",
+            "es": "fuenf/fünf",
+            "de": "fünf",
+            "ru": "fuenf/fünf",
+            "it": "fuenf/fünf"
+          }
+        },
+        {
+          "form": "sechs",
+          "meaning": {
+            "en": "6",
+            "ko": "6",
+            "ja": "6",
+            "zh": "6",
+            "fr": "6",
+            "es": "6",
+            "de": "6",
+            "ru": "6",
+            "it": "6"
+          },
+          "sound": {
+            "en": "zex/sechs",
+            "ko": "젝스",
+            "ja": "ゼクス",
+            "zh": "zex/sechs",
+            "fr": "zex/sechs",
+            "es": "zex/sechs",
+            "de": "sechs",
+            "ru": "zex/sechs",
+            "it": "zex/sechs"
+          }
+        },
+        {
+          "form": "sieben",
+          "meaning": {
+            "en": "7",
+            "ko": "7",
+            "ja": "7",
+            "zh": "7",
+            "fr": "7",
+            "es": "7",
+            "de": "7",
+            "ru": "7",
+            "it": "7"
+          },
+          "sound": {
+            "en": "zee-ben",
+            "ko": "지벤",
+            "ja": "ジーベン",
+            "zh": "zee-ben",
+            "fr": "zee-ben",
+            "es": "zee-ben",
+            "de": "sieben",
+            "ru": "zee-ben",
+            "it": "zee-ben"
+          }
+        },
+        {
+          "form": "acht",
+          "meaning": {
+            "en": "8",
+            "ko": "8",
+            "ja": "8",
+            "zh": "8",
+            "fr": "8",
+            "es": "8",
+            "de": "8",
+            "ru": "8",
+            "it": "8"
+          },
+          "sound": {
+            "en": "akht/acht",
+            "ko": "아흐트",
+            "ja": "アハト",
+            "zh": "akht/acht",
+            "fr": "akht/acht",
+            "es": "akht/acht",
+            "de": "acht",
+            "ru": "akht/acht",
+            "it": "akht/acht"
+          }
+        },
+        {
+          "form": "neun",
+          "meaning": {
+            "en": "9",
+            "ko": "9",
+            "ja": "9",
+            "zh": "9",
+            "fr": "9",
+            "es": "9",
+            "de": "9",
+            "ru": "9",
+            "it": "9"
+          },
+          "sound": {
+            "en": "noyn/neun",
+            "ko": "노인",
+            "ja": "ノイン",
+            "zh": "noyn/neun",
+            "fr": "noyn/neun",
+            "es": "noyn/neun",
+            "de": "neun",
+            "ru": "noyn/neun",
+            "it": "noyn/neun"
+          }
+        },
+        {
+          "form": "zehn",
+          "meaning": {
+            "en": "10",
+            "ko": "10",
+            "ja": "10",
+            "zh": "10",
+            "fr": "10",
+            "es": "10",
+            "de": "10",
+            "ru": "10",
+            "it": "10"
+          },
+          "sound": {
+            "en": "tsayn/zehn",
+            "ko": "체인",
+            "ja": "ツェーン",
+            "zh": "tsayn/zehn",
+            "fr": "tsayn/zehn",
+            "es": "tsayn/zehn",
+            "de": "zehn",
+            "ru": "tsayn/zehn",
+            "it": "tsayn/zehn"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "11–19",
+        "ko": "11–19",
+        "ja": "11–19",
+        "zh": "11–19",
+        "fr": "11–19",
+        "es": "11–19",
+        "de": "11–19",
+        "ru": "11–19",
+        "it": "11–19"
+      },
+      "note": {
+        "en": "elf / zwölf unique; 13–19 = ones + zehn (with sech-/sieb- shortenings).",
+        "ko": "elf / zwölf 고유; 13–19 = 일 + zehn (sech-/sieb- 축약).",
+        "ja": "elf／zwölf は固有。13–19は一＋zehn（sech-／sieb-）。",
+        "zh": "elf／zwölf 专名；13–19 = 个位 + zehn（sech-／sieb-）。",
+        "fr": "elf / zwölf uniques ; 13–19 = unités + zehn.",
+        "es": "elf / zwölf propios; 13–19 = unidades + zehn.",
+        "de": "elf / zwölf eigen; 13–19 = Einer + zehn.",
+        "ru": "elf / zwölf особые; 13–19 = единицы + zehn.",
+        "it": "elf / zwölf unici; 13–19 = unità + zehn."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "German",
+            "ko": "독일어",
+            "ja": "ドイツ語",
+            "zh": "德语",
+            "fr": "Allemand",
+            "es": "Alemán",
+            "de": "Deutsch",
+            "ru": "Немецкий",
+            "it": "Tedesco"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "elf",
+          "meaning": {
+            "en": "11",
+            "ko": "11",
+            "ja": "11",
+            "zh": "11",
+            "fr": "11",
+            "es": "11",
+            "de": "11",
+            "ru": "11",
+            "it": "11"
+          },
+          "sound": {
+            "en": "elf",
+            "ko": "엘프",
+            "ja": "エルフ",
+            "zh": "elf",
+            "fr": "elf",
+            "es": "elf",
+            "de": "elf",
+            "ru": "elf",
+            "it": "elf"
+          }
+        },
+        {
+          "form": "zwölf",
+          "meaning": {
+            "en": "12",
+            "ko": "12",
+            "ja": "12",
+            "zh": "12",
+            "fr": "12",
+            "es": "12",
+            "de": "12",
+            "ru": "12",
+            "it": "12"
+          },
+          "sound": {
+            "en": "tsvuhlf/zwölf",
+            "ko": "츠뵐프",
+            "ja": "ツヴェルフ",
+            "zh": "tsvuhlf/zwölf",
+            "fr": "tsvuhlf/zwölf",
+            "es": "tsvuhlf/zwölf",
+            "de": "zwölf",
+            "ru": "tsvuhlf/zwölf",
+            "it": "tsvuhlf/zwölf"
+          }
+        },
+        {
+          "form": "dreizehn",
+          "meaning": {
+            "en": "13",
+            "ko": "13",
+            "ja": "13",
+            "zh": "13",
+            "fr": "13",
+            "es": "13",
+            "de": "13",
+            "ru": "13",
+            "it": "13"
+          },
+          "sound": {
+            "en": "dry-tsayn",
+            "ko": "드라이체인",
+            "ja": "ドライツェーン",
+            "zh": "dry-tsayn",
+            "fr": "dry-tsayn",
+            "es": "dry-tsayn",
+            "de": "dreizehn",
+            "ru": "dry-tsayn",
+            "it": "dry-tsayn"
+          }
+        },
+        {
+          "form": "vierzehn",
+          "meaning": {
+            "en": "14",
+            "ko": "14",
+            "ja": "14",
+            "zh": "14",
+            "fr": "14",
+            "es": "14",
+            "de": "14",
+            "ru": "14",
+            "it": "14"
+          },
+          "sound": {
+            "en": "feer-tsayn",
+            "ko": "피어체인",
+            "ja": "フィーアツェーン",
+            "zh": "feer-tsayn",
+            "fr": "feer-tsayn",
+            "es": "feer-tsayn",
+            "de": "vierzehn",
+            "ru": "feer-tsayn",
+            "it": "feer-tsayn"
+          }
+        },
+        {
+          "form": "fünfzehn",
+          "meaning": {
+            "en": "15",
+            "ko": "15",
+            "ja": "15",
+            "zh": "15",
+            "fr": "15",
+            "es": "15",
+            "de": "15",
+            "ru": "15",
+            "it": "15"
+          },
+          "sound": {
+            "en": "fuenf-tsayn",
+            "ko": "픈프체인",
+            "ja": "フンフツェーン",
+            "zh": "fuenf-tsayn",
+            "fr": "fuenf-tsayn",
+            "es": "fuenf-tsayn",
+            "de": "fünfzehn",
+            "ru": "fuenf-tsayn",
+            "it": "fuenf-tsayn"
+          }
+        },
+        {
+          "form": "sechzehn",
+          "meaning": {
+            "en": "16",
+            "ko": "16",
+            "ja": "16",
+            "zh": "16",
+            "fr": "16",
+            "es": "16",
+            "de": "16",
+            "ru": "16",
+            "it": "16"
+          },
+          "sound": {
+            "en": "zekh-tsayn",
+            "ko": "제흐체인",
+            "ja": "ゼヒツェーン",
+            "zh": "zekh-tsayn",
+            "fr": "zekh-tsayn",
+            "es": "zekh-tsayn",
+            "de": "sechzehn",
+            "ru": "zekh-tsayn",
+            "it": "zekh-tsayn"
+          }
+        },
+        {
+          "form": "siebzehn",
+          "meaning": {
+            "en": "17",
+            "ko": "17",
+            "ja": "17",
+            "zh": "17",
+            "fr": "17",
+            "es": "17",
+            "de": "17",
+            "ru": "17",
+            "it": "17"
+          },
+          "sound": {
+            "en": "zeep-tsayn",
+            "ko": "집체인",
+            "ja": "ジープツェーン",
+            "zh": "zeep-tsayn",
+            "fr": "zeep-tsayn",
+            "es": "zeep-tsayn",
+            "de": "siebzehn",
+            "ru": "zeep-tsayn",
+            "it": "zeep-tsayn"
+          }
+        },
+        {
+          "form": "achtzehn",
+          "meaning": {
+            "en": "18",
+            "ko": "18",
+            "ja": "18",
+            "zh": "18",
+            "fr": "18",
+            "es": "18",
+            "de": "18",
+            "ru": "18",
+            "it": "18"
+          },
+          "sound": {
+            "en": "akht-tsayn",
+            "ko": "아흐트체인",
+            "ja": "アハツェーン",
+            "zh": "akht-tsayn",
+            "fr": "akht-tsayn",
+            "es": "akht-tsayn",
+            "de": "achtzehn",
+            "ru": "akht-tsayn",
+            "it": "akht-tsayn"
+          }
+        },
+        {
+          "form": "neunzehn",
+          "meaning": {
+            "en": "19",
+            "ko": "19",
+            "ja": "19",
+            "zh": "19",
+            "fr": "19",
+            "es": "19",
+            "de": "19",
+            "ru": "19",
+            "it": "19"
+          },
+          "sound": {
+            "en": "noyn-tsayn",
+            "ko": "노인체인",
+            "ja": "ノインツェーン",
+            "zh": "noyn-tsayn",
+            "fr": "noyn-tsayn",
+            "es": "noyn-tsayn",
+            "de": "neunzehn",
+            "ru": "noyn-tsayn",
+            "it": "noyn-tsayn"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Tens",
+        "ko": "십 단위",
+        "ja": "十の位",
+        "zh": "整十",
+        "fr": "Dizaines",
+        "es": "Decenas",
+        "de": "Zehner",
+        "ru": "Десятки",
+        "it": "Decine"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "German",
+            "ko": "독일어",
+            "ja": "ドイツ語",
+            "zh": "德语",
+            "fr": "Allemand",
+            "es": "Alemán",
+            "de": "Deutsch",
+            "ru": "Немецкий",
+            "it": "Tedesco"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "zwanzig",
+          "meaning": {
+            "en": "20",
+            "ko": "20",
+            "ja": "20",
+            "zh": "20",
+            "fr": "20",
+            "es": "20",
+            "de": "20",
+            "ru": "20",
+            "it": "20"
+          },
+          "sound": {
+            "en": "tsvun-tsikh",
+            "ko": "츠반치히",
+            "ja": "ツヴァンツィヒ",
+            "zh": "tsvun-tsikh",
+            "fr": "tsvun-tsikh",
+            "es": "tsvun-tsikh",
+            "de": "zwanzig",
+            "ru": "tsvun-tsikh",
+            "it": "tsvun-tsikh"
+          }
+        },
+        {
+          "form": "dreißig",
+          "meaning": {
+            "en": "30",
+            "ko": "30",
+            "ja": "30",
+            "zh": "30",
+            "fr": "30",
+            "es": "30",
+            "de": "30",
+            "ru": "30",
+            "it": "30"
+          },
+          "sound": {
+            "en": "dry-sikh",
+            "ko": "드라이시히",
+            "ja": "ドライシヒ",
+            "zh": "dry-sikh",
+            "fr": "dry-sikh",
+            "es": "dry-sikh",
+            "de": "dreißig",
+            "ru": "dry-sikh",
+            "it": "dry-sikh"
+          }
+        },
+        {
+          "form": "vierzig",
+          "meaning": {
+            "en": "40",
+            "ko": "40",
+            "ja": "40",
+            "zh": "40",
+            "fr": "40",
+            "es": "40",
+            "de": "40",
+            "ru": "40",
+            "it": "40"
+          },
+          "sound": {
+            "en": "feer-tsikh",
+            "ko": "피어치히",
+            "ja": "フィーアツィヒ",
+            "zh": "feer-tsikh",
+            "fr": "feer-tsikh",
+            "es": "feer-tsikh",
+            "de": "vierzig",
+            "ru": "feer-tsikh",
+            "it": "feer-tsikh"
+          }
+        },
+        {
+          "form": "fünfzig",
+          "meaning": {
+            "en": "50",
+            "ko": "50",
+            "ja": "50",
+            "zh": "50",
+            "fr": "50",
+            "es": "50",
+            "de": "50",
+            "ru": "50",
+            "it": "50"
+          },
+          "sound": {
+            "en": "fuenf-tsikh",
+            "ko": "픈프치히",
+            "ja": "フンフツィヒ",
+            "zh": "fuenf-tsikh",
+            "fr": "fuenf-tsikh",
+            "es": "fuenf-tsikh",
+            "de": "fünfzig",
+            "ru": "fuenf-tsikh",
+            "it": "fuenf-tsikh"
+          }
+        },
+        {
+          "form": "sechzig",
+          "meaning": {
+            "en": "60",
+            "ko": "60",
+            "ja": "60",
+            "zh": "60",
+            "fr": "60",
+            "es": "60",
+            "de": "60",
+            "ru": "60",
+            "it": "60"
+          },
+          "sound": {
+            "en": "zekh-tsikh",
+            "ko": "제흐치히",
+            "ja": "ゼヒツィヒ",
+            "zh": "zekh-tsikh",
+            "fr": "zekh-tsikh",
+            "es": "zekh-tsikh",
+            "de": "sechzig",
+            "ru": "zekh-tsikh",
+            "it": "zekh-tsikh"
+          }
+        },
+        {
+          "form": "siebzig",
+          "meaning": {
+            "en": "70",
+            "ko": "70",
+            "ja": "70",
+            "zh": "70",
+            "fr": "70",
+            "es": "70",
+            "de": "70",
+            "ru": "70",
+            "it": "70"
+          },
+          "sound": {
+            "en": "zeep-tsikh",
+            "ko": "집치히",
+            "ja": "ジープツィヒ",
+            "zh": "zeep-tsikh",
+            "fr": "zeep-tsikh",
+            "es": "zeep-tsikh",
+            "de": "siebzig",
+            "ru": "zeep-tsikh",
+            "it": "zeep-tsikh"
+          }
+        },
+        {
+          "form": "achtzig",
+          "meaning": {
+            "en": "80",
+            "ko": "80",
+            "ja": "80",
+            "zh": "80",
+            "fr": "80",
+            "es": "80",
+            "de": "80",
+            "ru": "80",
+            "it": "80"
+          },
+          "sound": {
+            "en": "akht-tsikh",
+            "ko": "아흐트치히",
+            "ja": "アハツィヒ",
+            "zh": "akht-tsikh",
+            "fr": "akht-tsikh",
+            "es": "akht-tsikh",
+            "de": "achtzig",
+            "ru": "akht-tsikh",
+            "it": "akht-tsikh"
+          }
+        },
+        {
+          "form": "neunzig",
+          "meaning": {
+            "en": "90",
+            "ko": "90",
+            "ja": "90",
+            "zh": "90",
+            "fr": "90",
+            "es": "90",
+            "de": "90",
+            "ru": "90",
+            "it": "90"
+          },
+          "sound": {
+            "en": "noyn-tsikh",
+            "ko": "노인치히",
+            "ja": "ノインツィヒ",
+            "zh": "noyn-tsikh",
+            "fr": "noyn-tsikh",
+            "es": "noyn-tsikh",
+            "de": "neunzig",
+            "ru": "noyn-tsikh",
+            "it": "noyn-tsikh"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Hundreds & 1000",
+        "ko": "백·천",
+        "ja": "百・千",
+        "zh": "百与千",
+        "fr": "Centaines & 1000",
+        "es": "Centenas y 1000",
+        "de": "Hunderter & 1000",
+        "ru": "Сотни и 1000",
+        "it": "Centinaia e 1000"
+      },
+      "note": {
+        "en": "hundert / einhundert both OK for 100. tausend / eintausend for 1000.",
+        "ko": "100은 hundert / einhundert 모두 가능. 1000은 tausend / eintausend.",
+        "ja": "100は hundert／einhundert。1000は tausend／eintausend。",
+        "zh": "100 可用 hundert／einhundert；1000 可用 tausend／eintausend。",
+        "fr": "hundert / einhundert ; tausend / eintausend.",
+        "es": "hundert / einhundert; tausend / eintausend.",
+        "de": "hundert / einhundert; tausend / eintausend.",
+        "ru": "hundert / einhundert; tausend / eintausend.",
+        "it": "hundert / einhundert; tausend / eintausend."
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "German",
+            "ko": "독일어",
+            "ja": "ドイツ語",
+            "zh": "德语",
+            "fr": "Allemand",
+            "es": "Alemán",
+            "de": "Deutsch",
+            "ru": "Немецкий",
+            "it": "Tedesco"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Significato"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Pronuncia"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "hundert",
+          "meaning": {
+            "en": "100",
+            "ko": "100",
+            "ja": "100",
+            "zh": "100",
+            "fr": "100",
+            "es": "100",
+            "de": "100",
+            "ru": "100",
+            "it": "100"
+          },
+          "sound": {
+            "en": "hoon-dert",
+            "ko": "훈데르트",
+            "ja": "フンデルト",
+            "zh": "hoon-dert",
+            "fr": "hoon-dert",
+            "es": "hoon-dert",
+            "de": "hundert",
+            "ru": "hoon-dert",
+            "it": "hoon-dert"
+          }
+        },
+        {
+          "form": "zweihundert",
+          "meaning": {
+            "en": "200",
+            "ko": "200",
+            "ja": "200",
+            "zh": "200",
+            "fr": "200",
+            "es": "200",
+            "de": "200",
+            "ru": "200",
+            "it": "200"
+          },
+          "sound": {
+            "en": "tsvai-hoon-dert",
+            "ko": "츠바이훈데르트",
+            "ja": "ツヴァイフンデルト",
+            "zh": "tsvai-hoon-dert",
+            "fr": "tsvai-hoon-dert",
+            "es": "tsvai-hoon-dert",
+            "de": "zweihundert",
+            "ru": "tsvai-hoon-dert",
+            "it": "tsvai-hoon-dert"
+          }
+        },
+        {
+          "form": "dreihundert",
+          "meaning": {
+            "en": "300",
+            "ko": "300",
+            "ja": "300",
+            "zh": "300",
+            "fr": "300",
+            "es": "300",
+            "de": "300",
+            "ru": "300",
+            "it": "300"
+          },
+          "sound": {
+            "en": "dry-hoon-dert",
+            "ko": "드라이훈데르트",
+            "ja": "ドライフンデルト",
+            "zh": "dry-hoon-dert",
+            "fr": "dry-hoon-dert",
+            "es": "dry-hoon-dert",
+            "de": "dreihundert",
+            "ru": "dry-hoon-dert",
+            "it": "dry-hoon-dert"
+          }
+        },
+        {
+          "form": "vierhundert",
+          "meaning": {
+            "en": "400",
+            "ko": "400",
+            "ja": "400",
+            "zh": "400",
+            "fr": "400",
+            "es": "400",
+            "de": "400",
+            "ru": "400",
+            "it": "400"
+          },
+          "sound": {
+            "en": "feer-hoon-dert",
+            "ko": "피어훈데르트",
+            "ja": "フィーアフンデルト",
+            "zh": "feer-hoon-dert",
+            "fr": "feer-hoon-dert",
+            "es": "feer-hoon-dert",
+            "de": "vierhundert",
+            "ru": "feer-hoon-dert",
+            "it": "feer-hoon-dert"
+          }
+        },
+        {
+          "form": "fünfhundert",
+          "meaning": {
+            "en": "500",
+            "ko": "500",
+            "ja": "500",
+            "zh": "500",
+            "fr": "500",
+            "es": "500",
+            "de": "500",
+            "ru": "500",
+            "it": "500"
+          },
+          "sound": {
+            "en": "fuenf-hoon-dert",
+            "ko": "픈프훈데르트",
+            "ja": "フンフフンデルト",
+            "zh": "fuenf-hoon-dert",
+            "fr": "fuenf-hoon-dert",
+            "es": "fuenf-hoon-dert",
+            "de": "fünfhundert",
+            "ru": "fuenf-hoon-dert",
+            "it": "fuenf-hoon-dert"
+          }
+        },
+        {
+          "form": "sechshundert",
+          "meaning": {
+            "en": "600",
+            "ko": "600",
+            "ja": "600",
+            "zh": "600",
+            "fr": "600",
+            "es": "600",
+            "de": "600",
+            "ru": "600",
+            "it": "600"
+          },
+          "sound": {
+            "en": "zex-hoon-dert",
+            "ko": "젝스훈데르트",
+            "ja": "ゼクスフンデルト",
+            "zh": "zex-hoon-dert",
+            "fr": "zex-hoon-dert",
+            "es": "zex-hoon-dert",
+            "de": "sechshundert",
+            "ru": "zex-hoon-dert",
+            "it": "zex-hoon-dert"
+          }
+        },
+        {
+          "form": "siebenhundert",
+          "meaning": {
+            "en": "700",
+            "ko": "700",
+            "ja": "700",
+            "zh": "700",
+            "fr": "700",
+            "es": "700",
+            "de": "700",
+            "ru": "700",
+            "it": "700"
+          },
+          "sound": {
+            "en": "zee-ben-hoon-dert",
+            "ko": "지벤훈데르트",
+            "ja": "ジーベンフンデルト",
+            "zh": "zee-ben-hoon-dert",
+            "fr": "zee-ben-hoon-dert",
+            "es": "zee-ben-hoon-dert",
+            "de": "siebenhundert",
+            "ru": "zee-ben-hoon-dert",
+            "it": "zee-ben-hoon-dert"
+          }
+        },
+        {
+          "form": "achthundert",
+          "meaning": {
+            "en": "800",
+            "ko": "800",
+            "ja": "800",
+            "zh": "800",
+            "fr": "800",
+            "es": "800",
+            "de": "800",
+            "ru": "800",
+            "it": "800"
+          },
+          "sound": {
+            "en": "akht-hoon-dert",
+            "ko": "아흐트훈데르트",
+            "ja": "アハトフンデルト",
+            "zh": "akht-hoon-dert",
+            "fr": "akht-hoon-dert",
+            "es": "akht-hoon-dert",
+            "de": "achthundert",
+            "ru": "akht-hoon-dert",
+            "it": "akht-hoon-dert"
+          }
+        },
+        {
+          "form": "neunhundert",
+          "meaning": {
+            "en": "900",
+            "ko": "900",
+            "ja": "900",
+            "zh": "900",
+            "fr": "900",
+            "es": "900",
+            "de": "900",
+            "ru": "900",
+            "it": "900"
+          },
+          "sound": {
+            "en": "noyn-hoon-dert",
+            "ko": "노인훈데르트",
+            "ja": "ノインフンデルト",
+            "zh": "noyn-hoon-dert",
+            "fr": "noyn-hoon-dert",
+            "es": "noyn-hoon-dert",
+            "de": "neunhundert",
+            "ru": "noyn-hoon-dert",
+            "it": "noyn-hoon-dert"
+          }
+        },
+        {
+          "form": "tausend",
+          "meaning": {
+            "en": "1000",
+            "ko": "1000",
+            "ja": "1000",
+            "zh": "1000",
+            "fr": "1000",
+            "es": "1000",
+            "de": "1000",
+            "ru": "1000",
+            "it": "1000"
+          },
+          "sound": {
+            "en": "tow-zent",
+            "ko": "타우젠트",
+            "ja": "タウゼント",
+            "zh": "tow-zent",
+            "fr": "tow-zent",
+            "es": "tow-zent",
+            "de": "tausend",
+            "ru": "tow-zent",
+            "it": "tow-zent"
+          }
+        }
+      ]
+    }
+  ]
+}

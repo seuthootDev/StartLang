@@ -1,0 +1,635 @@
+{
+  "table_id": "es_questions_ref",
+  "title": {
+    "en": "Question words",
+    "ko": "필수 의문사",
+    "ja": "疑問詞",
+    "zh": "疑问词",
+    "fr": "Mots interrogatifs",
+    "es": "Palabras interrogativas",
+    "de": "Fragewörter",
+    "ru": "Вопросительные слова",
+    "it": "Question words"
+  },
+  "note": {
+    "en": "Interrogatives take a written accent (qué, dónde…). por qué ≠ porque.",
+    "ko": "의문사는 악센트(qué, dónde…). por qué ≠ porque.",
+    "ja": "疑問詞にはアクセント（qué, dónde…）。por qué ≠ porque。",
+    "zh": "疑问词带重音（qué, dónde…）。por qué ≠ porque。",
+    "fr": "Accent écrit sur les interrogatifs. por qué ≠ porque.",
+    "es": "Tilde en interrogativos. por qué ≠ porque.",
+    "de": "Akzent auf Fragewörtern. por qué ≠ porque.",
+    "ru": "Ударение на вопросительных. por qué ≠ porque.",
+    "it": "Interrogatives take a written accent (qué, dónde…). por qué ≠ porque."
+  },
+  "rules": {
+    "en": [
+      "por qué = why (question); porque = because (answer).",
+      "dónde = location; adónde / a dónde = direction to; de dónde = from.",
+      "qué ≈ “what”; cuál ≈ “which (one)” — often before ser / choices.",
+      "cuánto/a/os/as agree in gender and number with the noun."
+    ],
+    "ko": [
+      "por qué = 왜(질문); porque = 왜냐하면(대답).",
+      "dónde = 장소; adónde = 가는 방향; de dónde = 출발.",
+      "qué ≈ “무엇”; cuál ≈ “어느 것” — ser·선택 앞에 자주.",
+      "cuánto/a/os/as는 명사 성·수에 일치."
+    ],
+    "ja": [
+      "por qué＝なぜ（質問）、porque＝なぜなら（答え）。",
+      "dónde＝場所、adónde＝行く方向、de dónde＝出発。",
+      "qué≈「何」、cuál≈「どれ」— ser や選択の前に多い。",
+      "cuánto などは名詞の性・数に一致。"
+    ],
+    "zh": [
+      "por qué＝为什么（问）；porque＝因为（答）。",
+      "dónde＝地点；adónde＝去向；de dónde＝来处。",
+      "qué≈“什么”；cuál≈“哪个” — 常在 ser／选择前。",
+      "cuánto 等随后面名词性、数变化。"
+    ],
+    "fr": [
+      "por qué = pourquoi ; porque = parce que.",
+      "dónde = lieu ; adónde = direction ; de dónde = provenance.",
+      "qué ≈ « what » ; cuál ≈ « which ».",
+      "cuánto… s’accorde en genre/nombre."
+    ],
+    "es": [
+      "por qué = why; porque = because.",
+      "dónde = lugar; adónde = dirección; de dónde = origen.",
+      "qué ≈ “what”; cuál ≈ “which”.",
+      "cuánto… concuerda en género/número."
+    ],
+    "de": [
+      "por qué = warum; porque = weil.",
+      "dónde = Ort; adónde = wohin; de dónde = woher.",
+      "qué ≈ „was“; cuál ≈ „welch-“.",
+      "cuánto… richtet sich nach Genus/Numerus."
+    ],
+    "ru": [
+      "por qué = почему; porque = потому что.",
+      "dónde = место; adónde = куда; de dónde = откуда.",
+      "qué ≈ «что»; cuál ≈ «какой/который».",
+      "cuánto… согласуется по роду/числу."
+    ],
+    "it": [
+      "por qué = perché (domanda); porque = perché (causa).",
+      "dónde = luogo; adónde = direzione; de dónde = provenienza.",
+      "qué ≈ «che»; cuál ≈ «quale».",
+      "cuánto… concorda in genere/numero."
+    ]
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "Meaning chart",
+        "ko": "의미 표",
+        "ja": "意味表",
+        "zh": "意义表",
+        "fr": "Tableau des sens",
+        "es": "Cuadro de sentidos",
+        "de": "Bedeutungstabelle",
+        "ru": "Таблица смыслов",
+        "it": "Meaning chart"
+      },
+      "note": {
+        "en": "· separates related forms (number, direction, gender).",
+        "ko": "· 는 관련 형태(수·방향·성)를 이은 것입니다.",
+        "ja": "・は関連形（数・方向・性）の区切り。",
+        "zh": "· 连接相关形式（数、方向、性）。",
+        "fr": "Le point médian sépare les formes liées.",
+        "es": "El punto medio separa formas relacionadas.",
+        "de": "Mittelpunkt trennt verwandte Formen.",
+        "ru": "Точка разделяет связанные формы.",
+        "it": "· separates related forms (number, direction, gender)."
+      },
+      "columns": [
+        {
+          "key": "type",
+          "labels": {
+            "en": "Ask about",
+            "ko": "묻는 것",
+            "ja": "尋ねる内容",
+            "zh": "询问内容",
+            "fr": "Demande",
+            "es": "Pregunta",
+            "de": "Fragt nach",
+            "ru": "О чём",
+            "it": "Ask about"
+          }
+        },
+        {
+          "key": "forms",
+          "labels": {
+            "en": "Spanish",
+            "ko": "스페인어",
+            "ja": "スペイン語",
+            "zh": "西班牙语",
+            "fr": "Espagnol",
+            "es": "Español",
+            "de": "Spanisch",
+            "ru": "Испанский",
+            "it": "Spanish"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": {
+            "en": "who",
+            "ko": "누구",
+            "ja": "誰",
+            "zh": "谁",
+            "fr": "qui",
+            "es": "quién",
+            "de": "wer",
+            "ru": "кто",
+            "it": "who"
+          },
+          "forms": "quién · quiénes"
+        },
+        {
+          "type": {
+            "en": "what",
+            "ko": "무엇",
+            "ja": "何",
+            "zh": "什么",
+            "fr": "quoi / que",
+            "es": "qué",
+            "de": "was",
+            "ru": "что",
+            "it": "what"
+          },
+          "forms": "qué"
+        },
+        {
+          "type": {
+            "en": "where",
+            "ko": "어디",
+            "ja": "どこ",
+            "zh": "哪里",
+            "fr": "où",
+            "es": "dónde",
+            "de": "wo",
+            "ru": "где",
+            "it": "where"
+          },
+          "forms": "dónde · adónde · de dónde"
+        },
+        {
+          "type": {
+            "en": "when",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "什么时候",
+            "fr": "quand",
+            "es": "cuándo",
+            "de": "wann",
+            "ru": "когда",
+            "it": "when"
+          },
+          "forms": "cuándo"
+        },
+        {
+          "type": {
+            "en": "why",
+            "ko": "왜",
+            "ja": "なぜ",
+            "zh": "为什么",
+            "fr": "pourquoi",
+            "es": "por qué",
+            "de": "warum",
+            "ru": "почему",
+            "it": "why"
+          },
+          "forms": "por qué"
+        },
+        {
+          "type": {
+            "en": "how",
+            "ko": "어떻게",
+            "ja": "どう",
+            "zh": "怎么",
+            "fr": "comment",
+            "es": "cómo",
+            "de": "wie",
+            "ru": "как",
+            "it": "how"
+          },
+          "forms": "cómo"
+        },
+        {
+          "type": {
+            "en": "how much / many",
+            "ko": "얼마 / 몇",
+            "ja": "いくら / いくつ",
+            "zh": "多少",
+            "fr": "combien",
+            "es": "cuánto",
+            "de": "wie viel",
+            "ru": "сколько",
+            "it": "how much / many"
+          },
+          "forms": "cuánto · cuánta · cuántos · cuántas"
+        },
+        {
+          "type": {
+            "en": "which",
+            "ko": "어느",
+            "ja": "どの / どれ",
+            "zh": "哪个",
+            "fr": "quel / lequel",
+            "es": "cuál",
+            "de": "welch-",
+            "ru": "какой",
+            "it": "which"
+          },
+          "forms": "cuál · cuáles"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Forms",
+        "ko": "형태 목록",
+        "ja": "語形一覧",
+        "zh": "词形列表",
+        "fr": "Liste des formes",
+        "es": "Lista de formas",
+        "de": "Formenliste",
+        "ru": "Список форм",
+        "it": "Forms"
+      },
+      "columns": [
+        {
+          "key": "form",
+          "labels": {
+            "en": "Spanish",
+            "ko": "스페인어",
+            "ja": "スペイン語",
+            "zh": "西班牙语",
+            "fr": "Espagnol",
+            "es": "Español",
+            "de": "Spanisch",
+            "ru": "Испанский",
+            "it": "Spanish"
+          }
+        },
+        {
+          "key": "meaning",
+          "labels": {
+            "en": "Meaning",
+            "ko": "의미",
+            "ja": "意味",
+            "zh": "意思",
+            "fr": "Sens",
+            "es": "Significado",
+            "de": "Bedeutung",
+            "ru": "Значение",
+            "it": "Meaning"
+          }
+        },
+        {
+          "key": "sound",
+          "labels": {
+            "en": "Sound",
+            "ko": "발음",
+            "ja": "読み",
+            "zh": "发音",
+            "fr": "Prononciation",
+            "es": "Pronunciación",
+            "de": "Aussprache",
+            "ru": "Произношение",
+            "it": "Sound"
+          }
+        }
+      ],
+      "rows": [
+        {
+          "form": "quién",
+          "meaning": {
+            "en": "who (singular)",
+            "ko": "누구 (단수)",
+            "ja": "誰（単数）",
+            "zh": "谁（单数）",
+            "fr": "qui (singulier)",
+            "es": "quién",
+            "de": "wer (Singular)",
+            "ru": "кто (ед.)",
+            "it": "who (singular)"
+          },
+          "sound": {
+            "en": "kyen/quién",
+            "ko": "키엔",
+            "ja": "キエン",
+            "zh": "kyen/quién",
+            "fr": "kyen/quién",
+            "es": "quién",
+            "de": "kyen/quién",
+            "ru": "kyen/quién",
+            "it": "kyen/quién"
+          }
+        },
+        {
+          "form": "quiénes",
+          "meaning": {
+            "en": "who (plural)",
+            "ko": "누구 (복수)",
+            "ja": "誰（複数）",
+            "zh": "谁（复数）",
+            "fr": "qui (pluriel)",
+            "es": "quiénes",
+            "de": "wer (Plural)",
+            "ru": "кто (мн.)",
+            "it": "who (plural)"
+          },
+          "sound": {
+            "en": "kye-nes",
+            "ko": "키에네스",
+            "ja": "キエネス",
+            "zh": "kye-nes",
+            "fr": "kye-nes",
+            "es": "quiénes",
+            "de": "kye-nes",
+            "ru": "kye-nes",
+            "it": "kye-nes"
+          }
+        },
+        {
+          "form": "qué",
+          "meaning": {
+            "en": "what",
+            "ko": "무엇",
+            "ja": "何",
+            "zh": "什么",
+            "fr": "quoi / que",
+            "es": "qué",
+            "de": "was",
+            "ru": "что",
+            "it": "what"
+          },
+          "sound": {
+            "en": "keh/qué",
+            "ko": "케",
+            "ja": "ケ",
+            "zh": "keh/qué",
+            "fr": "keh/qué",
+            "es": "qué",
+            "de": "keh/qué",
+            "ru": "keh/qué",
+            "it": "keh/qué"
+          }
+        },
+        {
+          "form": "dónde",
+          "meaning": {
+            "en": "where (location)",
+            "ko": "어디 (장소)",
+            "ja": "どこ（場所）",
+            "zh": "哪里（地点）",
+            "fr": "où (lieu)",
+            "es": "dónde",
+            "de": "wo",
+            "ru": "где",
+            "it": "where (location)"
+          },
+          "sound": {
+            "en": "don-de",
+            "ko": "돈데",
+            "ja": "ドンデ",
+            "zh": "don-de",
+            "fr": "don-de",
+            "es": "dónde",
+            "de": "don-de",
+            "ru": "don-de",
+            "it": "don-de"
+          }
+        },
+        {
+          "form": "adónde",
+          "meaning": {
+            "en": "where to / whither",
+            "ko": "어디로 (방향)",
+            "ja": "どこへ（方向）",
+            "zh": "去哪里（方向）",
+            "fr": "où (direction)",
+            "es": "adónde / a dónde",
+            "de": "wohin",
+            "ru": "куда",
+            "it": "where to / whither"
+          },
+          "sound": {
+            "en": "a-don-de",
+            "ko": "아돈데",
+            "ja": "アドンデ",
+            "zh": "a-don-de",
+            "fr": "a-don-de",
+            "es": "adónde",
+            "de": "a-don-de",
+            "ru": "a-don-de",
+            "it": "a-don-de"
+          }
+        },
+        {
+          "form": "de dónde",
+          "meaning": {
+            "en": "where from",
+            "ko": "어디서 (출발)",
+            "ja": "どこから",
+            "zh": "从哪里",
+            "fr": "d’où",
+            "es": "de dónde",
+            "de": "woher",
+            "ru": "откуда",
+            "it": "where from"
+          },
+          "sound": {
+            "en": "de don-de",
+            "ko": "데 돈데",
+            "ja": "デ・ドンデ",
+            "zh": "de don-de",
+            "fr": "de don-de",
+            "es": "de dónde",
+            "de": "de don-de",
+            "ru": "de don-de",
+            "it": "de don-de"
+          }
+        },
+        {
+          "form": "cuándo",
+          "meaning": {
+            "en": "when",
+            "ko": "언제",
+            "ja": "いつ",
+            "zh": "什么时候",
+            "fr": "quand",
+            "es": "cuándo",
+            "de": "wann",
+            "ru": "когда",
+            "it": "when"
+          },
+          "sound": {
+            "en": "kwan-do",
+            "ko": "쿠안도",
+            "ja": "クアンド",
+            "zh": "kwan-do",
+            "fr": "kwan-do",
+            "es": "cuándo",
+            "de": "kwan-do",
+            "ru": "kwan-do",
+            "it": "kwan-do"
+          }
+        },
+        {
+          "form": "por qué",
+          "meaning": {
+            "en": "why (two words; ≠ porque “because”)",
+            "ko": "왜 (두 단어; porque「왜냐하면」과 다름)",
+            "ja": "なぜ（二語。porque「なぜなら」と別）",
+            "zh": "为什么（两词；≠ porque“因为”）",
+            "fr": "pourquoi (≠ porque « parce que »)",
+            "es": "por qué (≠ porque)",
+            "de": "warum (≠ porque „weil“)",
+            "ru": "почему (≠ porque «потому что»)",
+            "it": "why (two words; ≠ porque “because”)"
+          },
+          "sound": {
+            "en": "por keh",
+            "ko": "포르 케",
+            "ja": "ポル・ケ",
+            "zh": "por keh",
+            "fr": "por keh",
+            "es": "por qué",
+            "de": "por keh",
+            "ru": "por keh",
+            "it": "por keh"
+          }
+        },
+        {
+          "form": "cómo",
+          "meaning": {
+            "en": "how",
+            "ko": "어떻게",
+            "ja": "どう / どのように",
+            "zh": "怎么 / 如何",
+            "fr": "comment",
+            "es": "cómo",
+            "de": "wie",
+            "ru": "как",
+            "it": "how"
+          },
+          "sound": {
+            "en": "ko-mo",
+            "ko": "코모",
+            "ja": "コモ",
+            "zh": "ko-mo",
+            "fr": "ko-mo",
+            "es": "cómo",
+            "de": "ko-mo",
+            "ru": "ko-mo",
+            "it": "ko-mo"
+          }
+        },
+        {
+          "form": "cuánto",
+          "meaning": {
+            "en": "how much (masculine singular)",
+            "ko": "얼마 (남성 단수)",
+            "ja": "いくら（男性単数）",
+            "zh": "多少（阳性单数）",
+            "fr": "combien (masculin)",
+            "es": "cuánto",
+            "de": "wie viel (mask.)",
+            "ru": "сколько (м. р.)",
+            "it": "how much (masculine singular)"
+          },
+          "sound": {
+            "en": "kwan-to",
+            "ko": "쿠안토",
+            "ja": "クアント",
+            "zh": "kwan-to",
+            "fr": "kwan-to",
+            "es": "cuánto",
+            "de": "kwan-to",
+            "ru": "kwan-to",
+            "it": "kwan-to"
+          }
+        },
+        {
+          "form": "cuántos",
+          "meaning": {
+            "en": "how many (masculine plural)",
+            "ko": "몇 (남성 복수)",
+            "ja": "いくつ（男性複数）",
+            "zh": "多少（阳性复数）",
+            "fr": "combien (pluriel masculin)",
+            "es": "cuántos",
+            "de": "wie viele (mask.)",
+            "ru": "сколько (м. р. мн.)",
+            "it": "how many (masculine plural)"
+          },
+          "sound": {
+            "en": "kwan-tos",
+            "ko": "쿠안토스",
+            "ja": "クアントス",
+            "zh": "kwan-tos",
+            "fr": "kwan-tos",
+            "es": "cuántos",
+            "de": "kwan-tos",
+            "ru": "kwan-tos",
+            "it": "kwan-tos"
+          }
+        },
+        {
+          "form": "cuál",
+          "meaning": {
+            "en": "which / which one (singular)",
+            "ko": "어느 / 어느 것 (단수)",
+            "ja": "どれ／どの（単数）",
+            "zh": "哪个（单数）",
+            "fr": "lequel / quel",
+            "es": "cuál",
+            "de": "welch- / welcher",
+            "ru": "какой / который",
+            "it": "which / which one (singular)"
+          },
+          "sound": {
+            "en": "kwal/cuál",
+            "ko": "쿠알",
+            "ja": "クアル",
+            "zh": "kwal/cuál",
+            "fr": "kwal/cuál",
+            "es": "cuál",
+            "de": "kwal/cuál",
+            "ru": "kwal/cuál",
+            "it": "kwal/cuál"
+          }
+        },
+        {
+          "form": "cuáles",
+          "meaning": {
+            "en": "which / which ones (plural)",
+            "ko": "어느 / 어느 것들 (복수)",
+            "ja": "どれ／どの（複数）",
+            "zh": "哪些（复数）",
+            "fr": "lesquels / quels",
+            "es": "cuáles",
+            "de": "welche",
+            "ru": "какие / которые",
+            "it": "which / which ones (plural)"
+          },
+          "sound": {
+            "en": "kwa-les",
+            "ko": "쿠알레스",
+            "ja": "クアレス",
+            "zh": "kwa-les",
+            "fr": "kwa-les",
+            "es": "cuáles",
+            "de": "kwa-les",
+            "ru": "kwa-les",
+            "it": "kwa-les"
+          }
+        }
+      ]
+    }
+  ]
+}

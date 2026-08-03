@@ -1,0 +1,314 @@
+[
+  {
+    "quiz_id": "es_pronouns_yo",
+    "question_word": "yo",
+    "pronunciations": {
+      "en": "yo",
+      "ko": "요",
+      "ja": "ヨ",
+      "zh": "yo",
+      "fr": "yo",
+      "es": "yo",
+      "de": "jo/yo",
+      "ru": "йо",
+      "it": "yo"
+    },
+    "translations": {
+      "en": "I / me",
+      "ko": "나 / 저",
+      "ja": "私",
+      "zh": "我",
+      "fr": "je / moi",
+      "es": "yo",
+      "de": "ich / mich",
+      "ru": "я",
+      "it": "io / me"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_tu",
+    "question_word": "tú",
+    "pronunciations": {
+      "en": "too/tú",
+      "ko": "투",
+      "ja": "トゥ",
+      "zh": "tú",
+      "fr": "tou/tú",
+      "es": "tú",
+      "de": "tu",
+      "ru": "ту",
+      "it": "too/tú"
+    },
+    "translations": {
+      "en": "you (singular, informal)",
+      "ko": "너 (단수·반말)",
+      "ja": "君・お前（単数・くだけた）",
+      "zh": "你（单数、随便）",
+      "fr": "tu (familier)",
+      "es": "tú (informal)",
+      "de": "du (locker)",
+      "ru": "ты",
+      "it": "tu (informale)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_el",
+    "question_word": "él",
+    "pronunciations": {
+      "en": "el/él",
+      "ko": "엘",
+      "ja": "エル",
+      "zh": "él",
+      "fr": "él",
+      "es": "él",
+      "de": "el",
+      "ru": "эль",
+      "it": "el/él"
+    },
+    "translations": {
+      "en": "he / him",
+      "ko": "그 (남성)",
+      "ja": "彼",
+      "zh": "他",
+      "fr": "il / lui",
+      "es": "él",
+      "de": "er / ihn",
+      "ru": "он",
+      "it": "lui"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_ella",
+    "question_word": "ella",
+    "pronunciations": {
+      "en": "e-ya/ella",
+      "ko": "에야",
+      "ja": "エジャ",
+      "zh": "ella",
+      "fr": "ella",
+      "es": "ella",
+      "de": "eja/ella",
+      "ru": "элья",
+      "it": "e-ya/ella"
+    },
+    "translations": {
+      "en": "she / her",
+      "ko": "그녀",
+      "ja": "彼女",
+      "zh": "她",
+      "fr": "elle",
+      "es": "ella",
+      "de": "sie / ihr",
+      "ru": "она",
+      "it": "lei"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_usted",
+    "question_word": "usted",
+    "pronunciations": {
+      "en": "oos-ted/usted",
+      "ko": "우스테드",
+      "ja": "ウステッド",
+      "zh": "usted",
+      "fr": "ousted/usted",
+      "es": "usted",
+      "de": "usted",
+      "ru": "устед",
+      "it": "oos-ted/usted"
+    },
+    "translations": {
+      "en": "you (singular, formal) — takes 3rd-person verbs",
+      "ko": "당신 (단수·존댓말) — 3인칭 동사",
+      "ja": "あなた（単数・丁寧）— 三人称の動詞",
+      "zh": "您（单数正式）— 用第三人称动词",
+      "fr": "vous (singulier formel) — verbe à la 3e",
+      "es": "usted (formal) — verbo en 3.ª",
+      "de": "Sie (Singular) — 3. Person Verb",
+      "ru": "вы (ед., вежл.) — глагол в 3-м лице",
+      "it": "Lei (formale) — verbo alla 3ª"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_nosotros",
+    "question_word": "nosotros",
+    "pronunciations": {
+      "en": "no-so-tros",
+      "ko": "노소트로스",
+      "ja": "ノソトロス",
+      "zh": "nosotros",
+      "fr": "nosotros",
+      "es": "nosotros",
+      "de": "nosotros",
+      "ru": "носотрос",
+      "it": "no-so-tros"
+    },
+    "translations": {
+      "en": "we / us (masculine or mixed)",
+      "ko": "우리 (남성·혼성)",
+      "ja": "私たち（男性・混成）",
+      "zh": "我们（阳性或混合）",
+      "fr": "nous (masculin / mixte)",
+      "es": "nosotros",
+      "de": "wir (maskulin / gemischt)",
+      "ru": "мы (муж. / смешанные)",
+      "it": "noi (maschile / misto)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_nosotras",
+    "question_word": "nosotras",
+    "pronunciations": {
+      "en": "no-so-tras",
+      "ko": "노소트라스",
+      "ja": "ノソトラス",
+      "zh": "nosotras",
+      "fr": "nosotras",
+      "es": "nosotras",
+      "de": "nosotras",
+      "ru": "носотрас",
+      "it": "no-so-tras"
+    },
+    "translations": {
+      "en": "we / us (feminine)",
+      "ko": "우리 (여성)",
+      "ja": "私たち（女性）",
+      "zh": "我们（阴性）",
+      "fr": "nous (féminin)",
+      "es": "nosotras",
+      "de": "wir (feminin)",
+      "ru": "мы (жен.)",
+      "it": "noi (femminile)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_vosotros",
+    "question_word": "vosotros",
+    "pronunciations": {
+      "en": "bo-so-tros",
+      "ko": "보소트로스",
+      "ja": "ボソトロス",
+      "zh": "vosotros",
+      "fr": "vosotros",
+      "es": "vosotros",
+      "de": "vosotros",
+      "ru": "босотрос",
+      "it": "bo-so-tros"
+    },
+    "translations": {
+      "en": "you (plural, informal — mainly Spain)",
+      "ko": "너희 (복수·반말 — 주로 스페인)",
+      "ja": "君たち（複数・くだけた・主にスペイン）",
+      "zh": "你们（复数随便 — 主要用于西班牙）",
+      "fr": "vous (pluriel familier — surtout Espagne)",
+      "es": "vosotros (informal, España)",
+      "de": "ihr (v. a. Spanien)",
+      "ru": "вы (мн., неформ. — в основном Испания)",
+      "it": "voi (informale — soprattutto Spagna)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_vosotras",
+    "question_word": "vosotras",
+    "pronunciations": {
+      "en": "bo-so-tras",
+      "ko": "보소트라스",
+      "ja": "ボソトラス",
+      "zh": "vosotras",
+      "fr": "vosotras",
+      "es": "vosotras",
+      "de": "vosotras",
+      "ru": "босотрас",
+      "it": "bo-so-tras"
+    },
+    "translations": {
+      "en": "you (plural, informal, feminine — mainly Spain)",
+      "ko": "너희 (복수·여성·반말 — 주로 스페인)",
+      "ja": "君たち（女性・主にスペイン）",
+      "zh": "你们（阴性复数随便 — 西班牙）",
+      "fr": "vous (fém. familier — Espagne)",
+      "es": "vosotras (informal, España)",
+      "de": "ihr (fem., Spanien)",
+      "ru": "вы (жен., неформ. — Испания)",
+      "it": "voi (f., informale — Spagna)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_ustedes",
+    "question_word": "ustedes",
+    "pronunciations": {
+      "en": "oos-te-des",
+      "ko": "우스테데스",
+      "ja": "ウステデス",
+      "zh": "ustedes",
+      "fr": "oustedès/ustedes",
+      "es": "ustedes",
+      "de": "ustedes",
+      "ru": "устедес",
+      "it": "oos-te-des"
+    },
+    "translations": {
+      "en": "you (plural formal; also informal plural in LatAm)",
+      "ko": "여러분 (복수 존댓말; 중남미에서는 일상 복수 you)",
+      "ja": "あなたたち（丁寧複数・中南米では日常の複数 you）",
+      "zh": "你们／您们（正式复数；拉美也作日常复数）",
+      "fr": "vous (pluriel formel ; LatAm aussi familier)",
+      "es": "ustedes (formal; LatAm también informal)",
+      "de": "Sie (Plural; LatAm auch locker)",
+      "ru": "вы (мн. вежл.; в LatAm и неформ.)",
+      "it": "voi/Loro (formale; LatAm anche informale)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_ellos",
+    "question_word": "ellos",
+    "pronunciations": {
+      "en": "e-yos/ellos",
+      "ko": "에요스",
+      "ja": "エジョス",
+      "zh": "ellos",
+      "fr": "ellos",
+      "es": "ellos",
+      "de": "ejos/ellos",
+      "ru": "эльос",
+      "it": "e-yos/ellos"
+    },
+    "translations": {
+      "en": "they / them (masculine or mixed)",
+      "ko": "그들 (남성·혼성)",
+      "ja": "彼ら（男性・混成）",
+      "zh": "他们（阳性或混合）",
+      "fr": "ils / eux (masculin / mixte)",
+      "es": "ellos",
+      "de": "sie (maskulin / gemischt)",
+      "ru": "они (муж. / смешанные)",
+      "it": "loro (maschile / misto)"
+    }
+  },
+  {
+    "quiz_id": "es_pronouns_ellas",
+    "question_word": "ellas",
+    "pronunciations": {
+      "en": "e-yas/ellas",
+      "ko": "에야스",
+      "ja": "エジャス",
+      "zh": "ellas",
+      "fr": "ellas",
+      "es": "ellas",
+      "de": "ejas/ellas",
+      "ru": "эльяс",
+      "it": "e-yas/ellas"
+    },
+    "translations": {
+      "en": "they / them (feminine)",
+      "ko": "그들 (여성)",
+      "ja": "彼女たち（女性）",
+      "zh": "她们（阴性）",
+      "fr": "elles",
+      "es": "ellas",
+      "de": "sie (feminin)",
+      "ru": "они (жен.)",
+      "it": "loro (femminile)"
+    }
+  }
+]
