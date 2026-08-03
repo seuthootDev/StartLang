@@ -162,6 +162,13 @@ Some vocabulary datasets credit upstream sources (for example OpenJLPT / EDRDG m
 
 Newest first. Add a dated entry whenever something meaningful ships.
 
+### 2026-08-03 (FR / ES / IT / DE basics)
+
+- French, Spanish, Italian, and German basics wired through demonstratives (alphabet → pronouns → numbers → time/calendar → questions → demonstratives).
+- German also gets a separate **Dates** quiz (`am ersten` … ordinals); FR/ES/IT keep date writing as a months-table reference instead.
+- Hub backgrounds for **fr / es / it / de**; JA/KO asset names normalized to `bg_ja` / `bg_ko`.
+- Number/date combo rules extended for Romance + German compounds (no JA fallthrough for unknown langs).
+
 ### 2026-08-02 (JLPT hub)
 
 - Japanese JLPT vocabulary moved out of the sidebar tree onto `/ja/vocab` (level + day hub).
