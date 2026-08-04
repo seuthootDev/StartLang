@@ -31,11 +31,17 @@ export function HomePage() {
           return (
             <li key={lang.code}>
               {enabled ? (
-                <Link to={`/${lang.code}`} className="lang-card">
+                <Link
+                  to={`/${lang.code}`}
+                  className={`lang-card lang-card--${lang.code}`}
+                >
                   {content}
                 </Link>
               ) : (
-                <div className="lang-card lang-card--disabled" aria-disabled="true">
+                <div
+                  className={`lang-card lang-card--${lang.code} lang-card--disabled`}
+                  aria-disabled="true"
+                >
                   {content}
                 </div>
               )}

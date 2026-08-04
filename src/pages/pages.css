@@ -218,10 +218,49 @@
   backdrop-filter: blur(6px);
   transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
   position: relative;
+  overflow: hidden;
+  isolation: isolate;
 }
 
 .lang-card:hover {
   transform: translateY(-2px);
+  border-color: var(--ink);
+}
+
+.lang-card--ko,
+.lang-card--ja,
+.lang-card--fr,
+.lang-card--es {
+  min-height: 5.75rem;
+  justify-content: center;
+  border-color: color-mix(in srgb, var(--line) 55%, transparent);
+  background-color: #f2ebe0;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  backdrop-filter: none;
+}
+
+.lang-card--ko {
+  background-image: url('/assets/ko/card_ko.png');
+}
+
+.lang-card--ja {
+  background-image: url('/assets/ja/card_ja.png');
+}
+
+.lang-card--fr {
+  background-image: url('/assets/fr/card_fr.png');
+}
+
+.lang-card--es {
+  background-image: url('/assets/es/card_es.png');
+}
+
+.lang-card--ko:hover,
+.lang-card--ja:hover,
+.lang-card--fr:hover,
+.lang-card--es:hover {
   border-color: var(--ink);
 }
 
