@@ -230,7 +230,10 @@
 .lang-card--ko,
 .lang-card--ja,
 .lang-card--fr,
-.lang-card--es {
+.lang-card--es,
+.lang-card--it,
+.lang-card--de,
+.lang-card--ru {
   min-height: 5.75rem;
   justify-content: center;
   border-color: color-mix(in srgb, var(--line) 55%, transparent);
@@ -257,10 +260,25 @@
   background-image: url('/assets/es/card_es.png');
 }
 
+.lang-card--it {
+  background-image: url('/assets/it/card_it.png');
+}
+
+.lang-card--de {
+  background-image: url('/assets/de/card_de.png');
+}
+
+.lang-card--ru {
+  background-image: url('/assets/ru/card_ru.png');
+}
+
 .lang-card--ko:hover,
 .lang-card--ja:hover,
 .lang-card--fr:hover,
-.lang-card--es:hover {
+.lang-card--es:hover,
+.lang-card--it:hover,
+.lang-card--de:hover,
+.lang-card--ru:hover {
   border-color: var(--ink);
 }
 
