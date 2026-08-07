@@ -10,10 +10,12 @@ import { QuizPage } from './pages/QuizPage'
 
 function HomeLayout() {
   return (
-    <div className="app-shell">
-      <Navbar />
-      <HomePage />
-      <SiteFooter />
+    <div className="home-shell">
+      <div className="app-shell">
+        <Navbar />
+        <HomePage />
+        <SiteFooter />
+      </div>
     </div>
   )
 }
