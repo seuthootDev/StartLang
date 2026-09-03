@@ -59,7 +59,7 @@ a {
 .home-shell {
   min-height: 100vh;
   background-color: #f4f6f8;
-  background-image: url('/assets/bg.png');
+  background-image: url('/assets/bg.webp');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;

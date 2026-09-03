@@ -245,31 +245,31 @@
 }
 
 .lang-card--ko {
-  background-image: url('/assets/ko/card_ko.png');
+  background-image: url('/assets/ko/card_ko.webp');
 }
 
 .lang-card--ja {
-  background-image: url('/assets/ja/card_ja.png');
+  background-image: url('/assets/ja/card_ja.webp');
 }
 
 .lang-card--fr {
-  background-image: url('/assets/fr/card_fr.png');
+  background-image: url('/assets/fr/card_fr.webp');
 }
 
 .lang-card--es {
-  background-image: url('/assets/es/card_es.png');
+  background-image: url('/assets/es/card_es.webp');
 }
 
 .lang-card--it {
-  background-image: url('/assets/it/card_it.png');
+  background-image: url('/assets/it/card_it.webp');
 }
 
 .lang-card--de {
-  background-image: url('/assets/de/card_de.png');
+  background-image: url('/assets/de/card_de.webp');
 }
 
 .lang-card--ru {
-  background-image: url('/assets/ru/card_ru.png');
+  background-image: url('/assets/ru/card_ru.webp');
 }
 
 .lang-card--ko:hover,

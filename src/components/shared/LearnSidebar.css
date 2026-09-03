@@ -429,7 +429,7 @@
   --accent: #c43c2c;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/ja/bg_ja.png');
+  background-image: url('/assets/ja/bg_ja.webp');
 }
 
 .learn-shell[data-target-lang='ko'] {
@@ -440,7 +440,7 @@
   --accent: #2f4f7a;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/ko/bg_ko.png');
+  background-image: url('/assets/ko/bg_ko.webp');
 }
 
 .learn-shell[data-target-lang='ru'] {
@@ -451,7 +451,7 @@
   --accent: #9c2b2b;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/ru/bg_ru.png');
+  background-image: url('/assets/ru/bg_ru.webp');
 }
 
 .learn-shell[data-target-lang='fr'] {
@@ -462,7 +462,7 @@
   --accent: #2f4f7a;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/fr/bg_fr.png');
+  background-image: url('/assets/fr/bg_fr.webp');
 }
 
 .learn-shell[data-target-lang='es'] {
@@ -473,7 +473,7 @@
   --accent: #b03a2e;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/es/bg_es.png');
+  background-image: url('/assets/es/bg_es.webp');
 }
 
 .learn-shell[data-target-lang='de'] {
@@ -484,7 +484,7 @@
   --accent: #8f2f2f;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/de/bg_de.png');
+  background-image: url('/assets/de/bg_de.webp');
 }
 
 .learn-shell[data-target-lang='it'] {
@@ -495,7 +495,7 @@
   --accent: #2f6b4f;
   --ok: #2f6b4f;
   --bad: #a33b3b;
-  background-image: url('/assets/it/bg_it.png');
+  background-image: url('/assets/it/bg_it.webp');
 }
 
 /* Soft wash so illustration detail doesn’t fight text contrast */
